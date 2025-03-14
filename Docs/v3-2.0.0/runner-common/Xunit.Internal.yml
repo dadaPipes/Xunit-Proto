@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xunit.Internal
+  commentId: N:Xunit.Internal
+  id: Xunit.Internal
+  children:
+  - Xunit.Internal.CommandLineGroup
+  - Xunit.Internal.CommandLineParserBase
+  langs:
+  - csharp
+  - vb
+  name: Xunit.Internal
+  nameWithType: Xunit.Internal
+  fullName: Xunit.Internal
+  type: Namespace
+  assemblies:
+  - xunit.v3.runner.common
+references:
+- uid: Xunit.Internal.CommandLineGroup
+  commentId: T:Xunit.Internal.CommandLineGroup
+  parent: Xunit.Internal
+  href: Xunit.Internal.CommandLineGroup.html
+  name: CommandLineGroup
+  nameWithType: CommandLineGroup
+  fullName: Xunit.Internal.CommandLineGroup
+- uid: Xunit.Internal.CommandLineParserBase
+  commentId: T:Xunit.Internal.CommandLineParserBase
+  href: Xunit.Internal.CommandLineParserBase.html
+  name: CommandLineParserBase
+  nameWithType: CommandLineParserBase
+  fullName: Xunit.Internal.CommandLineParserBase
+- uid: Xunit.Internal
+  commentId: N:Xunit.Internal
+  href: Xunit.html
+  name: Xunit.Internal
+  nameWithType: Xunit.Internal
+  fullName: Xunit.Internal
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Internal
+    name: Internal
+    href: Xunit.Internal.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Internal
+    name: Internal
+    href: Xunit.Internal.html

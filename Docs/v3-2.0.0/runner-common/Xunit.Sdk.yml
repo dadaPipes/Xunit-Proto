@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  id: Xunit.Sdk
+  children:
+  - Xunit.Sdk.MessageSinkMessageExtensions
+  - Xunit.Sdk.TestFrameworkOptionsReadWriteExtensions
+  langs:
+  - csharp
+  - vb
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  type: Namespace
+  assemblies:
+  - xunit.v3.runner.common
+references:
+- uid: Xunit.Sdk.MessageSinkMessageExtensions
+  commentId: T:Xunit.Sdk.MessageSinkMessageExtensions
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.MessageSinkMessageExtensions.html
+  name: MessageSinkMessageExtensions
+  nameWithType: MessageSinkMessageExtensions
+  fullName: Xunit.Sdk.MessageSinkMessageExtensions
+- uid: Xunit.Sdk.TestFrameworkOptionsReadWriteExtensions
+  commentId: T:Xunit.Sdk.TestFrameworkOptionsReadWriteExtensions
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.TestFrameworkOptionsReadWriteExtensions.html
+  name: TestFrameworkOptionsReadWriteExtensions
+  nameWithType: TestFrameworkOptionsReadWriteExtensions
+  fullName: Xunit.Sdk.TestFrameworkOptionsReadWriteExtensions
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xunit.Internal
+  commentId: N:Xunit.Internal
+  id: Xunit.Internal
+  children:
+  - Xunit.Internal.DefaultTestCaseBulkDeserializer
+  - Xunit.Internal.ITestCaseBulkDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Xunit.Internal
+  nameWithType: Xunit.Internal
+  fullName: Xunit.Internal
+  type: Namespace
+  assemblies:
+  - xunit.v3.runner.utility.netfx
+references:
+- uid: Xunit.Internal.DefaultTestCaseBulkDeserializer
+  commentId: T:Xunit.Internal.DefaultTestCaseBulkDeserializer
+  href: Xunit.Internal.DefaultTestCaseBulkDeserializer.html
+  name: DefaultTestCaseBulkDeserializer
+  nameWithType: DefaultTestCaseBulkDeserializer
+  fullName: Xunit.Internal.DefaultTestCaseBulkDeserializer
+- uid: Xunit.Internal.ITestCaseBulkDeserializer
+  commentId: T:Xunit.Internal.ITestCaseBulkDeserializer
+  parent: Xunit.Internal
+  href: Xunit.Internal.ITestCaseBulkDeserializer.html
+  name: ITestCaseBulkDeserializer
+  nameWithType: ITestCaseBulkDeserializer
+  fullName: Xunit.Internal.ITestCaseBulkDeserializer
+- uid: Xunit.Internal
+  commentId: N:Xunit.Internal
+  href: Xunit.html
+  name: Xunit.Internal
+  nameWithType: Xunit.Internal
+  fullName: Xunit.Internal
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Internal
+    name: Internal
+    href: Xunit.Internal.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Internal
+    name: Internal
+    href: Xunit.Internal.html

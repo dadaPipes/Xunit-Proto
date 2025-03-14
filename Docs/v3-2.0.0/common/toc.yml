@@ -1,0 +1,338 @@
+### YamlMime:TableOfContent
+items:
+- uid: Xunit.Internal
+  name: Xunit.Internal
+  type: Namespace
+  items:
+  - uid: Xunit.Internal.AssemblyExtensions
+    name: AssemblyExtensions
+    type: Class
+  - uid: Xunit.Internal.DictionaryExtensions
+    name: DictionaryExtensions
+    type: Class
+  - uid: Xunit.Internal.EnumerableExtensions
+    name: EnumerableExtensions
+    type: Class
+  - uid: Xunit.Internal.ExceptionExtensions
+    name: ExceptionExtensions
+    type: Class
+  - uid: Xunit.Internal.Guard
+    name: Guard
+    type: Class
+  - uid: Xunit.Internal.ObjectExtensions
+    name: ObjectExtensions
+    type: Class
+  - uid: Xunit.Internal.StringExtensions
+    name: StringExtensions
+    type: Class
+- uid: Xunit.Sdk
+  name: Xunit.Sdk
+  type: Namespace
+  items:
+  - uid: Xunit.Sdk.AnsiUtility
+    name: AnsiUtility
+    type: Class
+  - uid: Xunit.Sdk.AsyncUtility
+    name: AsyncUtility
+    type: Class
+  - uid: Xunit.Sdk.DisposalTracker
+    name: DisposalTracker
+    type: Class
+  - uid: Xunit.Sdk.ExceptionUtility
+    name: ExceptionUtility
+    type: Class
+  - uid: Xunit.Sdk.ExplicitOption
+    name: ExplicitOption
+    type: Enum
+  - uid: Xunit.Sdk.FailureCause
+    name: FailureCause
+    type: Enum
+  - uid: Xunit.Sdk.IAfterTestFinished
+    name: IAfterTestFinished
+    type: Interface
+  - uid: Xunit.Sdk.IAfterTestStarting
+    name: IAfterTestStarting
+    type: Interface
+  - uid: Xunit.Sdk.IAssemblyMetadata
+    name: IAssemblyMetadata
+    type: Interface
+  - uid: Xunit.Sdk.IAssemblyMetadataExtensions
+    name: IAssemblyMetadataExtensions
+    type: Class
+  - uid: Xunit.Sdk.IBeforeTestFinished
+    name: IBeforeTestFinished
+    type: Interface
+  - uid: Xunit.Sdk.IBeforeTestStarting
+    name: IBeforeTestStarting
+    type: Interface
+  - uid: Xunit.Sdk.IDiagnosticMessage
+    name: IDiagnosticMessage
+    type: Interface
+  - uid: Xunit.Sdk.IDiscoveryComplete
+    name: IDiscoveryComplete
+    type: Interface
+  - uid: Xunit.Sdk.IDiscoveryStarting
+    name: IDiscoveryStarting
+    type: Interface
+  - uid: Xunit.Sdk.IErrorMessage
+    name: IErrorMessage
+    type: Interface
+  - uid: Xunit.Sdk.IErrorMetadata
+    name: IErrorMetadata
+    type: Interface
+  - uid: Xunit.Sdk.IExecutionMetadata
+    name: IExecutionMetadata
+    type: Interface
+  - uid: Xunit.Sdk.IExecutionSummaryMetadata
+    name: IExecutionSummaryMetadata
+    type: Interface
+  - uid: Xunit.Sdk.IInternalDiagnosticMessage
+    name: IInternalDiagnosticMessage
+    type: Interface
+  - uid: Xunit.Sdk.IJsonDeserializable
+    name: IJsonDeserializable
+    type: Interface
+  - uid: Xunit.Sdk.IJsonSerializable
+    name: IJsonSerializable
+    type: Interface
+  - uid: Xunit.Sdk.IMessageSink
+    name: IMessageSink
+    type: Interface
+  - uid: Xunit.Sdk.IMessageSinkMessage
+    name: IMessageSinkMessage
+    type: Interface
+  - uid: Xunit.Sdk.IRegisterXunitSerializerAttribute
+    name: IRegisterXunitSerializerAttribute
+    type: Interface
+  - uid: Xunit.Sdk.ITest
+    name: ITest
+    type: Interface
+  - uid: Xunit.Sdk.ITestAssembly
+    name: ITestAssembly
+    type: Interface
+  - uid: Xunit.Sdk.ITestAssemblyCleanupFailure
+    name: ITestAssemblyCleanupFailure
+    type: Interface
+  - uid: Xunit.Sdk.ITestAssemblyFinished
+    name: ITestAssemblyFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestAssemblyMessage
+    name: ITestAssemblyMessage
+    type: Interface
+  - uid: Xunit.Sdk.ITestAssemblyStarting
+    name: ITestAssemblyStarting
+    type: Interface
+  - uid: Xunit.Sdk.ITestCase
+    name: ITestCase
+    type: Interface
+  - uid: Xunit.Sdk.ITestCaseCleanupFailure
+    name: ITestCaseCleanupFailure
+    type: Interface
+  - uid: Xunit.Sdk.ITestCaseDiscovered
+    name: ITestCaseDiscovered
+    type: Interface
+  - uid: Xunit.Sdk.ITestCaseFinished
+    name: ITestCaseFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestCaseMessage
+    name: ITestCaseMessage
+    type: Interface
+  - uid: Xunit.Sdk.ITestCaseMetadata
+    name: ITestCaseMetadata
+    type: Interface
+  - uid: Xunit.Sdk.ITestCaseStarting
+    name: ITestCaseStarting
+    type: Interface
+  - uid: Xunit.Sdk.ITestClass
+    name: ITestClass
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassCleanupFailure
+    name: ITestClassCleanupFailure
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassConstructionFinished
+    name: ITestClassConstructionFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassConstructionStarting
+    name: ITestClassConstructionStarting
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassDisposeFinished
+    name: ITestClassDisposeFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassDisposeStarting
+    name: ITestClassDisposeStarting
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassFinished
+    name: ITestClassFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassMessage
+    name: ITestClassMessage
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassMetadata
+    name: ITestClassMetadata
+    type: Interface
+  - uid: Xunit.Sdk.ITestClassStarting
+    name: ITestClassStarting
+    type: Interface
+  - uid: Xunit.Sdk.ITestCleanupFailure
+    name: ITestCleanupFailure
+    type: Interface
+  - uid: Xunit.Sdk.ITestCollection
+    name: ITestCollection
+    type: Interface
+  - uid: Xunit.Sdk.ITestCollectionCleanupFailure
+    name: ITestCollectionCleanupFailure
+    type: Interface
+  - uid: Xunit.Sdk.ITestCollectionFinished
+    name: ITestCollectionFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestCollectionMessage
+    name: ITestCollectionMessage
+    type: Interface
+  - uid: Xunit.Sdk.ITestCollectionMetadata
+    name: ITestCollectionMetadata
+    type: Interface
+  - uid: Xunit.Sdk.ITestCollectionStarting
+    name: ITestCollectionStarting
+    type: Interface
+  - uid: Xunit.Sdk.ITestFailed
+    name: ITestFailed
+    type: Interface
+  - uid: Xunit.Sdk.ITestFinished
+    name: ITestFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestFrameworkDiscoveryOptions
+    name: ITestFrameworkDiscoveryOptions
+    type: Interface
+  - uid: Xunit.Sdk.ITestFrameworkExecutionOptions
+    name: ITestFrameworkExecutionOptions
+    type: Interface
+  - uid: Xunit.Sdk.ITestFrameworkOptions
+    name: ITestFrameworkOptions
+    type: Interface
+  - uid: Xunit.Sdk.ITestMessage
+    name: ITestMessage
+    type: Interface
+  - uid: Xunit.Sdk.ITestMetadata
+    name: ITestMetadata
+    type: Interface
+  - uid: Xunit.Sdk.ITestMethod
+    name: ITestMethod
+    type: Interface
+  - uid: Xunit.Sdk.ITestMethodCleanupFailure
+    name: ITestMethodCleanupFailure
+    type: Interface
+  - uid: Xunit.Sdk.ITestMethodFinished
+    name: ITestMethodFinished
+    type: Interface
+  - uid: Xunit.Sdk.ITestMethodMessage
+    name: ITestMethodMessage
+    type: Interface
+  - uid: Xunit.Sdk.ITestMethodMetadata
+    name: ITestMethodMetadata
+    type: Interface
+  - uid: Xunit.Sdk.ITestMethodStarting
+    name: ITestMethodStarting
+    type: Interface
+  - uid: Xunit.Sdk.ITestNotRun
+    name: ITestNotRun
+    type: Interface
+  - uid: Xunit.Sdk.ITestOutput
+    name: ITestOutput
+    type: Interface
+  - uid: Xunit.Sdk.ITestPassed
+    name: ITestPassed
+    type: Interface
+  - uid: Xunit.Sdk.ITestResultMessage
+    name: ITestResultMessage
+    type: Interface
+  - uid: Xunit.Sdk.ITestSkipped
+    name: ITestSkipped
+    type: Interface
+  - uid: Xunit.Sdk.ITestStarting
+    name: ITestStarting
+    type: Interface
+  - uid: Xunit.Sdk.IXunitSerializable
+    name: IXunitSerializable
+    type: Interface
+  - uid: Xunit.Sdk.IXunitSerializationInfo
+    name: IXunitSerializationInfo
+    type: Interface
+  - uid: Xunit.Sdk.IXunitSerializer
+    name: IXunitSerializer
+    type: Interface
+  - uid: Xunit.Sdk.JsonArraySerializer
+    name: JsonArraySerializer
+    type: Class
+  - uid: Xunit.Sdk.JsonDeserializer
+    name: JsonDeserializer
+    type: Class
+  - uid: Xunit.Sdk.JsonObjectSerializer
+    name: JsonObjectSerializer
+    type: Class
+  - uid: Xunit.Sdk.JsonSerializerBase
+    name: JsonSerializerBase
+    type: Class
+  - uid: Xunit.Sdk.JsonSerializerExtensions
+    name: JsonSerializerExtensions
+    type: Class
+  - uid: Xunit.Sdk.JsonTypeIDAttribute
+    name: JsonTypeIDAttribute
+    type: Class
+  - uid: Xunit.Sdk.NullMessageSink
+    name: NullMessageSink
+    type: Class
+  - uid: Xunit.Sdk.ParallelAlgorithm
+    name: ParallelAlgorithm
+    type: Enum
+  - uid: Xunit.Sdk.Randomizer
+    name: Randomizer
+    type: Class
+  - uid: Xunit.Sdk.ReflectionExtensions
+    name: ReflectionExtensions
+    type: Class
+  - uid: Xunit.Sdk.RegisterXunitSerializerAttribute
+    name: RegisterXunitSerializerAttribute
+    type: Class
+  - uid: Xunit.Sdk.SerializationHelper
+    name: SerializationHelper
+    type: Class
+  - uid: Xunit.Sdk.TestAttachment
+    name: TestAttachment
+    type: Class
+  - uid: Xunit.Sdk.TestAttachmentType
+    name: TestAttachmentType
+    type: Enum
+  - uid: Xunit.Sdk.TestMethodDisplay
+    name: TestMethodDisplay
+    type: Enum
+  - uid: Xunit.Sdk.TestMethodDisplayOptions
+    name: TestMethodDisplayOptions
+    type: Enum
+  - uid: Xunit.Sdk.TestOptionsNames
+    name: TestOptionsNames
+    type: Class
+  - uid: Xunit.Sdk.TestOptionsNames.Discovery
+    name: TestOptionsNames.Discovery
+    type: Class
+  - uid: Xunit.Sdk.TestOptionsNames.Execution
+    name: TestOptionsNames.Execution
+    type: Class
+  - uid: Xunit.Sdk.TypeHelper
+    name: TypeHelper
+    type: Class
+  - uid: Xunit.Sdk.UniqueIDGenerator
+    name: UniqueIDGenerator
+    type: Class
+  - uid: Xunit.Sdk.UnsetPropertiesException
+    name: UnsetPropertiesException
+    type: Class
+  - uid: Xunit.Sdk.UnsetPropertyException
+    name: UnsetPropertyException
+    type: Class
+  - uid: Xunit.Sdk.XunitSerializationInfo
+    name: XunitSerializationInfo
+    type: Class
+  - uid: Xunit.Sdk.XunitSerializationInfoExtensions
+    name: XunitSerializationInfoExtensions
+    type: Class
+memberLayout: SamePage

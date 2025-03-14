@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xunit.Sdk.IAssertionException
+  commentId: T:Xunit.Sdk.IAssertionException
+  id: IAssertionException
+  parent: Xunit.Sdk
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IAssertionException
+  nameWithType: IAssertionException
+  fullName: Xunit.Sdk.IAssertionException
+  type: Interface
+  source:
+    id: IAssertionException
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Sdk\IAssertionException.cs
+    startLine: 17
+  assemblies:
+  - xunit.v3.assert
+  namespace: Xunit.Sdk
+  summary: >-
+    This is a marker interface implemented by all built-in assertion exceptions so that
+
+    test failures can be marked with <xref href="Xunit.Sdk.FailureCause.Assertion" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface IAssertionException
+    content.vb: Public Interface IAssertionException
+references:
+- uid: Xunit.Sdk.FailureCause.Assertion
+  commentId: F:Xunit.Sdk.FailureCause.Assertion
+  isExternal: true
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html

@@ -1,0 +1,378 @@
+### YamlMime:TableOfContent
+items:
+- uid: Xunit.Internal
+  name: Xunit.Internal
+  type: Namespace
+  items:
+  - uid: Xunit.Internal.CommandLineGroup
+    name: CommandLineGroup
+    type: Enum
+  - uid: Xunit.Internal.CommandLineParserBase
+    name: CommandLineParserBase
+    type: Class
+- uid: Xunit.Runner.Common
+  name: Xunit.Runner.Common
+  type: Namespace
+  items:
+  - uid: Xunit.Runner.Common.AfterTestFinished
+    name: AfterTestFinished
+    type: Class
+  - uid: Xunit.Runner.Common.AfterTestStarting
+    name: AfterTestStarting
+    type: Class
+  - uid: Xunit.Runner.Common.AggregateMessageSink
+    name: AggregateMessageSink
+    type: Class
+  - uid: Xunit.Runner.Common.AppDomainOption
+    name: AppDomainOption
+    type: Enum
+  - uid: Xunit.Runner.Common.AppDomainSupport
+    name: AppDomainSupport
+    type: Enum
+  - uid: Xunit.Runner.Common.AppVeyorReporter
+    name: AppVeyorReporter
+    type: Class
+  - uid: Xunit.Runner.Common.AppVeyorReporterMessageHandler
+    name: AppVeyorReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.AssemblyMetadata
+    name: AssemblyMetadata
+    type: Class
+  - uid: Xunit.Runner.Common.BeforeTestFinished
+    name: BeforeTestFinished
+    type: Class
+  - uid: Xunit.Runner.Common.BeforeTestStarting
+    name: BeforeTestStarting
+    type: Class
+  - uid: Xunit.Runner.Common.ConfigReader_Json
+    name: ConfigReader_Json
+    type: Class
+  - uid: Xunit.Runner.Common.ConfigUtility
+    name: ConfigUtility
+    type: Class
+  - uid: Xunit.Runner.Common.ConsoleDiagnosticMessageSink
+    name: ConsoleDiagnosticMessageSink
+    type: Class
+  - uid: Xunit.Runner.Common.ConsoleHelper
+    name: ConsoleHelper
+    type: Class
+  - uid: Xunit.Runner.Common.ConsoleProjectLister
+    name: ConsoleProjectLister
+    type: Class
+  - uid: Xunit.Runner.Common.ConsoleRunnerLogger
+    name: ConsoleRunnerLogger
+    type: Class
+  - uid: Xunit.Runner.Common.DefaultRunnerReporter
+    name: DefaultRunnerReporter
+    type: Class
+  - uid: Xunit.Runner.Common.DefaultRunnerReporterMessageHandler
+    name: DefaultRunnerReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.DiagnosticEventSink
+    name: DiagnosticEventSink
+    type: Class
+  - uid: Xunit.Runner.Common.DiagnosticMessage
+    name: DiagnosticMessage
+    type: Class
+  - uid: Xunit.Runner.Common.DiscoveryComplete
+    name: DiscoveryComplete
+    type: Class
+  - uid: Xunit.Runner.Common.DiscoveryEventSink
+    name: DiscoveryEventSink
+    type: Class
+  - uid: Xunit.Runner.Common.DiscoveryStarting
+    name: DiscoveryStarting
+    type: Class
+  - uid: Xunit.Runner.Common.ErrorMessage
+    name: ErrorMessage
+    type: Class
+  - uid: Xunit.Runner.Common.ExecutionEventSink
+    name: ExecutionEventSink
+    type: Class
+  - uid: Xunit.Runner.Common.ExecutionSink
+    name: ExecutionSink
+    type: Class
+  - uid: Xunit.Runner.Common.ExecutionSinkOptions
+    name: ExecutionSinkOptions
+    type: Class
+  - uid: Xunit.Runner.Common.ExecutionSummary
+    name: ExecutionSummary
+    type: Class
+  - uid: Xunit.Runner.Common.IRegisterRunnerReporterAttribute
+    name: IRegisterRunnerReporterAttribute
+    type: Interface
+  - uid: Xunit.Runner.Common.IRunnerLogger
+    name: IRunnerLogger
+    type: Interface
+  - uid: Xunit.Runner.Common.IRunnerLoggerExtensions
+    name: IRunnerLoggerExtensions
+    type: Class
+  - uid: Xunit.Runner.Common.IRunnerReporter
+    name: IRunnerReporter
+    type: Interface
+  - uid: Xunit.Runner.Common.IRunnerReporterMessageHandler
+    name: IRunnerReporterMessageHandler
+    type: Interface
+  - uid: Xunit.Runner.Common.ISourceInformationProvider
+    name: ISourceInformationProvider
+    type: Interface
+  - uid: Xunit.Runner.Common.ITestCaseFilter
+    name: ITestCaseFilter
+    type: Interface
+  - uid: Xunit.Runner.Common.InternalDiagnosticMessage
+    name: InternalDiagnosticMessage
+    type: Class
+  - uid: Xunit.Runner.Common.JsonReporter
+    name: JsonReporter
+    type: Class
+  - uid: Xunit.Runner.Common.JsonReporterMessageHandler
+    name: JsonReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.ListFormat
+    name: ListFormat
+    type: Enum
+  - uid: Xunit.Runner.Common.ListOption
+    name: ListOption
+    type: Enum
+  - uid: Xunit.Runner.Common.LongRunningTestsSummary
+    name: LongRunningTestsSummary
+    type: Class
+  - uid: Xunit.Runner.Common.MessageHandlerArgs
+    name: MessageHandlerArgs
+    type: Class
+  - uid: Xunit.Runner.Common.MessageHandlerArgs`1
+    name: MessageHandlerArgs<TMessage>
+    type: Class
+  - uid: Xunit.Runner.Common.MessageHandler`1
+    name: MessageHandler<TMessage>
+    type: Delegate
+  - uid: Xunit.Runner.Common.MessageMetadataCache
+    name: MessageMetadataCache
+    type: Class
+  - uid: Xunit.Runner.Common.MessageSinkMessage
+    name: MessageSinkMessage
+    type: Class
+  - uid: Xunit.Runner.Common.MessageSinkMessageDeserializer
+    name: MessageSinkMessageDeserializer
+    type: Class
+  - uid: Xunit.Runner.Common.NullSourceInformationProvider
+    name: NullSourceInformationProvider
+    type: Class
+  - uid: Xunit.Runner.Common.ParallelismOption
+    name: ParallelismOption
+    type: Enum
+  - uid: Xunit.Runner.Common.QueryFilterParser
+    name: QueryFilterParser
+    type: Class
+  - uid: Xunit.Runner.Common.QuietReporter
+    name: QuietReporter
+    type: Class
+  - uid: Xunit.Runner.Common.QuietReporterMessageHandler
+    name: QuietReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.RegisterRunnerReporterAttribute
+    name: RegisterRunnerReporterAttribute
+    type: Class
+  - uid: Xunit.Runner.Common.RegisteredRunnerReporters
+    name: RegisteredRunnerReporters
+    type: Class
+  - uid: Xunit.Runner.Common.RunnerEventSink
+    name: RunnerEventSink
+    type: Class
+  - uid: Xunit.Runner.Common.SilentReporter
+    name: SilentReporter
+    type: Class
+  - uid: Xunit.Runner.Common.SilentReporterMessageHandler
+    name: SilentReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.SourceInformation
+    name: SourceInformation
+    type: Struct
+  - uid: Xunit.Runner.Common.StackFrameInfo
+    name: StackFrameInfo
+    type: Struct
+  - uid: Xunit.Runner.Common.StackFrameTransformer
+    name: StackFrameTransformer
+    type: Class
+  - uid: Xunit.Runner.Common.TargetFrameworkIdentifier
+    name: TargetFrameworkIdentifier
+    type: Enum
+  - uid: Xunit.Runner.Common.TeamCityReporter
+    name: TeamCityReporter
+    type: Class
+  - uid: Xunit.Runner.Common.TeamCityReporterMessageHandler
+    name: TeamCityReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyCleanupFailure
+    name: TestAssemblyCleanupFailure
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyConfiguration
+    name: TestAssemblyConfiguration
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyDiscoveryFinished
+    name: TestAssemblyDiscoveryFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyDiscoveryStarting
+    name: TestAssemblyDiscoveryStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyExecutionFinished
+    name: TestAssemblyExecutionFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyExecutionStarting
+    name: TestAssemblyExecutionStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyFinished
+    name: TestAssemblyFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyMessage
+    name: TestAssemblyMessage
+    type: Class
+  - uid: Xunit.Runner.Common.TestAssemblyStarting
+    name: TestAssemblyStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestCaseCleanupFailure
+    name: TestCaseCleanupFailure
+    type: Class
+  - uid: Xunit.Runner.Common.TestCaseDiscovered
+    name: TestCaseDiscovered
+    type: Class
+  - uid: Xunit.Runner.Common.TestCaseFinished
+    name: TestCaseFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestCaseMessage
+    name: TestCaseMessage
+    type: Class
+  - uid: Xunit.Runner.Common.TestCaseStarting
+    name: TestCaseStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassCleanupFailure
+    name: TestClassCleanupFailure
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassConstructionFinished
+    name: TestClassConstructionFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassConstructionStarting
+    name: TestClassConstructionStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassDisposeFinished
+    name: TestClassDisposeFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassDisposeStarting
+    name: TestClassDisposeStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassFinished
+    name: TestClassFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassMessage
+    name: TestClassMessage
+    type: Class
+  - uid: Xunit.Runner.Common.TestClassStarting
+    name: TestClassStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestCleanupFailure
+    name: TestCleanupFailure
+    type: Class
+  - uid: Xunit.Runner.Common.TestCollectionCleanupFailure
+    name: TestCollectionCleanupFailure
+    type: Class
+  - uid: Xunit.Runner.Common.TestCollectionFinished
+    name: TestCollectionFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestCollectionMessage
+    name: TestCollectionMessage
+    type: Class
+  - uid: Xunit.Runner.Common.TestCollectionStarting
+    name: TestCollectionStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestDiscoverySink
+    name: TestDiscoverySink
+    type: Class
+  - uid: Xunit.Runner.Common.TestExecutionSummaries
+    name: TestExecutionSummaries
+    type: Class
+  - uid: Xunit.Runner.Common.TestFailed
+    name: TestFailed
+    type: Class
+  - uid: Xunit.Runner.Common.TestFinished
+    name: TestFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestFrameworkOptions
+    name: TestFrameworkOptions
+    type: Class
+  - uid: Xunit.Runner.Common.TestMessage
+    name: TestMessage
+    type: Class
+  - uid: Xunit.Runner.Common.TestMessageSink
+    name: TestMessageSink
+    type: Class
+  - uid: Xunit.Runner.Common.TestMethodCleanupFailure
+    name: TestMethodCleanupFailure
+    type: Class
+  - uid: Xunit.Runner.Common.TestMethodFinished
+    name: TestMethodFinished
+    type: Class
+  - uid: Xunit.Runner.Common.TestMethodMessage
+    name: TestMethodMessage
+    type: Class
+  - uid: Xunit.Runner.Common.TestMethodStarting
+    name: TestMethodStarting
+    type: Class
+  - uid: Xunit.Runner.Common.TestNotRun
+    name: TestNotRun
+    type: Class
+  - uid: Xunit.Runner.Common.TestOutput
+    name: TestOutput
+    type: Class
+  - uid: Xunit.Runner.Common.TestPassed
+    name: TestPassed
+    type: Class
+  - uid: Xunit.Runner.Common.TestProjectConfiguration
+    name: TestProjectConfiguration
+    type: Class
+  - uid: Xunit.Runner.Common.TestResultMessage
+    name: TestResultMessage
+    type: Class
+  - uid: Xunit.Runner.Common.TestSkipped
+    name: TestSkipped
+    type: Class
+  - uid: Xunit.Runner.Common.TestStarting
+    name: TestStarting
+    type: Class
+  - uid: Xunit.Runner.Common.Transform
+    name: Transform
+    type: Class
+  - uid: Xunit.Runner.Common.TransformFactory
+    name: TransformFactory
+    type: Class
+  - uid: Xunit.Runner.Common.VerboseReporter
+    name: VerboseReporter
+    type: Class
+  - uid: Xunit.Runner.Common.VerboseReporterMessageHandler
+    name: VerboseReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.VstsReporter
+    name: VstsReporter
+    type: Class
+  - uid: Xunit.Runner.Common.VstsReporterMessageHandler
+    name: VstsReporterMessageHandler
+    type: Class
+  - uid: Xunit.Runner.Common.XunitFilters
+    name: XunitFilters
+    type: Class
+  - uid: Xunit.Runner.Common.XunitProject
+    name: XunitProject
+    type: Class
+  - uid: Xunit.Runner.Common.XunitProjectAssembly
+    name: XunitProjectAssembly
+    type: Class
+- uid: Xunit.Sdk
+  name: Xunit.Sdk
+  type: Namespace
+  items:
+  - uid: Xunit.Sdk.MessageSinkMessageExtensions
+    name: MessageSinkMessageExtensions
+    type: Class
+  - uid: Xunit.Sdk.TestFrameworkOptionsReadWriteExtensions
+    name: TestFrameworkOptionsReadWriteExtensions
+    type: Class
+memberLayout: SamePage

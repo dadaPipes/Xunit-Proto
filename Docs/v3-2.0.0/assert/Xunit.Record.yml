@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: Xunit.Record
+  commentId: T:Xunit.Record
+  id: Record
+  parent: Xunit
+  children:
+  - Xunit.Record.RecordException(System.Action)
+  - Xunit.Record.RecordException(System.Func{System.Object},System.String)
+  - Xunit.Record.RecordExceptionAsync(System.Func{System.Threading.Tasks.Task})
+  langs:
+  - csharp
+  - vb
+  name: Record
+  nameWithType: Record
+  fullName: Xunit.Record
+  type: Class
+  source:
+    id: Record
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Record.cs
+    startLine: 22
+  assemblies:
+  - xunit.v3.assert
+  namespace: Xunit
+  syntax:
+    content: public class Record
+    content.vb: Public Class Record
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Xunit.Record.RecordException(System.Action)
+  commentId: M:Xunit.Record.RecordException(System.Action)
+  id: RecordException(System.Action)
+  parent: Xunit.Record
+  langs:
+  - csharp
+  - vb
+  name: RecordException(Action)
+  nameWithType: Record.RecordException(Action)
+  fullName: Xunit.Record.RecordException(System.Action)
+  type: Method
+  source:
+    id: RecordException
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Record.cs
+    startLine: 32
+  assemblies:
+  - xunit.v3.assert
+  namespace: Xunit
+  summary: Records any exception which is thrown by the given code.
+  example: []
+  syntax:
+    content: protected static Exception? RecordException(Action testCode)
+    parameters:
+    - id: testCode
+      type: System.Action
+      description: The code which may thrown an exception.
+    return:
+      type: System.Exception
+      description: Returns the exception that was thrown by the code; null, otherwise.
+    content.vb: Protected Shared Function RecordException(testCode As Action) As Exception
+  overload: Xunit.Record.RecordException*
+- uid: Xunit.Record.RecordException(System.Func{System.Object},System.String)
+  commentId: M:Xunit.Record.RecordException(System.Func{System.Object},System.String)
+  id: RecordException(System.Func{System.Object},System.String)
+  parent: Xunit.Record
+  langs:
+  - csharp
+  - vb
+  name: RecordException(Func<object?>, string)
+  nameWithType: Record.RecordException(Func<object?>, string)
+  fullName: Xunit.Record.RecordException(System.Func<object?>, string)
+  type: Method
+  source:
+    id: RecordException
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Record.cs
+    startLine: 59
+  assemblies:
+  - xunit.v3.assert
+  namespace: Xunit
+  summary: >-
+    Records any exception which is thrown by the given code that has
+
+    a return value. Generally used for testing property accessors.
+  example: []
+  syntax:
+    content: protected static Exception? RecordException(Func<object?> testCode, string asyncMethodName)
+    parameters:
+    - id: testCode
+      type: System.Func{System.Object}
+      description: The code which may thrown an exception.
+    - id: asyncMethodName
+      type: System.String
+      description: >-
+        The name of the async method the user should've called if they accidentally
+            passed in an async function
+    return:
+      type: System.Exception
+      description: Returns the exception that was thrown by the code; null, otherwise.
+    content.vb: Protected Shared Function RecordException(testCode As Func(Of Object), asyncMethodName As String) As Exception
+  overload: Xunit.Record.RecordException*
+  nameWithType.vb: Record.RecordException(Func(Of Object), String)
+  fullName.vb: Xunit.Record.RecordException(System.Func(Of Object), String)
+  name.vb: RecordException(Func(Of Object), String)
+- uid: Xunit.Record.RecordExceptionAsync(System.Func{System.Threading.Tasks.Task})
+  commentId: M:Xunit.Record.RecordExceptionAsync(System.Func{System.Threading.Tasks.Task})
+  id: RecordExceptionAsync(System.Func{System.Threading.Tasks.Task})
+  parent: Xunit.Record
+  langs:
+  - csharp
+  - vb
+  name: RecordExceptionAsync(Func<Task>)
+  nameWithType: Record.RecordExceptionAsync(Func<Task>)
+  fullName: Xunit.Record.RecordExceptionAsync(System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: RecordExceptionAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Record.cs
+    startLine: 100
+  assemblies:
+  - xunit.v3.assert
+  namespace: Xunit
+  summary: Records any exception which is thrown by the given task.
+  example: []
+  syntax:
+    content: protected static Task<Exception?> RecordExceptionAsync(Func<Task> testCode)
+    parameters:
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: The task which may thrown an exception.
+    return:
+      type: System.Threading.Tasks.Task{System.Exception}
+      description: Returns the exception that was thrown by the code; null, otherwise.
+    content.vb: Protected Shared Function RecordExceptionAsync(testCode As Func(Of Task)) As Task(Of Exception)
+  overload: Xunit.Record.RecordExceptionAsync*
+  nameWithType.vb: Record.RecordExceptionAsync(Func(Of Task))
+  fullName.vb: Xunit.Record.RecordExceptionAsync(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: RecordExceptionAsync(Func(Of Task))
+references:
+- uid: Xunit
+  commentId: N:Xunit
+  href: Xunit.html
+  name: Xunit
+  nameWithType: Xunit
+  fullName: Xunit
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.Record.RecordException*
+  commentId: Overload:Xunit.Record.RecordException
+  href: Xunit.Record.html#Xunit_Record_RecordException_System_Action_
+  name: RecordException
+  nameWithType: Record.RecordException
+  fullName: Xunit.Record.RecordException
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Func{System.Object}
+  commentId: T:System.Func{System.Object}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<object>
+  nameWithType: Func<object>
+  fullName: System.Func<object>
+  nameWithType.vb: Func(Of Object)
+  fullName.vb: System.Func(Of Object)
+  name.vb: Func(Of Object)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Xunit.Record.RecordExceptionAsync*
+  commentId: Overload:Xunit.Record.RecordExceptionAsync
+  href: Xunit.Record.html#Xunit_Record_RecordExceptionAsync_System_Func_System_Threading_Tasks_Task__
+  name: RecordExceptionAsync
+  nameWithType: Record.RecordExceptionAsync
+  fullName: Xunit.Record.RecordExceptionAsync
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Exception}
+  commentId: T:System.Threading.Tasks.Task{System.Exception}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Exception>
+  nameWithType: Task<Exception>
+  fullName: System.Threading.Tasks.Task<System.Exception>
+  nameWithType.vb: Task(Of Exception)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Exception)
+  name.vb: Task(Of Exception)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

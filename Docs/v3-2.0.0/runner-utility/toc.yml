@@ -1,0 +1,219 @@
+### YamlMime:TableOfContent
+items:
+- uid: Xunit
+  name: Xunit
+  type: Namespace
+  items:
+  - uid: Xunit.AssemblyHelper
+    name: AssemblyHelper
+    type: Class
+  - uid: Xunit.AssemblyUtility
+    name: AssemblyUtility
+    type: Class
+  - uid: Xunit.FrontControllerFindAndRunSettings
+    name: FrontControllerFindAndRunSettings
+    type: Class
+  - uid: Xunit.FrontControllerFindSettings
+    name: FrontControllerFindSettings
+    type: Class
+  - uid: Xunit.FrontControllerLaunchOptions
+    name: FrontControllerLaunchOptions
+    type: Class
+  - uid: Xunit.FrontControllerRunSettings
+    name: FrontControllerRunSettings
+    type: Class
+  - uid: Xunit.FrontControllerSettingsBase
+    name: FrontControllerSettingsBase
+    type: Class
+  - uid: Xunit.IFrontController
+    name: IFrontController
+    type: Interface
+  - uid: Xunit.IFrontControllerDiscoverer
+    name: IFrontControllerDiscoverer
+    type: Interface
+  - uid: Xunit.MediaTypeUtility
+    name: MediaTypeUtility
+    type: Class
+  - uid: Xunit.RemotingUtility
+    name: RemotingUtility
+    type: Class
+  - uid: Xunit.XunitFrontController
+    name: XunitFrontController
+    type: Class
+- uid: Xunit.Internal
+  name: Xunit.Internal
+  type: Namespace
+  items:
+  - uid: Xunit.Internal.DefaultTestCaseBulkDeserializer
+    name: DefaultTestCaseBulkDeserializer
+    type: Class
+  - uid: Xunit.Internal.ITestCaseBulkDeserializer
+    name: ITestCaseBulkDeserializer
+    type: Interface
+- uid: Xunit.Runner.Common
+  name: Xunit.Runner.Common
+  type: Namespace
+  items:
+  - uid: Xunit.Runner.Common.ConfigReader
+    name: ConfigReader
+    type: Class
+  - uid: Xunit.Runner.Common.ConfigReader_Configuration
+    name: ConfigReader_Configuration
+    type: Class
+- uid: Xunit.Runner.v1
+  name: Xunit.Runner.v1
+  type: Namespace
+  items:
+  - uid: Xunit.Runner.v1.IXunit1Executor
+    name: IXunit1Executor
+    type: Interface
+  - uid: Xunit.Runner.v1.TestClassCallbackHandler
+    name: TestClassCallbackHandler
+    type: Class
+  - uid: Xunit.Runner.v1.XmlNodeCallbackHandler
+    name: XmlNodeCallbackHandler
+    type: Class
+  - uid: Xunit.Runner.v1.Xunit1
+    name: Xunit1
+    type: Class
+  - uid: Xunit.Runner.v1.Xunit1Executor
+    name: Xunit1Executor
+    type: Class
+  - uid: Xunit.Runner.v1.Xunit1RunSummary
+    name: Xunit1RunSummary
+    type: Class
+  - uid: Xunit.Runner.v1.Xunit1TestCase
+    name: Xunit1TestCase
+    type: Class
+- uid: Xunit.Runner.v2
+  name: Xunit.Runner.v2
+  type: Namespace
+  items:
+  - uid: Xunit.Runner.v2.IMessageSinkMessageWithTypes
+    name: IMessageSinkMessageWithTypes
+    type: Interface
+  - uid: Xunit.Runner.v2.IMessageSinkWithTypes
+    name: IMessageSinkWithTypes
+    type: Interface
+  - uid: Xunit.Runner.v2.Xunit2
+    name: Xunit2
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2DiscoverySink
+    name: Xunit2DiscoverySink
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2MessageAdapter
+    name: Xunit2MessageAdapter
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2MessageSink
+    name: Xunit2MessageSink
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2Options
+    name: Xunit2Options
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2OptionsAdapter
+    name: Xunit2OptionsAdapter
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2SourceInformation
+    name: Xunit2SourceInformation
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2SourceInformationProvider
+    name: Xunit2SourceInformationProvider
+    type: Class
+  - uid: Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter
+    name: Xunit2SourceInformationProviderAdapter
+    type: Class
+- uid: Xunit.Runner.v3
+  name: Xunit.Runner.v3
+  type: Namespace
+  items:
+  - uid: Xunit.Runner.v3.Xunit3
+    name: Xunit3
+    type: Class
+  - uid: Xunit.Runner.v3.Xunit3ArgumentFactory
+    name: Xunit3ArgumentFactory
+    type: Class
+- uid: Xunit.Runners
+  name: Xunit.Runners
+  type: Namespace
+  items:
+  - uid: Xunit.Runners.AssemblyRunner
+    name: AssemblyRunner
+    type: Class
+  - uid: Xunit.Runners.AssemblyRunnerStartOptions
+    name: AssemblyRunnerStartOptions
+    type: Class
+  - uid: Xunit.Runners.AssemblyRunnerStatus
+    name: AssemblyRunnerStatus
+    type: Enum
+  - uid: Xunit.Runners.DiagnosticMessageInfo
+    name: DiagnosticMessageInfo
+    type: Class
+  - uid: Xunit.Runners.DiscoveryCompleteInfo
+    name: DiscoveryCompleteInfo
+    type: Class
+  - uid: Xunit.Runners.ErrorMessageInfo
+    name: ErrorMessageInfo
+    type: Class
+  - uid: Xunit.Runners.ErrorMessageType
+    name: ErrorMessageType
+    type: Enum
+  - uid: Xunit.Runners.ExecutionCompleteInfo
+    name: ExecutionCompleteInfo
+    type: Class
+  - uid: Xunit.Runners.InternalDiagnosticMessageInfo
+    name: InternalDiagnosticMessageInfo
+    type: Class
+  - uid: Xunit.Runners.TestExecutedInfo
+    name: TestExecutedInfo
+    type: Class
+  - uid: Xunit.Runners.TestFailedInfo
+    name: TestFailedInfo
+    type: Class
+  - uid: Xunit.Runners.TestFinishedInfo
+    name: TestFinishedInfo
+    type: Class
+  - uid: Xunit.Runners.TestInfo
+    name: TestInfo
+    type: Class
+  - uid: Xunit.Runners.TestOutputInfo
+    name: TestOutputInfo
+    type: Class
+  - uid: Xunit.Runners.TestPassedInfo
+    name: TestPassedInfo
+    type: Class
+  - uid: Xunit.Runners.TestSkippedInfo
+    name: TestSkippedInfo
+    type: Class
+  - uid: Xunit.Runners.TestStartingInfo
+    name: TestStartingInfo
+    type: Class
+- uid: Xunit.Sdk
+  name: Xunit.Sdk
+  type: Namespace
+  items:
+  - uid: Xunit.Sdk.LongLivedMarshalByRefObject
+    name: LongLivedMarshalByRefObject
+    type: Class
+- uid: Xunit.v3
+  name: Xunit.v3
+  type: Namespace
+  items:
+  - uid: Xunit.v3.ITestProcess
+    name: ITestProcess
+    type: Interface
+  - uid: Xunit.v3.ITestProcessLauncher
+    name: ITestProcessLauncher
+    type: Interface
+  - uid: Xunit.v3.InProcessTestProcessLauncher
+    name: InProcessTestProcessLauncher
+    type: Class
+  - uid: Xunit.v3.LocalOutOfProcessTestProcessLauncher
+    name: LocalOutOfProcessTestProcessLauncher
+    type: Class
+  - uid: Xunit.v3.LocalTestProcess
+    name: LocalTestProcess
+    type: Class
+  - uid: Xunit.v3.OutOfProcessTestProcessLauncherBase
+    name: OutOfProcessTestProcessLauncherBase
+    type: Class
+memberLayout: SamePage
