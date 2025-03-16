@@ -6,7 +6,12 @@
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.assert",
           "files": [ "*.csproj" ],
-          "exclude": [ "**/bin/**", "**/obj/**", "**/*.dll" ]
+          "exclude": [
+            "**/Asserts/Sdk/ArgumentFormatter.cs", // not f*** working.
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.dll"
+          ]
         }
       ],
       "dest": "v3-2.0.0/assert"

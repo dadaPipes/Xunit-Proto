@@ -1,4 +1,26 @@
-﻿- Overwrite Assert class names to 'Assert'
+﻿-------------------------------------------------------------------------------------------
+
+NB!: Det virker sgu at lave namespace om til noget andet, for at ungå krydsreferencer.
+
+- Lav det eksisterende namspace navn om til folderens navn.
+- Lav børnefolderner om til forældrefoderens navn men med en dot annotation og derefter børnefolderens navn.
+  Eks: Assert
+      Assert.Sdk
+      Assert.Sdk.Exeptions
+
+  Det skaber et bedre overblik i aside TOP i ventre side.
+  
+- Ting at huske på når du gør det:
+  - Style: 
+    - Lav et custom template der fjerner:
+    - alle referencer til 'namespace' i artiklerne. 
+    - beskrivelsen af 'namespace' i url hvor man navigerer hen, når man trykker på namespacet.
+
+-------------------------------------------------------------------------------------------
+
+
+
+- Overwrite Assert class names to 'Assert'
 
 - Either disable namespace navlink and overwrite them, (Easy)
   OR

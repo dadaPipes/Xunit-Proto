@@ -14,6 +14,16 @@
     "title": "This is the HOMEPAGE. | xunit-proto",
     "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
   },
+  "v3-2.0.0/assert/BooleanNamespace.BooleanAsserts.html": {
+    "href": "v3-2.0.0/assert/BooleanNamespace.BooleanAsserts.html",
+    "title": "Class BooleanAsserts | xunit-proto",
+    "summary": "Class BooleanAsserts Namespace BooleanNamespace Assembly xunit.v3.assert.dll public class BooleanAsserts Inheritance object BooleanAsserts Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods False(bool) Verifies that the condition is false. public static void False(bool condition) Parameters condition bool The condition to be tested Exceptions FalseException Thrown if the condition is not false False(bool, string?) Verifies that the condition is false. public static void False(bool condition, string? userMessage) Parameters condition bool The condition to be tested userMessage string The message to show when the condition is not false Exceptions FalseException Thrown if the condition is not false False(bool?) Verifies that the condition is false. public static void False(bool? condition) Parameters condition bool? The condition to be tested Exceptions FalseException Thrown if the condition is not false False(bool?, string?) Verifies that the condition is false. public static void False(bool? condition, string? userMessage) Parameters condition bool? The condition to be tested userMessage string The message to show when the condition is not false Exceptions FalseException Thrown if the condition is not false True(bool) Verifies that an expression is true. public static void True(bool condition) Parameters condition bool The condition to be inspected Exceptions TrueException Thrown when the condition is false True(bool, string?) Verifies that an expression is true. public static void True(bool condition, string? userMessage) Parameters condition bool The condition to be inspected userMessage string The message to be shown when the condition is false Exceptions TrueException Thrown when the condition is false True(bool?) Verifies that an expression is true. public static void True(bool? condition) Parameters condition bool? The condition to be inspected Exceptions TrueException Thrown when the condition is false True(bool?, string?) Verifies that an expression is true. public static void True(bool? condition, string? userMessage) Parameters condition bool? The condition to be inspected userMessage string The message to be shown when the condition is false Exceptions TrueException Thrown when the condition is false"
+  },
+  "v3-2.0.0/assert/BooleanNamespace.html": {
+    "href": "v3-2.0.0/assert/BooleanNamespace.html",
+    "title": "Namespace BooleanNamespace | xunit-proto",
+    "summary": "Namespace BooleanNamespace Classes BooleanAsserts"
+  },
   "v3-2.0.0/assert/Xunit.Assert.html": {
     "href": "v3-2.0.0/assert/Xunit.Assert.html",
     "title": "Class Assert | xunit-proto",
@@ -407,7 +417,7 @@
   "v3-2.0.0/assert/Xunit.html": {
     "href": "v3-2.0.0/assert/Xunit.html",
     "title": "Namespace Xunit | xunit-proto",
-    "summary": "Namespace Xunit Classes Assert Contains various static methods that are used to verify that conditions are met during the process of running tests. AssertEquivalenceComparer An implementation of IEqualityComparer that uses the same logic from Assert.Equivalent. AssertEquivalenceComparer<T> An implementation of IEqualityComparer<T> that uses the same logic from Assert.Equivalent. BooleanAsserts CollectionAsserts Comparers DictionaryAsserts EqualityAsserts EquivalenceAsserts EventAsserts EventAsserts.RaisedEvent<T> Represents a raised event after the fact. ExceptionAsserts FailAsserts Guards IdentityAsserts MemoryAsserts MultipleAsserts NullAsserts PropertyAsserts RangeAsserts Record SetAsserts SkipAsserts SpanAsserts StringAsserts TypeAsserts"
+    "summary": "Namespace Xunit Classes Assert Contains various static methods that are used to verify that conditions are met during the process of running tests. AssertEquivalenceComparer An implementation of IEqualityComparer that uses the same logic from Assert.Equivalent. AssertEquivalenceComparer<T> An implementation of IEqualityComparer<T> that uses the same logic from Assert.Equivalent. CollectionAsserts Comparers DictionaryAsserts EqualityAsserts EquivalenceAsserts EventAsserts EventAsserts.RaisedEvent<T> Represents a raised event after the fact. ExceptionAsserts FailAsserts Guards IdentityAsserts MemoryAsserts MultipleAsserts NullAsserts PropertyAsserts RangeAsserts Record SetAsserts SkipAsserts SpanAsserts StringAsserts TypeAsserts"
   },
   "v3-2.0.0/common/Xunit.Internal.AssemblyExtensions.html": {
     "href": "v3-2.0.0/common/Xunit.Internal.AssemblyExtensions.html",
