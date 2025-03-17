@@ -1,0 +1,2549 @@
+{
+  "uid": "Xunit.v3.InProcessFrontController",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.InProcessFrontController.#ctor(Xunit.v3.ITestFramework,System.Reflection.Assembly,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.InProcessFrontController",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InProcessFrontController(ITestFramework, Assembly, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(ITestFramework, Assembly, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "InProcessFrontController.InProcessFrontController(ITestFramework, Assembly, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "InProcessFrontController.New(ITestFramework, Assembly, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.InProcessFrontController.InProcessFrontController(Xunit.v3.ITestFramework, System.Reflection.Assembly, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.InProcessFrontController.New(Xunit.v3.ITestFramework, System.Reflection.Assembly, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.#ctor(Xunit.v3.ITestFramework,System.Reflection.Assembly,System.String)\" text=\"InProcessFrontController(ITestFramework, Assembly, string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.#ctor(Xunit.v3.ITestFramework,System.Reflection.Assembly,System.String)\" text=\"InProcessFrontController(ITestFramework, Assembly, string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public InProcessFrontController(ITestFramework testFramework, Assembly testAssembly, string? configFilePath)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(testFramework As ITestFramework, testAssembly As Assembly, configFilePath As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "testFramework",
+            "type": {
+              "uid": "Xunit.v3.ITestFramework",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFramework"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFramework"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFramework"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFramework"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.ITestFramework"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.ITestFramework"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.ITestFramework\" text=\"ITestFramework\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.ITestFramework\" text=\"ITestFramework\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The test framework to be wrapped.</p>\n"
+          },
+          {
+            "id": "testAssembly",
+            "type": {
+              "uid": "System.Reflection.Assembly",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Assembly"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Assembly"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Reflection.Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Reflection.Assembly"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Reflection.Assembly\" text=\"Assembly\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Reflection.Assembly\" text=\"Assembly\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The assembly under test.</p>\n"
+          },
+          {
+            "id": "configFilePath",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The optional configuration file path.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/InProcessFrontController.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/InProcessFrontController.cs",
+        "startLine": 36,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.InProcessFrontController.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "InProcessFrontController"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "InProcessFrontController.InProcessFrontController"
+          },
+          {
+            "lang": "vb",
+            "value": "InProcessFrontController.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.InProcessFrontController.InProcessFrontController"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.InProcessFrontController.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.#ctor*\" text=\"InProcessFrontController\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.#ctor*\" text=\"InProcessFrontController\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"Xunit.v3.InProcessFrontController\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkDiscoveryOptions,System.Func{Xunit.Sdk.ITestCase,System.Boolean},System.Threading.CancellationTokenSource,System.Type[],System.Func{Xunit.Sdk.ITestCase,System.Boolean,System.Threading.Tasks.ValueTask{System.Boolean}})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.InProcessFrontController",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Find(IMessageSink?, ITestFrameworkDiscoveryOptions, Func<ITestCase, bool>, CancellationTokenSource, Type[]?, Func<ITestCase, bool, ValueTask<bool>>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Find(IMessageSink, ITestFrameworkDiscoveryOptions, Func(Of ITestCase, Boolean), CancellationTokenSource, Type(), Func(Of ITestCase, Boolean, ValueTask(Of Boolean)))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "InProcessFrontController.Find(IMessageSink?, ITestFrameworkDiscoveryOptions, Func<ITestCase, bool>, CancellationTokenSource, Type[]?, Func<ITestCase, bool, ValueTask<bool>>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "InProcessFrontController.Find(IMessageSink, ITestFrameworkDiscoveryOptions, Func(Of ITestCase, Boolean), CancellationTokenSource, Type(), Func(Of ITestCase, Boolean, ValueTask(Of Boolean)))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink?, Xunit.Sdk.ITestFrameworkDiscoveryOptions, System.Func<Xunit.Sdk.ITestCase, bool>, System.Threading.CancellationTokenSource, System.Type[]?, System.Func<Xunit.Sdk.ITestCase, bool, System.Threading.Tasks.ValueTask<bool>>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink, Xunit.Sdk.ITestFrameworkDiscoveryOptions, System.Func(Of Xunit.Sdk.ITestCase, Boolean), System.Threading.CancellationTokenSource, System.Type(), System.Func(Of Xunit.Sdk.ITestCase, Boolean, System.Threading.Tasks.ValueTask(Of Boolean)))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkDiscoveryOptions,System.Func{Xunit.Sdk.ITestCase,System.Boolean},System.Threading.CancellationTokenSource,System.Type[],System.Func{Xunit.Sdk.ITestCase,System.Boolean,System.Threading.Tasks.ValueTask{System.Boolean}})\" text=\"Find(IMessageSink?, ITestFrameworkDiscoveryOptions, Func&lt;ITestCase, bool&gt;, CancellationTokenSource, Type[]?, Func&lt;ITestCase, bool, ValueTask&lt;bool&gt;&gt;?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkDiscoveryOptions,System.Func{Xunit.Sdk.ITestCase,System.Boolean},System.Threading.CancellationTokenSource,System.Type[],System.Func{Xunit.Sdk.ITestCase,System.Boolean,System.Threading.Tasks.ValueTask{System.Boolean}})\" text=\"Find(IMessageSink?, ITestFrameworkDiscoveryOptions, Func&lt;ITestCase, bool&gt;, CancellationTokenSource, Type[]?, Func&lt;ITestCase, bool, ValueTask&lt;bool&gt;&gt;?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask Find(IMessageSink? messageSink, ITestFrameworkDiscoveryOptions options, Func<ITestCase, bool> filter, CancellationTokenSource cancellationTokenSource, Type[]? types = null, Func<ITestCase, bool, ValueTask<bool>>? discoveryCallback = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function Find(messageSink As IMessageSink, options As ITestFrameworkDiscoveryOptions, filter As Func(Of ITestCase, Boolean), cancellationTokenSource As CancellationTokenSource, types As Type() = Nothing, discoveryCallback As Func(Of ITestCase, Boolean, ValueTask(Of Boolean)) = Nothing) As ValueTask"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "messageSink",
+            "type": {
+              "uid": "Xunit.Sdk.IMessageSink",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IMessageSink"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The message sink to report discovery starting and discovery complete messages to.\nDiscovered tests are <em sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"2\">not</em> reported to this message sink, since it's also used for <xref href=\"Xunit.v3.InProcessFrontController.FindAndRun(Xunit.Sdk.IMessageSink%2cXunit.Sdk.ITestFrameworkDiscoveryOptions%2cXunit.Sdk.ITestFrameworkExecutionOptions%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%7d%2cSystem.Threading.CancellationTokenSource%2cSystem.Type%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>,\nso it is assumed that callers to this method will use the <code class=\"paramref\">discoveryCallback</code> to report\ndiscovered tests if needed.</p>\n"
+          },
+          {
+            "id": "options",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The options to be used for discovery.</p>\n"
+          },
+          {
+            "id": "filter",
+            "type": {
+              "uid": "System.Func{Xunit.Sdk.ITestCase,System.Boolean}",
+              "definition": "System.Func`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ITestCase, bool>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ITestCase, Boolean)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ITestCase, bool>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ITestCase, Boolean)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<Xunit.Sdk.ITestCase, bool>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of Xunit.Sdk.ITestCase, Boolean)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>&lt;<xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>(Of <xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The filter function for filtering test cases.</p>\n"
+          },
+          {
+            "id": "cancellationTokenSource",
+            "type": {
+              "uid": "System.Threading.CancellationTokenSource",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Threading.CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Threading.CancellationTokenSource"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The cancellation token source used to cancel discovery.</p>\n"
+          },
+          {
+            "id": "types",
+            "type": {
+              "uid": "System.Type[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">When passed a non-<code>null</code> collection, only returns tests found\nfrom one of the provided types; when passed a <code>null</code> collection, discovers all\ntests in the assembly.</p>\n"
+          },
+          {
+            "id": "discoveryCallback",
+            "type": {
+              "uid": "System.Func{Xunit.Sdk.ITestCase,System.Boolean,System.Threading.Tasks.ValueTask{System.Boolean}}",
+              "definition": "System.Func`3",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ITestCase, bool, ValueTask<bool>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ITestCase, Boolean, ValueTask(Of Boolean))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ITestCase, bool, ValueTask<bool>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ITestCase, Boolean, ValueTask(Of Boolean))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<Xunit.Sdk.ITestCase, bool, System.Threading.Tasks.ValueTask<bool>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of Xunit.Sdk.ITestCase, Boolean, System.Threading.Tasks.ValueTask(Of Boolean))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-3\">Func</a>&lt;<xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-3\">Func</a>(Of <xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">An optional callback to be called for each discovered test case.\nIt provides both the test case and a flag which indicates if it passed the provided filter.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/InProcessFrontController.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Find",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/InProcessFrontController.cs",
+        "startLine": 82,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.InProcessFrontController.Find*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Find"
+          },
+          {
+            "lang": "vb",
+            "value": "Find"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "InProcessFrontController.Find"
+          },
+          {
+            "lang": "vb",
+            "value": "InProcessFrontController.Find"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.InProcessFrontController.Find"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.InProcessFrontController.Find"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Find*\" text=\"Find\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Find*\" text=\"Find\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">Starts the process of finding tests in an assembly. Typically only used by\nrunners which discover tests and present them into a UI for the user to interactively\nchoose for selective run (via <xref href=\"Xunit.v3.InProcessFrontController.Run(Xunit.Sdk.IMessageSink%2cXunit.Sdk.ITestFrameworkExecutionOptions%2cSystem.Collections.Generic.IReadOnlyCollection%7bXunit.Sdk.ITestCase%7d%2cSystem.Threading.CancellationTokenSource)\" data-throw-if-not-resolved=\"false\"></xref>). For runners which simply wish to\ndiscover and immediately run tests, they should instead use <xref href=\"Xunit.v3.InProcessFrontController.FindAndRun(Xunit.Sdk.IMessageSink%2cXunit.Sdk.ITestFrameworkDiscoveryOptions%2cXunit.Sdk.ITestFrameworkExecutionOptions%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%7d%2cSystem.Threading.CancellationTokenSource%2cSystem.Type%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>,\nwhich permits the same filtering logic as this method.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.InProcessFrontController.FindAndRun(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.Sdk.ITestFrameworkExecutionOptions,System.Func{Xunit.Sdk.ITestCase,System.Boolean},System.Threading.CancellationTokenSource,System.Type[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.InProcessFrontController",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FindAndRun(IMessageSink, ITestFrameworkDiscoveryOptions, ITestFrameworkExecutionOptions, Func<ITestCase, bool>, CancellationTokenSource, Type[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "FindAndRun(IMessageSink, ITestFrameworkDiscoveryOptions, ITestFrameworkExecutionOptions, Func(Of ITestCase, Boolean), CancellationTokenSource, Type())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "InProcessFrontController.FindAndRun(IMessageSink, ITestFrameworkDiscoveryOptions, ITestFrameworkExecutionOptions, Func<ITestCase, bool>, CancellationTokenSource, Type[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "InProcessFrontController.FindAndRun(IMessageSink, ITestFrameworkDiscoveryOptions, ITestFrameworkExecutionOptions, Func(Of ITestCase, Boolean), CancellationTokenSource, Type())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.InProcessFrontController.FindAndRun(Xunit.Sdk.IMessageSink, Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.Sdk.ITestFrameworkExecutionOptions, System.Func<Xunit.Sdk.ITestCase, bool>, System.Threading.CancellationTokenSource, System.Type[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.InProcessFrontController.FindAndRun(Xunit.Sdk.IMessageSink, Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.Sdk.ITestFrameworkExecutionOptions, System.Func(Of Xunit.Sdk.ITestCase, Boolean), System.Threading.CancellationTokenSource, System.Type())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.FindAndRun(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.Sdk.ITestFrameworkExecutionOptions,System.Func{Xunit.Sdk.ITestCase,System.Boolean},System.Threading.CancellationTokenSource,System.Type[])\" text=\"FindAndRun(IMessageSink, ITestFrameworkDiscoveryOptions, ITestFrameworkExecutionOptions, Func&lt;ITestCase, bool&gt;, CancellationTokenSource, Type[]?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.FindAndRun(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.Sdk.ITestFrameworkExecutionOptions,System.Func{Xunit.Sdk.ITestCase,System.Boolean},System.Threading.CancellationTokenSource,System.Type[])\" text=\"FindAndRun(IMessageSink, ITestFrameworkDiscoveryOptions, ITestFrameworkExecutionOptions, Func&lt;ITestCase, bool&gt;, CancellationTokenSource, Type[]?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask FindAndRun(IMessageSink messageSink, ITestFrameworkDiscoveryOptions discoveryOptions, ITestFrameworkExecutionOptions executionOptions, Func<ITestCase, bool> filter, CancellationTokenSource cancellationTokenSource, Type[]? types = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function FindAndRun(messageSink As IMessageSink, discoveryOptions As ITestFrameworkDiscoveryOptions, executionOptions As ITestFrameworkExecutionOptions, filter As Func(Of ITestCase, Boolean), cancellationTokenSource As CancellationTokenSource, types As Type() = Nothing) As ValueTask"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "messageSink",
+            "type": {
+              "uid": "Xunit.Sdk.IMessageSink",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IMessageSink"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The message sink to report messages to.</p>\n"
+          },
+          {
+            "id": "discoveryOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The options to be used for discovery.</p>\n"
+          },
+          {
+            "id": "executionOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkExecutionOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkExecutionOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkExecutionOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The options to be used for execution.</p>\n"
+          },
+          {
+            "id": "filter",
+            "type": {
+              "uid": "System.Func{Xunit.Sdk.ITestCase,System.Boolean}",
+              "definition": "System.Func`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ITestCase, bool>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ITestCase, Boolean)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ITestCase, bool>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ITestCase, Boolean)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<Xunit.Sdk.ITestCase, bool>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of Xunit.Sdk.ITestCase, Boolean)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>&lt;<xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>(Of <xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The filter function for filtering test cases.</p>\n"
+          },
+          {
+            "id": "cancellationTokenSource",
+            "type": {
+              "uid": "System.Threading.CancellationTokenSource",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Threading.CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Threading.CancellationTokenSource"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The cancellation token sourced used to cancel discovery/execution.</p>\n"
+          },
+          {
+            "id": "types",
+            "type": {
+              "uid": "System.Type[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">When passed a non-<code>null</code> collection, discovery/filtering/execution\nonly looks for tests from one of the provided types; when passed a <code>null</code> collection,\ndiscovery/filtering/execution looks at all types in the assembly.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/InProcessFrontController.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "FindAndRun",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/InProcessFrontController.cs",
+        "startLine": 153,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.InProcessFrontController.FindAndRun*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FindAndRun"
+          },
+          {
+            "lang": "vb",
+            "value": "FindAndRun"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "InProcessFrontController.FindAndRun"
+          },
+          {
+            "lang": "vb",
+            "value": "InProcessFrontController.FindAndRun"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.InProcessFrontController.FindAndRun"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.InProcessFrontController.FindAndRun"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.FindAndRun*\" text=\"FindAndRun\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.FindAndRun*\" text=\"FindAndRun\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">Starts the process of finding and running tests in an assembly. Typically only used\nby runner which do not present test discovery UIs to users that allow them to run\nselected tests (those should instead use <xref href=\"Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink%2cXunit.Sdk.ITestFrameworkDiscoveryOptions%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%7d%2cSystem.Threading.CancellationTokenSource%2cSystem.Type%5b%5d%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%2cSystem.Threading.Tasks.ValueTask%7bSystem.Boolean%7d%7d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Xunit.v3.InProcessFrontController.Run(Xunit.Sdk.IMessageSink%2cXunit.Sdk.ITestFrameworkExecutionOptions%2cSystem.Collections.Generic.IReadOnlyCollection%7bXunit.Sdk.ITestCase%7d%2cSystem.Threading.CancellationTokenSource)\" data-throw-if-not-resolved=\"false\"></xref>\nas separate operations).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.InProcessFrontController.Run(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkExecutionOptions,System.Collections.Generic.IReadOnlyCollection{Xunit.Sdk.ITestCase},System.Threading.CancellationTokenSource)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.InProcessFrontController",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Run(IMessageSink, ITestFrameworkExecutionOptions, IReadOnlyCollection<ITestCase>, CancellationTokenSource)"
+        },
+        {
+          "lang": "vb",
+          "value": "Run(IMessageSink, ITestFrameworkExecutionOptions, IReadOnlyCollection(Of ITestCase), CancellationTokenSource)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "InProcessFrontController.Run(IMessageSink, ITestFrameworkExecutionOptions, IReadOnlyCollection<ITestCase>, CancellationTokenSource)"
+        },
+        {
+          "lang": "vb",
+          "value": "InProcessFrontController.Run(IMessageSink, ITestFrameworkExecutionOptions, IReadOnlyCollection(Of ITestCase), CancellationTokenSource)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.InProcessFrontController.Run(Xunit.Sdk.IMessageSink, Xunit.Sdk.ITestFrameworkExecutionOptions, System.Collections.Generic.IReadOnlyCollection<Xunit.Sdk.ITestCase>, System.Threading.CancellationTokenSource)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.InProcessFrontController.Run(Xunit.Sdk.IMessageSink, Xunit.Sdk.ITestFrameworkExecutionOptions, System.Collections.Generic.IReadOnlyCollection(Of Xunit.Sdk.ITestCase), System.Threading.CancellationTokenSource)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Run(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkExecutionOptions,System.Collections.Generic.IReadOnlyCollection{Xunit.Sdk.ITestCase},System.Threading.CancellationTokenSource)\" text=\"Run(IMessageSink, ITestFrameworkExecutionOptions, IReadOnlyCollection&lt;ITestCase&gt;, CancellationTokenSource)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Run(Xunit.Sdk.IMessageSink,Xunit.Sdk.ITestFrameworkExecutionOptions,System.Collections.Generic.IReadOnlyCollection{Xunit.Sdk.ITestCase},System.Threading.CancellationTokenSource)\" text=\"Run(IMessageSink, ITestFrameworkExecutionOptions, IReadOnlyCollection&lt;ITestCase&gt;, CancellationTokenSource)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask Run(IMessageSink messageSink, ITestFrameworkExecutionOptions executionOptions, IReadOnlyCollection<ITestCase> testCases, CancellationTokenSource cancellationTokenSource)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function Run(messageSink As IMessageSink, executionOptions As ITestFrameworkExecutionOptions, testCases As IReadOnlyCollection(Of ITestCase), cancellationTokenSource As CancellationTokenSource) As ValueTask"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "messageSink",
+            "type": {
+              "uid": "Xunit.Sdk.IMessageSink",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IMessageSink"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The message sink to report messages to.</p>\n"
+          },
+          {
+            "id": "executionOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkExecutionOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkExecutionOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkExecutionOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The options to be used for execution.</p>\n"
+          },
+          {
+            "id": "testCases",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyCollection{Xunit.Sdk.ITestCase}",
+              "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<ITestCase>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of ITestCase)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<ITestCase>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of ITestCase)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyCollection<Xunit.Sdk.ITestCase>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyCollection(Of Xunit.Sdk.ITestCase)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The test cases to execute.</p>\n"
+          },
+          {
+            "id": "cancellationTokenSource",
+            "type": {
+              "uid": "System.Threading.CancellationTokenSource",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Threading.CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Threading.CancellationTokenSource"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">The cancellation token source used to cancel discovery.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/InProcessFrontController.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Run",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/InProcessFrontController.cs",
+        "startLine": 203,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.InProcessFrontController.Run*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Run"
+          },
+          {
+            "lang": "vb",
+            "value": "Run"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "InProcessFrontController.Run"
+          },
+          {
+            "lang": "vb",
+            "value": "InProcessFrontController.Run"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.InProcessFrontController.Run"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.InProcessFrontController.Run"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Run*\" text=\"Run\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.Run*\" text=\"Run\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">Starts the process of running selected tests in the assembly. The test cases to run come from\ncalling <xref href=\"Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink%2cXunit.Sdk.ITestFrameworkDiscoveryOptions%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%7d%2cSystem.Threading.CancellationTokenSource%2cSystem.Type%5b%5d%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%2cSystem.Threading.Tasks.ValueTask%7bSystem.Boolean%7d%7d)\" data-throw-if-not-resolved=\"false\"></xref> and collecting the test cases that were returned via the callback.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.InProcessFrontController.TestAssemblyUniqueID",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.InProcessFrontController",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "InProcessFrontController.TestAssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "InProcessFrontController.TestAssemblyUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.InProcessFrontController.TestAssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.InProcessFrontController.TestAssemblyUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestAssemblyUniqueID\" text=\"TestAssemblyUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestAssemblyUniqueID\" text=\"TestAssemblyUniqueID\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string TestAssemblyUniqueID { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property TestAssemblyUniqueID As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/InProcessFrontController.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestAssemblyUniqueID",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/InProcessFrontController.cs",
+        "startLine": 56,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.InProcessFrontController.TestAssemblyUniqueID*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestAssemblyUniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAssemblyUniqueID"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "InProcessFrontController.TestAssemblyUniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "InProcessFrontController.TestAssemblyUniqueID"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.InProcessFrontController.TestAssemblyUniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.InProcessFrontController.TestAssemblyUniqueID"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestAssemblyUniqueID*\" text=\"TestAssemblyUniqueID\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestAssemblyUniqueID*\" text=\"TestAssemblyUniqueID\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">Gets the unique ID for the test assembly provided to the discoverer.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.InProcessFrontController.TestFrameworkDisplayName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.InProcessFrontController",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestFrameworkDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestFrameworkDisplayName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "InProcessFrontController.TestFrameworkDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "InProcessFrontController.TestFrameworkDisplayName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.InProcessFrontController.TestFrameworkDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.InProcessFrontController.TestFrameworkDisplayName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestFrameworkDisplayName\" text=\"TestFrameworkDisplayName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestFrameworkDisplayName\" text=\"TestFrameworkDisplayName\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string TestFrameworkDisplayName { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property TestFrameworkDisplayName As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/InProcessFrontController.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestFrameworkDisplayName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/InProcessFrontController.cs",
+        "startLine": 61,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.InProcessFrontController.TestFrameworkDisplayName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestFrameworkDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestFrameworkDisplayName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "InProcessFrontController.TestFrameworkDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "InProcessFrontController.TestFrameworkDisplayName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.InProcessFrontController.TestFrameworkDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.InProcessFrontController.TestFrameworkDisplayName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestFrameworkDisplayName*\" text=\"TestFrameworkDisplayName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.InProcessFrontController.TestFrameworkDisplayName*\" text=\"TestFrameworkDisplayName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">Returns the display name of the test framework that this discoverer is running tests for.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "InProcessFrontController"
+    },
+    {
+      "lang": "vb",
+      "value": "InProcessFrontController"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "InProcessFrontController"
+    },
+    {
+      "lang": "vb",
+      "value": "InProcessFrontController"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.InProcessFrontController"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.InProcessFrontController"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Framework/InProcessFrontController.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "InProcessFrontController",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/InProcessFrontController.cs",
+    "startLine": 23,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml\" sourcestartlinenumber=\"1\">This class is a &quot;philosophical&quot; implementation of <xref href=\"Xunit.IFrontController\" data-throw-if-not-resolved=\"false\"></xref> (which isn't a type\nthat's available here), intended to be used by in-process runners, wrapped around an implementation\nof <xref href=\"Xunit.v3.ITestFramework\" data-throw-if-not-resolved=\"false\"></xref>. The signatures of the methods are slightly different, as they permit\nand require direct access to <xref href=\"Xunit.Sdk.ITestCase\" data-throw-if-not-resolved=\"false\"></xref> instances rather than forcing the test cases through\na round of serialization and deserialization. It will also manufacture the <xref href=\"Xunit.Sdk.IDiscoveryStarting\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"Xunit.Sdk.IDiscoveryComplete\" data-throw-if-not-resolved=\"false\"></xref> messages that the test framework is not responsible for. When connected\nto remote meta-runners, the in-process runner can convert <xref href=\"Xunit.Sdk.ITestCase\" data-throw-if-not-resolved=\"false\"></xref> instances into\n<xref href=\"Xunit.Runner.Common.TestCaseDiscovered\" data-throw-if-not-resolved=\"false\"></xref> instances by using a converter like\n<xref href=\"Xunit.Runner.Common.TestCaseExtensions.ToTestCaseDiscovered\" data-throw-if-not-resolved=\"false\"></xref> (which should be called from a\ncallback passed to <xref href=\"Xunit.v3.InProcessFrontController.Find(Xunit.Sdk.IMessageSink%2cXunit.Sdk.ITestFrameworkDiscoveryOptions%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%7d%2cSystem.Threading.CancellationTokenSource%2cSystem.Type%5b%5d%2cSystem.Func%7bXunit.Sdk.ITestCase%2cSystem.Boolean%2cSystem.Threading.Tasks.ValueTask%7bSystem.Boolean%7d%7d)\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class InProcessFrontController"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class InProcessFrontController"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.InProcessFrontController.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.InProcessFrontController.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

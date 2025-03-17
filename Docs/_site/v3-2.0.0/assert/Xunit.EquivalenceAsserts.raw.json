@@ -1,0 +1,938 @@
+{
+  "uid": "Xunit.EquivalenceAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.EquivalenceAsserts.Equivalent(System.Object,System.Object,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.EquivalenceAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equivalent(object?, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equivalent(Object, Object, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EquivalenceAsserts.Equivalent(object?, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "EquivalenceAsserts.Equivalent(Object, Object, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.EquivalenceAsserts.Equivalent(object?, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.EquivalenceAsserts.Equivalent(Object, Object, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.EquivalenceAsserts.Equivalent(System.Object,System.Object,System.Boolean)\" text=\"Equivalent(object?, object?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.EquivalenceAsserts.Equivalent(System.Object,System.Object,System.Boolean)\" text=\"Equivalent(object?, object?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equivalent(object? expected, object? actual, bool strict = false)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equivalent(expected As Object, actual As Object, strict As Boolean = False)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EquivalenceAsserts.yml\" sourcestartlinenumber=\"1\">The expected value</p>\n"
+          },
+          {
+            "id": "actual",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EquivalenceAsserts.yml\" sourcestartlinenumber=\"1\">The actual value</p>\n"
+          },
+          {
+            "id": "strict",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EquivalenceAsserts.yml\" sourcestartlinenumber=\"1\">A flag which enables strict comparison mode</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equivalent",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EquivalenceAsserts.cs",
+        "startLine": 30,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.EquivalenceAsserts.Equivalent*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equivalent"
+          },
+          {
+            "lang": "vb",
+            "value": "Equivalent"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EquivalenceAsserts.Equivalent"
+          },
+          {
+            "lang": "vb",
+            "value": "EquivalenceAsserts.Equivalent"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.EquivalenceAsserts.Equivalent"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.EquivalenceAsserts.Equivalent"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.EquivalenceAsserts.Equivalent*\" text=\"Equivalent\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.EquivalenceAsserts.Equivalent*\" text=\"Equivalent\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EquivalenceAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two objects are equivalent, using a default comparer. This comparison is done\nwithout regard to type, and only inspects public property and field values for individual\nequality. Deep equivalence tests (meaning, property or fields which are themselves complex\ntypes) are supported. With strict mode off, object comparison allows <code class=\"paramref\">actual</code>\nto have extra public members that aren't part of <code class=\"paramref\">expected</code>, and collection\ncomparison allows <code class=\"paramref\">actual</code> to have more data in it than is present in\n<code class=\"paramref\">expected</code>; with strict mode on, those rules are tightened to require exact\nmember list (for objects) or data (for collections).</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "EquivalenceAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "EquivalenceAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "EquivalenceAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "EquivalenceAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.EquivalenceAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.EquivalenceAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "EquivalenceAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EquivalenceAsserts.cs",
+    "startLine": 13,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class EquivalenceAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class EquivalenceAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.EquivalenceAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.EquivalenceAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

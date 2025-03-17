@@ -1,0 +1,1341 @@
+{
+  "uid": "Xunit.FrontControllerRunSettings",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.FrontControllerRunSettings.#ctor(Xunit.Sdk.ITestFrameworkExecutionOptions,System.Collections.Generic.IReadOnlyCollection{System.String})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.FrontControllerRunSettings",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FrontControllerRunSettings(ITestFrameworkExecutionOptions, IReadOnlyCollection<string>)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(ITestFrameworkExecutionOptions, IReadOnlyCollection(Of String))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FrontControllerRunSettings.FrontControllerRunSettings(ITestFrameworkExecutionOptions, IReadOnlyCollection<string>)"
+        },
+        {
+          "lang": "vb",
+          "value": "FrontControllerRunSettings.New(ITestFrameworkExecutionOptions, IReadOnlyCollection(Of String))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.FrontControllerRunSettings.FrontControllerRunSettings(Xunit.Sdk.ITestFrameworkExecutionOptions, System.Collections.Generic.IReadOnlyCollection<string>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.FrontControllerRunSettings.New(Xunit.Sdk.ITestFrameworkExecutionOptions, System.Collections.Generic.IReadOnlyCollection(Of String))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.FrontControllerRunSettings.#ctor(Xunit.Sdk.ITestFrameworkExecutionOptions,System.Collections.Generic.IReadOnlyCollection{System.String})\" text=\"FrontControllerRunSettings(ITestFrameworkExecutionOptions, IReadOnlyCollection&lt;string&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.FrontControllerRunSettings.#ctor(Xunit.Sdk.ITestFrameworkExecutionOptions,System.Collections.Generic.IReadOnlyCollection{System.String})\" text=\"FrontControllerRunSettings(ITestFrameworkExecutionOptions, IReadOnlyCollection&lt;string&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public FrontControllerRunSettings(ITestFrameworkExecutionOptions options, IReadOnlyCollection<string> serializedTestCases)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(options As ITestFrameworkExecutionOptions, serializedTestCases As IReadOnlyCollection(Of String))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "options",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkExecutionOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkExecutionOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkExecutionOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.yml\" sourcestartlinenumber=\"1\">The options used during execution</p>\n"
+          },
+          {
+            "id": "serializedTestCases",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyCollection{System.String}",
+              "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyCollection<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyCollection(Of String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.yml\" sourcestartlinenumber=\"1\">The test cases to be run</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+        "startLine": 11,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.FrontControllerRunSettings.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FrontControllerRunSettings"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FrontControllerRunSettings.FrontControllerRunSettings"
+          },
+          {
+            "lang": "vb",
+            "value": "FrontControllerRunSettings.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.FrontControllerRunSettings.FrontControllerRunSettings"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.FrontControllerRunSettings.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.FrontControllerRunSettings.#ctor*\" text=\"FrontControllerRunSettings\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.FrontControllerRunSettings.#ctor*\" text=\"FrontControllerRunSettings\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.yml\" sourcestartlinenumber=\"1\">Contains the information by <xref href=\"Xunit.IFrontController.Run(Xunit.Sdk.IMessageSink%2cXunit.FrontControllerRunSettings)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.FrontControllerRunSettings.Options",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.FrontControllerRunSettings",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Options"
+        },
+        {
+          "lang": "vb",
+          "value": "Options"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FrontControllerRunSettings.Options"
+        },
+        {
+          "lang": "vb",
+          "value": "FrontControllerRunSettings.Options"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.FrontControllerRunSettings.Options"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.FrontControllerRunSettings.Options"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.FrontControllerRunSettings.Options\" text=\"Options\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.FrontControllerRunSettings.Options\" text=\"Options\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ITestFrameworkExecutionOptions Options { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Options As ITestFrameworkExecutionOptions"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.ITestFrameworkExecutionOptions",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ITestFrameworkExecutionOptions"
+              },
+              {
+                "lang": "vb",
+                "value": "ITestFrameworkExecutionOptions"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITestFrameworkExecutionOptions"
+              },
+              {
+                "lang": "vb",
+                "value": "ITestFrameworkExecutionOptions"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Options",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+        "startLine": 19,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.FrontControllerRunSettings.Options*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Options"
+          },
+          {
+            "lang": "vb",
+            "value": "Options"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FrontControllerRunSettings.Options"
+          },
+          {
+            "lang": "vb",
+            "value": "FrontControllerRunSettings.Options"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.FrontControllerRunSettings.Options"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.FrontControllerRunSettings.Options"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.FrontControllerRunSettings.Options*\" text=\"Options\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.FrontControllerRunSettings.Options*\" text=\"Options\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.yml\" sourcestartlinenumber=\"1\">The options used during execution.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.FrontControllerRunSettings.SerializedTestCases",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.FrontControllerRunSettings",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SerializedTestCases"
+        },
+        {
+          "lang": "vb",
+          "value": "SerializedTestCases"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FrontControllerRunSettings.SerializedTestCases"
+        },
+        {
+          "lang": "vb",
+          "value": "FrontControllerRunSettings.SerializedTestCases"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.FrontControllerRunSettings.SerializedTestCases"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.FrontControllerRunSettings.SerializedTestCases"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.FrontControllerRunSettings.SerializedTestCases\" text=\"SerializedTestCases\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.FrontControllerRunSettings.SerializedTestCases\" text=\"SerializedTestCases\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<string> SerializedTestCases { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property SerializedTestCases As IReadOnlyCollection(Of String)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{System.String}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<string>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of String)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<string>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of String)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<string>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of String)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SerializedTestCases",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+        "startLine": 24,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.FrontControllerRunSettings.SerializedTestCases*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SerializedTestCases"
+          },
+          {
+            "lang": "vb",
+            "value": "SerializedTestCases"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FrontControllerRunSettings.SerializedTestCases"
+          },
+          {
+            "lang": "vb",
+            "value": "FrontControllerRunSettings.SerializedTestCases"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.FrontControllerRunSettings.SerializedTestCases"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.FrontControllerRunSettings.SerializedTestCases"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.FrontControllerRunSettings.SerializedTestCases*\" text=\"SerializedTestCases\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.FrontControllerRunSettings.SerializedTestCases*\" text=\"SerializedTestCases\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.yml\" sourcestartlinenumber=\"1\">Get the list of test cases to be run.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "FrontControllerRunSettings"
+    },
+    {
+      "lang": "vb",
+      "value": "FrontControllerRunSettings"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "FrontControllerRunSettings"
+    },
+    {
+      "lang": "vb",
+      "value": "FrontControllerRunSettings"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.FrontControllerRunSettings"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.FrontControllerRunSettings"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "FrontControllerRunSettings",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/FrontControllerRunSettings.cs",
+    "startLine": 11,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.utility.netfx"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.yml\" sourcestartlinenumber=\"1\">Contains the information by <xref href=\"Xunit.IFrontController.Run(Xunit.Sdk.IMessageSink%2cXunit.FrontControllerRunSettings)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class FrontControllerRunSettings : FrontControllerSettingsBase"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class FrontControllerRunSettings Inherits FrontControllerSettingsBase"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.FrontControllerSettingsBase",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.FrontControllerSettingsBase.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FrontControllerSettingsBase"
+        },
+        {
+          "lang": "vb",
+          "value": "FrontControllerSettingsBase"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FrontControllerSettingsBase"
+        },
+        {
+          "lang": "vb",
+          "value": "FrontControllerSettingsBase"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.FrontControllerSettingsBase"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.FrontControllerSettingsBase"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.FrontControllerSettingsBase\" text=\"FrontControllerSettingsBase\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.FrontControllerSettingsBase\" text=\"FrontControllerSettingsBase\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "level": 2,
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.FrontControllerSettingsBase.LaunchOptions",
+      "isExtensionMethod": false,
+      "parent": "Xunit.FrontControllerSettingsBase",
+      "href": "Xunit.FrontControllerSettingsBase.html#Xunit_FrontControllerSettingsBase_LaunchOptions",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "LaunchOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "LaunchOptions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FrontControllerSettingsBase.LaunchOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "FrontControllerSettingsBase.LaunchOptions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.FrontControllerSettingsBase.LaunchOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.FrontControllerSettingsBase.LaunchOptions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.FrontControllerSettingsBase.LaunchOptions\" text=\"LaunchOptions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.FrontControllerSettingsBase.LaunchOptions\" text=\"LaunchOptions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.FrontControllerSettingsBase.yml\" sourcestartlinenumber=\"1\">Launch options. Currently only applicable to v3 test projects.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-utility/Xunit.FrontControllerRunSettings.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-utility/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-utility/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

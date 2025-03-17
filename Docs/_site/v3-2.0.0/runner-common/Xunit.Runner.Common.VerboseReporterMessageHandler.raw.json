@@ -1,0 +1,3639 @@
+{
+  "uid": "Xunit.Runner.Common.VerboseReporterMessageHandler",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.VerboseReporterMessageHandler.#ctor(Xunit.Runner.Common.IRunnerLogger)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.VerboseReporterMessageHandler",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "VerboseReporterMessageHandler(IRunnerLogger)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(IRunnerLogger)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "VerboseReporterMessageHandler.VerboseReporterMessageHandler(IRunnerLogger)"
+        },
+        {
+          "lang": "vb",
+          "value": "VerboseReporterMessageHandler.New(IRunnerLogger)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.VerboseReporterMessageHandler.VerboseReporterMessageHandler(Xunit.Runner.Common.IRunnerLogger)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.VerboseReporterMessageHandler.New(Xunit.Runner.Common.IRunnerLogger)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.VerboseReporterMessageHandler.#ctor(Xunit.Runner.Common.IRunnerLogger)\" text=\"VerboseReporterMessageHandler(IRunnerLogger)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.VerboseReporterMessageHandler.#ctor(Xunit.Runner.Common.IRunnerLogger)\" text=\"VerboseReporterMessageHandler(IRunnerLogger)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public VerboseReporterMessageHandler(IRunnerLogger logger)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(logger As IRunnerLogger)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "logger",
+            "type": {
+              "uid": "Xunit.Runner.Common.IRunnerLogger",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IRunnerLogger"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IRunnerLogger"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IRunnerLogger"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IRunnerLogger"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Runner.Common.IRunnerLogger"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Runner.Common.IRunnerLogger"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Runner.Common.IRunnerLogger\" text=\"IRunnerLogger\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Runner.Common.IRunnerLogger\" text=\"IRunnerLogger\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.VerboseReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">The logger used to report messages</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Reporters/Builtin/VerboseReporterMessageHandler.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/VerboseReporterMessageHandler.cs",
+        "startLine": 17,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.VerboseReporterMessageHandler.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "VerboseReporterMessageHandler"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "VerboseReporterMessageHandler.VerboseReporterMessageHandler"
+          },
+          {
+            "lang": "vb",
+            "value": "VerboseReporterMessageHandler.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.VerboseReporterMessageHandler.VerboseReporterMessageHandler"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.VerboseReporterMessageHandler.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.VerboseReporterMessageHandler.#ctor*\" text=\"VerboseReporterMessageHandler\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.VerboseReporterMessageHandler.#ctor*\" text=\"VerboseReporterMessageHandler\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.VerboseReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"Xunit.Runner.Common.VerboseReporterMessageHandler\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "VerboseReporterMessageHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "VerboseReporterMessageHandler"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "VerboseReporterMessageHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "VerboseReporterMessageHandler"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.VerboseReporterMessageHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.VerboseReporterMessageHandler"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.common/Reporters/Builtin/VerboseReporterMessageHandler.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "VerboseReporterMessageHandler",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/VerboseReporterMessageHandler.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.VerboseReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">An implementation of <xref href=\"Xunit.Runner.Common.IRunnerReporterMessageHandler\" data-throw-if-not-resolved=\"false\"></xref> that supports <xref href=\"Xunit.Runner.Common.VerboseReporter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class VerboseReporterMessageHandler : DefaultRunnerReporterMessageHandler, IRunnerReporterMessageHandler, IMessageSink, IAsyncDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class VerboseReporterMessageHandler Inherits DefaultRunnerReporterMessageHandler Implements IRunnerReporterMessageHandler, IMessageSink, IAsyncDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.Runner.Common.AggregateMessageSink",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.AggregateMessageSink.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AggregateMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "AggregateMessageSink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AggregateMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "AggregateMessageSink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AggregateMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AggregateMessageSink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AggregateMessageSink\" text=\"AggregateMessageSink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AggregateMessageSink\" text=\"AggregateMessageSink\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestMessageSink",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestMessageSink.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMessageSink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMessageSink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestMessageSink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink\" text=\"TestMessageSink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink\" text=\"TestMessageSink\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler\" text=\"DefaultRunnerReporterMessageHandler\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler\" text=\"DefaultRunnerReporterMessageHandler\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 3
+    }
+  ],
+  "level": 4,
+  "implements": [
+    {
+      "uid": "Xunit.Runner.Common.IRunnerReporterMessageHandler",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IRunnerReporterMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "IRunnerReporterMessageHandler"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IRunnerReporterMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "IRunnerReporterMessageHandler"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.IRunnerReporterMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.IRunnerReporterMessageHandler"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporterMessageHandler\" text=\"IRunnerReporterMessageHandler\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporterMessageHandler\" text=\"IRunnerReporterMessageHandler\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IMessageSink",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IMessageSink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.IAsyncDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IAsyncDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EnvVar_HidePassingOutput",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_EnvVar_HidePassingOutput",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "EnvVar_HidePassingOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "EnvVar_HidePassingOutput"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.EnvVar_HidePassingOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.EnvVar_HidePassingOutput"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EnvVar_HidePassingOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EnvVar_HidePassingOutput"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EnvVar_HidePassingOutput\" text=\"EnvVar_HidePassingOutput\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EnvVar_HidePassingOutput\" text=\"EnvVar_HidePassingOutput\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Gets the environment variable that's used to hide passing tests with output\nwhen diagnostics messages are enabled.</p>\n",
+      "type": "field",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Logger",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_Logger",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Logger"
+        },
+        {
+          "lang": "vb",
+          "value": "Logger"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.Logger"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.Logger"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Logger"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Logger"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Logger\" text=\"Logger\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Logger\" text=\"Logger\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Get the logger used to report messages.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.MetadataCache",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_MetadataCache",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MetadataCache"
+        },
+        {
+          "lang": "vb",
+          "value": "MetadataCache"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.MetadataCache"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.MetadataCache"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.MetadataCache"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.MetadataCache"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.MetadataCache\" text=\"MetadataCache\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.MetadataCache\" text=\"MetadataCache\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Gets the metadata cache.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Escape(System.String)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_Escape_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Escape(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Escape(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.Escape(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.Escape(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Escape(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.Escape(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_Escape_System_String_\">Escape</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_Escape_System_String_\">Escape</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Escapes text for display purposes.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EscapeMultiLineIndent(System.String,System.String)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_EscapeMultiLineIndent_System_String_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "EscapeMultiLineIndent(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "EscapeMultiLineIndent(String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.EscapeMultiLineIndent(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.EscapeMultiLineIndent(String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EscapeMultiLineIndent(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.EscapeMultiLineIndent(String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_EscapeMultiLineIndent_System_String_System_String_\">EscapeMultiLineIndent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_EscapeMultiLineIndent_System_String_System_String_\">EscapeMultiLineIndent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Escapes multi-line text for display purposes, indenting on newlines.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.GetAssemblyDisplayName(Xunit.Runner.Common.XunitProjectAssembly)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_GetAssemblyDisplayName_Xunit_Runner_Common_XunitProjectAssembly_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetAssemblyDisplayName(XunitProjectAssembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetAssemblyDisplayName(XunitProjectAssembly)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.GetAssemblyDisplayName(XunitProjectAssembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.GetAssemblyDisplayName(XunitProjectAssembly)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.GetAssemblyDisplayName(Xunit.Runner.Common.XunitProjectAssembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.GetAssemblyDisplayName(Xunit.Runner.Common.XunitProjectAssembly)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_GetAssemblyDisplayName_Xunit_Runner_Common_XunitProjectAssembly_\">GetAssemblyDisplayName</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.XunitProjectAssembly.html\">XunitProjectAssembly</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_GetAssemblyDisplayName_Xunit_Runner_Common_XunitProjectAssembly_\">GetAssemblyDisplayName</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.XunitProjectAssembly.html\">XunitProjectAssembly</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Gets the display name of a test assembly from a test assembly message.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.GetExecutionOptions(System.String)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_GetExecutionOptions_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetExecutionOptions(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetExecutionOptions(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.GetExecutionOptions(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.GetExecutionOptions(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.GetExecutionOptions(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.GetExecutionOptions(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_GetExecutionOptions_System_String_\">GetExecutionOptions</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_GetExecutionOptions_System_String_\">GetExecutionOptions</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Get the test framework options for the given assembly. If it cannot find them, then it\nreturns a default set of options.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogError(Xunit.Sdk.IErrorMetadata,System.String)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogError_Xunit_Sdk_IErrorMetadata_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "LogError(IErrorMetadata, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "LogError(IErrorMetadata, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.LogError(IErrorMetadata, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.LogError(IErrorMetadata, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogError(Xunit.Sdk.IErrorMetadata, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogError(Xunit.Sdk.IErrorMetadata, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogError_Xunit_Sdk_IErrorMetadata_System_String_\">LogError</a>(<xref uid=\"Xunit.Sdk.IErrorMetadata\" text=\"IErrorMetadata\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogError_Xunit_Sdk_IErrorMetadata_System_String_\">LogError</a>(<xref uid=\"Xunit.Sdk.IErrorMetadata\" text=\"IErrorMetadata\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Logs an error message to the logger.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogError(Xunit.Sdk.IErrorMetadata,System.String,System.Object[])",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogError_Xunit_Sdk_IErrorMetadata_System_String_System_Object___",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "LogError(IErrorMetadata, string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "LogError(IErrorMetadata, String, ParamArray Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.LogError(IErrorMetadata, string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.LogError(IErrorMetadata, String, ParamArray Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogError(Xunit.Sdk.IErrorMetadata, string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogError(Xunit.Sdk.IErrorMetadata, String, ParamArray Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogError_Xunit_Sdk_IErrorMetadata_System_String_System_Object___\">LogError</a>(<xref uid=\"Xunit.Sdk.IErrorMetadata\" text=\"IErrorMetadata\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, params <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogError_Xunit_Sdk_IErrorMetadata_System_String_System_Object___\">LogError</a>(<xref uid=\"Xunit.Sdk.IErrorMetadata\" text=\"IErrorMetadata\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, ParamArray <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>())"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Logs an error message to the logger.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogStackTrace(Xunit.Runner.Common.StackFrameInfo,System.String)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogStackTrace_Xunit_Runner_Common_StackFrameInfo_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "LogStackTrace(StackFrameInfo, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "LogStackTrace(StackFrameInfo, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.LogStackTrace(StackFrameInfo, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.LogStackTrace(StackFrameInfo, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogStackTrace(Xunit.Runner.Common.StackFrameInfo, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogStackTrace(Xunit.Runner.Common.StackFrameInfo, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogStackTrace_Xunit_Runner_Common_StackFrameInfo_System_String_\">LogStackTrace</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.StackFrameInfo.html\">StackFrameInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogStackTrace_Xunit_Runner_Common_StackFrameInfo_System_String_\">LogStackTrace</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.StackFrameInfo.html\">StackFrameInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Logs a stack trace to the logger.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogOutput(Xunit.Runner.Common.StackFrameInfo,System.String)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogOutput_Xunit_Runner_Common_StackFrameInfo_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "LogOutput(StackFrameInfo, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "LogOutput(StackFrameInfo, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.LogOutput(StackFrameInfo, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.LogOutput(StackFrameInfo, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogOutput(Xunit.Runner.Common.StackFrameInfo, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogOutput(Xunit.Runner.Common.StackFrameInfo, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogOutput_Xunit_Runner_Common_StackFrameInfo_System_String_\">LogOutput</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.StackFrameInfo.html\">StackFrameInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogOutput_Xunit_Runner_Common_StackFrameInfo_System_String_\">LogOutput</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.StackFrameInfo.html\">StackFrameInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Logs test output to the logger.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogWarnings(Xunit.Runner.Common.StackFrameInfo,System.String[])",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogWarnings_Xunit_Runner_Common_StackFrameInfo_System_String___",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "LogWarnings(StackFrameInfo, string[])"
+        },
+        {
+          "lang": "vb",
+          "value": "LogWarnings(StackFrameInfo, String())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.LogWarnings(StackFrameInfo, string[])"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.LogWarnings(StackFrameInfo, String())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogWarnings(Xunit.Runner.Common.StackFrameInfo, string[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.LogWarnings(Xunit.Runner.Common.StackFrameInfo, String())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogWarnings_Xunit_Runner_Common_StackFrameInfo_System_String___\">LogWarnings</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.StackFrameInfo.html\">StackFrameInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_LogWarnings_Xunit_Runner_Common_StackFrameInfo_System_String___\">LogWarnings</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.StackFrameInfo.html\">StackFrameInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>())"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Logs warnings to the logger.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleErrorMessage(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.IErrorMessage})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleErrorMessage_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_IErrorMessage__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleErrorMessage(MessageHandlerArgs<IErrorMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleErrorMessage(MessageHandlerArgs(Of IErrorMessage))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleErrorMessage(MessageHandlerArgs<IErrorMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleErrorMessage(MessageHandlerArgs(Of IErrorMessage))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleErrorMessage(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.IErrorMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleErrorMessage(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.IErrorMessage))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleErrorMessage_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_IErrorMessage__\">HandleErrorMessage</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.IErrorMessage\" text=\"IErrorMessage\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleErrorMessage_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_IErrorMessage__\">HandleErrorMessage</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.IErrorMessage\" text=\"IErrorMessage\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.IErrorMessage\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Runner.Common.TestAssemblyDiscoveryFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyDiscoveryFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyDiscoveryFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestAssemblyDiscoveryFinished(MessageHandlerArgs<TestAssemblyDiscoveryFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestAssemblyDiscoveryFinished(MessageHandlerArgs(Of TestAssemblyDiscoveryFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryFinished(MessageHandlerArgs<TestAssemblyDiscoveryFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryFinished(MessageHandlerArgs(Of TestAssemblyDiscoveryFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Runner.Common.TestAssemblyDiscoveryFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Runner.Common.TestAssemblyDiscoveryFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyDiscoveryFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyDiscoveryFinished__\">HandleTestAssemblyDiscoveryFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyDiscoveryFinished.html\">TestAssemblyDiscoveryFinished</a>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyDiscoveryFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyDiscoveryFinished__\">HandleTestAssemblyDiscoveryFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyDiscoveryFinished.html\">TestAssemblyDiscoveryFinished</a>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Runner.Common.TestAssemblyDiscoveryFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Runner.Common.TestAssemblyDiscoveryStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyDiscoveryStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyDiscoveryStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestAssemblyDiscoveryStarting(MessageHandlerArgs<TestAssemblyDiscoveryStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestAssemblyDiscoveryStarting(MessageHandlerArgs(Of TestAssemblyDiscoveryStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryStarting(MessageHandlerArgs<TestAssemblyDiscoveryStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryStarting(MessageHandlerArgs(Of TestAssemblyDiscoveryStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Runner.Common.TestAssemblyDiscoveryStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyDiscoveryStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Runner.Common.TestAssemblyDiscoveryStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyDiscoveryStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyDiscoveryStarting__\">HandleTestAssemblyDiscoveryStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyDiscoveryStarting.html\">TestAssemblyDiscoveryStarting</a>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyDiscoveryStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyDiscoveryStarting__\">HandleTestAssemblyDiscoveryStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyDiscoveryStarting.html\">TestAssemblyDiscoveryStarting</a>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Runner.Common.TestAssemblyDiscoveryStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Runner.Common.TestAssemblyExecutionFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyExecutionFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyExecutionFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestAssemblyExecutionFinished(MessageHandlerArgs<TestAssemblyExecutionFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestAssemblyExecutionFinished(MessageHandlerArgs(Of TestAssemblyExecutionFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionFinished(MessageHandlerArgs<TestAssemblyExecutionFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionFinished(MessageHandlerArgs(Of TestAssemblyExecutionFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Runner.Common.TestAssemblyExecutionFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Runner.Common.TestAssemblyExecutionFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyExecutionFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyExecutionFinished__\">HandleTestAssemblyExecutionFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyExecutionFinished.html\">TestAssemblyExecutionFinished</a>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyExecutionFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyExecutionFinished__\">HandleTestAssemblyExecutionFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyExecutionFinished.html\">TestAssemblyExecutionFinished</a>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Runner.Common.TestAssemblyExecutionFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Runner.Common.TestAssemblyExecutionStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyExecutionStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyExecutionStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestAssemblyExecutionStarting(MessageHandlerArgs<TestAssemblyExecutionStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestAssemblyExecutionStarting(MessageHandlerArgs(Of TestAssemblyExecutionStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionStarting(MessageHandlerArgs<TestAssemblyExecutionStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionStarting(MessageHandlerArgs(Of TestAssemblyExecutionStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Runner.Common.TestAssemblyExecutionStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyExecutionStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Runner.Common.TestAssemblyExecutionStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyExecutionStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyExecutionStarting__\">HandleTestAssemblyExecutionStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyExecutionStarting.html\">TestAssemblyExecutionStarting</a>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyExecutionStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestAssemblyExecutionStarting__\">HandleTestAssemblyExecutionStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <a class=\"xref\" href=\"Xunit.Runner.Common.TestAssemblyExecutionStarting.html\">TestAssemblyExecutionStarting</a>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Runner.Common.TestAssemblyExecutionStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestAssemblyCleanupFailure})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyCleanupFailure__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestAssemblyCleanupFailure(MessageHandlerArgs<ITestAssemblyCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestAssemblyCleanupFailure(MessageHandlerArgs(Of ITestAssemblyCleanupFailure))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyCleanupFailure(MessageHandlerArgs<ITestAssemblyCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyCleanupFailure(MessageHandlerArgs(Of ITestAssemblyCleanupFailure))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestAssemblyCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestAssemblyCleanupFailure))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyCleanupFailure__\">HandleTestAssemblyCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestAssemblyCleanupFailure\" text=\"ITestAssemblyCleanupFailure\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyCleanupFailure__\">HandleTestAssemblyCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestAssemblyCleanupFailure\" text=\"ITestAssemblyCleanupFailure\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestAssemblyCleanupFailure\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestAssemblyFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestAssemblyFinished(MessageHandlerArgs<ITestAssemblyFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestAssemblyFinished(MessageHandlerArgs(Of ITestAssemblyFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyFinished(MessageHandlerArgs<ITestAssemblyFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyFinished(MessageHandlerArgs(Of ITestAssemblyFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestAssemblyFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestAssemblyFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyFinished__\">HandleTestAssemblyFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestAssemblyFinished\" text=\"ITestAssemblyFinished\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyFinished__\">HandleTestAssemblyFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestAssemblyFinished\" text=\"ITestAssemblyFinished\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestAssemblyFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestAssemblyStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestAssemblyStarting(MessageHandlerArgs<ITestAssemblyStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestAssemblyStarting(MessageHandlerArgs(Of ITestAssemblyStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyStarting(MessageHandlerArgs<ITestAssemblyStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestAssemblyStarting(MessageHandlerArgs(Of ITestAssemblyStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestAssemblyStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestAssemblyStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestAssemblyStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyStarting__\">HandleTestAssemblyStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestAssemblyStarting\" text=\"ITestAssemblyStarting\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestAssemblyStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestAssemblyStarting__\">HandleTestAssemblyStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestAssemblyStarting\" text=\"ITestAssemblyStarting\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestAssemblyStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestCaseCleanupFailure})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseCleanupFailure__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestCaseCleanupFailure(MessageHandlerArgs<ITestCaseCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestCaseCleanupFailure(MessageHandlerArgs(Of ITestCaseCleanupFailure))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCaseCleanupFailure(MessageHandlerArgs<ITestCaseCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCaseCleanupFailure(MessageHandlerArgs(Of ITestCaseCleanupFailure))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestCaseCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestCaseCleanupFailure))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseCleanupFailure__\">HandleTestCaseCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestCaseCleanupFailure\" text=\"ITestCaseCleanupFailure\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseCleanupFailure__\">HandleTestCaseCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestCaseCleanupFailure\" text=\"ITestCaseCleanupFailure\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestCaseCleanupFailure\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestCaseFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestCaseFinished(MessageHandlerArgs<ITestCaseFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestCaseFinished(MessageHandlerArgs(Of ITestCaseFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCaseFinished(MessageHandlerArgs<ITestCaseFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCaseFinished(MessageHandlerArgs(Of ITestCaseFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestCaseFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestCaseFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseFinished__\">HandleTestCaseFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestCaseFinished\" text=\"ITestCaseFinished\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseFinished__\">HandleTestCaseFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestCaseFinished\" text=\"ITestCaseFinished\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestCaseFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestCaseStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestCaseStarting(MessageHandlerArgs<ITestCaseStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestCaseStarting(MessageHandlerArgs(Of ITestCaseStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCaseStarting(MessageHandlerArgs<ITestCaseStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCaseStarting(MessageHandlerArgs(Of ITestCaseStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestCaseStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCaseStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestCaseStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseStarting__\">HandleTestCaseStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestCaseStarting\" text=\"ITestCaseStarting\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCaseStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCaseStarting__\">HandleTestCaseStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestCaseStarting\" text=\"ITestCaseStarting\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestCaseStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestClassCleanupFailure})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassCleanupFailure__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestClassCleanupFailure(MessageHandlerArgs<ITestClassCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestClassCleanupFailure(MessageHandlerArgs(Of ITestClassCleanupFailure))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestClassCleanupFailure(MessageHandlerArgs<ITestClassCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestClassCleanupFailure(MessageHandlerArgs(Of ITestClassCleanupFailure))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestClassCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestClassCleanupFailure))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassCleanupFailure__\">HandleTestClassCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestClassCleanupFailure\" text=\"ITestClassCleanupFailure\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassCleanupFailure__\">HandleTestClassCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestClassCleanupFailure\" text=\"ITestClassCleanupFailure\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestClassCleanupFailure\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestClassFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestClassFinished(MessageHandlerArgs<ITestClassFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestClassFinished(MessageHandlerArgs(Of ITestClassFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestClassFinished(MessageHandlerArgs<ITestClassFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestClassFinished(MessageHandlerArgs(Of ITestClassFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestClassFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestClassFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassFinished__\">HandleTestClassFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestClassFinished\" text=\"ITestClassFinished\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassFinished__\">HandleTestClassFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestClassFinished\" text=\"ITestClassFinished\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestClassFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestClassStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestClassStarting(MessageHandlerArgs<ITestClassStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestClassStarting(MessageHandlerArgs(Of ITestClassStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestClassStarting(MessageHandlerArgs<ITestClassStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestClassStarting(MessageHandlerArgs(Of ITestClassStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestClassStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestClassStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestClassStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassStarting__\">HandleTestClassStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestClassStarting\" text=\"ITestClassStarting\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestClassStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestClassStarting__\">HandleTestClassStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestClassStarting\" text=\"ITestClassStarting\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestClassStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestCleanupFailure})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCleanupFailure__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestCleanupFailure(MessageHandlerArgs<ITestCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestCleanupFailure(MessageHandlerArgs(Of ITestCleanupFailure))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCleanupFailure(MessageHandlerArgs<ITestCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCleanupFailure(MessageHandlerArgs(Of ITestCleanupFailure))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestCleanupFailure))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCleanupFailure__\">HandleTestCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestCleanupFailure\" text=\"ITestCleanupFailure\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCleanupFailure__\">HandleTestCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestCleanupFailure\" text=\"ITestCleanupFailure\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestCleanupFailure\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestCollectionCleanupFailure})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionCleanupFailure__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestCollectionCleanupFailure(MessageHandlerArgs<ITestCollectionCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestCollectionCleanupFailure(MessageHandlerArgs(Of ITestCollectionCleanupFailure))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCollectionCleanupFailure(MessageHandlerArgs<ITestCollectionCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCollectionCleanupFailure(MessageHandlerArgs(Of ITestCollectionCleanupFailure))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestCollectionCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestCollectionCleanupFailure))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionCleanupFailure__\">HandleTestCollectionCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestCollectionCleanupFailure\" text=\"ITestCollectionCleanupFailure\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionCleanupFailure__\">HandleTestCollectionCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestCollectionCleanupFailure\" text=\"ITestCollectionCleanupFailure\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestCollectionCleanupFailure\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestCollectionFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestCollectionFinished(MessageHandlerArgs<ITestCollectionFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestCollectionFinished(MessageHandlerArgs(Of ITestCollectionFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCollectionFinished(MessageHandlerArgs<ITestCollectionFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCollectionFinished(MessageHandlerArgs(Of ITestCollectionFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestCollectionFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestCollectionFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionFinished__\">HandleTestCollectionFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestCollectionFinished\" text=\"ITestCollectionFinished\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionFinished__\">HandleTestCollectionFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestCollectionFinished\" text=\"ITestCollectionFinished\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestCollectionFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestCollectionStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestCollectionStarting(MessageHandlerArgs<ITestCollectionStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestCollectionStarting(MessageHandlerArgs(Of ITestCollectionStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCollectionStarting(MessageHandlerArgs<ITestCollectionStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestCollectionStarting(MessageHandlerArgs(Of ITestCollectionStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestCollectionStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestCollectionStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestCollectionStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionStarting__\">HandleTestCollectionStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestCollectionStarting\" text=\"ITestCollectionStarting\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestCollectionStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestCollectionStarting__\">HandleTestCollectionStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestCollectionStarting\" text=\"ITestCollectionStarting\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestCollectionStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestExecutionSummaries(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Runner.Common.TestExecutionSummaries})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestExecutionSummaries_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestExecutionSummaries__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestExecutionSummaries(MessageHandlerArgs<TestExecutionSummaries>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestExecutionSummaries(MessageHandlerArgs(Of TestExecutionSummaries))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestExecutionSummaries(MessageHandlerArgs<TestExecutionSummaries>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestExecutionSummaries(MessageHandlerArgs(Of TestExecutionSummaries))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestExecutionSummaries(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Runner.Common.TestExecutionSummaries>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestExecutionSummaries(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Runner.Common.TestExecutionSummaries))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestExecutionSummaries_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestExecutionSummaries__\">HandleTestExecutionSummaries</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<a class=\"xref\" href=\"Xunit.Runner.Common.TestExecutionSummaries.html\">TestExecutionSummaries</a>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestExecutionSummaries_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Runner_Common_TestExecutionSummaries__\">HandleTestExecutionSummaries</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <a class=\"xref\" href=\"Xunit.Runner.Common.TestExecutionSummaries.html\">TestExecutionSummaries</a>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Runner.Common.TestExecutionSummaries\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestFailed(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestFailed})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestFailed_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestFailed__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestFailed(MessageHandlerArgs<ITestFailed>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestFailed(MessageHandlerArgs(Of ITestFailed))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestFailed(MessageHandlerArgs<ITestFailed>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestFailed(MessageHandlerArgs(Of ITestFailed))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestFailed(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestFailed>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestFailed(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestFailed))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestFailed_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestFailed__\">HandleTestFailed</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestFailed\" text=\"ITestFailed\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestFailed_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestFailed__\">HandleTestFailed</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestFailed\" text=\"ITestFailed\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestFailed\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestFinished(MessageHandlerArgs<ITestFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestFinished(MessageHandlerArgs(Of ITestFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestFinished(MessageHandlerArgs<ITestFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestFinished(MessageHandlerArgs(Of ITestFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestFinished__\">HandleTestFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestFinished\" text=\"ITestFinished\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestFinished__\">HandleTestFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestFinished\" text=\"ITestFinished\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestMethodCleanupFailure})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodCleanupFailure__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestMethodCleanupFailure(MessageHandlerArgs<ITestMethodCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestMethodCleanupFailure(MessageHandlerArgs(Of ITestMethodCleanupFailure))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestMethodCleanupFailure(MessageHandlerArgs<ITestMethodCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestMethodCleanupFailure(MessageHandlerArgs(Of ITestMethodCleanupFailure))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestMethodCleanupFailure>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodCleanupFailure(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestMethodCleanupFailure))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodCleanupFailure__\">HandleTestMethodCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestMethodCleanupFailure\" text=\"ITestMethodCleanupFailure\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodCleanupFailure_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodCleanupFailure__\">HandleTestMethodCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestMethodCleanupFailure\" text=\"ITestMethodCleanupFailure\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestMethodCleanupFailure\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodFinished(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestMethodFinished})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodFinished__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestMethodFinished(MessageHandlerArgs<ITestMethodFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestMethodFinished(MessageHandlerArgs(Of ITestMethodFinished))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestMethodFinished(MessageHandlerArgs<ITestMethodFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestMethodFinished(MessageHandlerArgs(Of ITestMethodFinished))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodFinished(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestMethodFinished>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodFinished(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestMethodFinished))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodFinished__\">HandleTestMethodFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestMethodFinished\" text=\"ITestMethodFinished\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodFinished_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodFinished__\">HandleTestMethodFinished</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestMethodFinished\" text=\"ITestMethodFinished\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestMethodFinished\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestMethodStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestMethodStarting(MessageHandlerArgs<ITestMethodStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestMethodStarting(MessageHandlerArgs(Of ITestMethodStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestMethodStarting(MessageHandlerArgs<ITestMethodStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestMethodStarting(MessageHandlerArgs(Of ITestMethodStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestMethodStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestMethodStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestMethodStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodStarting__\">HandleTestMethodStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestMethodStarting\" text=\"ITestMethodStarting\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestMethodStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestMethodStarting__\">HandleTestMethodStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestMethodStarting\" text=\"ITestMethodStarting\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestMethodStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestOutput(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestOutput})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestOutput_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestOutput__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestOutput(MessageHandlerArgs<ITestOutput>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestOutput(MessageHandlerArgs(Of ITestOutput))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestOutput(MessageHandlerArgs<ITestOutput>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestOutput(MessageHandlerArgs(Of ITestOutput))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestOutput(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestOutput>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestOutput(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestOutput))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestOutput_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestOutput__\">HandleTestOutput</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestOutput\" text=\"ITestOutput\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestOutput_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestOutput__\">HandleTestOutput</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestOutput\" text=\"ITestOutput\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": null,
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestPassed(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestPassed})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestPassed_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestPassed__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestPassed(MessageHandlerArgs<ITestPassed>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestPassed(MessageHandlerArgs(Of ITestPassed))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestPassed(MessageHandlerArgs<ITestPassed>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestPassed(MessageHandlerArgs(Of ITestPassed))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestPassed(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestPassed>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestPassed(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestPassed))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestPassed_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestPassed__\">HandleTestPassed</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestPassed\" text=\"ITestPassed\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestPassed_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestPassed__\">HandleTestPassed</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestPassed\" text=\"ITestPassed\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestPassed\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestSkipped(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestSkipped})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestSkipped_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestSkipped__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestSkipped(MessageHandlerArgs<ITestSkipped>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestSkipped(MessageHandlerArgs(Of ITestSkipped))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestSkipped(MessageHandlerArgs<ITestSkipped>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestSkipped(MessageHandlerArgs(Of ITestSkipped))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestSkipped(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestSkipped>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestSkipped(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestSkipped))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestSkipped_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestSkipped__\">HandleTestSkipped</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestSkipped\" text=\"ITestSkipped\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestSkipped_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestSkipped__\">HandleTestSkipped</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestSkipped\" text=\"ITestSkipped\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestSkipped\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestStarting(Xunit.Runner.Common.MessageHandlerArgs{Xunit.Sdk.ITestStarting})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestStarting__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleTestStarting(MessageHandlerArgs<ITestStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleTestStarting(MessageHandlerArgs(Of ITestStarting))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestStarting(MessageHandlerArgs<ITestStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.HandleTestStarting(MessageHandlerArgs(Of ITestStarting))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestStarting(Xunit.Runner.Common.MessageHandlerArgs<Xunit.Sdk.ITestStarting>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.HandleTestStarting(Xunit.Runner.Common.MessageHandlerArgs(Of Xunit.Sdk.ITestStarting))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestStarting__\">HandleTestStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>&lt;<xref uid=\"Xunit.Sdk.ITestStarting\" text=\"ITestStarting\"/>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_HandleTestStarting_Xunit_Runner_Common_MessageHandlerArgs_Xunit_Sdk_ITestStarting__\">HandleTestStarting</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandlerArgs-1.html\">MessageHandlerArgs</a>(Of <xref uid=\"Xunit.Sdk.ITestStarting\" text=\"ITestStarting\"/>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Called when <xref href=\"Xunit.Sdk.ITestStarting\" data-throw-if-not-resolved=\"false\"></xref> is raised.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.WriteDefaultSummary(Xunit.Runner.Common.IRunnerLogger,Xunit.Runner.Common.TestExecutionSummaries)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler",
+      "href": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_WriteDefaultSummary_Xunit_Runner_Common_IRunnerLogger_Xunit_Runner_Common_TestExecutionSummaries_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteDefaultSummary(IRunnerLogger, TestExecutionSummaries)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteDefaultSummary(IRunnerLogger, TestExecutionSummaries)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DefaultRunnerReporterMessageHandler.WriteDefaultSummary(IRunnerLogger, TestExecutionSummaries)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefaultRunnerReporterMessageHandler.WriteDefaultSummary(IRunnerLogger, TestExecutionSummaries)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.WriteDefaultSummary(Xunit.Runner.Common.IRunnerLogger, Xunit.Runner.Common.TestExecutionSummaries)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.WriteDefaultSummary(Xunit.Runner.Common.IRunnerLogger, Xunit.Runner.Common.TestExecutionSummaries)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_WriteDefaultSummary_Xunit_Runner_Common_IRunnerLogger_Xunit_Runner_Common_TestExecutionSummaries_\">WriteDefaultSummary</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerLogger.html\">IRunnerLogger</a>, <a class=\"xref\" href=\"Xunit.Runner.Common.TestExecutionSummaries.html\">TestExecutionSummaries</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.html#Xunit_Runner_Common_DefaultRunnerReporterMessageHandler_WriteDefaultSummary_Xunit_Runner_Common_IRunnerLogger_Xunit_Runner_Common_TestExecutionSummaries_\">WriteDefaultSummary</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerLogger.html\">IRunnerLogger</a>, <a class=\"xref\" href=\"Xunit.Runner.Common.TestExecutionSummaries.html\">TestExecutionSummaries</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.DefaultRunnerReporterMessageHandler.yml\" sourcestartlinenumber=\"1\">Writes the default summary to the given logger. Can be used by other reporters who also wish to write the\nstandard summary information.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestMessageSink.Diagnostics",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestMessageSink",
+      "href": "Xunit.Runner.Common.TestMessageSink.html#Xunit_Runner_Common_TestMessageSink_Diagnostics",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Diagnostics"
+        },
+        {
+          "lang": "vb",
+          "value": "Diagnostics"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMessageSink.Diagnostics"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMessageSink.Diagnostics"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestMessageSink.Diagnostics"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestMessageSink.Diagnostics"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Diagnostics\" text=\"Diagnostics\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Diagnostics\" text=\"Diagnostics\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestMessageSink.yml\" sourcestartlinenumber=\"1\">Gets a list of diagnostics events that can be subscribed to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestMessageSink.Discovery",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestMessageSink",
+      "href": "Xunit.Runner.Common.TestMessageSink.html#Xunit_Runner_Common_TestMessageSink_Discovery",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Discovery"
+        },
+        {
+          "lang": "vb",
+          "value": "Discovery"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMessageSink.Discovery"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMessageSink.Discovery"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestMessageSink.Discovery"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestMessageSink.Discovery"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Discovery\" text=\"Discovery\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Discovery\" text=\"Discovery\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestMessageSink.yml\" sourcestartlinenumber=\"1\">Gets a list of discovery events that can be subscribed to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestMessageSink.Execution",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestMessageSink",
+      "href": "Xunit.Runner.Common.TestMessageSink.html#Xunit_Runner_Common_TestMessageSink_Execution",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Execution"
+        },
+        {
+          "lang": "vb",
+          "value": "Execution"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMessageSink.Execution"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMessageSink.Execution"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestMessageSink.Execution"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestMessageSink.Execution"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Execution\" text=\"Execution\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Execution\" text=\"Execution\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestMessageSink.yml\" sourcestartlinenumber=\"1\">Gets a list of execution events that can be subscribed to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestMessageSink.Runner",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestMessageSink",
+      "href": "Xunit.Runner.Common.TestMessageSink.html#Xunit_Runner_Common_TestMessageSink_Runner",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Runner"
+        },
+        {
+          "lang": "vb",
+          "value": "Runner"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMessageSink.Runner"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMessageSink.Runner"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestMessageSink.Runner"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestMessageSink.Runner"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Runner\" text=\"Runner\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMessageSink.Runner\" text=\"Runner\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestMessageSink.yml\" sourcestartlinenumber=\"1\">Gets a list of runner events that can be subscribed to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.AggregateMessageSink.AggregatedSinks",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AggregateMessageSink",
+      "href": "Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_AggregatedSinks",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AggregatedSinks"
+        },
+        {
+          "lang": "vb",
+          "value": "AggregatedSinks"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AggregateMessageSink.AggregatedSinks"
+        },
+        {
+          "lang": "vb",
+          "value": "AggregateMessageSink.AggregatedSinks"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.AggregatedSinks"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.AggregatedSinks"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AggregateMessageSink.AggregatedSinks\" text=\"AggregatedSinks\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AggregateMessageSink.AggregatedSinks\" text=\"AggregatedSinks\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AggregateMessageSink.yml\" sourcestartlinenumber=\"1\">The list of event dispatchers that are registered with the system.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.AggregateMessageSink.DisposeAsync",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AggregateMessageSink",
+      "href": "Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_DisposeAsync",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposeAsync()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AggregateMessageSink.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "AggregateMessageSink.DisposeAsync()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.DisposeAsync()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_DisposeAsync\">DisposeAsync</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_DisposeAsync\">DisposeAsync</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AggregateMessageSink.yml\" sourcestartlinenumber=\"1\">Performs application-defined tasks associated with freeing, releasing, or\nresetting unmanaged resources asynchronously.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.AggregateMessageSink.GetOrCreateAggregatedSink``1({TDispatcher}@)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AggregateMessageSink",
+      "definition": "Xunit.Runner.Common.AggregateMessageSink.GetOrCreateAggregatedSink``1(``0@)",
+      "href": "Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_GetOrCreateAggregatedSink__1___0__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetOrCreateAggregatedSink<TDispatcher>(ref TDispatcher)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetOrCreateAggregatedSink(Of TDispatcher)(TDispatcher)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AggregateMessageSink.GetOrCreateAggregatedSink<TDispatcher>(ref TDispatcher)"
+        },
+        {
+          "lang": "vb",
+          "value": "AggregateMessageSink.GetOrCreateAggregatedSink(Of TDispatcher)(TDispatcher)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.GetOrCreateAggregatedSink<TDispatcher>(ref TDispatcher)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.GetOrCreateAggregatedSink(Of TDispatcher)(TDispatcher)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_GetOrCreateAggregatedSink__1___0__\">GetOrCreateAggregatedSink</a>&lt;TDispatcher&gt;(ref TDispatcher)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_GetOrCreateAggregatedSink__1___0__\">GetOrCreateAggregatedSink</a>(Of TDispatcher)(TDispatcher)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.Runner.Common.AggregateMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AggregateMessageSink",
+      "href": "Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_OnMessage_Xunit_Sdk_IMessageSinkMessage_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "OnMessage(IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "OnMessage(IMessageSinkMessage)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AggregateMessageSink.OnMessage(IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "AggregateMessageSink.OnMessage(IMessageSinkMessage)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AggregateMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_OnMessage_Xunit_Sdk_IMessageSinkMessage_\">OnMessage</a>(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.AggregateMessageSink.html#Xunit_Runner_Common_AggregateMessageSink_OnMessage_Xunit_Sdk_IMessageSinkMessage_\">OnMessage</a>(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AggregateMessageSink.yml\" sourcestartlinenumber=\"1\">Reports the presence of a message on the message bus. This method should\nnever throw exceptions.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.VerboseReporterMessageHandler.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.VerboseReporterMessageHandler.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

@@ -1,0 +1,2326 @@
+{
+  "uid": "Xunit.Sdk.TestAttachment",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Sdk.TestAttachment.#ctor",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment()"
+        },
+        {
+          "lang": "vb",
+          "value": "New()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.TestAttachment()"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.New()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.TestAttachment()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.New()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.#ctor\" text=\"TestAttachment()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.#ctor\" text=\"TestAttachment()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "[Obsolete(\"Called by the de-serializer; should only be called by deriving classes for de-serialization purposes\")]\npublic TestAttachment()"
+          },
+          {
+            "lang": "vb",
+            "value": "<Obsolete(\"Called by the de-serializer; should only be called by deriving classes for de-serialization purposes\")>\nPublic Sub New()"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 23,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.TestAttachment"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.TestAttachment"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.#ctor*\" text=\"TestAttachment\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.#ctor*\" text=\"TestAttachment\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "attributes": [
+        {
+          "type": "System.ObsoleteAttribute",
+          "ctor": "System.ObsoleteAttribute.#ctor(System.String)",
+          "arguments": [
+            {
+              "type": "System.String",
+              "value": "Called by the de-serializer; should only be called by deriving classes for de-serialization purposes"
+            }
+          ]
+        }
+      ],
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Called by the de-serializer; should only be called by deriving classes for de-serialization purposes</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment.AsByteArray",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsByteArray()"
+        },
+        {
+          "lang": "vb",
+          "value": "AsByteArray()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.AsByteArray()"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.AsByteArray()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.AsByteArray()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.AsByteArray()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsByteArray\" text=\"AsByteArray()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsByteArray\" text=\"AsByteArray()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public (byte[] ByteArray, string MediaType) AsByteArray()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function AsByteArray() As (ByteArray As Byte(), MediaType As String)"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.ValueTuple{System.Byte[],System.String}",
+            "definition": "System.ValueTuple`2",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "(byte[] ByteArray, string MediaType)"
+              },
+              {
+                "lang": "vb",
+                "value": "(ByteArray As Byte(), MediaType As String)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "(byte[] ByteArray, string MediaType)"
+              },
+              {
+                "lang": "vb",
+                "value": "(ByteArray As Byte(), MediaType As String)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "(byte[] ByteArray, string MediaType)"
+              },
+              {
+                "lang": "vb",
+                "value": "(ByteArray As Byte(), MediaType As String)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">byte</a>[] <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.string-.bytearray\">ByteArray</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.string-.mediatype\">MediaType</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.string-.bytearray\">ByteArray</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">Byte</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.string-.mediatype\">MediaType</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AsByteArray",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 48,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.AsByteArray*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AsByteArray"
+          },
+          {
+            "lang": "vb",
+            "value": "AsByteArray"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.AsByteArray"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.AsByteArray"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.AsByteArray"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.AsByteArray"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsByteArray*\" text=\"AsByteArray\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsByteArray*\" text=\"AsByteArray\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Gets the attachment content as a byte array, along with the media type. Can only be called\nwhen <xref href=\"Xunit.Sdk.TestAttachment.AttachmentType\" data-throw-if-not-resolved=\"false\"></xref> returns <xref href=\"Xunit.Sdk.TestAttachmentType.ByteArray\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment.AsString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsString()"
+        },
+        {
+          "lang": "vb",
+          "value": "AsString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.AsString()"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.AsString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.AsString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.AsString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsString\" text=\"AsString()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsString\" text=\"AsString()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string AsString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function AsString() As String"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AsString",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 58,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.AsString*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AsString"
+          },
+          {
+            "lang": "vb",
+            "value": "AsString"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.AsString"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.AsString"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.AsString"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.AsString"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsString*\" text=\"AsString\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AsString*\" text=\"AsString\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Gets the attachment content as a string. Can only be called when <xref href=\"Xunit.Sdk.TestAttachment.AttachmentType\" data-throw-if-not-resolved=\"false\"></xref>\nreturns <xref href=\"Xunit.Sdk.TestAttachmentType.String\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment.AttachmentType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AttachmentType"
+        },
+        {
+          "lang": "vb",
+          "value": "AttachmentType"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.AttachmentType"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.AttachmentType"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.AttachmentType"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.AttachmentType"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AttachmentType\" text=\"AttachmentType\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AttachmentType\" text=\"AttachmentType\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public TestAttachmentType AttachmentType { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property AttachmentType As TestAttachmentType"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.TestAttachmentType",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachmentType"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachmentType"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachmentType"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachmentType"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.TestAttachmentType"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.TestAttachmentType"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachmentType\" text=\"TestAttachmentType\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachmentType\" text=\"TestAttachmentType\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AttachmentType",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 41,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.AttachmentType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AttachmentType"
+          },
+          {
+            "lang": "vb",
+            "value": "AttachmentType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.AttachmentType"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.AttachmentType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.AttachmentType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.AttachmentType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AttachmentType*\" text=\"AttachmentType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.AttachmentType*\" text=\"AttachmentType\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Gets the type of the test attachment.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment.Create(System.Byte[],System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Create(byte[], string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Create(Byte(), String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.Create(byte[], string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.Create(Byte(), String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.Create(byte[], string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.Create(Byte(), String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create(System.Byte[],System.String)\" text=\"Create(byte[], string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create(System.Byte[],System.String)\" text=\"Create(byte[], string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestAttachment Create(byte[] value, string mediaType)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Create(value As Byte(), mediaType As String) As TestAttachment"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.Byte[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "byte[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Byte()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "byte[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Byte()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "byte[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Byte()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">byte</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">Byte</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">The byte array value</p>\n"
+          },
+          {
+            "id": "mediaType",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">The media type</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.TestAttachment",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachment"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachment"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.TestAttachment"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Create",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 72,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "remarks": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">The <code class=\"paramref\">mediaType</code> value must be in the MIME &quot;type/subtype&quot; form, and does not support\nparameter values. The subtype is allowed to have a single &quot;+&quot; to denote specialization of the\nsubtype (i.e., &quot;application/xhtml+xml&quot;). For more information on media types, see\n<a href=\"https://datatracker.ietf.org/doc/html/rfc2045#section-5.1\">https://datatracker.ietf.org/doc/html/rfc2045#section-5.1</a>.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.Create*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Create"
+          },
+          {
+            "lang": "vb",
+            "value": "Create"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.Create"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.Create"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.Create"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.Create"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create*\" text=\"Create\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create*\" text=\"Create\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Creates an instance of <xref href=\"Xunit.Sdk.TestAttachment\" data-throw-if-not-resolved=\"false\"></xref> that wraps a byte array value.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment.Create(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Create(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Create(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.Create(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.Create(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.Create(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.Create(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create(System.String)\" text=\"Create(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create(System.String)\" text=\"Create(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestAttachment Create(string value)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Create(value As String) As TestAttachment"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.TestAttachment",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachment"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachment"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.TestAttachment"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Create",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 86,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.Create*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Create"
+          },
+          {
+            "lang": "vb",
+            "value": "Create"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.Create"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.Create"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.Create"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.Create"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create*\" text=\"Create\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Create*\" text=\"Create\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Creates an instance of <xref href=\"Xunit.Sdk.TestAttachment\" data-throw-if-not-resolved=\"false\"></xref> that wraps a string value.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment.Parse(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Parse(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Parse(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.Parse(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.Parse(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.Parse(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.Parse(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Parse(System.String)\" text=\"Parse(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Parse(System.String)\" text=\"Parse(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestAttachment Parse(string value)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Parse(value As String) As TestAttachment"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.TestAttachment",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachment"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "TestAttachment"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.TestAttachment"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.TestAttachment"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Parse",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 92,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.Parse*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Parse"
+          },
+          {
+            "lang": "vb",
+            "value": "Parse"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.Parse"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.Parse"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.Parse"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.Parse"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Parse*\" text=\"Parse\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.Parse*\" text=\"Parse\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Parses a value that was obtained by calling <xref href=\"Xunit.Sdk.TestAttachment.ToString\" data-throw-if-not-resolved=\"false\"></xref> back into a <xref href=\"Xunit.Sdk.TestAttachment\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.TestAttachment",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.ToString\" text=\"ToString()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment.ToString\" text=\"ToString()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function ToString() As String"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ToString",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+        "startLine": 119,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "System.Object.ToString",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString()"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "object.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Object.ToString()"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "object.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Object.ToString()"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.TestAttachment.ToString*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAttachment.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAttachment.ToString"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.TestAttachment.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.TestAttachment.ToString"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.ToString*\" text=\"ToString\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.TestAttachment.ToString*\" text=\"ToString\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Gets a string value for the test attachment. For string value attachments, will return the string value;\nfor byte array values, it will return the base-64 encoded value of the bytes.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestAttachment"
+    },
+    {
+      "lang": "vb",
+      "value": "TestAttachment"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestAttachment"
+    },
+    {
+      "lang": "vb",
+      "value": "TestAttachment"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk.TestAttachment"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk.TestAttachment"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.common/Options/TestAttachment.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestAttachment",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs",
+    "startLine": 10,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Represents an attachment to a test result.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class TestAttachment"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class TestAttachment"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.AsValueTask",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.AsValueTask(System.Object)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "AsValueTask(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Nullable{{T}},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,System.Nullable{``0},System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1({T},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,``0,System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/common/Xunit.Sdk.TestAttachment.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/common/toc.yml",
+  "_tocPath": "v3-2.0.0/common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

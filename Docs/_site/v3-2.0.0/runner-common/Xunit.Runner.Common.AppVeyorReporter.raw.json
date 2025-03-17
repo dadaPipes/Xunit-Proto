@@ -1,0 +1,2108 @@
+{
+  "uid": "Xunit.Runner.Common.AppVeyorReporter",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppVeyorReporter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CanBeEnvironmentallyEnabled"
+        },
+        {
+          "lang": "vb",
+          "value": "CanBeEnvironmentallyEnabled"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppVeyorReporter.CanBeEnvironmentallyEnabled"
+        },
+        {
+          "lang": "vb",
+          "value": "AppVeyorReporter.CanBeEnvironmentallyEnabled"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled\" text=\"CanBeEnvironmentallyEnabled\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled\" text=\"CanBeEnvironmentallyEnabled\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public bool CanBeEnvironmentallyEnabled { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property CanBeEnvironmentallyEnabled As Boolean"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "CanBeEnvironmentallyEnabled",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+        "startLine": 15,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Note that this differs from <xref href=\"Xunit.Runner.Common.IRunnerReporter.IsEnvironmentallyEnabled\" data-throw-if-not-resolved=\"false\"></xref> which checks to see whether\nthe conditions currently exist to environmentally enable the reporter. This value is used when\nconstructing the console runner help output that lists which runners might be environmentally\nenabled.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "CanBeEnvironmentallyEnabled"
+          },
+          {
+            "lang": "vb",
+            "value": "CanBeEnvironmentallyEnabled"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "AppVeyorReporter.CanBeEnvironmentallyEnabled"
+          },
+          {
+            "lang": "vb",
+            "value": "AppVeyorReporter.CanBeEnvironmentallyEnabled"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled*\" text=\"CanBeEnvironmentallyEnabled\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CanBeEnvironmentallyEnabled*\" text=\"CanBeEnvironmentallyEnabled\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Runner.Common.IRunnerReporter.CanBeEnvironmentallyEnabled",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CanBeEnvironmentallyEnabled"
+            },
+            {
+              "lang": "vb",
+              "value": "CanBeEnvironmentallyEnabled"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IRunnerReporter.CanBeEnvironmentallyEnabled"
+            },
+            {
+              "lang": "vb",
+              "value": "IRunnerReporter.CanBeEnvironmentallyEnabled"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Runner.Common.IRunnerReporter.CanBeEnvironmentallyEnabled"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Runner.Common.IRunnerReporter.CanBeEnvironmentallyEnabled"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.CanBeEnvironmentallyEnabled\" text=\"CanBeEnvironmentallyEnabled\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.CanBeEnvironmentallyEnabled\" text=\"CanBeEnvironmentallyEnabled\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Gets a value which indicates if it's possible for this reporter to be environmentally\nenabled.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger,Xunit.Sdk.IMessageSink)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppVeyorReporter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CreateMessageHandler(IRunnerLogger, IMessageSink?)"
+        },
+        {
+          "lang": "vb",
+          "value": "CreateMessageHandler(IRunnerLogger, IMessageSink)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppVeyorReporter.CreateMessageHandler(IRunnerLogger, IMessageSink?)"
+        },
+        {
+          "lang": "vb",
+          "value": "AppVeyorReporter.CreateMessageHandler(IRunnerLogger, IMessageSink)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger, Xunit.Sdk.IMessageSink?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger, Xunit.Sdk.IMessageSink)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger,Xunit.Sdk.IMessageSink)\" text=\"CreateMessageHandler(IRunnerLogger, IMessageSink?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger,Xunit.Sdk.IMessageSink)\" text=\"CreateMessageHandler(IRunnerLogger, IMessageSink?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask<IRunnerReporterMessageHandler> CreateMessageHandler(IRunnerLogger logger, IMessageSink? diagnosticMessageSink)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function CreateMessageHandler(logger As IRunnerLogger, diagnosticMessageSink As IMessageSink) As ValueTask(Of IRunnerReporterMessageHandler)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "logger",
+            "type": {
+              "uid": "Xunit.Runner.Common.IRunnerLogger",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IRunnerLogger"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IRunnerLogger"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IRunnerLogger"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IRunnerLogger"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Runner.Common.IRunnerLogger"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Runner.Common.IRunnerLogger"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Runner.Common.IRunnerLogger\" text=\"IRunnerLogger\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Runner.Common.IRunnerLogger\" text=\"IRunnerLogger\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">The logger used to send result messages to</p>\n"
+          },
+          {
+            "id": "diagnosticMessageSink",
+            "type": {
+              "uid": "Xunit.Sdk.IMessageSink",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSink"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IMessageSink"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IMessageSink"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">An optional message sink that diagnostic messages can be sent to.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask{Xunit.Runner.Common.IRunnerReporterMessageHandler}",
+            "definition": "System.Threading.Tasks.ValueTask`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IRunnerReporterMessageHandler>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IRunnerReporterMessageHandler)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IRunnerReporterMessageHandler>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IRunnerReporterMessageHandler)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask<Xunit.Runner.Common.IRunnerReporterMessageHandler>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask(Of Xunit.Runner.Common.IRunnerReporterMessageHandler)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerReporterMessageHandler.html\">IRunnerReporterMessageHandler</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerReporterMessageHandler.html\">IRunnerReporterMessageHandler</a>)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">The message handler that handles the messages</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "CreateMessageHandler",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+        "startLine": 35,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "CreateMessageHandler"
+          },
+          {
+            "lang": "vb",
+            "value": "CreateMessageHandler"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "AppVeyorReporter.CreateMessageHandler"
+          },
+          {
+            "lang": "vb",
+            "value": "AppVeyorReporter.CreateMessageHandler"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler*\" text=\"CreateMessageHandler\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.CreateMessageHandler*\" text=\"CreateMessageHandler\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Runner.Common.IRunnerReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger,Xunit.Sdk.IMessageSink)",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CreateMessageHandler(IRunnerLogger, IMessageSink)"
+            },
+            {
+              "lang": "vb",
+              "value": "CreateMessageHandler(IRunnerLogger, IMessageSink)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IRunnerReporter.CreateMessageHandler(IRunnerLogger, IMessageSink)"
+            },
+            {
+              "lang": "vb",
+              "value": "IRunnerReporter.CreateMessageHandler(IRunnerLogger, IMessageSink)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Runner.Common.IRunnerReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger, Xunit.Sdk.IMessageSink)"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Runner.Common.IRunnerReporter.CreateMessageHandler(Xunit.Runner.Common.IRunnerLogger, Xunit.Sdk.IMessageSink)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerReporter.html#Xunit_Runner_Common_IRunnerReporter_CreateMessageHandler_Xunit_Runner_Common_IRunnerLogger_Xunit_Sdk_IMessageSink_\">CreateMessageHandler</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerLogger.html\">IRunnerLogger</a>, <xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>)"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerReporter.html#Xunit_Runner_Common_IRunnerReporter_CreateMessageHandler_Xunit_Runner_Common_IRunnerLogger_Xunit_Sdk_IMessageSink_\">CreateMessageHandler</a>(<a class=\"xref\" href=\"Xunit.Runner.Common.IRunnerLogger.html\">IRunnerLogger</a>, <xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>)"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Creates a message handler that will report messages for the given\ntest assembly.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.AppVeyorReporter.Description",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppVeyorReporter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Description"
+        },
+        {
+          "lang": "vb",
+          "value": "Description"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppVeyorReporter.Description"
+        },
+        {
+          "lang": "vb",
+          "value": "AppVeyorReporter.Description"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.Description"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.Description"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.Description\" text=\"Description\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.Description\" text=\"Description\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string Description { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Description As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Description",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+        "startLine": 19,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.AppVeyorReporter.Description*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Description"
+          },
+          {
+            "lang": "vb",
+            "value": "Description"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "AppVeyorReporter.Description"
+          },
+          {
+            "lang": "vb",
+            "value": "AppVeyorReporter.Description"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.Description"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.Description"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.Description*\" text=\"Description\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.Description*\" text=\"Description\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Runner.Common.IRunnerReporter.Description",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Description"
+            },
+            {
+              "lang": "vb",
+              "value": "Description"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IRunnerReporter.Description"
+            },
+            {
+              "lang": "vb",
+              "value": "IRunnerReporter.Description"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Runner.Common.IRunnerReporter.Description"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Runner.Common.IRunnerReporter.Description"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.Description\" text=\"Description\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.Description\" text=\"Description\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Gets the description of the reporter. This is typically used when showing\nthe user the invocation option for the reporter.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppVeyorReporter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ForceNoLogo"
+        },
+        {
+          "lang": "vb",
+          "value": "ForceNoLogo"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppVeyorReporter.ForceNoLogo"
+        },
+        {
+          "lang": "vb",
+          "value": "AppVeyorReporter.ForceNoLogo"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo\" text=\"ForceNoLogo\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo\" text=\"ForceNoLogo\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public bool ForceNoLogo { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property ForceNoLogo As Boolean"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ForceNoLogo",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+        "startLine": 23,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ForceNoLogo"
+          },
+          {
+            "lang": "vb",
+            "value": "ForceNoLogo"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "AppVeyorReporter.ForceNoLogo"
+          },
+          {
+            "lang": "vb",
+            "value": "AppVeyorReporter.ForceNoLogo"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo*\" text=\"ForceNoLogo\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.ForceNoLogo*\" text=\"ForceNoLogo\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Runner.Common.IRunnerReporter.ForceNoLogo",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ForceNoLogo"
+            },
+            {
+              "lang": "vb",
+              "value": "ForceNoLogo"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IRunnerReporter.ForceNoLogo"
+            },
+            {
+              "lang": "vb",
+              "value": "IRunnerReporter.ForceNoLogo"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Runner.Common.IRunnerReporter.ForceNoLogo"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Runner.Common.IRunnerReporter.ForceNoLogo"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.ForceNoLogo\" text=\"ForceNoLogo\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.ForceNoLogo\" text=\"ForceNoLogo\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Gets a value which indicates whether this runner wishes to force no logo.\nUseful for runners which are designed for purely parseable output\n(for example, <xref href=\"Xunit.Runner.Common.JsonReporter\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppVeyorReporter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsEnvironmentallyEnabled"
+        },
+        {
+          "lang": "vb",
+          "value": "IsEnvironmentallyEnabled"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppVeyorReporter.IsEnvironmentallyEnabled"
+        },
+        {
+          "lang": "vb",
+          "value": "AppVeyorReporter.IsEnvironmentallyEnabled"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled\" text=\"IsEnvironmentallyEnabled\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled\" text=\"IsEnvironmentallyEnabled\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public bool IsEnvironmentallyEnabled { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property IsEnvironmentallyEnabled As Boolean"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "IsEnvironmentallyEnabled",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+        "startLine": 27,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">When a runner reporter is environmentally enabled in Microsoft Testing Platform\nCLI mode (or <code>dotnet test</code>), by default all realtime output is filtered except\ncalls to <xref href=\"Xunit.Runner.Common.IRunnerLogger.LogRaw(System.String)\" data-throw-if-not-resolved=\"false\"></xref> (unless the user has specified the\n<code>--xunit-info</code> switch). Environmentally enabled reporters that require\nrealtime console output (for example, to send formatted messages to a CI system\nwhich parses the console output) must use <xref href=\"Xunit.Runner.Common.IRunnerLogger.LogRaw(System.String)\" data-throw-if-not-resolved=\"false\"></xref> to\nensure those messages will always be visible. All other messages will always be\noutput to the Microsoft Testing Platform diagnostic logs, which are enabled via\nthe <code>--diagnostic</code> switch.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsEnvironmentallyEnabled"
+          },
+          {
+            "lang": "vb",
+            "value": "IsEnvironmentallyEnabled"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "AppVeyorReporter.IsEnvironmentallyEnabled"
+          },
+          {
+            "lang": "vb",
+            "value": "AppVeyorReporter.IsEnvironmentallyEnabled"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled*\" text=\"IsEnvironmentallyEnabled\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.IsEnvironmentallyEnabled*\" text=\"IsEnvironmentallyEnabled\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Runner.Common.IRunnerReporter.IsEnvironmentallyEnabled",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsEnvironmentallyEnabled"
+            },
+            {
+              "lang": "vb",
+              "value": "IsEnvironmentallyEnabled"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IRunnerReporter.IsEnvironmentallyEnabled"
+            },
+            {
+              "lang": "vb",
+              "value": "IRunnerReporter.IsEnvironmentallyEnabled"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Runner.Common.IRunnerReporter.IsEnvironmentallyEnabled"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Runner.Common.IRunnerReporter.IsEnvironmentallyEnabled"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.IsEnvironmentallyEnabled\" text=\"IsEnvironmentallyEnabled\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.IsEnvironmentallyEnabled\" text=\"IsEnvironmentallyEnabled\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Gets a value which indicates whether the reporter should be\nenvironmentally enabled.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppVeyorReporter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RunnerSwitch"
+        },
+        {
+          "lang": "vb",
+          "value": "RunnerSwitch"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppVeyorReporter.RunnerSwitch"
+        },
+        {
+          "lang": "vb",
+          "value": "AppVeyorReporter.RunnerSwitch"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch\" text=\"RunnerSwitch\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch\" text=\"RunnerSwitch\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string? RunnerSwitch { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property RunnerSwitch As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "RunnerSwitch",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+        "startLine": 31,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Runner switches are only used in xUnit.net native CLI mode. When Microsoft\nTesting Platform CLI mode is enabled, reporters are only supported via environmental\nenablement, since MTP generally controls all the normal output.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RunnerSwitch"
+          },
+          {
+            "lang": "vb",
+            "value": "RunnerSwitch"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "AppVeyorReporter.RunnerSwitch"
+          },
+          {
+            "lang": "vb",
+            "value": "AppVeyorReporter.RunnerSwitch"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch*\" text=\"RunnerSwitch\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.AppVeyorReporter.RunnerSwitch*\" text=\"RunnerSwitch\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Runner.Common.IRunnerReporter.RunnerSwitch",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RunnerSwitch"
+            },
+            {
+              "lang": "vb",
+              "value": "RunnerSwitch"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IRunnerReporter.RunnerSwitch"
+            },
+            {
+              "lang": "vb",
+              "value": "IRunnerReporter.RunnerSwitch"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Runner.Common.IRunnerReporter.RunnerSwitch"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Runner.Common.IRunnerReporter.RunnerSwitch"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.RunnerSwitch\" text=\"RunnerSwitch\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter.RunnerSwitch\" text=\"RunnerSwitch\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">Gets a value which indicates a runner switch which can be used\nto explicitly enable the runner. If the return value is <code>null</code>,\nthen the reported can only be environmentally enabled (implicitly).\nThis value is used either as a command line switch (with the console or\n.NET CLI runner) or as a runner configuration value (with the MSBuild runner).</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "AppVeyorReporter"
+    },
+    {
+      "lang": "vb",
+      "value": "AppVeyorReporter"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "AppVeyorReporter"
+    },
+    {
+      "lang": "vb",
+      "value": "AppVeyorReporter"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.AppVeyorReporter"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.AppVeyorReporter"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "AppVeyorReporter",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Reporters/Builtin/AppVeyorReporter.cs",
+    "startLine": 12,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml\" sourcestartlinenumber=\"1\">An implementation of <xref href=\"Xunit.Runner.Common.IRunnerReporter\" data-throw-if-not-resolved=\"false\"></xref> that reports results to AppVeyor. This\nis auto-enabled by the presence of the &quot;APPVEYOR_API_URL&quot; environment variable, which points\nto the AppVeyor API endpoint that is used to report tests. It has no switch for manual\nenablement, since the API endpoint is required.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class AppVeyorReporter : IRunnerReporter"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class AppVeyorReporter Implements IRunnerReporter"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Xunit.Runner.Common.IRunnerReporter",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IRunnerReporter"
+        },
+        {
+          "lang": "vb",
+          "value": "IRunnerReporter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IRunnerReporter"
+        },
+        {
+          "lang": "vb",
+          "value": "IRunnerReporter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.IRunnerReporter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.IRunnerReporter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter\" text=\"IRunnerReporter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.IRunnerReporter\" text=\"IRunnerReporter\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.AppVeyorReporter.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

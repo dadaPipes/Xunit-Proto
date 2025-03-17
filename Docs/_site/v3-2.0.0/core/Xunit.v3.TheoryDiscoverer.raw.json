@@ -1,0 +1,1806 @@
+{
+  "uid": "Xunit.v3.TheoryDiscoverer",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute,Xunit.ITheoryDataRow,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TheoryDiscoverer",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CreateTestCasesForDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "CreateTestCasesForDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDiscoverer.CreateTestCasesForDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDiscoverer.CreateTestCasesForDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.ITheoryAttribute, Xunit.ITheoryDataRow, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.ITheoryAttribute, Xunit.ITheoryDataRow, Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute,Xunit.ITheoryDataRow,System.Object[])\" text=\"CreateTestCasesForDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute,Xunit.ITheoryDataRow,System.Object[])\" text=\"CreateTestCasesForDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected virtual ValueTask<IReadOnlyCollection<IXunitTestCase>> CreateTestCasesForDataRow(ITestFrameworkDiscoveryOptions discoveryOptions, IXunitTestMethod testMethod, ITheoryAttribute theoryAttribute, ITheoryDataRow dataRow, object?[] testMethodArguments)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overridable Function CreateTestCasesForDataRow(discoveryOptions As ITestFrameworkDiscoveryOptions, testMethod As IXunitTestMethod, theoryAttribute As ITheoryAttribute, dataRow As ITheoryDataRow, testMethodArguments As Object()) As ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "discoveryOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The discovery options to be used.</p>\n"
+          },
+          {
+            "id": "testMethod",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestMethod",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The test method the test cases belong to.</p>\n"
+          },
+          {
+            "id": "theoryAttribute",
+            "type": {
+              "uid": "Xunit.v3.ITheoryAttribute",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryAttribute"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryAttribute"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.ITheoryAttribute"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.ITheoryAttribute\" text=\"ITheoryAttribute\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.ITheoryAttribute\" text=\"ITheoryAttribute\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The theory attribute attached to the test method.</p>\n"
+          },
+          {
+            "id": "dataRow",
+            "type": {
+              "uid": "Xunit.ITheoryDataRow",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryDataRow"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryDataRow"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.ITheoryDataRow"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The data row that generated <code class=\"paramref\">testMethodArguments</code>.</p>\n"
+          },
+          {
+            "id": "testMethodArguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The arguments for the test method.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask{System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IXunitTestCase}}",
+            "definition": "System.Threading.Tasks.ValueTask`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IReadOnlyCollection<IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IReadOnlyCollection<IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask<System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask(Of System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IXunitTestCase))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The test cases</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "CreateTestCasesForDataRow",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+        "startLine": 25,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "CreateTestCasesForDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "CreateTestCasesForDataRow"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDiscoverer.CreateTestCasesForDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "TheoryDiscoverer.CreateTestCasesForDataRow"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow*\" text=\"CreateTestCasesForDataRow\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow*\" text=\"CreateTestCasesForDataRow\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">Creates test cases for a single row of data. By default, returns a single instance of <xref href=\"Xunit.v3.XunitTestCase\" data-throw-if-not-resolved=\"false\"></xref>\nwith the data row inside of it.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TheoryDiscoverer",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CreateTestCasesForTheory(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute)"
+        },
+        {
+          "lang": "vb",
+          "value": "CreateTestCasesForTheory(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDiscoverer.CreateTestCasesForTheory(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute)"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDiscoverer.CreateTestCasesForTheory(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.ITheoryAttribute)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.ITheoryAttribute)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute)\" text=\"CreateTestCasesForTheory(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute)\" text=\"CreateTestCasesForTheory(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected virtual ValueTask<IReadOnlyCollection<IXunitTestCase>> CreateTestCasesForTheory(ITestFrameworkDiscoveryOptions discoveryOptions, IXunitTestMethod testMethod, ITheoryAttribute theoryAttribute)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overridable Function CreateTestCasesForTheory(discoveryOptions As ITestFrameworkDiscoveryOptions, testMethod As IXunitTestMethod, theoryAttribute As ITheoryAttribute) As ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "discoveryOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The discovery options to be used.</p>\n"
+          },
+          {
+            "id": "testMethod",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestMethod",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The test method the test cases belong to.</p>\n"
+          },
+          {
+            "id": "theoryAttribute",
+            "type": {
+              "uid": "Xunit.v3.ITheoryAttribute",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryAttribute"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryAttribute"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.ITheoryAttribute"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.ITheoryAttribute\" text=\"ITheoryAttribute\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.ITheoryAttribute\" text=\"ITheoryAttribute\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The theory attribute attached to the test method.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask{System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IXunitTestCase}}",
+            "definition": "System.Threading.Tasks.ValueTask`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IReadOnlyCollection<IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IReadOnlyCollection<IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask<System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask(Of System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IXunitTestCase))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The test case</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "CreateTestCasesForTheory",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+        "startLine": 73,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "CreateTestCasesForTheory"
+          },
+          {
+            "lang": "vb",
+            "value": "CreateTestCasesForTheory"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDiscoverer.CreateTestCasesForTheory"
+          },
+          {
+            "lang": "vb",
+            "value": "TheoryDiscoverer.CreateTestCasesForTheory"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory*\" text=\"CreateTestCasesForTheory\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory*\" text=\"CreateTestCasesForTheory\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">Creates test cases for the entire theory. This is used when one or more of the theory data items\nare not serializable, or if the user has requested to skip theory pre-enumeration, or if the user\nhas requested the entire theory be skipped. By default, returns a single instance\nof <xref href=\"Xunit.v3.XunitDelayEnumeratedTheoryTestCase\" data-throw-if-not-resolved=\"false\"></xref> (which performs the\ndata discovery at runtime, for non-skipped theories) or <xref href=\"Xunit.v3.XunitTestCase\" data-throw-if-not-resolved=\"false\"></xref>\n(for skipped theories).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.TheoryDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.IFactAttribute)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TheoryDiscoverer",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+        },
+        {
+          "lang": "vb",
+          "value": "Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDiscoverer.Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDiscoverer.Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TheoryDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.IFactAttribute)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TheoryDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.IFactAttribute)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.IFactAttribute)\" text=\"Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.IFactAttribute)\" text=\"Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public virtual ValueTask<IReadOnlyCollection<IXunitTestCase>> Discover(ITestFrameworkDiscoveryOptions discoveryOptions, IXunitTestMethod testMethod, IFactAttribute factAttribute)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overridable Function Discover(discoveryOptions As ITestFrameworkDiscoveryOptions, testMethod As IXunitTestMethod, factAttribute As IFactAttribute) As ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "discoveryOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The discovery options to be used.</p>\n"
+          },
+          {
+            "id": "testMethod",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestMethod",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The test method the test cases belong to.</p>\n"
+          },
+          {
+            "id": "factAttribute",
+            "type": {
+              "uid": "Xunit.v3.IFactAttribute",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IFactAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IFactAttribute"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IFactAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IFactAttribute"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IFactAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IFactAttribute"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IFactAttribute\" text=\"IFactAttribute\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IFactAttribute\" text=\"IFactAttribute\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">The theory attribute attached to the test method.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask{System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IXunitTestCase}}",
+            "definition": "System.Threading.Tasks.ValueTask`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IReadOnlyCollection<IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<IReadOnlyCollection<IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of IReadOnlyCollection(Of IXunitTestCase))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask<System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IXunitTestCase>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask(Of System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IXunitTestCase))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">Returns zero or more test cases represented by the test method.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Discover",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+        "startLine": 132,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">This method performs the following steps:<br></p>\n<ul sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"2\">If the theory attribute is marked with Skip, or pre-enumeration is off, or any of the test data is non serializable,\nreturns the result of <xref href=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForTheory(Xunit.Sdk.ITestFrameworkDiscoveryOptions%2cXunit.v3.IXunitTestMethod%2cXunit.v3.ITheoryAttribute)\" data-throw-if-not-resolved=\"false\"></xref>;<br></li>\n<li sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"4\">If there is no theory data, returns a single test case of <xref href=\"Xunit.v3.ExecutionErrorTestCase\" data-throw-if-not-resolved=\"false\"></xref> with the error in it;<br></li>\n<li sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"5\">Otherwise, it returns one test case per data row, created by calling <xref href=\"Xunit.v3.TheoryDiscoverer.CreateTestCasesForDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions%2cXunit.v3.IXunitTestMethod%2cXunit.v3.ITheoryAttribute%2cXunit.ITheoryDataRow%2cSystem.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>.</li>\n</ul>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.TheoryDiscoverer.Discover*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Discover"
+          },
+          {
+            "lang": "vb",
+            "value": "Discover"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDiscoverer.Discover"
+          },
+          {
+            "lang": "vb",
+            "value": "TheoryDiscoverer.Discover"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TheoryDiscoverer.Discover"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TheoryDiscoverer.Discover"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.Discover*\" text=\"Discover\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.TheoryDiscoverer.Discover*\" text=\"Discover\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestCaseDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.IFactAttribute)",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+            },
+            {
+              "lang": "vb",
+              "value": "Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestCaseDiscoverer.Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestCaseDiscoverer.Discover(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestCaseDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.IFactAttribute)"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestCaseDiscoverer.Discover(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.IFactAttribute)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestCaseDiscoverer.html#Xunit_v3_IXunitTestCaseDiscoverer_Discover_Xunit_Sdk_ITestFrameworkDiscoveryOptions_Xunit_v3_IXunitTestMethod_Xunit_v3_IFactAttribute_\">Discover</a>(<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html\">IXunitTestMethod</a>, <a class=\"xref\" href=\"Xunit.v3.IFactAttribute.html\">IFactAttribute</a>)"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestCaseDiscoverer.html#Xunit_v3_IXunitTestCaseDiscoverer_Discover_Xunit_Sdk_ITestFrameworkDiscoveryOptions_Xunit_v3_IXunitTestMethod_Xunit_v3_IFactAttribute_\">Discover</a>(<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html\">IXunitTestMethod</a>, <a class=\"xref\" href=\"Xunit.v3.IFactAttribute.html\">IFactAttribute</a>)"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">Discover test cases from a test method.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TheoryDiscoverer"
+    },
+    {
+      "lang": "vb",
+      "value": "TheoryDiscoverer"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TheoryDiscoverer"
+    },
+    {
+      "lang": "vb",
+      "value": "TheoryDiscoverer"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.TheoryDiscoverer"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.TheoryDiscoverer"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TheoryDiscoverer",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Framework/TheoryDiscoverer.cs",
+    "startLine": 13,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.v3.IXunitTestCaseDiscoverer\" data-throw-if-not-resolved=\"false\"></xref> that supports finding test cases\non methods decorated with <xref href=\"Xunit.v3.ITheoryAttribute\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class TheoryDiscoverer : IXunitTestCaseDiscoverer"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class TheoryDiscoverer Implements IXunitTestCaseDiscoverer"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Xunit.v3.IXunitTestCaseDiscoverer",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IXunitTestCaseDiscoverer"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitTestCaseDiscoverer"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IXunitTestCaseDiscoverer"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitTestCaseDiscoverer"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.IXunitTestCaseDiscoverer"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.IXunitTestCaseDiscoverer"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.IXunitTestCaseDiscoverer\" text=\"IXunitTestCaseDiscoverer\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.IXunitTestCaseDiscoverer\" text=\"IXunitTestCaseDiscoverer\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.TheoryDiscoverer.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

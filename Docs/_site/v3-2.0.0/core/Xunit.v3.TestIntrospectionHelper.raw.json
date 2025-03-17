@@ -1,0 +1,2027 @@
+{
+  "uid": "Xunit.v3.TestIntrospectionHelper",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.IFactAttribute,System.Object[],System.Nullable{System.Int32},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestIntrospectionHelper",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetTestCaseDetails(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute, object?[]?, int?, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetTestCaseDetails(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute, Object(), Integer?, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestIntrospectionHelper.GetTestCaseDetails(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute, object?[]?, int?, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestIntrospectionHelper.GetTestCaseDetails(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute, Object(), Integer?, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.IFactAttribute, object?[]?, int?, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.IFactAttribute, Object(), Integer?, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.IFactAttribute,System.Object[],System.Nullable{System.Int32},System.String)\" text=\"GetTestCaseDetails(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute, object?[]?, int?, string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.IFactAttribute,System.Object[],System.Nullable{System.Int32},System.String)\" text=\"GetTestCaseDetails(ITestFrameworkDiscoveryOptions, IXunitTestMethod, IFactAttribute, object?[]?, int?, string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static (string TestCaseDisplayName, bool Explicit, Type[]? SkipExceptions, string? SkipReason, Type? SkipType, string? SkipUnless, string? SkipWhen, int Timeout, string UniqueID, IXunitTestMethod ResolvedTestMethod) GetTestCaseDetails(ITestFrameworkDiscoveryOptions discoveryOptions, IXunitTestMethod testMethod, IFactAttribute factAttribute, object?[]? testMethodArguments = null, int? timeout = null, string? baseDisplayName = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function GetTestCaseDetails(discoveryOptions As ITestFrameworkDiscoveryOptions, testMethod As IXunitTestMethod, factAttribute As IFactAttribute, testMethodArguments As Object() = Nothing, timeout As Integer? = Nothing, baseDisplayName As String = Nothing) As (TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As Type(), SkipReason As String, SkipType As Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As IXunitTestMethod)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "discoveryOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The options used for discovery.</p>\n"
+          },
+          {
+            "id": "testMethod",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestMethod",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The test method.</p>\n"
+          },
+          {
+            "id": "factAttribute",
+            "type": {
+              "uid": "Xunit.v3.IFactAttribute",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IFactAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IFactAttribute"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IFactAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IFactAttribute"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IFactAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IFactAttribute"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IFactAttribute\" text=\"IFactAttribute\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IFactAttribute\" text=\"IFactAttribute\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The fact attribute that decorates the test method.</p>\n"
+          },
+          {
+            "id": "testMethodArguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The optional test method arguments.</p>\n"
+          },
+          {
+            "id": "timeout",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The optional timeout; if not provided, will be looked up from the <code class=\"paramref\">factAttribute</code>.</p>\n"
+          },
+          {
+            "id": "baseDisplayName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The optional base display name for the test method.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.ValueTuple{System.String,System.Boolean,System.Type[],System.String,System.Type,System.String,System.String,System.ValueTuple{System.Int32,System.String,Xunit.v3.IXunitTestMethod}}",
+            "definition": "System.ValueTuple`8",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "(string TestCaseDisplayName, bool Explicit, Type[] SkipExceptions, string SkipReason, Type SkipType, string SkipUnless, string SkipWhen, int Timeout, string UniqueID, IXunitTestMethod ResolvedTestMethod)"
+              },
+              {
+                "lang": "vb",
+                "value": "(TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As Type(), SkipReason As String, SkipType As Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As IXunitTestMethod)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "(string TestCaseDisplayName, bool Explicit, Type[] SkipExceptions, string SkipReason, Type SkipType, string SkipUnless, string SkipWhen, int Timeout, string UniqueID, IXunitTestMethod ResolvedTestMethod)"
+              },
+              {
+                "lang": "vb",
+                "value": "(TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As Type(), SkipReason As String, SkipType As Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As IXunitTestMethod)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "(string TestCaseDisplayName, bool Explicit, System.Type[] SkipExceptions, string SkipReason, System.Type SkipType, string SkipUnless, string SkipWhen, int Timeout, string UniqueID, Xunit.v3.IXunitTestMethod ResolvedTestMethod)"
+              },
+              {
+                "lang": "vb",
+                "value": "(TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As System.Type(), SkipReason As String, SkipType As System.Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As Xunit.v3.IXunitTestMethod)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.testcasedisplayname\">TestCaseDisplayName</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.explicit\">Explicit</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[] <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipexceptions\">SkipExceptions</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipreason\">SkipReason</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skiptype\">SkipType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipunless\">SkipUnless</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipwhen\">SkipWhen</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.timeout\">Timeout</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.uniqueid\">UniqueID</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html\">IXunitTestMethod</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.resolvedtestmethod\">ResolvedTestMethod</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.testcasedisplayname\">TestCaseDisplayName</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.explicit\">Explicit</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipexceptions\">SkipExceptions</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipreason\">SkipReason</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skiptype\">SkipType</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipunless\">SkipUnless</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipwhen\">SkipWhen</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.timeout\">Timeout</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.uniqueid\">UniqueID</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.resolvedtestmethod\">ResolvedTestMethod</a> As <a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html\">IXunitTestMethod</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetTestCaseDetails",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+        "startLine": 24,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetTestCaseDetails"
+          },
+          {
+            "lang": "vb",
+            "value": "GetTestCaseDetails"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestIntrospectionHelper.GetTestCaseDetails"
+          },
+          {
+            "lang": "vb",
+            "value": "TestIntrospectionHelper.GetTestCaseDetails"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails*\" text=\"GetTestCaseDetails\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetails*\" text=\"GetTestCaseDetails\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">Retrieve the details for a test case that is a test method decorated with an\ninstance of <xref href=\"Xunit.v3.IFactAttribute\" data-throw-if-not-resolved=\"false\"></xref> (or derived).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute,Xunit.ITheoryDataRow,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestIntrospectionHelper",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetTestCaseDetailsForTheoryDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "GetTestCaseDetailsForTheoryDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.ITheoryAttribute, Xunit.ITheoryDataRow, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions, Xunit.v3.IXunitTestMethod, Xunit.v3.ITheoryAttribute, Xunit.ITheoryDataRow, Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute,Xunit.ITheoryDataRow,System.Object[])\" text=\"GetTestCaseDetailsForTheoryDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow(Xunit.Sdk.ITestFrameworkDiscoveryOptions,Xunit.v3.IXunitTestMethod,Xunit.v3.ITheoryAttribute,Xunit.ITheoryDataRow,System.Object[])\" text=\"GetTestCaseDetailsForTheoryDataRow(ITestFrameworkDiscoveryOptions, IXunitTestMethod, ITheoryAttribute, ITheoryDataRow, object?[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static (string TestCaseDisplayName, bool Explicit, Type[]? SkipExceptions, string? SkipReason, Type? SkipType, string? SkipUnless, string? SkipWhen, int Timeout, string UniqueID, IXunitTestMethod ResolvedTestMethod) GetTestCaseDetailsForTheoryDataRow(ITestFrameworkDiscoveryOptions discoveryOptions, IXunitTestMethod testMethod, ITheoryAttribute theoryAttribute, ITheoryDataRow dataRow, object?[] testMethodArguments)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function GetTestCaseDetailsForTheoryDataRow(discoveryOptions As ITestFrameworkDiscoveryOptions, testMethod As IXunitTestMethod, theoryAttribute As ITheoryAttribute, dataRow As ITheoryDataRow, testMethodArguments As Object()) As (TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As Type(), SkipReason As String, SkipType As Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As IXunitTestMethod)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "discoveryOptions",
+            "type": {
+              "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The options used for discovery.</p>\n"
+          },
+          {
+            "id": "testMethod",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestMethod",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The test method.</p>\n"
+          },
+          {
+            "id": "theoryAttribute",
+            "type": {
+              "uid": "Xunit.v3.ITheoryAttribute",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryAttribute"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryAttribute"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.ITheoryAttribute"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.ITheoryAttribute"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.ITheoryAttribute\" text=\"ITheoryAttribute\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.ITheoryAttribute\" text=\"ITheoryAttribute\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The theory attribute that decorates the test method.</p>\n"
+          },
+          {
+            "id": "dataRow",
+            "type": {
+              "uid": "Xunit.ITheoryDataRow",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryDataRow"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryDataRow"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.ITheoryDataRow"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The data row for the test.</p>\n"
+          },
+          {
+            "id": "testMethodArguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The test method arguments obtained from the <code class=\"paramref\">dataRow</code> after being type-resolved.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.ValueTuple{System.String,System.Boolean,System.Type[],System.String,System.Type,System.String,System.String,System.ValueTuple{System.Int32,System.String,Xunit.v3.IXunitTestMethod}}",
+            "definition": "System.ValueTuple`8",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "(string TestCaseDisplayName, bool Explicit, Type[] SkipExceptions, string SkipReason, Type SkipType, string SkipUnless, string SkipWhen, int Timeout, string UniqueID, IXunitTestMethod ResolvedTestMethod)"
+              },
+              {
+                "lang": "vb",
+                "value": "(TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As Type(), SkipReason As String, SkipType As Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As IXunitTestMethod)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "(string TestCaseDisplayName, bool Explicit, Type[] SkipExceptions, string SkipReason, Type SkipType, string SkipUnless, string SkipWhen, int Timeout, string UniqueID, IXunitTestMethod ResolvedTestMethod)"
+              },
+              {
+                "lang": "vb",
+                "value": "(TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As Type(), SkipReason As String, SkipType As Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As IXunitTestMethod)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "(string TestCaseDisplayName, bool Explicit, System.Type[] SkipExceptions, string SkipReason, System.Type SkipType, string SkipUnless, string SkipWhen, int Timeout, string UniqueID, Xunit.v3.IXunitTestMethod ResolvedTestMethod)"
+              },
+              {
+                "lang": "vb",
+                "value": "(TestCaseDisplayName As String, Explicit As Boolean, SkipExceptions As System.Type(), SkipReason As String, SkipType As System.Type, SkipUnless As String, SkipWhen As String, Timeout As Integer, UniqueID As String, ResolvedTestMethod As Xunit.v3.IXunitTestMethod)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.testcasedisplayname\">TestCaseDisplayName</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.explicit\">Explicit</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[] <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipexceptions\">SkipExceptions</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipreason\">SkipReason</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skiptype\">SkipType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipunless\">SkipUnless</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipwhen\">SkipWhen</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.timeout\">Timeout</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.uniqueid\">UniqueID</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html\">IXunitTestMethod</a> <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.resolvedtestmethod\">ResolvedTestMethod</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.testcasedisplayname\">TestCaseDisplayName</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.explicit\">Explicit</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipexceptions\">SkipExceptions</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipreason\">SkipReason</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skiptype\">SkipType</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipunless\">SkipUnless</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.skipwhen\">SkipWhen</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.timeout\">Timeout</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.uniqueid\">UniqueID</a> As <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.boolean,system.type[],system.string,system.type,system.string,system.string,system.valuetuple-system.int32,system.string,xunit.v3.ixunittestmethod--.resolvedtestmethod\">ResolvedTestMethod</a> As <a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html\">IXunitTestMethod</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetTestCaseDetailsForTheoryDataRow",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+        "startLine": 84,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetTestCaseDetailsForTheoryDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "GetTestCaseDetailsForTheoryDataRow"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow*\" text=\"GetTestCaseDetailsForTheoryDataRow\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTestCaseDetailsForTheoryDataRow*\" text=\"GetTestCaseDetailsForTheoryDataRow\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">Retrieve the details for a test case that is a test method decorated with an instance\nof <xref href=\"Xunit.v3.ITheoryAttribute\" data-throw-if-not-resolved=\"false\"></xref> (or derived) when you have a data row. The data row\nis used to augment the returned information (traits, skip reason, etc.).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.TestIntrospectionHelper.GetTraits(Xunit.v3.IXunitTestMethod,Xunit.ITheoryDataRow)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestIntrospectionHelper",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetTraits(IXunitTestMethod, ITheoryDataRow?)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetTraits(IXunitTestMethod, ITheoryDataRow)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestIntrospectionHelper.GetTraits(IXunitTestMethod, ITheoryDataRow?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestIntrospectionHelper.GetTraits(IXunitTestMethod, ITheoryDataRow)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestIntrospectionHelper.GetTraits(Xunit.v3.IXunitTestMethod, Xunit.ITheoryDataRow?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestIntrospectionHelper.GetTraits(Xunit.v3.IXunitTestMethod, Xunit.ITheoryDataRow)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTraits(Xunit.v3.IXunitTestMethod,Xunit.ITheoryDataRow)\" text=\"GetTraits(IXunitTestMethod, ITheoryDataRow?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTraits(Xunit.v3.IXunitTestMethod,Xunit.ITheoryDataRow)\" text=\"GetTraits(IXunitTestMethod, ITheoryDataRow?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Dictionary<string, HashSet<string>> GetTraits(IXunitTestMethod testMethod, ITheoryDataRow? dataRow)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function GetTraits(testMethod As IXunitTestMethod, dataRow As ITheoryDataRow) As Dictionary(Of String, HashSet(Of String))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "testMethod",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestMethod",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestMethod"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestMethod"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The test method to get traits from.</p>\n"
+          },
+          {
+            "id": "dataRow",
+            "type": {
+              "uid": "Xunit.ITheoryDataRow",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryDataRow"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITheoryDataRow"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.ITheoryDataRow"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.ITheoryDataRow"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The data row to get traits from.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}}",
+            "definition": "System.Collections.Generic.Dictionary`2",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Dictionary<string, HashSet<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Dictionary(Of String, HashSet(Of String))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Dictionary<string, HashSet<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Dictionary(Of String, HashSet(Of String))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.Dictionary<string, System.Collections.Generic.HashSet<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.Dictionary(Of String, System.Collections.Generic.HashSet(Of String))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The traits dictionary</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetTraits",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+        "startLine": 126,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.TestIntrospectionHelper.GetTraits*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetTraits"
+          },
+          {
+            "lang": "vb",
+            "value": "GetTraits"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestIntrospectionHelper.GetTraits"
+          },
+          {
+            "lang": "vb",
+            "value": "TestIntrospectionHelper.GetTraits"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestIntrospectionHelper.GetTraits"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestIntrospectionHelper.GetTraits"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTraits*\" text=\"GetTraits\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.GetTraits*\" text=\"GetTraits\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">Merges the traits from the test method (which already reflect the traits from the test\nassembly, test collection, and test class) with the traits attached to the data row.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.TestIntrospectionHelper.MergeTraitsInto(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}},System.String[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestIntrospectionHelper",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MergeTraitsInto(Dictionary<string, HashSet<string>>, string[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "MergeTraitsInto(Dictionary(Of String, HashSet(Of String)), String())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestIntrospectionHelper.MergeTraitsInto(Dictionary<string, HashSet<string>>, string[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestIntrospectionHelper.MergeTraitsInto(Dictionary(Of String, HashSet(Of String)), String())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestIntrospectionHelper.MergeTraitsInto(System.Collections.Generic.Dictionary<string, System.Collections.Generic.HashSet<string>>, string[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestIntrospectionHelper.MergeTraitsInto(System.Collections.Generic.Dictionary(Of String, System.Collections.Generic.HashSet(Of String)), String())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.MergeTraitsInto(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}},System.String[])\" text=\"MergeTraitsInto(Dictionary&lt;string, HashSet&lt;string&gt;&gt;, string[]?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.MergeTraitsInto(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}},System.String[])\" text=\"MergeTraitsInto(Dictionary&lt;string, HashSet&lt;string&gt;&gt;, string[]?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void MergeTraitsInto(Dictionary<string, HashSet<string>> traits, string[]? additionalTraits)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub MergeTraitsInto(traits As Dictionary(Of String, HashSet(Of String)), additionalTraits As String())"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "traits",
+            "type": {
+              "uid": "System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}}",
+              "definition": "System.Collections.Generic.Dictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Dictionary<string, HashSet<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Dictionary(Of String, HashSet(Of String))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Dictionary<string, HashSet<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Dictionary(Of String, HashSet(Of String))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.Dictionary<string, System.Collections.Generic.HashSet<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.Dictionary(Of String, System.Collections.Generic.HashSet(Of String))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The existing traits dictionary.</p>\n"
+          },
+          {
+            "id": "additionalTraits",
+            "type": {
+              "uid": "System.String[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">The additional traits to merge.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "MergeTraitsInto",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+        "startLine": 149,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.TestIntrospectionHelper.MergeTraitsInto*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "MergeTraitsInto"
+          },
+          {
+            "lang": "vb",
+            "value": "MergeTraitsInto"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestIntrospectionHelper.MergeTraitsInto"
+          },
+          {
+            "lang": "vb",
+            "value": "TestIntrospectionHelper.MergeTraitsInto"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestIntrospectionHelper.MergeTraitsInto"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestIntrospectionHelper.MergeTraitsInto"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.MergeTraitsInto*\" text=\"MergeTraitsInto\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.TestIntrospectionHelper.MergeTraitsInto*\" text=\"MergeTraitsInto\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">Merges string-array traits (like from <xref href=\"Xunit.v3.IDataAttribute.Traits\" data-throw-if-not-resolved=\"false\"></xref>) into an existing traits dictionary.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestIntrospectionHelper"
+    },
+    {
+      "lang": "vb",
+      "value": "TestIntrospectionHelper"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestIntrospectionHelper"
+    },
+    {
+      "lang": "vb",
+      "value": "TestIntrospectionHelper"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.TestIntrospectionHelper"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.TestIntrospectionHelper"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestIntrospectionHelper",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/TestIntrospectionHelper.cs",
+    "startLine": 12,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml\" sourcestartlinenumber=\"1\">Helper functions for retrieving and interpreting test and test case details from various sources\n(like <xref href=\"Xunit.v3.IFactAttribute\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Xunit.v3.IDataAttribute\" data-throw-if-not-resolved=\"false\"></xref>, and others).</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class TestIntrospectionHelper"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module TestIntrospectionHelper"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.TestIntrospectionHelper.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

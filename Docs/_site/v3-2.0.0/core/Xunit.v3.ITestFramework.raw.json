@@ -1,0 +1,1060 @@
+{
+  "uid": "Xunit.v3.ITestFramework",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.ITestFramework.GetDiscoverer(System.Reflection.Assembly)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestFramework",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetDiscoverer(Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetDiscoverer(Assembly)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFramework.GetDiscoverer(Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFramework.GetDiscoverer(Assembly)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestFramework.GetDiscoverer(System.Reflection.Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestFramework.GetDiscoverer(System.Reflection.Assembly)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.GetDiscoverer(System.Reflection.Assembly)\" text=\"GetDiscoverer(Assembly)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.GetDiscoverer(System.Reflection.Assembly)\" text=\"GetDiscoverer(Assembly)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "ITestFrameworkDiscoverer GetDiscoverer(Assembly assembly)"
+          },
+          {
+            "lang": "vb",
+            "value": "Function GetDiscoverer(assembly As Assembly) As ITestFrameworkDiscoverer"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "assembly",
+            "type": {
+              "uid": "System.Reflection.Assembly",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Assembly"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Assembly"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Reflection.Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Reflection.Assembly"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Reflection.Assembly\" text=\"Assembly\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Reflection.Assembly\" text=\"Assembly\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">The assembly to discover tests from.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.v3.ITestFrameworkDiscoverer",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ITestFrameworkDiscoverer"
+              },
+              {
+                "lang": "vb",
+                "value": "ITestFrameworkDiscoverer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITestFrameworkDiscoverer"
+              },
+              {
+                "lang": "vb",
+                "value": "ITestFrameworkDiscoverer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.v3.ITestFrameworkDiscoverer"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.v3.ITestFrameworkDiscoverer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.v3.ITestFrameworkDiscoverer\" text=\"ITestFrameworkDiscoverer\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.v3.ITestFrameworkDiscoverer\" text=\"ITestFrameworkDiscoverer\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">The test discoverer.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetDiscoverer",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+        "startLine": 33,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestFramework.GetDiscoverer*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetDiscoverer"
+          },
+          {
+            "lang": "vb",
+            "value": "GetDiscoverer"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestFramework.GetDiscoverer"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestFramework.GetDiscoverer"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestFramework.GetDiscoverer"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestFramework.GetDiscoverer"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.GetDiscoverer*\" text=\"GetDiscoverer\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.GetDiscoverer*\" text=\"GetDiscoverer\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">Get a test discoverer.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ITestFramework.GetExecutor(System.Reflection.Assembly)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestFramework",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetExecutor(Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetExecutor(Assembly)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFramework.GetExecutor(Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFramework.GetExecutor(Assembly)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestFramework.GetExecutor(System.Reflection.Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestFramework.GetExecutor(System.Reflection.Assembly)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.GetExecutor(System.Reflection.Assembly)\" text=\"GetExecutor(Assembly)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.GetExecutor(System.Reflection.Assembly)\" text=\"GetExecutor(Assembly)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "ITestFrameworkExecutor GetExecutor(Assembly assembly)"
+          },
+          {
+            "lang": "vb",
+            "value": "Function GetExecutor(assembly As Assembly) As ITestFrameworkExecutor"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "assembly",
+            "type": {
+              "uid": "System.Reflection.Assembly",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Assembly"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Assembly"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Reflection.Assembly"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Reflection.Assembly"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Reflection.Assembly\" text=\"Assembly\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Reflection.Assembly\" text=\"Assembly\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">The assembly to run tests from.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.v3.ITestFrameworkExecutor",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ITestFrameworkExecutor"
+              },
+              {
+                "lang": "vb",
+                "value": "ITestFrameworkExecutor"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITestFrameworkExecutor"
+              },
+              {
+                "lang": "vb",
+                "value": "ITestFrameworkExecutor"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.v3.ITestFrameworkExecutor"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.v3.ITestFrameworkExecutor"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.v3.ITestFrameworkExecutor\" text=\"ITestFrameworkExecutor\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.v3.ITestFrameworkExecutor\" text=\"ITestFrameworkExecutor\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">The test executor.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetExecutor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+        "startLine": 40,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestFramework.GetExecutor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetExecutor"
+          },
+          {
+            "lang": "vb",
+            "value": "GetExecutor"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestFramework.GetExecutor"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestFramework.GetExecutor"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestFramework.GetExecutor"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestFramework.GetExecutor"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.GetExecutor*\" text=\"GetExecutor\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.GetExecutor*\" text=\"GetExecutor\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">Get a test executor.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ITestFramework.SetTestPipelineStartup(Xunit.v3.ITestPipelineStartup)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestFramework",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SetTestPipelineStartup(ITestPipelineStartup)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetTestPipelineStartup(ITestPipelineStartup)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFramework.SetTestPipelineStartup(ITestPipelineStartup)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFramework.SetTestPipelineStartup(ITestPipelineStartup)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestFramework.SetTestPipelineStartup(Xunit.v3.ITestPipelineStartup)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestFramework.SetTestPipelineStartup(Xunit.v3.ITestPipelineStartup)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.SetTestPipelineStartup(Xunit.v3.ITestPipelineStartup)\" text=\"SetTestPipelineStartup(ITestPipelineStartup)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.SetTestPipelineStartup(Xunit.v3.ITestPipelineStartup)\" text=\"SetTestPipelineStartup(ITestPipelineStartup)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "void SetTestPipelineStartup(ITestPipelineStartup pipelineStartup)"
+          },
+          {
+            "lang": "vb",
+            "value": "Sub SetTestPipelineStartup(pipelineStartup As ITestPipelineStartup)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "pipelineStartup",
+            "type": {
+              "uid": "Xunit.v3.ITestPipelineStartup",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestPipelineStartup"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestPipelineStartup"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestPipelineStartup"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestPipelineStartup"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.ITestPipelineStartup"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.ITestPipelineStartup"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.ITestPipelineStartup\" text=\"ITestPipelineStartup\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.ITestPipelineStartup\" text=\"ITestPipelineStartup\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SetTestPipelineStartup",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+        "startLine": 26,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestFramework.SetTestPipelineStartup*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SetTestPipelineStartup"
+          },
+          {
+            "lang": "vb",
+            "value": "SetTestPipelineStartup"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestFramework.SetTestPipelineStartup"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestFramework.SetTestPipelineStartup"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestFramework.SetTestPipelineStartup"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestFramework.SetTestPipelineStartup"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.SetTestPipelineStartup*\" text=\"SetTestPipelineStartup\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.SetTestPipelineStartup*\" text=\"SetTestPipelineStartup\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">Will be invoked by the test pipeline when the user has provided a startup class. Test frameworks may\nchoose to use this in any way they see fit.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ITestFramework.TestFrameworkDisplayName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestFramework",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestFrameworkDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestFrameworkDisplayName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFramework.TestFrameworkDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFramework.TestFrameworkDisplayName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestFramework.TestFrameworkDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestFramework.TestFrameworkDisplayName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.TestFrameworkDisplayName\" text=\"TestFrameworkDisplayName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestFramework.TestFrameworkDisplayName\" text=\"TestFrameworkDisplayName\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "string TestFrameworkDisplayName { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "ReadOnly Property TestFrameworkDisplayName As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestFrameworkDisplayName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+        "startLine": 20,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestFramework.TestFrameworkDisplayName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestFrameworkDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestFrameworkDisplayName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestFramework.TestFrameworkDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestFramework.TestFrameworkDisplayName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestFramework.TestFrameworkDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestFramework.TestFrameworkDisplayName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.TestFrameworkDisplayName*\" text=\"TestFrameworkDisplayName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestFramework.TestFrameworkDisplayName*\" text=\"TestFrameworkDisplayName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">Returns the display name of the test framework that this discoverer is running tests for.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITestFramework"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestFramework"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITestFramework"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestFramework"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.ITestFramework"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.ITestFramework"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ITestFramework",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Abstractions/Framework/ITestFramework.cs",
+    "startLine": 15,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ITestFramework.yml\" sourcestartlinenumber=\"1\">Represents a test framework. There are two pieces to test frameworks: discovery and\nexecution. The two factory methods represent these two pieces. Test frameworks may optionally\nimplement either <xref href=\"System.IDisposable\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"System.IAsyncDisposable\" data-throw-if-not-resolved=\"false\"></xref>. They may\nimplement a constructor which is either empty, or takes a single <xref href=\"Xunit.Sdk.IMessageSink\" data-throw-if-not-resolved=\"false\"></xref>\nfor diagnostic messages, or takes two instances of <xref href=\"Xunit.Sdk.IMessageSink\" data-throw-if-not-resolved=\"false\"></xref> for diagnostic\nmessages and internal diagnostic messages, respectively.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITestFramework"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITestFramework"
+      }
+    ]
+  },
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.ITestFramework.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.ITestFramework.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

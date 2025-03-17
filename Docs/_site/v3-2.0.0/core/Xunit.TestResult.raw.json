@@ -1,0 +1,784 @@
+{
+  "uid": "Xunit.TestResult",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.TestResult.Failed",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResult",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Failed"
+        },
+        {
+          "lang": "vb",
+          "value": "Failed"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResult.Failed"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResult.Failed"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResult.Failed"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResult.Failed"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResult.Failed\" text=\"Failed\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResult.Failed\" text=\"Failed\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Failed = 1"
+          },
+          {
+            "lang": "vb",
+            "value": "Failed = 1"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResult",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResult"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResult.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Failed",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResult.cs",
+        "startLine": 15,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResult.yml\" sourcestartlinenumber=\"1\">The test failed.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResult.NotRun",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResult",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "NotRun"
+        },
+        {
+          "lang": "vb",
+          "value": "NotRun"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResult.NotRun"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResult.NotRun"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResult.NotRun"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResult.NotRun"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResult.NotRun\" text=\"NotRun\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResult.NotRun\" text=\"NotRun\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "NotRun = 3"
+          },
+          {
+            "lang": "vb",
+            "value": "NotRun = 3"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResult",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResult"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResult.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "NotRun",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResult.cs",
+        "startLine": 27,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResult.yml\" sourcestartlinenumber=\"1\">The test was not run because it was excluded (either because it was marked as explicit\nand explicit tests weren't run, or because it was marked as not explicit as only explicit\ntests were run).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResult.Passed",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResult",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Passed"
+        },
+        {
+          "lang": "vb",
+          "value": "Passed"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResult.Passed"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResult.Passed"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResult.Passed"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResult.Passed"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResult.Passed\" text=\"Passed\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResult.Passed\" text=\"Passed\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Passed = 0"
+          },
+          {
+            "lang": "vb",
+            "value": "Passed = 0"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResult",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResult"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResult.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Passed",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResult.cs",
+        "startLine": 10,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResult.yml\" sourcestartlinenumber=\"1\">The test passed.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResult.Skipped",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResult",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Skipped"
+        },
+        {
+          "lang": "vb",
+          "value": "Skipped"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResult.Skipped"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResult.Skipped"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResult.Skipped"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResult.Skipped"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResult.Skipped\" text=\"Skipped\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResult.Skipped\" text=\"Skipped\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Skipped = 2"
+          },
+          {
+            "lang": "vb",
+            "value": "Skipped = 2"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResult",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResult"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResult.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Skipped",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResult.cs",
+        "startLine": 20,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResult.yml\" sourcestartlinenumber=\"1\">The test was skipped.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestResult"
+    },
+    {
+      "lang": "vb",
+      "value": "TestResult"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestResult"
+    },
+    {
+      "lang": "vb",
+      "value": "TestResult"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.TestResult"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.TestResult"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/TestResult.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestResult",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResult.cs",
+    "startLine": 5,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResult.yml\" sourcestartlinenumber=\"1\">Indicates the result of running the test.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum TestResult"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum TestResult"
+      }
+    ]
+  },
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.TestResult.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.TestResult.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

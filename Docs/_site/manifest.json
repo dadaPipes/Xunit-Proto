@@ -12,20 +12,53 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "hello-v2-2.0.md",
+      "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "hello-v2-2.0.html"
+          "relative_path": "docs/getting-started.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "hello-v2-2.4.md",
+      "source_relative_path": "docs/introduction.md",
       "output": {
         ".html": {
-          "relative_path": "hello-v2-2.4.html"
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/v2-core-framework.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/v2-core-framework.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/v3-core-framework.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/v3-core-framework.html"
         }
       },
       "version": ""
@@ -36,6 +69,16 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overwrites/asserts.md",
+      "output": {
+        ".html": {
+          "relative_path": "overwrites/asserts.html"
         }
       },
       "version": ""
@@ -52,6 +95,376 @@
         }
       },
       "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "v2/2.0/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "v2/2.0/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "v2/2.4/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "v2/2.4/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.Assert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.Assert.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.Assert",
+      "Summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.Assert.yml\" sourcestartlinenumber=\"1\">Contains various static methods that are used to verify that conditions are met during the\nprocess of running tests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.BooleanAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.BooleanAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.BooleanAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.CollectionAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.CollectionAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.CollectionAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.Comparers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.Comparers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.Comparers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.DictionaryAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.DictionaryAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.DictionaryAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.EqualityAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.EqualityAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.EqualityAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.EquivalenceAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.EquivalenceAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.EquivalenceAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.EventAsserts.RaisedEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.EventAsserts.RaisedEvent-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.EventAsserts.RaisedEvent<T>",
+      "Summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">Represents a raised event after the fact.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.EventAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.EventAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.EventAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.ExceptionAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.ExceptionAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.ExceptionAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.FailAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.FailAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.FailAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.Guards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.Guards.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.Guards",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.IdentityAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.IdentityAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.IdentityAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.MemoryAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.MemoryAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.MemoryAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.MultipleAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.MultipleAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.MultipleAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.NullAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.NullAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.NullAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.PropertyAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.PropertyAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.PropertyAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.RangeAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.RangeAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.RangeAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.Record.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.Record.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.Record",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.SetAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.SetAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.SetAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.SkipAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.SkipAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.SkipAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.SpanAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.SpanAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.SpanAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.StringAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.StringAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.StringAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.TypeAsserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.TypeAsserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts.TypeAsserts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3-2.0.0/assert/Asserts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3-2.0.0/assert/Asserts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Asserts",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -9080,10 +9493,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "version/v3-2.0.0/index.md",
+      "source_relative_path": "v3/2.0.0/index.md",
       "output": {
         ".html": {
-          "relative_path": "version/v3-2.0.0/index.html"
+          "relative_path": "v3/2.0.0/index.html"
         }
       },
       "version": ""

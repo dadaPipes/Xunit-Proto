@@ -1,0 +1,5313 @@
+{
+  "uid": "Xunit.Sdk",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "uid": "Xunit.Sdk.AnsiUtility",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.AnsiUtility.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AnsiUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "AnsiUtility"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AnsiUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "AnsiUtility"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.AnsiUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.AnsiUtility"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.AnsiUtility\" text=\"AnsiUtility\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.AnsiUtility\" text=\"AnsiUtility\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.AnsiUtility.yml\" sourcestartlinenumber=\"1\">A utility class for ANSI color escape codes.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.AsyncUtility",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.AsyncUtility.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsyncUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "AsyncUtility"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AsyncUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "AsyncUtility"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.AsyncUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.AsyncUtility"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.AsyncUtility\" text=\"AsyncUtility\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.AsyncUtility\" text=\"AsyncUtility\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.AsyncUtility.yml\" sourcestartlinenumber=\"1\">Utility class for dealing with asynchronous operations.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.DisposalTracker",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.DisposalTracker.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker\" text=\"DisposalTracker\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker\" text=\"DisposalTracker\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Tracks disposable objects, and disposes them in the reverse order they were added to\nthe tracker. Supports both <xref href=\"System.IDisposable\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.IAsyncDisposable\" data-throw-if-not-resolved=\"false\"></xref>.\nYou can either directly dispose this object (via <xref href=\"Xunit.Sdk.DisposalTracker.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref>), or you\ncan enumerate the items contained inside of it (via <xref href=\"Xunit.Sdk.DisposalTracker.TrackedObjects\" data-throw-if-not-resolved=\"false\"></xref>).\nAlso supports hand-registering disposal actions via <xref href=\"Xunit.Sdk.DisposalTracker.AddAction(System.Action)\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"Xunit.Sdk.DisposalTracker.AddAsyncAction(System.Func%7bSystem.Threading.Tasks.ValueTask%7d)\" data-throw-if-not-resolved=\"false\"></xref>. Note that an object implements both interfaces,\nthis will <em sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"7\">only</em> call <xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref> and will not\ncall <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ExceptionUtility",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ExceptionUtility.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionUtility"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionUtility"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ExceptionUtility"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ExceptionUtility"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ExceptionUtility\" text=\"ExceptionUtility\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ExceptionUtility\" text=\"ExceptionUtility\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ExceptionUtility.yml\" sourcestartlinenumber=\"1\">Utility class for dealing with <xref href=\"System.Exception\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Xunit.Sdk.IErrorMetadata\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ExplicitOption",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ExplicitOption.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExplicitOption"
+        },
+        {
+          "lang": "vb",
+          "value": "ExplicitOption"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ExplicitOption"
+        },
+        {
+          "lang": "vb",
+          "value": "ExplicitOption"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ExplicitOption"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ExplicitOption"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ExplicitOption.yml\" sourcestartlinenumber=\"1\">Indicates how explicit tests should be handled during execution.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.FailureCause",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.FailureCause.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.FailureCause"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.FailureCause"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.FailureCause.yml\" sourcestartlinenumber=\"1\">Indicates the cause of the test failure.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IAfterTestFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IAfterTestFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAfterTestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "IAfterTestFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAfterTestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "IAfterTestFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IAfterTestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IAfterTestFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IAfterTestFinished\" text=\"IAfterTestFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IAfterTestFinished\" text=\"IAfterTestFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IAfterTestFinished.yml\" sourcestartlinenumber=\"1\">This message is sent during execution to indicate that the After method of a\n<xref href=\"Xunit.v3.IBeforeAfterTestAttribute\" data-throw-if-not-resolved=\"false\"></xref> just finished executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IAfterTestStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IAfterTestStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAfterTestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "IAfterTestStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAfterTestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "IAfterTestStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IAfterTestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IAfterTestStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IAfterTestStarting\" text=\"IAfterTestStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IAfterTestStarting\" text=\"IAfterTestStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IAfterTestStarting.yml\" sourcestartlinenumber=\"1\">This message is sent during execution to indicate that the After method of a\n<xref href=\"Xunit.v3.IBeforeAfterTestAttribute\" data-throw-if-not-resolved=\"false\"></xref> is about to execute.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IAssemblyMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IAssemblyMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAssemblyMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IAssemblyMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAssemblyMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IAssemblyMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IAssemblyMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IAssemblyMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IAssemblyMetadata\" text=\"IAssemblyMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IAssemblyMetadata\" text=\"IAssemblyMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IAssemblyMetadata.yml\" sourcestartlinenumber=\"1\">Represents metadata about a test assembly.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IAssemblyMetadataExtensions",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IAssemblyMetadataExtensions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAssemblyMetadataExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "IAssemblyMetadataExtensions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAssemblyMetadataExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "IAssemblyMetadataExtensions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IAssemblyMetadataExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IAssemblyMetadataExtensions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IAssemblyMetadataExtensions\" text=\"IAssemblyMetadataExtensions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IAssemblyMetadataExtensions\" text=\"IAssemblyMetadataExtensions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IAssemblyMetadataExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Xunit.Sdk.IAssemblyMetadata\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IBeforeTestFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IBeforeTestFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IBeforeTestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "IBeforeTestFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IBeforeTestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "IBeforeTestFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IBeforeTestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IBeforeTestFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IBeforeTestFinished\" text=\"IBeforeTestFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IBeforeTestFinished\" text=\"IBeforeTestFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IBeforeTestFinished.yml\" sourcestartlinenumber=\"1\">This message is sent during execution to indicate that the Before method of a\n<xref href=\"Xunit.v3.IBeforeAfterTestAttribute\" data-throw-if-not-resolved=\"false\"></xref> has completed executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IBeforeTestStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IBeforeTestStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IBeforeTestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "IBeforeTestStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IBeforeTestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "IBeforeTestStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IBeforeTestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IBeforeTestStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IBeforeTestStarting\" text=\"IBeforeTestStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IBeforeTestStarting\" text=\"IBeforeTestStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IBeforeTestStarting.yml\" sourcestartlinenumber=\"1\">This message is sent during execution to indicate that the Before method of a\n<xref href=\"Xunit.v3.IBeforeAfterTestAttribute\" data-throw-if-not-resolved=\"false\"></xref> is about to execute.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IDiagnosticMessage",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IDiagnosticMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDiagnosticMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiagnosticMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDiagnosticMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiagnosticMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IDiagnosticMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IDiagnosticMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IDiagnosticMessage\" text=\"IDiagnosticMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IDiagnosticMessage\" text=\"IDiagnosticMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IDiagnosticMessage.yml\" sourcestartlinenumber=\"1\">This message is sent when code (1st or 3rd party) wants to alert the user to a situation that may require\ndiagnostic investigation. This is typically not displayed unless the user has explicitly asked for diagnostic\nmessages to be displayed (see <a href=\"https://xunit.net/docs/configuration-files#diagnosticMessages\">https://xunit.net/docs/configuration-files#diagnosticMessages</a> on\nhow to enable display of diagnostic messages).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IDiscoveryComplete",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IDiscoveryComplete.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDiscoveryComplete"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiscoveryComplete"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDiscoveryComplete"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiscoveryComplete"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IDiscoveryComplete"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IDiscoveryComplete"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IDiscoveryComplete\" text=\"IDiscoveryComplete\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IDiscoveryComplete\" text=\"IDiscoveryComplete\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IDiscoveryComplete.yml\" sourcestartlinenumber=\"1\">This message indicates that the discovery process has been completed for\nthe requested assembly.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IDiscoveryStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IDiscoveryStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDiscoveryStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiscoveryStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDiscoveryStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiscoveryStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IDiscoveryStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IDiscoveryStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IDiscoveryStarting\" text=\"IDiscoveryStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IDiscoveryStarting\" text=\"IDiscoveryStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IDiscoveryStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that the discovery process is starting for\nthe requested assembly.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IErrorMessage",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IErrorMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IErrorMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IErrorMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IErrorMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IErrorMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IErrorMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IErrorMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IErrorMessage\" text=\"IErrorMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IErrorMessage\" text=\"IErrorMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IErrorMessage.yml\" sourcestartlinenumber=\"1\">This message indicates that a catastrophic error has occurred.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IErrorMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IErrorMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IErrorMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IErrorMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IErrorMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IErrorMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IErrorMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IErrorMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IErrorMetadata\" text=\"IErrorMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IErrorMetadata\" text=\"IErrorMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IErrorMetadata.yml\" sourcestartlinenumber=\"1\">Represents metadata about an error during test discovery or execution.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IExecutionMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IExecutionMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IExecutionMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IExecutionMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IExecutionMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IExecutionMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IExecutionMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IExecutionMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IExecutionMetadata\" text=\"IExecutionMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IExecutionMetadata\" text=\"IExecutionMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IExecutionMetadata.yml\" sourcestartlinenumber=\"1\">This is metadata describing the execution of a single test.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IExecutionSummaryMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IExecutionSummaryMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IExecutionSummaryMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IExecutionSummaryMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IExecutionSummaryMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "IExecutionSummaryMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IExecutionSummaryMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IExecutionSummaryMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IExecutionSummaryMetadata\" text=\"IExecutionSummaryMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IExecutionSummaryMetadata\" text=\"IExecutionSummaryMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IExecutionSummaryMetadata.yml\" sourcestartlinenumber=\"1\">This is metadata describing the summary during various phases of execution process (e.g.,\ntest case, test class, test collection, and assembly). It describes the aggregation of\nzero or more tests being executed.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IInternalDiagnosticMessage",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IInternalDiagnosticMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IInternalDiagnosticMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IInternalDiagnosticMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IInternalDiagnosticMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IInternalDiagnosticMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IInternalDiagnosticMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IInternalDiagnosticMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IInternalDiagnosticMessage\" text=\"IInternalDiagnosticMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IInternalDiagnosticMessage\" text=\"IInternalDiagnosticMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IInternalDiagnosticMessage.yml\" sourcestartlinenumber=\"1\">This message is sent when xUnit.net itself wants to log internal messages and state that are typically only\nused by the xUnit.net team to gain a deeper understanding of potential end user issues. These messages are\nrarely useful to end users directly, and may result in very noisy logs. This is typically not displayed\nunless the user has explicit asked for internal diagnostic messages to be displayed (see\n<a href=\"https://xunit.net/docs/configuration-files#internalDiagnosticMessages\"></a> on how to enable\ndisplay of internal diagnostic messages).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IJsonDeserializable",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IJsonDeserializable.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonDeserializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonDeserializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonDeserializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonDeserializable\" text=\"IJsonDeserializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonDeserializable\" text=\"IJsonDeserializable\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IJsonDeserializable.yml\" sourcestartlinenumber=\"1\">Indicates that an object can be deserialized from string-serialized JSON.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IJsonSerializable",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IJsonSerializable.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IJsonSerializable.yml\" sourcestartlinenumber=\"1\">Interface that indicates an object can be serialized to JSON.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IMessageSink",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IMessageSink.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IMessageSink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IMessageSink.yml\" sourcestartlinenumber=\"1\">Represents an endpoint for the reception of test messages.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IMessageSinkMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IMessageSinkMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IMessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all test messages. A test message is a message that is used to communicate\nthe status of discovery and/or execution of tests.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IRegisterXunitSerializerAttribute",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IRegisterXunitSerializerAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IRegisterXunitSerializerAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "IRegisterXunitSerializerAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IRegisterXunitSerializerAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "IRegisterXunitSerializerAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IRegisterXunitSerializerAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IRegisterXunitSerializerAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IRegisterXunitSerializerAttribute\" text=\"IRegisterXunitSerializerAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IRegisterXunitSerializerAttribute\" text=\"IRegisterXunitSerializerAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IRegisterXunitSerializerAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate xUnit.net test assemblies to register an external serializer for\none or more supports types to serialize.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITest",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITest.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITest"
+        },
+        {
+          "lang": "vb",
+          "value": "ITest"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITest"
+        },
+        {
+          "lang": "vb",
+          "value": "ITest"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITest"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITest"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITest\" text=\"ITest\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITest\" text=\"ITest\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITest.yml\" sourcestartlinenumber=\"1\">Represents a single test in the system. A test case typically contains only a single test,\nbut may contain many if circumstances warrant it (for example, test data for a theory cannot\nbe pre-enumerated, so the theory yields a single test case with multiple tests).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssembly",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestAssembly.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssembly"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssembly"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssembly"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssembly"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssembly"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssembly"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssembly\" text=\"ITestAssembly\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssembly\" text=\"ITestAssembly\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestAssembly.yml\" sourcestartlinenumber=\"1\">Represents a test assembly.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyCleanupFailure",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestAssemblyCleanupFailure.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyCleanupFailure"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyCleanupFailure"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyCleanupFailure"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyCleanupFailure\" text=\"ITestAssemblyCleanupFailure\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyCleanupFailure\" text=\"ITestAssemblyCleanupFailure\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestAssemblyCleanupFailure.yml\" sourcestartlinenumber=\"1\">This message indicates that an error has occurred during test assembly cleanup.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestAssemblyFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyFinished\" text=\"ITestAssemblyFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyFinished\" text=\"ITestAssemblyFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestAssemblyFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that the execution process has been completed for\nthe requested assembly.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestAssemblyMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestAssemblyMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all messages related to test assemblies.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestAssemblyStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyStarting\" text=\"ITestAssemblyStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyStarting\" text=\"ITestAssemblyStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestAssemblyStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that the execution process is about to start for\nthe requested assembly.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCase",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestCase.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCase"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCase"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCase"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCase"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCase"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCase"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCase\" text=\"ITestCase\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCase.yml\" sourcestartlinenumber=\"1\">Represents a single test case in the system. This test case usually represents a single test, but in\nthe case of dynamically generated data for data driven tests, the test case may actually return\nmultiple results when run.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseCleanupFailure",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCaseCleanupFailure.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseCleanupFailure"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseCleanupFailure"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseCleanupFailure"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseCleanupFailure\" text=\"ITestCaseCleanupFailure\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseCleanupFailure\" text=\"ITestCaseCleanupFailure\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCaseCleanupFailure.yml\" sourcestartlinenumber=\"1\">This message indicates that an error has occurred during test case cleanup.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseDiscovered",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCaseDiscovered.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseDiscovered"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseDiscovered"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseDiscovered"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseDiscovered"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseDiscovered"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseDiscovered"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseDiscovered\" text=\"ITestCaseDiscovered\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseDiscovered\" text=\"ITestCaseDiscovered\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCaseDiscovered.yml\" sourcestartlinenumber=\"1\">This message indicates that a test case had been found during the discovery process.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCaseFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseFinished\" text=\"ITestCaseFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseFinished\" text=\"ITestCaseFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCaseFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that a test case has finished executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestCaseMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMessage\" text=\"ITestCaseMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMessage\" text=\"ITestCaseMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCaseMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all messages related to test cases.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestCaseMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCaseMetadata.yml\" sourcestartlinenumber=\"1\">Represents metadata about a test case.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCaseStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseStarting\" text=\"ITestCaseStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseStarting\" text=\"ITestCaseStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCaseStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that a test case is about to start executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClass",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestClass.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClass"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClass"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClass"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClass"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClass"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClass"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClass\" text=\"ITestClass\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClass\" text=\"ITestClass\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClass.yml\" sourcestartlinenumber=\"1\">Represents a test class, which contributes one or more test cases (usually by\nway of test methods).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassCleanupFailure",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestClassCleanupFailure.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassCleanupFailure"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassCleanupFailure"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassCleanupFailure"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassCleanupFailure\" text=\"ITestClassCleanupFailure\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassCleanupFailure\" text=\"ITestClassCleanupFailure\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassCleanupFailure.yml\" sourcestartlinenumber=\"1\">This message indicates that an error has occurred during test class cleanup.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassConstructionFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestClassConstructionFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassConstructionFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassConstructionFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassConstructionFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassConstructionFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassConstructionFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassConstructionFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassConstructionFinished\" text=\"ITestClassConstructionFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassConstructionFinished\" text=\"ITestClassConstructionFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassConstructionFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that an instance of a test class has just been constructed.\nInstance (non-static) methods of tests get a new instance of the test class for each\nindividual test execution; static methods do not get an instance of the test class.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassConstructionStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestClassConstructionStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassConstructionStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassConstructionStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassConstructionStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassConstructionStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassConstructionStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassConstructionStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassConstructionStarting\" text=\"ITestClassConstructionStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassConstructionStarting\" text=\"ITestClassConstructionStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassConstructionStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that an instance of a test class is about to be constructed.\nInstance (non-static) methods of tests get a new instance of the test class for each\nindividual test execution; static methods do not get an instance of the test class.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassDisposeFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestClassDisposeFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassDisposeFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassDisposeFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassDisposeFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassDisposeFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassDisposeFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassDisposeFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassDisposeFinished\" text=\"ITestClassDisposeFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassDisposeFinished\" text=\"ITestClassDisposeFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassDisposeFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that the <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref> or\n<xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref> method was just called on the test class\nfor the test that just finished executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassDisposeStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestClassDisposeStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassDisposeStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassDisposeStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassDisposeStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassDisposeStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassDisposeStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassDisposeStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassDisposeStarting\" text=\"ITestClassDisposeStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassDisposeStarting\" text=\"ITestClassDisposeStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassDisposeStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that the <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref> or\n<xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref> method is about to be called on the\ntest class for the test that just finished executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestClassFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassFinished\" text=\"ITestClassFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassFinished\" text=\"ITestClassFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that a test class has finished executing (meaning, all of the\ntest cases in this test class have finished running).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestClassMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage\" text=\"ITestClassMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage\" text=\"ITestClassMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all messages related to test classes.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestClassMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata\" text=\"ITestClassMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata\" text=\"ITestClassMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMetadata.yml\" sourcestartlinenumber=\"1\">Represents metadata about a test class.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestClassStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassStarting\" text=\"ITestClassStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassStarting\" text=\"ITestClassStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that a test class is about to begin executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCleanupFailure",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCleanupFailure.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCleanupFailure"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCleanupFailure"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCleanupFailure"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCleanupFailure\" text=\"ITestCleanupFailure\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCleanupFailure\" text=\"ITestCleanupFailure\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCleanupFailure.yml\" sourcestartlinenumber=\"1\">This message indicates that an error has occurred during test cleanup.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollection",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestCollection.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollection"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollection"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollection"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollection"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollection"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollection"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollection\" text=\"ITestCollection\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollection\" text=\"ITestCollection\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCollection.yml\" sourcestartlinenumber=\"1\">Represents a group of test cases.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionCleanupFailure",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCollectionCleanupFailure.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionCleanupFailure"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionCleanupFailure"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionCleanupFailure"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionCleanupFailure\" text=\"ITestCollectionCleanupFailure\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionCleanupFailure\" text=\"ITestCollectionCleanupFailure\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCollectionCleanupFailure.yml\" sourcestartlinenumber=\"1\">This message indicates that an error has occurred during test collection cleanup.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCollectionFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionFinished\" text=\"ITestCollectionFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionFinished\" text=\"ITestCollectionFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCollectionFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that a test collection has just finished executing (meaning,\nall the test classes in the collection has finished).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestCollectionMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage\" text=\"ITestCollectionMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage\" text=\"ITestCollectionMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCollectionMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all messages related to test collections.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestCollectionMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMetadata\" text=\"ITestCollectionMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMetadata\" text=\"ITestCollectionMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCollectionMetadata.yml\" sourcestartlinenumber=\"1\">Represents metadata about a test collection.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestCollectionStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionStarting\" text=\"ITestCollectionStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionStarting\" text=\"ITestCollectionStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCollectionStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that a test collection is about to start executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestFailed",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestFailed.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestFailed"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFailed"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFailed"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFailed"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestFailed"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestFailed"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFailed\" text=\"ITestFailed\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFailed\" text=\"ITestFailed\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestFailed.yml\" sourcestartlinenumber=\"1\">This message indicates that a test has failed.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFinished\" text=\"ITestFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFinished\" text=\"ITestFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that a test has finished executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestFrameworkDiscoveryOptions",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestFrameworkDiscoveryOptions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestFrameworkDiscoveryOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFrameworkDiscoveryOptions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFrameworkDiscoveryOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFrameworkDiscoveryOptions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestFrameworkDiscoveryOptions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" text=\"ITestFrameworkDiscoveryOptions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestFrameworkDiscoveryOptions.yml\" sourcestartlinenumber=\"1\">Represents an instance of <xref href=\"Xunit.Sdk.ITestFrameworkOptions\" data-throw-if-not-resolved=\"false\"></xref> that is to be used for\ntest discovery purposes.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestFrameworkExecutionOptions",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestFrameworkExecutionOptions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestFrameworkExecutionOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFrameworkExecutionOptions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFrameworkExecutionOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFrameworkExecutionOptions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestFrameworkExecutionOptions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" text=\"ITestFrameworkExecutionOptions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestFrameworkExecutionOptions.yml\" sourcestartlinenumber=\"1\">Represents an instance of <xref href=\"Xunit.Sdk.ITestFrameworkOptions\" data-throw-if-not-resolved=\"false\"></xref> that is to be used for\ntest execution purposes.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestFrameworkOptions",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestFrameworkOptions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestFrameworkOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFrameworkOptions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestFrameworkOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestFrameworkOptions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestFrameworkOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestFrameworkOptions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkOptions\" text=\"ITestFrameworkOptions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestFrameworkOptions\" text=\"ITestFrameworkOptions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestFrameworkOptions.yml\" sourcestartlinenumber=\"1\">This interface should not be consumed directly; instead, you should\nconsume <xref href=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" data-throw-if-not-resolved=\"false\"></xref>\nor <xref href=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMessage\" text=\"ITestMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMessage\" text=\"ITestMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all messages related to tests.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMetadata\" text=\"ITestMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMetadata\" text=\"ITestMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMetadata.yml\" sourcestartlinenumber=\"1\">Represents metadata about a test.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethod",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestMethod.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethod"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethod"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethod"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethod\" text=\"ITestMethod\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethod\" text=\"ITestMethod\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMethod.yml\" sourcestartlinenumber=\"1\">Represents a test method, which contributes one or more test cases.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethodCleanupFailure",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestMethodCleanupFailure.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodCleanupFailure"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodCleanupFailure"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethodCleanupFailure"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethodCleanupFailure"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodCleanupFailure\" text=\"ITestMethodCleanupFailure\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodCleanupFailure\" text=\"ITestMethodCleanupFailure\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMethodCleanupFailure.yml\" sourcestartlinenumber=\"1\">This message indicates that an error has occurred during test method cleanup.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethodFinished",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestMethodFinished.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodFinished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodFinished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethodFinished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethodFinished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodFinished\" text=\"ITestMethodFinished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodFinished\" text=\"ITestMethodFinished\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMethodFinished.yml\" sourcestartlinenumber=\"1\">This message indicates that a test method has finished executing (meaning, all\nthe test cases that derived from the test method have finished).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethodMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestMethodMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethodMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMessage\" text=\"ITestMethodMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMessage\" text=\"ITestMethodMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMethodMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all messages related to test methods.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethodMetadata",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestMethodMetadata.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethodMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethodMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata\" text=\"ITestMethodMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata\" text=\"ITestMethodMetadata\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMethodMetadata.yml\" sourcestartlinenumber=\"1\">Represents metadata about a test method.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethodStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestMethodStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethodStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethodStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodStarting\" text=\"ITestMethodStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodStarting\" text=\"ITestMethodStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestMethodStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that a test method is about to begin executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestNotRun",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestNotRun.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestNotRun"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestNotRun"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestNotRun"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestNotRun"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestNotRun"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestNotRun"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestNotRun\" text=\"ITestNotRun\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestNotRun\" text=\"ITestNotRun\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestNotRun.yml\" sourcestartlinenumber=\"1\">This message indicates that a test was not run because it was excluded (either because\nit was marked as explicit and explicit tests weren't run, or because it was marked as\nnot explicit as only explicit tests were run).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestOutput",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestOutput.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestOutput"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestOutput"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestOutput"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestOutput\" text=\"ITestOutput\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestOutput\" text=\"ITestOutput\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestOutput.yml\" sourcestartlinenumber=\"1\">This message indicates that a line of output was provided for a test.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestPassed",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestPassed.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestPassed"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestPassed"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestPassed"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestPassed"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestPassed"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestPassed"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestPassed\" text=\"ITestPassed\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestPassed\" text=\"ITestPassed\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestPassed.yml\" sourcestartlinenumber=\"1\">Indicates that a test has passed.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestResultMessage",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ITestResultMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestResultMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestResultMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestResultMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestResultMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestResultMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestResultMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestResultMessage\" text=\"ITestResultMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestResultMessage\" text=\"ITestResultMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestResultMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all individual test results (e.g., tests which pass, fail, skipped, or aren't run).</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestSkipped",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestSkipped.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestSkipped"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestSkipped"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestSkipped"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestSkipped"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestSkipped"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestSkipped"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestSkipped\" text=\"ITestSkipped\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestSkipped\" text=\"ITestSkipped\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestSkipped.yml\" sourcestartlinenumber=\"1\">This message indicates that a test was skipped.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestStarting",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.ITestStarting.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestStarting\" text=\"ITestStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestStarting\" text=\"ITestStarting\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that a test is about to start executing.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IXunitSerializable",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IXunitSerializable.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IXunitSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IXunitSerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable\" text=\"IXunitSerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable\" text=\"IXunitSerializable\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IXunitSerializable.yml\" sourcestartlinenumber=\"1\">This interface should be implemented by any custom object which requires serialization.\nIn addition to implementing this interface, objects must also offer a parameterless\npublic constructor so that an empty object can be created to be deserialized into.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IXunitSerializationInfo",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.IXunitSerializationInfo.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializationInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializationInfo"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializationInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializationInfo"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IXunitSerializationInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IXunitSerializationInfo"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IXunitSerializationInfo.yml\" sourcestartlinenumber=\"1\">An interface that is implemented by the serialization infrastructure in xUnit.net.\nThis is passed to objects which implement <xref href=\"Xunit.Sdk.IXunitSerializable\" data-throw-if-not-resolved=\"false\"></xref> so they\ncan serialize and deserialize themselves from the serialization store.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IXunitSerializer",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.IXunitSerializer.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializer"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializer"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IXunitSerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IXunitSerializer"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializer\" text=\"IXunitSerializer\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializer\" text=\"IXunitSerializer\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IXunitSerializer.yml\" sourcestartlinenumber=\"1\">Implemented by types which can support serialization and deserialization. This\nallows external serializers for types which would be inconvenient or impossible\nto implement <xref href=\"Xunit.Sdk.IXunitSerializable\" data-throw-if-not-resolved=\"false\"></xref> directly.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.JsonArraySerializer",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.JsonArraySerializer.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonArraySerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonArraySerializer"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonArraySerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonArraySerializer"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonArraySerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonArraySerializer"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonArraySerializer\" text=\"JsonArraySerializer\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonArraySerializer\" text=\"JsonArraySerializer\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonArraySerializer.yml\" sourcestartlinenumber=\"1\">A special-purpose streaming serializer for arrays to JSON. Only supports a limited number of\ntypes (boolean, DateTimeOffset, decimal, Enum, int, long, string, and trait dictionaries).</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.JsonDeserializer",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.JsonDeserializer.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonDeserializer"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonDeserializer"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonDeserializer"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonDeserializer"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonDeserializer"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonDeserializer"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonDeserializer\" text=\"JsonDeserializer\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonDeserializer\" text=\"JsonDeserializer\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonDeserializer.yml\" sourcestartlinenumber=\"1\">A special-purpose untyped deserializer for JSON. JSON strings are returned as <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>,\nJSON numbers are returned as <xref href=\"System.Decimal\" data-throw-if-not-resolved=\"false\"></xref>, JSON booleans are returns as <xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref>,\nJSON objects are returned as <code>IReadOnlyDictionary&lt;string, object?&gt;</code>, JSON arrays are\nreturned as <code>object?[]</code>, and JSON null values are returned as <code>null</code>. Static methods exist\nhere to help retrieve values from object dictionaries as well as convert to the commonly supported\ndata types (<xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.Decimal\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.Enum\" data-throw-if-not-resolved=\"false\"></xref>,\n<xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.Int64\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>, and trait dictionaries (which are\ndecoded to <code>IReadOnlyDictionary&lt;string, IReadOnlyList&lt;string&gt;&gt;</code>), as well as arrays\nof all the supported types (except trait dictionaries). Developers who need support for other types\nare encouraged to encode and decode then as strings as needed (for examples, you can see how\n<xref href=\"System.Enum\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref> values are handled here).</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.JsonObjectSerializer",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.JsonObjectSerializer.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonObjectSerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonObjectSerializer"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonObjectSerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonObjectSerializer"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonObjectSerializer"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonObjectSerializer"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonObjectSerializer.yml\" sourcestartlinenumber=\"1\">A special-purpose streaming serializer for objects to JSON. Only supports a limited number of type\n(boolean, DateTimeOffset, decimal, Enum, int, long, string, and trait dictionaries).</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.JsonSerializerBase",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.JsonSerializerBase.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonSerializerBase"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonSerializerBase"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonSerializerBase"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonSerializerBase"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonSerializerBase"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonSerializerBase"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerBase\" text=\"JsonSerializerBase\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerBase\" text=\"JsonSerializerBase\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerBase.yml\" sourcestartlinenumber=\"1\">Base class used for streaming JSON serialization.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.JsonSerializerExtensions",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.JsonSerializerExtensions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonSerializerExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonSerializerExtensions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonSerializerExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonSerializerExtensions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonSerializerExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonSerializerExtensions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions\" text=\"JsonSerializerExtensions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions\" text=\"JsonSerializerExtensions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for the JSON serialization types.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.JsonTypeIDAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.JsonTypeIDAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonTypeIDAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonTypeIDAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonTypeIDAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonTypeIDAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonTypeIDAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonTypeIDAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonTypeIDAttribute\" text=\"JsonTypeIDAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonTypeIDAttribute\" text=\"JsonTypeIDAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonTypeIDAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate concrete serializable classes that implement <xref href=\"Xunit.Sdk.IMessageSinkMessage\" data-throw-if-not-resolved=\"false\"></xref> to\nindicate what the serialized type ID should be. The type IDs must be unique, and only assigned to\nconcrete types that will be serialized and deserialized.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.NullMessageSink",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.NullMessageSink.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "NullMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "NullMessageSink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "NullMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "NullMessageSink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.NullMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.NullMessageSink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.NullMessageSink\" text=\"NullMessageSink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.NullMessageSink\" text=\"NullMessageSink\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.NullMessageSink.yml\" sourcestartlinenumber=\"1\">An implementation of <xref href=\"Xunit.Sdk.IMessageSink\" data-throw-if-not-resolved=\"false\"></xref> that ignores all messages.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ParallelAlgorithm",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ParallelAlgorithm.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ParallelAlgorithm"
+        },
+        {
+          "lang": "vb",
+          "value": "ParallelAlgorithm"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ParallelAlgorithm"
+        },
+        {
+          "lang": "vb",
+          "value": "ParallelAlgorithm"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ParallelAlgorithm"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ParallelAlgorithm"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ParallelAlgorithm\" text=\"ParallelAlgorithm\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ParallelAlgorithm\" text=\"ParallelAlgorithm\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ParallelAlgorithm.yml\" sourcestartlinenumber=\"1\">Indicates the parallelization algorithm to use.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.Randomizer",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.Randomizer.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Randomizer"
+        },
+        {
+          "lang": "vb",
+          "value": "Randomizer"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Randomizer"
+        },
+        {
+          "lang": "vb",
+          "value": "Randomizer"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.Randomizer"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.Randomizer"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.Randomizer\" text=\"Randomizer\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.Randomizer\" text=\"Randomizer\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.Randomizer.yml\" sourcestartlinenumber=\"1\">Wraps <xref href=\"System.Random\" data-throw-if-not-resolved=\"false\"></xref> to provide access to the seed value, as well as\nthe ability to reset the current randomizer with a new seed value.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ReflectionExtensions",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.ReflectionExtensions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReflectionExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "ReflectionExtensions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ReflectionExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "ReflectionExtensions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ReflectionExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ReflectionExtensions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ReflectionExtensions\" text=\"ReflectionExtensions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ReflectionExtensions\" text=\"ReflectionExtensions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ReflectionExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for reflection types in .NET.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.RegisterXunitSerializerAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.RegisterXunitSerializerAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RegisterXunitSerializerAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "RegisterXunitSerializerAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "RegisterXunitSerializerAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "RegisterXunitSerializerAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.RegisterXunitSerializerAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.RegisterXunitSerializerAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.RegisterXunitSerializerAttribute\" text=\"RegisterXunitSerializerAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.RegisterXunitSerializerAttribute\" text=\"RegisterXunitSerializerAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.RegisterXunitSerializerAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate xUnit.net test assemblies to register an external serializer for\none or more supports types to serialize.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.SerializationHelper",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.SerializationHelper.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SerializationHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "SerializationHelper"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SerializationHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "SerializationHelper"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.SerializationHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.SerializationHelper"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.SerializationHelper\" text=\"SerializationHelper\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.SerializationHelper\" text=\"SerializationHelper\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.SerializationHelper.yml\" sourcestartlinenumber=\"1\">Serializes and de-serializes objects. It supports a limited set of built-in types,\nas well as anything which implements <xref href=\"Xunit.Sdk.IXunitSerializable\" data-throw-if-not-resolved=\"false\"></xref>. Custom serializers\ncan implement <xref href=\"Xunit.Sdk.IXunitSerializer\" data-throw-if-not-resolved=\"false\"></xref> and register by decorating the test\nassembly with <xref href=\"Xunit.Sdk.RegisterXunitSerializerAttribute\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachment",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.TestAttachment.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachment"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachment"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachment"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachment"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachment\" text=\"TestAttachment\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachment.yml\" sourcestartlinenumber=\"1\">Represents an attachment to a test result.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TestAttachmentType",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.TestAttachmentType.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachmentType"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachmentType"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAttachmentType"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAttachmentType"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestAttachmentType"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestAttachmentType"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachmentType\" text=\"TestAttachmentType\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestAttachmentType\" text=\"TestAttachmentType\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestAttachmentType.yml\" sourcestartlinenumber=\"1\">Gets the type of the test attachment</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TestMethodDisplay",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.TestMethodDisplay.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodDisplay"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodDisplay"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodDisplay"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodDisplay"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestMethodDisplay"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestMethodDisplay"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestMethodDisplay\" text=\"TestMethodDisplay\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestMethodDisplay\" text=\"TestMethodDisplay\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestMethodDisplay.yml\" sourcestartlinenumber=\"1\">Indicates the default display name format for test methods.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TestMethodDisplayOptions",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.TestMethodDisplayOptions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodDisplayOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodDisplayOptions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodDisplayOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodDisplayOptions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestMethodDisplayOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestMethodDisplayOptions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestMethodDisplayOptions\" text=\"TestMethodDisplayOptions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestMethodDisplayOptions\" text=\"TestMethodDisplayOptions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestMethodDisplayOptions.yml\" sourcestartlinenumber=\"1\">Indicates the method display options for test methods.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TestOptionsNames",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.TestOptionsNames.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestOptionsNames"
+        },
+        {
+          "lang": "vb",
+          "value": "TestOptionsNames"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestOptionsNames"
+        },
+        {
+          "lang": "vb",
+          "value": "TestOptionsNames"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestOptionsNames"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestOptionsNames"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TestOptionsNames\" text=\"TestOptionsNames\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TestOptionsNames\" text=\"TestOptionsNames\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestOptionsNames.yml\" sourcestartlinenumber=\"1\">Test options names</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TestOptionsNames.Discovery",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.TestOptionsNames.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestOptionsNames.Discovery"
+        },
+        {
+          "lang": "vb",
+          "value": "TestOptionsNames.Discovery"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestOptionsNames.Discovery"
+        },
+        {
+          "lang": "vb",
+          "value": "TestOptionsNames.Discovery"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestOptionsNames.Discovery"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestOptionsNames.Discovery"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.html\">TestOptionsNames</a>.<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.Discovery.html\">Discovery</a>"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.html\">TestOptionsNames</a>.<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.Discovery.html\">Discovery</a>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestOptionsNames.Discovery.yml\" sourcestartlinenumber=\"1\">Test options names used with <xref href=\"Xunit.Sdk.ITestFrameworkDiscoveryOptions\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TestOptionsNames.Execution",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.TestOptionsNames.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestOptionsNames.Execution"
+        },
+        {
+          "lang": "vb",
+          "value": "TestOptionsNames.Execution"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestOptionsNames.Execution"
+        },
+        {
+          "lang": "vb",
+          "value": "TestOptionsNames.Execution"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TestOptionsNames.Execution"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TestOptionsNames.Execution"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.html\">TestOptionsNames</a>.<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.Execution.html\">Execution</a>"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.html\">TestOptionsNames</a>.<a class=\"xref\" href=\"Xunit.Sdk.TestOptionsNames.Execution.html\">Execution</a>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TestOptionsNames.Execution.yml\" sourcestartlinenumber=\"1\">Test options names used with <xref href=\"Xunit.Sdk.ITestFrameworkExecutionOptions\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.TypeHelper",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.TypeHelper.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TypeHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeHelper"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeHelper"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.TypeHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.TypeHelper"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.TypeHelper\" text=\"TypeHelper\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.TypeHelper\" text=\"TypeHelper\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.TypeHelper.yml\" sourcestartlinenumber=\"1\">Utility methods related to <xref href=\"System.Type\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.UniqueIDGenerator",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.UniqueIDGenerator.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "UniqueIDGenerator"
+        },
+        {
+          "lang": "vb",
+          "value": "UniqueIDGenerator"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "UniqueIDGenerator"
+        },
+        {
+          "lang": "vb",
+          "value": "UniqueIDGenerator"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.UniqueIDGenerator"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.UniqueIDGenerator"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.UniqueIDGenerator\" text=\"UniqueIDGenerator\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.UniqueIDGenerator\" text=\"UniqueIDGenerator\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.UniqueIDGenerator.yml\" sourcestartlinenumber=\"1\">Generates unique IDs from multiple string inputs. Used to compute the unique\nIDs that are used inside the test framework.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.UnsetPropertiesException",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.UnsetPropertiesException.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "UnsetPropertiesException"
+        },
+        {
+          "lang": "vb",
+          "value": "UnsetPropertiesException"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "UnsetPropertiesException"
+        },
+        {
+          "lang": "vb",
+          "value": "UnsetPropertiesException"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.UnsetPropertiesException"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.UnsetPropertiesException"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.UnsetPropertiesException\" text=\"UnsetPropertiesException\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.UnsetPropertiesException\" text=\"UnsetPropertiesException\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.UnsetPropertiesException.yml\" sourcestartlinenumber=\"1\">An exception which indicates an object had several properties that were not properly initialized.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.UnsetPropertyException",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.UnsetPropertyException.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "UnsetPropertyException"
+        },
+        {
+          "lang": "vb",
+          "value": "UnsetPropertyException"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "UnsetPropertyException"
+        },
+        {
+          "lang": "vb",
+          "value": "UnsetPropertyException"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.UnsetPropertyException"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.UnsetPropertyException"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.UnsetPropertyException\" text=\"UnsetPropertyException\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.UnsetPropertyException\" text=\"UnsetPropertyException\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.UnsetPropertyException.yml\" sourcestartlinenumber=\"1\">An exception which indicates an object was not properly initialized, thrown by a property\ngetter that was accessed by the uninitialized object.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.XunitSerializationInfo",
+      "isExtensionMethod": false,
+      "href": "Xunit.Sdk.XunitSerializationInfo.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "XunitSerializationInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitSerializationInfo"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitSerializationInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitSerializationInfo"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.XunitSerializationInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.XunitSerializationInfo"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.XunitSerializationInfo\" text=\"XunitSerializationInfo\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.XunitSerializationInfo\" text=\"XunitSerializationInfo\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.XunitSerializationInfo.yml\" sourcestartlinenumber=\"1\">Represents serialization information for serializing a complex object. This is typically\nused by objects which implement <xref href=\"Xunit.Sdk.IXunitSerializable\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.XunitSerializationInfoExtensions",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.XunitSerializationInfoExtensions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "XunitSerializationInfoExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitSerializationInfoExtensions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitSerializationInfoExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitSerializationInfoExtensions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.XunitSerializationInfoExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.XunitSerializationInfoExtensions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.XunitSerializationInfoExtensions\" text=\"XunitSerializationInfoExtensions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.XunitSerializationInfoExtensions\" text=\"XunitSerializationInfoExtensions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.XunitSerializationInfoExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Xunit.Sdk.IXunitSerializationInfo\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "xunit.v3.common"
+  ],
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/common/Xunit.Sdk.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/common/Xunit.Sdk.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/common/toc.yml",
+  "_tocPath": "v3-2.0.0/common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

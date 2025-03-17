@@ -6,22 +6,18 @@
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.assert",
           "files": [ "*.csproj" ],
-          "exclude": [
-            "**/Asserts/Sdk/ArgumentFormatter.cs", // not f*** working.
-            "**/bin/**",
-            "**/obj/**",
-            "**/*.dll"
-          ]
+          "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
-      "dest": "v3-2.0.0/assert"
+      "dest": "v3-2.0.0/assert",
+      "filter": "filterConfigs/AssertFilterConfig.yml"
     },
     {
       "src": [
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.common",
           "files": [ "*.csproj" ],
-          "exclude": [ "**/bin/**", "**/obj/**", "**/*.dll" ]
+          "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
       "dest": "v3-2.0.0/common"
@@ -31,7 +27,7 @@
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.core",
           "files": [ "*.csproj" ],
-          "exclude": [ "**/bin/**", "**/obj/**", "**/*.dll" ]
+          "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
       "dest": "v3-2.0.0/core"
@@ -41,7 +37,7 @@
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.runner.common",
           "files": [ "*.csproj" ],
-          "exclude": [ "**/bin/**", "**/obj/**", "**/*.dll" ]
+          "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
       "dest": "v3-2.0.0/runner-common"
@@ -51,7 +47,7 @@
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.runner.utility",
           "files": [ "*.csproj" ],
-          "exclude": [ "**/bin/**", "**/obj/**", "**/*.dll" ]
+          "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
       "dest": "v3-2.0.0/runner-utility"
@@ -68,6 +64,7 @@
         ]
       }
     ],
+    "overwrite": "overwrites/asserts.md",
     "resource": [
       {
         "files": [

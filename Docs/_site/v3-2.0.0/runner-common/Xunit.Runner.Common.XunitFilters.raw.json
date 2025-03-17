@@ -1,0 +1,2999 @@
+{
+  "uid": "Xunit.Runner.Common.XunitFilters",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddExcludedClassFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddExcludedClassFilter(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddExcludedClassFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddExcludedClassFilter(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter(System.String)\" text=\"AddExcludedClassFilter(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter(System.String)\" text=\"AddExcludedClassFilter(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddExcludedClassFilter(string query)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddExcludedClassFilter(query As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "query",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddExcludedClassFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 28,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">The query may begin and/or end with <code>*</code> to add as a wildcard. No other wildcards\nare permitted in any other locations.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddExcludedClassFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddExcludedClassFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddExcludedClassFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddExcludedClassFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter*\" text=\"AddExcludedClassFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedClassFilter*\" text=\"AddExcludedClassFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">Adds a simple filter which excludes a fully qualified class name.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddExcludedMethodFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddExcludedMethodFilter(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddExcludedMethodFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddExcludedMethodFilter(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter(System.String)\" text=\"AddExcludedMethodFilter(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter(System.String)\" text=\"AddExcludedMethodFilter(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddExcludedMethodFilter(string query)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddExcludedMethodFilter(query As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "query",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddExcludedMethodFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 35,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddExcludedMethodFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddExcludedMethodFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddExcludedMethodFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddExcludedMethodFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter*\" text=\"AddExcludedMethodFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedMethodFilter*\" text=\"AddExcludedMethodFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddExcludedNamespaceFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddExcludedNamespaceFilter(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddExcludedNamespaceFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddExcludedNamespaceFilter(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter(System.String)\" text=\"AddExcludedNamespaceFilter(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter(System.String)\" text=\"AddExcludedNamespaceFilter(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddExcludedNamespaceFilter(string query)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddExcludedNamespaceFilter(query As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "query",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddExcludedNamespaceFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 42,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddExcludedNamespaceFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddExcludedNamespaceFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddExcludedNamespaceFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddExcludedNamespaceFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter*\" text=\"AddExcludedNamespaceFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedNamespaceFilter*\" text=\"AddExcludedNamespaceFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter(System.String,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddExcludedTraitFilter(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddExcludedTraitFilter(String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddExcludedTraitFilter(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddExcludedTraitFilter(String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter(String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter(System.String,System.String)\" text=\"AddExcludedTraitFilter(string, string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter(System.String,System.String)\" text=\"AddExcludedTraitFilter(string, string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddExcludedTraitFilter(string name, string value)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddExcludedTraitFilter(name As String, value As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "name",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddExcludedTraitFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 49,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddExcludedTraitFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddExcludedTraitFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddExcludedTraitFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddExcludedTraitFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter*\" text=\"AddExcludedTraitFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddExcludedTraitFilter*\" text=\"AddExcludedTraitFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddIncludedClassFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddIncludedClassFilter(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddIncludedClassFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddIncludedClassFilter(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter(System.String)\" text=\"AddIncludedClassFilter(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter(System.String)\" text=\"AddIncludedClassFilter(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddIncludedClassFilter(string query)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddIncludedClassFilter(query As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "query",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddIncludedClassFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 64,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">The query may begin and/or end with <code>*</code> to add as a wildcard. No other wildcards\nare permitted in any other locations.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddIncludedClassFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddIncludedClassFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddIncludedClassFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddIncludedClassFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter*\" text=\"AddIncludedClassFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedClassFilter*\" text=\"AddIncludedClassFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">Adds a simple filter matching a fully qualified class name.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddIncludedMethodFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddIncludedMethodFilter(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddIncludedMethodFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddIncludedMethodFilter(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter(System.String)\" text=\"AddIncludedMethodFilter(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter(System.String)\" text=\"AddIncludedMethodFilter(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddIncludedMethodFilter(string query)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddIncludedMethodFilter(query As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "query",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddIncludedMethodFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 71,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddIncludedMethodFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddIncludedMethodFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddIncludedMethodFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddIncludedMethodFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter*\" text=\"AddIncludedMethodFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedMethodFilter*\" text=\"AddIncludedMethodFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddIncludedNamespaceFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddIncludedNamespaceFilter(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddIncludedNamespaceFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddIncludedNamespaceFilter(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter(System.String)\" text=\"AddIncludedNamespaceFilter(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter(System.String)\" text=\"AddIncludedNamespaceFilter(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddIncludedNamespaceFilter(string query)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddIncludedNamespaceFilter(query As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "query",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddIncludedNamespaceFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 78,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddIncludedNamespaceFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddIncludedNamespaceFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddIncludedNamespaceFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddIncludedNamespaceFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter*\" text=\"AddIncludedNamespaceFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedNamespaceFilter*\" text=\"AddIncludedNamespaceFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter(System.String,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddIncludedTraitFilter(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddIncludedTraitFilter(String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddIncludedTraitFilter(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddIncludedTraitFilter(String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter(String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter(System.String,System.String)\" text=\"AddIncludedTraitFilter(string, string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter(System.String,System.String)\" text=\"AddIncludedTraitFilter(string, string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddIncludedTraitFilter(string name, string value)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddIncludedTraitFilter(name As String, value As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "name",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddIncludedTraitFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 85,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddIncludedTraitFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddIncludedTraitFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddIncludedTraitFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddIncludedTraitFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter*\" text=\"AddIncludedTraitFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddIncludedTraitFilter*\" text=\"AddIncludedTraitFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.AddQueryFilter(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddQueryFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddQueryFilter(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.AddQueryFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.AddQueryFilter(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.AddQueryFilter(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.AddQueryFilter(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddQueryFilter(System.String)\" text=\"AddQueryFilter(string)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddQueryFilter(System.String)\" text=\"AddQueryFilter(string)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddQueryFilter(string query)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddQueryFilter(query As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "query",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddQueryFilter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 99,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">For more information on the query syntax, see <a href=\"https://xunit.net/docs/query-filter-language\">https://xunit.net/docs/query-filter-language</a></p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.AddQueryFilter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddQueryFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "AddQueryFilter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.AddQueryFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.AddQueryFilter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.AddQueryFilter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.AddQueryFilter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddQueryFilter*\" text=\"AddQueryFilter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.AddQueryFilter*\" text=\"AddQueryFilter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">Adds a query filter.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.Empty",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Empty"
+        },
+        {
+          "lang": "vb",
+          "value": "Empty"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.Empty"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.Empty"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.Empty"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.Empty"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Empty\" text=\"Empty\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Empty\" text=\"Empty\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public bool Empty { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Empty As Boolean"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Empty",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 18,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.Empty*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Empty"
+          },
+          {
+            "lang": "vb",
+            "value": "Empty"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.Empty"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.Empty"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.Empty"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.Empty"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Empty*\" text=\"Empty\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Empty*\" text=\"Empty\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">Gets a flag indicating whether there are any active filters.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.Filter(System.String,Xunit.Sdk.ITestCaseMetadata)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Filter(string, ITestCaseMetadata)"
+        },
+        {
+          "lang": "vb",
+          "value": "Filter(String, ITestCaseMetadata)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.Filter(string, ITestCaseMetadata)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.Filter(String, ITestCaseMetadata)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.Filter(string, Xunit.Sdk.ITestCaseMetadata)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.Filter(String, Xunit.Sdk.ITestCaseMetadata)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Filter(System.String,Xunit.Sdk.ITestCaseMetadata)\" text=\"Filter(string, ITestCaseMetadata)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Filter(System.String,Xunit.Sdk.ITestCaseMetadata)\" text=\"Filter(string, ITestCaseMetadata)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public bool Filter(string assemblyName, ITestCaseMetadata testCase)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function Filter(assemblyName As String, testCase As ITestCaseMetadata) As Boolean"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "assemblyName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">The simple assembly name without file extension</p>\n"
+          },
+          {
+            "id": "testCase",
+            "type": {
+              "uid": "Xunit.Sdk.ITestCaseMetadata",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestCaseMetadata"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestCaseMetadata"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestCaseMetadata"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestCaseMetadata"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestCaseMetadata"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestCaseMetadata"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">The test case to be checked against the filter</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Filter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 106,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.Filter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Filter"
+          },
+          {
+            "lang": "vb",
+            "value": "Filter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.Filter"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.Filter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.Filter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.Filter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Filter*\" text=\"Filter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.Filter*\" text=\"Filter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Runner.Common.ITestCaseFilter.Filter(System.String,Xunit.Sdk.ITestCaseMetadata)",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Filter(string, ITestCaseMetadata)"
+            },
+            {
+              "lang": "vb",
+              "value": "Filter(String, ITestCaseMetadata)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseFilter.Filter(string, ITestCaseMetadata)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseFilter.Filter(String, ITestCaseMetadata)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Runner.Common.ITestCaseFilter.Filter(string, Xunit.Sdk.ITestCaseMetadata)"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Runner.Common.ITestCaseFilter.Filter(String, Xunit.Sdk.ITestCaseMetadata)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.ITestCaseFilter.html#Xunit_Runner_Common_ITestCaseFilter_Filter_System_String_Xunit_Sdk_ITestCaseMetadata_\">Filter</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>)"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.ITestCaseFilter.html#Xunit_Runner_Common_ITestCaseFilter_Filter_System_String_Xunit_Sdk_ITestCaseMetadata_\">Filter</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>)"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">Determines whether the given <code class=\"paramref\">testCase</code> passes the filter.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.XunitFilters.ToXunit3Arguments",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.XunitFilters",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToXunit3Arguments()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToXunit3Arguments()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitFilters.ToXunit3Arguments()"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitFilters.ToXunit3Arguments()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.XunitFilters.ToXunit3Arguments()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.XunitFilters.ToXunit3Arguments()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.ToXunit3Arguments\" text=\"ToXunit3Arguments()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.ToXunit3Arguments\" text=\"ToXunit3Arguments()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<string> ToXunit3Arguments()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function ToXunit3Arguments() As IReadOnlyCollection(Of String)"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{System.String}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<string>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of String)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<string>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of String)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<string>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of String)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ToXunit3Arguments",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+        "startLine": 129,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.XunitFilters.ToXunit3Arguments*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToXunit3Arguments"
+          },
+          {
+            "lang": "vb",
+            "value": "ToXunit3Arguments"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitFilters.ToXunit3Arguments"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitFilters.ToXunit3Arguments"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.XunitFilters.ToXunit3Arguments"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.XunitFilters.ToXunit3Arguments"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.ToXunit3Arguments*\" text=\"ToXunit3Arguments\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.XunitFilters.ToXunit3Arguments*\" text=\"ToXunit3Arguments\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">Gets the command-line arguments to pass to an xUnit.net v3 test assembly to perform\nthe filtering contained within this filter.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "XunitFilters"
+    },
+    {
+      "lang": "vb",
+      "value": "XunitFilters"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "XunitFilters"
+    },
+    {
+      "lang": "vb",
+      "value": "XunitFilters"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.XunitFilters"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.XunitFilters"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "XunitFilters",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/XunitFilters.cs",
+    "startLine": 10,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml\" sourcestartlinenumber=\"1\">Represents the ability to track query filters or simple filters. Any attempt\nto add a mix of the two will result in an exception.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class XunitFilters : ITestCaseFilter"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class XunitFilters Implements ITestCaseFilter"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Xunit.Runner.Common.ITestCaseFilter",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseFilter"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseFilter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseFilter"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseFilter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.ITestCaseFilter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.ITestCaseFilter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.ITestCaseFilter\" text=\"ITestCaseFilter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.ITestCaseFilter\" text=\"ITestCaseFilter\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.XunitFilters.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

@@ -1,0 +1,2420 @@
+{
+  "uid": "Xunit.Runner.Common.TestClassMessage",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.TestClassMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestClassMessage",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Deserialize(IReadOnlyDictionary<string, object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Deserialize(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMessage.Deserialize(IReadOnlyDictionary<string, object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMessage.Deserialize(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestClassMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary<string, object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestClassMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})\" text=\"Deserialize(IReadOnlyDictionary&lt;string, object?&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})\" text=\"Deserialize(IReadOnlyDictionary&lt;string, object?&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Deserialize(IReadOnlyDictionary<string, object?> root)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Deserialize(root As IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "root",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object}",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Object)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Object)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, Object)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml\" sourcestartlinenumber=\"1\">The root of the JSON object</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/BaseMessages/TestClassMessage.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Deserialize",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/BaseMessages/TestClassMessage.cs",
+        "startLine": 12,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Runner.Common.TestCollectionMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Deserialize(IReadOnlyDictionary<string, object>)"
+          },
+          {
+            "lang": "vb",
+            "value": "Deserialize(IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCollectionMessage.Deserialize(IReadOnlyDictionary<string, object>)"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCollectionMessage.Deserialize(IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCollectionMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary<string, object>)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCollectionMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_Deserialize_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">Deserialize</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_Deserialize_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">Deserialize</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>))"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestClassMessage.Deserialize*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Deserialize"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestClassMessage.Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassMessage.Deserialize"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestClassMessage.Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestClassMessage.Deserialize"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Deserialize*\" text=\"Deserialize\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Deserialize*\" text=\"Deserialize\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml\" sourcestartlinenumber=\"1\">Override to deserialize the values in the dictionary into the message.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestClassMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestClassMessage",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Serialize(JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "Serialize(JsonObjectSerializer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMessage.Serialize(JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMessage.Serialize(JsonObjectSerializer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestClassMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestClassMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)\" text=\"Serialize(JsonObjectSerializer)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)\" text=\"Serialize(JsonObjectSerializer)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Serialize(JsonObjectSerializer serializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Serialize(serializer As JsonObjectSerializer)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "serializer",
+            "type": {
+              "uid": "Xunit.Sdk.JsonObjectSerializer",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml\" sourcestartlinenumber=\"1\">The serializer to write values to.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/common/MessagePartials/BaseMessages/TestClassMessage.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Serialize",
+        "path": "../v3/v3-2.0.0/src/common/MessagePartials/BaseMessages/TestClassMessage.cs",
+        "startLine": 16,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Runner.Common.TestCollectionMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Serialize(JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Serialize(JsonObjectSerializer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCollectionMessage.Serialize(JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCollectionMessage.Serialize(JsonObjectSerializer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCollectionMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCollectionMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_Serialize_Xunit_Sdk_JsonObjectSerializer_\">Serialize</a>(<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_Serialize_Xunit_Sdk_JsonObjectSerializer_\">Serialize</a>(<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestClassMessage.Serialize*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Serialize"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestClassMessage.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassMessage.Serialize"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestClassMessage.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestClassMessage.Serialize"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Serialize*\" text=\"Serialize\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.Serialize*\" text=\"Serialize\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml\" sourcestartlinenumber=\"1\">Override to serialize the values in the message into JSON.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestClassMessage",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMessage.TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMessage.TestClassUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? TestClassUniqueID { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestClassUniqueID As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/BaseMessages/TestClassMessage.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestClassUniqueID",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/BaseMessages/TestClassMessage.cs",
+        "startLine": 9,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestClassUniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassUniqueID"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestClassMessage.TestClassUniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassMessage.TestClassUniqueID"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.TestClassUniqueID*\" text=\"TestClassUniqueID\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.TestClassUniqueID*\" text=\"TestClassUniqueID\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestClassMessage.TestClassUniqueID",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestClassUniqueID"
+            },
+            {
+              "lang": "vb",
+              "value": "TestClassUniqueID"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestClassMessage.TestClassUniqueID"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestClassMessage.TestClassUniqueID"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestClassMessage.TestClassUniqueID"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestClassMessage.TestClassUniqueID"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml\" sourcestartlinenumber=\"1\">Gets the test class's unique ID. Can be used to correlate test messages with the appropriate\ntest class that they're related to. Will be <code>null</code> if the test did not originate from a class.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestClassMessage.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestClassMessage",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMessage.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMessage.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestClassMessage.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestClassMessage.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.ToString\" text=\"ToString()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.ToString\" text=\"ToString()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function ToString() As String"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/common/MessagePartials/BaseMessages/TestClassMessage.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ToString",
+        "path": "../v3/v3-2.0.0/src/common/MessagePartials/BaseMessages/TestClassMessage.cs",
+        "startLine": 26,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Runner.Common.TestCollectionMessage.ToString",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString()"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCollectionMessage.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCollectionMessage.ToString()"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCollectionMessage.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCollectionMessage.ToString()"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_ToString\">ToString</a>()"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_ToString\">ToString</a>()"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestClassMessage.ToString*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestClassMessage.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassMessage.ToString"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestClassMessage.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestClassMessage.ToString"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.ToString*\" text=\"ToString\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.ToString*\" text=\"ToString\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestClassMessage"
+    },
+    {
+      "lang": "vb",
+      "value": "TestClassMessage"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestClassMessage"
+    },
+    {
+      "lang": "vb",
+      "value": "TestClassMessage"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.TestClassMessage"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.TestClassMessage"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/common/MessagePartials/BaseMessages/TestClassMessage.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestClassMessage",
+    "path": "../v3/v3-2.0.0/src/common/MessagePartials/BaseMessages/TestClassMessage.cs",
+    "startLine": 13,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml\" sourcestartlinenumber=\"1\">Default implementation of <xref href=\"Xunit.Sdk.ITestClassMessage\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public abstract class TestClassMessage : TestCollectionMessage, IJsonDeserializable, ITestClassMessage, ITestCollectionMessage, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public MustInherit Class TestClassMessage Inherits TestCollectionMessage Implements IJsonDeserializable, ITestClassMessage, ITestCollectionMessage, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage\" text=\"MessageSinkMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage\" text=\"MessageSinkMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestAssemblyMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestAssemblyMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage\" text=\"TestAssemblyMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage\" text=\"TestAssemblyMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCollectionMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestCollectionMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCollectionMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage\" text=\"TestCollectionMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage\" text=\"TestCollectionMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 3
+    }
+  ],
+  "derivedClasses": [
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassCleanupFailure\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassCleanupFailure\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 5
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassFinished\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassFinished\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 5
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassStarting\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassStarting\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 5
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMethodMessage\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMethodMessage\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 5
+    }
+  ],
+  "level": 4,
+  "implements": [
+    {
+      "uid": "Xunit.Sdk.IJsonDeserializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonDeserializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonDeserializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonDeserializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonDeserializable\" text=\"IJsonDeserializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonDeserializable\" text=\"IJsonDeserializable\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage\" text=\"ITestClassMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage\" text=\"ITestClassMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage\" text=\"ITestCollectionMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage\" text=\"ITestCollectionMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IMessageSinkMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IJsonSerializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCollectionMessage",
+      "href": "Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_TestCollectionUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionMessage.TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionMessage.TestCollectionUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID\" text=\"TestCollectionUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID\" text=\"TestCollectionUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCollectionMessage.yml\" sourcestartlinenumber=\"1\">Gets the test collection's unique ID. Can be used to correlate test messages with the appropriate\ntest collection that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestAssemblyMessage",
+      "href": "Xunit.Runner.Common.TestAssemblyMessage.html#Xunit_Runner_Common_TestAssemblyMessage_AssemblyUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "AssemblyUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestAssemblyMessage.yml\" sourcestartlinenumber=\"1\">Gets the assembly's unique ID. Can be used to correlate test messages with the appropriate\nassembly that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.EmptyTraits",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_EmptyTraits",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "EmptyTraits"
+        },
+        {
+          "lang": "vb",
+          "value": "EmptyTraits"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.EmptyTraits"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.EmptyTraits"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.EmptyTraits"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.EmptyTraits"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage.EmptyTraits\" text=\"EmptyTraits\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage.EmptyTraits\" text=\"EmptyTraits\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Empty traits, to be used to initialize traits values in messages.</p>\n",
+      "type": "field",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_UnsetStringPropertyValue",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "UnsetStringPropertyValue"
+        },
+        {
+          "lang": "vb",
+          "value": "UnsetStringPropertyValue"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.UnsetStringPropertyValue"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.UnsetStringPropertyValue"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue\" text=\"UnsetStringPropertyValue\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue\" text=\"UnsetStringPropertyValue\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Gets the string value that message properties will return, when a value was not provided\nduring deserialization.</p>\n",
+      "type": "field",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.FromJson(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_FromJson_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FromJson(IReadOnlyDictionary<string, object>)"
+        },
+        {
+          "lang": "vb",
+          "value": "FromJson(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.FromJson(IReadOnlyDictionary<string, object>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.FromJson(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.FromJson(System.Collections.Generic.IReadOnlyDictionary<string, object>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.FromJson(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_FromJson_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">FromJson</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_FromJson_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">FromJson</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Deserializes the object's values from the provided JSON.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.ToDisplayString(System.String[])",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToDisplayString_System_String___",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToDisplayString(string[])"
+        },
+        {
+          "lang": "vb",
+          "value": "ToDisplayString(String())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.ToDisplayString(string[])"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.ToDisplayString(String())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToDisplayString(string[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToDisplayString(String())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToDisplayString_System_String___\">ToDisplayString</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToDisplayString_System_String___\">ToDisplayString</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>())"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Converts a string array into a display value, for use in an <xref href=\"System.Object.ToString\" data-throw-if-not-resolved=\"false\"></xref> overload.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.ToDisplayString``1({T}[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "definition": "Xunit.Runner.Common.MessageSinkMessage.ToDisplayString``1(``0[])",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToDisplayString__1___0___",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToDisplayString<T>(T[])"
+        },
+        {
+          "lang": "vb",
+          "value": "ToDisplayString(Of T)(T())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.ToDisplayString<T>(T[])"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.ToDisplayString(Of T)(T())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToDisplayString<T>(T[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToDisplayString(Of T)(T())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToDisplayString__1___0___\">ToDisplayString</a>&lt;T&gt;(T[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToDisplayString__1___0___\">ToDisplayString</a>(Of T)(T())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.ToJson",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToJson",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToJson()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.ToJson()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToJson()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToJson\">ToJson</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToJson\">ToJson</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Creates a JSON serialized version of this message.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "Xunit.Sdk.IMessageSinkMessage.Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen``1(Xunit.Runner.Common.MessageHandler{{TMessage}})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.MessageSinkMessageExtensions",
+      "definition": "Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen``1(Xunit.Sdk.IMessageSinkMessage,Xunit.Runner.Common.MessageHandler{``0})",
+      "href": "Xunit.Sdk.MessageSinkMessageExtensions.html#Xunit_Sdk_MessageSinkMessageExtensions_DispatchWhen__1_Xunit_Sdk_IMessageSinkMessage_Xunit_Runner_Common_MessageHandler___0__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DispatchWhen<TMessage>(IMessageSinkMessage, MessageHandler<TMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DispatchWhen(Of TMessage)(IMessageSinkMessage, MessageHandler(Of TMessage))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessageExtensions.DispatchWhen<TMessage>(IMessageSinkMessage, MessageHandler<TMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessageExtensions.DispatchWhen(Of TMessage)(IMessageSinkMessage, MessageHandler(Of TMessage))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen<TMessage>(Xunit.Sdk.IMessageSinkMessage, Xunit.Runner.Common.MessageHandler<TMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen(Of TMessage)(Xunit.Sdk.IMessageSinkMessage, Xunit.Runner.Common.MessageHandler(Of TMessage))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.MessageSinkMessageExtensions.html#Xunit_Sdk_MessageSinkMessageExtensions_DispatchWhen__1_Xunit_Sdk_IMessageSinkMessage_Xunit_Runner_Common_MessageHandler___0__\">DispatchWhen</a>&lt;TMessage&gt;(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>, <a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandler-1.html\">MessageHandler</a>&lt;TMessage&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.MessageSinkMessageExtensions.html#Xunit_Sdk_MessageSinkMessageExtensions_DispatchWhen__1_Xunit_Sdk_IMessageSinkMessage_Xunit_Runner_Common_MessageHandler___0__\">DispatchWhen</a>(Of TMessage)(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>, <a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandler-1.html\">MessageHandler</a>(Of TMessage))"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

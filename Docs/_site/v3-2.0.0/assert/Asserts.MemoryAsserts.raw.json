@@ -1,0 +1,3894 @@
+{
+  "uid": "Asserts.MemoryAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Asserts.MemoryAsserts.Contains``1(System.Memory{``0},System.Memory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(Memory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(Memory(Of T), Memory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Contains<T>(Memory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Contains(Of T)(Memory(Of T), Memory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Contains<T>(System.Memory<T>, System.Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Contains(Of T)(System.Memory(Of T), System.Memory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.Memory{``0},System.Memory{``0})\" text=\"Contains&lt;T&gt;(Memory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.Memory{``0},System.Memory{``0})\" text=\"Contains&lt;T&gt;(Memory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(Memory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubMemory As Memory(Of T), actualMemory As Memory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 31,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is not present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory contains a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.Contains``1(System.Memory{``0},System.ReadOnlyMemory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(Memory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(Memory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Contains<T>(Memory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Contains(Of T)(Memory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Contains<T>(System.Memory<T>, System.ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Contains(Of T)(System.Memory(Of T), System.ReadOnlyMemory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.Memory{``0},System.ReadOnlyMemory{``0})\" text=\"Contains&lt;T&gt;(Memory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.Memory{``0},System.ReadOnlyMemory{``0})\" text=\"Contains&lt;T&gt;(Memory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(Memory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubMemory As Memory(Of T), actualMemory As ReadOnlyMemory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 43,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is not present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory contains a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.Contains``1(System.ReadOnlyMemory{``0},System.Memory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(ReadOnlyMemory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(ReadOnlyMemory(Of T), Memory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Contains<T>(ReadOnlyMemory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Contains(Of T)(ReadOnlyMemory(Of T), Memory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Contains<T>(System.ReadOnlyMemory<T>, System.Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Contains(Of T)(System.ReadOnlyMemory(Of T), System.Memory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.ReadOnlyMemory{``0},System.Memory{``0})\" text=\"Contains&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.ReadOnlyMemory{``0},System.Memory{``0})\" text=\"Contains&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(ReadOnlyMemory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubMemory As ReadOnlyMemory(Of T), actualMemory As Memory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 55,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is not present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory contains a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.Contains``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(ReadOnlyMemory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(ReadOnlyMemory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Contains<T>(ReadOnlyMemory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Contains(Of T)(ReadOnlyMemory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Contains<T>(System.ReadOnlyMemory<T>, System.ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Contains(Of T)(System.ReadOnlyMemory(Of T), System.ReadOnlyMemory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})\" text=\"Contains&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Contains``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})\" text=\"Contains&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(ReadOnlyMemory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubMemory As ReadOnlyMemory(Of T), actualMemory As ReadOnlyMemory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 67,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is not present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory contains a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.DoesNotContain``1(System.Memory{``0},System.Memory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(Memory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(Memory(Of T), Memory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.DoesNotContain<T>(Memory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.DoesNotContain(Of T)(Memory(Of T), Memory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.DoesNotContain<T>(System.Memory<T>, System.Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.DoesNotContain(Of T)(System.Memory(Of T), System.Memory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.Memory{``0},System.Memory{``0})\" text=\"DoesNotContain&lt;T&gt;(Memory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.Memory{``0},System.Memory{``0})\" text=\"DoesNotContain&lt;T&gt;(Memory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(Memory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubMemory As Memory(Of T), actualMemory As Memory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected not to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 87,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory does not contain a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.DoesNotContain``1(System.Memory{``0},System.ReadOnlyMemory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(Memory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(Memory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.DoesNotContain<T>(Memory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.DoesNotContain(Of T)(Memory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.DoesNotContain<T>(System.Memory<T>, System.ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.DoesNotContain(Of T)(System.Memory(Of T), System.ReadOnlyMemory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.Memory{``0},System.ReadOnlyMemory{``0})\" text=\"DoesNotContain&lt;T&gt;(Memory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.Memory{``0},System.ReadOnlyMemory{``0})\" text=\"DoesNotContain&lt;T&gt;(Memory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(Memory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubMemory As Memory(Of T), actualMemory As ReadOnlyMemory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected not to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 99,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory does not contain a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.DoesNotContain``1(System.ReadOnlyMemory{``0},System.Memory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(ReadOnlyMemory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(ReadOnlyMemory(Of T), Memory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.DoesNotContain<T>(ReadOnlyMemory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.DoesNotContain(Of T)(ReadOnlyMemory(Of T), Memory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.DoesNotContain<T>(System.ReadOnlyMemory<T>, System.Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.DoesNotContain(Of T)(System.ReadOnlyMemory(Of T), System.Memory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.ReadOnlyMemory{``0},System.Memory{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.ReadOnlyMemory{``0},System.Memory{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(ReadOnlyMemory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubMemory As ReadOnlyMemory(Of T), actualMemory As Memory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected not to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 111,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory does not contain a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.DoesNotContain``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(ReadOnlyMemory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(ReadOnlyMemory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.DoesNotContain<T>(ReadOnlyMemory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.DoesNotContain(Of T)(ReadOnlyMemory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.DoesNotContain<T>(System.ReadOnlyMemory<T>, System.ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.DoesNotContain(Of T)(System.ReadOnlyMemory(Of T), System.ReadOnlyMemory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(ReadOnlyMemory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubMemory As ReadOnlyMemory(Of T), actualMemory As ReadOnlyMemory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The sub-Memory expected not to be in the Memory</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The Memory to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 123,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-Memory is present inside the Memory</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a Memory does not contain a given sub-Memory</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.Equal``1(System.Memory{``0},System.Memory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(Memory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(Memory(Of T), Memory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Equal<T>(Memory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Equal(Of T)(Memory(Of T), Memory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Equal<T>(System.Memory<T>, System.Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Equal(Of T)(System.Memory(Of T), System.Memory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.Memory{``0},System.Memory{``0})\" text=\"Equal&lt;T&gt;(Memory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.Memory{``0},System.Memory{``0})\" text=\"Equal&lt;T&gt;(Memory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(Memory<T> expectedMemory, Memory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedMemory As Memory(Of T), actualMemory As Memory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The expected Memory value.</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The actual Memory value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 149,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the Memory values are not equivalent.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two Memory values are equivalent.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.Equal``1(System.Memory{``0},System.ReadOnlyMemory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(Memory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(Memory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Equal<T>(Memory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Equal(Of T)(Memory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Equal<T>(System.Memory<T>, System.ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Equal(Of T)(System.Memory(Of T), System.ReadOnlyMemory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.Memory{``0},System.ReadOnlyMemory{``0})\" text=\"Equal&lt;T&gt;(Memory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.Memory{``0},System.ReadOnlyMemory{``0})\" text=\"Equal&lt;T&gt;(Memory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(Memory<T> expectedMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedMemory As Memory(Of T), actualMemory As ReadOnlyMemory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The expected Memory value.</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The actual Memory value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 161,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the Memory values are not equivalent.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two Memory values are equivalent.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.Equal``1(System.ReadOnlyMemory{``0},System.Memory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(ReadOnlyMemory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(ReadOnlyMemory(Of T), Memory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Equal<T>(ReadOnlyMemory<T>, Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Equal(Of T)(ReadOnlyMemory(Of T), Memory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Equal<T>(System.ReadOnlyMemory<T>, System.Memory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Equal(Of T)(System.ReadOnlyMemory(Of T), System.Memory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.ReadOnlyMemory{``0},System.Memory{``0})\" text=\"Equal&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.ReadOnlyMemory{``0},System.Memory{``0})\" text=\"Equal&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, Memory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(ReadOnlyMemory<T> expectedMemory, Memory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedMemory As ReadOnlyMemory(Of T), actualMemory As Memory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The expected Memory value.</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.Memory{{T}}",
+              "definition": "System.Memory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Memory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Memory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Memory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.memory-1\">Memory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The actual Memory value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 173,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the Memory values are not equivalent.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two Memory values are equivalent.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.MemoryAsserts.Equal``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.MemoryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(ReadOnlyMemory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(ReadOnlyMemory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemoryAsserts.Equal<T>(ReadOnlyMemory<T>, ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemoryAsserts.Equal(Of T)(ReadOnlyMemory(Of T), ReadOnlyMemory(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.MemoryAsserts.Equal<T>(System.ReadOnlyMemory<T>, System.ReadOnlyMemory<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.MemoryAsserts.Equal(Of T)(System.ReadOnlyMemory(Of T), System.ReadOnlyMemory(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})\" text=\"Equal&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.MemoryAsserts.Equal``1(System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``0})\" text=\"Equal&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, ReadOnlyMemory&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(ReadOnlyMemory<T> expectedMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedMemory As ReadOnlyMemory(Of T), actualMemory As ReadOnlyMemory(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The expected Memory value.</p>\n"
+          },
+          {
+            "id": "actualMemory",
+            "type": {
+              "uid": "System.ReadOnlyMemory{{T}}",
+              "definition": "System.ReadOnlyMemory`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyMemory(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlyMemory<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlyMemory(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlymemory-1\">ReadOnlyMemory</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">The actual Memory value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+        "startLine": 185,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.MemoryAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "MemoryAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.MemoryAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.MemoryAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.MemoryAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the Memory values are not equivalent.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.MemoryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two Memory values are equivalent.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "MemoryAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "MemoryAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "MemoryAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "MemoryAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Asserts.MemoryAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Asserts.MemoryAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "MemoryAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\MemoryAsserts.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class MemoryAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class MemoryAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Asserts.MemoryAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Asserts.MemoryAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

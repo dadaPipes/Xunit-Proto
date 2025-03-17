@@ -1,0 +1,1394 @@
+{
+  "uid": "Xunit.EventAsserts.RaisedEvent`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.EventAsserts.RaisedEvent`1.#ctor(System.Object,`0)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.EventAsserts.RaisedEvent`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisedEvent(object?, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(Object, T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisedEvent<T>.RaisedEvent(object?, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisedEvent(Of T).New(Object, T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.EventAsserts.RaisedEvent<T>.RaisedEvent(object?, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.EventAsserts.RaisedEvent(Of T).New(Object, T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor(System.Object,`0)\" text=\"RaisedEvent(object?, T)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor(System.Object,`0)\" text=\"RaisedEvent(object?, T)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public RaisedEvent(object? sender, T args)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(sender As Object, args As T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "sender",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">The sender of the event.</p>\n"
+          },
+          {
+            "id": "args",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">The event arguments</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": ".ctor",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 506,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.EventAsserts.RaisedEvent`1.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisedEvent"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisedEvent<T>.RaisedEvent"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisedEvent(Of T).New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.EventAsserts.RaisedEvent<T>.RaisedEvent"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.EventAsserts.RaisedEvent(Of T).New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor*\" text=\"RaisedEvent\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor*\" text=\"RaisedEvent\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">Creates a new instance of the <xref href=\"Xunit.EventAsserts.RaisedEvent%601\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.EventAsserts.RaisedEvent`1.#ctor(`0)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.EventAsserts.RaisedEvent`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisedEvent(T)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisedEvent<T>.RaisedEvent(T)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisedEvent(Of T).New(T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.EventAsserts.RaisedEvent<T>.RaisedEvent(T)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.EventAsserts.RaisedEvent(Of T).New(T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor(`0)\" text=\"RaisedEvent(T)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor(`0)\" text=\"RaisedEvent(T)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public RaisedEvent(T args)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(args As T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "args",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">The event arguments</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": ".ctor",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 497,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.EventAsserts.RaisedEvent`1.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisedEvent"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisedEvent<T>.RaisedEvent"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisedEvent(Of T).New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.EventAsserts.RaisedEvent<T>.RaisedEvent"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.EventAsserts.RaisedEvent(Of T).New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor*\" text=\"RaisedEvent\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.#ctor*\" text=\"RaisedEvent\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">Creates a new instance of the <xref href=\"Xunit.EventAsserts.RaisedEvent%601\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.EventAsserts.RaisedEvent`1.Arguments",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.EventAsserts.RaisedEvent`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Arguments"
+        },
+        {
+          "lang": "vb",
+          "value": "Arguments"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisedEvent<T>.Arguments"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisedEvent(Of T).Arguments"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.EventAsserts.RaisedEvent<T>.Arguments"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.EventAsserts.RaisedEvent(Of T).Arguments"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Arguments\" text=\"Arguments\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Arguments\" text=\"Arguments\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public T Arguments { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Arguments As T"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "{T}",
+            "definition": "T",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "Arguments",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 491,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.EventAsserts.RaisedEvent`1.Arguments*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Arguments"
+          },
+          {
+            "lang": "vb",
+            "value": "Arguments"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisedEvent<T>.Arguments"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisedEvent(Of T).Arguments"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.EventAsserts.RaisedEvent<T>.Arguments"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.EventAsserts.RaisedEvent(Of T).Arguments"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Arguments*\" text=\"Arguments\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Arguments*\" text=\"Arguments\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">The event arguments.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.EventAsserts.RaisedEvent`1.Sender",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.EventAsserts.RaisedEvent`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Sender"
+        },
+        {
+          "lang": "vb",
+          "value": "Sender"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisedEvent<T>.Sender"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisedEvent(Of T).Sender"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.EventAsserts.RaisedEvent<T>.Sender"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.EventAsserts.RaisedEvent(Of T).Sender"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Sender\" text=\"Sender\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Sender\" text=\"Sender\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public object? Sender { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Sender As Object"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Object",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "object"
+              },
+              {
+                "lang": "vb",
+                "value": "Object"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object"
+              },
+              {
+                "lang": "vb",
+                "value": "Object"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object"
+              },
+              {
+                "lang": "vb",
+                "value": "Object"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "Sender",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 483,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.EventAsserts.RaisedEvent`1.Sender*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Sender"
+          },
+          {
+            "lang": "vb",
+            "value": "Sender"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisedEvent<T>.Sender"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisedEvent(Of T).Sender"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.EventAsserts.RaisedEvent<T>.Sender"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.EventAsserts.RaisedEvent(Of T).Sender"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Sender*\" text=\"Sender\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.EventAsserts.RaisedEvent`1.Sender*\" text=\"Sender\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">The sender of the event. When the event is recorded via <xref href=\"System.Action%601\" data-throw-if-not-resolved=\"false\"></xref> rather\nthan <xref href=\"System.EventHandler%601\" data-throw-if-not-resolved=\"false\"></xref>, this value will always be <code>null</code>,\nsince there is no sender value when using actions.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "EventAsserts.RaisedEvent<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "EventAsserts.RaisedEvent(Of T)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "EventAsserts.RaisedEvent<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "EventAsserts.RaisedEvent(Of T)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.EventAsserts.RaisedEvent<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.EventAsserts.RaisedEvent(Of T)"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "RaisedEvent",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+    "startLine": 475,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">Represents a raised event after the fact.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class EventAsserts.RaisedEvent<T>"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class EventAsserts.RaisedEvent(Of T)"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "T",
+        "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml\" sourcestartlinenumber=\"1\">The type of the event arguments.</p>\n"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.EventAsserts.RaisedEvent-1.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

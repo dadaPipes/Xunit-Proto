@@ -1,0 +1,551 @@
+{
+  "uid": "Xunit.Runner.Common.ITestCaseFilter",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.ITestCaseFilter.Filter(System.String,Xunit.Sdk.ITestCaseMetadata)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.ITestCaseFilter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Filter(string, ITestCaseMetadata)"
+        },
+        {
+          "lang": "vb",
+          "value": "Filter(String, ITestCaseMetadata)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseFilter.Filter(string, ITestCaseMetadata)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseFilter.Filter(String, ITestCaseMetadata)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.ITestCaseFilter.Filter(string, Xunit.Sdk.ITestCaseMetadata)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.ITestCaseFilter.Filter(String, Xunit.Sdk.ITestCaseMetadata)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.ITestCaseFilter.Filter(System.String,Xunit.Sdk.ITestCaseMetadata)\" text=\"Filter(string, ITestCaseMetadata)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.ITestCaseFilter.Filter(System.String,Xunit.Sdk.ITestCaseMetadata)\" text=\"Filter(string, ITestCaseMetadata)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "bool Filter(string assemblyName, ITestCaseMetadata testCase)"
+          },
+          {
+            "lang": "vb",
+            "value": "Function Filter(assemblyName As String, testCase As ITestCaseMetadata) As Boolean"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "assemblyName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ITestCaseFilter.yml\" sourcestartlinenumber=\"1\">The simple assembly name without file extension</p>\n"
+          },
+          {
+            "id": "testCase",
+            "type": {
+              "uid": "Xunit.Sdk.ITestCaseMetadata",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestCaseMetadata"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestCaseMetadata"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestCaseMetadata"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestCaseMetadata"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestCaseMetadata"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestCaseMetadata"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ITestCaseFilter.yml\" sourcestartlinenumber=\"1\">The test case to be checked against the filter</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Filtering/ITestCaseFilter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Filter",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/ITestCaseFilter.cs",
+        "startLine": 14,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.ITestCaseFilter.Filter*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Filter"
+          },
+          {
+            "lang": "vb",
+            "value": "Filter"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestCaseFilter.Filter"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestCaseFilter.Filter"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.ITestCaseFilter.Filter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.ITestCaseFilter.Filter"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.ITestCaseFilter.Filter*\" text=\"Filter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.ITestCaseFilter.Filter*\" text=\"Filter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ITestCaseFilter.yml\" sourcestartlinenumber=\"1\">Determines whether the given <code class=\"paramref\">testCase</code> passes the filter.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITestCaseFilter"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestCaseFilter"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITestCaseFilter"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestCaseFilter"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.ITestCaseFilter"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.ITestCaseFilter"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.common/Filtering/ITestCaseFilter.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ITestCaseFilter",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Filtering/ITestCaseFilter.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ITestCaseFilter.yml\" sourcestartlinenumber=\"1\">Represents a filter run against a test case (and the associated assembly it resides in).</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITestCaseFilter"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITestCaseFilter"
+      }
+    ]
+  },
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.ITestCaseFilter.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.ITestCaseFilter.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

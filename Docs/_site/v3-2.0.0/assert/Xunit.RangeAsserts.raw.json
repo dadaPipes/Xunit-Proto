@@ -1,0 +1,2042 @@
+{
+  "uid": "Xunit.RangeAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.RangeAsserts.InRange``1(``0,``0,``0)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.RangeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InRange<T>(T, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "InRange(Of T)(T, T, T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "RangeAsserts.InRange<T>(T, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "RangeAsserts.InRange(Of T)(T, T, T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.RangeAsserts.InRange<T>(T, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.RangeAsserts.InRange(Of T)(T, T, T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.RangeAsserts.InRange``1(``0,``0,``0)\" text=\"InRange&lt;T&gt;(T, T, T)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.RangeAsserts.InRange``1(``0,``0,``0)\" text=\"InRange&lt;T&gt;(T, T, T)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void InRange<T>(T actual, T low, T high) where T : IComparable"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub InRange(Of T As IComparable)(actual As T, low As T, high As T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "actual",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The actual value to be evaluated</p>\n"
+          },
+          {
+            "id": "low",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) low value of the range</p>\n"
+          },
+          {
+            "id": "high",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) high value of the range</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The type of the value to be compared</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "InRange",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\RangeAsserts.cs",
+        "startLine": 30,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.RangeAsserts.InRange*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "InRange"
+          },
+          {
+            "lang": "vb",
+            "value": "InRange"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "RangeAsserts.InRange"
+          },
+          {
+            "lang": "vb",
+            "value": "RangeAsserts.InRange"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.RangeAsserts.InRange"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.RangeAsserts.InRange"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.RangeAsserts.InRange*\" text=\"InRange\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.RangeAsserts.InRange*\" text=\"InRange\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.InRangeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "InRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "InRangeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "InRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "InRangeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.InRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.InRangeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.InRangeException\" text=\"InRangeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.InRangeException\" text=\"InRangeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the value is not in the given range</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a value is within a given range.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.RangeAsserts.InRange``1(``0,``0,``0,System.Collections.Generic.IComparer{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.RangeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InRange<T>(T, T, T, IComparer<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "InRange(Of T)(T, T, T, IComparer(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "RangeAsserts.InRange<T>(T, T, T, IComparer<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RangeAsserts.InRange(Of T)(T, T, T, IComparer(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.RangeAsserts.InRange<T>(T, T, T, System.Collections.Generic.IComparer<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.RangeAsserts.InRange(Of T)(T, T, T, System.Collections.Generic.IComparer(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.RangeAsserts.InRange``1(``0,``0,``0,System.Collections.Generic.IComparer{``0})\" text=\"InRange&lt;T&gt;(T, T, T, IComparer&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.RangeAsserts.InRange``1(``0,``0,``0,System.Collections.Generic.IComparer{``0})\" text=\"InRange&lt;T&gt;(T, T, T, IComparer&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void InRange<T>(T actual, T low, T high, IComparer<T> comparer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub InRange(Of T)(actual As T, low As T, high As T, comparer As IComparer(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "actual",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The actual value to be evaluated</p>\n"
+          },
+          {
+            "id": "low",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) low value of the range</p>\n"
+          },
+          {
+            "id": "high",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) high value of the range</p>\n"
+          },
+          {
+            "id": "comparer",
+            "type": {
+              "uid": "System.Collections.Generic.IComparer{{T}}",
+              "definition": "System.Collections.Generic.IComparer`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IComparer<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IComparer(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IComparer<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IComparer(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IComparer<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IComparer(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1\">IComparer</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1\">IComparer</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The comparer used to evaluate the value's range</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The type of the value to be compared</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "InRange",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\RangeAsserts.cs",
+        "startLine": 46,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.RangeAsserts.InRange*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "InRange"
+          },
+          {
+            "lang": "vb",
+            "value": "InRange"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "RangeAsserts.InRange"
+          },
+          {
+            "lang": "vb",
+            "value": "RangeAsserts.InRange"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.RangeAsserts.InRange"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.RangeAsserts.InRange"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.RangeAsserts.InRange*\" text=\"InRange\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.RangeAsserts.InRange*\" text=\"InRange\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.InRangeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "InRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "InRangeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "InRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "InRangeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.InRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.InRangeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.InRangeException\" text=\"InRangeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.InRangeException\" text=\"InRangeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the value is not in the given range</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a value is within a given range, using a comparer.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.RangeAsserts.NotInRange``1(``0,``0,``0)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.RangeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "NotInRange<T>(T, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "NotInRange(Of T)(T, T, T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "RangeAsserts.NotInRange<T>(T, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "RangeAsserts.NotInRange(Of T)(T, T, T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.RangeAsserts.NotInRange<T>(T, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.RangeAsserts.NotInRange(Of T)(T, T, T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange``1(``0,``0,``0)\" text=\"NotInRange&lt;T&gt;(T, T, T)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange``1(``0,``0,``0)\" text=\"NotInRange&lt;T&gt;(T, T, T)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void NotInRange<T>(T actual, T low, T high) where T : IComparable"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub NotInRange(Of T As IComparable)(actual As T, low As T, high As T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "actual",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The actual value to be evaluated</p>\n"
+          },
+          {
+            "id": "low",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) low value of the range</p>\n"
+          },
+          {
+            "id": "high",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) high value of the range</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The type of the value to be compared</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "NotInRange",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\RangeAsserts.cs",
+        "startLine": 69,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.RangeAsserts.NotInRange*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "NotInRange"
+          },
+          {
+            "lang": "vb",
+            "value": "NotInRange"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "RangeAsserts.NotInRange"
+          },
+          {
+            "lang": "vb",
+            "value": "RangeAsserts.NotInRange"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.RangeAsserts.NotInRange"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.RangeAsserts.NotInRange"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange*\" text=\"NotInRange\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange*\" text=\"NotInRange\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.NotInRangeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NotInRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotInRangeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "NotInRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotInRangeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.NotInRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.NotInRangeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.NotInRangeException\" text=\"NotInRangeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.NotInRangeException\" text=\"NotInRangeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the value is in the given range</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a value is not within a given range, using the default comparer.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.RangeAsserts.NotInRange``1(``0,``0,``0,System.Collections.Generic.IComparer{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.RangeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "NotInRange<T>(T, T, T, IComparer<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "NotInRange(Of T)(T, T, T, IComparer(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "RangeAsserts.NotInRange<T>(T, T, T, IComparer<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RangeAsserts.NotInRange(Of T)(T, T, T, IComparer(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.RangeAsserts.NotInRange<T>(T, T, T, System.Collections.Generic.IComparer<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.RangeAsserts.NotInRange(Of T)(T, T, T, System.Collections.Generic.IComparer(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange``1(``0,``0,``0,System.Collections.Generic.IComparer{``0})\" text=\"NotInRange&lt;T&gt;(T, T, T, IComparer&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange``1(``0,``0,``0,System.Collections.Generic.IComparer{``0})\" text=\"NotInRange&lt;T&gt;(T, T, T, IComparer&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void NotInRange<T>(T actual, T low, T high, IComparer<T> comparer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub NotInRange(Of T)(actual As T, low As T, high As T, comparer As IComparer(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "actual",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The actual value to be evaluated</p>\n"
+          },
+          {
+            "id": "low",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) low value of the range</p>\n"
+          },
+          {
+            "id": "high",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The (inclusive) high value of the range</p>\n"
+          },
+          {
+            "id": "comparer",
+            "type": {
+              "uid": "System.Collections.Generic.IComparer{{T}}",
+              "definition": "System.Collections.Generic.IComparer`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IComparer<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IComparer(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IComparer<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IComparer(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IComparer<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IComparer(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1\">IComparer</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1\">IComparer</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The comparer used to evaluate the value's range</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">The type of the value to be compared</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "NotInRange",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\RangeAsserts.cs",
+        "startLine": 85,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.RangeAsserts.NotInRange*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "NotInRange"
+          },
+          {
+            "lang": "vb",
+            "value": "NotInRange"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "RangeAsserts.NotInRange"
+          },
+          {
+            "lang": "vb",
+            "value": "RangeAsserts.NotInRange"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.RangeAsserts.NotInRange"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.RangeAsserts.NotInRange"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange*\" text=\"NotInRange\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.RangeAsserts.NotInRange*\" text=\"NotInRange\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.NotInRangeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NotInRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotInRangeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "NotInRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotInRangeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.NotInRangeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.NotInRangeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.NotInRangeException\" text=\"NotInRangeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.NotInRangeException\" text=\"NotInRangeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the value is in the given range</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.RangeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a value is not within a given range, using a comparer.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "RangeAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "RangeAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "RangeAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "RangeAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.RangeAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.RangeAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "RangeAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\RangeAsserts.cs",
+    "startLine": 18,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class RangeAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class RangeAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.RangeAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.RangeAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

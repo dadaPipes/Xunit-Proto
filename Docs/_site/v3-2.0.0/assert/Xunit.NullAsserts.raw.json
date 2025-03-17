@@ -1,0 +1,1594 @@
+{
+  "uid": "Xunit.NullAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.NullAsserts.NotNull(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.NullAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "NotNull(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "NotNull(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "NullAsserts.NotNull(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "NullAsserts.NotNull(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.NullAsserts.NotNull(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.NullAsserts.NotNull(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.NullAsserts.NotNull(System.Object)\" text=\"NotNull(object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.NullAsserts.NotNull(System.Object)\" text=\"NotNull(object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void NotNull(object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub NotNull([object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">The object to be validated</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "NotNull",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\NullAsserts.cs",
+        "startLine": 28,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.NullAsserts.NotNull*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "NotNull"
+          },
+          {
+            "lang": "vb",
+            "value": "NotNull"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "NullAsserts.NotNull"
+          },
+          {
+            "lang": "vb",
+            "value": "NullAsserts.NotNull"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.NullAsserts.NotNull"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.NullAsserts.NotNull"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.NullAsserts.NotNull*\" text=\"NotNull\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.NullAsserts.NotNull*\" text=\"NotNull\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.NotNullException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NotNullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotNullException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "NotNullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotNullException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.NotNullException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.NotNullException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.NotNullException\" text=\"NotNullException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.NotNullException\" text=\"NotNullException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object reference is null</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object reference is not null.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.NullAsserts.NotNull``1(System.Nullable{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.NullAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "NotNull<T>(T?)"
+        },
+        {
+          "lang": "vb",
+          "value": "NotNull(Of T)(T?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "NullAsserts.NotNull<T>(T?)"
+        },
+        {
+          "lang": "vb",
+          "value": "NullAsserts.NotNull(Of T)(T?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.NullAsserts.NotNull<T>(T?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.NullAsserts.NotNull(Of T)(T?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.NullAsserts.NotNull``1(System.Nullable{``0})\" text=\"NotNull&lt;T&gt;(T?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.NullAsserts.NotNull``1(System.Nullable{``0})\" text=\"NotNull&lt;T&gt;(T?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static T NotNull<T>(T? value) where T : struct"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function NotNull(Of T As Structure)(value As T?) As T"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.Nullable{{T}}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">The value to e validated</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">The type of the struct</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{T}",
+            "definition": "T",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">The non-<code>null</code> value</p>\n"
+        }
+      },
+      "source": {
+        "id": "NotNull",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\NullAsserts.cs",
+        "startLine": 45,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.NullAsserts.NotNull*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "NotNull"
+          },
+          {
+            "lang": "vb",
+            "value": "NotNull"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "NullAsserts.NotNull"
+          },
+          {
+            "lang": "vb",
+            "value": "NullAsserts.NotNull"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.NullAsserts.NotNull"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.NullAsserts.NotNull"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.NullAsserts.NotNull*\" text=\"NotNull\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.NullAsserts.NotNull*\" text=\"NotNull\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.NotNullException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NotNullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotNullException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "NotNullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NotNullException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.NotNullException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.NotNullException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.NotNullException\" text=\"NotNullException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.NotNullException\" text=\"NotNullException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the value is null</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a nullable struct value is not null.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.NullAsserts.Null(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.NullAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Null(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Null(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "NullAsserts.Null(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "NullAsserts.Null(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.NullAsserts.Null(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.NullAsserts.Null(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.NullAsserts.Null(System.Object)\" text=\"Null(object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.NullAsserts.Null(System.Object)\" text=\"Null(object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Null(object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Null([object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">The object to be inspected</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Null",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\NullAsserts.cs",
+        "startLine": 63,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.NullAsserts.Null*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Null"
+          },
+          {
+            "lang": "vb",
+            "value": "Null"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "NullAsserts.Null"
+          },
+          {
+            "lang": "vb",
+            "value": "NullAsserts.Null"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.NullAsserts.Null"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.NullAsserts.Null"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.NullAsserts.Null*\" text=\"Null\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.NullAsserts.Null*\" text=\"Null\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.NullException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NullException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "NullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NullException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.NullException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.NullException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.NullException\" text=\"NullException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.NullException\" text=\"NullException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object reference is not null</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object reference is null.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.NullAsserts.Null``1(System.Nullable{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.NullAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Null<T>(T?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Null(Of T)(T?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "NullAsserts.Null<T>(T?)"
+        },
+        {
+          "lang": "vb",
+          "value": "NullAsserts.Null(Of T)(T?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.NullAsserts.Null<T>(T?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.NullAsserts.Null(Of T)(T?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.NullAsserts.Null``1(System.Nullable{``0})\" text=\"Null&lt;T&gt;(T?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.NullAsserts.Null``1(System.Nullable{``0})\" text=\"Null&lt;T&gt;(T?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Null<T>(T? value) where T : struct"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Null(Of T As Structure)(value As T?)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.Nullable{{T}}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "T?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">The value to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Null",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\NullAsserts.cs",
+        "startLine": 77,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.NullAsserts.Null*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Null"
+          },
+          {
+            "lang": "vb",
+            "value": "Null"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "NullAsserts.Null"
+          },
+          {
+            "lang": "vb",
+            "value": "NullAsserts.Null"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.NullAsserts.Null"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.NullAsserts.Null"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.NullAsserts.Null*\" text=\"Null\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.NullAsserts.Null*\" text=\"Null\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.NullException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NullException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "NullException"
+              },
+              {
+                "lang": "vb",
+                "value": "NullException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.NullException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.NullException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.NullException\" text=\"NullException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.NullException\" text=\"NullException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the value is not null</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.NullAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a nullable struct value is null.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "NullAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "NullAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "NullAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "NullAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.NullAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.NullAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "NullAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\NullAsserts.cs",
+    "startLine": 18,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class NullAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class NullAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.NullAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.NullAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

@@ -1,0 +1,4844 @@
+{
+  "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Internal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.#ctor(Xunit.ITestContextAccessor,System.Boolean,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ConsoleCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleCaptureTestOutputWriter(ITestContextAccessor, bool, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(ITestContextAccessor, Boolean, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleCaptureTestOutputWriter.ConsoleCaptureTestOutputWriter(ITestContextAccessor, bool, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleCaptureTestOutputWriter.New(ITestContextAccessor, Boolean, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.ConsoleCaptureTestOutputWriter(Xunit.ITestContextAccessor, bool, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.New(Xunit.ITestContextAccessor, Boolean, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.#ctor(Xunit.ITestContextAccessor,System.Boolean,System.Boolean)\" text=\"ConsoleCaptureTestOutputWriter(ITestContextAccessor, bool, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.#ctor(Xunit.ITestContextAccessor,System.Boolean,System.Boolean)\" text=\"ConsoleCaptureTestOutputWriter(ITestContextAccessor, bool, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ConsoleCaptureTestOutputWriter(ITestContextAccessor testContextAccessor, bool captureError, bool captureOut)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(testContextAccessor As ITestContextAccessor, captureError As Boolean, captureOut As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "testContextAccessor",
+            "type": {
+              "uid": "Xunit.ITestContextAccessor",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestContextAccessor"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestContextAccessor"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestContextAccessor"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestContextAccessor"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.ITestContextAccessor"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.ITestContextAccessor"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.ITestContextAccessor\" text=\"ITestContextAccessor\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.ITestContextAccessor\" text=\"ITestContextAccessor\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "captureError",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "captureOut",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+        "startLine": 16,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleCaptureTestOutputWriter"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleCaptureTestOutputWriter.ConsoleCaptureTestOutputWriter"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleCaptureTestOutputWriter.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.ConsoleCaptureTestOutputWriter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.#ctor*\" text=\"ConsoleCaptureTestOutputWriter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.#ctor*\" text=\"ConsoleCaptureTestOutputWriter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ConsoleCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleCaptureTestOutputWriter.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleCaptureTestOutputWriter.Dispose(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose(System.Boolean)\" text=\"Dispose(bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose(System.Boolean)\" text=\"Dispose(bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Dispose(bool disposing)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Dispose(disposing As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "disposing",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Dispose",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+        "startLine": 41,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.IO.TextWriter.Dispose(System.Boolean)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "Dispose(Boolean)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TextWriter.Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "TextWriter.Dispose(Boolean)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.IO.TextWriter.Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "System.IO.TextWriter.Dispose(Boolean)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.dispose#system-io-textwriter-dispose(system-boolean)\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.dispose#system-io-textwriter-dispose(system-boolean)\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "Dispose"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleCaptureTestOutputWriter.Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleCaptureTestOutputWriter.Dispose"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose*\" text=\"Dispose\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Dispose*\" text=\"Dispose\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ConsoleCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Encoding"
+        },
+        {
+          "lang": "vb",
+          "value": "Encoding"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleCaptureTestOutputWriter.Encoding"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleCaptureTestOutputWriter.Encoding"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding\" text=\"Encoding\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding\" text=\"Encoding\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override Encoding Encoding { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides ReadOnly Property Encoding As Encoding"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Text.Encoding",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Encoding"
+              },
+              {
+                "lang": "vb",
+                "value": "Encoding"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Encoding"
+              },
+              {
+                "lang": "vb",
+                "value": "Encoding"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Text.Encoding"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Text.Encoding"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Text.Encoding\" text=\"Encoding\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Text.Encoding\" text=\"Encoding\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Encoding",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+        "startLine": 37,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.IO.TextWriter.Encoding",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Encoding"
+          },
+          {
+            "lang": "vb",
+            "value": "Encoding"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TextWriter.Encoding"
+          },
+          {
+            "lang": "vb",
+            "value": "TextWriter.Encoding"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.IO.TextWriter.Encoding"
+          },
+          {
+            "lang": "vb",
+            "value": "System.IO.TextWriter.Encoding"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"System.IO.TextWriter.Encoding\" text=\"Encoding\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"System.IO.TextWriter.Encoding\" text=\"Encoding\"/>"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Encoding"
+          },
+          {
+            "lang": "vb",
+            "value": "Encoding"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleCaptureTestOutputWriter.Encoding"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleCaptureTestOutputWriter.Encoding"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding*\" text=\"Encoding\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Encoding*\" text=\"Encoding\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.Char)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ConsoleCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Char)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleCaptureTestOutputWriter.Write(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleCaptureTestOutputWriter.Write(Char)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(Char)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.Char)\" text=\"Write(char)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.Char)\" text=\"Write(char)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override void Write(char value)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Sub Write(value As Char)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.Char",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "char"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Char"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "char"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Char"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "char"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Char"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Char\" text=\"char\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Char\" text=\"char\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Write",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+        "startLine": 56,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.IO.TextWriter.Write(System.Char)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write(char)"
+          },
+          {
+            "lang": "vb",
+            "value": "Write(Char)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TextWriter.Write(char)"
+          },
+          {
+            "lang": "vb",
+            "value": "TextWriter.Write(Char)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.IO.TextWriter.Write(char)"
+          },
+          {
+            "lang": "vb",
+            "value": "System.IO.TextWriter.Write(Char)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-char)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-char)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Write"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleCaptureTestOutputWriter.Write"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.Char[],System.Int32,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ConsoleCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Char(), Integer, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleCaptureTestOutputWriter.Write(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleCaptureTestOutputWriter.Write(Char(), Integer, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(Char(), Integer, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.Char[],System.Int32,System.Int32)\" text=\"Write(char[], int, int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.Char[],System.Int32,System.Int32)\" text=\"Write(char[], int, int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override void Write(char[] buffer, int index, int count)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Sub Write(buffer As Char(), index As Integer, count As Integer)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "buffer",
+            "type": {
+              "uid": "System.Char[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "char[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Char()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "char[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Char()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "char[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Char()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>()"
+                }
+              ]
+            }
+          },
+          {
+            "id": "index",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "count",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Write",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+        "startLine": 60,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.IO.TextWriter.Write(System.Char[],System.Int32,System.Int32)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write(char[], int, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "Write(Char(), Integer, Integer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TextWriter.Write(char[], int, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "TextWriter.Write(Char(), Integer, Integer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.IO.TextWriter.Write(char[], int, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "System.IO.TextWriter.Write(Char(), Integer, Integer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-char()-system-int32-system-int32)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[], <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-char()-system-int32-system-int32)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Write"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleCaptureTestOutputWriter.Write"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ConsoleCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleCaptureTestOutputWriter.Write(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleCaptureTestOutputWriter.Write(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.String)\" text=\"Write(string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write(System.String)\" text=\"Write(string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override void Write(string? value)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Sub Write(value As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "value",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Write",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+        "startLine": 64,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.IO.TextWriter.Write(System.String)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "Write(String)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TextWriter.Write(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "TextWriter.Write(String)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.IO.TextWriter.Write(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "System.IO.TextWriter.Write(String)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Write"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleCaptureTestOutputWriter.Write"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter.Write"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.ConsoleCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ConsoleCaptureTestOutputWriter"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsoleCaptureTestOutputWriter"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ConsoleCaptureTestOutputWriter"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsoleCaptureTestOutputWriter"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Internal.ConsoleCaptureTestOutputWriter"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ConsoleCaptureTestOutputWriter",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/ConsoleCaptureTestOutputWriter.cs",
+    "startLine": 9,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.Internal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.Internal.ConsoleCaptureTestOutputWriter.yml\" sourcestartlinenumber=\"1\">INTERNAL CLASS. DO NOT USE.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class ConsoleCaptureTestOutputWriter : TextWriter, IDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class ConsoleCaptureTestOutputWriter Inherits TextWriter Implements IDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "System.MarshalByRefObject",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.MarshalByRefObject"
+        },
+        {
+          "lang": "vb",
+          "value": "System.MarshalByRefObject"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.MarshalByRefObject\" text=\"MarshalByRefObject\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.MarshalByRefObject\" text=\"MarshalByRefObject\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "System.IO.TextWriter",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IO.TextWriter\" text=\"TextWriter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IO.TextWriter\" text=\"TextWriter\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 3,
+  "implements": [
+    {
+      "uid": "System.IDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.IO.TextWriter.CoreNewLine",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.corenewline",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CoreNewLine"
+        },
+        {
+          "lang": "vb",
+          "value": "CoreNewLine"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.CoreNewLine"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.CoreNewLine"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.CoreNewLine"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.CoreNewLine"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IO.TextWriter.CoreNewLine\" text=\"CoreNewLine\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IO.TextWriter.CoreNewLine\" text=\"CoreNewLine\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Null",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.null",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Null"
+        },
+        {
+          "lang": "vb",
+          "value": "Null"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Null"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Null"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Null"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Null"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IO.TextWriter.Null\" text=\"Null\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IO.TextWriter.Null\" text=\"Null\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Close",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.close",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Close()"
+        },
+        {
+          "lang": "vb",
+          "value": "Close()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Close()"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Close()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Close()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Close()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.close\">Close</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.close\">Close</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Dispose",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.dispose#system-io-textwriter-dispose",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Dispose()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Dispose()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.dispose#system-io-textwriter-dispose\">Dispose</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.dispose#system-io-textwriter-dispose\">Dispose</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Flush",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.flush",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Flush()"
+        },
+        {
+          "lang": "vb",
+          "value": "Flush()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Flush()"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Flush()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Flush()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Flush()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.flush\">Flush</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.flush\">Flush</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.FlushAsync",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.flushasync",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FlushAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "FlushAsync()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.FlushAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.FlushAsync()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.FlushAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.FlushAsync()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.flushasync\">FlushAsync</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.flushasync\">FlushAsync</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Synchronized(System.IO.TextWriter)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.synchronized",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Synchronized(TextWriter)"
+        },
+        {
+          "lang": "vb",
+          "value": "Synchronized(TextWriter)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Synchronized(TextWriter)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Synchronized(TextWriter)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Synchronized(System.IO.TextWriter)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Synchronized(System.IO.TextWriter)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.synchronized\">Synchronized</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter\">TextWriter</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.synchronized\">Synchronized</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter\">TextWriter</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-boolean)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-boolean)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Char[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-char())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Char())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Char())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Char())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-char())\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-char())\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Decimal)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-decimal)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(decimal)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Decimal)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(decimal)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Decimal)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(decimal)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Decimal)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-decimal)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">decimal</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-decimal)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">Decimal</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Double)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-double)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(double)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Double)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(double)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Double)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(double)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Double)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-double)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.double\">double</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-double)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.double\">Double</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-int32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-int32)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-int32)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Int64)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-int64)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(long)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Long)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(long)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Long)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(long)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Long)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-int64)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int64\">long</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-int64)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int64\">Long</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.Single)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-single)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(float)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Single)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(float)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(Single)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(float)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(Single)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-single)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.single\">float</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-single)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.single\">Single</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.String,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(string, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(String, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(string, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(String, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(string, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(String, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.String,System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(string, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(String, Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(string, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(String, Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(string, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(String, Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.String,System.Object,System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(string, object, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(String, Object, Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(string, object, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(String, Object, Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(string, object, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(String, Object, Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object-system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object-system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.String,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(String, ParamArray Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(String, ParamArray Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(String, ParamArray Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object())\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, params <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object())\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, ParamArray <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.UInt32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-uint32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(uint)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(UInteger)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(uint)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(UInteger)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(uint)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(UInteger)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-uint32)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint32\">uint</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-uint32)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint32\">UInteger</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.Write(System.UInt64)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-uint64)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(ulong)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(ULong)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.Write(ulong)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.Write(ULong)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.Write(ulong)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.Write(ULong)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-uint64)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint64\">ulong</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-uint64)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint64\">ULong</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteAsync(System.Char)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteAsync(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteAsync(Char)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteAsync(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteAsync(Char)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteAsync(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteAsync(Char)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char)\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char)\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteAsync(System.Char[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteAsync(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteAsync(Char())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteAsync(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteAsync(Char())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteAsync(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteAsync(Char())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char())\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char())\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char()-system-int32-system-int32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteAsync(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteAsync(Char(), Integer, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteAsync(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteAsync(Char(), Integer, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteAsync(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteAsync(Char(), Integer, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char()-system-int32-system-int32)\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[], <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char()-system-int32-system-int32)\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteAsync(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteAsync(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteAsync(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteAsync(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteAsync(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteAsync(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteAsync(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-string)\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-string)\">WriteAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine()"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine()"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline\">WriteLine</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline\">WriteLine</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-boolean)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-boolean)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Char)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Char)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Char)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Char)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Char[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Char())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Char())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Char())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char())\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char())\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Char[],System.Int32,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char()-system-int32-system-int32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Char(), Integer, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Char(), Integer, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Char(), Integer, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char()-system-int32-system-int32)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[], <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-char()-system-int32-system-int32)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Decimal)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-decimal)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(decimal)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Decimal)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(decimal)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Decimal)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(decimal)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Decimal)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-decimal)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">decimal</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-decimal)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">Decimal</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Double)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-double)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(double)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Double)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(double)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Double)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(double)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Double)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-double)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.double\">double</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-double)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.double\">Double</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-int32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-int32)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-int32)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Int64)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-int64)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(long)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Long)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(long)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Long)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(long)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Long)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-int64)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int64\">long</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-int64)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int64\">Long</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.Single)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-single)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(float)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Single)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(float)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(Single)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(float)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(Single)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-single)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.single\">float</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-single)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.single\">Single</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.String,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(string, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(String, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(string, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(String, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(string, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(String, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(string, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(String, Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(string, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(String, Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(string, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(String, Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(string, object, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(String, Object, Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(string, object, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(String, Object, Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(string, object, object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(String, Object, Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object-system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object-system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.String,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(String, ParamArray Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(String, ParamArray Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(String, ParamArray Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object())\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, params <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object())\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, ParamArray <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.UInt32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-uint32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(uint)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(UInteger)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(uint)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(UInteger)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(uint)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(UInteger)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-uint32)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint32\">uint</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-uint32)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint32\">UInteger</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLine(System.UInt64)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-uint64)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(ulong)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(ULong)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLine(ulong)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLine(ULong)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLine(ulong)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLine(ULong)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-uint64)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint64\">ulong</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-uint64)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uint64\">ULong</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLineAsync",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLineAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLineAsync()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLineAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLineAsync()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLineAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLineAsync()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync\">WriteLineAsync</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync\">WriteLineAsync</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLineAsync(System.Char)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLineAsync(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLineAsync(Char)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLineAsync(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLineAsync(Char)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLineAsync(char)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLineAsync(Char)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char)\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char)\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLineAsync(System.Char[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLineAsync(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLineAsync(Char())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLineAsync(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLineAsync(Char())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLineAsync(char[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLineAsync(Char())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char())\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char())\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char()-system-int32-system-int32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLineAsync(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLineAsync(Char(), Integer, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLineAsync(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLineAsync(Char(), Integer, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLineAsync(char[], int, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLineAsync(Char(), Integer, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char()-system-int32-system-int32)\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>[], <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char()-system-int32-system-int32)\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.WriteLineAsync(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLineAsync(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLineAsync(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.WriteLineAsync(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.WriteLineAsync(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.WriteLineAsync(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.WriteLineAsync(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-string)\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-string)\">WriteLineAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.FormatProvider",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.formatprovider",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatProvider"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.FormatProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.FormatProvider"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.FormatProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.FormatProvider"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IO.TextWriter.FormatProvider\" text=\"FormatProvider\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IO.TextWriter.FormatProvider\" text=\"FormatProvider\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.IO.TextWriter.NewLine",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IO.TextWriter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.io.textwriter.newline",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "NewLine"
+        },
+        {
+          "lang": "vb",
+          "value": "NewLine"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TextWriter.NewLine"
+        },
+        {
+          "lang": "vb",
+          "value": "TextWriter.NewLine"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IO.TextWriter.NewLine"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IO.TextWriter.NewLine"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IO.TextWriter.NewLine\" text=\"NewLine\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IO.TextWriter.NewLine\" text=\"NewLine\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.MarshalByRefObject.GetLifetimeService",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.MarshalByRefObject",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetLifetimeService()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject.GetLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject.GetLifetimeService()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.MarshalByRefObject.GetLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.MarshalByRefObject.GetLifetimeService()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice\">GetLifetimeService</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice\">GetLifetimeService</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.MarshalByRefObject.InitializeLifetimeService",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.MarshalByRefObject",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InitializeLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "InitializeLifetimeService()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject.InitializeLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject.InitializeLifetimeService()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.MarshalByRefObject.InitializeLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.MarshalByRefObject.InitializeLifetimeService()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice\">InitializeLifetimeService</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice\">InitializeLifetimeService</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.MarshalByRefObject.MemberwiseClone(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.MarshalByRefObject",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject.MemberwiseClone(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject.MemberwiseClone(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.MarshalByRefObject.MemberwiseClone(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.MarshalByRefObject.MemberwiseClone(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone\">MemberwiseClone</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone\">MemberwiseClone</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.Internal.ConsoleCaptureTestOutputWriter.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.Internal.ConsoleCaptureTestOutputWriter.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

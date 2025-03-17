@@ -1,0 +1,4236 @@
+{
+  "uid": "Asserts.DictionaryAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Concurrent.ConcurrentDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<TKey, TValue>(TKey, ConcurrentDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of TKey, TValue)(TKey, ConcurrentDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.Contains<TKey, TValue>(TKey, ConcurrentDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.Contains(Of TKey, TValue)(TKey, ConcurrentDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.Contains<TKey, TValue>(TKey, System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.Contains(Of TKey, TValue)(TKey, System.Collections.Concurrent.ConcurrentDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Concurrent.ConcurrentDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, ConcurrentDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Concurrent.ConcurrentDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, ConcurrentDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TValue Contains<TKey, TValue>(TKey expected, ConcurrentDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Contains(Of TKey, TValue)(expected As TKey, collection As ConcurrentDictionary(Of TKey, TValue)) As TValue"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Concurrent.ConcurrentDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Concurrent.ConcurrentDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ConcurrentDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ConcurrentDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ConcurrentDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ConcurrentDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Concurrent.ConcurrentDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2\">ConcurrentDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2\">ConcurrentDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{TValue}",
+            "definition": "TValue",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The value associated with <code class=\"paramref\">expected</code>.</p>\n"
+        }
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 90,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary contains a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.Dictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<TKey, TValue>(TKey, Dictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of TKey, TValue)(TKey, Dictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.Contains<TKey, TValue>(TKey, Dictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.Contains(Of TKey, TValue)(TKey, Dictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.Contains<TKey, TValue>(TKey, System.Collections.Generic.Dictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.Contains(Of TKey, TValue)(TKey, System.Collections.Generic.Dictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.Dictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, Dictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.Dictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, Dictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TValue Contains<TKey, TValue>(TKey expected, Dictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Contains(Of TKey, TValue)(expected As TKey, collection As Dictionary(Of TKey, TValue)) As TValue"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.Dictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Generic.Dictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Dictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Dictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Dictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Dictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.Dictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.Dictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{TValue}",
+            "definition": "TValue",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The value associated with <code class=\"paramref\">expected</code>.</p>\n"
+        }
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 107,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary contains a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.IDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<TKey, TValue>(TKey, IDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of TKey, TValue)(TKey, IDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.Contains<TKey, TValue>(TKey, IDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.Contains(Of TKey, TValue)(TKey, IDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.Contains<TKey, TValue>(TKey, System.Collections.Generic.IDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.Contains(Of TKey, TValue)(TKey, System.Collections.Generic.IDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.IDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, IDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.IDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, IDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TValue Contains<TKey, TValue>(TKey expected, IDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Contains(Of TKey, TValue)(expected As TKey, collection As IDictionary(Of TKey, TValue)) As TValue"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.IDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Generic.IDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{TValue}",
+            "definition": "TValue",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The value associated with <code class=\"paramref\">expected</code>.</p>\n"
+        }
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 34,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary contains a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.IReadOnlyDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<TKey, TValue>(TKey, IReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of TKey, TValue)(TKey, IReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.Contains<TKey, TValue>(TKey, IReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.Contains(Of TKey, TValue)(TKey, IReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.Contains<TKey, TValue>(TKey, System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.Contains(Of TKey, TValue)(TKey, System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.IReadOnlyDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, IReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Generic.IReadOnlyDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, IReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TValue Contains<TKey, TValue>(TKey expected, IReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Contains(Of TKey, TValue)(expected As TKey, collection As IReadOnlyDictionary(Of TKey, TValue)) As TValue"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{TValue}",
+            "definition": "TValue",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The value associated with <code class=\"paramref\">expected</code>.</p>\n"
+        }
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 62,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a read-only dictionary contains a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Immutable.ImmutableDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<TKey, TValue>(TKey, ImmutableDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of TKey, TValue)(TKey, ImmutableDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.Contains<TKey, TValue>(TKey, ImmutableDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.Contains(Of TKey, TValue)(TKey, ImmutableDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.Contains<TKey, TValue>(TKey, System.Collections.Immutable.ImmutableDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.Contains(Of TKey, TValue)(TKey, System.Collections.Immutable.ImmutableDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Immutable.ImmutableDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, ImmutableDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.Immutable.ImmutableDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, ImmutableDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TValue Contains<TKey, TValue>(TKey expected, ImmutableDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Contains(Of TKey, TValue)(expected As TKey, collection As ImmutableDictionary(Of TKey, TValue)) As TValue"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Immutable.ImmutableDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Immutable.ImmutableDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Immutable.ImmutableDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Immutable.ImmutableDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutabledictionary-2\">ImmutableDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutabledictionary-2\">ImmutableDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{TValue}",
+            "definition": "TValue",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The value associated with <code class=\"paramref\">expected</code>.</p>\n"
+        }
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 141,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary contains a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<TKey, TValue>(TKey, ReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of TKey, TValue)(TKey, ReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.Contains<TKey, TValue>(TKey, ReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.Contains(Of TKey, TValue)(TKey, ReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.Contains<TKey, TValue>(TKey, System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.Contains(Of TKey, TValue)(TKey, System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, ReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains``2(``0,System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1})\" text=\"Contains&lt;TKey, TValue&gt;(TKey, ReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TValue Contains<TKey, TValue>(TKey expected, ReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Contains(Of TKey, TValue)(expected As TKey, collection As ReadOnlyDictionary(Of TKey, TValue)) As TValue"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.ObjectModel.ReadOnlyDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.ObjectModel.ReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2\">ReadOnlyDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2\">ReadOnlyDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{TValue}",
+            "definition": "TValue",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "TValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The value associated with <code class=\"paramref\">expected</code>.</p>\n"
+        }
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 124,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary contains a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Concurrent.ConcurrentDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<TKey, TValue>(TKey, ConcurrentDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of TKey, TValue)(TKey, ConcurrentDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, ConcurrentDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, ConcurrentDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, System.Collections.Concurrent.ConcurrentDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Concurrent.ConcurrentDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, ConcurrentDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Concurrent.ConcurrentDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, ConcurrentDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<TKey, TValue>(TKey expected, ConcurrentDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of TKey, TValue)(expected As TKey, collection As ConcurrentDictionary(Of TKey, TValue))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Concurrent.ConcurrentDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Concurrent.ConcurrentDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ConcurrentDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ConcurrentDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ConcurrentDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ConcurrentDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Concurrent.ConcurrentDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2\">ConcurrentDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2\">ConcurrentDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 209,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary does not contain a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.Dictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<TKey, TValue>(TKey, Dictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of TKey, TValue)(TKey, Dictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, Dictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, Dictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, System.Collections.Generic.Dictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, System.Collections.Generic.Dictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.Dictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, Dictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.Dictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, Dictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<TKey, TValue>(TKey expected, Dictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of TKey, TValue)(expected As TKey, collection As Dictionary(Of TKey, TValue))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.Dictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Generic.Dictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Dictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Dictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Dictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Dictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.Dictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.Dictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 225,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary does not contain a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.IDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<TKey, TValue>(TKey, IDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of TKey, TValue)(TKey, IDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, IDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, IDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, System.Collections.Generic.IDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, System.Collections.Generic.IDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.IDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, IDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.IDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, IDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<TKey, TValue>(TKey expected, IDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of TKey, TValue)(expected As TKey, collection As IDictionary(Of TKey, TValue))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.IDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Generic.IDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 157,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary does not contain a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.IReadOnlyDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<TKey, TValue>(TKey, IReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of TKey, TValue)(TKey, IReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, IReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, IReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.IReadOnlyDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, IReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Generic.IReadOnlyDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, IReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<TKey, TValue>(TKey expected, IReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of TKey, TValue)(expected As TKey, collection As IReadOnlyDictionary(Of TKey, TValue))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 183,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary does not contain a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Immutable.ImmutableDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<TKey, TValue>(TKey, ImmutableDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of TKey, TValue)(TKey, ImmutableDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, ImmutableDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, ImmutableDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, System.Collections.Immutable.ImmutableDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, System.Collections.Immutable.ImmutableDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Immutable.ImmutableDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, ImmutableDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.Immutable.ImmutableDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, ImmutableDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<TKey, TValue>(TKey expected, ImmutableDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of TKey, TValue)(expected As TKey, collection As ImmutableDictionary(Of TKey, TValue))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Immutable.ImmutableDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.Immutable.ImmutableDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Immutable.ImmutableDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Immutable.ImmutableDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutabledictionary-2\">ImmutableDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutabledictionary-2\">ImmutableDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 257,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary does not contain a given key.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.DictionaryAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<TKey, TValue>(TKey, ReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of TKey, TValue)(TKey, ReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, ReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, ReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain<TKey, TValue>(TKey, System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.DictionaryAsserts.DoesNotContain(Of TKey, TValue)(TKey, System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, ReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain``2(``0,System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1})\" text=\"DoesNotContain&lt;TKey, TValue&gt;(TKey, ReadOnlyDictionary&lt;TKey, TValue&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<TKey, TValue>(TKey expected, ReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of TKey, TValue)(expected As TKey, collection As ReadOnlyDictionary(Of TKey, TValue))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{TKey}",
+              "definition": "TKey",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "TKey"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TKey"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{TKey}\" text=\"TKey\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the collection.</p>\n"
+          },
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.ObjectModel.ReadOnlyDictionary{{TKey},{TValue}}",
+              "definition": "System.Collections.ObjectModel.ReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2\">ReadOnlyDictionary</a>&lt;TKey, TValue&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2\">ReadOnlyDictionary</a>(Of TKey, TValue)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The collection to be inspected.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "TKey",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the keys of the object to be verified.</p>\n"
+          },
+          {
+            "id": "TValue",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">The type of the values of the object to be verified.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+        "startLine": 241,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.DictionaryAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.DictionaryAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.DictionaryAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is present in the collection</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.DictionaryAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a dictionary does not contain a given key.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "DictionaryAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "DictionaryAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "DictionaryAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "DictionaryAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Asserts.DictionaryAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Asserts.DictionaryAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "DictionaryAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\DictionaryAsserts.cs",
+    "startLine": 21,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class DictionaryAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class DictionaryAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Asserts.DictionaryAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Asserts.DictionaryAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

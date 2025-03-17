@@ -1,0 +1,3893 @@
+{
+  "uid": "Xunit.TypeAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.TypeAsserts.IsAssignableFrom(System.Type,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsAssignableFrom(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsAssignableFrom(Type, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsAssignableFrom(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsAssignableFrom(Type, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsAssignableFrom(System.Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsAssignableFrom(System.Type, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom(System.Type,System.Object)\" text=\"IsAssignableFrom(Type, object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom(System.Type,System.Object)\" text=\"IsAssignableFrom(Type, object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsAssignableFrom(Type expectedType, object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsAssignableFrom(expectedType As Type, [object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedType",
+            "type": {
+              "uid": "System.Type",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should be</p>\n"
+          },
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsAssignableFrom",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 53,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsAssignableFrom*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "IsAssignableFrom"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsAssignableFrom"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsAssignableFrom"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom*\" text=\"IsAssignableFrom\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom*\" text=\"IsAssignableFrom\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsAssignableFromException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsAssignableFromException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsAssignableFromException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsAssignableFromException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsAssignableFromException\" text=\"IsAssignableFromException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsAssignableFromException\" text=\"IsAssignableFromException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is of the given type or a derived type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsAssignableFrom``1(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsAssignableFrom<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsAssignableFrom(Of T)(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsAssignableFrom<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsAssignableFrom(Of T)(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsAssignableFrom<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsAssignableFrom(Of T)(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom``1(System.Object)\" text=\"IsAssignableFrom&lt;T&gt;(object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom``1(System.Object)\" text=\"IsAssignableFrom&lt;T&gt;(object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static T IsAssignableFrom<T>(object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function IsAssignableFrom(Of T)([object] As Object) As T"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should be</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{T}",
+            "definition": "T",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object, casted to type T when successful</p>\n"
+        }
+      },
+      "source": {
+        "id": "IsAssignableFrom",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 36,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsAssignableFrom*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "IsAssignableFrom"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsAssignableFrom"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsAssignableFrom"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom*\" text=\"IsAssignableFrom\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsAssignableFrom*\" text=\"IsAssignableFrom\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsAssignableFromException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsAssignableFromException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsAssignableFromException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsAssignableFromException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsAssignableFromException\" text=\"IsAssignableFromException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsAssignableFromException\" text=\"IsAssignableFromException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is of the given type or a derived type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsNotAssignableFrom(System.Type,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsNotAssignableFrom(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsNotAssignableFrom(Type, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsNotAssignableFrom(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsNotAssignableFrom(Type, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsNotAssignableFrom(System.Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsNotAssignableFrom(System.Type, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom(System.Type,System.Object)\" text=\"IsNotAssignableFrom(Type, object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom(System.Type,System.Object)\" text=\"IsNotAssignableFrom(Type, object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsNotAssignableFrom(Type expectedType, object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsNotAssignableFrom(expectedType As Type, [object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedType",
+            "type": {
+              "uid": "System.Type",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should not be</p>\n"
+          },
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsNotAssignableFrom",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 87,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsNotAssignableFrom*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsNotAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "IsNotAssignableFrom"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsNotAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsNotAssignableFrom"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsNotAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsNotAssignableFrom"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom*\" text=\"IsNotAssignableFrom\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom*\" text=\"IsNotAssignableFrom\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsNotAssignableFromException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNotAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotAssignableFromException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsNotAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotAssignableFromException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsNotAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsNotAssignableFromException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotAssignableFromException\" text=\"IsNotAssignableFromException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotAssignableFromException\" text=\"IsNotAssignableFromException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is of the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is not of the given type or a derived type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsNotAssignableFrom``1(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsNotAssignableFrom<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsNotAssignableFrom(Of T)(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsNotAssignableFrom<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsNotAssignableFrom(Of T)(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsNotAssignableFrom<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsNotAssignableFrom(Of T)(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom``1(System.Object)\" text=\"IsNotAssignableFrom&lt;T&gt;(object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom``1(System.Object)\" text=\"IsNotAssignableFrom&lt;T&gt;(object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsNotAssignableFrom<T>(object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsNotAssignableFrom(Of T)([object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should not be</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsNotAssignableFrom",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 75,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsNotAssignableFrom*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsNotAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "IsNotAssignableFrom"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsNotAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsNotAssignableFrom"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsNotAssignableFrom"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsNotAssignableFrom"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom*\" text=\"IsNotAssignableFrom\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotAssignableFrom*\" text=\"IsNotAssignableFrom\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsNotAssignableFromException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNotAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotAssignableFromException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsNotAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotAssignableFromException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsNotAssignableFromException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsNotAssignableFromException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotAssignableFromException\" text=\"IsNotAssignableFromException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotAssignableFromException\" text=\"IsNotAssignableFromException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is of the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is not of the given type or a derived type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsNotType(System.Type,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsNotType(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsNotType(Type, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsNotType(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsNotType(Type, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsNotType(System.Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsNotType(System.Type, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType(System.Type,System.Object)\" text=\"IsNotType(Type, object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType(System.Type,System.Object)\" text=\"IsNotType(Type, object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsNotType(Type expectedType, object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsNotType(expectedType As Type, [object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedType",
+            "type": {
+              "uid": "System.Type",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should not be</p>\n"
+          },
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsNotType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 142,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsNotType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsNotType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsNotType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsNotTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is not exactly the given type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsNotType(System.Type,System.Object,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsNotType(Type, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsNotType(Type, Object, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsNotType(Type, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsNotType(Type, Object, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsNotType(System.Type, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsNotType(System.Type, Object, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType(System.Type,System.Object,System.Boolean)\" text=\"IsNotType(Type, object?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType(System.Type,System.Object,System.Boolean)\" text=\"IsNotType(Type, object?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsNotType(Type expectedType, object? @object, bool exactMatch)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsNotType(expectedType As Type, [object] As Object, exactMatch As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedType",
+            "type": {
+              "uid": "System.Type",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should not be</p>\n"
+          },
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          },
+          {
+            "id": "exactMatch",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Will only fail with an exact type match when <code>true</code> is\npassed; will fail with a compatible type match when <code>false</code> is passed.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsNotType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 159,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsNotType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsNotType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsNotType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsNotTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is not of the given type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsNotType``1(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsNotType<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsNotType(Of T)(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsNotType<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsNotType(Of T)(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsNotType<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsNotType(Of T)(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType``1(System.Object)\" text=\"IsNotType&lt;T&gt;(object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType``1(System.Object)\" text=\"IsNotType&lt;T&gt;(object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsNotType<T>(object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsNotType(Of T)([object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should not be</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsNotType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 108,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsNotType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsNotType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsNotType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsNotTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is not exactly the given type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsNotType``1(System.Object,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsNotType<T>(object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsNotType(Of T)(Object, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsNotType<T>(object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsNotType(Of T)(Object, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsNotType<T>(object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsNotType(Of T)(Object, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType``1(System.Object,System.Boolean)\" text=\"IsNotType&lt;T&gt;(object?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType``1(System.Object,System.Boolean)\" text=\"IsNotType&lt;T&gt;(object?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsNotType<T>(object? @object, bool exactMatch)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsNotType(Of T)([object] As Object, exactMatch As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          },
+          {
+            "id": "exactMatch",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Will only fail with an exact type match when <code>true</code> is\npassed; will fail with a compatible type match when <code>false</code> is passed.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should not be</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsNotType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 125,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsNotType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsNotType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsNotType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsNotType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsNotType*\" text=\"IsNotType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsNotTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsNotTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsNotTypeException\" text=\"IsNotTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is not of the given type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsType(System.Type,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsType(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsType(Type, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsType(Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsType(Type, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsType(System.Type, object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsType(System.Type, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType(System.Type,System.Object)\" text=\"IsType(Type, object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType(System.Type,System.Object)\" text=\"IsType(Type, object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsType(Type expectedType, object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsType(expectedType As Type, [object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedType",
+            "type": {
+              "uid": "System.Type",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should be</p>\n"
+          },
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 235,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is exactly the given type (and not a derived type).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsType(System.Type,System.Object,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsType(Type, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsType(Type, Object, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsType(Type, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsType(Type, Object, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsType(System.Type, object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsType(System.Type, Object, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType(System.Type,System.Object,System.Boolean)\" text=\"IsType(Type, object?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType(System.Type,System.Object,System.Boolean)\" text=\"IsType(Type, object?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void IsType(Type expectedType, object? @object, bool exactMatch)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub IsType(expectedType As Type, [object] As Object, exactMatch As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedType",
+            "type": {
+              "uid": "System.Type",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should be</p>\n"
+          },
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          },
+          {
+            "id": "exactMatch",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Will only pass with an exact type match when <code>true</code> is\npassed; will pass with a compatible type match when <code>false</code> is passed.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "IsType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 252,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is of the given type.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsType``1(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsType<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsType(Of T)(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsType<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsType(Of T)(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsType<T>(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsType(Of T)(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType``1(System.Object)\" text=\"IsType&lt;T&gt;(object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType``1(System.Object)\" text=\"IsType&lt;T&gt;(object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static T IsType<T>(object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function IsType(Of T)([object] As Object) As T"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should be</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{T}",
+            "definition": "T",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object, casted to type T when successful</p>\n"
+        }
+      },
+      "source": {
+        "id": "IsType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 192,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object is exactly the given type (and not a derived type).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TypeAsserts.IsType``1(System.Object,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TypeAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsType<T>(object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsType(Of T)(Object, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TypeAsserts.IsType<T>(object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAsserts.IsType(Of T)(Object, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TypeAsserts.IsType<T>(object?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TypeAsserts.IsType(Of T)(Object, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType``1(System.Object,System.Boolean)\" text=\"IsType&lt;T&gt;(object?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TypeAsserts.IsType``1(System.Object,System.Boolean)\" text=\"IsType&lt;T&gt;(object?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static T IsType<T>(object? @object, bool exactMatch)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function IsType(Of T)([object] As Object, exactMatch As Boolean) As T"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object to be evaluated</p>\n"
+          },
+          {
+            "id": "exactMatch",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Will only pass with an exact type match when <code>true</code> is\npassed; will pass with a compatible type match when <code>false</code> is passed.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The type the object should be</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "{T}",
+            "definition": "T",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "T"
+              },
+              {
+                "lang": "vb",
+                "value": "T"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{T}\" text=\"T\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">The object, casted to type T when successful</p>\n"
+        }
+      },
+      "source": {
+        "id": "IsType",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+        "startLine": 215,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TypeAsserts.IsType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "IsType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAsserts.IsType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TypeAsserts.IsType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TypeAsserts.IsType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TypeAsserts.IsType*\" text=\"IsType\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.IsTypeException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "IsTypeException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.IsTypeException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.IsTypeException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.IsTypeException\" text=\"IsTypeException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not the given type</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.TypeAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an object of is the given type.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TypeAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "TypeAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TypeAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "TypeAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.TypeAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.TypeAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "TypeAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\TypeAsserts.cs",
+    "startLine": 24,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class TypeAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class TypeAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.TypeAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.TypeAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

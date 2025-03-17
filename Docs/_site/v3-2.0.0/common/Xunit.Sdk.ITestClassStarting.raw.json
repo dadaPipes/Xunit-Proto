@@ -1,0 +1,897 @@
+{
+  "uid": "Xunit.Sdk.ITestClassStarting",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITestClassStarting"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestClassStarting"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITestClassStarting"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestClassStarting"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk.ITestClassStarting"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk.ITestClassStarting"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.common/Abstractions/Messages/ITestClassStarting.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ITestClassStarting",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestClassStarting.cs",
+    "startLine": 5,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassStarting.yml\" sourcestartlinenumber=\"1\">This message indicates that a test class is about to begin executing.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITestClassStarting : ITestClassMessage, ITestCollectionMessage, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable, ITestClassMetadata"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITestClassStarting Inherits ITestClassMessage, ITestCollectionMessage, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable, ITestClassMetadata"
+      }
+    ]
+  },
+  "level": 0,
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.Sdk.ITestClassMessage.TestClassUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestClassMessage",
+      "href": "Xunit.Sdk.ITestClassMessage.html#Xunit_Sdk_ITestClassMessage_TestClassUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMessage.TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMessage.TestClassUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMessage.TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMessage.TestClassUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMessage.yml\" sourcestartlinenumber=\"1\">Gets the test class's unique ID. Can be used to correlate test messages with the appropriate\ntest class that they're related to. Will be <code>null</code> if the test did not originate from a class.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionMessage.TestCollectionUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestCollectionMessage",
+      "href": "Xunit.Sdk.ITestCollectionMessage.html#Xunit_Sdk_ITestCollectionMessage_TestCollectionUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMessage.TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMessage.TestCollectionUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionMessage.TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionMessage.TestCollectionUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage.TestCollectionUniqueID\" text=\"TestCollectionUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage.TestCollectionUniqueID\" text=\"TestCollectionUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestCollectionMessage.yml\" sourcestartlinenumber=\"1\">Gets the test collection's unique ID. Can be used to correlate test messages with the appropriate\ntest collection that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyMessage.AssemblyUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestAssemblyMessage",
+      "href": "Xunit.Sdk.ITestAssemblyMessage.html#Xunit_Sdk_ITestAssemblyMessage_AssemblyUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "AssemblyUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestAssemblyMessage.yml\" sourcestartlinenumber=\"1\">Gets the assembly's unique ID. Can be used to correlate test messages with the appropriate\nassembly that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.IJsonSerializable.ToJson",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.IJsonSerializable",
+      "href": "Xunit.Sdk.IJsonSerializable.html#Xunit_Sdk_IJsonSerializable_ToJson",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToJson()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable.ToJson()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonSerializable.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonSerializable.ToJson()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.IJsonSerializable.html#Xunit_Sdk_IJsonSerializable_ToJson\">ToJson</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.IJsonSerializable.html#Xunit_Sdk_IJsonSerializable_ToJson\">ToJson</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.IJsonSerializable.yml\" sourcestartlinenumber=\"1\">Converts the given object to JSON.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMetadata.TestClassName",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestClassMetadata",
+      "href": "Xunit.Sdk.ITestClassMetadata.html#Xunit_Sdk_ITestClassMetadata_TestClassName",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMetadata.TestClassName"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMetadata.TestClassName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMetadata.TestClassName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMetadata.TestClassName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.TestClassName\" text=\"TestClassName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.TestClassName\" text=\"TestClassName\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMetadata.yml\" sourcestartlinenumber=\"1\">Gets the full name of the test class (i.e., <xref href=\"System.Type.FullName\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMetadata.TestClassNamespace",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestClassMetadata",
+      "href": "Xunit.Sdk.ITestClassMetadata.html#Xunit_Sdk_ITestClassMetadata_TestClassNamespace",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassNamespace"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassNamespace"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMetadata.TestClassNamespace"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMetadata.TestClassNamespace"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMetadata.TestClassNamespace"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMetadata.TestClassNamespace"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.TestClassNamespace\" text=\"TestClassNamespace\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.TestClassNamespace\" text=\"TestClassNamespace\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMetadata.yml\" sourcestartlinenumber=\"1\">Gets the namespace of the class where the test is defined. Will return <code>null</code> for\nclasses not residing in a namespace.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMetadata.TestClassSimpleName",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestClassMetadata",
+      "href": "Xunit.Sdk.ITestClassMetadata.html#Xunit_Sdk_ITestClassMetadata_TestClassSimpleName",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassSimpleName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassSimpleName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMetadata.TestClassSimpleName"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMetadata.TestClassSimpleName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMetadata.TestClassSimpleName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMetadata.TestClassSimpleName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.TestClassSimpleName\" text=\"TestClassSimpleName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.TestClassSimpleName\" text=\"TestClassSimpleName\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMetadata.yml\" sourcestartlinenumber=\"1\">Gets the simple name of the test class (the class name without namespace).</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMetadata.Traits",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestClassMetadata",
+      "href": "Xunit.Sdk.ITestClassMetadata.html#Xunit_Sdk_ITestClassMetadata_Traits",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Traits"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMetadata.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMetadata.Traits"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMetadata.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMetadata.Traits"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.Traits\" text=\"Traits\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.Traits\" text=\"Traits\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMetadata.yml\" sourcestartlinenumber=\"1\">Gets the trait values associated with this test class (and the test collection, and test\nassembly). If there are none, or the framework does not support traits, this returns an\nempty dictionary (not <code>null</code>).</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMetadata.UniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.ITestClassMetadata",
+      "href": "Xunit.Sdk.ITestClassMetadata.html#Xunit_Sdk_ITestClassMetadata_UniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "UniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "UniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMetadata.UniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMetadata.UniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMetadata.UniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMetadata.UniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.UniqueID\" text=\"UniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMetadata.UniqueID\" text=\"UniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.ITestClassMetadata.yml\" sourcestartlinenumber=\"1\">Gets the unique ID for this test class.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.AsValueTask",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.AsValueTask(System.Object)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "AsValueTask(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Nullable{{T}},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,System.Nullable{``0},System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1({T},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,``0,System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/common/Xunit.Sdk.ITestClassStarting.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/common/Xunit.Sdk.ITestClassStarting.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/common/toc.yml",
+  "_tocPath": "v3-2.0.0/common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

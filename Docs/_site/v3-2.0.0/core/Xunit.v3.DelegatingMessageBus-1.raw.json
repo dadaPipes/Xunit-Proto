@@ -1,0 +1,1695 @@
+{
+  "uid": "Xunit.v3.DelegatingMessageBus`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.DelegatingMessageBus`1.#ctor(Xunit.v3.IMessageBus,System.Action{Xunit.Sdk.IMessageSinkMessage})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DelegatingMessageBus`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus(IMessageBus, Action<IMessageSinkMessage>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(IMessageBus, Action(Of IMessageSinkMessage))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus<TFinalMessage>.DelegatingMessageBus(IMessageBus, Action<IMessageSinkMessage>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingMessageBus(Of TFinalMessage).New(IMessageBus, Action(Of IMessageSinkMessage))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.DelegatingMessageBus(Xunit.v3.IMessageBus, System.Action<Xunit.Sdk.IMessageSinkMessage>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).New(Xunit.v3.IMessageBus, System.Action(Of Xunit.Sdk.IMessageSinkMessage))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.#ctor(Xunit.v3.IMessageBus,System.Action{Xunit.Sdk.IMessageSinkMessage})\" text=\"DelegatingMessageBus(IMessageBus, Action&lt;IMessageSinkMessage&gt;?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.#ctor(Xunit.v3.IMessageBus,System.Action{Xunit.Sdk.IMessageSinkMessage})\" text=\"DelegatingMessageBus(IMessageBus, Action&lt;IMessageSinkMessage&gt;?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public DelegatingMessageBus(IMessageBus innerMessageBus, Action<IMessageSinkMessage>? callback = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(innerMessageBus As IMessageBus, callback As Action(Of IMessageSinkMessage) = Nothing)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "innerMessageBus",
+            "type": {
+              "uid": "Xunit.v3.IMessageBus",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageBus"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageBus"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IMessageBus"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">The message bus to delegate to.</p>\n"
+          },
+          {
+            "id": "callback",
+            "type": {
+              "uid": "System.Action{Xunit.Sdk.IMessageSinkMessage}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<IMessageSinkMessage>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of IMessageSinkMessage)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<IMessageSinkMessage>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of IMessageSinkMessage)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<Xunit.Sdk.IMessageSinkMessage>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of Xunit.Sdk.IMessageSinkMessage)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">The callback to send messages to.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+        "startLine": 46,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.DelegatingMessageBus`1.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DelegatingMessageBus"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DelegatingMessageBus<TFinalMessage>.DelegatingMessageBus"
+          },
+          {
+            "lang": "vb",
+            "value": "DelegatingMessageBus(Of TFinalMessage).New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.DelegatingMessageBus"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.#ctor*\" text=\"DelegatingMessageBus\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.#ctor*\" text=\"DelegatingMessageBus\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.v3.IMessageBus\" data-throw-if-not-resolved=\"false\"></xref> that delegates to another implementation of\n<xref href=\"Xunit.v3.IMessageBus\" data-throw-if-not-resolved=\"false\"></xref> while calling into an optional callback for each message. In addition,\nit issues a <xref href=\"Xunit.v3.DelegatingMessageBus%601.Finished\" data-throw-if-not-resolved=\"false\"></xref> event when a message of the type <code class=\"typeparamref\">TFinalMessage</code>\nis seen and records the final message for later retrieval.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.DelegatingMessageBus`1.FinalMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DelegatingMessageBus`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FinalMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "FinalMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus<TFinalMessage>.FinalMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingMessageBus(Of TFinalMessage).FinalMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.FinalMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).FinalMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.FinalMessage\" text=\"FinalMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.FinalMessage\" text=\"FinalMessage\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public TFinalMessage FinalMessage { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property FinalMessage As TFinalMessage"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "{TFinalMessage}",
+            "definition": "TFinalMessage",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TFinalMessage"
+              },
+              {
+                "lang": "vb",
+                "value": "TFinalMessage"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TFinalMessage"
+              },
+              {
+                "lang": "vb",
+                "value": "TFinalMessage"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "TFinalMessage"
+              },
+              {
+                "lang": "vb",
+                "value": "TFinalMessage"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"{TFinalMessage}\" text=\"TFinalMessage\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"{TFinalMessage}\" text=\"TFinalMessage\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "FinalMessage",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+        "startLine": 57,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.DelegatingMessageBus`1.FinalMessage*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FinalMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "FinalMessage"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DelegatingMessageBus<TFinalMessage>.FinalMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "DelegatingMessageBus(Of TFinalMessage).FinalMessage"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.FinalMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).FinalMessage"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.FinalMessage*\" text=\"FinalMessage\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.FinalMessage*\" text=\"FinalMessage\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">The final message that was seen that caused <xref href=\"Xunit.v3.DelegatingMessageBus%601.Finished\" data-throw-if-not-resolved=\"false\"></xref> to be triggered.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.DelegatingMessageBus`1.Finished",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DelegatingMessageBus`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Finished"
+        },
+        {
+          "lang": "vb",
+          "value": "Finished"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus<TFinalMessage>.Finished"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingMessageBus(Of TFinalMessage).Finished"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.Finished"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).Finished"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.Finished\" text=\"Finished\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.Finished\" text=\"Finished\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ManualResetEvent Finished { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Finished As ManualResetEvent"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Threading.ManualResetEvent",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ManualResetEvent"
+              },
+              {
+                "lang": "vb",
+                "value": "ManualResetEvent"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ManualResetEvent"
+              },
+              {
+                "lang": "vb",
+                "value": "ManualResetEvent"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.ManualResetEvent"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.ManualResetEvent"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.ManualResetEvent\" text=\"ManualResetEvent\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.ManualResetEvent\" text=\"ManualResetEvent\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Finished",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+        "startLine": 63,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.DelegatingMessageBus`1.Finished*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Finished"
+          },
+          {
+            "lang": "vb",
+            "value": "Finished"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DelegatingMessageBus<TFinalMessage>.Finished"
+          },
+          {
+            "lang": "vb",
+            "value": "DelegatingMessageBus(Of TFinalMessage).Finished"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.Finished"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).Finished"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.Finished*\" text=\"Finished\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.Finished*\" text=\"Finished\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">An event that is triggered when a message of type <code class=\"typeparamref\">TFinalMessage</code> is seen.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.DelegatingMessageBus`1.QueueMessage(Xunit.Sdk.IMessageSinkMessage)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DelegatingMessageBus`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "QueueMessage(IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "QueueMessage(IMessageSinkMessage)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus<TFinalMessage>.QueueMessage(IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingMessageBus(Of TFinalMessage).QueueMessage(IMessageSinkMessage)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.QueueMessage(Xunit.Sdk.IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).QueueMessage(Xunit.Sdk.IMessageSinkMessage)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.QueueMessage(Xunit.Sdk.IMessageSinkMessage)\" text=\"QueueMessage(IMessageSinkMessage)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.QueueMessage(Xunit.Sdk.IMessageSinkMessage)\" text=\"QueueMessage(IMessageSinkMessage)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override bool QueueMessage(IMessageSinkMessage message)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function QueueMessage(message As IMessageSinkMessage) As Boolean"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "message",
+            "type": {
+              "uid": "Xunit.Sdk.IMessageSinkMessage",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSinkMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSinkMessage"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSinkMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSinkMessage"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IMessageSinkMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IMessageSinkMessage"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">The message to be sent to the runner</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">Returns <code>true</code> if discovery/execution should continue; <code>false</code>, otherwise.\nThe return value may be safely ignored by components which are not directly responsible\nfor discovery or execution, and this is intended to communicate to those sub-systems that\nthat they should short circuit and stop their work as quickly as is reasonable.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "QueueMessage",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+        "startLine": 66,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.v3.DelegatingMessageBus.QueueMessage(Xunit.Sdk.IMessageSinkMessage)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "QueueMessage(IMessageSinkMessage)"
+          },
+          {
+            "lang": "vb",
+            "value": "QueueMessage(IMessageSinkMessage)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DelegatingMessageBus.QueueMessage(IMessageSinkMessage)"
+          },
+          {
+            "lang": "vb",
+            "value": "DelegatingMessageBus.QueueMessage(IMessageSinkMessage)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DelegatingMessageBus.QueueMessage(Xunit.Sdk.IMessageSinkMessage)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DelegatingMessageBus.QueueMessage(Xunit.Sdk.IMessageSinkMessage)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.DelegatingMessageBus.html#Xunit_v3_DelegatingMessageBus_QueueMessage_Xunit_Sdk_IMessageSinkMessage_\">QueueMessage</a>(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.DelegatingMessageBus.html#Xunit_v3_DelegatingMessageBus_QueueMessage_Xunit_Sdk_IMessageSinkMessage_\">QueueMessage</a>(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.v3.DelegatingMessageBus`1.QueueMessage*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "QueueMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "QueueMessage"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DelegatingMessageBus<TFinalMessage>.QueueMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "DelegatingMessageBus(Of TFinalMessage).QueueMessage"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>.QueueMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage).QueueMessage"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.QueueMessage*\" text=\"QueueMessage\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus`1.QueueMessage*\" text=\"QueueMessage\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">Queues a message to be sent to the runner.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "DelegatingMessageBus<TFinalMessage>"
+    },
+    {
+      "lang": "vb",
+      "value": "DelegatingMessageBus(Of TFinalMessage)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "DelegatingMessageBus<TFinalMessage>"
+    },
+    {
+      "lang": "vb",
+      "value": "DelegatingMessageBus(Of TFinalMessage)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.DelegatingMessageBus<TFinalMessage>"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.DelegatingMessageBus(Of TFinalMessage)"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "DelegatingMessageBus",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/DelegatingMessageBus.cs",
+    "startLine": 46,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.v3.IMessageBus\" data-throw-if-not-resolved=\"false\"></xref> that delegates to another implementation of\n<xref href=\"Xunit.v3.IMessageBus\" data-throw-if-not-resolved=\"false\"></xref> while calling into an optional callback for each message. In addition,\nit issues a <xref href=\"Xunit.v3.DelegatingMessageBus%601.Finished\" data-throw-if-not-resolved=\"false\"></xref> event when a message of the type <code class=\"typeparamref\">TFinalMessage</code>\nis seen and records the final message for later retrieval.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class DelegatingMessageBus<TFinalMessage> : DelegatingMessageBus, IMessageBus, IDisposable where TFinalMessage : IMessageSinkMessage"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class DelegatingMessageBus(Of TFinalMessage As IMessageSinkMessage) Inherits DelegatingMessageBus Implements IMessageBus, IDisposable"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "TFinalMessage",
+        "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml\" sourcestartlinenumber=\"1\">The type of the T final message.</p>\n"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.v3.DelegatingMessageBus",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3",
+      "href": "Xunit.v3.DelegatingMessageBus.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingMessageBus"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingMessageBus"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DelegatingMessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DelegatingMessageBus"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus\" text=\"DelegatingMessageBus\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DelegatingMessageBus\" text=\"DelegatingMessageBus\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "level": 2,
+  "implements": [
+    {
+      "uid": "Xunit.v3.IMessageBus",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageBus"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageBus"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.IMessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.IMessageBus"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.IDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.v3.DelegatingMessageBus.Dispose",
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DelegatingMessageBus",
+      "href": "Xunit.v3.DelegatingMessageBus.html#Xunit_v3_DelegatingMessageBus_Dispose",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingMessageBus.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingMessageBus.Dispose()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DelegatingMessageBus.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DelegatingMessageBus.Dispose()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.DelegatingMessageBus.html#Xunit_v3_DelegatingMessageBus_Dispose\">Dispose</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.DelegatingMessageBus.html#Xunit_v3_DelegatingMessageBus_Dispose\">Dispose</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": null,
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.DelegatingMessageBus-1.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

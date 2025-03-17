@@ -1,0 +1,784 @@
+{
+  "uid": "Xunit.TestEngineStatus",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.TestEngineStatus.CleaningUp",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestEngineStatus",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CleaningUp"
+        },
+        {
+          "lang": "vb",
+          "value": "CleaningUp"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestEngineStatus.CleaningUp"
+        },
+        {
+          "lang": "vb",
+          "value": "TestEngineStatus.CleaningUp"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestEngineStatus.CleaningUp"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestEngineStatus.CleaningUp"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.CleaningUp\" text=\"CleaningUp\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.CleaningUp\" text=\"CleaningUp\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "CleaningUp = 3"
+          },
+          {
+            "lang": "vb",
+            "value": "CleaningUp = 3"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestEngineStatus",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestEngineStatus"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestEngineStatus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "CleaningUp",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestEngineStatus.cs",
+        "startLine": 22,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestEngineStatus.yml\" sourcestartlinenumber=\"1\">The test engine has run the given stage of the pipeline, and is currently doing clean up (f.e., Dispose).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestEngineStatus.Discovering",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestEngineStatus",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Discovering"
+        },
+        {
+          "lang": "vb",
+          "value": "Discovering"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestEngineStatus.Discovering"
+        },
+        {
+          "lang": "vb",
+          "value": "TestEngineStatus.Discovering"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestEngineStatus.Discovering"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestEngineStatus.Discovering"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.Discovering\" text=\"Discovering\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.Discovering\" text=\"Discovering\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Discovering = 4"
+          },
+          {
+            "lang": "vb",
+            "value": "Discovering = 4"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestEngineStatus",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestEngineStatus"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestEngineStatus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Discovering",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestEngineStatus.cs",
+        "startLine": 27,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestEngineStatus.yml\" sourcestartlinenumber=\"1\">The test engine is in the process of discovering tests.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestEngineStatus.Initializing",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestEngineStatus",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Initializing"
+        },
+        {
+          "lang": "vb",
+          "value": "Initializing"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestEngineStatus.Initializing"
+        },
+        {
+          "lang": "vb",
+          "value": "TestEngineStatus.Initializing"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestEngineStatus.Initializing"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestEngineStatus.Initializing"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.Initializing\" text=\"Initializing\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.Initializing\" text=\"Initializing\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Initializing = 1"
+          },
+          {
+            "lang": "vb",
+            "value": "Initializing = 1"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestEngineStatus",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestEngineStatus"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestEngineStatus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Initializing",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestEngineStatus.cs",
+        "startLine": 12,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestEngineStatus.yml\" sourcestartlinenumber=\"1\">The test engine is in the initialization phase of the given stage in the pipeline.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestEngineStatus.Running",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestEngineStatus",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Running"
+        },
+        {
+          "lang": "vb",
+          "value": "Running"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestEngineStatus.Running"
+        },
+        {
+          "lang": "vb",
+          "value": "TestEngineStatus.Running"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestEngineStatus.Running"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestEngineStatus.Running"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.Running\" text=\"Running\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestEngineStatus.Running\" text=\"Running\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Running = 2"
+          },
+          {
+            "lang": "vb",
+            "value": "Running = 2"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestEngineStatus",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "TestEngineStatus"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestEngineStatus"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestEngineStatus"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestEngineStatus.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Running",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestEngineStatus.cs",
+        "startLine": 17,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestEngineStatus.yml\" sourcestartlinenumber=\"1\">The test engine is running the given state of the pipeline.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestEngineStatus"
+    },
+    {
+      "lang": "vb",
+      "value": "TestEngineStatus"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestEngineStatus"
+    },
+    {
+      "lang": "vb",
+      "value": "TestEngineStatus"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.TestEngineStatus"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.TestEngineStatus"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/TestEngineStatus.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestEngineStatus",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestEngineStatus.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestEngineStatus.yml\" sourcestartlinenumber=\"1\">Represents the current status of the execution of the test engine, with respect to\na phase in the execution pipeline (for example, engine status for a test collection vs.\ntest case vs. test).</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum TestEngineStatus"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum TestEngineStatus"
+      }
+    ]
+  },
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.TestEngineStatus.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.TestEngineStatus.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

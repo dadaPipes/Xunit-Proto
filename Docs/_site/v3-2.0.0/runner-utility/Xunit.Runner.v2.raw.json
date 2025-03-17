@@ -1,0 +1,720 @@
+{
+  "uid": "Xunit.Runner.v2",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "uid": "Xunit.Runner.v2.IMessageSinkMessageWithTypes",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.IMessageSinkMessageWithTypes.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessageWithTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessageWithTypes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessageWithTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessageWithTypes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.IMessageSinkMessageWithTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.IMessageSinkMessageWithTypes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.IMessageSinkMessageWithTypes\" text=\"IMessageSinkMessageWithTypes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.IMessageSinkMessageWithTypes\" text=\"IMessageSinkMessageWithTypes\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.IMessageSinkMessageWithTypes.yml\" sourcestartlinenumber=\"1\">Identifies a message that can return its own type information.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.IMessageSinkWithTypes",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.v2",
+      "href": "Xunit.Runner.v2.IMessageSinkWithTypes.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkWithTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkWithTypes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkWithTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkWithTypes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.IMessageSinkWithTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.IMessageSinkWithTypes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.IMessageSinkWithTypes\" text=\"IMessageSinkWithTypes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.IMessageSinkWithTypes\" text=\"IMessageSinkWithTypes\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.IMessageSinkWithTypes.yml\" sourcestartlinenumber=\"1\">Represents an endpoint for the reception of test messages. This endpoint can have the list of types\nof the message passed in to optimize the performance of message dispatching.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2\" text=\"Xunit2\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2\" text=\"Xunit2\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2.yml\" sourcestartlinenumber=\"1\">This class is used to do discovery and execution of xUnit.net v2 tests.\nDiscovery can be source-based; execution requires a file-system based assembly.\nRunner authors are strongly encouraged to use <xref href=\"Xunit.XunitFrontController\" data-throw-if-not-resolved=\"false\"></xref>\ninstead of using this class directly, unless you are doing source-based\ndiscovery of v2 tests.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2DiscoverySink",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2DiscoverySink.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2DiscoverySink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2DiscoverySink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2DiscoverySink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2DiscoverySink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2DiscoverySink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2DiscoverySink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2DiscoverySink\" text=\"Xunit2DiscoverySink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2DiscoverySink\" text=\"Xunit2DiscoverySink\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2DiscoverySink.yml\" sourcestartlinenumber=\"1\">An implementation of <xref href=\"Xunit.Abstractions.IMessageSink\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Xunit.Runner.v2.IMessageSinkWithTypes\" data-throw-if-not-resolved=\"false\"></xref> which\ncollects native xUnit.net v2 test cases, for use with <xref href=\"Xunit.Runner.v2.Xunit2.FindAndRun(Xunit.Sdk.IMessageSink%2cXunit.FrontControllerFindAndRunSettings)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2MessageAdapter",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2MessageAdapter.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2MessageAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2MessageAdapter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2MessageAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2MessageAdapter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2MessageAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2MessageAdapter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2MessageAdapter\" text=\"Xunit2MessageAdapter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2MessageAdapter\" text=\"Xunit2MessageAdapter\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2MessageAdapter.yml\" sourcestartlinenumber=\"1\">A class which adapts xUnit.net v2 messages to xUnit.net v3 messages.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2MessageSink",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2MessageSink.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2MessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2MessageSink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2MessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2MessageSink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2MessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2MessageSink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2MessageSink\" text=\"Xunit2MessageSink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2MessageSink\" text=\"Xunit2MessageSink\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2MessageSink.yml\" sourcestartlinenumber=\"1\">A message sink which implements both <xref href=\"Xunit.Abstractions.IMessageSink\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Xunit.Runner.v2.IMessageSinkWithTypes\" data-throw-if-not-resolved=\"false\"></xref>\nwhich adapts (with <xref href=\"Xunit.Runner.v2.Xunit2MessageAdapter\" data-throw-if-not-resolved=\"false\"></xref> and dispatches any incoming v2 messages to the\ngiven v3 message sink.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2Options",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2Options.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2Options"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2Options"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2Options"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2Options"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2Options"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2Options"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2Options\" text=\"Xunit2Options\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2Options\" text=\"Xunit2Options\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2Options.yml\" sourcestartlinenumber=\"1\">An implementation of xUnit.net v2's <xref href=\"Xunit.Abstractions.ITestFrameworkDiscoveryOptions\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"Xunit.Abstractions.ITestFrameworkExecutionOptions\" data-throw-if-not-resolved=\"false\"></xref>, which delegates calls to an xUnit.net v3\nimplementation of <xref href=\"Xunit.Sdk.ITestFrameworkOptions\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2OptionsAdapter",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2OptionsAdapter.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2OptionsAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2OptionsAdapter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2OptionsAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2OptionsAdapter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2OptionsAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2OptionsAdapter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2OptionsAdapter\" text=\"Xunit2OptionsAdapter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2OptionsAdapter\" text=\"Xunit2OptionsAdapter\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2OptionsAdapter.yml\" sourcestartlinenumber=\"1\">Class used to adapt v3 discovery and execution options into v2 versions.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2SourceInformation",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2SourceInformation.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2SourceInformation"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2SourceInformation"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2SourceInformation"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2SourceInformation"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2SourceInformation"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2SourceInformation"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2SourceInformation\" text=\"Xunit2SourceInformation\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2SourceInformation\" text=\"Xunit2SourceInformation\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2SourceInformation.yml\" sourcestartlinenumber=\"1\">Default implementation of <xref href=\"Xunit.Abstractions.ISourceInformation\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2SourceInformationProvider",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2SourceInformationProvider.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2SourceInformationProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2SourceInformationProvider"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2SourceInformationProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2SourceInformationProvider"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2SourceInformationProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2SourceInformationProvider"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2SourceInformationProvider\" text=\"Xunit2SourceInformationProvider\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2SourceInformationProvider\" text=\"Xunit2SourceInformationProvider\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2SourceInformationProvider.yml\" sourcestartlinenumber=\"1\">An implementation of xUnit.net v2's <xref href=\"Xunit.Abstractions.ISourceInformationProvider\" data-throw-if-not-resolved=\"false\"></xref> which\ndelegates calls to an xUnit.net v3 implementation of <xref href=\"Xunit.Runner.Common.ISourceInformationProvider\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter",
+      "isExtensionMethod": false,
+      "href": "Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2SourceInformationProviderAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2SourceInformationProviderAdapter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Xunit2SourceInformationProviderAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit2SourceInformationProviderAdapter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter\" text=\"Xunit2SourceInformationProviderAdapter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter\" text=\"Xunit2SourceInformationProviderAdapter\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runner.v2.Xunit2SourceInformationProviderAdapter.yml\" sourcestartlinenumber=\"1\">Class used to adapt v3 source information provider into v2 version.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.v2"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.v2"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.v2"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.v2"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.v2"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.v2"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "xunit.v3.runner.utility.netfx"
+  ],
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-utility/Xunit.Runner.v2.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-utility/Xunit.Runner.v2.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-utility/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-utility/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

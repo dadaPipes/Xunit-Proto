@@ -1,0 +1,2864 @@
+{
+  "uid": "Xunit.Internal.TraceCaptureTestOutputWriter",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Internal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.#ctor(Xunit.ITestContextAccessor)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.TraceCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceCaptureTestOutputWriter(ITestContextAccessor)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(ITestContextAccessor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceCaptureTestOutputWriter.TraceCaptureTestOutputWriter(ITestContextAccessor)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceCaptureTestOutputWriter.New(ITestContextAccessor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.TraceCaptureTestOutputWriter(Xunit.ITestContextAccessor)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.New(Xunit.ITestContextAccessor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.#ctor(Xunit.ITestContextAccessor)\" text=\"TraceCaptureTestOutputWriter(ITestContextAccessor)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.#ctor(Xunit.ITestContextAccessor)\" text=\"TraceCaptureTestOutputWriter(ITestContextAccessor)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public TraceCaptureTestOutputWriter(ITestContextAccessor testContextAccessor)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(testContextAccessor As ITestContextAccessor)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "testContextAccessor",
+            "type": {
+              "uid": "Xunit.ITestContextAccessor",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestContextAccessor"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestContextAccessor"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestContextAccessor"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestContextAccessor"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.ITestContextAccessor"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.ITestContextAccessor"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.ITestContextAccessor\" text=\"ITestContextAccessor\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.ITestContextAccessor\" text=\"ITestContextAccessor\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+        "startLine": 12,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TraceCaptureTestOutputWriter"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TraceCaptureTestOutputWriter.TraceCaptureTestOutputWriter"
+          },
+          {
+            "lang": "vb",
+            "value": "TraceCaptureTestOutputWriter.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.TraceCaptureTestOutputWriter"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.#ctor*\" text=\"TraceCaptureTestOutputWriter\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.#ctor*\" text=\"TraceCaptureTestOutputWriter\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.Dispose(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.TraceCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceCaptureTestOutputWriter.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceCaptureTestOutputWriter.Dispose(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Dispose(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Dispose(System.Boolean)\" text=\"Dispose(bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Dispose(System.Boolean)\" text=\"Dispose(bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Dispose(bool disposing)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Dispose(disposing As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "disposing",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Dispose",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+        "startLine": 20,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.Diagnostics.TraceListener.Dispose(System.Boolean)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "Dispose(Boolean)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TraceListener.Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "TraceListener.Dispose(Boolean)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.Diagnostics.TraceListener.Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "System.Diagnostics.TraceListener.Dispose(Boolean)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.dispose#system-diagnostics-tracelistener-dispose(system-boolean)\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.dispose#system-diagnostics-tracelistener-dispose(system-boolean)\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.Dispose*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "Dispose"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TraceCaptureTestOutputWriter.Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "TraceCaptureTestOutputWriter.Dispose"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Dispose"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Dispose*\" text=\"Dispose\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Dispose*\" text=\"Dispose\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.Write(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.TraceCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceCaptureTestOutputWriter.Write(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceCaptureTestOutputWriter.Write(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Write(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Write(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Write(System.String)\" text=\"Write(string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Write(System.String)\" text=\"Write(string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override void Write(string? message)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Sub Write(message As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "message",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Write",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+        "startLine": 28,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.Diagnostics.TraceListener.Write(System.String)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "Write(String)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TraceListener.Write(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "TraceListener.Write(String)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.Diagnostics.TraceListener.Write(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "System.Diagnostics.TraceListener.Write(String)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.Write*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Write"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TraceCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "TraceCaptureTestOutputWriter.Write"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Write"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.Write"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.Write*\" text=\"Write\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.TraceCaptureTestOutputWriter",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceCaptureTestOutputWriter.WriteLine(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceCaptureTestOutputWriter.WriteLine(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine(string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine(System.String)\" text=\"WriteLine(string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine(System.String)\" text=\"WriteLine(string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override void WriteLine(string? message)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Sub WriteLine(message As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "message",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "WriteLine",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+        "startLine": 35,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.Internal",
+      "example": [],
+      "overridden": {
+        "uid": "System.Diagnostics.TraceListener.WriteLine(System.String)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "WriteLine(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "WriteLine(String)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TraceListener.WriteLine(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "TraceListener.WriteLine(String)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "System.Diagnostics.TraceListener.WriteLine(string)"
+          },
+          {
+            "lang": "vb",
+            "value": "System.Diagnostics.TraceListener.WriteLine(String)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "WriteLine"
+          },
+          {
+            "lang": "vb",
+            "value": "WriteLine"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TraceCaptureTestOutputWriter.WriteLine"
+          },
+          {
+            "lang": "vb",
+            "value": "TraceCaptureTestOutputWriter.WriteLine"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine*\" text=\"WriteLine\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Internal.TraceCaptureTestOutputWriter.WriteLine*\" text=\"WriteLine\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TraceCaptureTestOutputWriter"
+    },
+    {
+      "lang": "vb",
+      "value": "TraceCaptureTestOutputWriter"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TraceCaptureTestOutputWriter"
+    },
+    {
+      "lang": "vb",
+      "value": "TraceCaptureTestOutputWriter"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Internal.TraceCaptureTestOutputWriter"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Internal.TraceCaptureTestOutputWriter"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TraceCaptureTestOutputWriter",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Internal/TraceCaptureTestOutputWriter.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.Internal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Internal"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Internal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Internal.html\">Internal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.Internal.TraceCaptureTestOutputWriter.yml\" sourcestartlinenumber=\"1\">INTERNAL CLASS. DO NOT USE.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TraceCaptureTestOutputWriter : TraceListener, IDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TraceCaptureTestOutputWriter Inherits TraceListener Implements IDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "System.MarshalByRefObject",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.MarshalByRefObject"
+        },
+        {
+          "lang": "vb",
+          "value": "System.MarshalByRefObject"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.MarshalByRefObject\" text=\"MarshalByRefObject\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.MarshalByRefObject\" text=\"MarshalByRefObject\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener\" text=\"TraceListener\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener\" text=\"TraceListener\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 3,
+  "implements": [
+    {
+      "uid": "System.IDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Diagnostics.TraceListener.Close",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.close",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Close()"
+        },
+        {
+          "lang": "vb",
+          "value": "Close()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Close()"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Close()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Close()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Close()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.close\">Close</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.close\">Close</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Dispose",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.dispose#system-diagnostics-tracelistener-dispose",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Dispose()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Dispose()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.dispose#system-diagnostics-tracelistener-dispose\">Dispose</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.dispose#system-diagnostics-tracelistener-dispose\">Dispose</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Fail(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.fail#system-diagnostics-tracelistener-fail(system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Fail(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Fail(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Fail(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Fail(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Fail(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Fail(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.fail#system-diagnostics-tracelistener-fail(system-string)\">Fail</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.fail#system-diagnostics-tracelistener-fail(system-string)\">Fail</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Fail(System.String,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.fail#system-diagnostics-tracelistener-fail(system-string-system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Fail(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Fail(String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Fail(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Fail(String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Fail(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Fail(String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.fail#system-diagnostics-tracelistener-fail(system-string-system-string)\">Fail</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.fail#system-diagnostics-tracelistener-fail(system-string-system-string)\">Fail</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Flush",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.flush",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Flush()"
+        },
+        {
+          "lang": "vb",
+          "value": "Flush()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Flush()"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Flush()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Flush()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Flush()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.flush\">Flush</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.flush\">Flush</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracedata#system-diagnostics-tracelistener-tracedata(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceData(TraceEventCache, string, TraceEventType, int, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceData(TraceEventCache, String, TraceEventType, Integer, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.TraceData(TraceEventCache, string, TraceEventType, int, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.TraceData(TraceEventCache, String, TraceEventType, Integer, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.TraceData(System.Diagnostics.TraceEventCache, string, System.Diagnostics.TraceEventType, int, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.TraceData(System.Diagnostics.TraceEventCache, String, System.Diagnostics.TraceEventType, Integer, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracedata#system-diagnostics-tracelistener-tracedata(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-object)\">TraceData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracedata#system-diagnostics-tracelistener-tracedata(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-object)\">TraceData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracedata#system-diagnostics-tracelistener-tracedata(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-object())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceData(TraceEventCache, string, TraceEventType, int, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceData(TraceEventCache, String, TraceEventType, Integer, ParamArray Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.TraceData(TraceEventCache, string, TraceEventType, int, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.TraceData(TraceEventCache, String, TraceEventType, Integer, ParamArray Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.TraceData(System.Diagnostics.TraceEventCache, string, System.Diagnostics.TraceEventType, int, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.TraceData(System.Diagnostics.TraceEventCache, String, System.Diagnostics.TraceEventType, Integer, ParamArray Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracedata#system-diagnostics-tracelistener-tracedata(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-object())\">TraceData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, params <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracedata#system-diagnostics-tracelistener-tracedata(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-object())\">TraceData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, ParamArray <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceEvent(TraceEventCache, string, TraceEventType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceEvent(TraceEventCache, String, TraceEventType, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.TraceEvent(TraceEventCache, string, TraceEventType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.TraceEvent(TraceEventCache, String, TraceEventType, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache, string, System.Diagnostics.TraceEventType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache, String, System.Diagnostics.TraceEventType, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32)\">TraceEvent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32)\">TraceEvent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceEvent(TraceEventCache, string, TraceEventType, int, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceEvent(TraceEventCache, String, TraceEventType, Integer, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.TraceEvent(TraceEventCache, string, TraceEventType, int, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.TraceEvent(TraceEventCache, String, TraceEventType, Integer, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache, string, System.Diagnostics.TraceEventType, int, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache, String, System.Diagnostics.TraceEventType, Integer, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-string)\">TraceEvent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-string)\">TraceEvent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-string-system-object())",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceEvent(TraceEventCache, string, TraceEventType, int, string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceEvent(TraceEventCache, String, TraceEventType, Integer, String, ParamArray Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.TraceEvent(TraceEventCache, string, TraceEventType, int, string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.TraceEvent(TraceEventCache, String, TraceEventType, Integer, String, ParamArray Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache, string, System.Diagnostics.TraceEventType, int, string, params object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.TraceEvent(System.Diagnostics.TraceEventCache, String, System.Diagnostics.TraceEventType, Integer, String, ParamArray Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-string-system-object())\">TraceEvent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, params <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[])"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceevent#system-diagnostics-tracelistener-traceevent(system-diagnostics-traceeventcache-system-string-system-diagnostics-traceeventtype-system-int32-system-string-system-object())\">TraceEvent</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventtype\">TraceEventType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, ParamArray <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>())"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.TraceTransfer(System.Diagnostics.TraceEventCache,System.String,System.Int32,System.String,System.Guid)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracetransfer",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceTransfer(TraceEventCache, string, int, string, Guid)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceTransfer(TraceEventCache, String, Integer, String, Guid)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.TraceTransfer(TraceEventCache, string, int, string, Guid)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.TraceTransfer(TraceEventCache, String, Integer, String, Guid)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.TraceTransfer(System.Diagnostics.TraceEventCache, string, int, string, System.Guid)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.TraceTransfer(System.Diagnostics.TraceEventCache, String, Integer, String, System.Guid)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracetransfer\">TraceTransfer</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.guid\">Guid</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.tracetransfer\">TraceTransfer</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.traceeventcache\">TraceEventCache</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.guid\">Guid</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Write(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Write(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Write(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Write(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Write(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-object)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Write(System.Object,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-object-system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Object, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Write(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Write(Object, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Write(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Write(Object, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-object-system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-object-system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Write(System.String,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-string-system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Write(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Write(String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Write(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Write(String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-string-system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.write#system-diagnostics-tracelistener-write(system-string-system-string)\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.WriteLine(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.WriteLine(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.WriteLine(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.WriteLine(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.WriteLine(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-object)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.WriteLine(System.Object,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-object-system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(Object, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.WriteLine(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.WriteLine(Object, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.WriteLine(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.WriteLine(Object, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-object-system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-object-system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.WriteLine(System.String,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-string-system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteLine(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteLine(String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.WriteLine(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.WriteLine(String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.WriteLine(string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.WriteLine(String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-string-system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.writeline#system-diagnostics-tracelistener-writeline(system-string-system-string)\">WriteLine</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Attributes",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.attributes",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Attributes"
+        },
+        {
+          "lang": "vb",
+          "value": "Attributes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Attributes"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Attributes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Attributes"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Attributes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.Attributes\" text=\"Attributes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.Attributes\" text=\"Attributes\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Filter",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.filter",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Filter"
+        },
+        {
+          "lang": "vb",
+          "value": "Filter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Filter"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Filter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Filter"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Filter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.Filter\" text=\"Filter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.Filter\" text=\"Filter\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.IndentLevel",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.indentlevel",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IndentLevel"
+        },
+        {
+          "lang": "vb",
+          "value": "IndentLevel"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.IndentLevel"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.IndentLevel"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.IndentLevel"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.IndentLevel"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.IndentLevel\" text=\"IndentLevel\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.IndentLevel\" text=\"IndentLevel\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.IndentSize",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.indentsize",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IndentSize"
+        },
+        {
+          "lang": "vb",
+          "value": "IndentSize"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.IndentSize"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.IndentSize"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.IndentSize"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.IndentSize"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.IndentSize\" text=\"IndentSize\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.IndentSize\" text=\"IndentSize\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.IsThreadSafe",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.isthreadsafe",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsThreadSafe"
+        },
+        {
+          "lang": "vb",
+          "value": "IsThreadSafe"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.IsThreadSafe"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.IsThreadSafe"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.IsThreadSafe"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.IsThreadSafe"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.IsThreadSafe\" text=\"IsThreadSafe\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.IsThreadSafe\" text=\"IsThreadSafe\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.Name",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.name",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Name"
+        },
+        {
+          "lang": "vb",
+          "value": "Name"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.Name"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.Name"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.Name"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.Name"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.Name\" text=\"Name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.Name\" text=\"Name\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Diagnostics.TraceListener.TraceOutputOptions",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Diagnostics.TraceListener",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.diagnostics.tracelistener.traceoutputoptions",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraceOutputOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceOutputOptions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraceListener.TraceOutputOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "TraceListener.TraceOutputOptions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Diagnostics.TraceListener.TraceOutputOptions"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Diagnostics.TraceListener.TraceOutputOptions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.TraceOutputOptions\" text=\"TraceOutputOptions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Diagnostics.TraceListener.TraceOutputOptions\" text=\"TraceOutputOptions\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.MarshalByRefObject.GetLifetimeService",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.MarshalByRefObject",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetLifetimeService()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject.GetLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject.GetLifetimeService()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.MarshalByRefObject.GetLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.MarshalByRefObject.GetLifetimeService()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice\">GetLifetimeService</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice\">GetLifetimeService</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.MarshalByRefObject.InitializeLifetimeService",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.MarshalByRefObject",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InitializeLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "InitializeLifetimeService()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MarshalByRefObject.InitializeLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "MarshalByRefObject.InitializeLifetimeService()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.MarshalByRefObject.InitializeLifetimeService()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.MarshalByRefObject.InitializeLifetimeService()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice\">InitializeLifetimeService</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice\">InitializeLifetimeService</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.Internal.TraceCaptureTestOutputWriter.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.Internal.TraceCaptureTestOutputWriter.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

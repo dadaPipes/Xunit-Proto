@@ -1,0 +1,660 @@
+{
+  "uid": "Xunit.Runner.Common.AppDomainSupport",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.AppDomainSupport.Denied",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppDomainSupport",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Denied"
+        },
+        {
+          "lang": "vb",
+          "value": "Denied"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppDomainSupport.Denied"
+        },
+        {
+          "lang": "vb",
+          "value": "AppDomainSupport.Denied"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppDomainSupport.Denied"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppDomainSupport.Denied"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport.Denied\" text=\"Denied\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport.Denied\" text=\"Denied\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Denied = 3"
+          },
+          {
+            "lang": "vb",
+            "value": "Denied = 3"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Runner.Common.AppDomainSupport",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "AppDomainSupport"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "AppDomainSupport"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Runner.Common.AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Runner.Common.AppDomainSupport"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport\" text=\"AppDomainSupport\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport\" text=\"AppDomainSupport\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Denied",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+        "startLine": 24,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppDomainSupport.yml\" sourcestartlinenumber=\"1\">Requires that v1 and v2 tests be run in the runner's app domain.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.AppDomainSupport.IfAvailable",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppDomainSupport",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IfAvailable"
+        },
+        {
+          "lang": "vb",
+          "value": "IfAvailable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppDomainSupport.IfAvailable"
+        },
+        {
+          "lang": "vb",
+          "value": "AppDomainSupport.IfAvailable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppDomainSupport.IfAvailable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppDomainSupport.IfAvailable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport.IfAvailable\" text=\"IfAvailable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport.IfAvailable\" text=\"IfAvailable\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "IfAvailable = 1"
+          },
+          {
+            "lang": "vb",
+            "value": "IfAvailable = 1"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Runner.Common.AppDomainSupport",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "AppDomainSupport"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "AppDomainSupport"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Runner.Common.AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Runner.Common.AppDomainSupport"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport\" text=\"AppDomainSupport\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport\" text=\"AppDomainSupport\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "IfAvailable",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+        "startLine": 13,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppDomainSupport.yml\" sourcestartlinenumber=\"1\">Requests that app domains be used for v1 and v2 tests, if available; if app domains cannot\nbe used, then the tests will be discovered and run in the runner's app domain.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.AppDomainSupport.Required",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.AppDomainSupport",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Required"
+        },
+        {
+          "lang": "vb",
+          "value": "Required"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AppDomainSupport.Required"
+        },
+        {
+          "lang": "vb",
+          "value": "AppDomainSupport.Required"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.AppDomainSupport.Required"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.AppDomainSupport.Required"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport.Required\" text=\"Required\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport.Required\" text=\"Required\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Required = 2"
+          },
+          {
+            "lang": "vb",
+            "value": "Required = 2"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Runner.Common.AppDomainSupport",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "AppDomainSupport"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "AppDomainSupport"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Runner.Common.AppDomainSupport"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Runner.Common.AppDomainSupport"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport\" text=\"AppDomainSupport\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Runner.Common.AppDomainSupport\" text=\"AppDomainSupport\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Required",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+        "startLine": 19,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppDomainSupport.yml\" sourcestartlinenumber=\"1\">Requires that v1 and v2 tests run in a separate app domain. Can only be requested by runners\nwritten in .NET Framework.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "AppDomainSupport"
+    },
+    {
+      "lang": "vb",
+      "value": "AppDomainSupport"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "AppDomainSupport"
+    },
+    {
+      "lang": "vb",
+      "value": "AppDomainSupport"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.AppDomainSupport"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.AppDomainSupport"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "AppDomainSupport",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Frameworks/AppDomainSupport.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.AppDomainSupport.yml\" sourcestartlinenumber=\"1\">Indicates the level of app domain support that the runner is requesting. Note that these values\nare only valid for v1 and v2 tests; v3 tests always run in a separate process rather than\nin the runner process.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum AppDomainSupport"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum AppDomainSupport"
+      }
+    ]
+  },
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.AppDomainSupport.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.AppDomainSupport.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

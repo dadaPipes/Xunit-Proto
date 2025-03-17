@@ -1,0 +1,1822 @@
+{
+  "uid": "Xunit.Runners.TestExecutedInfo",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runners",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runners.TestExecutedInfo.#ctor(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}},System.String,System.String,System.Decimal,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestExecutedInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestExecutedInfo(string, string, IReadOnlyDictionary<string, IReadOnlyCollection<string>>?, string, string, decimal, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(String, String, IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String)), String, String, Decimal, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestExecutedInfo.TestExecutedInfo(string, string, IReadOnlyDictionary<string, IReadOnlyCollection<string>>?, string, string, decimal, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestExecutedInfo.New(String, String, IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String)), String, String, Decimal, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestExecutedInfo.TestExecutedInfo(string, string, System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IReadOnlyCollection<string>>?, string, string, decimal, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestExecutedInfo.New(String, String, System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IReadOnlyCollection(Of String)), String, String, Decimal, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.#ctor(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}},System.String,System.String,System.Decimal,System.String)\" text=\"TestExecutedInfo(string, string, IReadOnlyDictionary&lt;string, IReadOnlyCollection&lt;string&gt;&gt;?, string, string, decimal, string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.#ctor(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}},System.String,System.String,System.Decimal,System.String)\" text=\"TestExecutedInfo(string, string, IReadOnlyDictionary&lt;string, IReadOnlyCollection&lt;string&gt;&gt;?, string, string, decimal, string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected TestExecutedInfo(string typeName, string methodName, IReadOnlyDictionary<string, IReadOnlyCollection<string>>? traits, string testDisplayName, string testCollectionDisplayName, decimal executionTime, string? output)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Sub New(typeName As String, methodName As String, traits As IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String)), testDisplayName As String, testCollectionDisplayName As String, executionTime As Decimal, output As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "typeName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "methodName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "traits",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}}",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IReadOnlyCollection<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IReadOnlyCollection(Of String))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+                }
+              ]
+            }
+          },
+          {
+            "id": "testDisplayName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "testCollectionDisplayName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "executionTime",
+            "type": {
+              "uid": "System.Decimal",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Decimal\" text=\"decimal\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Decimal\" text=\"decimal\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "output",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+        "startLine": 7,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.TestExecutedInfo.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestExecutedInfo"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestExecutedInfo.TestExecutedInfo"
+          },
+          {
+            "lang": "vb",
+            "value": "TestExecutedInfo.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.TestExecutedInfo.TestExecutedInfo"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.TestExecutedInfo.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.#ctor*\" text=\"TestExecutedInfo\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.#ctor*\" text=\"TestExecutedInfo\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestExecutedInfo.yml\" sourcestartlinenumber=\"1\">Represents information about a test that was executed.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runners.TestExecutedInfo.ExecutionTime",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestExecutedInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExecutionTime"
+        },
+        {
+          "lang": "vb",
+          "value": "ExecutionTime"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestExecutedInfo.ExecutionTime"
+        },
+        {
+          "lang": "vb",
+          "value": "TestExecutedInfo.ExecutionTime"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestExecutedInfo.ExecutionTime"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestExecutedInfo.ExecutionTime"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.ExecutionTime\" text=\"ExecutionTime\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.ExecutionTime\" text=\"ExecutionTime\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public decimal ExecutionTime { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property ExecutionTime As Decimal"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Decimal",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "decimal"
+              },
+              {
+                "lang": "vb",
+                "value": "Decimal"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "decimal"
+              },
+              {
+                "lang": "vb",
+                "value": "Decimal"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "decimal"
+              },
+              {
+                "lang": "vb",
+                "value": "Decimal"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Decimal\" text=\"decimal\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Decimal\" text=\"decimal\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExecutionTime",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+        "startLine": 20,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.TestExecutedInfo.ExecutionTime*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExecutionTime"
+          },
+          {
+            "lang": "vb",
+            "value": "ExecutionTime"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestExecutedInfo.ExecutionTime"
+          },
+          {
+            "lang": "vb",
+            "value": "TestExecutedInfo.ExecutionTime"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.TestExecutedInfo.ExecutionTime"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.TestExecutedInfo.ExecutionTime"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.ExecutionTime*\" text=\"ExecutionTime\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.ExecutionTime*\" text=\"ExecutionTime\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestExecutedInfo.yml\" sourcestartlinenumber=\"1\">The number of seconds the test spent executing.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runners.TestExecutedInfo.Output",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestExecutedInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Output"
+        },
+        {
+          "lang": "vb",
+          "value": "Output"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestExecutedInfo.Output"
+        },
+        {
+          "lang": "vb",
+          "value": "TestExecutedInfo.Output"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestExecutedInfo.Output"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestExecutedInfo.Output"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.Output\" text=\"Output\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.Output\" text=\"Output\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string Output { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Output As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Output",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+        "startLine": 25,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.TestExecutedInfo.Output*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Output"
+          },
+          {
+            "lang": "vb",
+            "value": "Output"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestExecutedInfo.Output"
+          },
+          {
+            "lang": "vb",
+            "value": "TestExecutedInfo.Output"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.TestExecutedInfo.Output"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.TestExecutedInfo.Output"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.Output*\" text=\"Output\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.TestExecutedInfo.Output*\" text=\"Output\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestExecutedInfo.yml\" sourcestartlinenumber=\"1\">The output from the test.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestExecutedInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "TestExecutedInfo"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestExecutedInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "TestExecutedInfo"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runners.TestExecutedInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runners.TestExecutedInfo"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestExecutedInfo",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/TestExecutedInfo.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.utility.netfx"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runners",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestExecutedInfo.yml\" sourcestartlinenumber=\"1\">Represents information about a test that was executed.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public abstract class TestExecutedInfo : TestInfo"
+      },
+      {
+        "lang": "vb",
+        "value": "Public MustInherit Class TestExecutedInfo Inherits TestInfo"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.Runners.TestInfo",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners",
+      "href": "Xunit.Runners.TestInfo.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "TestInfo"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "TestInfo"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestInfo"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestInfo"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo\" text=\"TestInfo\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo\" text=\"TestInfo\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "derivedClasses": [
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestFailedInfo\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestFailedInfo\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 3
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestFinishedInfo\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestFinishedInfo\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 3
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestPassedInfo\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestPassedInfo\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 3
+    }
+  ],
+  "level": 2,
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.Runners.TestInfo.TypeName",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestInfo",
+      "href": "Xunit.Runners.TestInfo.html#Xunit_Runners_TestInfo_TypeName",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TypeName"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestInfo.TypeName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestInfo.TypeName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestInfo.TypeName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestInfo.TypeName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.TypeName\" text=\"TypeName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.TypeName\" text=\"TypeName\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestInfo.yml\" sourcestartlinenumber=\"1\">The fully qualified type name of the class that contains the test.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runners.TestInfo.MethodName",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestInfo",
+      "href": "Xunit.Runners.TestInfo.html#Xunit_Runners_TestInfo_MethodName",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "MethodName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestInfo.MethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestInfo.MethodName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestInfo.MethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestInfo.MethodName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.MethodName\" text=\"MethodName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.MethodName\" text=\"MethodName\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestInfo.yml\" sourcestartlinenumber=\"1\">The name of the method that contains the test.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runners.TestInfo.Traits",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestInfo",
+      "href": "Xunit.Runners.TestInfo.html#Xunit_Runners_TestInfo_Traits",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Traits"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestInfo.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "TestInfo.Traits"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestInfo.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestInfo.Traits"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.Traits\" text=\"Traits\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.Traits\" text=\"Traits\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestInfo.yml\" sourcestartlinenumber=\"1\">The traits associated with the test.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runners.TestInfo.TestDisplayName",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestInfo",
+      "href": "Xunit.Runners.TestInfo.html#Xunit_Runners_TestInfo_TestDisplayName",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestDisplayName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestInfo.TestDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestInfo.TestDisplayName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestInfo.TestDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestInfo.TestDisplayName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.TestDisplayName\" text=\"TestDisplayName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.TestDisplayName\" text=\"TestDisplayName\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestInfo.yml\" sourcestartlinenumber=\"1\">The display name for the test.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runners.TestInfo.TestCollectionDisplayName",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.TestInfo",
+      "href": "Xunit.Runners.TestInfo.html#Xunit_Runners_TestInfo_TestCollectionDisplayName",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionDisplayName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestInfo.TestCollectionDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestInfo.TestCollectionDisplayName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.TestInfo.TestCollectionDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.TestInfo.TestCollectionDisplayName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.TestCollectionDisplayName\" text=\"TestCollectionDisplayName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.TestInfo.TestCollectionDisplayName\" text=\"TestCollectionDisplayName\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.TestInfo.yml\" sourcestartlinenumber=\"1\">The display name of the test collection the test belongs to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-utility/Xunit.Runners.TestExecutedInfo.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-utility/Xunit.Runners.TestExecutedInfo.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-utility/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-utility/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

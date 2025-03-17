@@ -1,0 +1,427 @@
+### YamlMime:ManagedReference
+items:
+- uid: Asserts.SkipAsserts
+  commentId: T:Asserts.SkipAsserts
+  id: SkipAsserts
+  parent: Asserts
+  children:
+  - Asserts.SkipAsserts.Skip(System.String)
+  - Asserts.SkipAsserts.SkipUnless(System.Boolean,System.String)
+  - Asserts.SkipAsserts.SkipWhen(System.Boolean,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SkipAsserts
+  nameWithType: SkipAsserts
+  fullName: Asserts.SkipAsserts
+  type: Class
+  source:
+    id: SkipAsserts
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SkipAsserts.cs
+    startLine: 17
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  syntax:
+    content: public class SkipAsserts
+    content.vb: Public Class SkipAsserts
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Asserts.SkipAsserts.Skip(System.String)
+  commentId: M:Asserts.SkipAsserts.Skip(System.String)
+  id: Skip(System.String)
+  parent: Asserts.SkipAsserts
+  langs:
+  - csharp
+  - vb
+  name: Skip(string)
+  nameWithType: SkipAsserts.Skip(string)
+  fullName: Asserts.SkipAsserts.Skip(string)
+  type: Method
+  source:
+    id: Skip
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SkipAsserts.cs
+    startLine: 27
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: >-
+    Skips the current test. Used when determining whether a test should be skipped
+
+    happens at runtime rather than at discovery time.
+  example: []
+  syntax:
+    content: public static void Skip(string reason)
+    parameters:
+    - id: reason
+      type: System.String
+      description: The message to indicate why the test was skipped
+    content.vb: Public Shared Sub Skip(reason As String)
+  overload: Asserts.SkipAsserts.Skip*
+  nameWithType.vb: SkipAsserts.Skip(String)
+  fullName.vb: Asserts.SkipAsserts.Skip(String)
+  name.vb: Skip(String)
+- uid: Asserts.SkipAsserts.SkipUnless(System.Boolean,System.String)
+  commentId: M:Asserts.SkipAsserts.SkipUnless(System.Boolean,System.String)
+  id: SkipUnless(System.Boolean,System.String)
+  parent: Asserts.SkipAsserts
+  langs:
+  - csharp
+  - vb
+  name: SkipUnless(bool, string)
+  nameWithType: SkipAsserts.SkipUnless(bool, string)
+  fullName: Asserts.SkipAsserts.SkipUnless(bool, string)
+  type: Method
+  source:
+    id: SkipUnless
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SkipAsserts.cs
+    startLine: 42
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Will skip the current test unless <code class="paramref">condition</code> evaluates to <code>true</code>.
+  example: []
+  syntax:
+    content: public static void SkipUnless(bool condition, string reason)
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: >-
+        When <code>true</code>, the test will continue to run; when <code>false</code>,
+            the test will be skipped
+    - id: reason
+      type: System.String
+      description: The message to indicate why the test was skipped
+    content.vb: Public Shared Sub SkipUnless(condition As Boolean, reason As String)
+  overload: Asserts.SkipAsserts.SkipUnless*
+  nameWithType.vb: SkipAsserts.SkipUnless(Boolean, String)
+  fullName.vb: Asserts.SkipAsserts.SkipUnless(Boolean, String)
+  name.vb: SkipUnless(Boolean, String)
+- uid: Asserts.SkipAsserts.SkipWhen(System.Boolean,System.String)
+  commentId: M:Asserts.SkipAsserts.SkipWhen(System.Boolean,System.String)
+  id: SkipWhen(System.Boolean,System.String)
+  parent: Asserts.SkipAsserts
+  langs:
+  - csharp
+  - vb
+  name: SkipWhen(bool, string)
+  nameWithType: SkipAsserts.SkipWhen(bool, string)
+  fullName: Asserts.SkipAsserts.SkipWhen(bool, string)
+  type: Method
+  source:
+    id: SkipWhen
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SkipAsserts.cs
+    startLine: 62
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Will skip the current test when <code class="paramref">condition</code> evaluates to <code>true</code>.
+  example: []
+  syntax:
+    content: public static void SkipWhen(bool condition, string reason)
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: >-
+        When <code>true</code>, the test will be skipped; when <code>false</code>,
+            the test will continue to run
+    - id: reason
+      type: System.String
+      description: The message to indicate why the test was skipped
+    content.vb: Public Shared Sub SkipWhen(condition As Boolean, reason As String)
+  overload: Asserts.SkipAsserts.SkipWhen*
+  nameWithType.vb: SkipAsserts.SkipWhen(Boolean, String)
+  fullName.vb: Asserts.SkipAsserts.SkipWhen(Boolean, String)
+  name.vb: SkipWhen(Boolean, String)
+references:
+- uid: Asserts
+  commentId: N:Asserts
+  href: Asserts.html
+  name: Asserts
+  nameWithType: Asserts
+  fullName: Asserts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Asserts.SkipAsserts.Skip*
+  commentId: Overload:Asserts.SkipAsserts.Skip
+  href: Asserts.SkipAsserts.html#Asserts_SkipAsserts_Skip_System_String_
+  name: Skip
+  nameWithType: SkipAsserts.Skip
+  fullName: Asserts.SkipAsserts.Skip
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Asserts.SkipAsserts.SkipUnless*
+  commentId: Overload:Asserts.SkipAsserts.SkipUnless
+  href: Asserts.SkipAsserts.html#Asserts_SkipAsserts_SkipUnless_System_Boolean_System_String_
+  name: SkipUnless
+  nameWithType: SkipAsserts.SkipUnless
+  fullName: Asserts.SkipAsserts.SkipUnless
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Asserts.SkipAsserts.SkipWhen*
+  commentId: Overload:Asserts.SkipAsserts.SkipWhen
+  href: Asserts.SkipAsserts.html#Asserts_SkipAsserts_SkipWhen_System_Boolean_System_String_
+  name: SkipWhen
+  nameWithType: SkipAsserts.SkipWhen
+  fullName: Asserts.SkipAsserts.SkipWhen

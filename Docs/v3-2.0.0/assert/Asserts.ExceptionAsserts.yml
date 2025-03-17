@@ -1,0 +1,1058 @@
+### YamlMime:ManagedReference
+items:
+- uid: Asserts.ExceptionAsserts
+  commentId: T:Asserts.ExceptionAsserts
+  id: ExceptionAsserts
+  parent: Asserts
+  children:
+  - Asserts.ExceptionAsserts.Throws(System.Type,System.Action)
+  - Asserts.ExceptionAsserts.Throws(System.Type,System.Func{System.Object})
+  - Asserts.ExceptionAsserts.ThrowsAnyAsync``1(System.Func{System.Threading.Tasks.Task})
+  - Asserts.ExceptionAsserts.ThrowsAny``1(System.Action)
+  - Asserts.ExceptionAsserts.ThrowsAny``1(System.Func{System.Object})
+  - Asserts.ExceptionAsserts.ThrowsAsync(System.Type,System.Func{System.Threading.Tasks.Task})
+  - Asserts.ExceptionAsserts.ThrowsAsync``1(System.Func{System.Threading.Tasks.Task})
+  - Asserts.ExceptionAsserts.ThrowsAsync``1(System.String,System.Func{System.Threading.Tasks.Task})
+  - Asserts.ExceptionAsserts.Throws``1(System.Action)
+  - Asserts.ExceptionAsserts.Throws``1(System.Func{System.Object})
+  - Asserts.ExceptionAsserts.Throws``1(System.String,System.Action)
+  - Asserts.ExceptionAsserts.Throws``1(System.String,System.Func{System.Object})
+  langs:
+  - csharp
+  - vb
+  name: ExceptionAsserts
+  nameWithType: ExceptionAsserts
+  fullName: Asserts.ExceptionAsserts
+  type: Class
+  source:
+    id: ExceptionAsserts
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 20
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  syntax:
+    content: public class ExceptionAsserts
+    content.vb: Public Class ExceptionAsserts
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Asserts.ExceptionAsserts.Throws(System.Type,System.Action)
+  commentId: M:Asserts.ExceptionAsserts.Throws(System.Type,System.Action)
+  id: Throws(System.Type,System.Action)
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: Throws(Type, Action)
+  nameWithType: ExceptionAsserts.Throws(Type, Action)
+  fullName: Asserts.ExceptionAsserts.Throws(System.Type, System.Action)
+  type: Method
+  source:
+    id: Throws
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 49
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that the exact exception is thrown (and not a derived exception type).
+  example: []
+  syntax:
+    content: public static Exception Throws(Type exceptionType, Action testCode)
+    parameters:
+    - id: exceptionType
+      type: System.Type
+      description: The type of the exception expected to be thrown
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    return:
+      type: System.Exception
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function Throws(exceptionType As Type, testCode As Action) As Exception
+  overload: Asserts.ExceptionAsserts.Throws*
+- uid: Asserts.ExceptionAsserts.Throws(System.Type,System.Func{System.Object})
+  commentId: M:Asserts.ExceptionAsserts.Throws(System.Type,System.Func{System.Object})
+  id: Throws(System.Type,System.Func{System.Object})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: Throws(Type, Func<object?>)
+  nameWithType: ExceptionAsserts.Throws(Type, Func<object?>)
+  fullName: Asserts.ExceptionAsserts.Throws(System.Type, System.Func<object?>)
+  type: Method
+  source:
+    id: Throws
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 61
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: >-
+    Verifies that the exact exception is thrown (and not a derived exception type).
+
+    Generally used to test property accessors.
+  example: []
+  syntax:
+    content: public static Exception Throws(Type exceptionType, Func<object?> testCode)
+    parameters:
+    - id: exceptionType
+      type: System.Type
+      description: The type of the exception expected to be thrown
+    - id: testCode
+      type: System.Func{System.Object}
+      description: A delegate to the code to be tested
+    return:
+      type: System.Exception
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function Throws(exceptionType As Type, testCode As Func(Of Object)) As Exception
+  overload: Asserts.ExceptionAsserts.Throws*
+  nameWithType.vb: ExceptionAsserts.Throws(Type, Func(Of Object))
+  fullName.vb: Asserts.ExceptionAsserts.Throws(System.Type, System.Func(Of Object))
+  name.vb: Throws(Type, Func(Of Object))
+- uid: Asserts.ExceptionAsserts.Throws``1(System.Action)
+  commentId: M:Asserts.ExceptionAsserts.Throws``1(System.Action)
+  id: Throws``1(System.Action)
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: Throws<T>(Action)
+  nameWithType: ExceptionAsserts.Throws<T>(Action)
+  fullName: Asserts.ExceptionAsserts.Throws<T>(System.Action)
+  type: Method
+  source:
+    id: Throws
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 86
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that the exact exception is thrown (and not a derived exception type).
+  example: []
+  syntax:
+    content: 'public static T Throws<T>(Action testCode) where T : Exception'
+    parameters:
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the exception expected to be thrown
+    return:
+      type: '{T}'
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function Throws(Of T As Exception)(testCode As Action) As T
+  overload: Asserts.ExceptionAsserts.Throws*
+  nameWithType.vb: ExceptionAsserts.Throws(Of T)(Action)
+  fullName.vb: Asserts.ExceptionAsserts.Throws(Of T)(System.Action)
+  name.vb: Throws(Of T)(Action)
+- uid: Asserts.ExceptionAsserts.Throws``1(System.Func{System.Object})
+  commentId: M:Asserts.ExceptionAsserts.Throws``1(System.Func{System.Object})
+  id: Throws``1(System.Func{System.Object})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: Throws<T>(Func<object?>)
+  nameWithType: ExceptionAsserts.Throws<T>(Func<object?>)
+  fullName: Asserts.ExceptionAsserts.Throws<T>(System.Func<object?>)
+  type: Method
+  source:
+    id: Throws
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 100
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: >-
+    Verifies that the exact exception is thrown (and not a derived exception type).
+
+    Generally used to test property accessors.
+  example: []
+  syntax:
+    content: 'public static T Throws<T>(Func<object?> testCode) where T : Exception'
+    parameters:
+    - id: testCode
+      type: System.Func{System.Object}
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the exception expected to be thrown
+    return:
+      type: '{T}'
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function Throws(Of T As Exception)(testCode As Func(Of Object)) As T
+  overload: Asserts.ExceptionAsserts.Throws*
+  nameWithType.vb: ExceptionAsserts.Throws(Of T)(Func(Of Object))
+  fullName.vb: Asserts.ExceptionAsserts.Throws(Of T)(System.Func(Of Object))
+  name.vb: Throws(Of T)(Func(Of Object))
+- uid: Asserts.ExceptionAsserts.Throws``1(System.String,System.Action)
+  commentId: M:Asserts.ExceptionAsserts.Throws``1(System.String,System.Action)
+  id: Throws``1(System.String,System.Action)
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: Throws<T>(string?, Action)
+  nameWithType: ExceptionAsserts.Throws<T>(string?, Action)
+  fullName: Asserts.ExceptionAsserts.Throws<T>(string?, System.Action)
+  type: Method
+  source:
+    id: Throws
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 125
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: >-
+    Verifies that the exact exception is thrown (and not a derived exception type), where the exception
+
+    derives from <xref href="System.ArgumentException" data-throw-if-not-resolved="false"></xref> and has the given parameter name.
+  example: []
+  syntax:
+    content: 'public static T Throws<T>(string? paramName, Action testCode) where T : ArgumentException'
+    parameters:
+    - id: paramName
+      type: System.String
+      description: The parameter name that is expected to be in the exception
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function Throws(Of T As ArgumentException)(paramName As String, testCode As Action) As T
+  overload: Asserts.ExceptionAsserts.Throws*
+  nameWithType.vb: ExceptionAsserts.Throws(Of T)(String, Action)
+  fullName.vb: Asserts.ExceptionAsserts.Throws(Of T)(String, System.Action)
+  name.vb: Throws(Of T)(String, Action)
+- uid: Asserts.ExceptionAsserts.Throws``1(System.String,System.Func{System.Object})
+  commentId: M:Asserts.ExceptionAsserts.Throws``1(System.String,System.Func{System.Object})
+  id: Throws``1(System.String,System.Func{System.Object})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: Throws<T>(string?, Func<object?>)
+  nameWithType: ExceptionAsserts.Throws<T>(string?, Func<object?>)
+  fullName: Asserts.ExceptionAsserts.Throws<T>(string?, System.Func<object?>)
+  type: Method
+  source:
+    id: Throws
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 149
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: >-
+    Verifies that the exact exception is thrown (and not a derived exception type), where the exception
+
+    derives from <xref href="System.ArgumentException" data-throw-if-not-resolved="false"></xref> and has the given parameter name.
+  example: []
+  syntax:
+    content: 'public static T Throws<T>(string? paramName, Func<object?> testCode) where T : ArgumentException'
+    parameters:
+    - id: paramName
+      type: System.String
+      description: The parameter name that is expected to be in the exception
+    - id: testCode
+      type: System.Func{System.Object}
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function Throws(Of T As ArgumentException)(paramName As String, testCode As Func(Of Object)) As T
+  overload: Asserts.ExceptionAsserts.Throws*
+  nameWithType.vb: ExceptionAsserts.Throws(Of T)(String, Func(Of Object))
+  fullName.vb: Asserts.ExceptionAsserts.Throws(Of T)(String, System.Func(Of Object))
+  name.vb: Throws(Of T)(String, Func(Of Object))
+- uid: Asserts.ExceptionAsserts.ThrowsAny``1(System.Action)
+  commentId: M:Asserts.ExceptionAsserts.ThrowsAny``1(System.Action)
+  id: ThrowsAny``1(System.Action)
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: ThrowsAny<T>(Action)
+  nameWithType: ExceptionAsserts.ThrowsAny<T>(Action)
+  fullName: Asserts.ExceptionAsserts.ThrowsAny<T>(System.Action)
+  type: Method
+  source:
+    id: ThrowsAny
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 207
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that the exact exception or a derived exception type is thrown.
+  example: []
+  syntax:
+    content: 'public static T ThrowsAny<T>(Action testCode) where T : Exception'
+    parameters:
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the exception expected to be thrown
+    return:
+      type: '{T}'
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function ThrowsAny(Of T As Exception)(testCode As Action) As T
+  overload: Asserts.ExceptionAsserts.ThrowsAny*
+  nameWithType.vb: ExceptionAsserts.ThrowsAny(Of T)(Action)
+  fullName.vb: Asserts.ExceptionAsserts.ThrowsAny(Of T)(System.Action)
+  name.vb: ThrowsAny(Of T)(Action)
+- uid: Asserts.ExceptionAsserts.ThrowsAny``1(System.Func{System.Object})
+  commentId: M:Asserts.ExceptionAsserts.ThrowsAny``1(System.Func{System.Object})
+  id: ThrowsAny``1(System.Func{System.Object})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: ThrowsAny<T>(Func<object?>)
+  nameWithType: ExceptionAsserts.ThrowsAny<T>(Func<object?>)
+  fullName: Asserts.ExceptionAsserts.ThrowsAny<T>(System.Func<object?>)
+  type: Method
+  source:
+    id: ThrowsAny
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 219
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: >-
+    Verifies that the exact exception or a derived exception type is thrown.
+
+    Generally used to test property accessors.
+  example: []
+  syntax:
+    content: 'public static T ThrowsAny<T>(Func<object?> testCode) where T : Exception'
+    parameters:
+    - id: testCode
+      type: System.Func{System.Object}
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the exception expected to be thrown
+    return:
+      type: '{T}'
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function ThrowsAny(Of T As Exception)(testCode As Func(Of Object)) As T
+  overload: Asserts.ExceptionAsserts.ThrowsAny*
+  nameWithType.vb: ExceptionAsserts.ThrowsAny(Of T)(Func(Of Object))
+  fullName.vb: Asserts.ExceptionAsserts.ThrowsAny(Of T)(System.Func(Of Object))
+  name.vb: ThrowsAny(Of T)(Func(Of Object))
+- uid: Asserts.ExceptionAsserts.ThrowsAnyAsync``1(System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.ExceptionAsserts.ThrowsAnyAsync``1(System.Func{System.Threading.Tasks.Task})
+  id: ThrowsAnyAsync``1(System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: ThrowsAnyAsync<T>(Func<Task>)
+  nameWithType: ExceptionAsserts.ThrowsAnyAsync<T>(Func<Task>)
+  fullName: Asserts.ExceptionAsserts.ThrowsAnyAsync<T>(System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: ThrowsAnyAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 241
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that the exact exception or a derived exception type is thrown.
+  example: []
+  syntax:
+    content: 'public static Task<T> ThrowsAnyAsync<T>(Func<Task> testCode) where T : Exception'
+    parameters:
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the task to be tested
+    typeParameters:
+    - id: T
+      description: The type of the exception expected to be thrown
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function ThrowsAnyAsync(Of T As Exception)(testCode As Func(Of Task)) As Task(Of T)
+  overload: Asserts.ExceptionAsserts.ThrowsAnyAsync*
+  nameWithType.vb: ExceptionAsserts.ThrowsAnyAsync(Of T)(Func(Of Task))
+  fullName.vb: Asserts.ExceptionAsserts.ThrowsAnyAsync(Of T)(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: ThrowsAnyAsync(Of T)(Func(Of Task))
+- uid: Asserts.ExceptionAsserts.ThrowsAsync(System.Type,System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.ExceptionAsserts.ThrowsAsync(System.Type,System.Func{System.Threading.Tasks.Task})
+  id: ThrowsAsync(System.Type,System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: ThrowsAsync(Type, Func<Task>)
+  nameWithType: ExceptionAsserts.ThrowsAsync(Type, Func<Task>)
+  fullName: Asserts.ExceptionAsserts.ThrowsAsync(System.Type, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: ThrowsAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 251
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that the exact exception is thrown (and not a derived exception type).
+  example: []
+  syntax:
+    content: public static Task<Exception> ThrowsAsync(Type exceptionType, Func<Task> testCode)
+    parameters:
+    - id: exceptionType
+      type: System.Type
+      description: The type of the exception expected to be thrown
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the task to be tested
+    return:
+      type: System.Threading.Tasks.Task{System.Exception}
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function ThrowsAsync(exceptionType As Type, testCode As Func(Of Task)) As Task(Of Exception)
+  overload: Asserts.ExceptionAsserts.ThrowsAsync*
+  nameWithType.vb: ExceptionAsserts.ThrowsAsync(Type, Func(Of Task))
+  fullName.vb: Asserts.ExceptionAsserts.ThrowsAsync(System.Type, System.Func(Of System.Threading.Tasks.Task))
+  name.vb: ThrowsAsync(Type, Func(Of Task))
+- uid: Asserts.ExceptionAsserts.ThrowsAsync``1(System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.ExceptionAsserts.ThrowsAsync``1(System.Func{System.Threading.Tasks.Task})
+  id: ThrowsAsync``1(System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: ThrowsAsync<T>(Func<Task>)
+  nameWithType: ExceptionAsserts.ThrowsAsync<T>(Func<Task>)
+  fullName: Asserts.ExceptionAsserts.ThrowsAsync<T>(System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: ThrowsAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 262
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that the exact exception is thrown (and not a derived exception type).
+  example: []
+  syntax:
+    content: 'public static Task<T> ThrowsAsync<T>(Func<Task> testCode) where T : Exception'
+    parameters:
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the task to be tested
+    typeParameters:
+    - id: T
+      description: The type of the exception expected to be thrown
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function ThrowsAsync(Of T As Exception)(testCode As Func(Of Task)) As Task(Of T)
+  overload: Asserts.ExceptionAsserts.ThrowsAsync*
+  nameWithType.vb: ExceptionAsserts.ThrowsAsync(Of T)(Func(Of Task))
+  fullName.vb: Asserts.ExceptionAsserts.ThrowsAsync(Of T)(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: ThrowsAsync(Of T)(Func(Of Task))
+- uid: Asserts.ExceptionAsserts.ThrowsAsync``1(System.String,System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.ExceptionAsserts.ThrowsAsync``1(System.String,System.Func{System.Threading.Tasks.Task})
+  id: ThrowsAsync``1(System.String,System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.ExceptionAsserts
+  langs:
+  - csharp
+  - vb
+  name: ThrowsAsync<T>(string?, Func<Task>)
+  nameWithType: ExceptionAsserts.ThrowsAsync<T>(string?, Func<Task>)
+  fullName: Asserts.ExceptionAsserts.ThrowsAsync<T>(string?, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: ThrowsAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
+    startLine: 275
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: >-
+    Verifies that the exact exception is thrown (and not a derived exception type), where the exception
+
+    derives from <xref href="System.ArgumentException" data-throw-if-not-resolved="false"></xref> and has the given parameter name.
+  example: []
+  syntax:
+    content: 'public static Task<T> ThrowsAsync<T>(string? paramName, Func<Task> testCode) where T : ArgumentException'
+    parameters:
+    - id: paramName
+      type: System.String
+      description: The parameter name that is expected to be in the exception
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the task to be tested
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: The exception that was thrown, when successful
+    content.vb: Public Shared Function ThrowsAsync(Of T As ArgumentException)(paramName As String, testCode As Func(Of Task)) As Task(Of T)
+  overload: Asserts.ExceptionAsserts.ThrowsAsync*
+  nameWithType.vb: ExceptionAsserts.ThrowsAsync(Of T)(String, Func(Of Task))
+  fullName.vb: Asserts.ExceptionAsserts.ThrowsAsync(Of T)(String, System.Func(Of System.Threading.Tasks.Task))
+  name.vb: ThrowsAsync(Of T)(String, Func(Of Task))
+references:
+- uid: Asserts
+  commentId: N:Asserts
+  href: Asserts.html
+  name: Asserts
+  nameWithType: Asserts
+  fullName: Asserts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Asserts.ExceptionAsserts.Throws*
+  commentId: Overload:Asserts.ExceptionAsserts.Throws
+  href: Asserts.ExceptionAsserts.html#Asserts_ExceptionAsserts_Throws_System_Type_System_Action_
+  name: Throws
+  nameWithType: ExceptionAsserts.Throws
+  fullName: Asserts.ExceptionAsserts.Throws
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Func{System.Object}
+  commentId: T:System.Func{System.Object}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<object>
+  nameWithType: Func<object>
+  fullName: System.Func<object>
+  nameWithType.vb: Func(Of Object)
+  fullName.vb: System.Func(Of Object)
+  name.vb: Func(Of Object)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Asserts.ExceptionAsserts.ThrowsAny*
+  commentId: Overload:Asserts.ExceptionAsserts.ThrowsAny
+  href: Asserts.ExceptionAsserts.html#Asserts_ExceptionAsserts_ThrowsAny__1_System_Action_
+  name: ThrowsAny
+  nameWithType: ExceptionAsserts.ThrowsAny
+  fullName: Asserts.ExceptionAsserts.ThrowsAny
+- uid: Asserts.ExceptionAsserts.ThrowsAnyAsync*
+  commentId: Overload:Asserts.ExceptionAsserts.ThrowsAnyAsync
+  href: Asserts.ExceptionAsserts.html#Asserts_ExceptionAsserts_ThrowsAnyAsync__1_System_Func_System_Threading_Tasks_Task__
+  name: ThrowsAnyAsync
+  nameWithType: ExceptionAsserts.ThrowsAnyAsync
+  fullName: Asserts.ExceptionAsserts.ThrowsAnyAsync
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Asserts.ExceptionAsserts.ThrowsAsync*
+  commentId: Overload:Asserts.ExceptionAsserts.ThrowsAsync
+  href: Asserts.ExceptionAsserts.html#Asserts_ExceptionAsserts_ThrowsAsync_System_Type_System_Func_System_Threading_Tasks_Task__
+  name: ThrowsAsync
+  nameWithType: ExceptionAsserts.ThrowsAsync
+  fullName: Asserts.ExceptionAsserts.ThrowsAsync
+- uid: System.Threading.Tasks.Task{System.Exception}
+  commentId: T:System.Threading.Tasks.Task{System.Exception}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Exception>
+  nameWithType: Task<Exception>
+  fullName: System.Threading.Tasks.Task<System.Exception>
+  nameWithType.vb: Task(Of Exception)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Exception)
+  name.vb: Task(Of Exception)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )

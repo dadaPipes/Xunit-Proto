@@ -1,0 +1,5424 @@
+{
+  "uid": "Xunit.Runner.Common.TestCaseStarting",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Deserialize(IReadOnlyDictionary<string, object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Deserialize(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.Deserialize(IReadOnlyDictionary<string, object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.Deserialize(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Deserialize(System.Collections.Generic.IReadOnlyDictionary<string, object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Deserialize(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})\" text=\"Deserialize(IReadOnlyDictionary&lt;string, object?&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})\" text=\"Deserialize(IReadOnlyDictionary&lt;string, object?&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Deserialize(IReadOnlyDictionary<string, object?> root)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Deserialize(root As IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "root",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object}",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Object)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Object)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, Object)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">The root of the JSON object</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Deserialize",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 93,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Runner.Common.TestCaseMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Deserialize(IReadOnlyDictionary<string, object>)"
+          },
+          {
+            "lang": "vb",
+            "value": "Deserialize(IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseMessage.Deserialize(IReadOnlyDictionary<string, object>)"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseMessage.Deserialize(IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary<string, object>)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseMessage.Deserialize(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCaseMessage.html#Xunit_Runner_Common_TestCaseMessage_Deserialize_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">Deserialize</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCaseMessage.html#Xunit_Runner_Common_TestCaseMessage_Deserialize_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">Deserialize</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>))"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.Deserialize*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Deserialize"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.Deserialize"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Deserialize"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Deserialize*\" text=\"Deserialize\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Deserialize*\" text=\"Deserialize\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Override to deserialize the values in the dictionary into the message.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.Explicit",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Explicit"
+        },
+        {
+          "lang": "vb",
+          "value": "Explicit"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.Explicit"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.Explicit"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Explicit"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Explicit"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Explicit\" text=\"Explicit\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Explicit\" text=\"Explicit\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required bool Explicit { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property Explicit As Boolean"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Explicit",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 12,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>false</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.Explicit*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Explicit"
+          },
+          {
+            "lang": "vb",
+            "value": "Explicit"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.Explicit"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.Explicit"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Explicit"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Explicit"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Explicit*\" text=\"Explicit\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Explicit*\" text=\"Explicit\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.Explicit",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Explicit"
+            },
+            {
+              "lang": "vb",
+              "value": "Explicit"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.Explicit"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.Explicit"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.Explicit"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.Explicit"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.Explicit\" text=\"Explicit\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.Explicit\" text=\"Explicit\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets a flag indicating whether this test case was marked as explicit or not.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.Serialize(Xunit.Sdk.JsonObjectSerializer)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Serialize(JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "Serialize(JsonObjectSerializer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.Serialize(JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.Serialize(JsonObjectSerializer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Serialize(Xunit.Sdk.JsonObjectSerializer)\" text=\"Serialize(JsonObjectSerializer)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Serialize(Xunit.Sdk.JsonObjectSerializer)\" text=\"Serialize(JsonObjectSerializer)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Serialize(JsonObjectSerializer serializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Serialize(serializer As JsonObjectSerializer)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "serializer",
+            "type": {
+              "uid": "Xunit.Sdk.JsonObjectSerializer",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">The serializer to write values to.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/common/MessagePartials/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Serialize",
+        "path": "../v3/v3-2.0.0/src/common/MessagePartials/TestCaseStarting.cs",
+        "startLine": 20,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Runner.Common.TestCaseMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Serialize(JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Serialize(JsonObjectSerializer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseMessage.Serialize(JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseMessage.Serialize(JsonObjectSerializer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCaseMessage.html#Xunit_Runner_Common_TestCaseMessage_Serialize_Xunit_Sdk_JsonObjectSerializer_\">Serialize</a>(<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCaseMessage.html#Xunit_Runner_Common_TestCaseMessage_Serialize_Xunit_Sdk_JsonObjectSerializer_\">Serialize</a>(<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.Serialize*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Serialize"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.Serialize"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Serialize"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Serialize*\" text=\"Serialize\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Serialize*\" text=\"Serialize\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Override to serialize the values in the message into JSON.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.SkipReason",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SkipReason"
+        },
+        {
+          "lang": "vb",
+          "value": "SkipReason"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.SkipReason"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.SkipReason"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.SkipReason"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.SkipReason"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SkipReason\" text=\"SkipReason\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SkipReason\" text=\"SkipReason\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? SkipReason { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property SkipReason As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SkipReason",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 18,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>null</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.SkipReason*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SkipReason"
+          },
+          {
+            "lang": "vb",
+            "value": "SkipReason"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.SkipReason"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.SkipReason"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.SkipReason"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.SkipReason"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SkipReason*\" text=\"SkipReason\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SkipReason*\" text=\"SkipReason\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.SkipReason",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SkipReason"
+            },
+            {
+              "lang": "vb",
+              "value": "SkipReason"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.SkipReason"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.SkipReason"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.SkipReason"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.SkipReason"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.SkipReason\" text=\"SkipReason\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.SkipReason\" text=\"SkipReason\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the display text for the reason a test is being skipped; if the test\nis not statically skipped, returns <code>null</code>. (A test may be dynamically\nskipped at runtime while still returning <code>null</code>.)</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.SourceFilePath",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SourceFilePath"
+        },
+        {
+          "lang": "vb",
+          "value": "SourceFilePath"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.SourceFilePath"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.SourceFilePath"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.SourceFilePath"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.SourceFilePath"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceFilePath\" text=\"SourceFilePath\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceFilePath\" text=\"SourceFilePath\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? SourceFilePath { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property SourceFilePath As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SourceFilePath",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 24,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>null</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.SourceFilePath*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SourceFilePath"
+          },
+          {
+            "lang": "vb",
+            "value": "SourceFilePath"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.SourceFilePath"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.SourceFilePath"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.SourceFilePath"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.SourceFilePath"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceFilePath*\" text=\"SourceFilePath\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceFilePath*\" text=\"SourceFilePath\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.SourceFilePath",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SourceFilePath"
+            },
+            {
+              "lang": "vb",
+              "value": "SourceFilePath"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.SourceFilePath"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.SourceFilePath"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.SourceFilePath"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.SourceFilePath"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.SourceFilePath\" text=\"SourceFilePath\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.SourceFilePath\" text=\"SourceFilePath\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the source file name. A <code>null</code> value indicates that the\nsource file name is not known.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.SourceLineNumber",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SourceLineNumber"
+        },
+        {
+          "lang": "vb",
+          "value": "SourceLineNumber"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.SourceLineNumber"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.SourceLineNumber"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.SourceLineNumber"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.SourceLineNumber"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceLineNumber\" text=\"SourceLineNumber\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceLineNumber\" text=\"SourceLineNumber\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required int? SourceLineNumber { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property SourceLineNumber As Integer?"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Nullable{System.Int32}",
+            "definition": "System.Nullable`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SourceLineNumber",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 30,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>null</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.SourceLineNumber*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SourceLineNumber"
+          },
+          {
+            "lang": "vb",
+            "value": "SourceLineNumber"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.SourceLineNumber"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.SourceLineNumber"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.SourceLineNumber"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.SourceLineNumber"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceLineNumber*\" text=\"SourceLineNumber\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.SourceLineNumber*\" text=\"SourceLineNumber\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.SourceLineNumber",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SourceLineNumber"
+            },
+            {
+              "lang": "vb",
+              "value": "SourceLineNumber"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.SourceLineNumber"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.SourceLineNumber"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.SourceLineNumber"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.SourceLineNumber"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.SourceLineNumber\" text=\"SourceLineNumber\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.SourceLineNumber\" text=\"SourceLineNumber\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the source file line number. A <code>null</code> value indicates that the\nsource file line number is not known.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseDisplayName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestCaseDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestCaseDisplayName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName\" text=\"TestCaseDisplayName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName\" text=\"TestCaseDisplayName\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string TestCaseDisplayName { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestCaseDisplayName As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestCaseDisplayName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 36,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <xref href=\"Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue\" data-throw-if-not-resolved=\"false\"></xref> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseDisplayName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestCaseDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestCaseDisplayName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName*\" text=\"TestCaseDisplayName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestCaseDisplayName*\" text=\"TestCaseDisplayName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestCaseDisplayName",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestCaseDisplayName"
+            },
+            {
+              "lang": "vb",
+              "value": "TestCaseDisplayName"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestCaseDisplayName"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestCaseDisplayName"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestCaseDisplayName"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestCaseDisplayName"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestCaseDisplayName\" text=\"TestCaseDisplayName\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestCaseDisplayName\" text=\"TestCaseDisplayName\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the display name of the test case.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMetadataToken"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMetadataToken"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestClassMetadataToken"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestClassMetadataToken"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken\" text=\"TestClassMetadataToken\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken\" text=\"TestClassMetadataToken\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required int? TestClassMetadataToken { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestClassMetadataToken As Integer?"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Nullable{System.Int32}",
+            "definition": "System.Nullable`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestClassMetadataToken",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 42,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">This value is only populated for xUnit.net v3 or later test cases, and will return <code>null</code>\nfor v1 or v2 test cases, regardless of whether <xref href=\"Xunit.Sdk.ITestCaseMetadata.TestClassName\" data-throw-if-not-resolved=\"false\"></xref> is <code>null</code>.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestClassMetadataToken"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassMetadataToken"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestClassMetadataToken"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestClassMetadataToken"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken*\" text=\"TestClassMetadataToken\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassMetadataToken*\" text=\"TestClassMetadataToken\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestClassMetadataToken",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestClassMetadataToken"
+            },
+            {
+              "lang": "vb",
+              "value": "TestClassMetadataToken"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestClassMetadataToken"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestClassMetadataToken"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassMetadataToken"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassMetadataToken"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassMetadataToken\" text=\"TestClassMetadataToken\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassMetadataToken\" text=\"TestClassMetadataToken\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the <xref href=\"System.Reflection.MemberInfo.MetadataToken\" data-throw-if-not-resolved=\"false\"></xref> for the test class. If the test did not\noriginate in a class, will return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestClassName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestClassName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassName\" text=\"TestClassName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassName\" text=\"TestClassName\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? TestClassName { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestClassName As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestClassName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 48,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>null</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestClassName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestClassName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestClassName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassName*\" text=\"TestClassName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassName*\" text=\"TestClassName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestClassName",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestClassName"
+            },
+            {
+              "lang": "vb",
+              "value": "TestClassName"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestClassName"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestClassName"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassName"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassName"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassName\" text=\"TestClassName\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassName\" text=\"TestClassName\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the full name of the class where the test is defined (i.e., <xref href=\"System.Type.FullName\" data-throw-if-not-resolved=\"false\"></xref>).\nIf the test did not originiate in a class, will return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassNamespace",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassNamespace"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassNamespace"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestClassNamespace"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestClassNamespace"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassNamespace"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassNamespace"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassNamespace\" text=\"TestClassNamespace\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassNamespace\" text=\"TestClassNamespace\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? TestClassNamespace { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestClassNamespace As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestClassNamespace",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 54,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>null</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassNamespace*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestClassNamespace"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassNamespace"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestClassNamespace"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestClassNamespace"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassNamespace"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassNamespace"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassNamespace*\" text=\"TestClassNamespace\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassNamespace*\" text=\"TestClassNamespace\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestClassNamespace",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestClassNamespace"
+            },
+            {
+              "lang": "vb",
+              "value": "TestClassNamespace"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestClassNamespace"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestClassNamespace"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassNamespace"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassNamespace"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassNamespace\" text=\"TestClassNamespace\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassNamespace\" text=\"TestClassNamespace\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the namespace of the class where the test is defined. If the test did not\noriginate in a class, or the class it originated in does not reside in a namespace,\nwill return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassSimpleName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassSimpleName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestClassSimpleName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestClassSimpleName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName\" text=\"TestClassSimpleName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName\" text=\"TestClassSimpleName\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? TestClassSimpleName { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestClassSimpleName As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestClassSimpleName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 60,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>null</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestClassSimpleName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClassSimpleName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestClassSimpleName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestClassSimpleName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName*\" text=\"TestClassSimpleName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestClassSimpleName*\" text=\"TestClassSimpleName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestClassSimpleName",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestClassSimpleName"
+            },
+            {
+              "lang": "vb",
+              "value": "TestClassSimpleName"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestClassSimpleName"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestClassSimpleName"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassSimpleName"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestClassSimpleName"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassSimpleName\" text=\"TestClassSimpleName\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestClassSimpleName\" text=\"TestClassSimpleName\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the simple name of the class where the test is defined (the class name without namespace).\nIf the test did not originiate in a class, will return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodMetadataToken"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodMetadataToken"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestMethodMetadataToken"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestMethodMetadataToken"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken\" text=\"TestMethodMetadataToken\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken\" text=\"TestMethodMetadataToken\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required int? TestMethodMetadataToken { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestMethodMetadataToken As Integer?"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Nullable{System.Int32}",
+            "definition": "System.Nullable`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "int?"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer?"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestMethodMetadataToken",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 66,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">This value is only populated for xUnit.net v3 or later test cases, and will return <code>null</code>\nfor v1 or v2 test cases, regardless of whether <xref href=\"Xunit.Sdk.ITestCaseMetadata.TestMethodName\" data-throw-if-not-resolved=\"false\"></xref> is <code>null</code>.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestMethodMetadataToken"
+          },
+          {
+            "lang": "vb",
+            "value": "TestMethodMetadataToken"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestMethodMetadataToken"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestMethodMetadataToken"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken*\" text=\"TestMethodMetadataToken\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodMetadataToken*\" text=\"TestMethodMetadataToken\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestMethodMetadataToken",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestMethodMetadataToken"
+            },
+            {
+              "lang": "vb",
+              "value": "TestMethodMetadataToken"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestMethodMetadataToken"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestMethodMetadataToken"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodMetadataToken"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodMetadataToken"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodMetadataToken\" text=\"TestMethodMetadataToken\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodMetadataToken\" text=\"TestMethodMetadataToken\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the <xref href=\"System.Reflection.MemberInfo.MetadataToken\" data-throw-if-not-resolved=\"false\"></xref> for the test method. If the test did not\noriginate in a method, or the test framework did not provide this information, will return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestMethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestMethodName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodName\" text=\"TestMethodName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodName\" text=\"TestMethodName\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? TestMethodName { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestMethodName As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestMethodName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 72,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be <code>null</code> if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestMethodName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestMethodName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestMethodName"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestMethodName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodName*\" text=\"TestMethodName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodName*\" text=\"TestMethodName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestMethodName",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestMethodName"
+            },
+            {
+              "lang": "vb",
+              "value": "TestMethodName"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestMethodName"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestMethodName"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodName"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodName"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodName\" text=\"TestMethodName\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodName\" text=\"TestMethodName\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the method name where the test is defined, in the <xref href=\"Xunit.Sdk.ITestCaseMetadata.TestClassName\" data-throw-if-not-resolved=\"false\"></xref> class.\nIf the test did not originiate in a method, will return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodParameterTypesVSTest"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodParameterTypesVSTest"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestMethodParameterTypesVSTest"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestMethodParameterTypesVSTest"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest\" text=\"TestMethodParameterTypesVSTest\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest\" text=\"TestMethodParameterTypesVSTest\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string[]? TestMethodParameterTypesVSTest { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestMethodParameterTypesVSTest As String()"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestMethodParameterTypesVSTest",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 78,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">The values here are formatted according to\n<a href=\"https://github.com/microsoft/vstest/blob/main/docs/RFCs/0017-Managed-TestCase-Properties.md\">VSTest rules</a>\nin order to support Test Explorer. Note that this is not the same as <xref href=\"System.Type.FullName\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestMethodParameterTypesVSTest"
+          },
+          {
+            "lang": "vb",
+            "value": "TestMethodParameterTypesVSTest"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestMethodParameterTypesVSTest"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestMethodParameterTypesVSTest"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest*\" text=\"TestMethodParameterTypesVSTest\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodParameterTypesVSTest*\" text=\"TestMethodParameterTypesVSTest\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestMethodParameterTypesVSTest",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestMethodParameterTypesVSTest"
+            },
+            {
+              "lang": "vb",
+              "value": "TestMethodParameterTypesVSTest"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestMethodParameterTypesVSTest"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestMethodParameterTypesVSTest"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodParameterTypesVSTest"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodParameterTypesVSTest"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodParameterTypesVSTest\" text=\"TestMethodParameterTypesVSTest\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodParameterTypesVSTest\" text=\"TestMethodParameterTypesVSTest\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the types for the test method parameters. If the test did not originate in a method,\nor the test framework does not provide this information, will return <code>null</code>; if the test\nmethod has no parameters, will return an empty array.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodReturnTypeVSTest"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodReturnTypeVSTest"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.TestMethodReturnTypeVSTest"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.TestMethodReturnTypeVSTest"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest\" text=\"TestMethodReturnTypeVSTest\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest\" text=\"TestMethodReturnTypeVSTest\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required string? TestMethodReturnTypeVSTest { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestMethodReturnTypeVSTest As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestMethodReturnTypeVSTest",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 84,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">The value here is formatted according to\n<a href=\"https://github.com/microsoft/vstest/blob/main/docs/RFCs/0017-Managed-TestCase-Properties.md\">VSTest rules</a>\nin order to support Test Explorer. Note that this is not the same as <xref href=\"System.Type.FullName\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestMethodReturnTypeVSTest"
+          },
+          {
+            "lang": "vb",
+            "value": "TestMethodReturnTypeVSTest"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.TestMethodReturnTypeVSTest"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.TestMethodReturnTypeVSTest"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest*\" text=\"TestMethodReturnTypeVSTest\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.TestMethodReturnTypeVSTest*\" text=\"TestMethodReturnTypeVSTest\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.TestMethodReturnTypeVSTest",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestMethodReturnTypeVSTest"
+            },
+            {
+              "lang": "vb",
+              "value": "TestMethodReturnTypeVSTest"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.TestMethodReturnTypeVSTest"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.TestMethodReturnTypeVSTest"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodReturnTypeVSTest"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.TestMethodReturnTypeVSTest"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodReturnTypeVSTest\" text=\"TestMethodReturnTypeVSTest\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.TestMethodReturnTypeVSTest\" text=\"TestMethodReturnTypeVSTest\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the test method return type. If the test did not originate in a method, or the test framework\ndid not provide this information, will return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.ToString\" text=\"ToString()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.ToString\" text=\"ToString()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function ToString() As String"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/common/MessagePartials/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ToString",
+        "path": "../v3/v3-2.0.0/src/common/MessagePartials/TestCaseStarting.cs",
+        "startLine": 43,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Runner.Common.TestCaseMessage.ToString",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString()"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseMessage.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseMessage.ToString()"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseMessage.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseMessage.ToString()"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCaseMessage.html#Xunit_Runner_Common_TestCaseMessage_ToString\">ToString</a>()"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.TestCaseMessage.html#Xunit_Runner_Common_TestCaseMessage_ToString\">ToString</a>()"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.ToString*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.ToString"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.ToString"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.ToString*\" text=\"ToString\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.ToString*\" text=\"ToString\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseStarting.Traits",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseStarting",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Traits"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseStarting.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseStarting.Traits"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseStarting.Traits"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Traits\" text=\"Traits\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Traits\" text=\"Traits\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required IReadOnlyDictionary<string, IReadOnlyCollection<string>> Traits { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property Traits As IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}}",
+            "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IReadOnlyCollection<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IReadOnlyCollection(Of String))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Traits",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Messages/TestCaseStarting.cs",
+        "startLine": 90,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Note: Will be an empty dictionary if there was no value provided during deserialization.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.TestCaseStarting.Traits*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Traits"
+          },
+          {
+            "lang": "vb",
+            "value": "Traits"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseStarting.Traits"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseStarting.Traits"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Traits"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.TestCaseStarting.Traits"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Traits*\" text=\"Traits\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.TestCaseStarting.Traits*\" text=\"Traits\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestCaseMetadata.Traits",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Traits"
+            },
+            {
+              "lang": "vb",
+              "value": "Traits"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestCaseMetadata.Traits"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestCaseMetadata.Traits"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestCaseMetadata.Traits"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestCaseMetadata.Traits"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.Traits\" text=\"Traits\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata.Traits\" text=\"Traits\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Gets the trait values associated with this test case. If there are none, or the framework\ndoes not support traits, this should return an empty dictionary (not <code>null</code>).</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestCaseStarting"
+    },
+    {
+      "lang": "vb",
+      "value": "TestCaseStarting"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestCaseStarting"
+    },
+    {
+      "lang": "vb",
+      "value": "TestCaseStarting"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.TestCaseStarting"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.TestCaseStarting"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/common/MessagePartials/TestCaseStarting.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestCaseStarting",
+    "path": "../v3/v3-2.0.0/src/common/MessagePartials/TestCaseStarting.cs",
+    "startLine": 13,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml\" sourcestartlinenumber=\"1\">Default implementation of <xref href=\"Xunit.Sdk.ITestCaseStarting\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "[JsonTypeID(\"test-case-starting\")]\npublic sealed class TestCaseStarting : TestCaseMessage, IJsonDeserializable, ITestCaseStarting, ITestCaseMessage, ITestMethodMessage, ITestClassMessage, ITestCollectionMessage, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable, ITestCaseMetadata"
+      },
+      {
+        "lang": "vb",
+        "value": "<JsonTypeID(\"test-case-starting\")>\nPublic NotInheritable Class TestCaseStarting Inherits TestCaseMessage Implements IJsonDeserializable, ITestCaseStarting, ITestCaseMessage, ITestMethodMessage, ITestClassMessage, ITestCollectionMessage, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable, ITestCaseMetadata"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage\" text=\"MessageSinkMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage\" text=\"MessageSinkMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestAssemblyMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestAssemblyMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage\" text=\"TestAssemblyMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage\" text=\"TestAssemblyMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCollectionMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestCollectionMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCollectionMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage\" text=\"TestCollectionMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage\" text=\"TestCollectionMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 3
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestClassMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestClassMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestClassMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage\" text=\"TestClassMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage\" text=\"TestClassMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 4
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestMethodMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestMethodMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestMethodMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMethodMessage\" text=\"TestMethodMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMethodMessage\" text=\"TestMethodMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 5
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCaseMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common",
+      "href": "Xunit.Runner.Common.TestCaseMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseMessage\" text=\"TestCaseMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseMessage\" text=\"TestCaseMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 6
+    }
+  ],
+  "level": 7,
+  "implements": [
+    {
+      "uid": "Xunit.Sdk.IJsonDeserializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonDeserializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonDeserializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonDeserializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonDeserializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonDeserializable\" text=\"IJsonDeserializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonDeserializable\" text=\"IJsonDeserializable\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseStarting",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseStarting"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseStarting"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseStarting"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseStarting"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseStarting\" text=\"ITestCaseStarting\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseStarting\" text=\"ITestCaseStarting\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMessage\" text=\"ITestCaseMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMessage\" text=\"ITestCaseMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethodMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethodMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethodMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMessage\" text=\"ITestMethodMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMessage\" text=\"ITestMethodMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestClassMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestClassMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestClassMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestClassMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage\" text=\"ITestClassMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestClassMessage\" text=\"ITestClassMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCollectionMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCollectionMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCollectionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCollectionMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage\" text=\"ITestCollectionMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCollectionMessage\" text=\"ITestCollectionMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IMessageSinkMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IJsonSerializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestCaseMetadata",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestCaseMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestCaseMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestCaseMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestCaseMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestCaseMetadata\" text=\"ITestCaseMetadata\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.Runner.Common.TestCaseMessage.TestCaseUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCaseMessage",
+      "href": "Xunit.Runner.Common.TestCaseMessage.html#Xunit_Runner_Common_TestCaseMessage_TestCaseUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseMessage.TestCaseUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseMessage.TestCaseUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCaseMessage.TestCaseUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCaseMessage.TestCaseUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseMessage.TestCaseUniqueID\" text=\"TestCaseUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCaseMessage.TestCaseUniqueID\" text=\"TestCaseUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseMessage.yml\" sourcestartlinenumber=\"1\">Gets the test case's unique ID. Can be used to correlate test messages with the appropriate\ntest case that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestMethodMessage.TestMethodUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestMethodMessage",
+      "href": "Xunit.Runner.Common.TestMethodMessage.html#Xunit_Runner_Common_TestMethodMessage_TestMethodUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodMessage.TestMethodUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodMessage.TestMethodUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestMethodMessage.TestMethodUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestMethodMessage.TestMethodUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMethodMessage.TestMethodUniqueID\" text=\"TestMethodUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestMethodMessage.TestMethodUniqueID\" text=\"TestMethodUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestMethodMessage.yml\" sourcestartlinenumber=\"1\">Gets the test method's unique ID. Can be used to correlate test messages with the appropriate\ntest method that they're related to. Will be <code>null</code> if the test did not originate from a method.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestClassMessage",
+      "href": "Xunit.Runner.Common.TestClassMessage.html#Xunit_Runner_Common_TestClassMessage_TestClassUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestClassMessage.TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClassMessage.TestClassUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestClassMessage.TestClassUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestClassMessage.TestClassUniqueID\" text=\"TestClassUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestClassMessage.yml\" sourcestartlinenumber=\"1\">Gets the test class's unique ID. Can be used to correlate test messages with the appropriate\ntest class that they're related to. Will be <code>null</code> if the test did not originate from a class.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestCollectionMessage",
+      "href": "Xunit.Runner.Common.TestCollectionMessage.html#Xunit_Runner_Common_TestCollectionMessage_TestCollectionUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionMessage.TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionMessage.TestCollectionUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID\" text=\"TestCollectionUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestCollectionMessage.TestCollectionUniqueID\" text=\"TestCollectionUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestCollectionMessage.yml\" sourcestartlinenumber=\"1\">Gets the test collection's unique ID. Can be used to correlate test messages with the appropriate\ntest collection that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.TestAssemblyMessage",
+      "href": "Xunit.Runner.Common.TestAssemblyMessage.html#Xunit_Runner_Common_TestAssemblyMessage_AssemblyUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "AssemblyUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.TestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.TestAssemblyMessage.yml\" sourcestartlinenumber=\"1\">Gets the assembly's unique ID. Can be used to correlate test messages with the appropriate\nassembly that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_UnsetStringPropertyValue",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "UnsetStringPropertyValue"
+        },
+        {
+          "lang": "vb",
+          "value": "UnsetStringPropertyValue"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.UnsetStringPropertyValue"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.UnsetStringPropertyValue"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue\" text=\"UnsetStringPropertyValue\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.MessageSinkMessage.UnsetStringPropertyValue\" text=\"UnsetStringPropertyValue\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Gets the string value that message properties will return, when a value was not provided\nduring deserialization.</p>\n",
+      "type": "field",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.FromJson(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "isExternal": true,
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_FromJson_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FromJson(IReadOnlyDictionary<string, object>)"
+        },
+        {
+          "lang": "vb",
+          "value": "FromJson(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.FromJson(IReadOnlyDictionary<string, object>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.FromJson(IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.FromJson(System.Collections.Generic.IReadOnlyDictionary<string, object>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.FromJson(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_FromJson_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">FromJson</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_FromJson_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Object__\">FromJson</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>))"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Deserializes the object's values from the provided JSON.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Runner.Common.MessageSinkMessage.ToJson",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.MessageSinkMessage",
+      "href": "Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToJson",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToJson()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.ToJson()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.MessageSinkMessage.ToJson()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToJson\">ToJson</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Runner.Common.MessageSinkMessage.html#Xunit_Runner_Common_MessageSinkMessage_ToJson\">ToJson</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Creates a JSON serialized version of this message.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "Xunit.Sdk.IMessageSinkMessage.Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen``1(Xunit.Runner.Common.MessageHandler{{TMessage}})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.MessageSinkMessageExtensions",
+      "definition": "Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen``1(Xunit.Sdk.IMessageSinkMessage,Xunit.Runner.Common.MessageHandler{``0})",
+      "href": "Xunit.Sdk.MessageSinkMessageExtensions.html#Xunit_Sdk_MessageSinkMessageExtensions_DispatchWhen__1_Xunit_Sdk_IMessageSinkMessage_Xunit_Runner_Common_MessageHandler___0__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DispatchWhen<TMessage>(IMessageSinkMessage, MessageHandler<TMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DispatchWhen(Of TMessage)(IMessageSinkMessage, MessageHandler(Of TMessage))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessageExtensions.DispatchWhen<TMessage>(IMessageSinkMessage, MessageHandler<TMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessageExtensions.DispatchWhen(Of TMessage)(IMessageSinkMessage, MessageHandler(Of TMessage))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen<TMessage>(Xunit.Sdk.IMessageSinkMessage, Xunit.Runner.Common.MessageHandler<TMessage>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.MessageSinkMessageExtensions.DispatchWhen(Of TMessage)(Xunit.Sdk.IMessageSinkMessage, Xunit.Runner.Common.MessageHandler(Of TMessage))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.MessageSinkMessageExtensions.html#Xunit_Sdk_MessageSinkMessageExtensions_DispatchWhen__1_Xunit_Sdk_IMessageSinkMessage_Xunit_Runner_Common_MessageHandler___0__\">DispatchWhen</a>&lt;TMessage&gt;(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>, <a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandler-1.html\">MessageHandler</a>&lt;TMessage&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.MessageSinkMessageExtensions.html#Xunit_Sdk_MessageSinkMessageExtensions_DispatchWhen__1_Xunit_Sdk_IMessageSinkMessage_Xunit_Runner_Common_MessageHandler___0__\">DispatchWhen</a>(Of TMessage)(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>, <a class=\"xref\" href=\"Xunit.Runner.Common.MessageHandler-1.html\">MessageHandler</a>(Of TMessage))"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "attributes": [
+    {
+      "type": "Xunit.Sdk.JsonTypeIDAttribute",
+      "ctor": "Xunit.Sdk.JsonTypeIDAttribute.#ctor(System.String)",
+      "arguments": [
+        {
+          "type": "System.String",
+          "value": "test-case-starting"
+        }
+      ]
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.TestCaseStarting.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

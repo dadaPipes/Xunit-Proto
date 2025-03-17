@@ -1,0 +1,1443 @@
+{
+  "uid": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "OnMessage(IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "OnMessage(IMessageSinkMessage)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleDiagnosticMessageSink.OnMessage(IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleDiagnosticMessageSink.OnMessage(IMessageSinkMessage)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)\" text=\"OnMessage(IMessageSinkMessage)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)\" text=\"OnMessage(IMessageSinkMessage)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public bool OnMessage(IMessageSinkMessage message)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function OnMessage(message As IMessageSinkMessage) As Boolean"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "message",
+            "type": {
+              "uid": "Xunit.Sdk.IMessageSinkMessage",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSinkMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSinkMessage"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageSinkMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageSinkMessage"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IMessageSinkMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IMessageSinkMessage"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">The message from the message bus</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">Return <code>true</code> to continue running tests, or <code>false</code> to stop.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "OnMessage",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+        "startLine": 54,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "OnMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "OnMessage"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleDiagnosticMessageSink.OnMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleDiagnosticMessageSink.OnMessage"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage*\" text=\"OnMessage\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.OnMessage*\" text=\"OnMessage\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.IMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OnMessage(IMessageSinkMessage)"
+            },
+            {
+              "lang": "vb",
+              "value": "OnMessage(IMessageSinkMessage)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IMessageSink.OnMessage(IMessageSinkMessage)"
+            },
+            {
+              "lang": "vb",
+              "value": "IMessageSink.OnMessage(IMessageSinkMessage)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.IMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.IMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.IMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)\" text=\"OnMessage\"/>(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>)"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.IMessageSink.OnMessage(Xunit.Sdk.IMessageSinkMessage)\" text=\"OnMessage\"/>(<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>)"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">Reports the presence of a message on the message bus. This method should\nnever throw exceptions.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate(Xunit.Runner.Common.ConsoleHelper,System.Boolean,System.Boolean,System.Boolean,System.String,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TryCreate(ConsoleHelper, bool, bool, bool, string?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "TryCreate(ConsoleHelper, Boolean, Boolean, Boolean, String, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ConsoleDiagnosticMessageSink.TryCreate(ConsoleHelper, bool, bool, bool, string?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "ConsoleDiagnosticMessageSink.TryCreate(ConsoleHelper, Boolean, Boolean, Boolean, String, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate(Xunit.Runner.Common.ConsoleHelper, bool, bool, bool, string?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate(Xunit.Runner.Common.ConsoleHelper, Boolean, Boolean, Boolean, String, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate(Xunit.Runner.Common.ConsoleHelper,System.Boolean,System.Boolean,System.Boolean,System.String,System.Boolean)\" text=\"TryCreate(ConsoleHelper, bool, bool, bool, string?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate(Xunit.Runner.Common.ConsoleHelper,System.Boolean,System.Boolean,System.Boolean,System.String,System.Boolean)\" text=\"TryCreate(ConsoleHelper, bool, bool, bool, string?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static ConsoleDiagnosticMessageSink? TryCreate(ConsoleHelper consoleHelper, bool noColor, bool showDiagnosticMessages = false, bool showInternalDiagnosticMessages = false, string? assemblyDisplayName = null, bool indent = true)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function TryCreate(consoleHelper As ConsoleHelper, noColor As Boolean, showDiagnosticMessages As Boolean = False, showInternalDiagnosticMessages As Boolean = False, assemblyDisplayName As String = Nothing, indent As Boolean = True) As ConsoleDiagnosticMessageSink"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "consoleHelper",
+            "type": {
+              "uid": "Xunit.Runner.Common.ConsoleHelper",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ConsoleHelper"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ConsoleHelper"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ConsoleHelper"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ConsoleHelper"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Runner.Common.ConsoleHelper"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Runner.Common.ConsoleHelper"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Runner.Common.ConsoleHelper\" text=\"ConsoleHelper\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Runner.Common.ConsoleHelper\" text=\"ConsoleHelper\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">The helper used to write console messages</p>\n"
+          },
+          {
+            "id": "noColor",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">A flag to indicate that the user has asked for no color</p>\n"
+          },
+          {
+            "id": "showDiagnosticMessages",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">A flag to indicate whether diagnostic messages should be shown</p>\n"
+          },
+          {
+            "id": "showInternalDiagnosticMessages",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">A flag to indicate whether internal diagnostic messages should be shown</p>\n"
+          },
+          {
+            "id": "assemblyDisplayName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">The optional assembly display name to delineate the messages</p>\n"
+          },
+          {
+            "id": "indent",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">Whether to indent the message</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ConsoleDiagnosticMessageSink"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsoleDiagnosticMessageSink"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsoleDiagnosticMessageSink"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsoleDiagnosticMessageSink"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink\" text=\"ConsoleDiagnosticMessageSink\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink\" text=\"ConsoleDiagnosticMessageSink\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TryCreate",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+        "startLine": 101,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TryCreate"
+          },
+          {
+            "lang": "vb",
+            "value": "TryCreate"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ConsoleDiagnosticMessageSink.TryCreate"
+          },
+          {
+            "lang": "vb",
+            "value": "ConsoleDiagnosticMessageSink.TryCreate"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate*\" text=\"TryCreate\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink.TryCreate*\" text=\"TryCreate\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">Tries to create a new instance of the <xref href=\"Xunit.Runner.Common.ConsoleDiagnosticMessageSink\" data-throw-if-not-resolved=\"false\"></xref> which will display instances\nof <xref href=\"Xunit.Sdk.IDiagnosticMessage\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Xunit.Sdk.IInternalDiagnosticMessage\" data-throw-if-not-resolved=\"false\"></xref> to the <xref href=\"System.Console\" data-throw-if-not-resolved=\"false\"></xref>.\nMay return <code>null</code> if both <code class=\"paramref\">showDiagnosticMessages</code> and <code class=\"paramref\">showInternalDiagnosticMessages</code>\nare <code>false</code>.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ConsoleDiagnosticMessageSink"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsoleDiagnosticMessageSink"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ConsoleDiagnosticMessageSink"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsoleDiagnosticMessageSink"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.ConsoleDiagnosticMessageSink"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ConsoleDiagnosticMessageSink",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+    "startLine": 12,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml\" sourcestartlinenumber=\"1\">Logs diagnostic messages to the system console.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class ConsoleDiagnosticMessageSink : IMessageSink"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class ConsoleDiagnosticMessageSink Implements IMessageSink"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Xunit.Sdk.IMessageSink",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IMessageSink"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IMessageSink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSink\" text=\"IMessageSink\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.ConsoleDiagnosticMessageSink.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

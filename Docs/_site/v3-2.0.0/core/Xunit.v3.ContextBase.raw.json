@@ -1,0 +1,2263 @@
+{
+  "uid": "Xunit.v3.ContextBase",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.ContextBase.#ctor(Xunit.Sdk.ExplicitOption,Xunit.v3.IMessageBus,Xunit.v3.ExceptionAggregator,System.Threading.CancellationTokenSource)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ContextBase",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase(ExplicitOption, IMessageBus, ExceptionAggregator, CancellationTokenSource)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(ExplicitOption, IMessageBus, ExceptionAggregator, CancellationTokenSource)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase.ContextBase(ExplicitOption, IMessageBus, ExceptionAggregator, CancellationTokenSource)"
+        },
+        {
+          "lang": "vb",
+          "value": "ContextBase.New(ExplicitOption, IMessageBus, ExceptionAggregator, CancellationTokenSource)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ContextBase.ContextBase(Xunit.Sdk.ExplicitOption, Xunit.v3.IMessageBus, Xunit.v3.ExceptionAggregator, System.Threading.CancellationTokenSource)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ContextBase.New(Xunit.Sdk.ExplicitOption, Xunit.v3.IMessageBus, Xunit.v3.ExceptionAggregator, System.Threading.CancellationTokenSource)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.#ctor(Xunit.Sdk.ExplicitOption,Xunit.v3.IMessageBus,Xunit.v3.ExceptionAggregator,System.Threading.CancellationTokenSource)\" text=\"ContextBase(ExplicitOption, IMessageBus, ExceptionAggregator, CancellationTokenSource)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.#ctor(Xunit.Sdk.ExplicitOption,Xunit.v3.IMessageBus,Xunit.v3.ExceptionAggregator,System.Threading.CancellationTokenSource)\" text=\"ContextBase(ExplicitOption, IMessageBus, ExceptionAggregator, CancellationTokenSource)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ContextBase(ExplicitOption explicitOption, IMessageBus messageBus, ExceptionAggregator aggregator, CancellationTokenSource cancellationTokenSource)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(explicitOption As ExplicitOption, messageBus As IMessageBus, aggregator As ExceptionAggregator, cancellationTokenSource As CancellationTokenSource)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "explicitOption",
+            "type": {
+              "uid": "Xunit.Sdk.ExplicitOption",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ExplicitOption"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExplicitOption"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ExplicitOption"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExplicitOption"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ExplicitOption"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ExplicitOption"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">The user's choice on how to treat explicit tests</p>\n"
+          },
+          {
+            "id": "messageBus",
+            "type": {
+              "uid": "Xunit.v3.IMessageBus",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageBus"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageBus"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IMessageBus"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">The message bus to send execution messages to</p>\n"
+          },
+          {
+            "id": "aggregator",
+            "type": {
+              "uid": "Xunit.v3.ExceptionAggregator",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ExceptionAggregator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExceptionAggregator"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ExceptionAggregator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExceptionAggregator"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.ExceptionAggregator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.ExceptionAggregator"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.ExceptionAggregator\" text=\"ExceptionAggregator\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.ExceptionAggregator\" text=\"ExceptionAggregator\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">The exception aggregator</p>\n"
+          },
+          {
+            "id": "cancellationTokenSource",
+            "type": {
+              "uid": "System.Threading.CancellationTokenSource",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Threading.CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Threading.CancellationTokenSource"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">The cancellation token source</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+        "startLine": 15,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ContextBase.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase.ContextBase"
+          },
+          {
+            "lang": "vb",
+            "value": "ContextBase.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ContextBase.ContextBase"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ContextBase.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.#ctor*\" text=\"ContextBase\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.#ctor*\" text=\"ContextBase\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Base class for all execution pipeline context classes.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ContextBase.Aggregator",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ContextBase",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Aggregator"
+        },
+        {
+          "lang": "vb",
+          "value": "Aggregator"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase.Aggregator"
+        },
+        {
+          "lang": "vb",
+          "value": "ContextBase.Aggregator"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ContextBase.Aggregator"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ContextBase.Aggregator"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.Aggregator\" text=\"Aggregator\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.Aggregator\" text=\"Aggregator\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ExceptionAggregator Aggregator { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Aggregator As ExceptionAggregator"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.v3.ExceptionAggregator",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ExceptionAggregator"
+              },
+              {
+                "lang": "vb",
+                "value": "ExceptionAggregator"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ExceptionAggregator"
+              },
+              {
+                "lang": "vb",
+                "value": "ExceptionAggregator"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.v3.ExceptionAggregator"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.v3.ExceptionAggregator"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.v3.ExceptionAggregator\" text=\"ExceptionAggregator\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.v3.ExceptionAggregator\" text=\"ExceptionAggregator\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Aggregator",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+        "startLine": 25,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ContextBase.Aggregator*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Aggregator"
+          },
+          {
+            "lang": "vb",
+            "value": "Aggregator"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase.Aggregator"
+          },
+          {
+            "lang": "vb",
+            "value": "ContextBase.Aggregator"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ContextBase.Aggregator"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ContextBase.Aggregator"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.Aggregator*\" text=\"Aggregator\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.Aggregator*\" text=\"Aggregator\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Gets the aggregator used for reporting exceptions.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ContextBase.CancellationTokenSource",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ContextBase",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CancellationTokenSource"
+        },
+        {
+          "lang": "vb",
+          "value": "CancellationTokenSource"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase.CancellationTokenSource"
+        },
+        {
+          "lang": "vb",
+          "value": "ContextBase.CancellationTokenSource"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ContextBase.CancellationTokenSource"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ContextBase.CancellationTokenSource"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public CancellationTokenSource CancellationTokenSource { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property CancellationTokenSource As CancellationTokenSource"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Threading.CancellationTokenSource",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CancellationTokenSource"
+              },
+              {
+                "lang": "vb",
+                "value": "CancellationTokenSource"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "CancellationTokenSource"
+              },
+              {
+                "lang": "vb",
+                "value": "CancellationTokenSource"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.CancellationTokenSource"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.CancellationTokenSource"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "CancellationTokenSource",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+        "startLine": 30,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ContextBase.CancellationTokenSource*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "CancellationTokenSource"
+          },
+          {
+            "lang": "vb",
+            "value": "CancellationTokenSource"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase.CancellationTokenSource"
+          },
+          {
+            "lang": "vb",
+            "value": "ContextBase.CancellationTokenSource"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ContextBase.CancellationTokenSource"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ContextBase.CancellationTokenSource"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.CancellationTokenSource*\" text=\"CancellationTokenSource\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.CancellationTokenSource*\" text=\"CancellationTokenSource\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Gets the cancellation token source used for cancelling test execution.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ContextBase.DisposeAsync",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ContextBase",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposeAsync()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "ContextBase.DisposeAsync()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ContextBase.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ContextBase.DisposeAsync()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.DisposeAsync\" text=\"DisposeAsync()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.DisposeAsync\" text=\"DisposeAsync()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public virtual ValueTask DisposeAsync()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overridable Function DisposeAsync() As ValueTask"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "DisposeAsync",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+        "startLine": 43,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ContextBase.DisposeAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposeAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase.DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "ContextBase.DisposeAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ContextBase.DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ContextBase.DisposeAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.DisposeAsync*\" text=\"DisposeAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.DisposeAsync*\" text=\"DisposeAsync\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "System.IAsyncDisposable.DisposeAsync",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "DisposeAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IAsyncDisposable.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "IAsyncDisposable.DisposeAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "System.IAsyncDisposable.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "System.IAsyncDisposable.DisposeAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Performs application-defined tasks associated with freeing, releasing, or\nresetting unmanaged resources asynchronously.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ContextBase.ExplicitOption",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ContextBase",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExplicitOption"
+        },
+        {
+          "lang": "vb",
+          "value": "ExplicitOption"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase.ExplicitOption"
+        },
+        {
+          "lang": "vb",
+          "value": "ContextBase.ExplicitOption"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ContextBase.ExplicitOption"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ContextBase.ExplicitOption"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.ExplicitOption\" text=\"ExplicitOption\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.ExplicitOption\" text=\"ExplicitOption\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ExplicitOption ExplicitOption { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property ExplicitOption As ExplicitOption"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.ExplicitOption",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ExplicitOption"
+              },
+              {
+                "lang": "vb",
+                "value": "ExplicitOption"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ExplicitOption"
+              },
+              {
+                "lang": "vb",
+                "value": "ExplicitOption"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ExplicitOption"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ExplicitOption"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExplicitOption",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+        "startLine": 35,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ContextBase.ExplicitOption*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExplicitOption"
+          },
+          {
+            "lang": "vb",
+            "value": "ExplicitOption"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase.ExplicitOption"
+          },
+          {
+            "lang": "vb",
+            "value": "ContextBase.ExplicitOption"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ContextBase.ExplicitOption"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ContextBase.ExplicitOption"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.ExplicitOption*\" text=\"ExplicitOption\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.ExplicitOption*\" text=\"ExplicitOption\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Gets a flag which indicates how explicit tests should be handled.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ContextBase.InitializeAsync",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ContextBase",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InitializeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "InitializeAsync()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase.InitializeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "ContextBase.InitializeAsync()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ContextBase.InitializeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ContextBase.InitializeAsync()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.InitializeAsync\" text=\"InitializeAsync()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.InitializeAsync\" text=\"InitializeAsync()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public virtual ValueTask InitializeAsync()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overridable Function InitializeAsync() As ValueTask"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "InitializeAsync",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+        "startLine": 51,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ContextBase.InitializeAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "InitializeAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase.InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "ContextBase.InitializeAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ContextBase.InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ContextBase.InitializeAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.InitializeAsync*\" text=\"InitializeAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.InitializeAsync*\" text=\"InitializeAsync\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.IAsyncLifetime.InitializeAsync",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "InitializeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "InitializeAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IAsyncLifetime.InitializeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "IAsyncLifetime.InitializeAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.IAsyncLifetime.InitializeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.IAsyncLifetime.InitializeAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.IAsyncLifetime.html#Xunit_IAsyncLifetime_InitializeAsync\">InitializeAsync</a>()"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.IAsyncLifetime.html#Xunit_IAsyncLifetime_InitializeAsync\">InitializeAsync</a>()"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Called immediately after the class has been created, before it is used.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ContextBase.MessageBus",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ContextBase",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageBus"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ContextBase.MessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "ContextBase.MessageBus"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ContextBase.MessageBus"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ContextBase.MessageBus"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.MessageBus\" text=\"MessageBus\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ContextBase.MessageBus\" text=\"MessageBus\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IMessageBus MessageBus { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property MessageBus As IMessageBus"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.v3.IMessageBus",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IMessageBus"
+              },
+              {
+                "lang": "vb",
+                "value": "IMessageBus"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IMessageBus"
+              },
+              {
+                "lang": "vb",
+                "value": "IMessageBus"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.v3.IMessageBus"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.v3.IMessageBus"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "MessageBus",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+        "startLine": 40,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ContextBase.MessageBus*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "MessageBus"
+          },
+          {
+            "lang": "vb",
+            "value": "MessageBus"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ContextBase.MessageBus"
+          },
+          {
+            "lang": "vb",
+            "value": "ContextBase.MessageBus"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ContextBase.MessageBus"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ContextBase.MessageBus"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.MessageBus*\" text=\"MessageBus\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ContextBase.MessageBus*\" text=\"MessageBus\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Gets the message bus to send execution engine messages to.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ContextBase"
+    },
+    {
+      "lang": "vb",
+      "value": "ContextBase"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ContextBase"
+    },
+    {
+      "lang": "vb",
+      "value": "ContextBase"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.ContextBase"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.ContextBase"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Runners/ContextBase.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ContextBase",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/ContextBase.cs",
+    "startLine": 15,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.ContextBase.yml\" sourcestartlinenumber=\"1\">Base class for all execution pipeline context classes.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class ContextBase : IAsyncLifetime, IAsyncDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class ContextBase Implements IAsyncLifetime, IAsyncDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "derivedClasses": [
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestCaseRunnerBaseContext`1\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestCaseRunnerBaseContext`1\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestClassRunnerContext`2\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestClassRunnerContext`2\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestCollectionRunnerContext`2\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestCollectionRunnerContext`2\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestMethodRunnerContext`2\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestMethodRunnerContext`2\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestRunnerBaseContext`1\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestRunnerBaseContext`1\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Xunit.IAsyncLifetime",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncLifetime"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncLifetime"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncLifetime"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncLifetime"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.IAsyncLifetime"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.IAsyncLifetime"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.IAsyncLifetime\" text=\"IAsyncLifetime\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.IAsyncLifetime\" text=\"IAsyncLifetime\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.IAsyncDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IAsyncDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.ContextBase.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.ContextBase.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

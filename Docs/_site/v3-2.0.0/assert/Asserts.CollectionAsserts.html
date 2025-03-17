@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CollectionAsserts | xunit-proto </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CollectionAsserts | xunit-proto ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="xunit-proto">
+            xunit-proto
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Asserts.CollectionAsserts">
+
+
+
+  <h1 id="Asserts_CollectionAsserts" data-uid="Asserts.CollectionAsserts" class="text-break">
+Class CollectionAsserts  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Asserts.html">Asserts</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>xunit.v3.assert.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CollectionAsserts</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CollectionAsserts</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Asserts_CollectionAsserts_AllAsync_" data-uid="Asserts.CollectionAsserts.AllAsync*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_AllAsync__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int32_System_Threading_Tasks_Task__" data-uid="Asserts.CollectionAsserts.AllAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Threading.Tasks.Task})">
+  AllAsync&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, int, Task&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that all items in the collection pass when executed against
+action. The item index is provided to the action, in addition to the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task AllAsync&lt;T&gt;(IEnumerable&lt;T&gt; collection, Func&lt;T, int, Task&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>The action to test each item against</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.AllException.html">AllException</a></dt>
+    <dd><p>Thrown when the collection contains at least one non-matching element</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_AllAsync_" data-uid="Asserts.CollectionAsserts.AllAsync*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_AllAsync__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Threading_Tasks_Task__" data-uid="Asserts.CollectionAsserts.AllAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Threading.Tasks.Task})">
+  AllAsync&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Task&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that all items in the collection pass when executed against
+action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task AllAsync&lt;T&gt;(IEnumerable&lt;T&gt; collection, Func&lt;T, Task&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>The action to test each item against</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.AllException.html">AllException</a></dt>
+    <dd><p>Thrown when the collection contains at least one non-matching element</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_All_" data-uid="Asserts.CollectionAsserts.All*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_All__1_System_Collections_Generic_IEnumerable___0__System_Action___0_System_Int32__" data-uid="Asserts.CollectionAsserts.All``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})">
+  All&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T, int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that all items in the collection pass when executed against
+action. The item index is provided to the action, in addition to the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void All&lt;T&gt;(IEnumerable&lt;T&gt; collection, Action&lt;T, int&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>The action to test each item against</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.AllException.html">AllException</a></dt>
+    <dd><p>Thrown when the collection contains at least one non-matching element</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_All_" data-uid="Asserts.CollectionAsserts.All*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_All__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="Asserts.CollectionAsserts.All``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
+  All&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that all items in the collection pass when executed against
+action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void All&lt;T&gt;(IEnumerable&lt;T&gt; collection, Action&lt;T&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd><p>The action to test each item against</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.AllException.html">AllException</a></dt>
+    <dd><p>Thrown when the collection contains at least one non-matching element</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_CollectionAsync_" data-uid="Asserts.CollectionAsserts.CollectionAsync*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_CollectionAsync__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Threading_Tasks_Task____" data-uid="Asserts.CollectionAsserts.CollectionAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Threading.Tasks.Task}[])">
+  CollectionAsync&lt;T&gt;(IEnumerable&lt;T&gt;, params Func&lt;T, Task&gt;[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection contains exactly a given number of elements, which meet
+the criteria provided by the element inspectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task CollectionAsync&lt;T&gt;(IEnumerable&lt;T&gt; collection, params Func&lt;T, Task&gt;[] elementInspectors)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+    <dt><code>elementInspectors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;[]</dt>
+    <dd><p>The element inspectors, which inspect each element in turn. The
+total number of element inspectors must exactly match the number of elements in the collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Asserts_CollectionAsserts_Collection_" data-uid="Asserts.CollectionAsserts.Collection*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Collection__1_System_Collections_Generic_IEnumerable___0__System_Action___0____" data-uid="Asserts.CollectionAsserts.Collection``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0}[])">
+  Collection&lt;T&gt;(IEnumerable&lt;T&gt;, params Action&lt;T&gt;[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection contains exactly a given number of elements, which meet
+the criteria provided by the element inspectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Collection&lt;T&gt;(IEnumerable&lt;T&gt; collection, params Action&lt;T&gt;[] elementInspectors)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+    <dt><code>elementInspectors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;[]</dt>
+    <dd><p>The element inspectors, which inspect each element in turn. The
+total number of element inspectors must exactly match the number of elements in the collection.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Asserts_CollectionAsserts_Contains_" data-uid="Asserts.CollectionAsserts.Contains*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Contains__1_System_Collections_Generic_IEnumerable___0__System_Predicate___0__" data-uid="Asserts.CollectionAsserts.Contains``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})">
+  Contains&lt;T&gt;(IEnumerable&lt;T&gt;, Predicate&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection contains a given object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Contains&lt;T&gt;(IEnumerable&lt;T&gt; collection, Predicate&lt;T&gt; filter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd><p>The filter used to find the item you're ensuring the collection contains</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.ContainsException.html">ContainsException</a></dt>
+    <dd><p>Thrown when the object is not present in the collection</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Contains_" data-uid="Asserts.CollectionAsserts.Contains*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Contains__1___0_System_Collections_Generic_IEnumerable___0__" data-uid="Asserts.CollectionAsserts.Contains``1(``0,System.Collections.Generic.IEnumerable{``0})">
+  Contains&lt;T&gt;(T, IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection contains a given object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Contains&lt;T&gt;(T expected, IEnumerable&lt;T&gt; collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <span class="xref">T</span></dt>
+    <dd><p>The object expected to be in the collection</p>
+</dd>
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.ContainsException.html">ContainsException</a></dt>
+    <dd><p>Thrown when the object is not present in the collection</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Contains_" data-uid="Asserts.CollectionAsserts.Contains*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Contains__1___0_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__" data-uid="Asserts.CollectionAsserts.Contains``1(``0,System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+  Contains&lt;T&gt;(T, IEnumerable&lt;T&gt;, IEqualityComparer&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection contains a given object, using an equality comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Contains&lt;T&gt;(T expected, IEnumerable&lt;T&gt; collection, IEqualityComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <span class="xref">T</span></dt>
+    <dd><p>The object expected to be in the collection</p>
+</dd>
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+    <dd><p>The comparer used to equate objects in the collection with the expected object</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be verified</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.ContainsException.html">ContainsException</a></dt>
+    <dd><p>Thrown when the object is not present in the collection</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Distinct_" data-uid="Asserts.CollectionAsserts.Distinct*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Distinct__1_System_Collections_Generic_IEnumerable___0__" data-uid="Asserts.CollectionAsserts.Distinct``1(System.Collections.Generic.IEnumerable{``0})">
+  Distinct&lt;T&gt;(IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection contains each object only once.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Distinct&lt;T&gt;(IEnumerable&lt;T&gt; collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.DistinctException.html">DistinctException</a></dt>
+    <dd><p>Thrown when an object is present inside the collection more than once</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Distinct_" data-uid="Asserts.CollectionAsserts.Distinct*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Distinct__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__" data-uid="Asserts.CollectionAsserts.Distinct``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+  Distinct&lt;T&gt;(IEnumerable&lt;T&gt;, IEqualityComparer&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection contains each object only once.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Distinct&lt;T&gt;(IEnumerable&lt;T&gt; collection, IEqualityComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+    <dd><p>The comparer used to equate objects in the collection with the expected object</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.DistinctException.html">DistinctException</a></dt>
+    <dd><p>Thrown when an object is present inside the collection more than once</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_DoesNotContain_" data-uid="Asserts.CollectionAsserts.DoesNotContain*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_DoesNotContain__1_System_Collections_Generic_IEnumerable___0__System_Predicate___0__" data-uid="Asserts.CollectionAsserts.DoesNotContain``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})">
+  DoesNotContain&lt;T&gt;(IEnumerable&lt;T&gt;, Predicate&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection does not contain a given object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DoesNotContain&lt;T&gt;(IEnumerable&lt;T&gt; collection, Predicate&lt;T&gt; filter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd><p>The filter used to find the item you're ensuring the collection does not contain</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.DoesNotContainException.html">DoesNotContainException</a></dt>
+    <dd><p>Thrown when the object is present inside the collection</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_DoesNotContain_" data-uid="Asserts.CollectionAsserts.DoesNotContain*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_DoesNotContain__1___0_System_Collections_Generic_IEnumerable___0__" data-uid="Asserts.CollectionAsserts.DoesNotContain``1(``0,System.Collections.Generic.IEnumerable{``0})">
+  DoesNotContain&lt;T&gt;(T, IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection does not contain a given object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DoesNotContain&lt;T&gt;(T expected, IEnumerable&lt;T&gt; collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <span class="xref">T</span></dt>
+    <dd><p>The object that is expected not to be in the collection</p>
+</dd>
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.DoesNotContainException.html">DoesNotContainException</a></dt>
+    <dd><p>Thrown when the object is present inside the collection</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_DoesNotContain_" data-uid="Asserts.CollectionAsserts.DoesNotContain*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_DoesNotContain__1___0_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__" data-uid="Asserts.CollectionAsserts.DoesNotContain``1(``0,System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+  DoesNotContain&lt;T&gt;(T, IEnumerable&lt;T&gt;, IEqualityComparer&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection does not contain a given object, using an equality comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DoesNotContain&lt;T&gt;(T expected, IEnumerable&lt;T&gt; collection, IEqualityComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <span class="xref">T</span></dt>
+    <dd><p>The object that is expected not to be in the collection</p>
+</dd>
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+    <dd><p>The comparer used to equate objects in the collection with the expected object</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the object to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.DoesNotContainException.html">DoesNotContainException</a></dt>
+    <dd><p>Thrown when the object is present inside the collection</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Empty_" data-uid="Asserts.CollectionAsserts.Empty*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Empty_System_Collections_IEnumerable_" data-uid="Asserts.CollectionAsserts.Empty(System.Collections.IEnumerable)">
+  Empty(IEnumerable)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Empty(IEnumerable collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Thrown when the collection is null</p>
+</dd>
+    <dt><a class="xref" href="Xunit.Sdk.EmptyException.html">EmptyException</a></dt>
+    <dd><p>Thrown when the collection is not empty</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Equal_" data-uid="Asserts.CollectionAsserts.Equal*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Equal__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__" data-uid="Asserts.CollectionAsserts.Equal``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">
+  Equal&lt;T&gt;(IEnumerable&lt;T&gt;?, IEnumerable&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that two sequences are equivalent, using a default comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Equal&lt;T&gt;(IEnumerable&lt;T&gt;? expected, IEnumerable&lt;T&gt;? actual)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The expected value</p>
+</dd>
+    <dt><code>actual</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The value to be compared against</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the objects to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.EqualException.html">EqualException</a></dt>
+    <dd><p>Thrown when the objects are not equal</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Equal_" data-uid="Asserts.CollectionAsserts.Equal*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Equal__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__" data-uid="Asserts.CollectionAsserts.Equal``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+  Equal&lt;T&gt;(IEnumerable&lt;T&gt;?, IEnumerable&lt;T&gt;?, IEqualityComparer&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that two sequences are equivalent, using a custom equatable comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Equal&lt;T&gt;(IEnumerable&lt;T&gt;? expected, IEnumerable&lt;T&gt;? actual, IEqualityComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The expected value</p>
+</dd>
+    <dt><code>actual</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The value to be compared against</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+    <dd><p>The comparer used to compare the two objects</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the objects to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.EqualException.html">EqualException</a></dt>
+    <dd><p>Thrown when the objects are not equal</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Equal_" data-uid="Asserts.CollectionAsserts.Equal*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Equal__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___0_System_Boolean__" data-uid="Asserts.CollectionAsserts.Equal``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})">
+  Equal&lt;T&gt;(IEnumerable&lt;T&gt;?, IEnumerable&lt;T&gt;?, Func&lt;T, T, bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that two collections are equal, using a comparer function against
+items in the two collections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Equal&lt;T&gt;(IEnumerable&lt;T&gt;? expected, IEnumerable&lt;T&gt;? actual, Func&lt;T, T, bool&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The expected value</p>
+</dd>
+    <dt><code>actual</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The value to be compared against</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;T, T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The function to compare two items for equality</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the objects to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Asserts_CollectionAsserts_NotEmpty_" data-uid="Asserts.CollectionAsserts.NotEmpty*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_NotEmpty_System_Collections_IEnumerable_" data-uid="Asserts.CollectionAsserts.NotEmpty(System.Collections.IEnumerable)">
+  NotEmpty(IEnumerable)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that a collection is not empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NotEmpty(IEnumerable collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></dt>
+    <dd><p>The collection to be inspected</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Thrown when a null collection is passed</p>
+</dd>
+    <dt><a class="xref" href="Xunit.Sdk.NotEmptyException.html">NotEmptyException</a></dt>
+    <dd><p>Thrown when the collection is empty</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_NotEqual_" data-uid="Asserts.CollectionAsserts.NotEqual*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_NotEqual__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__" data-uid="Asserts.CollectionAsserts.NotEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">
+  NotEqual&lt;T&gt;(IEnumerable&lt;T&gt;?, IEnumerable&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that two sequences are not equivalent, using a default comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NotEqual&lt;T&gt;(IEnumerable&lt;T&gt;? expected, IEnumerable&lt;T&gt;? actual)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The expected object</p>
+</dd>
+    <dt><code>actual</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The actual object</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the objects to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.NotEqualException.html">NotEqualException</a></dt>
+    <dd><p>Thrown when the objects are equal</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_NotEqual_" data-uid="Asserts.CollectionAsserts.NotEqual*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_NotEqual__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__" data-uid="Asserts.CollectionAsserts.NotEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+  NotEqual&lt;T&gt;(IEnumerable&lt;T&gt;?, IEnumerable&lt;T&gt;?, IEqualityComparer&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that two sequences are not equivalent, using a custom equality comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NotEqual&lt;T&gt;(IEnumerable&lt;T&gt;? expected, IEnumerable&lt;T&gt;? actual, IEqualityComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The expected object</p>
+</dd>
+    <dt><code>actual</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The actual object</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+    <dd><p>The comparer used to compare the two objects</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the objects to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.NotEqualException.html">NotEqualException</a></dt>
+    <dd><p>Thrown when the objects are equal</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_NotEqual_" data-uid="Asserts.CollectionAsserts.NotEqual*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_NotEqual__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Func___0___0_System_Boolean__" data-uid="Asserts.CollectionAsserts.NotEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})">
+  NotEqual&lt;T&gt;(IEnumerable&lt;T&gt;?, IEnumerable&lt;T&gt;?, Func&lt;T, T, bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that two collections are not equal, using a comparer function against
+items in the two collections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NotEqual&lt;T&gt;(IEnumerable&lt;T&gt;? expected, IEnumerable&lt;T&gt;? actual, Func&lt;T, T, bool&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The expected value</p>
+</dd>
+    <dt><code>actual</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The value to be compared against</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;T, T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The function to compare two items for equality</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the objects to be compared</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Asserts_CollectionAsserts_Single_" data-uid="Asserts.CollectionAsserts.Single*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Single_System_Collections_IEnumerable_" data-uid="Asserts.CollectionAsserts.Single(System.Collections.IEnumerable)">
+  Single(IEnumerable)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that the given collection contains only a single
+element of the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object? Single(IEnumerable collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></dt>
+    <dd><p>The collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The single item in the collection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.SingleException.html">SingleException</a></dt>
+    <dd><p>Thrown when the collection does not contain
+exactly one element.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Single_" data-uid="Asserts.CollectionAsserts.Single*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Single_System_Collections_IEnumerable_System_Object_" data-uid="Asserts.CollectionAsserts.Single(System.Collections.IEnumerable,System.Object)">
+  Single(IEnumerable, object?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that the given collection contains only a single
+element of the given value. The collection may or may not
+contain other values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Single(IEnumerable collection, object? expected)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></dt>
+    <dd><p>The collection.</p>
+</dd>
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to find in the collection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.SingleException.html">SingleException</a></dt>
+    <dd><p>Thrown when the collection does not contain
+exactly one element.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Single_" data-uid="Asserts.CollectionAsserts.Single*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Single__1_System_Collections_Generic_IEnumerable___0__" data-uid="Asserts.CollectionAsserts.Single``1(System.Collections.Generic.IEnumerable{``0})">
+  Single&lt;T&gt;(IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that the given collection contains only a single
+element of the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Single&lt;T&gt;(IEnumerable&lt;T&gt; collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The single item in the collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The collection type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.SingleException.html">SingleException</a></dt>
+    <dd><p>Thrown when the collection does not contain
+exactly one element.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Asserts_CollectionAsserts_Single_" data-uid="Asserts.CollectionAsserts.Single*"></a>
+
+  <h3 id="Asserts_CollectionAsserts_Single__1_System_Collections_Generic_IEnumerable___0__System_Predicate___0__" data-uid="Asserts.CollectionAsserts.Single``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})">
+  Single&lt;T&gt;(IEnumerable&lt;T&gt;, Predicate&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies that the given collection contains only a single
+element of the given type which matches the given predicate. The
+collection may or may not contain other values which do not
+match the given predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Single&lt;T&gt;(IEnumerable&lt;T&gt; collection, Predicate&lt;T&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The collection.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd><p>The item matching predicate.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The single item in the filtered collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The collection type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Xunit.Sdk.SingleException.html">SingleException</a></dt>
+    <dd><p>Thrown when the filtered collection does
+not contain exactly one element.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

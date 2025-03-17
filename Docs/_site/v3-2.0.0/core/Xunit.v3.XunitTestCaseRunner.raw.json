@@ -1,0 +1,2471 @@
+{
+  "uid": "Xunit.v3.XunitTestCaseRunner",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.XunitTestCaseRunner.#ctor",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestCaseRunner",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunner()"
+        },
+        {
+          "lang": "vb",
+          "value": "New()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunner.XunitTestCaseRunner()"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestCaseRunner.New()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestCaseRunner.XunitTestCaseRunner()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestCaseRunner.New()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.#ctor\" text=\"XunitTestCaseRunner()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.#ctor\" text=\"XunitTestCaseRunner()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected XunitTestCaseRunner()"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Sub New()"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+        "startLine": 17,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestCaseRunner.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestCaseRunner"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestCaseRunner.XunitTestCaseRunner"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestCaseRunner.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestCaseRunner.XunitTestCaseRunner"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestCaseRunner.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.#ctor*\" text=\"XunitTestCaseRunner\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.#ctor*\" text=\"XunitTestCaseRunner\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"Xunit.v3.XunitTestCaseRunner\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestCaseRunner.Instance",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestCaseRunner",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Instance"
+        },
+        {
+          "lang": "vb",
+          "value": "Instance"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunner.Instance"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestCaseRunner.Instance"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestCaseRunner.Instance"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestCaseRunner.Instance"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Instance\" text=\"Instance\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Instance\" text=\"Instance\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static XunitTestCaseRunner Instance { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared ReadOnly Property Instance As XunitTestCaseRunner"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.v3.XunitTestCaseRunner",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "XunitTestCaseRunner"
+              },
+              {
+                "lang": "vb",
+                "value": "XunitTestCaseRunner"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "XunitTestCaseRunner"
+              },
+              {
+                "lang": "vb",
+                "value": "XunitTestCaseRunner"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.v3.XunitTestCaseRunner"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.v3.XunitTestCaseRunner"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner\" text=\"XunitTestCaseRunner\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner\" text=\"XunitTestCaseRunner\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Instance",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+        "startLine": 23,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestCaseRunner.Instance*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Instance"
+          },
+          {
+            "lang": "vb",
+            "value": "Instance"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestCaseRunner.Instance"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestCaseRunner.Instance"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestCaseRunner.Instance"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestCaseRunner.Instance"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Instance*\" text=\"Instance\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Instance*\" text=\"Instance\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">Gets the singleton instance of the <xref href=\"Xunit.v3.XunitTestCaseRunner\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestCaseRunner.Run(Xunit.v3.IXunitTestCase,System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IXunitTest},Xunit.v3.IMessageBus,Xunit.v3.ExceptionAggregator,System.Threading.CancellationTokenSource,System.String,System.String,Xunit.Sdk.ExplicitOption,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestCaseRunner",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Run(IXunitTestCase, IReadOnlyCollection<IXunitTest>, IMessageBus, ExceptionAggregator, CancellationTokenSource, string, string?, ExplicitOption, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Run(IXunitTestCase, IReadOnlyCollection(Of IXunitTest), IMessageBus, ExceptionAggregator, CancellationTokenSource, String, String, ExplicitOption, Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunner.Run(IXunitTestCase, IReadOnlyCollection<IXunitTest>, IMessageBus, ExceptionAggregator, CancellationTokenSource, string, string?, ExplicitOption, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestCaseRunner.Run(IXunitTestCase, IReadOnlyCollection(Of IXunitTest), IMessageBus, ExceptionAggregator, CancellationTokenSource, String, String, ExplicitOption, Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestCaseRunner.Run(Xunit.v3.IXunitTestCase, System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IXunitTest>, Xunit.v3.IMessageBus, Xunit.v3.ExceptionAggregator, System.Threading.CancellationTokenSource, string, string?, Xunit.Sdk.ExplicitOption, object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestCaseRunner.Run(Xunit.v3.IXunitTestCase, System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IXunitTest), Xunit.v3.IMessageBus, Xunit.v3.ExceptionAggregator, System.Threading.CancellationTokenSource, String, String, Xunit.Sdk.ExplicitOption, Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Run(Xunit.v3.IXunitTestCase,System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IXunitTest},Xunit.v3.IMessageBus,Xunit.v3.ExceptionAggregator,System.Threading.CancellationTokenSource,System.String,System.String,Xunit.Sdk.ExplicitOption,System.Object[])\" text=\"Run(IXunitTestCase, IReadOnlyCollection&lt;IXunitTest&gt;, IMessageBus, ExceptionAggregator, CancellationTokenSource, string, string?, ExplicitOption, object?[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Run(Xunit.v3.IXunitTestCase,System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IXunitTest},Xunit.v3.IMessageBus,Xunit.v3.ExceptionAggregator,System.Threading.CancellationTokenSource,System.String,System.String,Xunit.Sdk.ExplicitOption,System.Object[])\" text=\"Run(IXunitTestCase, IReadOnlyCollection&lt;IXunitTest&gt;, IMessageBus, ExceptionAggregator, CancellationTokenSource, string, string?, ExplicitOption, object?[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask<RunSummary> Run(IXunitTestCase testCase, IReadOnlyCollection<IXunitTest> tests, IMessageBus messageBus, ExceptionAggregator aggregator, CancellationTokenSource cancellationTokenSource, string displayName, string? skipReason, ExplicitOption explicitOption, object?[] constructorArguments)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function Run(testCase As IXunitTestCase, tests As IReadOnlyCollection(Of IXunitTest), messageBus As IMessageBus, aggregator As ExceptionAggregator, cancellationTokenSource As CancellationTokenSource, displayName As String, skipReason As String, explicitOption As ExplicitOption, constructorArguments As Object()) As ValueTask(Of RunSummary)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "testCase",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestCase",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestCase"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestCase"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestCase"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestCase"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestCase"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestCase"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestCase\" text=\"IXunitTestCase\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestCase\" text=\"IXunitTestCase\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The test case that this invocation belongs to.</p>\n"
+          },
+          {
+            "id": "tests",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IXunitTest}",
+              "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<IXunitTest>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of IXunitTest)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<IXunitTest>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of IXunitTest)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IXunitTest>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IXunitTest)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The tests for the test case.</p>\n"
+          },
+          {
+            "id": "messageBus",
+            "type": {
+              "uid": "Xunit.v3.IMessageBus",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageBus"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMessageBus"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IMessageBus"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IMessageBus"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IMessageBus\" text=\"IMessageBus\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The message bus to report run status to.</p>\n"
+          },
+          {
+            "id": "aggregator",
+            "type": {
+              "uid": "Xunit.v3.ExceptionAggregator",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ExceptionAggregator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExceptionAggregator"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ExceptionAggregator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExceptionAggregator"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.ExceptionAggregator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.ExceptionAggregator"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.ExceptionAggregator\" text=\"ExceptionAggregator\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.ExceptionAggregator\" text=\"ExceptionAggregator\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The exception aggregator used to run code and collect exceptions.</p>\n"
+          },
+          {
+            "id": "cancellationTokenSource",
+            "type": {
+              "uid": "System.Threading.CancellationTokenSource",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CancellationTokenSource"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Threading.CancellationTokenSource"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Threading.CancellationTokenSource"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Threading.CancellationTokenSource\" text=\"CancellationTokenSource\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The task cancellation token source, used to cancel the test run.</p>\n"
+          },
+          {
+            "id": "displayName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The display name of the test case.</p>\n"
+          },
+          {
+            "id": "skipReason",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The skip reason, if the test is to be skipped.</p>\n"
+          },
+          {
+            "id": "explicitOption",
+            "type": {
+              "uid": "Xunit.Sdk.ExplicitOption",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ExplicitOption"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExplicitOption"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ExplicitOption"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExplicitOption"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ExplicitOption"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ExplicitOption"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ExplicitOption\" text=\"ExplicitOption\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">A flag to indicate how explicit tests should be treated.</p>\n"
+          },
+          {
+            "id": "constructorArguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The arguments to be passed to the test class constructor.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask{Xunit.v3.RunSummary}",
+            "definition": "System.Threading.Tasks.ValueTask`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<RunSummary>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of RunSummary)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<RunSummary>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of RunSummary)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask<Xunit.v3.RunSummary>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask(Of Xunit.v3.RunSummary)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"Xunit.v3.RunSummary.html\">RunSummary</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"Xunit.v3.RunSummary.html\">RunSummary</a>)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">Returns summary information about the test that was run.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Run",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+        "startLine": 43,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">This entry point is used for both single-test (like <xref href=\"Xunit.FactAttribute\" data-throw-if-not-resolved=\"false\"></xref> and individual data\nrows for <xref href=\"Xunit.TheoryAttribute\" data-throw-if-not-resolved=\"false\"></xref> tests) and multi-test test cases (like <xref href=\"Xunit.TheoryAttribute\" data-throw-if-not-resolved=\"false\"></xref>\nwhen pre-enumeration is disable or the theory data was not serializable).</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestCaseRunner.Run*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Run"
+          },
+          {
+            "lang": "vb",
+            "value": "Run"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestCaseRunner.Run"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestCaseRunner.Run"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestCaseRunner.Run"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestCaseRunner.Run"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Run*\" text=\"Run\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.Run*\" text=\"Run\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">Runs the test case.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestCaseRunner.RunTest(Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTest)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestCaseRunner",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        },
+        {
+          "lang": "vb",
+          "value": "RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunner.RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestCaseRunner.RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestCaseRunner.RunTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestCaseRunner.RunTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.RunTest(Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTest)\" text=\"RunTest(XunitTestCaseRunnerContext, IXunitTest)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.RunTest(Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTest)\" text=\"RunTest(XunitTestCaseRunnerContext, IXunitTest)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override ValueTask<RunSummary> RunTest(XunitTestCaseRunnerContext ctxt, IXunitTest test)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Function RunTest(ctxt As XunitTestCaseRunnerContext, test As IXunitTest) As ValueTask(Of RunSummary)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "ctxt",
+            "type": {
+              "uid": "Xunit.v3.XunitTestCaseRunnerContext",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "XunitTestCaseRunnerContext"
+                },
+                {
+                  "lang": "vb",
+                  "value": "XunitTestCaseRunnerContext"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "XunitTestCaseRunnerContext"
+                },
+                {
+                  "lang": "vb",
+                  "value": "XunitTestCaseRunnerContext"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.XunitTestCaseRunnerContext"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.XunitTestCaseRunnerContext"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunnerContext\" text=\"XunitTestCaseRunnerContext\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunnerContext\" text=\"XunitTestCaseRunnerContext\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The context that describes the current test method</p>\n"
+          },
+          {
+            "id": "test",
+            "type": {
+              "uid": "Xunit.v3.IXunitTest",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTest"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTest"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTest"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTest"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTest"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTest"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTest\" text=\"IXunitTest\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTest\" text=\"IXunitTest\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The test to be run.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask{Xunit.v3.RunSummary}",
+            "definition": "System.Threading.Tasks.ValueTask`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<RunSummary>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of RunSummary)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<RunSummary>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of RunSummary)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask<Xunit.v3.RunSummary>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask(Of Xunit.v3.RunSummary)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"Xunit.v3.RunSummary.html\">RunSummary</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"Xunit.v3.RunSummary.html\">RunSummary</a>)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">Returns summary information about the test case run.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "RunTest",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+        "startLine": 75,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.v3.TestCaseRunner{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}.RunTest(Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTest)",
+        "definition": "Xunit.v3.TestCaseRunner`3.RunTest(`0,`2)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+          },
+          {
+            "lang": "vb",
+            "value": "RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestCaseRunner<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>.RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCaseRunner(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest).RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestCaseRunner<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest>.RunTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestCaseRunner(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest).RunTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_RunTest__0__2_\">RunTest</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_RunTest__0__2_\">RunTest</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.v3.XunitTestCaseRunner.RunTest*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RunTest"
+          },
+          {
+            "lang": "vb",
+            "value": "RunTest"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestCaseRunner.RunTest"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestCaseRunner.RunTest"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestCaseRunner.RunTest"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestCaseRunner.RunTest"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.RunTest*\" text=\"RunTest\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestCaseRunner.RunTest*\" text=\"RunTest\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">Override this method to run an individual test.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "XunitTestCaseRunner"
+    },
+    {
+      "lang": "vb",
+      "value": "XunitTestCaseRunner"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "XunitTestCaseRunner"
+    },
+    {
+      "lang": "vb",
+      "value": "XunitTestCaseRunner"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.XunitTestCaseRunner"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.XunitTestCaseRunner"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "XunitTestCaseRunner",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Runners/XunitTestCaseRunner.cs",
+    "startLine": 11,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml\" sourcestartlinenumber=\"1\">The test case runner for xUnit.net v3 tests.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class XunitTestCaseRunner : XunitTestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class XunitTestCaseRunner Inherits XunitTestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest)"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3",
+      "definition": "Xunit.v3.TestCaseRunnerBase`2",
+      "href": "Xunit.v3.TestCaseRunnerBase-2.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html\">TestCaseRunnerBase</a>&lt;<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html\">TestCaseRunnerBase</a>(Of <a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>)"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunner{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3",
+      "definition": "Xunit.v3.TestCaseRunner`3",
+      "href": "Xunit.v3.TestCaseRunner-3.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunner<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunner(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunner<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunner(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunner<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunner(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html\">TestCaseRunner</a>&lt;<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html\">TestCaseRunner</a>(Of <a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>)"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "uid": "Xunit.v3.XunitTestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3",
+      "definition": "Xunit.v3.XunitTestCaseRunnerBase`3",
+      "href": "Xunit.v3.XunitTestCaseRunnerBase-3.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerBase-3.html\">XunitTestCaseRunnerBase</a>&lt;<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerBase-3.html\">XunitTestCaseRunnerBase</a>(Of <a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTestCase.html\">IXunitTestCase</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>)"
+        }
+      ],
+      "level": 0,
+      "index": 3
+    }
+  ],
+  "level": 4,
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.v3.XunitTestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}.RunTestCase(Xunit.v3.XunitTestCaseRunnerContext,System.Exception)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}",
+      "definition": "Xunit.v3.XunitTestCaseRunnerBase`3.RunTestCase(`0,System.Exception)",
+      "href": "Xunit.v3.XunitTestCaseRunnerBase-3.html#Xunit_v3_XunitTestCaseRunnerBase_3_RunTestCase__0_System_Exception_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>.RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest).RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest>.RunTestCase(Xunit.v3.XunitTestCaseRunnerContext, System.Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest).RunTestCase(Xunit.v3.XunitTestCaseRunnerContext, System.Exception)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerBase-3.html#Xunit_v3_XunitTestCaseRunnerBase_3_RunTestCase__0_System_Exception_\">RunTestCase</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerBase-3.html#Xunit_v3_XunitTestCaseRunnerBase_3_RunTestCase__0_System_Exception_\">RunTestCase</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunner{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}.FailTest(Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTest,System.Exception)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunner{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}",
+      "definition": "Xunit.v3.TestCaseRunner`3.FailTest(`0,`2,System.Exception)",
+      "href": "Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_FailTest__0__2_System_Exception_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FailTest(XunitTestCaseRunnerContext, IXunitTest, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "FailTest(XunitTestCaseRunnerContext, IXunitTest, Exception)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunner<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>.FailTest(XunitTestCaseRunnerContext, IXunitTest, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunner(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest).FailTest(XunitTestCaseRunnerContext, IXunitTest, Exception)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunner<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest>.FailTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest, System.Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunner(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest).FailTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest, System.Exception)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_FailTest__0__2_System_Exception_\">FailTest</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_FailTest__0__2_System_Exception_\">FailTest</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunner{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}.RunTest(Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTest)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunner{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase,Xunit.v3.IXunitTest}",
+      "definition": "Xunit.v3.TestCaseRunner`3.RunTest(`0,`2)",
+      "href": "Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_RunTest__0__2_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        },
+        {
+          "lang": "vb",
+          "value": "RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunner<XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest>.RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunner(Of XunitTestCaseRunnerContext, IXunitTestCase, IXunitTest).RunTest(XunitTestCaseRunnerContext, IXunitTest)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunner<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest>.RunTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunner(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase, Xunit.v3.IXunitTest).RunTest(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTest)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_RunTest__0__2_\">RunTest</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunner-3.html#Xunit_v3_TestCaseRunner_3_RunTest__0__2_\">RunTest</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.IXunitTest.html\">IXunitTest</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}.OnTestCaseCleanupFailure(Xunit.v3.XunitTestCaseRunnerContext,System.Exception)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}",
+      "definition": "Xunit.v3.TestCaseRunnerBase`2.OnTestCaseCleanupFailure(`0,System.Exception)",
+      "href": "Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseCleanupFailure__0_System_Exception_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "OnTestCaseCleanupFailure(XunitTestCaseRunnerContext, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "OnTestCaseCleanupFailure(XunitTestCaseRunnerContext, Exception)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>.OnTestCaseCleanupFailure(XunitTestCaseRunnerContext, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase).OnTestCaseCleanupFailure(XunitTestCaseRunnerContext, Exception)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase>.OnTestCaseCleanupFailure(Xunit.v3.XunitTestCaseRunnerContext, System.Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase).OnTestCaseCleanupFailure(Xunit.v3.XunitTestCaseRunnerContext, System.Exception)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseCleanupFailure__0_System_Exception_\">OnTestCaseCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseCleanupFailure__0_System_Exception_\">OnTestCaseCleanupFailure</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}.OnTestCaseFinished(Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.RunSummary)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}",
+      "definition": "Xunit.v3.TestCaseRunnerBase`2.OnTestCaseFinished(`0,Xunit.v3.RunSummary)",
+      "href": "Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseFinished__0_Xunit_v3_RunSummary_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "OnTestCaseFinished(XunitTestCaseRunnerContext, RunSummary)"
+        },
+        {
+          "lang": "vb",
+          "value": "OnTestCaseFinished(XunitTestCaseRunnerContext, RunSummary)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>.OnTestCaseFinished(XunitTestCaseRunnerContext, RunSummary)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase).OnTestCaseFinished(XunitTestCaseRunnerContext, RunSummary)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase>.OnTestCaseFinished(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.RunSummary)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase).OnTestCaseFinished(Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.RunSummary)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseFinished__0_Xunit_v3_RunSummary_\">OnTestCaseFinished</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.RunSummary.html\">RunSummary</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseFinished__0_Xunit_v3_RunSummary_\">OnTestCaseFinished</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.v3.RunSummary.html\">RunSummary</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}.OnTestCaseStarting(Xunit.v3.XunitTestCaseRunnerContext)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}",
+      "definition": "Xunit.v3.TestCaseRunnerBase`2.OnTestCaseStarting(`0)",
+      "href": "Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseStarting__0_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "OnTestCaseStarting(XunitTestCaseRunnerContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "OnTestCaseStarting(XunitTestCaseRunnerContext)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>.OnTestCaseStarting(XunitTestCaseRunnerContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase).OnTestCaseStarting(XunitTestCaseRunnerContext)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase>.OnTestCaseStarting(Xunit.v3.XunitTestCaseRunnerContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase).OnTestCaseStarting(Xunit.v3.XunitTestCaseRunnerContext)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseStarting__0_\">OnTestCaseStarting</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_OnTestCaseStarting__0_\">OnTestCaseStarting</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}.Run(Xunit.v3.XunitTestCaseRunnerContext)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}",
+      "definition": "Xunit.v3.TestCaseRunnerBase`2.Run(`0)",
+      "href": "Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_Run__0_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Run(XunitTestCaseRunnerContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "Run(XunitTestCaseRunnerContext)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>.Run(XunitTestCaseRunnerContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase).Run(XunitTestCaseRunnerContext)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase>.Run(Xunit.v3.XunitTestCaseRunnerContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase).Run(Xunit.v3.XunitTestCaseRunnerContext)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_Run__0_\">Run</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_Run__0_\">Run</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}.RunTestCase(Xunit.v3.XunitTestCaseRunnerContext,System.Exception)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}",
+      "definition": "Xunit.v3.TestCaseRunnerBase`2.RunTestCase(`0,System.Exception)",
+      "href": "Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_RunTestCase__0_System_Exception_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>.RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase).RunTestCase(XunitTestCaseRunnerContext, Exception)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase>.RunTestCase(Xunit.v3.XunitTestCaseRunnerContext, System.Exception)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase).RunTestCase(Xunit.v3.XunitTestCaseRunnerContext, System.Exception)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_RunTestCase__0_System_Exception_\">RunTestCase</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_RunTestCase__0_System_Exception_\">RunTestCase</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception\">Exception</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}.SetTestContext(Xunit.v3.XunitTestCaseRunnerContext,Xunit.TestEngineStatus)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestCaseRunnerBase{Xunit.v3.XunitTestCaseRunnerContext,Xunit.v3.IXunitTestCase}",
+      "definition": "Xunit.v3.TestCaseRunnerBase`2.SetTestContext(`0,Xunit.TestEngineStatus)",
+      "href": "Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_SetTestContext__0_Xunit_TestEngineStatus_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SetTestContext(XunitTestCaseRunnerContext, TestEngineStatus)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetTestContext(XunitTestCaseRunnerContext, TestEngineStatus)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseRunnerBase<XunitTestCaseRunnerContext, IXunitTestCase>.SetTestContext(XunitTestCaseRunnerContext, TestEngineStatus)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseRunnerBase(Of XunitTestCaseRunnerContext, IXunitTestCase).SetTestContext(XunitTestCaseRunnerContext, TestEngineStatus)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestCaseRunnerBase<Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase>.SetTestContext(Xunit.v3.XunitTestCaseRunnerContext, Xunit.TestEngineStatus)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestCaseRunnerBase(Of Xunit.v3.XunitTestCaseRunnerContext, Xunit.v3.IXunitTestCase).SetTestContext(Xunit.v3.XunitTestCaseRunnerContext, Xunit.TestEngineStatus)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_SetTestContext__0_Xunit_TestEngineStatus_\">SetTestContext</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.TestEngineStatus.html\">TestEngineStatus</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.TestCaseRunnerBase-2.html#Xunit_v3_TestCaseRunnerBase_2_SetTestContext__0_Xunit_TestEngineStatus_\">SetTestContext</a>(<a class=\"xref\" href=\"Xunit.v3.XunitTestCaseRunnerContext.html\">XunitTestCaseRunnerContext</a>, <a class=\"xref\" href=\"Xunit.TestEngineStatus.html\">TestEngineStatus</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.XunitTestCaseRunner.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

@@ -1,0 +1,1876 @@
+{
+  "uid": "Xunit.v3.DiscoveryComplete",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.DiscoveryComplete.Serialize(Xunit.Sdk.JsonObjectSerializer)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DiscoveryComplete",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Serialize(JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "Serialize(JsonObjectSerializer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DiscoveryComplete.Serialize(JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "DiscoveryComplete.Serialize(JsonObjectSerializer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DiscoveryComplete.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DiscoveryComplete.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.Serialize(Xunit.Sdk.JsonObjectSerializer)\" text=\"Serialize(JsonObjectSerializer)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.Serialize(Xunit.Sdk.JsonObjectSerializer)\" text=\"Serialize(JsonObjectSerializer)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Serialize(JsonObjectSerializer serializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Serialize(serializer As JsonObjectSerializer)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "serializer",
+            "type": {
+              "uid": "Xunit.Sdk.JsonObjectSerializer",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DiscoveryComplete.yml\" sourcestartlinenumber=\"1\">The serializer to write values to.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/common/MessagePartials/DiscoveryComplete.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Serialize",
+        "path": "../v3/v3-2.0.0/src/common/MessagePartials/DiscoveryComplete.cs",
+        "startLine": 17,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.v3.TestAssemblyMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Serialize(JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Serialize(JsonObjectSerializer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAssemblyMessage.Serialize(JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAssemblyMessage.Serialize(JsonObjectSerializer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestAssemblyMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestAssemblyMessage.Serialize(Xunit.Sdk.JsonObjectSerializer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestAssemblyMessage.html#Xunit_v3_TestAssemblyMessage_Serialize_Xunit_Sdk_JsonObjectSerializer_\">Serialize</a>(<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestAssemblyMessage.html#Xunit_v3_TestAssemblyMessage_Serialize_Xunit_Sdk_JsonObjectSerializer_\">Serialize</a>(<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.v3.DiscoveryComplete.Serialize*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Serialize"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DiscoveryComplete.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "DiscoveryComplete.Serialize"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DiscoveryComplete.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DiscoveryComplete.Serialize"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.Serialize*\" text=\"Serialize\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.Serialize*\" text=\"Serialize\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DiscoveryComplete.yml\" sourcestartlinenumber=\"1\">Override to serialize the values in the message into JSON.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.DiscoveryComplete.TestCasesToRun",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DiscoveryComplete",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCasesToRun"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCasesToRun"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DiscoveryComplete.TestCasesToRun"
+        },
+        {
+          "lang": "vb",
+          "value": "DiscoveryComplete.TestCasesToRun"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DiscoveryComplete.TestCasesToRun"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DiscoveryComplete.TestCasesToRun"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.TestCasesToRun\" text=\"TestCasesToRun\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.TestCasesToRun\" text=\"TestCasesToRun\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public required int TestCasesToRun { get; set; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property TestCasesToRun As Integer"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Int32",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "int"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "int"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "int"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Messages/DiscoveryComplete.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestCasesToRun",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Messages/DiscoveryComplete.cs",
+        "startLine": 10,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.DiscoveryComplete.TestCasesToRun*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestCasesToRun"
+          },
+          {
+            "lang": "vb",
+            "value": "TestCasesToRun"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DiscoveryComplete.TestCasesToRun"
+          },
+          {
+            "lang": "vb",
+            "value": "DiscoveryComplete.TestCasesToRun"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DiscoveryComplete.TestCasesToRun"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DiscoveryComplete.TestCasesToRun"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.TestCasesToRun*\" text=\"TestCasesToRun\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.TestCasesToRun*\" text=\"TestCasesToRun\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.IDiscoveryComplete.TestCasesToRun",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestCasesToRun"
+            },
+            {
+              "lang": "vb",
+              "value": "TestCasesToRun"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IDiscoveryComplete.TestCasesToRun"
+            },
+            {
+              "lang": "vb",
+              "value": "IDiscoveryComplete.TestCasesToRun"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.IDiscoveryComplete.TestCasesToRun"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.IDiscoveryComplete.TestCasesToRun"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.IDiscoveryComplete.TestCasesToRun\" text=\"TestCasesToRun\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.IDiscoveryComplete.TestCasesToRun\" text=\"TestCasesToRun\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DiscoveryComplete.yml\" sourcestartlinenumber=\"1\">Gets a count of the number of test cases that passed the filter and will be run.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.DiscoveryComplete.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DiscoveryComplete",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DiscoveryComplete.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "DiscoveryComplete.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DiscoveryComplete.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DiscoveryComplete.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ToString\" text=\"ToString()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ToString\" text=\"ToString()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function ToString() As String"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/common/MessagePartials/DiscoveryComplete.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ToString",
+        "path": "../v3/v3-2.0.0/src/common/MessagePartials/DiscoveryComplete.cs",
+        "startLine": 27,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.v3.TestAssemblyMessage.ToString",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString()"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAssemblyMessage.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAssemblyMessage.ToString()"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestAssemblyMessage.ToString()"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestAssemblyMessage.ToString()"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestAssemblyMessage.html#Xunit_v3_TestAssemblyMessage_ToString\">ToString</a>()"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestAssemblyMessage.html#Xunit_v3_TestAssemblyMessage_ToString\">ToString</a>()"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.v3.DiscoveryComplete.ToString*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "ToString"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DiscoveryComplete.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "DiscoveryComplete.ToString"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DiscoveryComplete.ToString"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DiscoveryComplete.ToString"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ToString*\" text=\"ToString\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ToString*\" text=\"ToString\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.DiscoveryComplete.ValidateObjectState(System.Collections.Generic.HashSet{System.String})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.DiscoveryComplete",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateObjectState(HashSet<string>)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateObjectState(HashSet(Of String))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DiscoveryComplete.ValidateObjectState(HashSet<string>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DiscoveryComplete.ValidateObjectState(HashSet(Of String))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.DiscoveryComplete.ValidateObjectState(System.Collections.Generic.HashSet<string>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.DiscoveryComplete.ValidateObjectState(System.Collections.Generic.HashSet(Of String))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ValidateObjectState(System.Collections.Generic.HashSet{System.String})\" text=\"ValidateObjectState(HashSet&lt;string&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ValidateObjectState(System.Collections.Generic.HashSet{System.String})\" text=\"ValidateObjectState(HashSet&lt;string&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void ValidateObjectState(HashSet<string> invalidProperties)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub ValidateObjectState(invalidProperties As HashSet(Of String))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "invalidProperties",
+            "type": {
+              "uid": "System.Collections.Generic.HashSet{System.String}",
+              "definition": "System.Collections.Generic.HashSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "HashSet<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "HashSet(Of String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "HashSet<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "HashSet(Of String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.HashSet<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.HashSet(Of String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DiscoveryComplete.yml\" sourcestartlinenumber=\"1\">The hash set to record invalid properties into</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Messages/DiscoveryComplete.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ValidateObjectState",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Messages/DiscoveryComplete.cs",
+        "startLine": 17,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.v3.TestAssemblyMessage.ValidateObjectState(System.Collections.Generic.HashSet{System.String})",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ValidateObjectState(HashSet<string>)"
+          },
+          {
+            "lang": "vb",
+            "value": "ValidateObjectState(HashSet(Of String))"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestAssemblyMessage.ValidateObjectState(HashSet<string>)"
+          },
+          {
+            "lang": "vb",
+            "value": "TestAssemblyMessage.ValidateObjectState(HashSet(Of String))"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.TestAssemblyMessage.ValidateObjectState(System.Collections.Generic.HashSet<string>)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.TestAssemblyMessage.ValidateObjectState(System.Collections.Generic.HashSet(Of String))"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestAssemblyMessage.html#Xunit_v3_TestAssemblyMessage_ValidateObjectState_System_Collections_Generic_HashSet_System_String__\">ValidateObjectState</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.v3.TestAssemblyMessage.html#Xunit_v3_TestAssemblyMessage_ValidateObjectState_System_Collections_Generic_HashSet_System_String__\">ValidateObjectState</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.v3.DiscoveryComplete.ValidateObjectState*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ValidateObjectState"
+          },
+          {
+            "lang": "vb",
+            "value": "ValidateObjectState"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DiscoveryComplete.ValidateObjectState"
+          },
+          {
+            "lang": "vb",
+            "value": "DiscoveryComplete.ValidateObjectState"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.DiscoveryComplete.ValidateObjectState"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.DiscoveryComplete.ValidateObjectState"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ValidateObjectState*\" text=\"ValidateObjectState\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.DiscoveryComplete.ValidateObjectState*\" text=\"ValidateObjectState\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DiscoveryComplete.yml\" sourcestartlinenumber=\"1\">Called before serializing the message. Implementers are expected to call <xref href=\"Xunit.v3.MessageSinkMessage.ValidatePropertyIsNotNull(System.Object%2cSystem.String%2cSystem.Collections.Generic.HashSet%7bSystem.String%7d)\" data-throw-if-not-resolved=\"false\"></xref>\nfor each property that must have a value, to record invalid property values into the provided hash set.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "DiscoveryComplete"
+    },
+    {
+      "lang": "vb",
+      "value": "DiscoveryComplete"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "DiscoveryComplete"
+    },
+    {
+      "lang": "vb",
+      "value": "DiscoveryComplete"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.DiscoveryComplete"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.DiscoveryComplete"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/common/MessagePartials/DiscoveryComplete.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "DiscoveryComplete",
+    "path": "../v3/v3-2.0.0/src/common/MessagePartials/DiscoveryComplete.cs",
+    "startLine": 13,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.DiscoveryComplete.yml\" sourcestartlinenumber=\"1\">Default implementation of <xref href=\"Xunit.Sdk.IDiscoveryComplete\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "[JsonTypeID(\"discovery-complete\")]\npublic sealed class DiscoveryComplete : TestAssemblyMessage, IDiscoveryComplete, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable"
+      },
+      {
+        "lang": "vb",
+        "value": "<JsonTypeID(\"discovery-complete\")>\nPublic NotInheritable Class DiscoveryComplete Inherits TestAssemblyMessage Implements IDiscoveryComplete, ITestAssemblyMessage, IMessageSinkMessage, IJsonSerializable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.v3.MessageSinkMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3",
+      "href": "Xunit.v3.MessageSinkMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.MessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.MessageSinkMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.MessageSinkMessage\" text=\"MessageSinkMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.MessageSinkMessage\" text=\"MessageSinkMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "Xunit.v3.TestAssemblyMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3",
+      "href": "Xunit.v3.TestAssemblyMessage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestAssemblyMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestAssemblyMessage\" text=\"TestAssemblyMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestAssemblyMessage\" text=\"TestAssemblyMessage\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 3,
+  "implements": [
+    {
+      "uid": "Xunit.Sdk.IDiscoveryComplete",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDiscoveryComplete"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiscoveryComplete"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDiscoveryComplete"
+        },
+        {
+          "lang": "vb",
+          "value": "IDiscoveryComplete"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IDiscoveryComplete"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IDiscoveryComplete"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IDiscoveryComplete\" text=\"IDiscoveryComplete\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IDiscoveryComplete\" text=\"IDiscoveryComplete\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestAssemblyMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestAssemblyMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestAssemblyMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestAssemblyMessage\" text=\"ITestAssemblyMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IMessageSinkMessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "IMessageSinkMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IMessageSinkMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IMessageSinkMessage\" text=\"IMessageSinkMessage\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IJsonSerializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IJsonSerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IJsonSerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IJsonSerializable\" text=\"IJsonSerializable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.v3.TestAssemblyMessage.AssemblyUniqueID",
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.TestAssemblyMessage",
+      "href": "Xunit.v3.TestAssemblyMessage.html#Xunit_v3_TestAssemblyMessage_AssemblyUniqueID",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "AssemblyUniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "TestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.TestAssemblyMessage.AssemblyUniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.TestAssemblyMessage.AssemblyUniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.TestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.TestAssemblyMessage.AssemblyUniqueID\" text=\"AssemblyUniqueID\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.TestAssemblyMessage.yml\" sourcestartlinenumber=\"1\">Gets the assembly's unique ID. Can be used to correlate test messages with the appropriate\nassembly that they're related to.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.v3.MessageSinkMessage.ValidateObjectState",
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.MessageSinkMessage",
+      "href": "Xunit.v3.MessageSinkMessage.html#Xunit_v3_MessageSinkMessage_ValidateObjectState",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateObjectState()"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateObjectState()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.ValidateObjectState()"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.ValidateObjectState()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.MessageSinkMessage.ValidateObjectState()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.MessageSinkMessage.ValidateObjectState()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.MessageSinkMessage.html#Xunit_v3_MessageSinkMessage_ValidateObjectState\">ValidateObjectState</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.MessageSinkMessage.html#Xunit_v3_MessageSinkMessage_ValidateObjectState\">ValidateObjectState</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Validates the state of the message object. This should be called just before serializing the message\nor just after deserializing the message to ensure that the message is not missing any required\nproperty values.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.v3.MessageSinkMessage.ToJson",
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.MessageSinkMessage",
+      "href": "Xunit.v3.MessageSinkMessage.html#Xunit_v3_MessageSinkMessage_ToJson",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToJson()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MessageSinkMessage.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "MessageSinkMessage.ToJson()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.MessageSinkMessage.ToJson()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.MessageSinkMessage.ToJson()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.MessageSinkMessage.html#Xunit_v3_MessageSinkMessage_ToJson\">ToJson</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.v3.MessageSinkMessage.html#Xunit_v3_MessageSinkMessage_ToJson\">ToJson</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.MessageSinkMessage.yml\" sourcestartlinenumber=\"1\">Creates a JSON serialized version of this message.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "attributes": [
+    {
+      "type": "Xunit.Sdk.JsonTypeIDAttribute",
+      "ctor": "Xunit.Sdk.JsonTypeIDAttribute.#ctor(System.String)",
+      "arguments": [
+        {
+          "type": "System.String",
+          "value": "discovery-complete"
+        }
+      ]
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.DiscoveryComplete.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.DiscoveryComplete.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

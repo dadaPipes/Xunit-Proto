@@ -1,0 +1,1340 @@
+{
+  "uid": "Asserts.PropertyAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Asserts.PropertyAsserts.PropertyChanged(System.ComponentModel.INotifyPropertyChanged,System.String,System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.PropertyAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "PropertyChanged(INotifyPropertyChanged, string, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "PropertyChanged(INotifyPropertyChanged, String, Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "PropertyAsserts.PropertyChanged(INotifyPropertyChanged, string, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "PropertyAsserts.PropertyChanged(INotifyPropertyChanged, String, Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.PropertyAsserts.PropertyChanged(System.ComponentModel.INotifyPropertyChanged, string, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.PropertyAsserts.PropertyChanged(System.ComponentModel.INotifyPropertyChanged, String, System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChanged(System.ComponentModel.INotifyPropertyChanged,System.String,System.Action)\" text=\"PropertyChanged(INotifyPropertyChanged, string, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChanged(System.ComponentModel.INotifyPropertyChanged,System.String,System.Action)\" text=\"PropertyChanged(INotifyPropertyChanged, string, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void PropertyChanged(INotifyPropertyChanged @object, string propertyName, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub PropertyChanged([object] As INotifyPropertyChanged, propertyName As String, testCode As Action)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.ComponentModel.INotifyPropertyChanged",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "INotifyPropertyChanged"
+                },
+                {
+                  "lang": "vb",
+                  "value": "INotifyPropertyChanged"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "INotifyPropertyChanged"
+                },
+                {
+                  "lang": "vb",
+                  "value": "INotifyPropertyChanged"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ComponentModel.INotifyPropertyChanged"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ComponentModel.INotifyPropertyChanged"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.ComponentModel.INotifyPropertyChanged\" text=\"INotifyPropertyChanged\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.ComponentModel.INotifyPropertyChanged\" text=\"INotifyPropertyChanged\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">The object which should raise the notification</p>\n"
+          },
+          {
+            "id": "propertyName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">The property name for which the notification should be raised</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">The test code which should cause the notification to be raised</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "PropertyChanged",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\PropertyAsserts.cs",
+        "startLine": 33,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.PropertyAsserts.PropertyChanged*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "PropertyChanged"
+          },
+          {
+            "lang": "vb",
+            "value": "PropertyChanged"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "PropertyAsserts.PropertyChanged"
+          },
+          {
+            "lang": "vb",
+            "value": "PropertyAsserts.PropertyChanged"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.PropertyAsserts.PropertyChanged"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.PropertyAsserts.PropertyChanged"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChanged*\" text=\"PropertyChanged\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChanged*\" text=\"PropertyChanged\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.PropertyChangedException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "PropertyChangedException"
+              },
+              {
+                "lang": "vb",
+                "value": "PropertyChangedException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "PropertyChangedException"
+              },
+              {
+                "lang": "vb",
+                "value": "PropertyChangedException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.PropertyChangedException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.PropertyChangedException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.PropertyChangedException\" text=\"PropertyChangedException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.PropertyChangedException\" text=\"PropertyChangedException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the notification is not raised</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the provided object raised <xref href=\"System.ComponentModel.INotifyPropertyChanged.PropertyChanged\" data-throw-if-not-resolved=\"false\"></xref>\nas a result of executing the given test code.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.PropertyAsserts.PropertyChangedAsync(System.ComponentModel.INotifyPropertyChanged,System.String,System.Func{System.Threading.Tasks.Task})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.PropertyAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "PropertyChangedAsync(INotifyPropertyChanged, string, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "PropertyChangedAsync(INotifyPropertyChanged, String, Func(Of Task))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "PropertyAsserts.PropertyChangedAsync(INotifyPropertyChanged, string, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "PropertyAsserts.PropertyChangedAsync(INotifyPropertyChanged, String, Func(Of Task))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.PropertyAsserts.PropertyChangedAsync(System.ComponentModel.INotifyPropertyChanged, string, System.Func<System.Threading.Tasks.Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.PropertyAsserts.PropertyChangedAsync(System.ComponentModel.INotifyPropertyChanged, String, System.Func(Of System.Threading.Tasks.Task))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChangedAsync(System.ComponentModel.INotifyPropertyChanged,System.String,System.Func{System.Threading.Tasks.Task})\" text=\"PropertyChangedAsync(INotifyPropertyChanged, string, Func&lt;Task&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChangedAsync(System.ComponentModel.INotifyPropertyChanged,System.String,System.Func{System.Threading.Tasks.Task})\" text=\"PropertyChangedAsync(INotifyPropertyChanged, string, Func&lt;Task&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Task PropertyChangedAsync(INotifyPropertyChanged @object, string propertyName, Func<Task> testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function PropertyChangedAsync([object] As INotifyPropertyChanged, propertyName As String, testCode As Func(Of Task)) As Task"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.ComponentModel.INotifyPropertyChanged",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "INotifyPropertyChanged"
+                },
+                {
+                  "lang": "vb",
+                  "value": "INotifyPropertyChanged"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "INotifyPropertyChanged"
+                },
+                {
+                  "lang": "vb",
+                  "value": "INotifyPropertyChanged"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ComponentModel.INotifyPropertyChanged"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ComponentModel.INotifyPropertyChanged"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.ComponentModel.INotifyPropertyChanged\" text=\"INotifyPropertyChanged\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.ComponentModel.INotifyPropertyChanged\" text=\"INotifyPropertyChanged\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">The object which should raise the notification</p>\n"
+          },
+          {
+            "id": "propertyName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">The property name for which the notification should be raised</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.Task}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.Task)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">The test code which should cause the notification to be raised</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.Task",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Task"
+              },
+              {
+                "lang": "vb",
+                "value": "Task"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Task"
+              },
+              {
+                "lang": "vb",
+                "value": "Task"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.Task"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.Task"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "PropertyChangedAsync",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\PropertyAsserts.cs",
+        "startLine": 84,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.PropertyAsserts.PropertyChangedAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "PropertyChangedAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "PropertyChangedAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "PropertyAsserts.PropertyChangedAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "PropertyAsserts.PropertyChangedAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.PropertyAsserts.PropertyChangedAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.PropertyAsserts.PropertyChangedAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChangedAsync*\" text=\"PropertyChangedAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.PropertyAsserts.PropertyChangedAsync*\" text=\"PropertyChangedAsync\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.PropertyChangedException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "PropertyChangedException"
+              },
+              {
+                "lang": "vb",
+                "value": "PropertyChangedException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "PropertyChangedException"
+              },
+              {
+                "lang": "vb",
+                "value": "PropertyChangedException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.PropertyChangedException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.PropertyChangedException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.PropertyChangedException\" text=\"PropertyChangedException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.PropertyChangedException\" text=\"PropertyChangedException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the notification is not raised</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.PropertyAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the provided object raised <xref href=\"System.ComponentModel.INotifyPropertyChanged.PropertyChanged\" data-throw-if-not-resolved=\"false\"></xref>\nas a result of executing the given test code.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "PropertyAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "PropertyAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "PropertyAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "PropertyAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Asserts.PropertyAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Asserts.PropertyAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "PropertyAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\PropertyAsserts.cs",
+    "startLine": 21,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class PropertyAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class PropertyAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Asserts.PropertyAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Asserts.PropertyAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

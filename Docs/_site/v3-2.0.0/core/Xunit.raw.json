@@ -1,0 +1,4199 @@
+{
+  "uid": "Xunit",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "uid": "Xunit.AssemblyFixtureAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.AssemblyFixtureAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AssemblyFixtureAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "AssemblyFixtureAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "AssemblyFixtureAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "AssemblyFixtureAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.AssemblyFixtureAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.AssemblyFixtureAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.AssemblyFixtureAttribute\" text=\"AssemblyFixtureAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.AssemblyFixtureAttribute\" text=\"AssemblyFixtureAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.AssemblyFixtureAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate xUnit.net test assemblies to indicate per-assembly fixture data. An instance of\nthe fixture data is initialized before any test in the assembly are run (including\n<xref href=\"Xunit.IAsyncLifetime.InitializeAsync\" data-throw-if-not-resolved=\"false\"></xref> if it's implemented). After all the tests in the\nassembly have been run, it is cleaned up by calling <xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref>\nif it's implemented, or it falls back to <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref> if that's implemented.\nAssembly fixtures must have a public parameterless constructor. To gain access to the fixture data\nfrom inside the test, a constructor argument should be added to the test class which exactly\nmatches the fixture type.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.CaptureConsoleAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.CaptureConsoleAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CaptureConsoleAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CaptureConsoleAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CaptureConsoleAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CaptureConsoleAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.CaptureConsoleAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.CaptureConsoleAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.CaptureConsoleAttribute\" text=\"CaptureConsoleAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.CaptureConsoleAttribute\" text=\"CaptureConsoleAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.CaptureConsoleAttribute.yml\" sourcestartlinenumber=\"1\">Captures <xref href=\"System.Console\" data-throw-if-not-resolved=\"false\"></xref> output (<xref href=\"System.Console.Out\" data-throw-if-not-resolved=\"false\"></xref> and/or <xref href=\"System.Console.Error\" data-throw-if-not-resolved=\"false\"></xref>)\nand reports it to the test output helper.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.CaptureTraceAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.CaptureTraceAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CaptureTraceAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CaptureTraceAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CaptureTraceAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CaptureTraceAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.CaptureTraceAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.CaptureTraceAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.CaptureTraceAttribute\" text=\"CaptureTraceAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.CaptureTraceAttribute\" text=\"CaptureTraceAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.CaptureTraceAttribute.yml\" sourcestartlinenumber=\"1\">Captures <xref href=\"System.Diagnostics.Trace\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Diagnostics.Debug\" data-throw-if-not-resolved=\"false\"></xref> output and reports it to the\ntest output helper.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.ClassDataAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.ClassDataAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ClassDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "ClassDataAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ClassDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "ClassDataAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.ClassDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.ClassDataAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.ClassDataAttribute\" text=\"ClassDataAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.ClassDataAttribute\" text=\"ClassDataAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.ClassDataAttribute.yml\" sourcestartlinenumber=\"1\">Provides a data source for a data theory, with the data coming from a class\nwhich must implement IEnumerable&lt;object?[]&gt;.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.CollectionAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.CollectionAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CollectionAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.CollectionAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.CollectionAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.CollectionAttribute\" text=\"CollectionAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.CollectionAttribute\" text=\"CollectionAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.CollectionAttribute.yml\" sourcestartlinenumber=\"1\">Used to declare a specific test collection for a test class.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.CollectionAttribute`1",
+      "isExtensionMethod": false,
+      "href": "Xunit.CollectionAttribute-1.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CollectionAttribute<TCollectionDefinition>"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionAttribute(Of TCollectionDefinition)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionAttribute<TCollectionDefinition>"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionAttribute(Of TCollectionDefinition)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.CollectionAttribute<TCollectionDefinition>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.CollectionAttribute(Of TCollectionDefinition)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.CollectionAttribute-1.html\">CollectionAttribute</a>&lt;TCollectionDefinition&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.CollectionAttribute-1.html\">CollectionAttribute</a>(Of TCollectionDefinition)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.CollectionAttribute-1.yml\" sourcestartlinenumber=\"1\">Used to declare a specific test collection for a test class. Equivalent to using <xref href=\"Xunit.CollectionAttribute\" data-throw-if-not-resolved=\"false\"></xref>\nwith the <xref href=\"Xunit.CollectionAttribute.%23ctor(System.Type)?text=type-based+constructor\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.CollectionBehavior",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.CollectionBehavior.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CollectionBehavior"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionBehavior"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionBehavior"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionBehavior"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.CollectionBehavior"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.CollectionBehavior"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.CollectionBehavior\" text=\"CollectionBehavior\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.CollectionBehavior\" text=\"CollectionBehavior\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.CollectionBehavior.yml\" sourcestartlinenumber=\"1\">Defines the built-in behavior types for collections in xUnit.net.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.CollectionBehaviorAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.CollectionBehaviorAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CollectionBehaviorAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionBehaviorAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionBehaviorAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionBehaviorAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.CollectionBehaviorAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.CollectionBehaviorAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.CollectionBehaviorAttribute\" text=\"CollectionBehaviorAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.CollectionBehaviorAttribute\" text=\"CollectionBehaviorAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.CollectionBehaviorAttribute.yml\" sourcestartlinenumber=\"1\">Default implementation of <xref href=\"Xunit.v3.ICollectionBehaviorAttribute\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.CollectionDefinitionAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.CollectionDefinitionAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CollectionDefinitionAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionDefinitionAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionDefinitionAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionDefinitionAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.CollectionDefinitionAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.CollectionDefinitionAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.CollectionDefinitionAttribute\" text=\"CollectionDefinitionAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.CollectionDefinitionAttribute\" text=\"CollectionDefinitionAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.CollectionDefinitionAttribute.yml\" sourcestartlinenumber=\"1\">Used to declare a test collection container class. The container class gives\ndevelopers a place to attach interfaces like <xref href=\"Xunit.IClassFixture%601\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"Xunit.ICollectionFixture%601\" data-throw-if-not-resolved=\"false\"></xref> that will be applied to all tests classes\nthat are members of the test collection.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.FactAttribute",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.FactAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FactAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "FactAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FactAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "FactAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.FactAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.FactAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.FactAttribute\" text=\"FactAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.FactAttribute\" text=\"FactAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.FactAttribute.yml\" sourcestartlinenumber=\"1\">Attribute that is applied to a method to indicate that it is a fact that should be run\nby the default test runner.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.IAsyncLifetime",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.IAsyncLifetime.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncLifetime"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncLifetime"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncLifetime"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncLifetime"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.IAsyncLifetime"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.IAsyncLifetime"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.IAsyncLifetime\" text=\"IAsyncLifetime\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.IAsyncLifetime\" text=\"IAsyncLifetime\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.IAsyncLifetime.yml\" sourcestartlinenumber=\"1\">Used to provide asynchronous lifetime functionality. Currently supported:<br></p>\n<ul sourcefile=\"v3-2.0.0/core/Xunit.IAsyncLifetime.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"v3-2.0.0/core/Xunit.IAsyncLifetime.yml\" sourcestartlinenumber=\"2\">Test classes<br></li>\n<li sourcefile=\"v3-2.0.0/core/Xunit.IAsyncLifetime.yml\" sourcestartlinenumber=\"3\">Classes used in <xref href=\"Xunit.IClassFixture%601\" data-throw-if-not-resolved=\"false\"></xref><br></li>\n<li sourcefile=\"v3-2.0.0/core/Xunit.IAsyncLifetime.yml\" sourcestartlinenumber=\"4\">Classes used in <xref href=\"Xunit.ICollectionFixture%601\" data-throw-if-not-resolved=\"false\"></xref>.<br></li>\n<li sourcefile=\"v3-2.0.0/core/Xunit.IAsyncLifetime.yml\" sourcestartlinenumber=\"5\">Classes used in <code>[assembly: <xref href=\"Xunit.AssemblyFixtureAttribute\" data-throw-if-not-resolved=\"false\"></xref>()]</code>.</li>\n</ul>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.IClassFixture`1",
+      "isExtensionMethod": false,
+      "href": "Xunit.IClassFixture-1.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IClassFixture<TFixture>"
+        },
+        {
+          "lang": "vb",
+          "value": "IClassFixture(Of TFixture)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IClassFixture<TFixture>"
+        },
+        {
+          "lang": "vb",
+          "value": "IClassFixture(Of TFixture)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.IClassFixture<TFixture>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.IClassFixture(Of TFixture)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.IClassFixture-1.html\">IClassFixture</a>&lt;TFixture&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.IClassFixture-1.html\">IClassFixture</a>(Of TFixture)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.IClassFixture-1.yml\" sourcestartlinenumber=\"1\">Used to decorate xUnit.net test classes and collections to indicate a test which has\nper-test-class fixture data. An instance of the fixture data is initialized just before\nthe first test in the class is run (including <xref href=\"Xunit.IAsyncLifetime.InitializeAsync\" data-throw-if-not-resolved=\"false\"></xref>\nif it's implemented). After all the tests in the test class have been run, it is cleaned up\nby calling <xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref> if it's implemented, or it falls back\nto <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref> if that's implemented. Class fixtures may have\na public constructor which is either empty, or accepts one or more assembly and/or collection\nfixture objects as constructor arguments. To gain access to the fixture data from inside the\ntest, a constructor argument should be added to the test class which/ exactly matches the\n<code class=\"typeparamref\">TFixture</code>.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.ICollectionFixture`1",
+      "isExtensionMethod": false,
+      "href": "Xunit.ICollectionFixture-1.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ICollectionFixture<TFixture>"
+        },
+        {
+          "lang": "vb",
+          "value": "ICollectionFixture(Of TFixture)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ICollectionFixture<TFixture>"
+        },
+        {
+          "lang": "vb",
+          "value": "ICollectionFixture(Of TFixture)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.ICollectionFixture<TFixture>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.ICollectionFixture(Of TFixture)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.ICollectionFixture-1.html\">ICollectionFixture</a>&lt;TFixture&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.ICollectionFixture-1.html\">ICollectionFixture</a>(Of TFixture)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.ICollectionFixture-1.yml\" sourcestartlinenumber=\"1\">Used to decorate xUnit.net test classes and collections to indicate a test which has\nper-test-collection fixture data. An instance of the fixture data is initialized just before\nthe first test in the collection is run (including <xref href=\"Xunit.IAsyncLifetime.InitializeAsync\" data-throw-if-not-resolved=\"false\"></xref>\nif it's implemented). After all the tests in the collection have been run, it is cleaned up\nby calling <xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref> if it's implemented, or it falls back\nto <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref> if that's implemented. Collection fixtures may have\na public constructor which is either empty, or accepts one or more assembly fixture objects\nas constructor arguments. To gain access to the fixture data from inside the test, a constructor\nargument should be added to the test class which exactly matches the <code class=\"typeparamref\">TFixture</code>.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.ITestContext",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.ITestContext.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestContext"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestContext"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestContext"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestContext"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.ITestContext"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.ITestContext"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.ITestContext\" text=\"ITestContext\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.ITestContext\" text=\"ITestContext\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.ITestContext.yml\" sourcestartlinenumber=\"1\">Represents the current state of the test pipeline.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.ITestContextAccessor",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.ITestContextAccessor.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestContextAccessor"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestContextAccessor"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestContextAccessor"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestContextAccessor"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.ITestContextAccessor"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.ITestContextAccessor"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.ITestContextAccessor\" text=\"ITestContextAccessor\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.ITestContextAccessor\" text=\"ITestContextAccessor\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.ITestContextAccessor.yml\" sourcestartlinenumber=\"1\">Gives access to the current test context, which is considered to be an immutable snapshot of\nthe current test state at the time it's retrieved.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.ITestOutputHelper",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.ITestOutputHelper.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestOutputHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestOutputHelper"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestOutputHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestOutputHelper"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.ITestOutputHelper"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.ITestOutputHelper"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.ITestOutputHelper\" text=\"ITestOutputHelper\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.ITestOutputHelper\" text=\"ITestOutputHelper\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.ITestOutputHelper.yml\" sourcestartlinenumber=\"1\">Represents a class which can be used to provide test output.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.ITheoryDataRow",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.ITheoryDataRow.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "ITheoryDataRow"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "ITheoryDataRow"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.ITheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.ITheoryDataRow"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.ITheoryDataRow.yml\" sourcestartlinenumber=\"1\">Represents a single row of theory data, along with optional metadata attached to the row.</p>\n",
+      "type": "interface",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.InlineDataAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.InlineDataAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InlineDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "InlineDataAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "InlineDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "InlineDataAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.InlineDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.InlineDataAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.InlineDataAttribute\" text=\"InlineDataAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.InlineDataAttribute\" text=\"InlineDataAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.InlineDataAttribute.yml\" sourcestartlinenumber=\"1\">Provides a data source for a data theory, with the data coming from inline values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`10",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-10.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-10.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-10.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-10.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of ten data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`11",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-11.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-11.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-11.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-11.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of eleven data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`12",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-12.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-12.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-12.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-12.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of twelve data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`13",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-13.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-13.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-13.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-13.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of thirteen data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`14",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-14.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-14.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-14.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-14.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of fourteen data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`15",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-15.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-15.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-15.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-15.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of fifteen data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`2",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-2.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-2.html\">MatrixTheoryData</a>&lt;T1, T2&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-2.html\">MatrixTheoryData</a>(Of T1, T2)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-2.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of two data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`3",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-3.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-3.html\">MatrixTheoryData</a>&lt;T1, T2, T3&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-3.html\">MatrixTheoryData</a>(Of T1, T2, T3)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-3.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of three data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`4",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-4.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-4.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-4.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-4.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of four data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`5",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-5.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-5.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-5.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-5.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of five data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`6",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-6.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-6.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-6.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-6.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of six data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`7",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-7.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-7.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-7.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-7.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of seven data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`8",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-8.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-8.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-8.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-8.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of eight data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MatrixTheoryData`9",
+      "isExtensionMethod": false,
+      "href": "Xunit.MatrixTheoryData-9.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MatrixTheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MatrixTheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-9.html\">MatrixTheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.MatrixTheoryData-9.html\">MatrixTheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MatrixTheoryData-9.yml\" sourcestartlinenumber=\"1\">Represents theory data which is created from the merging of nine data streams by\ncreating a matrix of the data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.MemberDataAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.MemberDataAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberDataAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "MemberDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberDataAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.MemberDataAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.MemberDataAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.MemberDataAttribute\" text=\"MemberDataAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.MemberDataAttribute\" text=\"MemberDataAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.MemberDataAttribute.yml\" sourcestartlinenumber=\"1\">Provides a data source for a data theory, with the data coming from one of the following sources:</p>\n<ol sourcefile=\"v3-2.0.0/core/Xunit.MemberDataAttribute.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"v3-2.0.0/core/Xunit.MemberDataAttribute.yml\" sourcestartlinenumber=\"2\">A public static property</li>\n<li sourcefile=\"v3-2.0.0/core/Xunit.MemberDataAttribute.yml\" sourcestartlinenumber=\"3\">A public static field</li>\n<li sourcefile=\"v3-2.0.0/core/Xunit.MemberDataAttribute.yml\" sourcestartlinenumber=\"4\">A public static method (with parameters)</li>\n</ol>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Record",
+      "isExtensionMethod": false,
+      "href": "Xunit.Record.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Record"
+        },
+        {
+          "lang": "vb",
+          "value": "Record"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Record"
+        },
+        {
+          "lang": "vb",
+          "value": "Record"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Record"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Record"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Record\" text=\"Record\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Record\" text=\"Record\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": null,
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestCaseOrdererAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.TestCaseOrdererAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseOrdererAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseOrdererAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCaseOrdererAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCaseOrdererAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestCaseOrdererAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestCaseOrdererAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestCaseOrdererAttribute\" text=\"TestCaseOrdererAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestCaseOrdererAttribute\" text=\"TestCaseOrdererAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestCaseOrdererAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate an assembly, test collection, or test class to allow\nthe use of a custom test case orderer.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestCollectionOrdererAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.TestCollectionOrdererAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionOrdererAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionOrdererAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestCollectionOrdererAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TestCollectionOrdererAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestCollectionOrdererAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestCollectionOrdererAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestCollectionOrdererAttribute\" text=\"TestCollectionOrdererAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestCollectionOrdererAttribute\" text=\"TestCollectionOrdererAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestCollectionOrdererAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate an assembly to allow the use of a custom test collection orderer.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestContext",
+      "isExtensionMethod": false,
+      "href": "Xunit.TestContext.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestContext"
+        },
+        {
+          "lang": "vb",
+          "value": "TestContext"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestContext"
+        },
+        {
+          "lang": "vb",
+          "value": "TestContext"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestContext"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestContext"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestContext\" text=\"TestContext\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestContext\" text=\"TestContext\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestContext.yml\" sourcestartlinenumber=\"1\">Represents information about the current state of the test engine. It may be available at\nvarious points during the execution pipeline, so consumers must always take care to ensure\nthat they check for <code>null</code> values from the various properties.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestContextExtensions",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TestContextExtensions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestContextExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "TestContextExtensions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestContextExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "TestContextExtensions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestContextExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestContextExtensions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestContextExtensions\" text=\"TestContextExtensions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestContextExtensions\" text=\"TestContextExtensions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestContextExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Xunit.ITestContext\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestEngineStatus",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TestEngineStatus.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestEngineStatus"
+        },
+        {
+          "lang": "vb",
+          "value": "TestEngineStatus"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestEngineStatus"
+        },
+        {
+          "lang": "vb",
+          "value": "TestEngineStatus"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestEngineStatus"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestEngineStatus"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestEngineStatus\" text=\"TestEngineStatus\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestEngineStatus.yml\" sourcestartlinenumber=\"1\">Represents the current status of the execution of the test engine, with respect to\na phase in the execution pipeline (for example, engine status for a test collection vs.\ntest case vs. test).</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestFrameworkAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.TestFrameworkAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestFrameworkAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TestFrameworkAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestFrameworkAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TestFrameworkAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestFrameworkAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestFrameworkAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestFrameworkAttribute\" text=\"TestFrameworkAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestFrameworkAttribute\" text=\"TestFrameworkAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestFrameworkAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate an assembly to allow the use of a custom test framework.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestPipelineStage",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TestPipelineStage.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestPipelineStage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestPipelineStage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestPipelineStage"
+        },
+        {
+          "lang": "vb",
+          "value": "TestPipelineStage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestPipelineStage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestPipelineStage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestPipelineStage\" text=\"TestPipelineStage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestPipelineStage\" text=\"TestPipelineStage\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestPipelineStage.yml\" sourcestartlinenumber=\"1\">A flag to indicate which part of the test pipeline you're in. Retrieved from an\ninstance of <xref href=\"Xunit.TestContext\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestResult",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TestResult.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestResult"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResult"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResult"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResult"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResult"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResult"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResult.yml\" sourcestartlinenumber=\"1\">Indicates the result of running the test.</p>\n",
+      "type": "enum",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TestResultState",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TestResultState.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Represents information about the current state of a test after it has run.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryAttribute\" text=\"TheoryAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryAttribute\" text=\"TheoryAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryAttribute.yml\" sourcestartlinenumber=\"1\">Marks a test method as being a data theory. Data theories are tests which are fed\nvarious bits of data from a data source, mapping to parameters on the test method.\nIf the data source contains multiple rows, then the test method is executed\nmultiple times (once with each data row). Data is provided by attributes which\nimplement <xref href=\"Xunit.v3.IDataAttribute\" data-throw-if-not-resolved=\"false\"></xref> (most commonly, <xref href=\"Xunit.InlineDataAttribute\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"Xunit.MemberDataAttribute\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryData\" text=\"TheoryData\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryData\" text=\"TheoryData\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData.yml\" sourcestartlinenumber=\"1\">Represents an untyped set of data for a theory with an unknown number\nof parameters.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataBase`2",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryDataBase-2.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataBase<TTheoryDataRow, TRawDataRow>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataBase(Of TTheoryDataRow, TRawDataRow)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataBase<TTheoryDataRow, TRawDataRow>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataBase(Of TTheoryDataRow, TRawDataRow)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataBase<TTheoryDataRow, TRawDataRow>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataBase(Of TTheoryDataRow, TRawDataRow)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataBase-2.html\">TheoryDataBase</a>&lt;TTheoryDataRow, TRawDataRow&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataBase-2.html\">TheoryDataBase</a>(Of TTheoryDataRow, TRawDataRow)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataBase-2.yml\" sourcestartlinenumber=\"1\">Provides a base type for theories based on collection initialization syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRow\" text=\"TheoryDataRow\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRow\" text=\"TheoryDataRow\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts untyped pre-enumerated data.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRowBase",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRowBase.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBase"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBase"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase\" text=\"TheoryDataRowBase\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase\" text=\"TheoryDataRowBase\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRowBase.yml\" sourcestartlinenumber=\"1\">Provide a base implemention of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> with settable properties and\ndeferred data storage.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRowBaseExtensions",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRowBaseExtensions.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBaseExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBaseExtensions"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBaseExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBaseExtensions"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBaseExtensions"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBaseExtensions"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBaseExtensions\" text=\"TheoryDataRowBaseExtensions\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBaseExtensions\" text=\"TheoryDataRowBaseExtensions\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRowBaseExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Xunit.TheoryDataRowBase\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`1",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-1.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-1.html\">TheoryDataRow</a>&lt;T1&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-1.html\">TheoryDataRow</a>(Of T1)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-1.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts one typed value.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`10",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-10.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-10.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-10.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-10.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts ten typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`11",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-11.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-11.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-11.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-11.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts eleven typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`12",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-12.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-12.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-12.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-12.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts twelve typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`13",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-13.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-13.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-13.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-13.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts thirteen typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`14",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-14.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-14.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-14.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-14.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts fourteen typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`15",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-15.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-15.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-15.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-15.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts fifteen typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`2",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-2.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-2.html\">TheoryDataRow</a>&lt;T1, T2&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-2.html\">TheoryDataRow</a>(Of T1, T2)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-2.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts two typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`3",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-3.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-3.html\">TheoryDataRow</a>&lt;T1, T2, T3&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-3.html\">TheoryDataRow</a>(Of T1, T2, T3)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-3.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts three typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`4",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-4.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-4.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-4.html\">TheoryDataRow</a>(Of T1, T2, T3, T4)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-4.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts four typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`5",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-5.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-5.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-5.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-5.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts five typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`6",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-6.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-6.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-6.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-6.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts six typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`7",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-7.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-7.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-7.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-7.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts seven typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`8",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-8.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-8.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-8.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-8.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts eight typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRow`9",
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRow-9.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-9.html\">TheoryDataRow</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRow-9.html\">TheoryDataRow</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow-9.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts nine typed values.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`1",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-1.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-1.html\">TheoryData</a>&lt;T&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-1.html\">TheoryData</a>(Of T)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-1.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with one parameter. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`10",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-10.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-10.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-10.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-10.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with ten parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`11",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-11.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-11.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-11.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-11.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with eleven parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`12",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-12.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-12.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-12.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-12.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with twelve parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`13",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-13.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-13.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-13.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-13.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with thirteen parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`14",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-14.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-14.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-14.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-14.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with fourteen parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`15",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-15.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-15.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-15.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-15.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with fifteen parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`2",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-2.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-2.html\">TheoryData</a>&lt;T1, T2&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-2.html\">TheoryData</a>(Of T1, T2)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-2.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with two parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`3",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-3.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-3.html\">TheoryData</a>&lt;T1, T2, T3&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-3.html\">TheoryData</a>(Of T1, T2, T3)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-3.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with three parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`4",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-4.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-4.html\">TheoryData</a>&lt;T1, T2, T3, T4&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-4.html\">TheoryData</a>(Of T1, T2, T3, T4)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-4.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with four parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`5",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-5.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-5.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-5.html\">TheoryData</a>(Of T1, T2, T3, T4, T5)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-5.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with five parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`6",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-6.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-6.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-6.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-6.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with six parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`7",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-7.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-7.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-7.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-7.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with seven parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`8",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-8.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-8.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-8.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-8.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with eight parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryData`9",
+      "isExtensionMethod": false,
+      "href": "Xunit.TheoryData-9.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryData(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-9.html\">TheoryData</a>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryData-9.html\">TheoryData</a>(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryData-9.yml\" sourcestartlinenumber=\"1\">Represents a set of data for a theory with nine parameters. Data can\nbe added to the data set using the collection initializer syntax.</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TraitAttribute",
+      "isExtensionMethod": false,
+      "href": "Xunit.TraitAttribute.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TraitAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TraitAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TraitAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "TraitAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TraitAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TraitAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TraitAttribute\" text=\"TraitAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TraitAttribute\" text=\"TraitAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TraitAttribute.yml\" sourcestartlinenumber=\"1\">Attribute used to decorate a test method, test class, or assembly with an arbitrary name/value pair (&quot;trait&quot;).</p>\n",
+      "type": "class",
+      "platform": null,
+      "isEii": false
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "Xunit"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "Xunit"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

@@ -1,0 +1,1057 @@
+{
+  "uid": "Xunit.Sdk.FailureCause",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Sdk.FailureCause.Assertion",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.FailureCause",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Assertion"
+        },
+        {
+          "lang": "vb",
+          "value": "Assertion"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause.Assertion"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause.Assertion"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.FailureCause.Assertion"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.FailureCause.Assertion"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Assertion\" text=\"Assertion\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Assertion\" text=\"Assertion\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Assertion = 3"
+          },
+          {
+            "lang": "vb",
+            "value": "Assertion = 3"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.FailureCause",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.FailureCause"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/FailureCause.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Assertion",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs",
+        "startLine": 32,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.FailureCause.yml\" sourcestartlinenumber=\"1\">Indicates that the test failed because of an assertion failure (that is, an exception\nwas thrown that implements an interface named <code>IAssertionException</code>, regardless of the\nnamespace or source assembly of the interface). For built-in exceptions,\n<xref href=\"Xunit.Sdk.IAssertionException\" data-throw-if-not-resolved=\"false\"></xref> serves this purpose, but this is generally\nfound by convention rather than type to prevent 3rd party assertion libraries from needing\nto take an explicit references to xUnit.net binaries.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.FailureCause.Exception",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.FailureCause",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Exception"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause.Exception"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause.Exception"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.FailureCause.Exception"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.FailureCause.Exception"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Exception\" text=\"Exception\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Exception\" text=\"Exception\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Exception = 2"
+          },
+          {
+            "lang": "vb",
+            "value": "Exception = 2"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.FailureCause",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.FailureCause"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/FailureCause.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Exception",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs",
+        "startLine": 22,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.FailureCause.yml\" sourcestartlinenumber=\"1\">Indicates that the test failed because it threw an unhandled exception.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.FailureCause.Other",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.FailureCause",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Other"
+        },
+        {
+          "lang": "vb",
+          "value": "Other"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause.Other"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause.Other"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.FailureCause.Other"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.FailureCause.Other"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Other\" text=\"Other\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Other\" text=\"Other\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Other = 1"
+          },
+          {
+            "lang": "vb",
+            "value": "Other = 1"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.FailureCause",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.FailureCause"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/FailureCause.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Other",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs",
+        "startLine": 17,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.FailureCause.yml\" sourcestartlinenumber=\"1\">Indicates that a test failed for some reason other than a typical execution failure\n(for example, if a test was skipped but the flag was given to fail all skipped tests,\nor the test passed with warnings but the flag was given to fail tests with warnings).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.FailureCause.Timeout",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.FailureCause",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Timeout"
+        },
+        {
+          "lang": "vb",
+          "value": "Timeout"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause.Timeout"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause.Timeout"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.FailureCause.Timeout"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.FailureCause.Timeout"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Timeout\" text=\"Timeout\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Timeout\" text=\"Timeout\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Timeout = 4"
+          },
+          {
+            "lang": "vb",
+            "value": "Timeout = 4"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.FailureCause",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.FailureCause"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/FailureCause.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Timeout",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs",
+        "startLine": 43,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.FailureCause.yml\" sourcestartlinenumber=\"1\">Indicates that the test failed because it exceeded the allowed time to run (typically\nspecified via <xref href=\"Xunit.v3.IFactAttribute.Timeout\" data-throw-if-not-resolved=\"false\"></xref>). This is indicated by an\nexception that is thrown which implements an interface named <code>ITestTimeoutException</code>,\nregardless of the namespace or source assembly of the interface. For fact attributes,\n<xref href=\"Xunit.v3.ITestTimeoutException\" data-throw-if-not-resolved=\"false\"></xref> serves this purpose, but this is generally\nfound by convention rather than type to prevent 3rd party libraries from needing to\ntake an explicit reference to xUnit.net binaries.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.FailureCause.Unknown",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.FailureCause",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Unknown"
+        },
+        {
+          "lang": "vb",
+          "value": "Unknown"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause.Unknown"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause.Unknown"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.FailureCause.Unknown"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.FailureCause.Unknown"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Unknown\" text=\"Unknown\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.FailureCause.Unknown\" text=\"Unknown\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Unknown = 0"
+          },
+          {
+            "lang": "vb",
+            "value": "Unknown = 0"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.FailureCause",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.FailureCause"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.FailureCause"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Options/FailureCause.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Unknown",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs",
+        "startLine": 10,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "level": 0,
+      "type": "field",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.FailureCause.yml\" sourcestartlinenumber=\"1\">Indicates the test failure cause is unknown.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "FailureCause"
+    },
+    {
+      "lang": "vb",
+      "value": "FailureCause"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "FailureCause"
+    },
+    {
+      "lang": "vb",
+      "value": "FailureCause"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk.FailureCause"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk.FailureCause"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.common/Options/FailureCause.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "FailureCause",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs",
+    "startLine": 5,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.FailureCause.yml\" sourcestartlinenumber=\"1\">Indicates the cause of the test failure.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum FailureCause"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum FailureCause"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.AsValueTask",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.AsValueTask(System.Object)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "AsValueTask(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Nullable{{T}},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,System.Nullable{``0},System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1({T},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,``0,System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/common/Xunit.Sdk.FailureCause.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/common/Xunit.Sdk.FailureCause.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/common/toc.yml",
+  "_tocPath": "v3-2.0.0/common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

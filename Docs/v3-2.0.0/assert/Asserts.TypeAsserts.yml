@@ -1,0 +1,848 @@
+### YamlMime:ManagedReference
+items:
+- uid: Asserts.TypeAsserts
+  commentId: T:Asserts.TypeAsserts
+  id: TypeAsserts
+  parent: Asserts
+  children:
+  - Asserts.TypeAsserts.IsAssignableFrom(System.Type,System.Object)
+  - Asserts.TypeAsserts.IsAssignableFrom``1(System.Object)
+  - Asserts.TypeAsserts.IsNotAssignableFrom(System.Type,System.Object)
+  - Asserts.TypeAsserts.IsNotAssignableFrom``1(System.Object)
+  - Asserts.TypeAsserts.IsNotType(System.Type,System.Object)
+  - Asserts.TypeAsserts.IsNotType(System.Type,System.Object,System.Boolean)
+  - Asserts.TypeAsserts.IsNotType``1(System.Object)
+  - Asserts.TypeAsserts.IsNotType``1(System.Object,System.Boolean)
+  - Asserts.TypeAsserts.IsType(System.Type,System.Object)
+  - Asserts.TypeAsserts.IsType(System.Type,System.Object,System.Boolean)
+  - Asserts.TypeAsserts.IsType``1(System.Object)
+  - Asserts.TypeAsserts.IsType``1(System.Object,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: TypeAsserts
+  nameWithType: TypeAsserts
+  fullName: Asserts.TypeAsserts
+  type: Class
+  source:
+    id: TypeAsserts
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 24
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  syntax:
+    content: public class TypeAsserts
+    content.vb: Public Class TypeAsserts
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Asserts.TypeAsserts.IsAssignableFrom``1(System.Object)
+  commentId: M:Asserts.TypeAsserts.IsAssignableFrom``1(System.Object)
+  id: IsAssignableFrom``1(System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsAssignableFrom<T>(object?)
+  nameWithType: TypeAsserts.IsAssignableFrom<T>(object?)
+  fullName: Asserts.TypeAsserts.IsAssignableFrom<T>(object?)
+  type: Method
+  source:
+    id: IsAssignableFrom
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 36
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is of the given type or a derived type.
+  example: []
+  syntax:
+    content: public static T IsAssignableFrom<T>(object? @object)
+    parameters:
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    typeParameters:
+    - id: T
+      description: The type the object should be
+    return:
+      type: '{T}'
+      description: The object, casted to type T when successful
+    content.vb: Public Shared Function IsAssignableFrom(Of T)([object] As Object) As T
+  overload: Asserts.TypeAsserts.IsAssignableFrom*
+  exceptions:
+  - type: Xunit.Sdk.IsAssignableFromException
+    commentId: T:Xunit.Sdk.IsAssignableFromException
+    description: Thrown when the object is not the given type
+  nameWithType.vb: TypeAsserts.IsAssignableFrom(Of T)(Object)
+  fullName.vb: Asserts.TypeAsserts.IsAssignableFrom(Of T)(Object)
+  name.vb: IsAssignableFrom(Of T)(Object)
+- uid: Asserts.TypeAsserts.IsAssignableFrom(System.Type,System.Object)
+  commentId: M:Asserts.TypeAsserts.IsAssignableFrom(System.Type,System.Object)
+  id: IsAssignableFrom(System.Type,System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsAssignableFrom(Type, object?)
+  nameWithType: TypeAsserts.IsAssignableFrom(Type, object?)
+  fullName: Asserts.TypeAsserts.IsAssignableFrom(System.Type, object?)
+  type: Method
+  source:
+    id: IsAssignableFrom
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 53
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is of the given type or a derived type.
+  example: []
+  syntax:
+    content: public static void IsAssignableFrom(Type expectedType, object? @object)
+    parameters:
+    - id: expectedType
+      type: System.Type
+      description: The type the object should be
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    content.vb: Public Shared Sub IsAssignableFrom(expectedType As Type, [object] As Object)
+  overload: Asserts.TypeAsserts.IsAssignableFrom*
+  exceptions:
+  - type: Xunit.Sdk.IsAssignableFromException
+    commentId: T:Xunit.Sdk.IsAssignableFromException
+    description: Thrown when the object is not the given type
+  nameWithType.vb: TypeAsserts.IsAssignableFrom(Type, Object)
+  fullName.vb: Asserts.TypeAsserts.IsAssignableFrom(System.Type, Object)
+  name.vb: IsAssignableFrom(Type, Object)
+- uid: Asserts.TypeAsserts.IsNotAssignableFrom``1(System.Object)
+  commentId: M:Asserts.TypeAsserts.IsNotAssignableFrom``1(System.Object)
+  id: IsNotAssignableFrom``1(System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsNotAssignableFrom<T>(object?)
+  nameWithType: TypeAsserts.IsNotAssignableFrom<T>(object?)
+  fullName: Asserts.TypeAsserts.IsNotAssignableFrom<T>(object?)
+  type: Method
+  source:
+    id: IsNotAssignableFrom
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 75
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is not of the given type or a derived type.
+  example: []
+  syntax:
+    content: public static void IsNotAssignableFrom<T>(object? @object)
+    parameters:
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    typeParameters:
+    - id: T
+      description: The type the object should not be
+    content.vb: Public Shared Sub IsNotAssignableFrom(Of T)([object] As Object)
+  overload: Asserts.TypeAsserts.IsNotAssignableFrom*
+  exceptions:
+  - type: Xunit.Sdk.IsNotAssignableFromException
+    commentId: T:Xunit.Sdk.IsNotAssignableFromException
+    description: Thrown when the object is of the given type
+  nameWithType.vb: TypeAsserts.IsNotAssignableFrom(Of T)(Object)
+  fullName.vb: Asserts.TypeAsserts.IsNotAssignableFrom(Of T)(Object)
+  name.vb: IsNotAssignableFrom(Of T)(Object)
+- uid: Asserts.TypeAsserts.IsNotAssignableFrom(System.Type,System.Object)
+  commentId: M:Asserts.TypeAsserts.IsNotAssignableFrom(System.Type,System.Object)
+  id: IsNotAssignableFrom(System.Type,System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsNotAssignableFrom(Type, object?)
+  nameWithType: TypeAsserts.IsNotAssignableFrom(Type, object?)
+  fullName: Asserts.TypeAsserts.IsNotAssignableFrom(System.Type, object?)
+  type: Method
+  source:
+    id: IsNotAssignableFrom
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 87
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is not of the given type or a derived type.
+  example: []
+  syntax:
+    content: public static void IsNotAssignableFrom(Type expectedType, object? @object)
+    parameters:
+    - id: expectedType
+      type: System.Type
+      description: The type the object should not be
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    content.vb: Public Shared Sub IsNotAssignableFrom(expectedType As Type, [object] As Object)
+  overload: Asserts.TypeAsserts.IsNotAssignableFrom*
+  exceptions:
+  - type: Xunit.Sdk.IsNotAssignableFromException
+    commentId: T:Xunit.Sdk.IsNotAssignableFromException
+    description: Thrown when the object is of the given type
+  nameWithType.vb: TypeAsserts.IsNotAssignableFrom(Type, Object)
+  fullName.vb: Asserts.TypeAsserts.IsNotAssignableFrom(System.Type, Object)
+  name.vb: IsNotAssignableFrom(Type, Object)
+- uid: Asserts.TypeAsserts.IsNotType``1(System.Object)
+  commentId: M:Asserts.TypeAsserts.IsNotType``1(System.Object)
+  id: IsNotType``1(System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsNotType<T>(object?)
+  nameWithType: TypeAsserts.IsNotType<T>(object?)
+  fullName: Asserts.TypeAsserts.IsNotType<T>(object?)
+  type: Method
+  source:
+    id: IsNotType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 108
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is not exactly the given type.
+  example: []
+  syntax:
+    content: public static void IsNotType<T>(object? @object)
+    parameters:
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    typeParameters:
+    - id: T
+      description: The type the object should not be
+    content.vb: Public Shared Sub IsNotType(Of T)([object] As Object)
+  overload: Asserts.TypeAsserts.IsNotType*
+  exceptions:
+  - type: Xunit.Sdk.IsNotTypeException
+    commentId: T:Xunit.Sdk.IsNotTypeException
+    description: Thrown when the object is the given type
+  nameWithType.vb: TypeAsserts.IsNotType(Of T)(Object)
+  fullName.vb: Asserts.TypeAsserts.IsNotType(Of T)(Object)
+  name.vb: IsNotType(Of T)(Object)
+- uid: Asserts.TypeAsserts.IsNotType``1(System.Object,System.Boolean)
+  commentId: M:Asserts.TypeAsserts.IsNotType``1(System.Object,System.Boolean)
+  id: IsNotType``1(System.Object,System.Boolean)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsNotType<T>(object?, bool)
+  nameWithType: TypeAsserts.IsNotType<T>(object?, bool)
+  fullName: Asserts.TypeAsserts.IsNotType<T>(object?, bool)
+  type: Method
+  source:
+    id: IsNotType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 125
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is not of the given type.
+  example: []
+  syntax:
+    content: public static void IsNotType<T>(object? @object, bool exactMatch)
+    parameters:
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    - id: exactMatch
+      type: System.Boolean
+      description: >-
+        Will only fail with an exact type match when <code>true</code> is
+            passed; will fail with a compatible type match when <code>false</code> is passed.
+    typeParameters:
+    - id: T
+      description: The type the object should not be
+    content.vb: Public Shared Sub IsNotType(Of T)([object] As Object, exactMatch As Boolean)
+  overload: Asserts.TypeAsserts.IsNotType*
+  exceptions:
+  - type: Xunit.Sdk.IsNotTypeException
+    commentId: T:Xunit.Sdk.IsNotTypeException
+    description: Thrown when the object is the given type
+  nameWithType.vb: TypeAsserts.IsNotType(Of T)(Object, Boolean)
+  fullName.vb: Asserts.TypeAsserts.IsNotType(Of T)(Object, Boolean)
+  name.vb: IsNotType(Of T)(Object, Boolean)
+- uid: Asserts.TypeAsserts.IsNotType(System.Type,System.Object)
+  commentId: M:Asserts.TypeAsserts.IsNotType(System.Type,System.Object)
+  id: IsNotType(System.Type,System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsNotType(Type, object?)
+  nameWithType: TypeAsserts.IsNotType(Type, object?)
+  fullName: Asserts.TypeAsserts.IsNotType(System.Type, object?)
+  type: Method
+  source:
+    id: IsNotType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 142
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is not exactly the given type.
+  example: []
+  syntax:
+    content: public static void IsNotType(Type expectedType, object? @object)
+    parameters:
+    - id: expectedType
+      type: System.Type
+      description: The type the object should not be
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    content.vb: Public Shared Sub IsNotType(expectedType As Type, [object] As Object)
+  overload: Asserts.TypeAsserts.IsNotType*
+  exceptions:
+  - type: Xunit.Sdk.IsNotTypeException
+    commentId: T:Xunit.Sdk.IsNotTypeException
+    description: Thrown when the object is the given type
+  nameWithType.vb: TypeAsserts.IsNotType(Type, Object)
+  fullName.vb: Asserts.TypeAsserts.IsNotType(System.Type, Object)
+  name.vb: IsNotType(Type, Object)
+- uid: Asserts.TypeAsserts.IsNotType(System.Type,System.Object,System.Boolean)
+  commentId: M:Asserts.TypeAsserts.IsNotType(System.Type,System.Object,System.Boolean)
+  id: IsNotType(System.Type,System.Object,System.Boolean)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsNotType(Type, object?, bool)
+  nameWithType: TypeAsserts.IsNotType(Type, object?, bool)
+  fullName: Asserts.TypeAsserts.IsNotType(System.Type, object?, bool)
+  type: Method
+  source:
+    id: IsNotType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 159
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is not of the given type.
+  example: []
+  syntax:
+    content: public static void IsNotType(Type expectedType, object? @object, bool exactMatch)
+    parameters:
+    - id: expectedType
+      type: System.Type
+      description: The type the object should not be
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    - id: exactMatch
+      type: System.Boolean
+      description: >-
+        Will only fail with an exact type match when <code>true</code> is
+            passed; will fail with a compatible type match when <code>false</code> is passed.
+    content.vb: Public Shared Sub IsNotType(expectedType As Type, [object] As Object, exactMatch As Boolean)
+  overload: Asserts.TypeAsserts.IsNotType*
+  exceptions:
+  - type: Xunit.Sdk.IsNotTypeException
+    commentId: T:Xunit.Sdk.IsNotTypeException
+    description: Thrown when the object is the given type
+  nameWithType.vb: TypeAsserts.IsNotType(Type, Object, Boolean)
+  fullName.vb: Asserts.TypeAsserts.IsNotType(System.Type, Object, Boolean)
+  name.vb: IsNotType(Type, Object, Boolean)
+- uid: Asserts.TypeAsserts.IsType``1(System.Object)
+  commentId: M:Asserts.TypeAsserts.IsType``1(System.Object)
+  id: IsType``1(System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsType<T>(object?)
+  nameWithType: TypeAsserts.IsType<T>(object?)
+  fullName: Asserts.TypeAsserts.IsType<T>(object?)
+  type: Method
+  source:
+    id: IsType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 192
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is exactly the given type (and not a derived type).
+  example: []
+  syntax:
+    content: public static T IsType<T>(object? @object)
+    parameters:
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    typeParameters:
+    - id: T
+      description: The type the object should be
+    return:
+      type: '{T}'
+      description: The object, casted to type T when successful
+    content.vb: Public Shared Function IsType(Of T)([object] As Object) As T
+  overload: Asserts.TypeAsserts.IsType*
+  exceptions:
+  - type: Xunit.Sdk.IsTypeException
+    commentId: T:Xunit.Sdk.IsTypeException
+    description: Thrown when the object is not the given type
+  nameWithType.vb: TypeAsserts.IsType(Of T)(Object)
+  fullName.vb: Asserts.TypeAsserts.IsType(Of T)(Object)
+  name.vb: IsType(Of T)(Object)
+- uid: Asserts.TypeAsserts.IsType``1(System.Object,System.Boolean)
+  commentId: M:Asserts.TypeAsserts.IsType``1(System.Object,System.Boolean)
+  id: IsType``1(System.Object,System.Boolean)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsType<T>(object?, bool)
+  nameWithType: TypeAsserts.IsType<T>(object?, bool)
+  fullName: Asserts.TypeAsserts.IsType<T>(object?, bool)
+  type: Method
+  source:
+    id: IsType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 215
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object of is the given type.
+  example: []
+  syntax:
+    content: public static T IsType<T>(object? @object, bool exactMatch)
+    parameters:
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    - id: exactMatch
+      type: System.Boolean
+      description: >-
+        Will only pass with an exact type match when <code>true</code> is
+            passed; will pass with a compatible type match when <code>false</code> is passed.
+    typeParameters:
+    - id: T
+      description: The type the object should be
+    return:
+      type: '{T}'
+      description: The object, casted to type T when successful
+    content.vb: Public Shared Function IsType(Of T)([object] As Object, exactMatch As Boolean) As T
+  overload: Asserts.TypeAsserts.IsType*
+  exceptions:
+  - type: Xunit.Sdk.IsTypeException
+    commentId: T:Xunit.Sdk.IsTypeException
+    description: Thrown when the object is not the given type
+  nameWithType.vb: TypeAsserts.IsType(Of T)(Object, Boolean)
+  fullName.vb: Asserts.TypeAsserts.IsType(Of T)(Object, Boolean)
+  name.vb: IsType(Of T)(Object, Boolean)
+- uid: Asserts.TypeAsserts.IsType(System.Type,System.Object)
+  commentId: M:Asserts.TypeAsserts.IsType(System.Type,System.Object)
+  id: IsType(System.Type,System.Object)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsType(Type, object?)
+  nameWithType: TypeAsserts.IsType(Type, object?)
+  fullName: Asserts.TypeAsserts.IsType(System.Type, object?)
+  type: Method
+  source:
+    id: IsType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 235
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is exactly the given type (and not a derived type).
+  example: []
+  syntax:
+    content: public static void IsType(Type expectedType, object? @object)
+    parameters:
+    - id: expectedType
+      type: System.Type
+      description: The type the object should be
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    content.vb: Public Shared Sub IsType(expectedType As Type, [object] As Object)
+  overload: Asserts.TypeAsserts.IsType*
+  exceptions:
+  - type: Xunit.Sdk.IsTypeException
+    commentId: T:Xunit.Sdk.IsTypeException
+    description: Thrown when the object is not the given type
+  nameWithType.vb: TypeAsserts.IsType(Type, Object)
+  fullName.vb: Asserts.TypeAsserts.IsType(System.Type, Object)
+  name.vb: IsType(Type, Object)
+- uid: Asserts.TypeAsserts.IsType(System.Type,System.Object,System.Boolean)
+  commentId: M:Asserts.TypeAsserts.IsType(System.Type,System.Object,System.Boolean)
+  id: IsType(System.Type,System.Object,System.Boolean)
+  parent: Asserts.TypeAsserts
+  langs:
+  - csharp
+  - vb
+  name: IsType(Type, object?, bool)
+  nameWithType: TypeAsserts.IsType(Type, object?, bool)
+  fullName: Asserts.TypeAsserts.IsType(System.Type, object?, bool)
+  type: Method
+  source:
+    id: IsType
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
+    startLine: 252
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an object is of the given type.
+  example: []
+  syntax:
+    content: public static void IsType(Type expectedType, object? @object, bool exactMatch)
+    parameters:
+    - id: expectedType
+      type: System.Type
+      description: The type the object should be
+    - id: object
+      type: System.Object
+      description: The object to be evaluated
+    - id: exactMatch
+      type: System.Boolean
+      description: >-
+        Will only pass with an exact type match when <code>true</code> is
+            passed; will pass with a compatible type match when <code>false</code> is passed.
+    content.vb: Public Shared Sub IsType(expectedType As Type, [object] As Object, exactMatch As Boolean)
+  overload: Asserts.TypeAsserts.IsType*
+  exceptions:
+  - type: Xunit.Sdk.IsTypeException
+    commentId: T:Xunit.Sdk.IsTypeException
+    description: Thrown when the object is not the given type
+  nameWithType.vb: TypeAsserts.IsType(Type, Object, Boolean)
+  fullName.vb: Asserts.TypeAsserts.IsType(System.Type, Object, Boolean)
+  name.vb: IsType(Type, Object, Boolean)
+references:
+- uid: Asserts
+  commentId: N:Asserts
+  href: Asserts.html
+  name: Asserts
+  nameWithType: Asserts
+  fullName: Asserts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.Sdk.IsAssignableFromException
+  commentId: T:Xunit.Sdk.IsAssignableFromException
+  name: IsAssignableFromException
+  nameWithType: IsAssignableFromException
+  fullName: Xunit.Sdk.IsAssignableFromException
+- uid: Asserts.TypeAsserts.IsAssignableFrom*
+  commentId: Overload:Asserts.TypeAsserts.IsAssignableFrom
+  href: Asserts.TypeAsserts.html#Asserts_TypeAsserts_IsAssignableFrom__1_System_Object_
+  name: IsAssignableFrom
+  nameWithType: TypeAsserts.IsAssignableFrom
+  fullName: Asserts.TypeAsserts.IsAssignableFrom
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Xunit.Sdk.IsNotAssignableFromException
+  commentId: T:Xunit.Sdk.IsNotAssignableFromException
+  name: IsNotAssignableFromException
+  nameWithType: IsNotAssignableFromException
+  fullName: Xunit.Sdk.IsNotAssignableFromException
+- uid: Asserts.TypeAsserts.IsNotAssignableFrom*
+  commentId: Overload:Asserts.TypeAsserts.IsNotAssignableFrom
+  href: Asserts.TypeAsserts.html#Asserts_TypeAsserts_IsNotAssignableFrom__1_System_Object_
+  name: IsNotAssignableFrom
+  nameWithType: TypeAsserts.IsNotAssignableFrom
+  fullName: Asserts.TypeAsserts.IsNotAssignableFrom
+- uid: Xunit.Sdk.IsNotTypeException
+  commentId: T:Xunit.Sdk.IsNotTypeException
+  name: IsNotTypeException
+  nameWithType: IsNotTypeException
+  fullName: Xunit.Sdk.IsNotTypeException
+- uid: Asserts.TypeAsserts.IsNotType*
+  commentId: Overload:Asserts.TypeAsserts.IsNotType
+  href: Asserts.TypeAsserts.html#Asserts_TypeAsserts_IsNotType__1_System_Object_
+  name: IsNotType
+  nameWithType: TypeAsserts.IsNotType
+  fullName: Asserts.TypeAsserts.IsNotType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Xunit.Sdk.IsTypeException
+  commentId: T:Xunit.Sdk.IsTypeException
+  name: IsTypeException
+  nameWithType: IsTypeException
+  fullName: Xunit.Sdk.IsTypeException
+- uid: Asserts.TypeAsserts.IsType*
+  commentId: Overload:Asserts.TypeAsserts.IsType
+  href: Asserts.TypeAsserts.html#Asserts_TypeAsserts_IsType__1_System_Object_
+  name: IsType
+  nameWithType: TypeAsserts.IsType
+  fullName: Asserts.TypeAsserts.IsType

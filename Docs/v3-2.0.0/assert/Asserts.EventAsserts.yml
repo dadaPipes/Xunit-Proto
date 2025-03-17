@@ -1,0 +1,1509 @@
+### YamlMime:ManagedReference
+items:
+- uid: Asserts.EventAsserts
+  commentId: T:Asserts.EventAsserts
+  id: EventAsserts
+  parent: Asserts
+  children:
+  - Asserts.EventAsserts.Raises(System.Action{System.Action},System.Action{System.Action},System.Action)
+  - Asserts.EventAsserts.RaisesAny(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Action)
+  - Asserts.EventAsserts.RaisesAnyAsync(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Func{System.Threading.Tasks.Task})
+  - Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  - Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  - Asserts.EventAsserts.RaisesAny``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  - Asserts.EventAsserts.RaisesAny``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  - Asserts.EventAsserts.RaisesAsync(System.Action{System.Action},System.Action{System.Action},System.Func{System.Threading.Tasks.Task})
+  - Asserts.EventAsserts.RaisesAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  - Asserts.EventAsserts.RaisesAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  - Asserts.EventAsserts.Raises``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  - Asserts.EventAsserts.Raises``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  - Asserts.EventAsserts.Raises``1(System.Func{Asserts.EventAsserts.RaisedEvent{``0}},System.Action,System.Action,System.Action)
+  langs:
+  - csharp
+  - vb
+  name: EventAsserts
+  nameWithType: EventAsserts
+  fullName: Asserts.EventAsserts
+  type: Class
+  source:
+    id: EventAsserts
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 24
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  syntax:
+    content: public class EventAsserts
+    content.vb: Public Class EventAsserts
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Asserts.EventAsserts.Raises(System.Action{System.Action},System.Action{System.Action},System.Action)
+  commentId: M:Asserts.EventAsserts.Raises(System.Action{System.Action},System.Action{System.Action},System.Action)
+  id: Raises(System.Action{System.Action},System.Action{System.Action},System.Action)
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: Raises(Action<Action>, Action<Action>, Action)
+  nameWithType: EventAsserts.Raises(Action<Action>, Action<Action>, Action)
+  fullName: Asserts.EventAsserts.Raises(System.Action<System.Action>, System.Action<System.Action>, System.Action)
+  type: Method
+  source:
+    id: Raises
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 35
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event is raised.
+  example: []
+  syntax:
+    content: public static void Raises(Action<Action> attach, Action<Action> detach, Action testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.Action}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.Action}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    content.vb: Public Shared Sub Raises(attach As Action(Of Action), detach As Action(Of Action), testCode As Action)
+  overload: Asserts.EventAsserts.Raises*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.Raises(Action(Of Action), Action(Of Action), Action)
+  fullName.vb: Asserts.EventAsserts.Raises(System.Action(Of System.Action), System.Action(Of System.Action), System.Action)
+  name.vb: Raises(Action(Of Action), Action(Of Action), Action)
+- uid: Asserts.EventAsserts.Raises``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  commentId: M:Asserts.EventAsserts.Raises``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  id: Raises``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: Raises<T>(Action<Action<T>>, Action<Action<T>>, Action)
+  nameWithType: EventAsserts.Raises<T>(Action<Action<T>>, Action<Action<T>>, Action)
+  fullName: Asserts.EventAsserts.Raises<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Action)
+  type: Method
+  source:
+    id: Raises
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 53
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact event args is raised.
+  example: []
+  syntax:
+    content: public static EventAsserts.RaisedEvent<T> Raises<T>(Action<Action<T>> attach, Action<Action<T>> detach, Action testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.Action{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.Action{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: Asserts.EventAsserts.RaisedEvent{{T}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function Raises(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)
+  overload: Asserts.EventAsserts.Raises*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.Raises(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)
+  fullName.vb: Asserts.EventAsserts.Raises(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Action)
+  name.vb: Raises(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)
+- uid: Asserts.EventAsserts.Raises``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  commentId: M:Asserts.EventAsserts.Raises``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  id: Raises``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: Raises<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)
+  nameWithType: EventAsserts.Raises<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)
+  fullName: Asserts.EventAsserts.Raises<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Action)
+  type: Method
+  source:
+    id: Raises
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 75
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact event args is raised.
+  example: []
+  syntax:
+    content: public static EventAsserts.RaisedEvent<T> Raises<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Action testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: Asserts.EventAsserts.RaisedEvent{{T}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function Raises(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)
+  overload: Asserts.EventAsserts.Raises*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.Raises(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)
+  fullName.vb: Asserts.EventAsserts.Raises(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Action)
+  name.vb: Raises(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)
+- uid: Asserts.EventAsserts.Raises``1(System.Func{Asserts.EventAsserts.RaisedEvent{``0}},System.Action,System.Action,System.Action)
+  commentId: M:Asserts.EventAsserts.Raises``1(System.Func{Asserts.EventAsserts.RaisedEvent{``0}},System.Action,System.Action,System.Action)
+  id: Raises``1(System.Func{Asserts.EventAsserts.RaisedEvent{``0}},System.Action,System.Action,System.Action)
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: Raises<T>(Func<RaisedEvent<T>?>, Action, Action, Action)
+  nameWithType: EventAsserts.Raises<T>(Func<EventAsserts.RaisedEvent<T>?>, Action, Action, Action)
+  fullName: Asserts.EventAsserts.Raises<T>(System.Func<Asserts.EventAsserts.RaisedEvent<T>?>, System.Action, System.Action, System.Action)
+  type: Method
+  source:
+    id: Raises
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 98
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact event args is raised.
+  example: []
+  syntax:
+    content: public static EventAsserts.RaisedEvent<T> Raises<T>(Func<EventAsserts.RaisedEvent<T>?> handler, Action attach, Action detach, Action testCode)
+    parameters:
+    - id: handler
+      type: System.Func{Asserts.EventAsserts.RaisedEvent{{T}}}
+      description: Code returning the raised event
+    - id: attach
+      type: System.Action
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: Asserts.EventAsserts.RaisedEvent{{T}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function Raises(Of T)(handler As Func(Of EventAsserts.RaisedEvent(Of T)), attach As Action, detach As Action, testCode As Action) As EventAsserts.RaisedEvent(Of T)
+  overload: Asserts.EventAsserts.Raises*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.Raises(Of T)(Func(Of EventAsserts.RaisedEvent(Of T)), Action, Action, Action)
+  fullName.vb: Asserts.EventAsserts.Raises(Of T)(System.Func(Of Asserts.EventAsserts.RaisedEvent(Of T)), System.Action, System.Action, System.Action)
+  name.vb: Raises(Of T)(Func(Of RaisedEvent(Of T)), Action, Action, Action)
+- uid: Asserts.EventAsserts.RaisesAny(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Action)
+  commentId: M:Asserts.EventAsserts.RaisesAny(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Action)
+  id: RaisesAny(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Action)
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAny(Action<EventHandler>, Action<EventHandler>, Action)
+  nameWithType: EventAsserts.RaisesAny(Action<EventHandler>, Action<EventHandler>, Action)
+  fullName: Asserts.EventAsserts.RaisesAny(System.Action<System.EventHandler>, System.Action<System.EventHandler>, System.Action)
+  type: Method
+  source:
+    id: RaisesAny
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 124
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event is raised.
+  example: []
+  syntax:
+    content: public static EventAsserts.RaisedEvent<EventArgs> RaisesAny(Action<EventHandler> attach, Action<EventHandler> detach, Action testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.EventHandler}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.EventHandler}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    return:
+      type: Asserts.EventAsserts.RaisedEvent{System.EventArgs}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAny(attach As Action(Of EventHandler), detach As Action(Of EventHandler), testCode As Action) As EventAsserts.RaisedEvent(Of EventArgs)
+  overload: Asserts.EventAsserts.RaisesAny*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAny(Action(Of EventHandler), Action(Of EventHandler), Action)
+  fullName.vb: Asserts.EventAsserts.RaisesAny(System.Action(Of System.EventHandler), System.Action(Of System.EventHandler), System.Action)
+  name.vb: RaisesAny(Action(Of EventHandler), Action(Of EventHandler), Action)
+- uid: Asserts.EventAsserts.RaisesAny``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  commentId: M:Asserts.EventAsserts.RaisesAny``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  id: RaisesAny``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAny<T>(Action<Action<T>>, Action<Action<T>>, Action)
+  nameWithType: EventAsserts.RaisesAny<T>(Action<Action<T>>, Action<Action<T>>, Action)
+  fullName: Asserts.EventAsserts.RaisesAny<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Action)
+  type: Method
+  source:
+    id: RaisesAny
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 139
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact or a derived event args is raised.
+  example: []
+  syntax:
+    content: public static EventAsserts.RaisedEvent<T> RaisesAny<T>(Action<Action<T>> attach, Action<Action<T>> detach, Action testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.Action{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.Action{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: Asserts.EventAsserts.RaisedEvent{{T}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAny(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)
+  overload: Asserts.EventAsserts.RaisesAny*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAny(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)
+  fullName.vb: Asserts.EventAsserts.RaisesAny(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Action)
+  name.vb: RaisesAny(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)
+- uid: Asserts.EventAsserts.RaisesAny``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  commentId: M:Asserts.EventAsserts.RaisesAny``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  id: RaisesAny``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAny<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)
+  nameWithType: EventAsserts.RaisesAny<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)
+  fullName: Asserts.EventAsserts.RaisesAny<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Action)
+  type: Method
+  source:
+    id: RaisesAny
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 154
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact or a derived event args is raised.
+  example: []
+  syntax:
+    content: public static EventAsserts.RaisedEvent<T> RaisesAny<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Action testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Action
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: Asserts.EventAsserts.RaisedEvent{{T}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAny(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)
+  overload: Asserts.EventAsserts.RaisesAny*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAny(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)
+  fullName.vb: Asserts.EventAsserts.RaisesAny(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Action)
+  name.vb: RaisesAny(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)
+- uid: Asserts.EventAsserts.RaisesAnyAsync(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.EventAsserts.RaisesAnyAsync(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Func{System.Threading.Tasks.Task})
+  id: RaisesAnyAsync(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAnyAsync(Action<EventHandler>, Action<EventHandler>, Func<Task>)
+  nameWithType: EventAsserts.RaisesAnyAsync(Action<EventHandler>, Action<EventHandler>, Func<Task>)
+  fullName: Asserts.EventAsserts.RaisesAnyAsync(System.Action<System.EventHandler>, System.Action<System.EventHandler>, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: RaisesAnyAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 168
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event is raised.
+  example: []
+  syntax:
+    content: public static Task<EventAsserts.RaisedEvent<EventArgs>> RaisesAnyAsync(Action<EventHandler> attach, Action<EventHandler> detach, Func<Task> testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.EventHandler}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.EventHandler}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the code to be tested
+    return:
+      type: System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{System.EventArgs}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAnyAsync(attach As Action(Of EventHandler), detach As Action(Of EventHandler), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of EventArgs))
+  overload: Asserts.EventAsserts.RaisesAnyAsync*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAnyAsync(Action(Of EventHandler), Action(Of EventHandler), Func(Of Task))
+  fullName.vb: Asserts.EventAsserts.RaisesAnyAsync(System.Action(Of System.EventHandler), System.Action(Of System.EventHandler), System.Func(Of System.Threading.Tasks.Task))
+  name.vb: RaisesAnyAsync(Action(Of EventHandler), Action(Of EventHandler), Func(Of Task))
+- uid: Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  id: RaisesAnyAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAnyAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)
+  nameWithType: EventAsserts.RaisesAnyAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)
+  fullName: Asserts.EventAsserts.RaisesAnyAsync<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: RaisesAnyAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 183
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact or a derived event args is raised.
+  example: []
+  syntax:
+    content: public static Task<EventAsserts.RaisedEvent<T>> RaisesAnyAsync<T>(Action<Action<T>> attach, Action<Action<T>> detach, Func<Task> testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.Action{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.Action{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAnyAsync(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))
+  overload: Asserts.EventAsserts.RaisesAnyAsync*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAnyAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))
+  fullName.vb: Asserts.EventAsserts.RaisesAnyAsync(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Func(Of System.Threading.Tasks.Task))
+  name.vb: RaisesAnyAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))
+- uid: Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  id: RaisesAnyAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAnyAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)
+  nameWithType: EventAsserts.RaisesAnyAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)
+  fullName: Asserts.EventAsserts.RaisesAnyAsync<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: RaisesAnyAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 198
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact or a derived event args is raised.
+  example: []
+  syntax:
+    content: public static Task<EventAsserts.RaisedEvent<T>> RaisesAnyAsync<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Func<Task> testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAnyAsync(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))
+  overload: Asserts.EventAsserts.RaisesAnyAsync*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAnyAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))
+  fullName.vb: Asserts.EventAsserts.RaisesAnyAsync(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Func(Of System.Threading.Tasks.Task))
+  name.vb: RaisesAnyAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))
+- uid: Asserts.EventAsserts.RaisesAsync(System.Action{System.Action},System.Action{System.Action},System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.EventAsserts.RaisesAsync(System.Action{System.Action},System.Action{System.Action},System.Func{System.Threading.Tasks.Task})
+  id: RaisesAsync(System.Action{System.Action},System.Action{System.Action},System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAsync(Action<Action>, Action<Action>, Func<Task>)
+  nameWithType: EventAsserts.RaisesAsync(Action<Action>, Action<Action>, Func<Task>)
+  fullName: Asserts.EventAsserts.RaisesAsync(System.Action<System.Action>, System.Action<System.Action>, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: RaisesAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 212
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event is raised.
+  example: []
+  syntax:
+    content: public static Task RaisesAsync(Action<Action> attach, Action<Action> detach, Func<Task> testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.Action}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.Action}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the code to be tested
+    return:
+      type: System.Threading.Tasks.Task
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAsync(attach As Action(Of Action), detach As Action(Of Action), testCode As Func(Of Task)) As Task
+  overload: Asserts.EventAsserts.RaisesAsync*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAsync(Action(Of Action), Action(Of Action), Func(Of Task))
+  fullName.vb: Asserts.EventAsserts.RaisesAsync(System.Action(Of System.Action), System.Action(Of System.Action), System.Func(Of System.Threading.Tasks.Task))
+  name.vb: RaisesAsync(Action(Of Action), Action(Of Action), Func(Of Task))
+- uid: Asserts.EventAsserts.RaisesAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.EventAsserts.RaisesAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  id: RaisesAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)
+  nameWithType: EventAsserts.RaisesAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)
+  fullName: Asserts.EventAsserts.RaisesAsync<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: RaisesAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 230
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact event args (and not a derived type) is raised.
+  example: []
+  syntax:
+    content: public static Task<EventAsserts.RaisedEvent<T>> RaisesAsync<T>(Action<Action<T>> attach, Action<Action<T>> detach, Func<Task> testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.Action{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.Action{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAsync(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))
+  overload: Asserts.EventAsserts.RaisesAsync*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))
+  fullName.vb: Asserts.EventAsserts.RaisesAsync(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Func(Of System.Threading.Tasks.Task))
+  name.vb: RaisesAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))
+- uid: Asserts.EventAsserts.RaisesAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  commentId: M:Asserts.EventAsserts.RaisesAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  id: RaisesAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})
+  parent: Asserts.EventAsserts
+  langs:
+  - csharp
+  - vb
+  name: RaisesAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)
+  nameWithType: EventAsserts.RaisesAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)
+  fullName: Asserts.EventAsserts.RaisesAsync<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Func<System.Threading.Tasks.Task>)
+  type: Method
+  source:
+    id: RaisesAsync
+    path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
+    startLine: 252
+  assemblies:
+  - xunit.v3.assert
+  namespace: Asserts
+  summary: Verifies that an event with the exact event args (and not a derived type) is raised.
+  example: []
+  syntax:
+    content: public static Task<EventAsserts.RaisedEvent<T>> RaisesAsync<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Func<Task> testCode)
+    parameters:
+    - id: attach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to attach the event handler
+    - id: detach
+      type: System.Action{System.EventHandler{{T}}}
+      description: Code to detach the event handler
+    - id: testCode
+      type: System.Func{System.Threading.Tasks.Task}
+      description: A delegate to the code to be tested
+    typeParameters:
+    - id: T
+      description: The type of the event arguments to expect
+    return:
+      type: System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}
+      description: The event sender and arguments wrapped in an object
+    content.vb: Public Shared Function RaisesAsync(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))
+  overload: Asserts.EventAsserts.RaisesAsync*
+  exceptions:
+  - type: Xunit.Sdk.RaisesException
+    commentId: T:Xunit.Sdk.RaisesException
+    description: Thrown when the expected event was not raised.
+  nameWithType.vb: EventAsserts.RaisesAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))
+  fullName.vb: Asserts.EventAsserts.RaisesAsync(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Func(Of System.Threading.Tasks.Task))
+  name.vb: RaisesAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))
+references:
+- uid: Asserts
+  commentId: N:Asserts
+  href: Asserts.html
+  name: Asserts
+  nameWithType: Asserts
+  fullName: Asserts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Xunit.Sdk.RaisesException
+  commentId: T:Xunit.Sdk.RaisesException
+  name: RaisesException
+  nameWithType: RaisesException
+  fullName: Xunit.Sdk.RaisesException
+- uid: Asserts.EventAsserts.Raises*
+  commentId: Overload:Asserts.EventAsserts.Raises
+  href: Asserts.EventAsserts.html#Asserts_EventAsserts_Raises_System_Action_System_Action__System_Action_System_Action__System_Action_
+  name: Raises
+  nameWithType: EventAsserts.Raises
+  fullName: Asserts.EventAsserts.Raises
+- uid: System.Action{System.Action}
+  commentId: T:System.Action{System.Action}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<Action>
+  nameWithType: Action<Action>
+  fullName: System.Action<System.Action>
+  nameWithType.vb: Action(Of Action)
+  fullName.vb: System.Action(Of System.Action)
+  name.vb: Action(Of Action)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action{System.Action{{T}}}
+  commentId: T:System.Action{System.Action{``0}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<Action<T>>
+  nameWithType: Action<Action<T>>
+  fullName: System.Action<System.Action<T>>
+  nameWithType.vb: Action(Of Action(Of T))
+  fullName.vb: System.Action(Of System.Action(Of T))
+  name.vb: Action(Of Action(Of T))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Asserts.EventAsserts.RaisedEvent{{T}}
+  commentId: T:Asserts.EventAsserts.RaisedEvent{``0}
+  parent: Asserts
+  definition: Asserts.EventAsserts.RaisedEvent`1
+  href: Asserts.EventAsserts.html
+  name: EventAsserts.RaisedEvent<T>
+  nameWithType: EventAsserts.RaisedEvent<T>
+  fullName: Asserts.EventAsserts.RaisedEvent<T>
+  nameWithType.vb: EventAsserts.RaisedEvent(Of T)
+  fullName.vb: Asserts.EventAsserts.RaisedEvent(Of T)
+  name.vb: EventAsserts.RaisedEvent(Of T)
+  spec.csharp:
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Asserts.EventAsserts.RaisedEvent`1
+  commentId: T:Asserts.EventAsserts.RaisedEvent`1
+  href: Asserts.EventAsserts.html
+  name: EventAsserts.RaisedEvent<T>
+  nameWithType: EventAsserts.RaisedEvent<T>
+  fullName: Asserts.EventAsserts.RaisedEvent<T>
+  nameWithType.vb: EventAsserts.RaisedEvent(Of T)
+  fullName.vb: Asserts.EventAsserts.RaisedEvent(Of T)
+  name.vb: EventAsserts.RaisedEvent(Of T)
+  spec.csharp:
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action{System.EventHandler{{T}}}
+  commentId: T:System.Action{System.EventHandler{``0}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<EventHandler<T>>
+  nameWithType: Action<EventHandler<T>>
+  fullName: System.Action<System.EventHandler<T>>
+  nameWithType.vb: Action(Of EventHandler(Of T))
+  fullName.vb: System.Action(Of System.EventHandler(Of T))
+  name.vb: Action(Of EventHandler(Of T))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Func{Asserts.EventAsserts.RaisedEvent{{T}}}
+  commentId: T:System.Func{Asserts.EventAsserts.RaisedEvent{``0}}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<EventAsserts.RaisedEvent<T>>
+  nameWithType: Func<EventAsserts.RaisedEvent<T>>
+  fullName: System.Func<Asserts.EventAsserts.RaisedEvent<T>>
+  nameWithType.vb: Func(Of EventAsserts.RaisedEvent(Of T))
+  fullName.vb: System.Func(Of Asserts.EventAsserts.RaisedEvent(Of T))
+  name.vb: Func(Of EventAsserts.RaisedEvent(Of T))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Asserts.EventAsserts.RaisesAny*
+  commentId: Overload:Asserts.EventAsserts.RaisesAny
+  href: Asserts.EventAsserts.html#Asserts_EventAsserts_RaisesAny_System_Action_System_EventHandler__System_Action_System_EventHandler__System_Action_
+  name: RaisesAny
+  nameWithType: EventAsserts.RaisesAny
+  fullName: Asserts.EventAsserts.RaisesAny
+- uid: System.Action{System.EventHandler}
+  commentId: T:System.Action{System.EventHandler}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<EventHandler>
+  nameWithType: Action<EventHandler>
+  fullName: System.Action<System.EventHandler>
+  nameWithType.vb: Action(Of EventHandler)
+  fullName.vb: System.Action(Of System.EventHandler)
+  name.vb: Action(Of EventHandler)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.EventHandler
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.EventHandler
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler
+  - name: )
+- uid: Asserts.EventAsserts.RaisedEvent{System.EventArgs}
+  commentId: T:Asserts.EventAsserts.RaisedEvent{System.EventArgs}
+  parent: Asserts
+  definition: Asserts.EventAsserts.RaisedEvent`1
+  href: Asserts.EventAsserts.html
+  name: EventAsserts.RaisedEvent<EventArgs>
+  nameWithType: EventAsserts.RaisedEvent<EventArgs>
+  fullName: Asserts.EventAsserts.RaisedEvent<System.EventArgs>
+  nameWithType.vb: EventAsserts.RaisedEvent(Of EventArgs)
+  fullName.vb: Asserts.EventAsserts.RaisedEvent(Of System.EventArgs)
+  name.vb: EventAsserts.RaisedEvent(Of EventArgs)
+  spec.csharp:
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: <
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: '>'
+  spec.vb:
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: )
+- uid: Asserts.EventAsserts.RaisesAnyAsync*
+  commentId: Overload:Asserts.EventAsserts.RaisesAnyAsync
+  href: Asserts.EventAsserts.html#Asserts_EventAsserts_RaisesAnyAsync_System_Action_System_EventHandler__System_Action_System_EventHandler__System_Func_System_Threading_Tasks_Task__
+  name: RaisesAnyAsync
+  nameWithType: EventAsserts.RaisesAnyAsync
+  fullName: Asserts.EventAsserts.RaisesAnyAsync
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{System.EventArgs}}
+  commentId: T:System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{System.EventArgs}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<EventAsserts.RaisedEvent<EventArgs>>
+  nameWithType: Task<EventAsserts.RaisedEvent<EventArgs>>
+  fullName: System.Threading.Tasks.Task<Asserts.EventAsserts.RaisedEvent<System.EventArgs>>
+  nameWithType.vb: Task(Of EventAsserts.RaisedEvent(Of EventArgs))
+  fullName.vb: System.Threading.Tasks.Task(Of Asserts.EventAsserts.RaisedEvent(Of System.EventArgs))
+  name.vb: Task(Of EventAsserts.RaisedEvent(Of EventArgs))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: <
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}
+  commentId: T:System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<EventAsserts.RaisedEvent<T>>
+  nameWithType: Task<EventAsserts.RaisedEvent<T>>
+  fullName: System.Threading.Tasks.Task<Asserts.EventAsserts.RaisedEvent<T>>
+  nameWithType.vb: Task(Of EventAsserts.RaisedEvent(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of Asserts.EventAsserts.RaisedEvent(Of T))
+  name.vb: Task(Of EventAsserts.RaisedEvent(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Asserts.EventAsserts
+    name: EventAsserts
+    href: Asserts.EventAsserts.html
+  - name: .
+  - uid: Asserts.EventAsserts.RaisedEvent`1
+    name: RaisedEvent
+    href: Asserts.EventAsserts.RaisedEvent-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Asserts.EventAsserts.RaisesAsync*
+  commentId: Overload:Asserts.EventAsserts.RaisesAsync
+  href: Asserts.EventAsserts.html#Asserts_EventAsserts_RaisesAsync_System_Action_System_Action__System_Action_System_Action__System_Func_System_Threading_Tasks_Task__
+  name: RaisesAsync
+  nameWithType: EventAsserts.RaisesAsync
+  fullName: Asserts.EventAsserts.RaisesAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

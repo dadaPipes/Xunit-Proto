@@ -1,0 +1,1832 @@
+{
+  "uid": "Xunit.TheoryDataRow",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.TheoryDataRow.#ctor(System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRow",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow(params object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "New(ParamArray Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow.TheoryDataRow(params object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow.New(ParamArray Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow.TheoryDataRow(params object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow.New(ParamArray Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRow.#ctor(System.Object[])\" text=\"TheoryDataRow(params object?[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRow.#ctor(System.Object[])\" text=\"TheoryDataRow(params object?[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public TheoryDataRow(params object?[] data)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(ParamArray data As Object())"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "data",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">The data for the theory row</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TheoryDataRow.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TheoryDataRow.cs",
+        "startLine": 53,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">It is strongly recommended that you use one of the generic typed variations when possible,\nas this provides type-safety from the compiler and allows the analyzers to flag instances\nwhere data types from theory data don't match the data types in theory parameters.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TheoryDataRow.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDataRow.TheoryDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "TheoryDataRow.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TheoryDataRow.TheoryDataRow"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TheoryDataRow.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TheoryDataRow.#ctor*\" text=\"TheoryDataRow\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TheoryDataRow.#ctor*\" text=\"TheoryDataRow\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts untyped pre-enumerated data.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TheoryDataRow.Data",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRow",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Data"
+        },
+        {
+          "lang": "vb",
+          "value": "Data"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow.Data"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow.Data"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow.Data"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow.Data"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRow.Data\" text=\"Data\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRow.Data\" text=\"Data\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public object?[] Data { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Data As Object()"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Object[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TheoryDataRow.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Data",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TheoryDataRow.cs",
+        "startLine": 59,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TheoryDataRow.Data*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Data"
+          },
+          {
+            "lang": "vb",
+            "value": "Data"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDataRow.Data"
+          },
+          {
+            "lang": "vb",
+            "value": "TheoryDataRow.Data"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TheoryDataRow.Data"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TheoryDataRow.Data"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TheoryDataRow.Data*\" text=\"Data\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TheoryDataRow.Data*\" text=\"Data\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">Gets the row of data.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TheoryDataRow.GetData",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRow",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetData()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetData()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRow.GetData()"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRow.GetData()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRow.GetData()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRow.GetData()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRow.GetData\" text=\"GetData()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRow.GetData\" text=\"GetData()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override object?[] GetData()"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Function GetData() As Object()"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Object[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TheoryDataRow.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetData",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TheoryDataRow.cs",
+        "startLine": 63,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.TheoryDataRowBase.GetData",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetData()"
+          },
+          {
+            "lang": "vb",
+            "value": "GetData()"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDataRowBase.GetData()"
+          },
+          {
+            "lang": "vb",
+            "value": "TheoryDataRowBase.GetData()"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TheoryDataRowBase.GetData()"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TheoryDataRowBase.GetData()"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBase.html#Xunit_TheoryDataRowBase_GetData\">GetData</a>()"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBase.html#Xunit_TheoryDataRowBase_GetData\">GetData</a>()"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.TheoryDataRow.GetData*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetData"
+          },
+          {
+            "lang": "vb",
+            "value": "GetData"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TheoryDataRow.GetData"
+          },
+          {
+            "lang": "vb",
+            "value": "TheoryDataRow.GetData"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TheoryDataRow.GetData"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TheoryDataRow.GetData"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TheoryDataRow.GetData*\" text=\"GetData\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TheoryDataRow.GetData*\" text=\"GetData\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">Override to implement <xref href=\"Xunit.ITheoryDataRow.GetData\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TheoryDataRow"
+    },
+    {
+      "lang": "vb",
+      "value": "TheoryDataRow"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TheoryDataRow"
+    },
+    {
+      "lang": "vb",
+      "value": "TheoryDataRow"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.TheoryDataRow"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.TheoryDataRow"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/TheoryDataRow.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TheoryDataRow",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/TheoryDataRow.cs",
+    "startLine": 53,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Xunit.ITheoryDataRow\" data-throw-if-not-resolved=\"false\"></xref> which accepts untyped pre-enumerated data.</p>\n",
+  "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRow.yml\" sourcestartlinenumber=\"1\">It is strongly recommended that you use one of the generic typed variations when possible,\nas this provides type-safety from the compiler and allows the analyzers to flag instances\nwhere data types from theory data don't match the data types in theory parameters.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class TheoryDataRow : TheoryDataRowBase, ITheoryDataRow"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class TheoryDataRow Inherits TheoryDataRowBase Implements ITheoryDataRow"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.TheoryDataRowBase",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit",
+      "href": "Xunit.TheoryDataRowBase.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBase"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBase"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase\" text=\"TheoryDataRowBase\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase\" text=\"TheoryDataRowBase\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "level": 2,
+  "implements": [
+    {
+      "uid": "Xunit.ITheoryDataRow",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "ITheoryDataRow"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "ITheoryDataRow"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.ITheoryDataRow"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.ITheoryDataRow"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.ITheoryDataRow\" text=\"ITheoryDataRow\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.TheoryDataRowBase.Explicit",
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBase",
+      "href": "Xunit.TheoryDataRowBase.html#Xunit_TheoryDataRowBase_Explicit",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Explicit"
+        },
+        {
+          "lang": "vb",
+          "value": "Explicit"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase.Explicit"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase.Explicit"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBase.Explicit"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBase.Explicit"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Explicit\" text=\"Explicit\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Explicit\" text=\"Explicit\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRowBase.yml\" sourcestartlinenumber=\"1\">Gets a flag that indicates that the data row should only be run explicitly. If the value is <code>null</code>,\nthen it inherits its explicitness from the value of <xref href=\"Xunit.v3.IFactAttribute.Explicit\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRowBase.Skip",
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBase",
+      "href": "Xunit.TheoryDataRowBase.html#Xunit_TheoryDataRowBase_Skip",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Skip"
+        },
+        {
+          "lang": "vb",
+          "value": "Skip"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase.Skip"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase.Skip"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBase.Skip"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBase.Skip"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Skip\" text=\"Skip\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Skip\" text=\"Skip\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRowBase.yml\" sourcestartlinenumber=\"1\">Gets the reason for skipping this row of data; if <code>null</code> is returned, then the data\nrow isn't skipped.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRowBase.TestDisplayName",
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBase",
+      "href": "Xunit.TheoryDataRowBase.html#Xunit_TheoryDataRowBase_TestDisplayName",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TestDisplayName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase.TestDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase.TestDisplayName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBase.TestDisplayName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBase.TestDisplayName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.TestDisplayName\" text=\"TestDisplayName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.TestDisplayName\" text=\"TestDisplayName\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRowBase.yml\" sourcestartlinenumber=\"1\">Gets the display name for the test (replacing the default behavior, which would be to\nuse <xref href=\"Xunit.v3.IDataAttribute.TestDisplayName\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"Xunit.v3.IFactAttribute.DisplayName\" data-throw-if-not-resolved=\"false\"></xref>,\nor falling back to the default test display name based on <xref href=\"Xunit.Sdk.TestMethodDisplay\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"Xunit.Sdk.TestMethodDisplayOptions\" data-throw-if-not-resolved=\"false\"></xref> in the configuration file).</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRowBase.Timeout",
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBase",
+      "href": "Xunit.TheoryDataRowBase.html#Xunit_TheoryDataRowBase_Timeout",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Timeout"
+        },
+        {
+          "lang": "vb",
+          "value": "Timeout"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase.Timeout"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase.Timeout"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBase.Timeout"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBase.Timeout"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Timeout\" text=\"Timeout\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Timeout\" text=\"Timeout\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRowBase.yml\" sourcestartlinenumber=\"1\">A value greater than zero marks the test as having a timeout, and gets or sets the\ntimeout (in milliseconds). A non-<code>null</code> value here overrides any inherited value\nfrom the <xref href=\"Xunit.v3.IDataAttribute\" data-throw-if-not-resolved=\"false\"></xref> or the <xref href=\"Xunit.v3.ITheoryAttribute\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.TheoryDataRowBase.Traits",
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBase",
+      "href": "Xunit.TheoryDataRowBase.html#Xunit_TheoryDataRowBase_Traits",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Traits"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBase.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBase.Traits"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBase.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBase.Traits"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Traits\" text=\"Traits\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TheoryDataRowBase.Traits\" text=\"Traits\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TheoryDataRowBase.yml\" sourcestartlinenumber=\"1\">Gets or sets the traits for the theory data row.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "Xunit.TheoryDataRow.Xunit.TheoryDataRowBaseExtensions.WithExplicit``1(System.Nullable{System.Boolean})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBaseExtensions",
+      "definition": "Xunit.TheoryDataRowBaseExtensions.WithExplicit``1(``0,System.Nullable{System.Boolean})",
+      "href": "Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithExplicit__1___0_System_Nullable_System_Boolean__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WithExplicit<TheoryDataRow>(TheoryDataRow, bool?)"
+        },
+        {
+          "lang": "vb",
+          "value": "WithExplicit(Of TheoryDataRow)(TheoryDataRow, Boolean?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBaseExtensions.WithExplicit<TheoryDataRow>(TheoryDataRow, bool?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBaseExtensions.WithExplicit(Of TheoryDataRow)(TheoryDataRow, Boolean?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithExplicit<Xunit.TheoryDataRow>(Xunit.TheoryDataRow, bool?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithExplicit(Of Xunit.TheoryDataRow)(Xunit.TheoryDataRow, Boolean?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithExplicit__1___0_System_Nullable_System_Boolean__\">WithExplicit</a>&lt;<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>&gt;(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithExplicit__1___0_System_Nullable_System_Boolean__\">WithExplicit</a>(Of <a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>)(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>?)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.TheoryDataRow.Xunit.TheoryDataRowBaseExtensions.WithSkip``1(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBaseExtensions",
+      "definition": "Xunit.TheoryDataRowBaseExtensions.WithSkip``1(``0,System.String)",
+      "href": "Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithSkip__1___0_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WithSkip<TheoryDataRow>(TheoryDataRow, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WithSkip(Of TheoryDataRow)(TheoryDataRow, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBaseExtensions.WithSkip<TheoryDataRow>(TheoryDataRow, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBaseExtensions.WithSkip(Of TheoryDataRow)(TheoryDataRow, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithSkip<Xunit.TheoryDataRow>(Xunit.TheoryDataRow, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithSkip(Of Xunit.TheoryDataRow)(Xunit.TheoryDataRow, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithSkip__1___0_System_String_\">WithSkip</a>&lt;<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>&gt;(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithSkip__1___0_System_String_\">WithSkip</a>(Of <a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>)(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.TheoryDataRow.Xunit.TheoryDataRowBaseExtensions.WithTestDisplayName``1(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBaseExtensions",
+      "definition": "Xunit.TheoryDataRowBaseExtensions.WithTestDisplayName``1(``0,System.String)",
+      "href": "Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTestDisplayName__1___0_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WithTestDisplayName<TheoryDataRow>(TheoryDataRow, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WithTestDisplayName(Of TheoryDataRow)(TheoryDataRow, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBaseExtensions.WithTestDisplayName<TheoryDataRow>(TheoryDataRow, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBaseExtensions.WithTestDisplayName(Of TheoryDataRow)(TheoryDataRow, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithTestDisplayName<Xunit.TheoryDataRow>(Xunit.TheoryDataRow, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithTestDisplayName(Of Xunit.TheoryDataRow)(Xunit.TheoryDataRow, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTestDisplayName__1___0_System_String_\">WithTestDisplayName</a>&lt;<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>&gt;(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTestDisplayName__1___0_System_String_\">WithTestDisplayName</a>(Of <a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>)(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.TheoryDataRow.Xunit.TheoryDataRowBaseExtensions.WithTimeout``1(System.Nullable{System.Int32})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBaseExtensions",
+      "definition": "Xunit.TheoryDataRowBaseExtensions.WithTimeout``1(``0,System.Nullable{System.Int32})",
+      "href": "Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTimeout__1___0_System_Nullable_System_Int32__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WithTimeout<TheoryDataRow>(TheoryDataRow, int?)"
+        },
+        {
+          "lang": "vb",
+          "value": "WithTimeout(Of TheoryDataRow)(TheoryDataRow, Integer?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBaseExtensions.WithTimeout<TheoryDataRow>(TheoryDataRow, int?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBaseExtensions.WithTimeout(Of TheoryDataRow)(TheoryDataRow, Integer?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithTimeout<Xunit.TheoryDataRow>(Xunit.TheoryDataRow, int?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithTimeout(Of Xunit.TheoryDataRow)(Xunit.TheoryDataRow, Integer?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTimeout__1___0_System_Nullable_System_Int32__\">WithTimeout</a>&lt;<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>&gt;(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTimeout__1___0_System_Nullable_System_Int32__\">WithTimeout</a>(Of <a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>)(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.TheoryDataRow.Xunit.TheoryDataRowBaseExtensions.WithTrait``1(System.String,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TheoryDataRowBaseExtensions",
+      "definition": "Xunit.TheoryDataRowBaseExtensions.WithTrait``1(``0,System.String,System.String)",
+      "href": "Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTrait__1___0_System_String_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WithTrait<TheoryDataRow>(TheoryDataRow, string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "WithTrait(Of TheoryDataRow)(TheoryDataRow, String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TheoryDataRowBaseExtensions.WithTrait<TheoryDataRow>(TheoryDataRow, string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "TheoryDataRowBaseExtensions.WithTrait(Of TheoryDataRow)(TheoryDataRow, String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithTrait<Xunit.TheoryDataRow>(Xunit.TheoryDataRow, string, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TheoryDataRowBaseExtensions.WithTrait(Of Xunit.TheoryDataRow)(Xunit.TheoryDataRow, String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTrait__1___0_System_String_System_String_\">WithTrait</a>&lt;<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>&gt;(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.TheoryDataRowBaseExtensions.html#Xunit_TheoryDataRowBaseExtensions_WithTrait__1___0_System_String_System_String_\">WithTrait</a>(Of <a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>)(<a class=\"xref\" href=\"Xunit.TheoryDataRow.html\">TheoryDataRow</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.TheoryDataRow.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.TheoryDataRow.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

@@ -1,0 +1,5438 @@
+{
+  "uid": "Xunit.v3.XunitTestMethod",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.XunitTestMethod.#ctor",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod()"
+        },
+        {
+          "lang": "vb",
+          "value": "New()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.XunitTestMethod()"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.New()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.XunitTestMethod()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.New()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor\" text=\"XunitTestMethod()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor\" text=\"XunitTestMethod()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "[Obsolete(\"Called by the de-serializer; should only be called by deriving classes for de-serialization purposes\")]\npublic XunitTestMethod()"
+          },
+          {
+            "lang": "vb",
+            "value": "<Obsolete(\"Called by the de-serializer; should only be called by deriving classes for de-serialization purposes\")>\nPublic Sub New()"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 32,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.XunitTestMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.XunitTestMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor*\" text=\"XunitTestMethod\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor*\" text=\"XunitTestMethod\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "attributes": [
+        {
+          "type": "System.ObsoleteAttribute",
+          "ctor": "System.ObsoleteAttribute.#ctor(System.String)",
+          "arguments": [
+            {
+              "type": "System.String",
+              "value": "Called by the de-serializer; should only be called by deriving classes for de-serialization purposes"
+            }
+          ]
+        }
+      ],
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Called by the de-serializer; should only be called by deriving classes for de-serialization purposes</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.#ctor(Xunit.v3.IXunitTestClass,System.Reflection.MethodInfo,System.Object[],System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod(IXunitTestClass, MethodInfo, object?[], string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(IXunitTestClass, MethodInfo, Object(), String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.XunitTestMethod(IXunitTestClass, MethodInfo, object?[], string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.New(IXunitTestClass, MethodInfo, Object(), String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.XunitTestMethod(Xunit.v3.IXunitTestClass, System.Reflection.MethodInfo, object?[], string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.New(Xunit.v3.IXunitTestClass, System.Reflection.MethodInfo, Object(), String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor(Xunit.v3.IXunitTestClass,System.Reflection.MethodInfo,System.Object[],System.String)\" text=\"XunitTestMethod(IXunitTestClass, MethodInfo, object?[], string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor(Xunit.v3.IXunitTestClass,System.Reflection.MethodInfo,System.Object[],System.String)\" text=\"XunitTestMethod(IXunitTestClass, MethodInfo, object?[], string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public XunitTestMethod(IXunitTestClass testClass, MethodInfo method, object?[] testMethodArguments, string? uniqueID = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(testClass As IXunitTestClass, method As MethodInfo, testMethodArguments As Object(), uniqueID As String = Nothing)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "testClass",
+            "type": {
+              "uid": "Xunit.v3.IXunitTestClass",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestClass"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestClass"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitTestClass"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitTestClass"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.IXunitTestClass"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.IXunitTestClass"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestClass\" text=\"IXunitTestClass\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.IXunitTestClass\" text=\"IXunitTestClass\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The test class</p>\n"
+          },
+          {
+            "id": "method",
+            "type": {
+              "uid": "System.Reflection.MethodInfo",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "MethodInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "MethodInfo"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "MethodInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "MethodInfo"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Reflection.MethodInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Reflection.MethodInfo"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Reflection.MethodInfo\" text=\"MethodInfo\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Reflection.MethodInfo\" text=\"MethodInfo\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The test method</p>\n"
+          },
+          {
+            "id": "testMethodArguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The arguments to pass to the test method</p>\n"
+          },
+          {
+            "id": "uniqueID",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The unique ID for the test method (only used to override default behavior in testing scenarios)</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 51,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.XunitTestMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.XunitTestMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor*\" text=\"XunitTestMethod\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.#ctor*\" text=\"XunitTestMethod\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"Xunit.v3.XunitTestMethod\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "BeforeAfterTestAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "BeforeAfterTestAttributes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.BeforeAfterTestAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.BeforeAfterTestAttributes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes\" text=\"BeforeAfterTestAttributes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes\" text=\"BeforeAfterTestAttributes\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<IBeforeAfterTestAttribute> BeforeAfterTestAttributes { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property BeforeAfterTestAttributes As IReadOnlyCollection(Of IBeforeAfterTestAttribute)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IBeforeAfterTestAttribute}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<IBeforeAfterTestAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of IBeforeAfterTestAttribute)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<IBeforeAfterTestAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of IBeforeAfterTestAttribute)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IBeforeAfterTestAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IBeforeAfterTestAttribute)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"Xunit.v3.IBeforeAfterTestAttribute.html\">IBeforeAfterTestAttribute</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"Xunit.v3.IBeforeAfterTestAttribute.html\">IBeforeAfterTestAttribute</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "BeforeAfterTestAttributes",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 67,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "BeforeAfterTestAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "BeforeAfterTestAttributes"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.BeforeAfterTestAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.BeforeAfterTestAttributes"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes*\" text=\"BeforeAfterTestAttributes\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.BeforeAfterTestAttributes*\" text=\"BeforeAfterTestAttributes\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.BeforeAfterTestAttributes",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BeforeAfterTestAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "BeforeAfterTestAttributes"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.BeforeAfterTestAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.BeforeAfterTestAttributes"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.BeforeAfterTestAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.BeforeAfterTestAttributes"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.BeforeAfterTestAttributes\" text=\"BeforeAfterTestAttributes\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.BeforeAfterTestAttributes\" text=\"BeforeAfterTestAttributes\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the <xref href=\"Xunit.v3.IBeforeAfterTestAttribute\" data-throw-if-not-resolved=\"false\"></xref>s attached to the test method (and the test class,\ntest collection, and test assembly).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.DataAttributes",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DataAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "DataAttributes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.DataAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.DataAttributes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.DataAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.DataAttributes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.DataAttributes\" text=\"DataAttributes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.DataAttributes\" text=\"DataAttributes\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<IDataAttribute> DataAttributes { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property DataAttributes As IReadOnlyCollection(Of IDataAttribute)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IDataAttribute}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<IDataAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of IDataAttribute)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<IDataAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of IDataAttribute)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IDataAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IDataAttribute)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"Xunit.v3.IDataAttribute.html\">IDataAttribute</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"Xunit.v3.IDataAttribute.html\">IDataAttribute</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "DataAttributes",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 71,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.DataAttributes*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DataAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "DataAttributes"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.DataAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.DataAttributes"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.DataAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.DataAttributes"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.DataAttributes*\" text=\"DataAttributes\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.DataAttributes*\" text=\"DataAttributes\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.DataAttributes",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DataAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "DataAttributes"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.DataAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.DataAttributes"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.DataAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.DataAttributes"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.DataAttributes\" text=\"DataAttributes\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.DataAttributes\" text=\"DataAttributes\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the <xref href=\"Xunit.v3.IDataAttribute\" data-throw-if-not-resolved=\"false\"></xref>s attached to the test method.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.Deserialize(Xunit.Sdk.IXunitSerializationInfo)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Deserialize(IXunitSerializationInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "Deserialize(IXunitSerializationInfo)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.Deserialize(IXunitSerializationInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.Deserialize(IXunitSerializationInfo)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.Deserialize(Xunit.Sdk.IXunitSerializationInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.Deserialize(Xunit.Sdk.IXunitSerializationInfo)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Deserialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Deserialize(IXunitSerializationInfo)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Deserialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Deserialize(IXunitSerializationInfo)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void Deserialize(IXunitSerializationInfo info)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub Deserialize(info As IXunitSerializationInfo)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "info",
+            "type": {
+              "uid": "Xunit.Sdk.IXunitSerializationInfo",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitSerializationInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitSerializationInfo"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitSerializationInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitSerializationInfo"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IXunitSerializationInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IXunitSerializationInfo"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The info to get the object data from</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Deserialize",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 117,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.Deserialize*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Deserialize"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.Deserialize"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.Deserialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.Deserialize"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Deserialize*\" text=\"Deserialize\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Deserialize*\" text=\"Deserialize\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.IXunitSerializable.Deserialize(Xunit.Sdk.IXunitSerializationInfo)",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Deserialize(IXunitSerializationInfo)"
+            },
+            {
+              "lang": "vb",
+              "value": "Deserialize(IXunitSerializationInfo)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitSerializable.Deserialize(IXunitSerializationInfo)"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitSerializable.Deserialize(IXunitSerializationInfo)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.IXunitSerializable.Deserialize(Xunit.Sdk.IXunitSerializationInfo)"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.IXunitSerializable.Deserialize(Xunit.Sdk.IXunitSerializationInfo)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable.Deserialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Deserialize\"/>(<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>)"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable.Deserialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Deserialize\"/>(<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>)"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Called when the object should populate itself with data from the serialization info.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.FactAttributes",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FactAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "FactAttributes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.FactAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.FactAttributes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.FactAttributes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.FactAttributes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.FactAttributes\" text=\"FactAttributes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.FactAttributes\" text=\"FactAttributes\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<IFactAttribute> FactAttributes { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property FactAttributes As IReadOnlyCollection(Of IFactAttribute)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{Xunit.v3.IFactAttribute}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<IFactAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of IFactAttribute)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<IFactAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of IFactAttribute)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<Xunit.v3.IFactAttribute>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of Xunit.v3.IFactAttribute)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"Xunit.v3.IFactAttribute.html\">IFactAttribute</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"Xunit.v3.IFactAttribute.html\">IFactAttribute</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "FactAttributes",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 75,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.FactAttributes*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FactAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "FactAttributes"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.FactAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.FactAttributes"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.FactAttributes"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.FactAttributes"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.FactAttributes*\" text=\"FactAttributes\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.FactAttributes*\" text=\"FactAttributes\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.FactAttributes",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "FactAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "FactAttributes"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.FactAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.FactAttributes"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.FactAttributes"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.FactAttributes"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.FactAttributes\" text=\"FactAttributes\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.FactAttributes\" text=\"FactAttributes\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the <xref href=\"Xunit.v3.IFactAttribute\" data-throw-if-not-resolved=\"false\"></xref>s attached to the test method.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.GetDisplayName(System.String,System.Object[],System.Type[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetDisplayName(string, object?[]?, Type[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetDisplayName(String, Object(), Type())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.GetDisplayName(string, object?[]?, Type[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.GetDisplayName(String, Object(), Type())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.GetDisplayName(string, object?[]?, System.Type[]?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.GetDisplayName(String, Object(), System.Type())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.GetDisplayName(System.String,System.Object[],System.Type[])\" text=\"GetDisplayName(string, object?[]?, Type[]?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.GetDisplayName(System.String,System.Object[],System.Type[])\" text=\"GetDisplayName(string, object?[]?, Type[]?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string GetDisplayName(string baseDisplayName, object?[]? testMethodArguments, Type[]? methodGenericTypes)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function GetDisplayName(baseDisplayName As String, testMethodArguments As Object(), methodGenericTypes As Type()) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "baseDisplayName",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The base display name.</p>\n"
+          },
+          {
+            "id": "testMethodArguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The test method arguments.</p>\n"
+          },
+          {
+            "id": "methodGenericTypes",
+            "type": {
+              "uid": "System.Type[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The generic types of the method.</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetDisplayName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 134,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.GetDisplayName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "GetDisplayName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.GetDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.GetDisplayName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.GetDisplayName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.GetDisplayName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.GetDisplayName*\" text=\"GetDisplayName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.GetDisplayName*\" text=\"GetDisplayName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.GetDisplayName(System.String,System.Object[],System.Type[])",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetDisplayName(string, object[], Type[])"
+            },
+            {
+              "lang": "vb",
+              "value": "GetDisplayName(String, Object(), Type())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.GetDisplayName(string, object[], Type[])"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.GetDisplayName(String, Object(), Type())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.GetDisplayName(string, object[], System.Type[])"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.GetDisplayName(String, Object(), System.Type())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_GetDisplayName_System_String_System_Object___System_Type___\">GetDisplayName</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[], <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[])"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_GetDisplayName_System_String_System_Object___System_Type___\">GetDisplayName</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>())"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the display name for the test method, factoring in arguments and generic types.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.IsGenericMethodDefinition",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsGenericMethodDefinition"
+        },
+        {
+          "lang": "vb",
+          "value": "IsGenericMethodDefinition"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.IsGenericMethodDefinition"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.IsGenericMethodDefinition"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.IsGenericMethodDefinition"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.IsGenericMethodDefinition"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.IsGenericMethodDefinition\" text=\"IsGenericMethodDefinition\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.IsGenericMethodDefinition\" text=\"IsGenericMethodDefinition\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public bool IsGenericMethodDefinition { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property IsGenericMethodDefinition As Boolean"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "IsGenericMethodDefinition",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 79,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.IsGenericMethodDefinition*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IsGenericMethodDefinition"
+          },
+          {
+            "lang": "vb",
+            "value": "IsGenericMethodDefinition"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.IsGenericMethodDefinition"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.IsGenericMethodDefinition"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.IsGenericMethodDefinition"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.IsGenericMethodDefinition"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.IsGenericMethodDefinition*\" text=\"IsGenericMethodDefinition\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.IsGenericMethodDefinition*\" text=\"IsGenericMethodDefinition\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.IsGenericMethodDefinition",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsGenericMethodDefinition"
+            },
+            {
+              "lang": "vb",
+              "value": "IsGenericMethodDefinition"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.IsGenericMethodDefinition"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.IsGenericMethodDefinition"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.IsGenericMethodDefinition"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.IsGenericMethodDefinition"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.IsGenericMethodDefinition\" text=\"IsGenericMethodDefinition\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.IsGenericMethodDefinition\" text=\"IsGenericMethodDefinition\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets a flag which indicates whether this is a generic method definition.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.MakeGenericMethod(System.Type[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MakeGenericMethod(Type[])"
+        },
+        {
+          "lang": "vb",
+          "value": "MakeGenericMethod(Type())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.MakeGenericMethod(Type[])"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.MakeGenericMethod(Type())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.MakeGenericMethod(System.Type[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.MakeGenericMethod(System.Type())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MakeGenericMethod(System.Type[])\" text=\"MakeGenericMethod(Type[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MakeGenericMethod(System.Type[])\" text=\"MakeGenericMethod(Type[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public MethodInfo MakeGenericMethod(Type[] genericTypes)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function MakeGenericMethod(genericTypes As Type()) As MethodInfo"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "genericTypes",
+            "type": {
+              "uid": "System.Type[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The generic types</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Reflection.MethodInfo",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MethodInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "MethodInfo"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MethodInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "MethodInfo"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Reflection.MethodInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Reflection.MethodInfo"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Reflection.MethodInfo\" text=\"MethodInfo\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Reflection.MethodInfo\" text=\"MethodInfo\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "MakeGenericMethod",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 141,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.MakeGenericMethod*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "MakeGenericMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "MakeGenericMethod"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.MakeGenericMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.MakeGenericMethod"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.MakeGenericMethod"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.MakeGenericMethod"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MakeGenericMethod*\" text=\"MakeGenericMethod\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MakeGenericMethod*\" text=\"MakeGenericMethod\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.MakeGenericMethod(System.Type[])",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MakeGenericMethod(Type[])"
+            },
+            {
+              "lang": "vb",
+              "value": "MakeGenericMethod(Type())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.MakeGenericMethod(Type[])"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.MakeGenericMethod(Type())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.MakeGenericMethod(System.Type[])"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.MakeGenericMethod(System.Type())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_MakeGenericMethod_System_Type___\">MakeGenericMethod</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[])"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_MakeGenericMethod_System_Type___\">MakeGenericMethod</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>())"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Creates a generic version of the test method with the given generic types.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.Method",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Method"
+        },
+        {
+          "lang": "vb",
+          "value": "Method"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.Method"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.Method"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.Method"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.Method"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Method\" text=\"Method\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Method\" text=\"Method\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public MethodInfo Method { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Method As MethodInfo"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Reflection.MethodInfo",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MethodInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "MethodInfo"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MethodInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "MethodInfo"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Reflection.MethodInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Reflection.MethodInfo"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Reflection.MethodInfo\" text=\"MethodInfo\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Reflection.MethodInfo\" text=\"MethodInfo\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Method",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 83,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">This should only be used to execute a test method. All reflection should be abstracted here\ninstead for better testability.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.Method*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Method"
+          },
+          {
+            "lang": "vb",
+            "value": "Method"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.Method"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.Method"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.Method"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.Method"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Method*\" text=\"Method\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Method*\" text=\"Method\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.Method",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Method"
+            },
+            {
+              "lang": "vb",
+              "value": "Method"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.Method"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.Method"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.Method"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.Method"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.Method\" text=\"Method\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.Method\" text=\"Method\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the method that this test method refers to.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.MethodName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "MethodName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.MethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.MethodName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.MethodName"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.MethodName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MethodName\" text=\"MethodName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MethodName\" text=\"MethodName\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string MethodName { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property MethodName As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "MethodName",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 87,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.MethodName*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "MethodName"
+          },
+          {
+            "lang": "vb",
+            "value": "MethodName"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.MethodName"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.MethodName"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.MethodName"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.MethodName"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MethodName*\" text=\"MethodName\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.MethodName*\" text=\"MethodName\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestMethodMetadata.MethodName",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MethodName"
+            },
+            {
+              "lang": "vb",
+              "value": "MethodName"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestMethodMetadata.MethodName"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestMethodMetadata.MethodName"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestMethodMetadata.MethodName"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestMethodMetadata.MethodName"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata.MethodName\" text=\"MethodName\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata.MethodName\" text=\"MethodName\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the name of the test method that is associated with this message.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.Parameters",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Parameters"
+        },
+        {
+          "lang": "vb",
+          "value": "Parameters"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.Parameters"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.Parameters"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.Parameters"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.Parameters"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Parameters\" text=\"Parameters\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Parameters\" text=\"Parameters\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<ParameterInfo> Parameters { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Parameters As IReadOnlyCollection(Of ParameterInfo)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{System.Reflection.ParameterInfo}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<ParameterInfo>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of ParameterInfo)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<ParameterInfo>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of ParameterInfo)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<System.Reflection.ParameterInfo>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of System.Reflection.ParameterInfo)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Parameters",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 91,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.Parameters*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Parameters"
+          },
+          {
+            "lang": "vb",
+            "value": "Parameters"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.Parameters"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.Parameters"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.Parameters"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.Parameters"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Parameters*\" text=\"Parameters\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Parameters*\" text=\"Parameters\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.Parameters",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Parameters"
+            },
+            {
+              "lang": "vb",
+              "value": "Parameters"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.Parameters"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.Parameters"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.Parameters"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.Parameters"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.Parameters\" text=\"Parameters\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.Parameters\" text=\"Parameters\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the parameters of the test method.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.ResolveGenericTypes(System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ResolveGenericTypes(object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "ResolveGenericTypes(Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.ResolveGenericTypes(object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.ResolveGenericTypes(Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.ResolveGenericTypes(object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.ResolveGenericTypes(Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveGenericTypes(System.Object[])\" text=\"ResolveGenericTypes(object?[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveGenericTypes(System.Object[])\" text=\"ResolveGenericTypes(object?[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public Type[]? ResolveGenericTypes(object?[] arguments)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function ResolveGenericTypes(arguments As Object()) As Type()"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "arguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The method arguments</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Type[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Type[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Type()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Type[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Type()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Type[]"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Type()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ResolveGenericTypes",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 145,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.ResolveGenericTypes*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ResolveGenericTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "ResolveGenericTypes"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.ResolveGenericTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.ResolveGenericTypes"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.ResolveGenericTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.ResolveGenericTypes"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveGenericTypes*\" text=\"ResolveGenericTypes\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveGenericTypes*\" text=\"ResolveGenericTypes\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.ResolveGenericTypes(System.Object[])",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ResolveGenericTypes(object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ResolveGenericTypes(Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.ResolveGenericTypes(object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.ResolveGenericTypes(Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.ResolveGenericTypes(object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.ResolveGenericTypes(Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_ResolveGenericTypes_System_Object___\">ResolveGenericTypes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[])"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_ResolveGenericTypes_System_Object___\">ResolveGenericTypes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>())"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Resolves the generic types for the test method given the method's arguments. If the method\nis not generic, will return <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.ResolveMethodArguments(System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ResolveMethodArguments(object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "ResolveMethodArguments(Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.ResolveMethodArguments(object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.ResolveMethodArguments(Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.ResolveMethodArguments(object?[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.ResolveMethodArguments(Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveMethodArguments(System.Object[])\" text=\"ResolveMethodArguments(object?[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveMethodArguments(System.Object[])\" text=\"ResolveMethodArguments(object?[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public object?[] ResolveMethodArguments(object?[] arguments)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function ResolveMethodArguments(arguments As Object()) As Object()"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "arguments",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The test method arguments</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Object[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ResolveMethodArguments",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 151,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.ResolveMethodArguments*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ResolveMethodArguments"
+          },
+          {
+            "lang": "vb",
+            "value": "ResolveMethodArguments"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.ResolveMethodArguments"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.ResolveMethodArguments"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.ResolveMethodArguments"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.ResolveMethodArguments"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveMethodArguments*\" text=\"ResolveMethodArguments\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ResolveMethodArguments*\" text=\"ResolveMethodArguments\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.ResolveMethodArguments(System.Object[])",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ResolveMethodArguments(object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ResolveMethodArguments(Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.ResolveMethodArguments(object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.ResolveMethodArguments(Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.ResolveMethodArguments(object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.ResolveMethodArguments(Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_ResolveMethodArguments_System_Object___\">ResolveMethodArguments</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[])"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"Xunit.v3.IXunitTestMethod.html#Xunit_v3_IXunitTestMethod_ResolveMethodArguments_System_Object___\">ResolveMethodArguments</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>())"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Resolves argument values for the test method, ensuring they are the correct type, including\nsupport for optional method arguments.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.ReturnType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReturnType"
+        },
+        {
+          "lang": "vb",
+          "value": "ReturnType"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.ReturnType"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.ReturnType"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.ReturnType"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.ReturnType"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ReturnType\" text=\"ReturnType\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ReturnType\" text=\"ReturnType\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public Type ReturnType { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property ReturnType As Type"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Type",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Type"
+              },
+              {
+                "lang": "vb",
+                "value": "Type"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Type"
+              },
+              {
+                "lang": "vb",
+                "value": "Type"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Type"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Type"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ReturnType",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 95,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.ReturnType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ReturnType"
+          },
+          {
+            "lang": "vb",
+            "value": "ReturnType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.ReturnType"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.ReturnType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.ReturnType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.ReturnType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ReturnType*\" text=\"ReturnType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.ReturnType*\" text=\"ReturnType\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.ReturnType",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ReturnType"
+            },
+            {
+              "lang": "vb",
+              "value": "ReturnType"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.ReturnType"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.ReturnType"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.ReturnType"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.ReturnType"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.ReturnType\" text=\"ReturnType\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.ReturnType\" text=\"ReturnType\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the return type of the test method.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.Serialize(Xunit.Sdk.IXunitSerializationInfo)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Serialize(IXunitSerializationInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "Serialize(IXunitSerializationInfo)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.Serialize(IXunitSerializationInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.Serialize(IXunitSerializationInfo)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.Serialize(Xunit.Sdk.IXunitSerializationInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.Serialize(Xunit.Sdk.IXunitSerializationInfo)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Serialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Serialize(IXunitSerializationInfo)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Serialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Serialize(IXunitSerializationInfo)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void Serialize(IXunitSerializationInfo info)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub Serialize(info As IXunitSerializationInfo)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "info",
+            "type": {
+              "uid": "Xunit.Sdk.IXunitSerializationInfo",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitSerializationInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitSerializationInfo"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IXunitSerializationInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IXunitSerializationInfo"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.IXunitSerializationInfo"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.IXunitSerializationInfo"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The info to store the object data into</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Serialize",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 155,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.Serialize*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Serialize"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.Serialize"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.Serialize"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.Serialize"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Serialize*\" text=\"Serialize\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Serialize*\" text=\"Serialize\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.IXunitSerializable.Serialize(Xunit.Sdk.IXunitSerializationInfo)",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Serialize(IXunitSerializationInfo)"
+            },
+            {
+              "lang": "vb",
+              "value": "Serialize(IXunitSerializationInfo)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitSerializable.Serialize(IXunitSerializationInfo)"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitSerializable.Serialize(IXunitSerializationInfo)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.IXunitSerializable.Serialize(Xunit.Sdk.IXunitSerializationInfo)"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.IXunitSerializable.Serialize(Xunit.Sdk.IXunitSerializationInfo)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable.Serialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Serialize\"/>(<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>)"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable.Serialize(Xunit.Sdk.IXunitSerializationInfo)\" text=\"Serialize\"/>(<xref uid=\"Xunit.Sdk.IXunitSerializationInfo\" text=\"IXunitSerializationInfo\"/>)"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Called when the object should store its serialized values into the serialization info.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.TestClass",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestClass"
+        },
+        {
+          "lang": "vb",
+          "value": "TestClass"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.TestClass"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.TestClass"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.TestClass"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.TestClass"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestClass\" text=\"TestClass\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestClass\" text=\"TestClass\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IXunitTestClass TestClass { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property TestClass As IXunitTestClass"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.v3.IXunitTestClass",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IXunitTestClass"
+              },
+              {
+                "lang": "vb",
+                "value": "IXunitTestClass"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IXunitTestClass"
+              },
+              {
+                "lang": "vb",
+                "value": "IXunitTestClass"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.v3.IXunitTestClass"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.v3.IXunitTestClass"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.v3.IXunitTestClass\" text=\"IXunitTestClass\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.v3.IXunitTestClass\" text=\"IXunitTestClass\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestClass",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 99,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.TestClass*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestClass"
+          },
+          {
+            "lang": "vb",
+            "value": "TestClass"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.TestClass"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.TestClass"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.TestClass"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.TestClass"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestClass*\" text=\"TestClass\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestClass*\" text=\"TestClass\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.TestClass",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestClass"
+            },
+            {
+              "lang": "vb",
+              "value": "TestClass"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.TestClass"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.TestClass"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.TestClass"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.TestClass"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.TestClass\" text=\"TestClass\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.TestClass\" text=\"TestClass\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the test class that this test method belongs to.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.TestMethodArguments",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TestMethodArguments"
+        },
+        {
+          "lang": "vb",
+          "value": "TestMethodArguments"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.TestMethodArguments"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.TestMethodArguments"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.TestMethodArguments"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.TestMethodArguments"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestMethodArguments\" text=\"TestMethodArguments\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestMethodArguments\" text=\"TestMethodArguments\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public object?[] TestMethodArguments { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property TestMethodArguments As Object()"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Object[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Object()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TestMethodArguments",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 105,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.TestMethodArguments*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TestMethodArguments"
+          },
+          {
+            "lang": "vb",
+            "value": "TestMethodArguments"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.TestMethodArguments"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.TestMethodArguments"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.TestMethodArguments"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.TestMethodArguments"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestMethodArguments*\" text=\"TestMethodArguments\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.TestMethodArguments*\" text=\"TestMethodArguments\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.v3.IXunitTestMethod.TestMethodArguments",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TestMethodArguments"
+            },
+            {
+              "lang": "vb",
+              "value": "TestMethodArguments"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IXunitTestMethod.TestMethodArguments"
+            },
+            {
+              "lang": "vb",
+              "value": "IXunitTestMethod.TestMethodArguments"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.v3.IXunitTestMethod.TestMethodArguments"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.v3.IXunitTestMethod.TestMethodArguments"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.TestMethodArguments\" text=\"TestMethodArguments\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.v3.IXunitTestMethod.TestMethodArguments\" text=\"TestMethodArguments\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the arguments that will be passed to the test method.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.Traits",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Traits"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.Traits"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.Traits"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.Traits"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Traits\" text=\"Traits\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Traits\" text=\"Traits\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyDictionary<string, IReadOnlyCollection<string>> Traits { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property Traits As IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}}",
+            "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IReadOnlyCollection<string>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IReadOnlyCollection(Of String))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Traits",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 109,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.Traits*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Traits"
+          },
+          {
+            "lang": "vb",
+            "value": "Traits"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.Traits"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.Traits"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.Traits"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.Traits"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Traits*\" text=\"Traits\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.Traits*\" text=\"Traits\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestMethodMetadata.Traits",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Traits"
+            },
+            {
+              "lang": "vb",
+              "value": "Traits"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestMethodMetadata.Traits"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestMethodMetadata.Traits"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestMethodMetadata.Traits"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestMethodMetadata.Traits"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata.Traits\" text=\"Traits\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata.Traits\" text=\"Traits\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the trait values associated with this test method (and the test class,\ntest collection, and test assembly). If there are none, or the framework does\nnot support traits, this returns an empty dictionary (not <code>null</code>).</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.XunitTestMethod.UniqueID",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.XunitTestMethod",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "UniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "UniqueID"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "XunitTestMethod.UniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "XunitTestMethod.UniqueID"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.XunitTestMethod.UniqueID"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.XunitTestMethod.UniqueID"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.UniqueID\" text=\"UniqueID\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.XunitTestMethod.UniqueID\" text=\"UniqueID\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string UniqueID { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property UniqueID As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "UniqueID",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+        "startLine": 113,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The unique identifier for a test method should be able to discriminate among test methods in the\nsame test assembly. This identifier should remain stable until such time as the developer changes\nsome fundamental part of the identity (assembly, collection, test class, or test method).\nRecompilation of the test assembly is reasonable as a stability changing event.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.XunitTestMethod.UniqueID*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "UniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "UniqueID"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "XunitTestMethod.UniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "XunitTestMethod.UniqueID"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.XunitTestMethod.UniqueID"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.XunitTestMethod.UniqueID"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.UniqueID*\" text=\"UniqueID\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.XunitTestMethod.UniqueID*\" text=\"UniqueID\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "Xunit.Sdk.ITestMethodMetadata.UniqueID",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "UniqueID"
+            },
+            {
+              "lang": "vb",
+              "value": "UniqueID"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITestMethodMetadata.UniqueID"
+            },
+            {
+              "lang": "vb",
+              "value": "ITestMethodMetadata.UniqueID"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "Xunit.Sdk.ITestMethodMetadata.UniqueID"
+            },
+            {
+              "lang": "vb",
+              "value": "Xunit.Sdk.ITestMethodMetadata.UniqueID"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata.UniqueID\" text=\"UniqueID\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata.UniqueID\" text=\"UniqueID\"/>"
+            }
+          ]
+        }
+      ],
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">Gets the unique ID for this test method.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "XunitTestMethod"
+    },
+    {
+      "lang": "vb",
+      "value": "XunitTestMethod"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "XunitTestMethod"
+    },
+    {
+      "lang": "vb",
+      "value": "XunitTestMethod"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.XunitTestMethod"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.XunitTestMethod"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "XunitTestMethod",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/ObjectModel/XunitTestMethod.cs",
+    "startLine": 13,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml\" sourcestartlinenumber=\"1\">The default implementation of <xref href=\"Xunit.v3.IXunitTestMethod\" data-throw-if-not-resolved=\"false\"></xref> for xUnit.net v3 based on <xref href=\"System.Reflection.MethodInfo\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class XunitTestMethod : IXunitTestMethod, ITestMethod, ITestMethodMetadata, IXunitSerializable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class XunitTestMethod Implements IXunitTestMethod, ITestMethod, ITestMethodMetadata, IXunitSerializable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Xunit.v3.IXunitTestMethod",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IXunitTestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitTestMethod"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IXunitTestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitTestMethod"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.IXunitTestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.IXunitTestMethod"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.IXunitTestMethod\" text=\"IXunitTestMethod\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethod",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethod"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethod"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethod"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethod"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethod\" text=\"ITestMethod\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethod\" text=\"ITestMethod\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.ITestMethodMetadata",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMetadata"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestMethodMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestMethodMetadata"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.ITestMethodMetadata"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.ITestMethodMetadata"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata\" text=\"ITestMethodMetadata\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.ITestMethodMetadata\" text=\"ITestMethodMetadata\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Xunit.Sdk.IXunitSerializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IXunitSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "IXunitSerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IXunitSerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IXunitSerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable\" text=\"IXunitSerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IXunitSerializable\" text=\"IXunitSerializable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.XunitTestMethod.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.XunitTestMethod.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

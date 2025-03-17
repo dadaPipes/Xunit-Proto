@@ -1,0 +1,1624 @@
+{
+  "uid": "Xunit.Sdk.JsonSerializerExtensions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IEnumerable{System.Int32},System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": true,
+      "parent": "Xunit.Sdk.JsonSerializerExtensions",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SerializeIntArray(JsonObjectSerializer, string, IEnumerable<int>?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "SerializeIntArray(JsonObjectSerializer, String, IEnumerable(Of Integer), Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonSerializerExtensions.SerializeIntArray(JsonObjectSerializer, string, IEnumerable<int>?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonSerializerExtensions.SerializeIntArray(JsonObjectSerializer, String, IEnumerable(Of Integer), Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray(Xunit.Sdk.JsonObjectSerializer, string, System.Collections.Generic.IEnumerable<int>?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray(Xunit.Sdk.JsonObjectSerializer, String, System.Collections.Generic.IEnumerable(Of Integer), Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IEnumerable{System.Int32},System.Boolean)\" text=\"SerializeIntArray(JsonObjectSerializer, string, IEnumerable&lt;int&gt;?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IEnumerable{System.Int32},System.Boolean)\" text=\"SerializeIntArray(JsonObjectSerializer, string, IEnumerable&lt;int&gt;?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void SerializeIntArray(this JsonObjectSerializer serializer, string key, IEnumerable<int>? values, bool includeNullArray = false)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub SerializeIntArray(serializer As JsonObjectSerializer, key As String, values As IEnumerable(Of Integer), includeNullArray As Boolean = False)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "serializer",
+            "type": {
+              "uid": "Xunit.Sdk.JsonObjectSerializer",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                }
+              ]
+            },
+            "description": ""
+          },
+          {
+            "id": "key",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">The key to serialize the array to</p>\n"
+          },
+          {
+            "id": "values",
+            "type": {
+              "uid": "System.Collections.Generic.IEnumerable{System.Int32}",
+              "definition": "System.Collections.Generic.IEnumerable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<int>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of Integer)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<int>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of Integer)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IEnumerable<int>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IEnumerable(Of Integer)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">The values in the array</p>\n"
+          },
+          {
+            "id": "includeNullArray",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Whether to serialize the array if it's null</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SerializeIntArray",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+        "startLine": 18,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SerializeIntArray"
+          },
+          {
+            "lang": "vb",
+            "value": "SerializeIntArray"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "JsonSerializerExtensions.SerializeIntArray"
+          },
+          {
+            "lang": "vb",
+            "value": "JsonSerializerExtensions.SerializeIntArray"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray*\" text=\"SerializeIntArray\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeIntArray*\" text=\"SerializeIntArray\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Serializes an array of integers into the object.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": true,
+      "parent": "Xunit.Sdk.JsonSerializerExtensions",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SerializeStringArray(JsonObjectSerializer, string, IEnumerable<string?>?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "SerializeStringArray(JsonObjectSerializer, String, IEnumerable(Of String), Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonSerializerExtensions.SerializeStringArray(JsonObjectSerializer, string, IEnumerable<string?>?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonSerializerExtensions.SerializeStringArray(JsonObjectSerializer, String, IEnumerable(Of String), Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray(Xunit.Sdk.JsonObjectSerializer, string, System.Collections.Generic.IEnumerable<string?>?, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray(Xunit.Sdk.JsonObjectSerializer, String, System.Collections.Generic.IEnumerable(Of String), Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean)\" text=\"SerializeStringArray(JsonObjectSerializer, string, IEnumerable&lt;string?&gt;?, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean)\" text=\"SerializeStringArray(JsonObjectSerializer, string, IEnumerable&lt;string?&gt;?, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void SerializeStringArray(this JsonObjectSerializer serializer, string key, IEnumerable<string?>? values, bool includeNullArray = false)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub SerializeStringArray(serializer As JsonObjectSerializer, key As String, values As IEnumerable(Of String), includeNullArray As Boolean = False)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "serializer",
+            "type": {
+              "uid": "Xunit.Sdk.JsonObjectSerializer",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                }
+              ]
+            },
+            "description": ""
+          },
+          {
+            "id": "key",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">The key to serialize the array to</p>\n"
+          },
+          {
+            "id": "values",
+            "type": {
+              "uid": "System.Collections.Generic.IEnumerable{System.String}",
+              "definition": "System.Collections.Generic.IEnumerable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IEnumerable<string>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IEnumerable(Of String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">The values in the array</p>\n"
+          },
+          {
+            "id": "includeNullArray",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Whether to serialize the array if it's null</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SerializeStringArray",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+        "startLine": 46,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SerializeStringArray"
+          },
+          {
+            "lang": "vb",
+            "value": "SerializeStringArray"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "JsonSerializerExtensions.SerializeStringArray"
+          },
+          {
+            "lang": "vb",
+            "value": "JsonSerializerExtensions.SerializeStringArray"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray*\" text=\"SerializeStringArray\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeStringArray*\" text=\"SerializeStringArray\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Serializes an array of strings into the object.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.JsonSerializerExtensions.SerializeTraits(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}},System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": true,
+      "parent": "Xunit.Sdk.JsonSerializerExtensions",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "SerializeTraits(JsonObjectSerializer, string, IReadOnlyDictionary<string, IReadOnlyCollection<string>>, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "SerializeTraits(JsonObjectSerializer, String, IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String)), Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonSerializerExtensions.SerializeTraits(JsonObjectSerializer, string, IReadOnlyDictionary<string, IReadOnlyCollection<string>>, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonSerializerExtensions.SerializeTraits(JsonObjectSerializer, String, IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String)), Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeTraits(Xunit.Sdk.JsonObjectSerializer, string, System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IReadOnlyCollection<string>>, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeTraits(Xunit.Sdk.JsonObjectSerializer, String, System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IReadOnlyCollection(Of String)), Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeTraits(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}},System.Boolean)\" text=\"SerializeTraits(JsonObjectSerializer, string, IReadOnlyDictionary&lt;string, IReadOnlyCollection&lt;string&gt;&gt;, bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeTraits(Xunit.Sdk.JsonObjectSerializer,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}},System.Boolean)\" text=\"SerializeTraits(JsonObjectSerializer, string, IReadOnlyDictionary&lt;string, IReadOnlyCollection&lt;string&gt;&gt;, bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void SerializeTraits(this JsonObjectSerializer serializer, string key, IReadOnlyDictionary<string, IReadOnlyCollection<string>> dictionary, bool includeEmptyTraits = false)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub SerializeTraits(serializer As JsonObjectSerializer, key As String, dictionary As IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String)), includeEmptyTraits As Boolean = False)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "serializer",
+            "type": {
+              "uid": "Xunit.Sdk.JsonObjectSerializer",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "JsonObjectSerializer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.JsonObjectSerializer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.JsonObjectSerializer\" text=\"JsonObjectSerializer\"/>"
+                }
+              ]
+            },
+            "description": ""
+          },
+          {
+            "id": "key",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">The name of the value</p>\n"
+          },
+          {
+            "id": "dictionary",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IReadOnlyCollection{System.String}}",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, IReadOnlyCollection<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, IReadOnlyCollection(Of String))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IReadOnlyCollection<string>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IReadOnlyCollection(Of String))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">The trait dictionary</p>\n"
+          },
+          {
+            "id": "includeEmptyTraits",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">A flag to indicate whether to render empty traits</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "SerializeTraits",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+        "startLine": 74,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.JsonSerializerExtensions.SerializeTraits*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "SerializeTraits"
+          },
+          {
+            "lang": "vb",
+            "value": "SerializeTraits"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "JsonSerializerExtensions.SerializeTraits"
+          },
+          {
+            "lang": "vb",
+            "value": "JsonSerializerExtensions.SerializeTraits"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeTraits"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.JsonSerializerExtensions.SerializeTraits"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeTraits*\" text=\"SerializeTraits\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.JsonSerializerExtensions.SerializeTraits*\" text=\"SerializeTraits\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Serialize a trait dictionary value into the object.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "JsonSerializerExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "JsonSerializerExtensions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "JsonSerializerExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "JsonSerializerExtensions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk.JsonSerializerExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk.JsonSerializerExtensions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "JsonSerializerExtensions",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.common/Extensions/JsonSerializerExtensions.cs",
+    "startLine": 9,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for the JSON serialization types.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class JsonSerializerExtensions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module JsonSerializerExtensions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/common/Xunit.Sdk.JsonSerializerExtensions.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/common/toc.yml",
+  "_tocPath": "v3-2.0.0/common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

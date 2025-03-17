@@ -1,0 +1,40 @@
+- name: Introduction
+  href: introduction.md
+
+- name: Getting Started
+  items:
+  - name: v3 Core Framework
+    items:
+    - name: Getting started with the .NET SDK command line
+      href: .md
+    - name: Migrating from xUnit.net v2 for unit test authors and extensibility authors
+      href: .md
+    - Name: What’s new in xUnit.net v3
+      href: .md
+    - name: Microsoft Testing Platform support in v3
+      href: .md
+    - name: Code Coverage with Microsoft Testing Platform
+      href: .md
+    - name: Query Filter Language
+      href: .md
+    - name: Serialization with IXunitSerializer and IXunitSerializable
+      href: .md
+    - name: Writing a custom Runner Reporter for xUnit.net v3
+      href: .md
+    - name: NuGet packages for xUnit.v3
+      href: .md
+  
+  - name: v2 Core Framework
+    href: v2-core-framework.md
+  
+  - name: Source Analyzers
+    href: .md
+
+- name: Configuration
+  items:
+  - name: Configuration files (aka xunit.runner.json)
+    href: .md
+  - name: What is the JSON schema for xunit.runner.json?
+    href: .md
+  - name: RunSettings and xunit.runner.visualstudio
+    href: .md

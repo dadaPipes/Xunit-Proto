@@ -1,0 +1,795 @@
+{
+  "uid": "Xunit.Sdk.IAssertEqualityComparer`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Sdk.IAssertEqualityComparer`1.Equals(`0,Xunit.Sdk.CollectionTracker,`0,Xunit.Sdk.CollectionTracker)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.IAssertEqualityComparer`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(T?, CollectionTracker?, T?, CollectionTracker?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(T, CollectionTracker, T, CollectionTracker)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAssertEqualityComparer<T>.Equals(T?, CollectionTracker?, T?, CollectionTracker?)"
+        },
+        {
+          "lang": "vb",
+          "value": "IAssertEqualityComparer(Of T).Equals(T, CollectionTracker, T, CollectionTracker)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IAssertEqualityComparer<T>.Equals(T?, Xunit.Sdk.CollectionTracker?, T?, Xunit.Sdk.CollectionTracker?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IAssertEqualityComparer(Of T).Equals(T, Xunit.Sdk.CollectionTracker, T, Xunit.Sdk.CollectionTracker)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.IAssertEqualityComparer`1.Equals(`0,Xunit.Sdk.CollectionTracker,`0,Xunit.Sdk.CollectionTracker)\" text=\"Equals(T?, CollectionTracker?, T?, CollectionTracker?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.IAssertEqualityComparer`1.Equals(`0,Xunit.Sdk.CollectionTracker,`0,Xunit.Sdk.CollectionTracker)\" text=\"Equals(T?, CollectionTracker?, T?, CollectionTracker?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "AssertEqualityResult Equals(T? x, CollectionTracker? xTracker, T? y, CollectionTracker? yTracker)"
+          },
+          {
+            "lang": "vb",
+            "value": "Function Equals(x As T, xTracker As CollectionTracker, y As T, yTracker As CollectionTracker) As AssertEqualityResult"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "x",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">The first value</p>\n"
+          },
+          {
+            "id": "xTracker",
+            "type": {
+              "uid": "Xunit.Sdk.CollectionTracker",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CollectionTracker"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CollectionTracker"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "CollectionTracker"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CollectionTracker"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.CollectionTracker"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.CollectionTracker"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.CollectionTracker\" text=\"CollectionTracker\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.CollectionTracker\" text=\"CollectionTracker\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">The first value as a <xref href=\"Xunit.Sdk.CollectionTracker\" data-throw-if-not-resolved=\"false\"></xref> (if it's a collection)</p>\n"
+          },
+          {
+            "id": "y",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">The second value</p>\n"
+          },
+          {
+            "id": "yTracker",
+            "type": {
+              "uid": "Xunit.Sdk.CollectionTracker",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CollectionTracker"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CollectionTracker"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "CollectionTracker"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CollectionTracker"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.CollectionTracker"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.CollectionTracker"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.CollectionTracker\" text=\"CollectionTracker\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.CollectionTracker\" text=\"CollectionTracker\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">The second value as a <xref href=\"Xunit.Sdk.CollectionTracker\" data-throw-if-not-resolved=\"false\"></xref> (if it's a collection)</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.AssertEqualityResult",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AssertEqualityResult"
+              },
+              {
+                "lang": "vb",
+                "value": "AssertEqualityResult"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AssertEqualityResult"
+              },
+              {
+                "lang": "vb",
+                "value": "AssertEqualityResult"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.AssertEqualityResult"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.AssertEqualityResult"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.AssertEqualityResult\" text=\"AssertEqualityResult\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.AssertEqualityResult\" text=\"AssertEqualityResult\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">Success or failure information</p>\n"
+        }
+      },
+      "source": {
+        "id": "Equals",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\IAssertEqualityComparer.cs",
+        "startLine": 30,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.IAssertEqualityComparer`1.Equals*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equals"
+          },
+          {
+            "lang": "vb",
+            "value": "Equals"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "IAssertEqualityComparer<T>.Equals"
+          },
+          {
+            "lang": "vb",
+            "value": "IAssertEqualityComparer(Of T).Equals"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.IAssertEqualityComparer<T>.Equals"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.IAssertEqualityComparer(Of T).Equals"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.IAssertEqualityComparer`1.Equals*\" text=\"Equals\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.IAssertEqualityComparer`1.Equals*\" text=\"Equals\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">Compares two values and determines if they are equal.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IAssertEqualityComparer<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "IAssertEqualityComparer(Of T)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IAssertEqualityComparer<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "IAssertEqualityComparer(Of T)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk.IAssertEqualityComparer<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk.IAssertEqualityComparer(Of T)"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "id": "IAssertEqualityComparer",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\IAssertEqualityComparer.cs",
+    "startLine": 20,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">Represents a specialized version of <xref href=\"System.Collections.Generic.IEqualityComparer%601\" data-throw-if-not-resolved=\"false\"></xref> that returns information useful\nwhen formatting results for assertion failures.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IAssertEqualityComparer<T> : IEqualityComparer<T>"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IAssertEqualityComparer(Of T) Inherits IEqualityComparer(Of T)"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "T",
+        "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">The type of the objects being compared.</p>\n"
+      }
+    ]
+  },
+  "level": 0,
+  "inheritedMembers": [
+    {
+      "uid": "System.Collections.Generic.IEqualityComparer{{T}}.Equals({T},{T})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.IEqualityComparer{{T}}",
+      "definition": "System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.equals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(T, T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEqualityComparer<T>.Equals(T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "IEqualityComparer(Of T).Equals(T, T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IEqualityComparer<T>.Equals(T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IEqualityComparer(Of T).Equals(T, T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.equals\">Equals</a>(T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.equals\">Equals</a>(T, T)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.IEqualityComparer{{T}}.GetHashCode({T})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.IEqualityComparer{{T}}",
+      "definition": "System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode(T)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode(T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEqualityComparer<T>.GetHashCode(T)"
+        },
+        {
+          "lang": "vb",
+          "value": "IEqualityComparer(Of T).GetHashCode(T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IEqualityComparer<T>.GetHashCode(T)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IEqualityComparer(Of T).GetHashCode(T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.gethashcode\">GetHashCode</a>(T)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.gethashcode\">GetHashCode</a>(T)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "Xunit.Sdk.IAssertEqualityComparer`1.Xunit.Sdk.IAssertEqualityComparerExtensions.Equals``1({T},{T})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.IAssertEqualityComparerExtensions",
+      "definition": "Xunit.Sdk.IAssertEqualityComparerExtensions.Equals``1(Xunit.Sdk.IAssertEqualityComparer{``0},``0,``0)",
+      "href": "Xunit.Sdk.IAssertEqualityComparerExtensions.html#Xunit_Sdk_IAssertEqualityComparerExtensions_Equals__1_Xunit_Sdk_IAssertEqualityComparer___0____0___0_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals<T>(IAssertEqualityComparer<T>, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Of T)(IAssertEqualityComparer(Of T), T, T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAssertEqualityComparerExtensions.Equals<T>(IAssertEqualityComparer<T>, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "IAssertEqualityComparerExtensions.Equals(Of T)(IAssertEqualityComparer(Of T), T, T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.IAssertEqualityComparerExtensions.Equals<T>(Xunit.Sdk.IAssertEqualityComparer<T>, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.IAssertEqualityComparerExtensions.Equals(Of T)(Xunit.Sdk.IAssertEqualityComparer(Of T), T, T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.IAssertEqualityComparerExtensions.html#Xunit_Sdk_IAssertEqualityComparerExtensions_Equals__1_Xunit_Sdk_IAssertEqualityComparer___0____0___0_\">Equals</a>&lt;T&gt;(<a class=\"xref\" href=\"Xunit.Sdk.IAssertEqualityComparer-1.html\">IAssertEqualityComparer</a>&lt;T&gt;, T, T)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.IAssertEqualityComparerExtensions.html#Xunit_Sdk_IAssertEqualityComparerExtensions_Equals__1_Xunit_Sdk_IAssertEqualityComparer___0____0___0_\">Equals</a>(Of T)(<a class=\"xref\" href=\"Xunit.Sdk.IAssertEqualityComparer-1.html\">IAssertEqualityComparer</a>(Of T), T, T)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

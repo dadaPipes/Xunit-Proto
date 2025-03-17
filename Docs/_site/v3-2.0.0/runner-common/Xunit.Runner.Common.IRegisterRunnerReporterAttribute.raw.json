@@ -1,0 +1,458 @@
+{
+  "uid": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RunnerReporterType"
+        },
+        {
+          "lang": "vb",
+          "value": "RunnerReporterType"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IRegisterRunnerReporterAttribute.RunnerReporterType"
+        },
+        {
+          "lang": "vb",
+          "value": "IRegisterRunnerReporterAttribute.RunnerReporterType"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType\" text=\"RunnerReporterType\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType\" text=\"RunnerReporterType\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "Type RunnerReporterType { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "ReadOnly Property RunnerReporterType As Type"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Type",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Type"
+              },
+              {
+                "lang": "vb",
+                "value": "Type"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Type"
+              },
+              {
+                "lang": "vb",
+                "value": "Type"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Type"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Type"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.common/Abstractions/Reporters/IRegisterRunnerReporterAttribute.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "RunnerReporterType",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Abstractions/Reporters/IRegisterRunnerReporterAttribute.cs",
+        "startLine": 19,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.common"
+      ],
+      "namespace": "Xunit.Runner.Common",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.IRegisterRunnerReporterAttribute.yml\" sourcestartlinenumber=\"1\">The runner reporter type must implement <xref href=\"Xunit.Runner.Common.IRunnerReporter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RunnerReporterType"
+          },
+          {
+            "lang": "vb",
+            "value": "RunnerReporterType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "IRegisterRunnerReporterAttribute.RunnerReporterType"
+          },
+          {
+            "lang": "vb",
+            "value": "IRegisterRunnerReporterAttribute.RunnerReporterType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType*\" text=\"RunnerReporterType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runner.Common.IRegisterRunnerReporterAttribute.RunnerReporterType*\" text=\"RunnerReporterType\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.IRegisterRunnerReporterAttribute.yml\" sourcestartlinenumber=\"1\">Gets the type of the runner reporter to be registered.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IRegisterRunnerReporterAttribute"
+    },
+    {
+      "lang": "vb",
+      "value": "IRegisterRunnerReporterAttribute"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IRegisterRunnerReporterAttribute"
+    },
+    {
+      "lang": "vb",
+      "value": "IRegisterRunnerReporterAttribute"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runner.Common.IRegisterRunnerReporterAttribute"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.common/Abstractions/Reporters/IRegisterRunnerReporterAttribute.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "IRegisterRunnerReporterAttribute",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.common/Abstractions/Reporters/IRegisterRunnerReporterAttribute.cs",
+    "startLine": 11,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runner.Common",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runner.Common"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runner.Common"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runner.html\">Runner</a>.<a class=\"xref\" href=\"Xunit.Runner.Common.html\">Common</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.IRegisterRunnerReporterAttribute.yml\" sourcestartlinenumber=\"1\">Used to decorate xUnit.net test assemblies to indicate the availability of a custom\nrunner reporter.</p>\n",
+  "remarks": "<p sourcefile=\"v3-2.0.0/runner-common/Xunit.Runner.Common.IRegisterRunnerReporterAttribute.yml\" sourcestartlinenumber=\"1\">Runner reporter registration attributes are only valid at the assembly level.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IRegisterRunnerReporterAttribute"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IRegisterRunnerReporterAttribute"
+      }
+    ]
+  },
+  "level": 0,
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-common/Xunit.Runner.Common.IRegisterRunnerReporterAttribute.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-common/Xunit.Runner.Common.IRegisterRunnerReporterAttribute.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-common/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

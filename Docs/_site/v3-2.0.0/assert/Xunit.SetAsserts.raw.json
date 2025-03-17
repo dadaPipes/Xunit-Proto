@@ -1,0 +1,4444 @@
+{
+  "uid": "Xunit.SetAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.HashSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(T, HashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(T, HashSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.Contains<T>(T, HashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.Contains(Of T)(T, HashSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.Contains<T>(T, System.Collections.Generic.HashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.Contains(Of T)(T, System.Collections.Generic.HashSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.HashSet{``0})\" text=\"Contains&lt;T&gt;(T, HashSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.HashSet{``0})\" text=\"Contains&lt;T&gt;(T, HashSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(T expected, HashSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T)(expected As T, [set] As HashSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Generic.HashSet{{T}}",
+              "definition": "System.Collections.Generic.HashSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "HashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "HashSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "HashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "HashSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.HashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.HashSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 73,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the hashset contains the given object.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.ISet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(T, ISet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(T, ISet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.Contains<T>(T, ISet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.Contains(Of T)(T, ISet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.Contains<T>(T, System.Collections.Generic.ISet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.Contains(Of T)(T, System.Collections.Generic.ISet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.ISet{``0})\" text=\"Contains&lt;T&gt;(T, ISet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.ISet{``0})\" text=\"Contains&lt;T&gt;(T, ISet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(T expected, ISet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T)(expected As T, [set] As ISet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 29,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the set contains the given object.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.SortedSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(T, SortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(T, SortedSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.Contains<T>(T, SortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.Contains(Of T)(T, SortedSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.Contains<T>(T, System.Collections.Generic.SortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.Contains(Of T)(T, System.Collections.Generic.SortedSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.SortedSet{``0})\" text=\"Contains&lt;T&gt;(T, SortedSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Generic.SortedSet{``0})\" text=\"Contains&lt;T&gt;(T, SortedSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(T expected, SortedSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T)(expected As T, [set] As SortedSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Generic.SortedSet{{T}}",
+              "definition": "System.Collections.Generic.SortedSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "SortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "SortedSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "SortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "SortedSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.SortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.SortedSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset-1\">SortedSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset-1\">SortedSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 85,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the sorted hashset contains the given object.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.Contains``1(``0,System.Collections.Immutable.ImmutableHashSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(T, ImmutableHashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(T, ImmutableHashSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.Contains<T>(T, ImmutableHashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.Contains(Of T)(T, ImmutableHashSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.Contains<T>(T, System.Collections.Immutable.ImmutableHashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.Contains(Of T)(T, System.Collections.Immutable.ImmutableHashSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Immutable.ImmutableHashSet{``0})\" text=\"Contains&lt;T&gt;(T, ImmutableHashSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Immutable.ImmutableHashSet{``0})\" text=\"Contains&lt;T&gt;(T, ImmutableHashSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(T expected, ImmutableHashSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T)(expected As T, [set] As ImmutableHashSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Immutable.ImmutableHashSet{{T}}",
+              "definition": "System.Collections.Immutable.ImmutableHashSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableHashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableHashSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableHashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableHashSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Immutable.ImmutableHashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Immutable.ImmutableHashSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1\">ImmutableHashSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1\">ImmutableHashSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 97,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the immutable hashset contains the given object.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.Contains``1(``0,System.Collections.Immutable.ImmutableSortedSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(T, ImmutableSortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(T, ImmutableSortedSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.Contains<T>(T, ImmutableSortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.Contains(Of T)(T, ImmutableSortedSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.Contains<T>(T, System.Collections.Immutable.ImmutableSortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.Contains(Of T)(T, System.Collections.Immutable.ImmutableSortedSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Immutable.ImmutableSortedSet{``0})\" text=\"Contains&lt;T&gt;(T, ImmutableSortedSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.Contains``1(``0,System.Collections.Immutable.ImmutableSortedSet{``0})\" text=\"Contains&lt;T&gt;(T, ImmutableSortedSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(T expected, ImmutableSortedSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T)(expected As T, [set] As ImmutableSortedSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Immutable.ImmutableSortedSet{{T}}",
+              "definition": "System.Collections.Immutable.ImmutableSortedSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableSortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableSortedSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableSortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableSortedSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Immutable.ImmutableSortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Immutable.ImmutableSortedSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesortedset-1\">ImmutableSortedSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesortedset-1\">ImmutableSortedSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 109,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the immutable sorted hashset contains the given object.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.HashSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(T, HashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(T, HashSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.DoesNotContain<T>(T, HashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.DoesNotContain(Of T)(T, HashSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.DoesNotContain<T>(T, System.Collections.Generic.HashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.DoesNotContain(Of T)(T, System.Collections.Generic.HashSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.HashSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, HashSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.HashSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, HashSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(T expected, HashSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T)(expected As T, [set] As HashSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Generic.HashSet{{T}}",
+              "definition": "System.Collections.Generic.HashSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "HashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "HashSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "HashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "HashSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.HashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.HashSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1\">HashSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 163,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the hashset does not contain the given item.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.ISet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(T, ISet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(T, ISet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.DoesNotContain<T>(T, ISet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.DoesNotContain(Of T)(T, ISet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.DoesNotContain<T>(T, System.Collections.Generic.ISet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.DoesNotContain(Of T)(T, System.Collections.Generic.ISet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.ISet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, ISet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.ISet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, ISet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(T expected, ISet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T)(expected As T, [set] As ISet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object that is expected not to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be compared</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 121,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is present inside the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the set does not contain the given item.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.SortedSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(T, SortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(T, SortedSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.DoesNotContain<T>(T, SortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.DoesNotContain(Of T)(T, SortedSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.DoesNotContain<T>(T, System.Collections.Generic.SortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.DoesNotContain(Of T)(T, System.Collections.Generic.SortedSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.SortedSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, SortedSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Generic.SortedSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, SortedSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(T expected, SortedSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T)(expected As T, [set] As SortedSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Generic.SortedSet{{T}}",
+              "definition": "System.Collections.Generic.SortedSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "SortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "SortedSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "SortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "SortedSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.SortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.SortedSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset-1\">SortedSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset-1\">SortedSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 175,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the sorted hashset does not contain the given item.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Immutable.ImmutableHashSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(T, ImmutableHashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(T, ImmutableHashSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.DoesNotContain<T>(T, ImmutableHashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.DoesNotContain(Of T)(T, ImmutableHashSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.DoesNotContain<T>(T, System.Collections.Immutable.ImmutableHashSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.DoesNotContain(Of T)(T, System.Collections.Immutable.ImmutableHashSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Immutable.ImmutableHashSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, ImmutableHashSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Immutable.ImmutableHashSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, ImmutableHashSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(T expected, ImmutableHashSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T)(expected As T, [set] As ImmutableHashSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Immutable.ImmutableHashSet{{T}}",
+              "definition": "System.Collections.Immutable.ImmutableHashSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableHashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableHashSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableHashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableHashSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Immutable.ImmutableHashSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Immutable.ImmutableHashSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1\">ImmutableHashSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablehashset-1\">ImmutableHashSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 187,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the immutable hashset does not contain the given item.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Immutable.ImmutableSortedSet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(T, ImmutableSortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(T, ImmutableSortedSet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.DoesNotContain<T>(T, ImmutableSortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.DoesNotContain(Of T)(T, ImmutableSortedSet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.DoesNotContain<T>(T, System.Collections.Immutable.ImmutableSortedSet<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.DoesNotContain(Of T)(T, System.Collections.Immutable.ImmutableSortedSet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Immutable.ImmutableSortedSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, ImmutableSortedSet&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain``1(``0,System.Collections.Immutable.ImmutableSortedSet{``0})\" text=\"DoesNotContain&lt;T&gt;(T, ImmutableSortedSet&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(T expected, ImmutableSortedSet<T> set)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T)(expected As T, [set] As ImmutableSortedSet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expected",
+            "type": {
+              "uid": "{T}",
+              "definition": "T",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The object expected to be in the set</p>\n"
+          },
+          {
+            "id": "set",
+            "type": {
+              "uid": "System.Collections.Immutable.ImmutableSortedSet{{T}}",
+              "definition": "System.Collections.Immutable.ImmutableSortedSet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableSortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableSortedSet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ImmutableSortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ImmutableSortedSet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Immutable.ImmutableSortedSet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Immutable.ImmutableSortedSet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesortedset-1\">ImmutableSortedSet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesortedset-1\">ImmutableSortedSet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 199,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the object is not present in the set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that the immutable sorted hashset does not contain the given item.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.ProperSubset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ProperSubset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "ProperSubset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.ProperSubset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.ProperSubset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.ProperSubset<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.ProperSubset(Of T)(System.Collections.Generic.ISet(Of T), System.Collections.Generic.ISet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.ProperSubset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"ProperSubset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.ProperSubset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"ProperSubset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void ProperSubset<T>(ISet<T> expectedSubset, ISet<T>? actual)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub ProperSubset(Of T)(expectedSubset As ISet(Of T), actual As ISet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubset",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The expected subset</p>\n"
+          },
+          {
+            "id": "actual",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set expected to be a proper subset</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "ProperSubset",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 211,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.ProperSubset*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ProperSubset"
+          },
+          {
+            "lang": "vb",
+            "value": "ProperSubset"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.ProperSubset"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.ProperSubset"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.ProperSubset"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.ProperSubset"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.ProperSubset*\" text=\"ProperSubset\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.ProperSubset*\" text=\"ProperSubset\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the actual set is not a proper subset of the expected set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a set is a proper subset of another set.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.ProperSuperset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ProperSuperset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "ProperSuperset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.ProperSuperset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.ProperSuperset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.ProperSuperset<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.ProperSuperset(Of T)(System.Collections.Generic.ISet(Of T), System.Collections.Generic.ISet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.ProperSuperset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"ProperSuperset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.ProperSuperset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"ProperSuperset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void ProperSuperset<T>(ISet<T> expectedSuperset, ISet<T>? actual)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub ProperSuperset(Of T)(expectedSuperset As ISet(Of T), actual As ISet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSuperset",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The expected superset</p>\n"
+          },
+          {
+            "id": "actual",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set expected to be a proper superset</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "ProperSuperset",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 235,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.ProperSuperset*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ProperSuperset"
+          },
+          {
+            "lang": "vb",
+            "value": "ProperSuperset"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.ProperSuperset"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.ProperSuperset"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.ProperSuperset"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.ProperSuperset"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.ProperSuperset*\" text=\"ProperSuperset\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.ProperSuperset*\" text=\"ProperSuperset\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the actual set is not a proper superset of the expected set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a set is a proper superset of another set.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.Subset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Subset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Subset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.Subset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.Subset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.Subset<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.Subset(Of T)(System.Collections.Generic.ISet(Of T), System.Collections.Generic.ISet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.Subset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"Subset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.Subset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"Subset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Subset<T>(ISet<T> expectedSubset, ISet<T>? actual)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Subset(Of T)(expectedSubset As ISet(Of T), actual As ISet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubset",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The expected subset</p>\n"
+          },
+          {
+            "id": "actual",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set expected to be a subset</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Subset",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 259,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.Subset*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Subset"
+          },
+          {
+            "lang": "vb",
+            "value": "Subset"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.Subset"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.Subset"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.Subset"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.Subset"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.Subset*\" text=\"Subset\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.Subset*\" text=\"Subset\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the actual set is not a subset of the expected set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a set is a subset of another set.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SetAsserts.Superset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SetAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Superset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Superset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SetAsserts.Superset<T>(ISet<T>, ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "SetAsserts.Superset(Of T)(ISet(Of T), ISet(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SetAsserts.Superset<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.ISet<T>?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SetAsserts.Superset(Of T)(System.Collections.Generic.ISet(Of T), System.Collections.Generic.ISet(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SetAsserts.Superset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"Superset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SetAsserts.Superset``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})\" text=\"Superset&lt;T&gt;(ISet&lt;T&gt;, ISet&lt;T&gt;?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Superset<T>(ISet<T> expectedSuperset, ISet<T>? actual)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Superset(Of T)(expectedSuperset As ISet(Of T), actual As ISet(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSuperset",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The expected superset</p>\n"
+          },
+          {
+            "id": "actual",
+            "type": {
+              "uid": "System.Collections.Generic.ISet{{T}}",
+              "definition": "System.Collections.Generic.ISet`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ISet(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.ISet<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.ISet(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1\">ISet</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The set expected to be a superset</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">The type of the object to be verified</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Superset",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+        "startLine": 283,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SetAsserts.Superset*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Superset"
+          },
+          {
+            "lang": "vb",
+            "value": "Superset"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SetAsserts.Superset"
+          },
+          {
+            "lang": "vb",
+            "value": "SetAsserts.Superset"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SetAsserts.Superset"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SetAsserts.Superset"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SetAsserts.Superset*\" text=\"Superset\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SetAsserts.Superset*\" text=\"Superset\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the actual set is not a superset of the expected set</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SetAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a set is a superset of another set.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "SetAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "SetAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "SetAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "SetAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.SetAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.SetAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "SetAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SetAsserts.cs",
+    "startLine": 18,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class SetAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class SetAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.SetAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.SetAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

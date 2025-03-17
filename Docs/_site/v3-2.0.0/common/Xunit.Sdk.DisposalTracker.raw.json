@@ -1,0 +1,2068 @@
+{
+  "uid": "Xunit.Sdk.DisposalTracker",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Sdk.DisposalTracker.Add(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.DisposalTracker",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Add(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Add(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker.Add(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker.Add(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker.Add(object?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker.Add(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Add(System.Object)\" text=\"Add(object?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Add(System.Object)\" text=\"Add(object?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void Add(object? @object)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub Add([object] As Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "object",
+            "type": {
+              "uid": "System.Object",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">The object to be disposed.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Add",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+        "startLine": 45,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.DisposalTracker.Add*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Add"
+          },
+          {
+            "lang": "vb",
+            "value": "Add"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DisposalTracker.Add"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposalTracker.Add"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.DisposalTracker.Add"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.DisposalTracker.Add"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Add*\" text=\"Add\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Add*\" text=\"Add\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Add an object to be disposed. It may optionally support <xref href=\"System.IDisposable\" data-throw-if-not-resolved=\"false\"></xref>\nand/or <xref href=\"System.IAsyncDisposable\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.DisposalTracker.AddAction(System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.DisposalTracker",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddAction(Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddAction(Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker.AddAction(Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker.AddAction(Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker.AddAction(System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker.AddAction(System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAction(System.Action)\" text=\"AddAction(Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAction(System.Action)\" text=\"AddAction(Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddAction(Action cleanupAction)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddAction(cleanupAction As Action)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "cleanupAction",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">The cleanup action.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddAction",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+        "startLine": 61,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.DisposalTracker.AddAction*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddAction"
+          },
+          {
+            "lang": "vb",
+            "value": "AddAction"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DisposalTracker.AddAction"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposalTracker.AddAction"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.DisposalTracker.AddAction"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.DisposalTracker.AddAction"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAction*\" text=\"AddAction\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAction*\" text=\"AddAction\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Add an action to the list of things to be done during disposal.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.DisposalTracker.AddAsyncAction(System.Func{System.Threading.Tasks.ValueTask})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.DisposalTracker",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddAsyncAction(Func<ValueTask>)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddAsyncAction(Func(Of ValueTask))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker.AddAsyncAction(Func<ValueTask>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker.AddAsyncAction(Func(Of ValueTask))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker.AddAsyncAction(System.Func<System.Threading.Tasks.ValueTask>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker.AddAsyncAction(System.Func(Of System.Threading.Tasks.ValueTask))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAsyncAction(System.Func{System.Threading.Tasks.ValueTask})\" text=\"AddAsyncAction(Func&lt;ValueTask&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAsyncAction(System.Func{System.Threading.Tasks.ValueTask})\" text=\"AddAsyncAction(Func&lt;ValueTask&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddAsyncAction(Func<ValueTask> cleanupAction)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddAsyncAction(cleanupAction As Func(Of ValueTask))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "cleanupAction",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.ValueTask}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ValueTask>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ValueTask)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<ValueTask>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of ValueTask)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.ValueTask>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.ValueTask)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask\">ValueTask</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask\">ValueTask</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">The cleanup action.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddAsyncAction",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+        "startLine": 68,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.DisposalTracker.AddAsyncAction*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddAsyncAction"
+          },
+          {
+            "lang": "vb",
+            "value": "AddAsyncAction"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DisposalTracker.AddAsyncAction"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposalTracker.AddAsyncAction"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.DisposalTracker.AddAsyncAction"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.DisposalTracker.AddAsyncAction"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAsyncAction*\" text=\"AddAsyncAction\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddAsyncAction*\" text=\"AddAsyncAction\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Add an action to the list of things to be done during disposal.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.DisposalTracker.AddRange(System.Collections.Generic.IEnumerable{System.Object})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.DisposalTracker",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddRange(IEnumerable<object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddRange(IEnumerable(Of Object))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker.AddRange(IEnumerable<object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker.AddRange(IEnumerable(Of Object))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker.AddRange(System.Collections.Generic.IEnumerable<object?>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker.AddRange(System.Collections.Generic.IEnumerable(Of Object))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddRange(System.Collections.Generic.IEnumerable{System.Object})\" text=\"AddRange(IEnumerable&lt;object?&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddRange(System.Collections.Generic.IEnumerable{System.Object})\" text=\"AddRange(IEnumerable&lt;object?&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void AddRange(IEnumerable<object?> collection)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub AddRange(collection As IEnumerable(Of Object))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.IEnumerable{System.Object}",
+              "definition": "System.Collections.Generic.IEnumerable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of Object)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of Object)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IEnumerable<object>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IEnumerable(Of Object)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">The objects to be disposed.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "AddRange",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+        "startLine": 85,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.DisposalTracker.AddRange*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "AddRange"
+          },
+          {
+            "lang": "vb",
+            "value": "AddRange"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DisposalTracker.AddRange"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposalTracker.AddRange"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.DisposalTracker.AddRange"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.DisposalTracker.AddRange"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddRange*\" text=\"AddRange\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.AddRange*\" text=\"AddRange\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Add a collection of objects to be disposed. They may optionally support <xref href=\"System.IDisposable\" data-throw-if-not-resolved=\"false\"></xref>\nand/or <xref href=\"System.IAsyncDisposable\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.DisposalTracker.Clear",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.DisposalTracker",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Clear()"
+        },
+        {
+          "lang": "vb",
+          "value": "Clear()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker.Clear()"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker.Clear()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker.Clear()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker.Clear()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Clear\" text=\"Clear()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Clear\" text=\"Clear()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public void Clear()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub Clear()"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Clear",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+        "startLine": 101,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.DisposalTracker.Clear*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Clear"
+          },
+          {
+            "lang": "vb",
+            "value": "Clear"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DisposalTracker.Clear"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposalTracker.Clear"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.DisposalTracker.Clear"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.DisposalTracker.Clear"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Clear*\" text=\"Clear\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.Clear*\" text=\"Clear\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Removes all objects from the disposal tracker.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.DisposalTracker.DisposeAsync",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.DisposalTracker",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposeAsync()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker.DisposeAsync()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker.DisposeAsync()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.DisposeAsync\" text=\"DisposeAsync()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.DisposeAsync\" text=\"DisposeAsync()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask DisposeAsync()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function DisposeAsync() As ValueTask"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "DisposeAsync",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+        "startLine": 117,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.DisposalTracker.DisposeAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposeAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DisposalTracker.DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposalTracker.DisposeAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.DisposalTracker.DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.DisposalTracker.DisposeAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.DisposeAsync*\" text=\"DisposeAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.DisposeAsync*\" text=\"DisposeAsync\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "System.IAsyncDisposable.DisposeAsync",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "DisposeAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IAsyncDisposable.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "IAsyncDisposable.DisposeAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "System.IAsyncDisposable.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "System.IAsyncDisposable.DisposeAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Disposes all the objects that were added to the disposal tracker, in the reverse order\nof which they were added. For any object which implements both <xref href=\"System.IDisposable\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"System.IAsyncDisposable\" data-throw-if-not-resolved=\"false\"></xref> we will favor <xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref>\nand not call <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.DisposalTracker.TrackedObjects",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.DisposalTracker",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TrackedObjects"
+        },
+        {
+          "lang": "vb",
+          "value": "TrackedObjects"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DisposalTracker.TrackedObjects"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposalTracker.TrackedObjects"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.DisposalTracker.TrackedObjects"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.DisposalTracker.TrackedObjects"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.TrackedObjects\" text=\"TrackedObjects\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.TrackedObjects\" text=\"TrackedObjects\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<object> TrackedObjects { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property TrackedObjects As IReadOnlyCollection(Of Object)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{System.Object}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<object>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of Object)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<object>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of Object)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<object>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of Object)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "TrackedObjects",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+        "startLine": 27,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.common"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.DisposalTracker.TrackedObjects*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TrackedObjects"
+          },
+          {
+            "lang": "vb",
+            "value": "TrackedObjects"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "DisposalTracker.TrackedObjects"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposalTracker.TrackedObjects"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.DisposalTracker.TrackedObjects"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.DisposalTracker.TrackedObjects"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.TrackedObjects*\" text=\"TrackedObjects\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.DisposalTracker.TrackedObjects*\" text=\"TrackedObjects\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Gets a list of the items that are currently being tracked.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "DisposalTracker"
+    },
+    {
+      "lang": "vb",
+      "value": "DisposalTracker"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "DisposalTracker"
+    },
+    {
+      "lang": "vb",
+      "value": "DisposalTracker"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk.DisposalTracker"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk.DisposalTracker"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.common/Utility/DisposalTracker.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "DisposalTracker",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs",
+    "startLine": 19,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.common"
+  ],
+  "namespace": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"1\">Tracks disposable objects, and disposes them in the reverse order they were added to\nthe tracker. Supports both <xref href=\"System.IDisposable\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.IAsyncDisposable\" data-throw-if-not-resolved=\"false\"></xref>.\nYou can either directly dispose this object (via <xref href=\"Xunit.Sdk.DisposalTracker.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref>), or you\ncan enumerate the items contained inside of it (via <xref href=\"Xunit.Sdk.DisposalTracker.TrackedObjects\" data-throw-if-not-resolved=\"false\"></xref>).\nAlso supports hand-registering disposal actions via <xref href=\"Xunit.Sdk.DisposalTracker.AddAction(System.Action)\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"Xunit.Sdk.DisposalTracker.AddAsyncAction(System.Func%7bSystem.Threading.Tasks.ValueTask%7d)\" data-throw-if-not-resolved=\"false\"></xref>. Note that an object implements both interfaces,\nthis will <em sourcefile=\"v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml\" sourcestartlinenumber=\"7\">only</em> call <xref href=\"System.IAsyncDisposable.DisposeAsync\" data-throw-if-not-resolved=\"false\"></xref> and will not\ncall <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class DisposalTracker : IAsyncDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class DisposalTracker Implements IAsyncDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "System.IAsyncDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IAsyncDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.AsValueTask",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.AsValueTask(System.Object)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "AsValueTask(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.AsValueTask(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_AsValueTask_System_Object_\">AsValueTask</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Nullable{{T}},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,System.Nullable{``0},System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T?, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T?, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object_System_Nullable___0__System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1({T},System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Internal.ObjectExtensions",
+      "definition": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue``1(System.Object,``0,System.String)",
+      "href": "Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue<T>(object, T, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Internal.ObjectExtensions.ValidateNullablePropertyValue(Of T)(Object, T, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Internal.ObjectExtensions.html#Xunit_Internal_ObjectExtensions_ValidateNullablePropertyValue__1_System_Object___0_System_String_\">ValidateNullablePropertyValue</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, T, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/common/Xunit.Sdk.DisposalTracker.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/common/Xunit.Sdk.DisposalTracker.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/common/toc.yml",
+  "_tocPath": "v3-2.0.0/common/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

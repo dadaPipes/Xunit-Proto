@@ -1,0 +1,1232 @@
+{
+  "uid": "Xunit.v3.ITestProcess",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.ITestProcess.Cancel(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestProcess",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Cancel(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Cancel(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestProcess.Cancel(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestProcess.Cancel(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestProcess.Cancel(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestProcess.Cancel(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.Cancel(System.Boolean)\" text=\"Cancel(bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.Cancel(System.Boolean)\" text=\"Cancel(bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "void Cancel(bool forceCancellation)"
+          },
+          {
+            "lang": "vb",
+            "value": "Sub Cancel(forceCancellation As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "forceCancellation",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">When set to <code>false</code>, this should request graceful termination\nof the test pipeline; when set to <code>true</code>, the test process should be forcefully shut down as\nquickly as possible.</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Cancel",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+        "startLine": 42,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.v3",
+      "remarks": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Note that repeated calls to this method with <code class=\"paramref\">forceCancellation</code> set to <code>false</code>\nmay be possible, since it may be dispatched every time a remote runner returns <code>false</code> from\na message sink/message bus call. For out of process runners using Ctrl+C via standard input, it\nshould only send Ctrl+C the first time this is called (since double Ctrl+C is the forceful\ncancellation signal).</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestProcess.Cancel*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Cancel"
+          },
+          {
+            "lang": "vb",
+            "value": "Cancel"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestProcess.Cancel"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestProcess.Cancel"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestProcess.Cancel"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestProcess.Cancel"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.Cancel*\" text=\"Cancel\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.Cancel*\" text=\"Cancel\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Cancels the test pipeline, forcefully if necessary.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ITestProcess.HasExited",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestProcess",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HasExited"
+        },
+        {
+          "lang": "vb",
+          "value": "HasExited"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestProcess.HasExited"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestProcess.HasExited"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestProcess.HasExited"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestProcess.HasExited"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.HasExited\" text=\"HasExited\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.HasExited\" text=\"HasExited\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "bool HasExited { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "ReadOnly Property HasExited As Boolean"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "HasExited",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+        "startLine": 15,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestProcess.HasExited*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "HasExited"
+          },
+          {
+            "lang": "vb",
+            "value": "HasExited"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestProcess.HasExited"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestProcess.HasExited"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestProcess.HasExited"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestProcess.HasExited"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.HasExited*\" text=\"HasExited\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.HasExited*\" text=\"HasExited\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Gets a flag to indicate whether the test process has exited or not yet.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ITestProcess.StandardInput",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestProcess",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "StandardInput"
+        },
+        {
+          "lang": "vb",
+          "value": "StandardInput"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestProcess.StandardInput"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestProcess.StandardInput"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestProcess.StandardInput"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestProcess.StandardInput"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardInput\" text=\"StandardInput\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardInput\" text=\"StandardInput\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "TextWriter StandardInput { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "ReadOnly Property StandardInput As TextWriter"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.IO.TextWriter",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextWriter"
+              },
+              {
+                "lang": "vb",
+                "value": "TextWriter"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TextWriter"
+              },
+              {
+                "lang": "vb",
+                "value": "TextWriter"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.IO.TextWriter"
+              },
+              {
+                "lang": "vb",
+                "value": "System.IO.TextWriter"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.IO.TextWriter\" text=\"TextWriter\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.IO.TextWriter\" text=\"TextWriter\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "StandardInput",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+        "startLine": 21,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestProcess.StandardInput*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "StandardInput"
+          },
+          {
+            "lang": "vb",
+            "value": "StandardInput"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestProcess.StandardInput"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestProcess.StandardInput"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestProcess.StandardInput"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestProcess.StandardInput"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardInput*\" text=\"StandardInput\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardInput*\" text=\"StandardInput\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Gets a <xref href=\"System.IO.TextWriter\" data-throw-if-not-resolved=\"false\"></xref> that can be used to write text from the standard\ninput of the test process.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ITestProcess.StandardOutput",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestProcess",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "StandardOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "StandardOutput"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestProcess.StandardOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestProcess.StandardOutput"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestProcess.StandardOutput"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestProcess.StandardOutput"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardOutput\" text=\"StandardOutput\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardOutput\" text=\"StandardOutput\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "TextReader StandardOutput { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "ReadOnly Property StandardOutput As TextReader"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.IO.TextReader",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextReader"
+              },
+              {
+                "lang": "vb",
+                "value": "TextReader"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TextReader"
+              },
+              {
+                "lang": "vb",
+                "value": "TextReader"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.IO.TextReader"
+              },
+              {
+                "lang": "vb",
+                "value": "System.IO.TextReader"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.IO.TextReader\" text=\"TextReader\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.IO.TextReader\" text=\"TextReader\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "StandardOutput",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+        "startLine": 27,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestProcess.StandardOutput*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "StandardOutput"
+          },
+          {
+            "lang": "vb",
+            "value": "StandardOutput"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestProcess.StandardOutput"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestProcess.StandardOutput"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestProcess.StandardOutput"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestProcess.StandardOutput"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardOutput*\" text=\"StandardOutput\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.StandardOutput*\" text=\"StandardOutput\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Gets a <xref href=\"System.IO.TextReader\" data-throw-if-not-resolved=\"false\"></xref> that can be used to read text from the standard\noutput of the test process.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.ITestProcess.WaitForExit(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.ITestProcess",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WaitForExit(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "WaitForExit(Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITestProcess.WaitForExit(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITestProcess.WaitForExit(Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.ITestProcess.WaitForExit(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.ITestProcess.WaitForExit(Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.WaitForExit(System.Int32)\" text=\"WaitForExit(int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.ITestProcess.WaitForExit(System.Int32)\" text=\"WaitForExit(int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "bool WaitForExit(int milliseconds)"
+          },
+          {
+            "lang": "vb",
+            "value": "Function WaitForExit(milliseconds As Integer) As Boolean"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "milliseconds",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">The amount of time, in milliseconds, to wait</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Boolean",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "bool"
+              },
+              {
+                "lang": "vb",
+                "value": "Boolean"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Returns <code>true</code> if the process exited; <code>false</code>, otherwise</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "WaitForExit",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+        "startLine": 49,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.ITestProcess.WaitForExit*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "WaitForExit"
+          },
+          {
+            "lang": "vb",
+            "value": "WaitForExit"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ITestProcess.WaitForExit"
+          },
+          {
+            "lang": "vb",
+            "value": "ITestProcess.WaitForExit"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.ITestProcess.WaitForExit"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.ITestProcess.WaitForExit"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.WaitForExit*\" text=\"WaitForExit\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.ITestProcess.WaitForExit*\" text=\"WaitForExit\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Wait for the specified number of milliseconds for the test process to exit.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITestProcess"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestProcess"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITestProcess"
+    },
+    {
+      "lang": "vb",
+      "value": "ITestProcess"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.ITestProcess"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.ITestProcess"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ITestProcess",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Frameworks/v3/ITestProcess.cs",
+    "startLine": 10,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.utility.netfx"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml\" sourcestartlinenumber=\"1\">Represents a v3 test process that has been launched. When the process is disposed,\nit should be allowed to cleaned up and exit within an appropriate amount of time,\nand then killed if it will not stop cleanly.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITestProcess : IDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITestProcess Inherits IDisposable"
+      }
+    ]
+  },
+  "level": 0,
+  "inheritedMembers": [
+    {
+      "uid": "System.IDisposable.Dispose",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.IDisposable",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.idisposable.dispose",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable.Dispose()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IDisposable.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IDisposable.Dispose()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.idisposable.dispose\">Dispose</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.idisposable.dispose\">Dispose</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-utility/Xunit.v3.ITestProcess.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-utility/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-utility/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

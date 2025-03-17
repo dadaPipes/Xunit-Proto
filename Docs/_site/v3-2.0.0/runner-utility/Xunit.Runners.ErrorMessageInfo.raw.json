@@ -1,0 +1,1665 @@
+{
+  "uid": "Xunit.Runners.ErrorMessageInfo",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Runners",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Runners.ErrorMessageInfo.#ctor(Xunit.Runners.ErrorMessageType,System.String,System.String,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.ErrorMessageInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageInfo(ErrorMessageType, string?, string, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(ErrorMessageType, String, String, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageInfo.ErrorMessageInfo(ErrorMessageType, string?, string, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessageInfo.New(ErrorMessageType, String, String, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.ErrorMessageInfo.ErrorMessageInfo(Xunit.Runners.ErrorMessageType, string?, string, string?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.ErrorMessageInfo.New(Xunit.Runners.ErrorMessageType, String, String, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.#ctor(Xunit.Runners.ErrorMessageType,System.String,System.String,System.String)\" text=\"ErrorMessageInfo(ErrorMessageType, string?, string, string?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.#ctor(Xunit.Runners.ErrorMessageType,System.String,System.String,System.String)\" text=\"ErrorMessageInfo(ErrorMessageType, string?, string, string?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ErrorMessageInfo(ErrorMessageType messageType, string? exceptionType, string exceptionMessage, string? exceptionStackTrace)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(messageType As ErrorMessageType, exceptionType As String, exceptionMessage As String, exceptionStackTrace As String)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "messageType",
+            "type": {
+              "uid": "Xunit.Runners.ErrorMessageType",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ErrorMessageType"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ErrorMessageType"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ErrorMessageType"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ErrorMessageType"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Runners.ErrorMessageType"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Runners.ErrorMessageType"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Runners.ErrorMessageType\" text=\"ErrorMessageType\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Runners.ErrorMessageType\" text=\"ErrorMessageType\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "exceptionType",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "exceptionMessage",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "exceptionStackTrace",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+        "startLine": 6,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.ErrorMessageInfo.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ErrorMessageInfo"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ErrorMessageInfo.ErrorMessageInfo"
+          },
+          {
+            "lang": "vb",
+            "value": "ErrorMessageInfo.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.ErrorMessageInfo.ErrorMessageInfo"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.ErrorMessageInfo.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.#ctor*\" text=\"ErrorMessageInfo\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.#ctor*\" text=\"ErrorMessageInfo\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.yml\" sourcestartlinenumber=\"1\">Represents an error that happened outside the scope of a running test.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runners.ErrorMessageInfo.ExceptionMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.ErrorMessageInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageInfo.ExceptionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessageInfo.ExceptionMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.ErrorMessageInfo.ExceptionMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.ErrorMessageInfo.ExceptionMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionMessage\" text=\"ExceptionMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionMessage\" text=\"ExceptionMessage\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string ExceptionMessage { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property ExceptionMessage As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExceptionMessage",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+        "startLine": 25,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.ErrorMessageInfo.ExceptionMessage*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExceptionMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "ExceptionMessage"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ErrorMessageInfo.ExceptionMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "ErrorMessageInfo.ExceptionMessage"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.ErrorMessageInfo.ExceptionMessage"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.ErrorMessageInfo.ExceptionMessage"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionMessage*\" text=\"ExceptionMessage\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionMessage*\" text=\"ExceptionMessage\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.yml\" sourcestartlinenumber=\"1\">The message from the exception that caused the test failure.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.ErrorMessageInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionStackTrace"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionStackTrace"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageInfo.ExceptionStackTrace"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessageInfo.ExceptionStackTrace"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace\" text=\"ExceptionStackTrace\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace\" text=\"ExceptionStackTrace\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string? ExceptionStackTrace { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property ExceptionStackTrace As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExceptionStackTrace",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+        "startLine": 30,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExceptionStackTrace"
+          },
+          {
+            "lang": "vb",
+            "value": "ExceptionStackTrace"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ErrorMessageInfo.ExceptionStackTrace"
+          },
+          {
+            "lang": "vb",
+            "value": "ErrorMessageInfo.ExceptionStackTrace"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace*\" text=\"ExceptionStackTrace\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionStackTrace*\" text=\"ExceptionStackTrace\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.yml\" sourcestartlinenumber=\"1\">The stack trace from the exception that caused the test failure.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runners.ErrorMessageInfo.ExceptionType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.ErrorMessageInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionType"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionType"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageInfo.ExceptionType"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessageInfo.ExceptionType"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.ErrorMessageInfo.ExceptionType"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.ErrorMessageInfo.ExceptionType"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionType\" text=\"ExceptionType\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionType\" text=\"ExceptionType\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string? ExceptionType { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property ExceptionType As String"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExceptionType",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+        "startLine": 20,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.ErrorMessageInfo.ExceptionType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExceptionType"
+          },
+          {
+            "lang": "vb",
+            "value": "ExceptionType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ErrorMessageInfo.ExceptionType"
+          },
+          {
+            "lang": "vb",
+            "value": "ErrorMessageInfo.ExceptionType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.ErrorMessageInfo.ExceptionType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.ErrorMessageInfo.ExceptionType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionType*\" text=\"ExceptionType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.ExceptionType*\" text=\"ExceptionType\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.yml\" sourcestartlinenumber=\"1\">The exception that caused the test failure.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Runners.ErrorMessageInfo.MesssageType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Runners.ErrorMessageInfo",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MesssageType"
+        },
+        {
+          "lang": "vb",
+          "value": "MesssageType"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageInfo.MesssageType"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessageInfo.MesssageType"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Runners.ErrorMessageInfo.MesssageType"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Runners.ErrorMessageInfo.MesssageType"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.MesssageType\" text=\"MesssageType\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.MesssageType\" text=\"MesssageType\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ErrorMessageType MesssageType { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property MesssageType As ErrorMessageType"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.Runners.ErrorMessageType",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ErrorMessageType"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorMessageType"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ErrorMessageType"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorMessageType"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Runners.ErrorMessageType"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Runners.ErrorMessageType"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Runners.ErrorMessageType\" text=\"ErrorMessageType\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Runners.ErrorMessageType\" text=\"ErrorMessageType\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "MesssageType",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+        "startLine": 15,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.runner.utility.netfx"
+      ],
+      "namespace": "Xunit.Runners",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Runners.ErrorMessageInfo.MesssageType*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "MesssageType"
+          },
+          {
+            "lang": "vb",
+            "value": "MesssageType"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ErrorMessageInfo.MesssageType"
+          },
+          {
+            "lang": "vb",
+            "value": "ErrorMessageInfo.MesssageType"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Runners.ErrorMessageInfo.MesssageType"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Runners.ErrorMessageInfo.MesssageType"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.MesssageType*\" text=\"MesssageType\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Runners.ErrorMessageInfo.MesssageType*\" text=\"MesssageType\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.yml\" sourcestartlinenumber=\"1\">The type of error condition that was encountered.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ErrorMessageInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "ErrorMessageInfo"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ErrorMessageInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "ErrorMessageInfo"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Runners.ErrorMessageInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Runners.ErrorMessageInfo"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "ErrorMessageInfo",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.runner.utility/Runners/ErrorMessageInfo.cs",
+    "startLine": 6,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.runner.utility.netfx"
+  ],
+  "namespace": {
+    "uid": "Xunit.Runners",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Runners"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Runners.html\">Runners</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.yml\" sourcestartlinenumber=\"1\">Represents an error that happened outside the scope of a running test.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class ErrorMessageInfo"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class ErrorMessageInfo"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/runner-utility/Xunit.Runners.ErrorMessageInfo.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/runner-utility/toc.yml",
+  "_tocPath": "v3-2.0.0/runner-utility/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

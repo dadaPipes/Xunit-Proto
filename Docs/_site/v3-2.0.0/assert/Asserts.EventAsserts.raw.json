@@ -1,0 +1,5377 @@
+{
+  "uid": "Asserts.EventAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Asserts.EventAsserts.Raises(System.Action{System.Action},System.Action{System.Action},System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Raises(Action<Action>, Action<Action>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Raises(Action(Of Action), Action(Of Action), Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.Raises(Action<Action>, Action<Action>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.Raises(Action(Of Action), Action(Of Action), Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.Raises(System.Action<System.Action>, System.Action<System.Action>, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.Raises(System.Action(Of System.Action), System.Action(Of System.Action), System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises(System.Action{System.Action},System.Action{System.Action},System.Action)\" text=\"Raises(Action&lt;Action&gt;, Action&lt;Action&gt;, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises(System.Action{System.Action},System.Action{System.Action},System.Action)\" text=\"Raises(Action&lt;Action&gt;, Action&lt;Action&gt;, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Raises(Action<Action> attach, Action<Action> detach, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Raises(attach As Action(Of Action), detach As Action(Of Action), testCode As Action)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.Action}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.Action}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "Raises",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 35,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.Raises*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Raises"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.Raises"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.Raises"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAny(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAny(Action<EventHandler>, Action<EventHandler>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAny(Action(Of EventHandler), Action(Of EventHandler), Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAny(Action<EventHandler>, Action<EventHandler>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAny(Action(Of EventHandler), Action(Of EventHandler), Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAny(System.Action<System.EventHandler>, System.Action<System.EventHandler>, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAny(System.Action(Of System.EventHandler), System.Action(Of System.EventHandler), System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Action)\" text=\"RaisesAny(Action&lt;EventHandler&gt;, Action&lt;EventHandler&gt;, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Action)\" text=\"RaisesAny(Action&lt;EventHandler&gt;, Action&lt;EventHandler&gt;, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static EventAsserts.RaisedEvent<EventArgs> RaisesAny(Action<EventHandler> attach, Action<EventHandler> detach, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAny(attach As Action(Of EventHandler), detach As Action(Of EventHandler), testCode As Action) As EventAsserts.RaisedEvent(Of EventArgs)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.EventHandler}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.EventHandler}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Asserts.EventAsserts.RaisedEvent{System.EventArgs}",
+            "definition": "Asserts.EventAsserts.RaisedEvent`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<EventArgs>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of EventArgs)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<EventArgs>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of EventArgs)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Asserts.EventAsserts.RaisedEvent<System.EventArgs>"
+              },
+              {
+                "lang": "vb",
+                "value": "Asserts.EventAsserts.RaisedEvent(Of System.EventArgs)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventargs\">EventArgs</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventargs\">EventArgs</a>)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAny",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 124,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAny*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAny"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAny"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAny"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny*\" text=\"RaisesAny\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny*\" text=\"RaisesAny\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAnyAsync(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Func{System.Threading.Tasks.Task})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAnyAsync(Action<EventHandler>, Action<EventHandler>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAnyAsync(Action(Of EventHandler), Action(Of EventHandler), Func(Of Task))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAnyAsync(Action<EventHandler>, Action<EventHandler>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAnyAsync(Action(Of EventHandler), Action(Of EventHandler), Func(Of Task))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAnyAsync(System.Action<System.EventHandler>, System.Action<System.EventHandler>, System.Func<System.Threading.Tasks.Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAnyAsync(System.Action(Of System.EventHandler), System.Action(Of System.EventHandler), System.Func(Of System.Threading.Tasks.Task))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAnyAsync(Action&lt;EventHandler&gt;, Action&lt;EventHandler&gt;, Func&lt;Task&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync(System.Action{System.EventHandler},System.Action{System.EventHandler},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAnyAsync(Action&lt;EventHandler&gt;, Action&lt;EventHandler&gt;, Func&lt;Task&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Task<EventAsserts.RaisedEvent<EventArgs>> RaisesAnyAsync(Action<EventHandler> attach, Action<EventHandler> detach, Func<Task> testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAnyAsync(attach As Action(Of EventHandler), detach As Action(Of EventHandler), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of EventArgs))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.EventHandler}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.EventHandler}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\">EventHandler</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.Task}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.Task)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{System.EventArgs}}",
+            "definition": "System.Threading.Tasks.Task`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<EventArgs>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of EventArgs))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<EventArgs>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of EventArgs))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.Task<Asserts.EventAsserts.RaisedEvent<System.EventArgs>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.Task(Of Asserts.EventAsserts.RaisedEvent(Of System.EventArgs))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventargs\">EventArgs</a>&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventargs\">EventArgs</a>))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAnyAsync",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 168,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAnyAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAnyAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAnyAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAnyAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync*\" text=\"RaisesAnyAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync*\" text=\"RaisesAnyAsync\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAnyAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAnyAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAnyAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAnyAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAnyAsync<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Func<System.Threading.Tasks.Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAnyAsync(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Func(Of System.Threading.Tasks.Task))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAnyAsync&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAnyAsync&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Task<EventAsserts.RaisedEvent<T>> RaisesAnyAsync<T>(Action<Action<T>> attach, Action<Action<T>> detach, Func<Task> testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAnyAsync(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.Task}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.Task)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}",
+            "definition": "System.Threading.Tasks.Task`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.Task<Asserts.EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.Task(Of Asserts.EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAnyAsync",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 183,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAnyAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAnyAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAnyAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAnyAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync*\" text=\"RaisesAnyAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync*\" text=\"RaisesAnyAsync\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact or a derived event args is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAnyAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAnyAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAnyAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAnyAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAnyAsync<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Func<System.Threading.Tasks.Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAnyAsync(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Func(Of System.Threading.Tasks.Task))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAnyAsync&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAnyAsync&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Task<EventAsserts.RaisedEvent<T>> RaisesAnyAsync<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Func<Task> testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAnyAsync(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.Task}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.Task)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}",
+            "definition": "System.Threading.Tasks.Task`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.Task<Asserts.EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.Task(Of Asserts.EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAnyAsync",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 198,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAnyAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAnyAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAnyAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAnyAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAnyAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync*\" text=\"RaisesAnyAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAnyAsync*\" text=\"RaisesAnyAsync\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact or a derived event args is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAny``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAny<T>(Action<Action<T>>, Action<Action<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAny(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAny<T>(Action<Action<T>>, Action<Action<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAny(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAny<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAny(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)\" text=\"RaisesAny&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)\" text=\"RaisesAny&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static EventAsserts.RaisedEvent<T> RaisesAny<T>(Action<Action<T>> attach, Action<Action<T>> detach, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAny(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Asserts.EventAsserts.RaisedEvent{{T}}",
+            "definition": "Asserts.EventAsserts.RaisedEvent`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Asserts.EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "Asserts.EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAny",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 139,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAny*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAny"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAny"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAny"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny*\" text=\"RaisesAny\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny*\" text=\"RaisesAny\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact or a derived event args is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAny``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAny<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAny(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAny<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAny(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAny<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAny(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)\" text=\"RaisesAny&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)\" text=\"RaisesAny&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static EventAsserts.RaisedEvent<T> RaisesAny<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAny(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Asserts.EventAsserts.RaisedEvent{{T}}",
+            "definition": "Asserts.EventAsserts.RaisedEvent`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Asserts.EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "Asserts.EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAny",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 154,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAny*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAny"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAny"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAny"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAny"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny*\" text=\"RaisesAny\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAny*\" text=\"RaisesAny\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact or a derived event args is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAsync(System.Action{System.Action},System.Action{System.Action},System.Func{System.Threading.Tasks.Task})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAsync(Action<Action>, Action<Action>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAsync(Action(Of Action), Action(Of Action), Func(Of Task))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAsync(Action<Action>, Action<Action>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAsync(Action(Of Action), Action(Of Action), Func(Of Task))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAsync(System.Action<System.Action>, System.Action<System.Action>, System.Func<System.Threading.Tasks.Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAsync(System.Action(Of System.Action), System.Action(Of System.Action), System.Func(Of System.Threading.Tasks.Task))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync(System.Action{System.Action},System.Action{System.Action},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAsync(Action&lt;Action&gt;, Action&lt;Action&gt;, Func&lt;Task&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync(System.Action{System.Action},System.Action{System.Action},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAsync(Action&lt;Action&gt;, Action&lt;Action&gt;, Func&lt;Task&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Task RaisesAsync(Action<Action> attach, Action<Action> detach, Func<Task> testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAsync(attach As Action(Of Action), detach As Action(Of Action), testCode As Func(Of Task)) As Task"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.Action}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.Action}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action\">Action</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.Task}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.Task)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.Task",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Task"
+              },
+              {
+                "lang": "vb",
+                "value": "Task"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Task"
+              },
+              {
+                "lang": "vb",
+                "value": "Task"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.Task"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.Task"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAsync",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 212,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync*\" text=\"RaisesAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync*\" text=\"RaisesAsync\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAsync<T>(Action<Action<T>>, Action<Action<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAsync(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Func(Of Task))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAsync<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Func<System.Threading.Tasks.Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAsync(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Func(Of System.Threading.Tasks.Task))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAsync&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAsync&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Task<EventAsserts.RaisedEvent<T>> RaisesAsync<T>(Action<Action<T>> attach, Action<Action<T>> detach, Func<Task> testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAsync(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.Task}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.Task)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}",
+            "definition": "System.Threading.Tasks.Task`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.Task<Asserts.EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.Task(Of Asserts.EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAsync",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 230,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync*\" text=\"RaisesAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync*\" text=\"RaisesAsync\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact event args (and not a derived type) is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.RaisesAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RaisesAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "RaisesAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.RaisesAsync<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Func<Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.RaisesAsync(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Func(Of Task))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.RaisesAsync<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Func<System.Threading.Tasks.Task>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.RaisesAsync(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Func(Of System.Threading.Tasks.Task))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAsync&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Func{System.Threading.Tasks.Task})\" text=\"RaisesAsync&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Func&lt;Task&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static Task<EventAsserts.RaisedEvent<T>> RaisesAsync<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Func<Task> testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function RaisesAsync(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Func(Of Task)) As Task(Of EventAsserts.RaisedEvent(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Func{System.Threading.Tasks.Task}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of Task)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<System.Threading.Tasks.Task>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of System.Threading.Tasks.Task)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.Task{Asserts.EventAsserts.RaisedEvent{{T}}}",
+            "definition": "System.Threading.Tasks.Task`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Task<EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "Task(Of EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.Task<Asserts.EventAsserts.RaisedEvent<T>>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.Task(Of Asserts.EventAsserts.RaisedEvent(Of T))"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T))"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "RaisesAsync",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 252,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.RaisesAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "RaisesAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.RaisesAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.RaisesAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.RaisesAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync*\" text=\"RaisesAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.RaisesAsync*\" text=\"RaisesAsync\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact event args (and not a derived type) is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.Raises``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Raises<T>(Action<Action<T>>, Action<Action<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Raises(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.Raises<T>(Action<Action<T>>, Action<Action<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.Raises(Of T)(Action(Of Action(Of T)), Action(Of Action(Of T)), Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.Raises<T>(System.Action<System.Action<T>>, System.Action<System.Action<T>>, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.Raises(Of T)(System.Action(Of System.Action(Of T)), System.Action(Of System.Action(Of T)), System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)\" text=\"Raises&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises``1(System.Action{System.Action{``0}},System.Action{System.Action{``0}},System.Action)\" text=\"Raises&lt;T&gt;(Action&lt;Action&lt;T&gt;&gt;, Action&lt;Action&lt;T&gt;&gt;, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static EventAsserts.RaisedEvent<T> Raises<T>(Action<Action<T>> attach, Action<Action<T>> detach, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Raises(Of T)(attach As Action(Of Action(Of T)), detach As Action(Of Action(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.Action{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of Action(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.Action<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.Action(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Asserts.EventAsserts.RaisedEvent{{T}}",
+            "definition": "Asserts.EventAsserts.RaisedEvent`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Asserts.EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "Asserts.EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "Raises",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 53,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.Raises*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Raises"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.Raises"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.Raises"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact event args is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.Raises``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Raises<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Raises(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.Raises<T>(Action<EventHandler<T>>, Action<EventHandler<T>>, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.Raises(Of T)(Action(Of EventHandler(Of T)), Action(Of EventHandler(Of T)), Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.Raises<T>(System.Action<System.EventHandler<T>>, System.Action<System.EventHandler<T>>, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.Raises(Of T)(System.Action(Of System.EventHandler(Of T)), System.Action(Of System.EventHandler(Of T)), System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)\" text=\"Raises&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises``1(System.Action{System.EventHandler{``0}},System.Action{System.EventHandler{``0}},System.Action)\" text=\"Raises&lt;T&gt;(Action&lt;EventHandler&lt;T&gt;&gt;, Action&lt;EventHandler&lt;T&gt;&gt;, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static EventAsserts.RaisedEvent<T> Raises<T>(Action<EventHandler<T>> attach, Action<EventHandler<T>> detach, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Raises(Of T)(attach As Action(Of EventHandler(Of T)), detach As Action(Of EventHandler(Of T)), testCode As Action) As EventAsserts.RaisedEvent(Of T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action{System.EventHandler{{T}}}",
+              "definition": "System.Action`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action<EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action(Of EventHandler(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action<System.EventHandler<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action(Of System.EventHandler(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-1\">Action</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler-1\">EventHandler</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Asserts.EventAsserts.RaisedEvent{{T}}",
+            "definition": "Asserts.EventAsserts.RaisedEvent`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Asserts.EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "Asserts.EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "Raises",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 75,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.Raises*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Raises"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.Raises"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.Raises"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact event args is raised.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Asserts.EventAsserts.Raises``1(System.Func{Asserts.EventAsserts.RaisedEvent{``0}},System.Action,System.Action,System.Action)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Asserts.EventAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Raises<T>(Func<RaisedEvent<T>?>, Action, Action, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Raises(Of T)(Func(Of RaisedEvent(Of T)), Action, Action, Action)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "EventAsserts.Raises<T>(Func<EventAsserts.RaisedEvent<T>?>, Action, Action, Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "EventAsserts.Raises(Of T)(Func(Of EventAsserts.RaisedEvent(Of T)), Action, Action, Action)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Asserts.EventAsserts.Raises<T>(System.Func<Asserts.EventAsserts.RaisedEvent<T>?>, System.Action, System.Action, System.Action)"
+        },
+        {
+          "lang": "vb",
+          "value": "Asserts.EventAsserts.Raises(Of T)(System.Func(Of Asserts.EventAsserts.RaisedEvent(Of T)), System.Action, System.Action, System.Action)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises``1(System.Func{Asserts.EventAsserts.RaisedEvent{``0}},System.Action,System.Action,System.Action)\" text=\"Raises&lt;T&gt;(Func&lt;RaisedEvent&lt;T&gt;?&gt;, Action, Action, Action)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Asserts.EventAsserts.Raises``1(System.Func{Asserts.EventAsserts.RaisedEvent{``0}},System.Action,System.Action,System.Action)\" text=\"Raises&lt;T&gt;(Func&lt;RaisedEvent&lt;T&gt;?&gt;, Action, Action, Action)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static EventAsserts.RaisedEvent<T> Raises<T>(Func<EventAsserts.RaisedEvent<T>?> handler, Action attach, Action detach, Action testCode)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Raises(Of T)(handler As Func(Of EventAsserts.RaisedEvent(Of T)), attach As Action, detach As Action, testCode As Action) As EventAsserts.RaisedEvent(Of T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "handler",
+            "type": {
+              "uid": "System.Func{Asserts.EventAsserts.RaisedEvent{{T}}}",
+              "definition": "System.Func`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<EventAsserts.RaisedEvent<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of EventAsserts.RaisedEvent(Of T))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Func<EventAsserts.RaisedEvent<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Func(Of EventAsserts.RaisedEvent(Of T))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Func<Asserts.EventAsserts.RaisedEvent<T>>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Func(Of Asserts.EventAsserts.RaisedEvent(Of T))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>&lt;<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-1\">Func</a>(Of <a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T))"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code returning the raised event</p>\n"
+          },
+          {
+            "id": "attach",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to attach the event handler</p>\n"
+          },
+          {
+            "id": "detach",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Code to detach the event handler</p>\n"
+          },
+          {
+            "id": "testCode",
+            "type": {
+              "uid": "System.Action",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Action"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Action"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Action"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Action\" text=\"Action\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">A delegate to the code to be tested</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T",
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The type of the event arguments to expect</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Asserts.EventAsserts.RaisedEvent{{T}}",
+            "definition": "Asserts.EventAsserts.RaisedEvent`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Asserts.EventAsserts.RaisedEvent<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "Asserts.EventAsserts.RaisedEvent(Of T)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>&lt;T&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"Asserts.EventAsserts.html\">EventAsserts</a>.<a class=\"xref\" href=\"Asserts.EventAsserts.RaisedEvent-1.html\">RaisedEvent</a>(Of T)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">The event sender and arguments wrapped in an object</p>\n"
+        }
+      },
+      "source": {
+        "id": "Raises",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+        "startLine": 98,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Asserts",
+      "example": [],
+      "overload": {
+        "uid": "Asserts.EventAsserts.Raises*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Raises"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "EventAsserts.Raises"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Asserts.EventAsserts.Raises"
+          },
+          {
+            "lang": "vb",
+            "value": "Asserts.EventAsserts.Raises"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Asserts.EventAsserts.Raises*\" text=\"Raises\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.RaisesException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "RaisesException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.RaisesException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.RaisesException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.RaisesException\" text=\"RaisesException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the expected event was not raised.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Asserts.EventAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that an event with the exact event args is raised.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "EventAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "EventAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "EventAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "EventAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Asserts.EventAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Asserts.EventAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "EventAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\EventAsserts.cs",
+    "startLine": 24,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Asserts",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Asserts.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Asserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Asserts"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Asserts\" text=\"Asserts\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class EventAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class EventAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Asserts.EventAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Asserts.EventAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

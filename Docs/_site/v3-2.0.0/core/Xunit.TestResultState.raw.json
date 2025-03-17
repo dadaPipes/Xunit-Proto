@@ -1,0 +1,2993 @@
+{
+  "uid": "Xunit.TestResultState",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.TestResultState.ExceptionMessages",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionMessages"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionMessages"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ExceptionMessages"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ExceptionMessages"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ExceptionMessages"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ExceptionMessages"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionMessages\" text=\"ExceptionMessages\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionMessages\" text=\"ExceptionMessages\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string[]? ExceptionMessages { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property ExceptionMessages As String()"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExceptionMessages",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 19,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ExceptionMessages*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExceptionMessages"
+          },
+          {
+            "lang": "vb",
+            "value": "ExceptionMessages"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ExceptionMessages"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ExceptionMessages"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ExceptionMessages"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ExceptionMessages"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionMessages*\" text=\"ExceptionMessages\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionMessages*\" text=\"ExceptionMessages\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Gets the message(s) of the exception(s). This value is only available\nwhen <xref href=\"Xunit.TestResultState.Result\" data-throw-if-not-resolved=\"false\"></xref> is <xref href=\"Xunit.TestResult.Failed\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.ExceptionParentIndices",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionParentIndices"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionParentIndices"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ExceptionParentIndices"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ExceptionParentIndices"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ExceptionParentIndices"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ExceptionParentIndices"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionParentIndices\" text=\"ExceptionParentIndices\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionParentIndices\" text=\"ExceptionParentIndices\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public int[]? ExceptionParentIndices { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property ExceptionParentIndices As Integer()"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Int32[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "int[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "int[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "int[]"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExceptionParentIndices",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 26,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ExceptionParentIndices*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExceptionParentIndices"
+          },
+          {
+            "lang": "vb",
+            "value": "ExceptionParentIndices"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ExceptionParentIndices"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ExceptionParentIndices"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ExceptionParentIndices"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ExceptionParentIndices"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionParentIndices*\" text=\"ExceptionParentIndices\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionParentIndices*\" text=\"ExceptionParentIndices\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Gets the parent exception index(es) for the exception(s); a -1 indicates\nthat the exception in question has no parent. This value is only available\nwhen <xref href=\"Xunit.TestResultState.Result\" data-throw-if-not-resolved=\"false\"></xref> is <xref href=\"Xunit.TestResult.Failed\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.ExceptionStackTraces",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionStackTraces"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionStackTraces"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ExceptionStackTraces"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ExceptionStackTraces"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ExceptionStackTraces"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ExceptionStackTraces"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionStackTraces\" text=\"ExceptionStackTraces\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionStackTraces\" text=\"ExceptionStackTraces\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string?[]? ExceptionStackTraces { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property ExceptionStackTraces As String()"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExceptionStackTraces",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 32,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ExceptionStackTraces*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExceptionStackTraces"
+          },
+          {
+            "lang": "vb",
+            "value": "ExceptionStackTraces"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ExceptionStackTraces"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ExceptionStackTraces"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ExceptionStackTraces"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ExceptionStackTraces"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionStackTraces*\" text=\"ExceptionStackTraces\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionStackTraces*\" text=\"ExceptionStackTraces\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Gets the stack trace(s) of the exception(s). This value is only available\nwhen <xref href=\"Xunit.TestResultState.Result\" data-throw-if-not-resolved=\"false\"></xref> is <xref href=\"Xunit.TestResult.Failed\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.ExceptionTypes",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExceptionTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "ExceptionTypes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ExceptionTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ExceptionTypes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ExceptionTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ExceptionTypes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionTypes\" text=\"ExceptionTypes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ExceptionTypes\" text=\"ExceptionTypes\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public string?[]? ExceptionTypes { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property ExceptionTypes As String()"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.String[]",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string[]"
+              },
+              {
+                "lang": "vb",
+                "value": "String()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExceptionTypes",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 38,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ExceptionTypes*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExceptionTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "ExceptionTypes"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ExceptionTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ExceptionTypes"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ExceptionTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ExceptionTypes"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionTypes*\" text=\"ExceptionTypes\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ExceptionTypes*\" text=\"ExceptionTypes\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Gets the fully-qualified type name(s) of the exception(s). This value is\nonly available when <xref href=\"Xunit.TestResultState.Result\" data-throw-if-not-resolved=\"false\"></xref> is <xref href=\"Xunit.TestResult.Failed\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.ExecutionTime",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ExecutionTime"
+        },
+        {
+          "lang": "vb",
+          "value": "ExecutionTime"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ExecutionTime"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ExecutionTime"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ExecutionTime"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ExecutionTime"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ExecutionTime\" text=\"ExecutionTime\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ExecutionTime\" text=\"ExecutionTime\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public decimal? ExecutionTime { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property ExecutionTime As Decimal?"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Nullable{System.Decimal}",
+            "definition": "System.Nullable`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "decimal?"
+              },
+              {
+                "lang": "vb",
+                "value": "Decimal?"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "decimal?"
+              },
+              {
+                "lang": "vb",
+                "value": "Decimal?"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "decimal?"
+              },
+              {
+                "lang": "vb",
+                "value": "Decimal?"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">decimal</a>?"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">Decimal</a>?"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ExecutionTime",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 45,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ExecutionTime*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ExecutionTime"
+          },
+          {
+            "lang": "vb",
+            "value": "ExecutionTime"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ExecutionTime"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ExecutionTime"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ExecutionTime"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ExecutionTime"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ExecutionTime*\" text=\"ExecutionTime\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ExecutionTime*\" text=\"ExecutionTime\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Gets the amount of time the test ran, in seconds. The value may be <code>0</code> if no\ntest code was run (for example, a statically skipped test). Note that the value may\nbe a partial value because of further timing being done while cleaning up.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.FailureCause",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FailureCause"
+        },
+        {
+          "lang": "vb",
+          "value": "FailureCause"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.FailureCause"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.FailureCause"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.FailureCause"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.FailureCause"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.FailureCause\" text=\"FailureCause\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.FailureCause\" text=\"FailureCause\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public FailureCause? FailureCause { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property FailureCause As FailureCause?"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Nullable{Xunit.Sdk.FailureCause}",
+            "definition": "System.Nullable`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause?"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause?"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "FailureCause?"
+              },
+              {
+                "lang": "vb",
+                "value": "FailureCause?"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.FailureCause?"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.FailureCause?"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>?"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.FailureCause\" text=\"FailureCause\"/>?"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "FailureCause",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 51,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.FailureCause*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FailureCause"
+          },
+          {
+            "lang": "vb",
+            "value": "FailureCause"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.FailureCause"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.FailureCause"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.FailureCause"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.FailureCause"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.FailureCause*\" text=\"FailureCause\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.FailureCause*\" text=\"FailureCause\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Gets a value which indicates what the cause of the test failure was. This value is only\navailable when <xref href=\"Xunit.TestResultState.Result\" data-throw-if-not-resolved=\"false\"></xref> is <xref href=\"Xunit.TestResult.Failed\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.ForNotRun(System.Nullable{System.Decimal})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ForNotRun(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "ForNotRun(Decimal?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ForNotRun(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ForNotRun(Decimal?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ForNotRun(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ForNotRun(Decimal?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ForNotRun(System.Nullable{System.Decimal})\" text=\"ForNotRun(decimal?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ForNotRun(System.Nullable{System.Decimal})\" text=\"ForNotRun(decimal?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestResultState ForNotRun(decimal? executionTime = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function ForNotRun(executionTime As Decimal? = Nothing) As TestResultState"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "executionTime",
+            "type": {
+              "uid": "System.Nullable{System.Decimal}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">decimal</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">Decimal</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">The optional execution time</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResultState",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResultState"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ForNotRun",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 62,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ForNotRun*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ForNotRun"
+          },
+          {
+            "lang": "vb",
+            "value": "ForNotRun"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ForNotRun"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ForNotRun"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ForNotRun"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ForNotRun"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ForNotRun*\" text=\"ForNotRun\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ForNotRun*\" text=\"ForNotRun\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Create a not run test result.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.ForPassed(System.Nullable{System.Decimal})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ForPassed(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "ForPassed(Decimal?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ForPassed(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ForPassed(Decimal?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ForPassed(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ForPassed(Decimal?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ForPassed(System.Nullable{System.Decimal})\" text=\"ForPassed(decimal?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ForPassed(System.Nullable{System.Decimal})\" text=\"ForPassed(decimal?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestResultState ForPassed(decimal? executionTime = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function ForPassed(executionTime As Decimal? = Nothing) As TestResultState"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "executionTime",
+            "type": {
+              "uid": "System.Nullable{System.Decimal}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">decimal</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">Decimal</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">The optional execution time</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResultState",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResultState"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ForPassed",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 69,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ForPassed*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ForPassed"
+          },
+          {
+            "lang": "vb",
+            "value": "ForPassed"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ForPassed"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ForPassed"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ForPassed"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ForPassed"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ForPassed*\" text=\"ForPassed\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ForPassed*\" text=\"ForPassed\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Create a passing test result.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.ForSkipped(System.Nullable{System.Decimal})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ForSkipped(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "ForSkipped(Decimal?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.ForSkipped(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.ForSkipped(Decimal?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.ForSkipped(decimal?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.ForSkipped(Decimal?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.ForSkipped(System.Nullable{System.Decimal})\" text=\"ForSkipped(decimal?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.ForSkipped(System.Nullable{System.Decimal})\" text=\"ForSkipped(decimal?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestResultState ForSkipped(decimal? executionTime = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function ForSkipped(executionTime As Decimal? = Nothing) As TestResultState"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "executionTime",
+            "type": {
+              "uid": "System.Nullable{System.Decimal}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">decimal</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.decimal\">Decimal</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">The optional execution time</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResultState",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResultState"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "ForSkipped",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 76,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.ForSkipped*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ForSkipped"
+          },
+          {
+            "lang": "vb",
+            "value": "ForSkipped"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.ForSkipped"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.ForSkipped"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.ForSkipped"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.ForSkipped"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.ForSkipped*\" text=\"ForSkipped\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.ForSkipped*\" text=\"ForSkipped\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Create a skipped test result.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.FromException(System.Decimal,System.Exception)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FromException(decimal, Exception?)"
+        },
+        {
+          "lang": "vb",
+          "value": "FromException(Decimal, Exception)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.FromException(decimal, Exception?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.FromException(Decimal, Exception)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.FromException(decimal, System.Exception?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.FromException(Decimal, System.Exception)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.FromException(System.Decimal,System.Exception)\" text=\"FromException(decimal, Exception?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.FromException(System.Decimal,System.Exception)\" text=\"FromException(decimal, Exception?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestResultState FromException(decimal executionTime, Exception? exception)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function FromException(executionTime As Decimal, exception As Exception) As TestResultState"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "executionTime",
+            "type": {
+              "uid": "System.Decimal",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "decimal"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Decimal"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Decimal\" text=\"decimal\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Decimal\" text=\"decimal\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">The time spent executing the test</p>\n"
+          },
+          {
+            "id": "exception",
+            "type": {
+              "uid": "System.Exception",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Exception"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Exception"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Exception"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Exception"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Exception"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Exception"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Exception\" text=\"Exception\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Exception\" text=\"Exception\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">The exception, if the test failed</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResultState",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResultState"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "FromException",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 86,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.FromException*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FromException"
+          },
+          {
+            "lang": "vb",
+            "value": "FromException"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.FromException"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.FromException"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.FromException"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.FromException"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.FromException*\" text=\"FromException\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.FromException*\" text=\"FromException\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Creates an instance based on the presence or absence of an exception. If the exception\nis <code>null</code>, then it will be for <xref href=\"Xunit.TestResult.Passed\" data-throw-if-not-resolved=\"false\"></xref>; otherwise, it will\nbe for <xref href=\"Xunit.TestResult.Failed\" data-throw-if-not-resolved=\"false\"></xref>;</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.FromTestResult(Xunit.Sdk.ITestResultMessage)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FromTestResult(ITestResultMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "FromTestResult(ITestResultMessage)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.FromTestResult(ITestResultMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.FromTestResult(ITestResultMessage)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.FromTestResult(Xunit.Sdk.ITestResultMessage)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.FromTestResult(Xunit.Sdk.ITestResultMessage)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.FromTestResult(Xunit.Sdk.ITestResultMessage)\" text=\"FromTestResult(ITestResultMessage)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.FromTestResult(Xunit.Sdk.ITestResultMessage)\" text=\"FromTestResult(ITestResultMessage)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static TestResultState FromTestResult(ITestResultMessage testResult)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function FromTestResult(testResult As ITestResultMessage) As TestResultState"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "testResult",
+            "type": {
+              "uid": "Xunit.Sdk.ITestResultMessage",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestResultMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestResultMessage"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITestResultMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITestResultMessage"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.Sdk.ITestResultMessage"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.Sdk.ITestResultMessage"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestResultMessage\" text=\"ITestResultMessage\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.Sdk.ITestResultMessage\" text=\"ITestResultMessage\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">The test result</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResultState",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResultState"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResultState"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResultState"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResultState\" text=\"TestResultState\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "FromTestResult",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 114,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.FromTestResult*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FromTestResult"
+          },
+          {
+            "lang": "vb",
+            "value": "FromTestResult"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.FromTestResult"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.FromTestResult"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.FromTestResult"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.FromTestResult"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.FromTestResult*\" text=\"FromTestResult\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.FromTestResult*\" text=\"FromTestResult\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Creates an instance based on inspecting the type identity of the\n<code class=\"paramref\">testResult</code> instance.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.TestResultState.Result",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.TestResultState",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Result"
+        },
+        {
+          "lang": "vb",
+          "value": "Result"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TestResultState.Result"
+        },
+        {
+          "lang": "vb",
+          "value": "TestResultState.Result"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.TestResultState.Result"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.TestResultState.Result"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.TestResultState.Result\" text=\"Result\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.TestResultState.Result\" text=\"Result\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public TestResult Result { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Property Result As TestResult"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "Xunit.TestResult",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "TestResult"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.TestResult"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.TestResult"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.TestResult\" text=\"TestResult\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/TestResultState.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "Result",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+        "startLine": 56,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.TestResultState.Result*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Result"
+          },
+          {
+            "lang": "vb",
+            "value": "Result"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "TestResultState.Result"
+          },
+          {
+            "lang": "vb",
+            "value": "TestResultState.Result"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.TestResultState.Result"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.TestResultState.Result"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.TestResultState.Result*\" text=\"Result\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.TestResultState.Result*\" text=\"Result\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Returns the result from the test run.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TestResultState"
+    },
+    {
+      "lang": "vb",
+      "value": "TestResultState"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TestResultState"
+    },
+    {
+      "lang": "vb",
+      "value": "TestResultState"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.TestResultState"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.TestResultState"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/TestResultState.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "TestResultState",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/TestResultState.cs",
+    "startLine": 10,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.TestResultState.yml\" sourcestartlinenumber=\"1\">Represents information about the current state of a test after it has run.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class TestResultState"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class TestResultState"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.TestResultState.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.TestResultState.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

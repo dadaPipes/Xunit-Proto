@@ -1,0 +1,4161 @@
+{
+  "uid": "Xunit.SpanAsserts",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.SpanAsserts.Contains``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(ReadOnlySpan<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(ReadOnlySpan(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Contains<T>(ReadOnlySpan<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Contains(Of T)(ReadOnlySpan(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Contains<T>(System.ReadOnlySpan<T>, System.ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Contains(Of T)(System.ReadOnlySpan(Of T), System.ReadOnlySpan(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})\" text=\"Contains&lt;T&gt;(ReadOnlySpan&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})\" text=\"Contains&lt;T&gt;(ReadOnlySpan&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(ReadOnlySpan<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubSpan As ReadOnlySpan(Of T), actualSpan As ReadOnlySpan(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 67,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is not present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span contains a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Contains``1(System.ReadOnlySpan{``0},System.Span{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(ReadOnlySpan<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(ReadOnlySpan(Of T), Span(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Contains<T>(ReadOnlySpan<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Contains(Of T)(ReadOnlySpan(Of T), Span(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Contains<T>(System.ReadOnlySpan<T>, System.Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Contains(Of T)(System.ReadOnlySpan(Of T), System.Span(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.ReadOnlySpan{``0},System.Span{``0})\" text=\"Contains&lt;T&gt;(ReadOnlySpan&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.ReadOnlySpan{``0},System.Span{``0})\" text=\"Contains&lt;T&gt;(ReadOnlySpan&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(ReadOnlySpan<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubSpan As ReadOnlySpan(Of T), actualSpan As Span(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 55,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is not present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span contains a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Contains``1(System.Span{``0},System.ReadOnlySpan{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(Span<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(Span(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Contains<T>(Span<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Contains(Of T)(Span(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Contains<T>(System.Span<T>, System.ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Contains(Of T)(System.Span(Of T), System.ReadOnlySpan(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.Span{``0},System.ReadOnlySpan{``0})\" text=\"Contains&lt;T&gt;(Span&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.Span{``0},System.ReadOnlySpan{``0})\" text=\"Contains&lt;T&gt;(Span&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(Span<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubSpan As Span(Of T), actualSpan As ReadOnlySpan(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 43,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is not present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span contains a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Contains``1(System.Span{``0},System.Span{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Contains<T>(Span<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Contains(Of T)(Span(Of T), Span(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Contains<T>(Span<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Contains(Of T)(Span(Of T), Span(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Contains<T>(System.Span<T>, System.Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Contains(Of T)(System.Span(Of T), System.Span(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.Span{``0},System.Span{``0})\" text=\"Contains&lt;T&gt;(Span&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Contains``1(System.Span{``0},System.Span{``0})\" text=\"Contains&lt;T&gt;(Span&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Contains<T>(Span<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Contains(Of T As IEquatable(Of T))(expectedSubSpan As Span(Of T), actualSpan As Span(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Contains",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 31,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Contains*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Contains"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Contains"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Contains"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Contains"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Contains*\" text=\"Contains\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.ContainsException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.ContainsException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.ContainsException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.ContainsException\" text=\"ContainsException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is not present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span contains a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.DoesNotContain``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(ReadOnlySpan<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(ReadOnlySpan(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.DoesNotContain<T>(ReadOnlySpan<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.DoesNotContain(Of T)(ReadOnlySpan(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.DoesNotContain<T>(System.ReadOnlySpan<T>, System.ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.DoesNotContain(Of T)(System.ReadOnlySpan(Of T), System.ReadOnlySpan(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlySpan&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlySpan&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(ReadOnlySpan<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubSpan As ReadOnlySpan(Of T), actualSpan As ReadOnlySpan(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected not to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 121,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span does not contain a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.DoesNotContain``1(System.ReadOnlySpan{``0},System.Span{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(ReadOnlySpan<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(ReadOnlySpan(Of T), Span(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.DoesNotContain<T>(ReadOnlySpan<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.DoesNotContain(Of T)(ReadOnlySpan(Of T), Span(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.DoesNotContain<T>(System.ReadOnlySpan<T>, System.Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.DoesNotContain(Of T)(System.ReadOnlySpan(Of T), System.Span(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.ReadOnlySpan{``0},System.Span{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlySpan&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.ReadOnlySpan{``0},System.Span{``0})\" text=\"DoesNotContain&lt;T&gt;(ReadOnlySpan&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(ReadOnlySpan<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubSpan As ReadOnlySpan(Of T), actualSpan As Span(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected not to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 109,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span does not contain a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.DoesNotContain``1(System.Span{``0},System.ReadOnlySpan{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(Span<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(Span(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.DoesNotContain<T>(Span<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.DoesNotContain(Of T)(Span(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.DoesNotContain<T>(System.Span<T>, System.ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.DoesNotContain(Of T)(System.Span(Of T), System.ReadOnlySpan(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.Span{``0},System.ReadOnlySpan{``0})\" text=\"DoesNotContain&lt;T&gt;(Span&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.Span{``0},System.ReadOnlySpan{``0})\" text=\"DoesNotContain&lt;T&gt;(Span&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(Span<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubSpan As Span(Of T), actualSpan As ReadOnlySpan(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected not to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 97,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span does not contain a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.DoesNotContain``1(System.Span{``0},System.Span{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DoesNotContain<T>(Span<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "DoesNotContain(Of T)(Span(Of T), Span(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.DoesNotContain<T>(Span<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.DoesNotContain(Of T)(Span(Of T), Span(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.DoesNotContain<T>(System.Span<T>, System.Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.DoesNotContain(Of T)(System.Span(Of T), System.Span(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.Span{``0},System.Span{``0})\" text=\"DoesNotContain&lt;T&gt;(Span&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain``1(System.Span{``0},System.Span{``0})\" text=\"DoesNotContain&lt;T&gt;(Span&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void DoesNotContain<T>(Span<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub DoesNotContain(Of T As IEquatable(Of T))(expectedSubSpan As Span(Of T), actualSpan As Span(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSubSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The sub-span expected not to be in the span</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The span to be inspected</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "DoesNotContain",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 85,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.DoesNotContain*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "DoesNotContain"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.DoesNotContain"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.DoesNotContain"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.DoesNotContain*\" text=\"DoesNotContain\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.DoesNotContainException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "DoesNotContainException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.DoesNotContainException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.DoesNotContainException\" text=\"DoesNotContainException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the sub-span is present inside the span</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span does not contain a given sub-span</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(ReadOnlySpan<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(ReadOnlySpan(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Equal<T>(ReadOnlySpan<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Equal(Of T)(ReadOnlySpan(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Equal<T>(System.ReadOnlySpan<T>, System.ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Equal(Of T)(System.ReadOnlySpan(Of T), System.ReadOnlySpan(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})\" text=\"Equal&lt;T&gt;(ReadOnlySpan&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},System.ReadOnlySpan{``0})\" text=\"Equal&lt;T&gt;(ReadOnlySpan&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(ReadOnlySpan<T> expectedSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedSpan As ReadOnlySpan(Of T), actualSpan As ReadOnlySpan(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The expected span value.</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The actual span value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 196,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the spans are not equal.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two spans contain the same values in the same order.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},System.Span{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(ReadOnlySpan<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(ReadOnlySpan(Of T), Span(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Equal<T>(ReadOnlySpan<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Equal(Of T)(ReadOnlySpan(Of T), Span(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Equal<T>(System.ReadOnlySpan<T>, System.Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Equal(Of T)(System.ReadOnlySpan(Of T), System.Span(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},System.Span{``0})\" text=\"Equal&lt;T&gt;(ReadOnlySpan&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},System.Span{``0})\" text=\"Equal&lt;T&gt;(ReadOnlySpan&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(ReadOnlySpan<T> expectedSpan, Span<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedSpan As ReadOnlySpan(Of T), actualSpan As Span(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The expected span value.</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The actual span value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 184,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the spans are not equal.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two spans contain the same values in the same order.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},``0[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(ReadOnlySpan<T>, T[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(ReadOnlySpan(Of T), T())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Equal<T>(ReadOnlySpan<T>, T[])"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Equal(Of T)(ReadOnlySpan(Of T), T())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Equal<T>(System.ReadOnlySpan<T>, T[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Equal(Of T)(System.ReadOnlySpan(Of T), T())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},``0[])\" text=\"Equal&lt;T&gt;(ReadOnlySpan&lt;T&gt;, T[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.ReadOnlySpan{``0},``0[])\" text=\"Equal&lt;T&gt;(ReadOnlySpan&lt;T&gt;, T[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(ReadOnlySpan<T> expectedSpan, T[] actualArray) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedSpan As ReadOnlySpan(Of T), actualArray As T())"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The expected span value.</p>\n"
+          },
+          {
+            "id": "actualArray",
+            "type": {
+              "uid": "{T}[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "T[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "T[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "T[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "T[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "T()"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The actual array value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 148,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the collections are not equal.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that a span and an array contain the same values in the same order.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Equal``1(System.Span{``0},System.ReadOnlySpan{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(Span<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(Span(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Equal<T>(Span<T>, ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Equal(Of T)(Span(Of T), ReadOnlySpan(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Equal<T>(System.Span<T>, System.ReadOnlySpan<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Equal(Of T)(System.Span(Of T), System.ReadOnlySpan(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.Span{``0},System.ReadOnlySpan{``0})\" text=\"Equal&lt;T&gt;(Span&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.Span{``0},System.ReadOnlySpan{``0})\" text=\"Equal&lt;T&gt;(Span&lt;T&gt;, ReadOnlySpan&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(Span<T> expectedSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedSpan As Span(Of T), actualSpan As ReadOnlySpan(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The expected span value.</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The actual span value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 172,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the spans are not equal.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two spans contain the same values in the same order.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.SpanAsserts.Equal``1(System.Span{``0},System.Span{``0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.SpanAsserts",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equal<T>(Span<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equal(Of T)(Span(Of T), Span(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "SpanAsserts.Equal<T>(Span<T>, Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "SpanAsserts.Equal(Of T)(Span(Of T), Span(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.SpanAsserts.Equal<T>(System.Span<T>, System.Span<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.SpanAsserts.Equal(Of T)(System.Span(Of T), System.Span(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.Span{``0},System.Span{``0})\" text=\"Equal&lt;T&gt;(Span&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.SpanAsserts.Equal``1(System.Span{``0},System.Span{``0})\" text=\"Equal&lt;T&gt;(Span&lt;T&gt;, Span&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static void Equal<T>(Span<T> expectedSpan, Span<T> actualSpan) where T : IEquatable<T>"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Sub Equal(Of T As IEquatable(Of T))(expectedSpan As Span(Of T), actualSpan As Span(Of T))"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "expectedSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The expected span value.</p>\n"
+          },
+          {
+            "id": "actualSpan",
+            "type": {
+              "uid": "System.Span{{T}}",
+              "definition": "System.Span`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Span(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Span<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Span(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.span-1\">Span</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">The actual span value.</p>\n"
+          }
+        ],
+        "typeParameters": [
+          {
+            "id": "T"
+          }
+        ]
+      },
+      "source": {
+        "id": "Equal",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+        "startLine": 160,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.SpanAsserts.Equal*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Equal"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "SpanAsserts.Equal"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.SpanAsserts.Equal"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.SpanAsserts.Equal"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.SpanAsserts.Equal*\" text=\"Equal\"/>"
+          }
+        ]
+      },
+      "exceptions": [
+        {
+          "type": {
+            "uid": "Xunit.Sdk.EqualException",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualException"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.EqualException"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.EqualException"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"Xunit.Sdk.EqualException\" text=\"EqualException\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Thrown when the spans are not equal.</p>\n"
+        }
+      ],
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.SpanAsserts.yml\" sourcestartlinenumber=\"1\">Verifies that two spans contain the same values in the same order.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "SpanAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "SpanAsserts"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "SpanAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "SpanAsserts"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.SpanAsserts"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.SpanAsserts"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "SpanAsserts",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\SpanAsserts.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"Xunit\" text=\"Xunit\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class SpanAsserts"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class SpanAsserts"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.SpanAsserts.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.SpanAsserts.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

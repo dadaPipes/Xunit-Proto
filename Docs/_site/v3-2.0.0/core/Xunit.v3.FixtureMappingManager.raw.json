@@ -1,0 +1,2365 @@
+{
+  "uid": "Xunit.v3.FixtureMappingManager",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.#ctor(System.String,System.Object[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager(string, object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "New(String, Object())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.FixtureMappingManager(string, object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.New(String, Object())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.FixtureMappingManager(string, object[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.New(String, Object())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor(System.String,System.Object[])\" text=\"FixtureMappingManager(string, object[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor(System.String,System.Object[])\" text=\"FixtureMappingManager(string, object[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected FixtureMappingManager(string fixtureCategory, object[] cachedFixtureValues)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Sub New(fixtureCategory As String, cachedFixtureValues As Object())"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "fixtureCategory",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            }
+          },
+          {
+            "id": "cachedFixtureValues",
+            "type": {
+              "uid": "System.Object[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "object[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Object()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 37,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.FixtureMappingManager"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.FixtureMappingManager"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor*\" text=\"FixtureMappingManager\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor*\" text=\"FixtureMappingManager\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">FOR TESTING PURPOSES ONLY.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.#ctor(System.String,Xunit.v3.FixtureMappingManager)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager(string, FixtureMappingManager?)"
+        },
+        {
+          "lang": "vb",
+          "value": "New(String, FixtureMappingManager)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.FixtureMappingManager(string, FixtureMappingManager?)"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.New(String, FixtureMappingManager)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.FixtureMappingManager(string, Xunit.v3.FixtureMappingManager?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.New(String, Xunit.v3.FixtureMappingManager)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor(System.String,Xunit.v3.FixtureMappingManager)\" text=\"FixtureMappingManager(string, FixtureMappingManager?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor(System.String,Xunit.v3.FixtureMappingManager)\" text=\"FixtureMappingManager(string, FixtureMappingManager?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public FixtureMappingManager(string fixtureCategory, FixtureMappingManager? parentMappingManager = null)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Sub New(fixtureCategory As String, parentMappingManager As FixtureMappingManager = Nothing)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "fixtureCategory",
+            "type": {
+              "uid": "System.String",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "string"
+                },
+                {
+                  "lang": "vb",
+                  "value": "String"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">The category of fixture (i.e., &quot;Assembly&quot;); used in exception messages</p>\n"
+          },
+          {
+            "id": "parentMappingManager",
+            "type": {
+              "uid": "Xunit.v3.FixtureMappingManager",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "FixtureMappingManager"
+                },
+                {
+                  "lang": "vb",
+                  "value": "FixtureMappingManager"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "FixtureMappingManager"
+                },
+                {
+                  "lang": "vb",
+                  "value": "FixtureMappingManager"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Xunit.v3.FixtureMappingManager"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Xunit.v3.FixtureMappingManager"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Xunit.v3.FixtureMappingManager\" text=\"FixtureMappingManager\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Xunit.v3.FixtureMappingManager\" text=\"FixtureMappingManager\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">The parent mapping manager (used to resolve constructor arguments)</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": ".ctor",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 20,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"Xunit.v3.FixtureMappingManager\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.#ctor*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager"
+          },
+          {
+            "lang": "vb",
+            "value": "New"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.FixtureMappingManager"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.New"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.FixtureMappingManager"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.New"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor*\" text=\"FixtureMappingManager\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.#ctor*\" text=\"FixtureMappingManager\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "constructor",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Maps fixture objects, including support for generic collection fixtures.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.DisposeAsync",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "DisposeAsync()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.DisposeAsync()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.DisposeAsync()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.DisposeAsync()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.DisposeAsync\" text=\"DisposeAsync()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.DisposeAsync\" text=\"DisposeAsync()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask DisposeAsync()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function DisposeAsync() As ValueTask"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "DisposeAsync",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 60,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.DisposeAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "DisposeAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.DisposeAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.DisposeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.DisposeAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.DisposeAsync*\" text=\"DisposeAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.DisposeAsync*\" text=\"DisposeAsync\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "System.IAsyncDisposable.DisposeAsync",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "DisposeAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IAsyncDisposable.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "IAsyncDisposable.DisposeAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "System.IAsyncDisposable.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "System.IAsyncDisposable.DisposeAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Performs application-defined tasks associated with freeing, releasing, or\nresetting unmanaged resources asynchronously.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.GetFixture(System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetFixture(Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetFixture(Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.GetFixture(Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.GetFixture(Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.GetFixture(System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.GetFixture(System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GetFixture(System.Type)\" text=\"GetFixture(Type)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GetFixture(System.Type)\" text=\"GetFixture(Type)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask<object?> GetFixture(Type fixtureType)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function GetFixture(fixtureType As Type) As ValueTask(Of Object)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "fixtureType",
+            "type": {
+              "uid": "System.Type",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">The type of the fixture</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask{System.Object}",
+            "definition": "System.Threading.Tasks.ValueTask`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<object>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of Object)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask<object>"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask(Of Object)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask<object>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask(Of Object)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1\">ValueTask</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Returns the value if the fixture type is found, or <code>null</code> if it's not.</p>\n"
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GetFixture",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 106,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.GetFixture*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetFixture"
+          },
+          {
+            "lang": "vb",
+            "value": "GetFixture"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.GetFixture"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.GetFixture"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.GetFixture"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.GetFixture"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GetFixture*\" text=\"GetFixture\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GetFixture*\" text=\"GetFixture\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Get a value for the given fixture type. If the fixture type is unknown, then returns <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.GlobalFixtureTypes",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GlobalFixtureTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "GlobalFixtureTypes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.GlobalFixtureTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.GlobalFixtureTypes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.GlobalFixtureTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.GlobalFixtureTypes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GlobalFixtureTypes\" text=\"GlobalFixtureTypes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GlobalFixtureTypes\" text=\"GlobalFixtureTypes\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<Type> GlobalFixtureTypes { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property GlobalFixtureTypes As IReadOnlyCollection(Of Type)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{System.Type}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<Type>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of Type)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<Type>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of Type)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<System.Type>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of System.Type)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "GlobalFixtureTypes",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 57,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.GlobalFixtureTypes*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GlobalFixtureTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "GlobalFixtureTypes"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.GlobalFixtureTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.GlobalFixtureTypes"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.GlobalFixtureTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.GlobalFixtureTypes"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GlobalFixtureTypes*\" text=\"GlobalFixtureTypes\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.GlobalFixtureTypes*\" text=\"GlobalFixtureTypes\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Returns a list of all known fixture types at all category levels.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.InitializeAsync(System.Collections.Generic.IReadOnlyCollection{System.Type})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InitializeAsync(IReadOnlyCollection<Type>)"
+        },
+        {
+          "lang": "vb",
+          "value": "InitializeAsync(IReadOnlyCollection(Of Type))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.InitializeAsync(IReadOnlyCollection<Type>)"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.InitializeAsync(IReadOnlyCollection(Of Type))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.InitializeAsync(System.Collections.Generic.IReadOnlyCollection<System.Type>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.InitializeAsync(System.Collections.Generic.IReadOnlyCollection(Of System.Type))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync(System.Collections.Generic.IReadOnlyCollection{System.Type})\" text=\"InitializeAsync(IReadOnlyCollection&lt;Type&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync(System.Collections.Generic.IReadOnlyCollection{System.Type})\" text=\"InitializeAsync(IReadOnlyCollection&lt;Type&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask InitializeAsync(IReadOnlyCollection<Type> fixtureTypes)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function InitializeAsync(fixtureTypes As IReadOnlyCollection(Of Type)) As ValueTask"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "fixtureTypes",
+            "type": {
+              "uid": "System.Collections.Generic.IReadOnlyCollection{System.Type}",
+              "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<Type>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of Type)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<Type>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of Type)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyCollection<System.Type>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyCollection(Of System.Type)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+                }
+              ]
+            }
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "InitializeAsync",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 203,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.InitializeAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "InitializeAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.InitializeAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.InitializeAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync*\" text=\"InitializeAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync*\" text=\"InitializeAsync\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.InitializeAsync(System.Type[])",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InitializeAsync(params Type[])"
+        },
+        {
+          "lang": "vb",
+          "value": "InitializeAsync(ParamArray Type())"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.InitializeAsync(params Type[])"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.InitializeAsync(ParamArray Type())"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.InitializeAsync(params System.Type[])"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.InitializeAsync(ParamArray System.Type())"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync(System.Type[])\" text=\"InitializeAsync(params Type[])\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync(System.Type[])\" text=\"InitializeAsync(params Type[])\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public ValueTask InitializeAsync(params Type[] fixtureTypes)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function InitializeAsync(ParamArray fixtureTypes As Type()) As ValueTask"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "fixtureTypes",
+            "type": {
+              "uid": "System.Type[]",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Type()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Type[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Type()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>[]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>()"
+                }
+              ]
+            }
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Threading.Tasks.ValueTask",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "ValueTask"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Threading.Tasks.ValueTask"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Threading.Tasks.ValueTask"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "InitializeAsync",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 199,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.InitializeAsync*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "InitializeAsync"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.InitializeAsync"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.InitializeAsync"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.InitializeAsync"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync*\" text=\"InitializeAsync\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.InitializeAsync*\" text=\"InitializeAsync\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.v3.FixtureMappingManager.LocalFixtureTypes",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.v3.FixtureMappingManager",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "LocalFixtureTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "LocalFixtureTypes"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "FixtureMappingManager.LocalFixtureTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "FixtureMappingManager.LocalFixtureTypes"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.v3.FixtureMappingManager.LocalFixtureTypes"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.v3.FixtureMappingManager.LocalFixtureTypes"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.LocalFixtureTypes\" text=\"LocalFixtureTypes\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.LocalFixtureTypes\" text=\"LocalFixtureTypes\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IReadOnlyCollection<Type> LocalFixtureTypes { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property LocalFixtureTypes As IReadOnlyCollection(Of Type)"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IReadOnlyCollection{System.Type}",
+            "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<Type>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of Type)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IReadOnlyCollection<Type>"
+              },
+              {
+                "lang": "vb",
+                "value": "IReadOnlyCollection(Of Type)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IReadOnlyCollection<System.Type>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IReadOnlyCollection(Of System.Type)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "remote": {
+          "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+          "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+          "repo": "https://github.com/xunit/xunit.git"
+        },
+        "id": "LocalFixtureTypes",
+        "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+        "startLine": 52,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.core"
+      ],
+      "namespace": "Xunit.v3",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.v3.FixtureMappingManager.LocalFixtureTypes*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "LocalFixtureTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "LocalFixtureTypes"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "FixtureMappingManager.LocalFixtureTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "FixtureMappingManager.LocalFixtureTypes"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.v3.FixtureMappingManager.LocalFixtureTypes"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.v3.FixtureMappingManager.LocalFixtureTypes"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.LocalFixtureTypes*\" text=\"LocalFixtureTypes\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.v3.FixtureMappingManager.LocalFixtureTypes*\" text=\"LocalFixtureTypes\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Returns a list of the known fixture types at this category level. This will not include fixture\ntypes known from parent categories and above.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "FixtureMappingManager"
+    },
+    {
+      "lang": "vb",
+      "value": "FixtureMappingManager"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "FixtureMappingManager"
+    },
+    {
+      "lang": "vb",
+      "value": "FixtureMappingManager"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.v3.FixtureMappingManager"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.v3.FixtureMappingManager"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+      "branch": "229879b7653ec0573f36ca4759ccfc915be11a21",
+      "repo": "https://github.com/xunit/xunit.git"
+    },
+    "id": "FixtureMappingManager",
+    "path": "../v3/v3-2.0.0/src/xunit.v3.core/Utility/FixtureMappingManager.cs",
+    "startLine": 20,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.core"
+  ],
+  "namespace": {
+    "uid": "Xunit.v3",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.v3"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.v3"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.v3.html\">v3</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Maps fixture objects, including support for generic collection fixtures.</p>\n",
+  "remarks": "<p sourcefile=\"v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"Xunit.v3.FixtureMappingManager\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class FixtureMappingManager : IAsyncDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class FixtureMappingManager Implements IAsyncDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "System.IAsyncDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IAsyncDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/core/Xunit.v3.FixtureMappingManager.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/core/Xunit.v3.FixtureMappingManager.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/core/toc.yml",
+  "_tocPath": "v3-2.0.0/core/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}

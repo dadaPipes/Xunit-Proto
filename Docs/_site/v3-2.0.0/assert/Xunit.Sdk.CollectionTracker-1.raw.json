@@ -1,0 +1,4605 @@
+{
+  "uid": "Xunit.Sdk.CollectionTracker`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.Dispose(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).Dispose(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).Dispose(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Dispose(System.Boolean)\" text=\"Dispose(bool)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Dispose(System.Boolean)\" text=\"Dispose(bool)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override void Dispose(bool disposing)"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Sub Dispose(disposing As Boolean)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "disposing",
+            "type": {
+              "uid": "System.Boolean",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "bool"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Boolean"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                }
+              ]
+            },
+            "description": ""
+          }
+        ]
+      },
+      "source": {
+        "id": "Dispose",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 517,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Sdk.CollectionTracker.Dispose(System.Boolean)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "Dispose(Boolean)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker.Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker.Dispose(Boolean)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker.Dispose(bool)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker.Dispose(Boolean)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose_System_Boolean_\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose_System_Boolean_\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.Dispose*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "Dispose"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).Dispose"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.Dispose"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).Dispose"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Dispose*\" text=\"Dispose\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Dispose*\" text=\"Dispose\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Override to provide an implementation of <xref href=\"System.IDisposable.Dispose\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatIndexedMismatch(int, int, int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.FormatIndexedMismatch(int, int, int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch(int, int, int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)\" text=\"FormatIndexedMismatch(int, int, int?, out int?, int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)\" text=\"FormatIndexedMismatch(int, int, int?, out int?, int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string FormatIndexedMismatch(int startIndex, int endIndex, int? mismatchedIndex, out int? pointerIndent, int depth = 1)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function FormatIndexedMismatch(startIndex As Integer, endIndex As Integer, mismatchedIndex As Integer?, pointerIndent As Integer?, depth As Integer = 1) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "startIndex",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The start index of the collection to print</p>\n"
+          },
+          {
+            "id": "endIndex",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The end index of the collection to print</p>\n"
+          },
+          {
+            "id": "mismatchedIndex",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The mismatched item index</p>\n"
+          },
+          {
+            "id": "pointerIndent",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">How many spaces into the output value the pointed-to item begins at</p>\n"
+          },
+          {
+            "id": "depth",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The optional printing depth (1 indicates a top-level value)</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The formatted collection</p>\n"
+        }
+      },
+      "source": {
+        "id": "FormatIndexedMismatch",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 550,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatIndexedMismatch(int, int, int?, out int?, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker.FormatIndexedMismatch(int, int, int?, out int?, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker.FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(int, int, int?, out int?, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatIndexedMismatch_System_Int32_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_\">FormatIndexedMismatch</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?, out <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatIndexedMismatch_System_Int32_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_\">FormatIndexedMismatch</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatIndexedMismatch"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).FormatIndexedMismatch"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*\" text=\"FormatIndexedMismatch\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*\" text=\"FormatIndexedMismatch\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Formats the collection when you have a mismatched index. The formatted result will be the section of the\ncollection from <code class=\"paramref\">startIndex</code> to <code class=\"paramref\">endIndex</code>. These indices are usually\nobtained by calling <xref href=\"Xunit.Sdk.CollectionTracker.GetMismatchExtents(System.Nullable%7bSystem.Int32%7d%2cSystem.Int32%40%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatIndexedMismatch(int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatIndexedMismatch(Integer?, Integer?, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.FormatIndexedMismatch(int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).FormatIndexedMismatch(Integer?, Integer?, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch(int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch(Integer?, Integer?, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)\" text=\"FormatIndexedMismatch(int?, out int?, int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)\" text=\"FormatIndexedMismatch(int?, out int?, int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string FormatIndexedMismatch(int? mismatchedIndex, out int? pointerIndent, int depth = 1)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function FormatIndexedMismatch(mismatchedIndex As Integer?, pointerIndent As Integer?, depth As Integer = 1) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "mismatchedIndex",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The index of the mismatched item</p>\n"
+          },
+          {
+            "id": "pointerIndent",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">How many spaces into the output value the pointed-to item begins at</p>\n"
+          },
+          {
+            "id": "depth",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The optional printing depth (1 indicates a top-level value)</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The formatted collection</p>\n"
+        }
+      },
+      "source": {
+        "id": "FormatIndexedMismatch",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 521,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatIndexedMismatch(int?, out int?, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatIndexedMismatch(Integer?, Integer?, Integer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker.FormatIndexedMismatch(int?, out int?, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker.FormatIndexedMismatch(Integer?, Integer?, Integer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(int?, out int?, int)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(Integer?, Integer?, Integer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatIndexedMismatch_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_\">FormatIndexedMismatch</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?, out <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatIndexedMismatch_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_\">FormatIndexedMismatch</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatIndexedMismatch"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).FormatIndexedMismatch"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*\" text=\"FormatIndexedMismatch\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*\" text=\"FormatIndexedMismatch\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Formats the collection when you have a mismatched index. The formatted result will be the section of the\ncollection surrounded by the mismatched item.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.ReadOnlySpan{`0},System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatIndexedMismatch(ReadOnlySpan<T>, int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatIndexedMismatch(ReadOnlySpan(Of T), Integer?, Integer?, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.FormatIndexedMismatch(ReadOnlySpan<T>, int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).FormatIndexedMismatch(ReadOnlySpan(Of T), Integer?, Integer?, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch(System.ReadOnlySpan<T>, int?, out int?, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch(System.ReadOnlySpan(Of T), Integer?, Integer?, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.ReadOnlySpan{`0},System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)\" text=\"FormatIndexedMismatch(ReadOnlySpan&lt;T&gt;, int?, out int?, int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.ReadOnlySpan{`0},System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)\" text=\"FormatIndexedMismatch(ReadOnlySpan&lt;T&gt;, int?, out int?, int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static string FormatIndexedMismatch(ReadOnlySpan<T> span, int? mismatchedIndex, out int? pointerIndent, int depth = 1)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function FormatIndexedMismatch(span As ReadOnlySpan(Of T), mismatchedIndex As Integer?, pointerIndent As Integer?, depth As Integer = 1) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "span",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The span to be formatted</p>\n"
+          },
+          {
+            "id": "mismatchedIndex",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The mismatched index point</p>\n"
+          },
+          {
+            "id": "pointerIndent",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">How many spaces into the output value the pointed-to item begins at</p>\n"
+          },
+          {
+            "id": "depth",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The optional printing depth (1 indicates a top-level value)</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The formatted span</p>\n"
+        }
+      },
+      "source": {
+        "id": "FormatIndexedMismatch",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 579,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatIndexedMismatch"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).FormatIndexedMismatch"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*\" text=\"FormatIndexedMismatch\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*\" text=\"FormatIndexedMismatch\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Formats a span with a mismatched index.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.FormatStart(System.Collections.Generic.IEnumerable{`0},System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatStart(IEnumerable<T>, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatStart(IEnumerable(Of T), Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.FormatStart(IEnumerable<T>, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).FormatStart(IEnumerable(Of T), Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.FormatStart(System.Collections.Generic.IEnumerable<T>, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).FormatStart(System.Collections.Generic.IEnumerable(Of T), Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart(System.Collections.Generic.IEnumerable{`0},System.Int32)\" text=\"FormatStart(IEnumerable&lt;T&gt;, int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart(System.Collections.Generic.IEnumerable{`0},System.Int32)\" text=\"FormatStart(IEnumerable&lt;T&gt;, int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static string FormatStart(IEnumerable<T> collection, int depth = 1)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function FormatStart(collection As IEnumerable(Of T), depth As Integer = 1) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.IEnumerable{{T}}",
+              "definition": "System.Collections.Generic.IEnumerable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IEnumerable<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IEnumerable(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The collection to be formatted</p>\n"
+          },
+          {
+            "id": "depth",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The optional printing depth (1 indicates a top-level value)</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The formatted collection</p>\n"
+        }
+      },
+      "source": {
+        "id": "FormatStart",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 678,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.FormatStart*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatStart"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).FormatStart"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).FormatStart"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart*\" text=\"FormatStart\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart*\" text=\"FormatStart\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Formats the beginning part of a collection.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.FormatStart(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatStart(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatStart(Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.FormatStart(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).FormatStart(Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.FormatStart(int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).FormatStart(Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart(System.Int32)\" text=\"FormatStart(int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart(System.Int32)\" text=\"FormatStart(int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string FormatStart(int depth = 1)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function FormatStart(depth As Integer = 1) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "depth",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The optional printing depth (1 indicates a top-level value)</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The formatted collection</p>\n"
+        }
+      },
+      "source": {
+        "id": "FormatStart",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 656,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Sdk.CollectionTracker.FormatStart(System.Int32)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatStart(int)"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatStart(Integer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker.FormatStart(int)"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker.FormatStart(Integer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker.FormatStart(int)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker.FormatStart(Integer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatStart_System_Int32_\">FormatStart</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatStart_System_Int32_\">FormatStart</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.FormatStart*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatStart"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).FormatStart"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).FormatStart"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart*\" text=\"FormatStart\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart*\" text=\"FormatStart\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Formats the beginning part of the collection.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.FormatStart(System.ReadOnlySpan{`0},System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatStart(ReadOnlySpan<T>, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatStart(ReadOnlySpan(Of T), Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.FormatStart(ReadOnlySpan<T>, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).FormatStart(ReadOnlySpan(Of T), Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.FormatStart(System.ReadOnlySpan<T>, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).FormatStart(System.ReadOnlySpan(Of T), Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart(System.ReadOnlySpan{`0},System.Int32)\" text=\"FormatStart(ReadOnlySpan&lt;T&gt;, int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart(System.ReadOnlySpan{`0},System.Int32)\" text=\"FormatStart(ReadOnlySpan&lt;T&gt;, int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static string FormatStart(ReadOnlySpan<T> span, int depth = 1)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function FormatStart(span As ReadOnlySpan(Of T), depth As Integer = 1) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "span",
+            "type": {
+              "uid": "System.ReadOnlySpan{{T}}",
+              "definition": "System.ReadOnlySpan`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ReadOnlySpan(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.ReadOnlySpan<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.ReadOnlySpan(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.readonlyspan-1\">ReadOnlySpan</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The span to be formatted</p>\n"
+          },
+          {
+            "id": "depth",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The optional printing depth (1 indicates a top-level value)</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          },
+          "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The formatted span</p>\n"
+        }
+      },
+      "source": {
+        "id": "FormatStart",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 710,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.FormatStart*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "FormatStart"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).FormatStart"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.FormatStart"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).FormatStart"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart*\" text=\"FormatStart\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.FormatStart*\" text=\"FormatStart\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Formats the beginning part of a span.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.GetEnumerator",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetEnumerator()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.GetEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).GetEnumerator()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.GetEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).GetEnumerator()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetEnumerator\" text=\"GetEnumerator()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetEnumerator\" text=\"GetEnumerator()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public IEnumerator<T> GetEnumerator()"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Function GetEnumerator() As IEnumerator(Of T)"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Collections.Generic.IEnumerator{{T}}",
+            "definition": "System.Collections.Generic.IEnumerator`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IEnumerator<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "IEnumerator(Of T)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IEnumerator<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "IEnumerator(Of T)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.Generic.IEnumerator<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.Generic.IEnumerator(Of T)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1\">IEnumerator</a>&lt;T&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1\">IEnumerator</a>(Of T)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "GetEnumerator",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 758,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.GetEnumerator*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetEnumerator"
+          },
+          {
+            "lang": "vb",
+            "value": "GetEnumerator"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.GetEnumerator"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).GetEnumerator"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.GetEnumerator"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).GetEnumerator"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetEnumerator*\" text=\"GetEnumerator\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetEnumerator*\" text=\"GetEnumerator\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "implements": [
+        {
+          "uid": "System.Collections.Generic.IEnumerable{{T}}.GetEnumerator",
+          "definition": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetEnumerator()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IEnumerable<T>.GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "IEnumerable(Of T).GetEnumerator()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "System.Collections.Generic.IEnumerable<T>.GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "System.Collections.Generic.IEnumerable(Of T).GetEnumerator()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator\">GetEnumerator</a>()"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator\">GetEnumerator</a>()"
+            }
+          ]
+        }
+      ],
+      "type": "method",
+      "summary": null,
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetMismatchExtents(int?, out int, out int)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetMismatchExtents(Integer?, Integer, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.GetMismatchExtents(int?, out int, out int)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).GetMismatchExtents(Integer?, Integer, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.GetMismatchExtents(int?, out int, out int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).GetMismatchExtents(Integer?, Integer, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)\" text=\"GetMismatchExtents(int?, out int, out int)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)\" text=\"GetMismatchExtents(int?, out int, out int)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override void GetMismatchExtents(int? mismatchedIndex, out int startIndex, out int endIndex)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Sub GetMismatchExtents(mismatchedIndex As Integer?, startIndex As Integer, endIndex As Integer)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "mismatchedIndex",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The mismatched item index</p>\n"
+          },
+          {
+            "id": "startIndex",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The start index that should be used for printing</p>\n"
+          },
+          {
+            "id": "endIndex",
+            "type": {
+              "uid": "System.Int32",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The end index that should be used for printing</p>\n"
+          }
+        ]
+      },
+      "source": {
+        "id": "GetMismatchExtents",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 775,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Sdk.CollectionTracker.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetMismatchExtents(int?, out int, out int)"
+          },
+          {
+            "lang": "vb",
+            "value": "GetMismatchExtents(Integer?, Integer, Integer)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker.GetMismatchExtents(int?, out int, out int)"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker.GetMismatchExtents(Integer?, Integer, Integer)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker.GetMismatchExtents(int?, out int, out int)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker.GetMismatchExtents(Integer?, Integer, Integer)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetMismatchExtents_System_Nullable_System_Int32__System_Int32__System_Int32__\">GetMismatchExtents</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?, out <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, out <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetMismatchExtents_System_Nullable_System_Int32__System_Int32__System_Int32__\">GetMismatchExtents</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.GetMismatchExtents*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetMismatchExtents"
+          },
+          {
+            "lang": "vb",
+            "value": "GetMismatchExtents"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.GetMismatchExtents"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).GetMismatchExtents"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.GetMismatchExtents"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).GetMismatchExtents"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetMismatchExtents*\" text=\"GetMismatchExtents\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetMismatchExtents*\" text=\"GetMismatchExtents\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Gets the extents to print when you find a mismatched index, in the form of\na <code class=\"paramref\">startIndex</code> and <code class=\"paramref\">endIndex</code>. If the mismatched\nindex is <code>null</code>, the extents will start at index 0.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetSafeEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetSafeEnumerator()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.GetSafeEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).GetSafeEnumerator()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.GetSafeEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).GetSafeEnumerator()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator\" text=\"GetSafeEnumerator()\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator\" text=\"GetSafeEnumerator()\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "protected override IEnumerator GetSafeEnumerator()"
+          },
+          {
+            "lang": "vb",
+            "value": "Protected Overrides Function GetSafeEnumerator() As IEnumerator"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.Collections.IEnumerator",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "IEnumerator"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "IEnumerator"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Collections.IEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Collections.IEnumerator"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "GetSafeEnumerator",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 771,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Sdk.CollectionTracker.GetSafeEnumerator",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetSafeEnumerator()"
+          },
+          {
+            "lang": "vb",
+            "value": "GetSafeEnumerator()"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker.GetSafeEnumerator()"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker.GetSafeEnumerator()"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker.GetSafeEnumerator()"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker.GetSafeEnumerator()"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetSafeEnumerator\">GetSafeEnumerator</a>()"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetSafeEnumerator\">GetSafeEnumerator</a>()"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "GetSafeEnumerator"
+          },
+          {
+            "lang": "vb",
+            "value": "GetSafeEnumerator"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.GetSafeEnumerator"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).GetSafeEnumerator"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.GetSafeEnumerator"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).GetSafeEnumerator"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator*\" text=\"GetSafeEnumerator\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator*\" text=\"GetSafeEnumerator\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Gets a safe version of <xref href=\"System.Collections.IEnumerator\" data-throw-if-not-resolved=\"false\"></xref> that prevents double enumeration and does all\nthe necessary tracking required for collection formatting. Should should be the same value\nreturned by <xref href=\"Xunit.Sdk.CollectionTracker%601.GetEnumerator\" data-throw-if-not-resolved=\"false\"></xref>, except non-generic.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.IterationCount",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IterationCount"
+        },
+        {
+          "lang": "vb",
+          "value": "IterationCount"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.IterationCount"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).IterationCount"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.IterationCount"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).IterationCount"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.IterationCount\" text=\"IterationCount\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.IterationCount\" text=\"IterationCount\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public int IterationCount { get; }"
+          },
+          {
+            "lang": "vb",
+            "value": "Public ReadOnly Property IterationCount As Integer"
+          }
+        ],
+        "parameters": [],
+        "return": {
+          "type": {
+            "uid": "System.Int32",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "int"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "int"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "int"
+              },
+              {
+                "lang": "vb",
+                "value": "Integer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "IterationCount",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 513,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.IterationCount*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IterationCount"
+          },
+          {
+            "lang": "vb",
+            "value": "IterationCount"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.IterationCount"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).IterationCount"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.IterationCount"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).IterationCount"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.IterationCount*\" text=\"IterationCount\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.IterationCount*\" text=\"IterationCount\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "property",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Gets the number of iterations that have happened so far.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.TypeAt(System.Nullable{System.Int32})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TypeAt(int?)"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeAt(Integer?)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.TypeAt(int?)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).TypeAt(Integer?)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.TypeAt(int?)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).TypeAt(Integer?)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.TypeAt(System.Nullable{System.Int32})\" text=\"TypeAt(int?)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.TypeAt(System.Nullable{System.Int32})\" text=\"TypeAt(int?)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public override string? TypeAt(int? index)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Overrides Function TypeAt(index As Integer?) As String"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "index",
+            "type": {
+              "uid": "System.Nullable{System.Int32}",
+              "definition": "System.Nullable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "int?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Integer?"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The item index</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "System.String",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "string"
+              },
+              {
+                "lang": "vb",
+                "value": "String"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"System.String\" text=\"string\"/>"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "TypeAt",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 807,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overridden": {
+        "uid": "Xunit.Sdk.CollectionTracker.TypeAt(System.Nullable{System.Int32})",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TypeAt(int?)"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAt(Integer?)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker.TypeAt(int?)"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker.TypeAt(Integer?)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker.TypeAt(int?)"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker.TypeAt(Integer?)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_TypeAt_System_Nullable_System_Int32__\">TypeAt</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?)"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_TypeAt_System_Nullable_System_Int32__\">TypeAt</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?)"
+          }
+        ]
+      },
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.TypeAt*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "TypeAt"
+          },
+          {
+            "lang": "vb",
+            "value": "TypeAt"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.TypeAt"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).TypeAt"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.TypeAt"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).TypeAt"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.TypeAt*\" text=\"TypeAt\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.TypeAt*\" text=\"TypeAt\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Gets the full name of the type of the element at the given index, if known.\nSince this uses the item cache produced by enumeration, it may return <code>null</code>\nwhen we haven't enumerated enough to see the given element, or if we enumerated\nso much that the item has left the cache, or if the item at the given index\nis <code>null</code>. It will also return <code>null</code> when the <code class=\"paramref\">index</code>\nis <code>null</code>.</p>\n",
+      "platform": null
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker`1.Wrap(System.Collections.Generic.IEnumerable{`0})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker`1",
+      "isExternal": false,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Wrap(IEnumerable<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Wrap(IEnumerable(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker<T>.Wrap(IEnumerable<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker(Of T).Wrap(IEnumerable(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker<T>.Wrap(System.Collections.Generic.IEnumerable<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker(Of T).Wrap(System.Collections.Generic.IEnumerable(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Wrap(System.Collections.Generic.IEnumerable{`0})\" text=\"Wrap(IEnumerable&lt;T&gt;)\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Wrap(System.Collections.Generic.IEnumerable{`0})\" text=\"Wrap(IEnumerable&lt;T&gt;)\"/>"
+        }
+      ],
+      "syntax": {
+        "content": [
+          {
+            "lang": "csharp",
+            "value": "public static CollectionTracker<T> Wrap(IEnumerable<T> collection)"
+          },
+          {
+            "lang": "vb",
+            "value": "Public Shared Function Wrap(collection As IEnumerable(Of T)) As CollectionTracker(Of T)"
+          }
+        ],
+        "parameters": [
+          {
+            "id": "collection",
+            "type": {
+              "uid": "System.Collections.Generic.IEnumerable{{T}}",
+              "definition": "System.Collections.Generic.IEnumerable`1",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of T)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of T)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IEnumerable<T>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IEnumerable(Of T)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;T&gt;"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of T)"
+                }
+              ]
+            },
+            "description": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">The collection to be wrapped</p>\n"
+          }
+        ],
+        "return": {
+          "type": {
+            "uid": "Xunit.Sdk.CollectionTracker`1",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CollectionTracker<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "CollectionTracker(Of T)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "CollectionTracker<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "CollectionTracker(Of T)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "Xunit.Sdk.CollectionTracker<T>"
+              },
+              {
+                "lang": "vb",
+                "value": "Xunit.Sdk.CollectionTracker(Of T)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker-1.html\">CollectionTracker</a>&lt;T&gt;"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker-1.html\">CollectionTracker</a>(Of T)"
+              }
+            ]
+          }
+        }
+      },
+      "source": {
+        "id": "Wrap",
+        "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+        "startLine": 825,
+        "endLine": 0
+      },
+      "assemblies": [
+        "xunit.v3.assert"
+      ],
+      "namespace": "Xunit.Sdk",
+      "example": [],
+      "overload": {
+        "uid": "Xunit.Sdk.CollectionTracker`1.Wrap*",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "Wrap"
+          },
+          {
+            "lang": "vb",
+            "value": "Wrap"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CollectionTracker<T>.Wrap"
+          },
+          {
+            "lang": "vb",
+            "value": "CollectionTracker(Of T).Wrap"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "Xunit.Sdk.CollectionTracker<T>.Wrap"
+          },
+          {
+            "lang": "vb",
+            "value": "Xunit.Sdk.CollectionTracker(Of T).Wrap"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Wrap*\" text=\"Wrap\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"Xunit.Sdk.CollectionTracker`1.Wrap*\" text=\"Wrap\"/>"
+          }
+        ]
+      },
+      "level": 0,
+      "type": "method",
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">Wraps the given collection inside of a <xref href=\"Xunit.Sdk.CollectionTracker%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "platform": null
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "CollectionTracker<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "CollectionTracker(Of T)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "CollectionTracker<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "CollectionTracker(Of T)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "Xunit.Sdk.CollectionTracker<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "Xunit.Sdk.CollectionTracker(Of T)"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "id": "CollectionTracker",
+    "path": "C:\\Users\\dadaP\\source\\TestingRepos\\Xunit-Proto\\v3\\v3-2.0.0\\src\\xunit.v3.assert\\Asserts\\Sdk\\CollectionTracker.cs",
+    "startLine": 486,
+    "endLine": 0
+  },
+  "assemblies": [
+    "xunit.v3.assert"
+  ],
+  "namespace": {
+    "uid": "Xunit.Sdk",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "Xunit.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "Xunit.Sdk"
+      },
+      {
+        "lang": "vb",
+        "value": "Xunit.Sdk"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"Xunit.html\">Xunit</a>.<a class=\"xref\" href=\"Xunit.Sdk.html\">Sdk</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">A utility class that can be used to wrap enumerables to prevent double enumeration.\nIt offers the ability to safely print parts of the collection when failures are\nencountered, as well as some static versions of the printing functionality.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class CollectionTracker<T> : CollectionTracker, IDisposable, IEnumerable<T>, IEnumerable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class CollectionTracker(Of T) Inherits CollectionTracker Implements IDisposable, IEnumerable(Of T), IEnumerable"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "T"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk",
+      "href": "Xunit.Sdk.CollectionTracker.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker\" text=\"CollectionTracker\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Xunit.Sdk.CollectionTracker\" text=\"CollectionTracker\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "level": 2,
+  "implements": [
+    {
+      "uid": "System.IDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.IEnumerable{{T}}",
+      "definition": "System.Collections.Generic.IEnumerable`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<T>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of T)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<T>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of T)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IEnumerable<T>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IEnumerable(Of T)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;T&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of T)"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.IEnumerable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.IEnumerable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "Xunit.Sdk.CollectionTracker.AreCollectionsEqual(Xunit.Sdk.CollectionTracker,Xunit.Sdk.CollectionTracker,System.Collections.IEqualityComparer,System.Boolean)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker",
+      "isExternal": true,
+      "href": "Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_AreCollectionsEqual_Xunit_Sdk_CollectionTracker_Xunit_Sdk_CollectionTracker_System_Collections_IEqualityComparer_System_Boolean_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AreCollectionsEqual(CollectionTracker, CollectionTracker, IEqualityComparer, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "AreCollectionsEqual(CollectionTracker, CollectionTracker, IEqualityComparer, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker.AreCollectionsEqual(CollectionTracker, CollectionTracker, IEqualityComparer, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker.AreCollectionsEqual(CollectionTracker, CollectionTracker, IEqualityComparer, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker.AreCollectionsEqual(Xunit.Sdk.CollectionTracker, Xunit.Sdk.CollectionTracker, System.Collections.IEqualityComparer, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker.AreCollectionsEqual(Xunit.Sdk.CollectionTracker, Xunit.Sdk.CollectionTracker, System.Collections.IEqualityComparer, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_AreCollectionsEqual_Xunit_Sdk_CollectionTracker_Xunit_Sdk_CollectionTracker_System_Collections_IEqualityComparer_System_Boolean_\">AreCollectionsEqual</a>(<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html\">CollectionTracker</a>, <a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html\">CollectionTracker</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.iequalitycomparer\">IEqualityComparer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_AreCollectionsEqual_Xunit_Sdk_CollectionTracker_Xunit_Sdk_CollectionTracker_System_Collections_IEqualityComparer_System_Boolean_\">AreCollectionsEqual</a>(<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html\">CollectionTracker</a>, <a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html\">CollectionTracker</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.iequalitycomparer\">IEqualityComparer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker.yml\" sourcestartlinenumber=\"1\">Determine if two enumerable collections are equal. It contains logic that varies depending\non the collection type (supporting arrays, dictionaries, sets, and generic enumerables).</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker.Dispose",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker",
+      "href": "Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker.Dispose()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker.Dispose()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose\">Dispose</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose\">Dispose</a>()"
+        }
+      ],
+      "level": 0,
+      "summary": null,
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker.Wrap(System.Collections.IEnumerable)",
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTracker",
+      "isExternal": true,
+      "href": "Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Wrap_System_Collections_IEnumerable_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Wrap(IEnumerable)"
+        },
+        {
+          "lang": "vb",
+          "value": "Wrap(IEnumerable)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTracker.Wrap(IEnumerable)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTracker.Wrap(IEnumerable)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTracker.Wrap(System.Collections.IEnumerable)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTracker.Wrap(System.Collections.IEnumerable)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Wrap_System_Collections_IEnumerable_\">Wrap</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.ienumerable\">IEnumerable</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Wrap_System_Collections_IEnumerable_\">Wrap</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.ienumerable\">IEnumerable</a>)"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"v3-2.0.0/assert/Xunit.Sdk.CollectionTracker.yml\" sourcestartlinenumber=\"1\">Wraps an untyped enumerable in an object-based <xref href=\"Xunit.Sdk.CollectionTracker%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+      "type": "method",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "System.Collections.Generic.IEnumerable{`0}.Xunit.Sdk.CollectionTrackerExtensions.AsTracker``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTrackerExtensions",
+      "definition": "Xunit.Sdk.CollectionTrackerExtensions.AsTracker``1(System.Collections.Generic.IEnumerable{``0})",
+      "href": "Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker__1_System_Collections_Generic_IEnumerable___0__",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsTracker<T>(IEnumerable<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "AsTracker(Of T)(IEnumerable(Of T))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTrackerExtensions.AsTracker<T>(IEnumerable<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTrackerExtensions.AsTracker(Of T)(IEnumerable(Of T))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTrackerExtensions.AsTracker<T>(System.Collections.Generic.IEnumerable<T>)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTrackerExtensions.AsTracker(Of T)(System.Collections.Generic.IEnumerable(Of T))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker__1_System_Collections_Generic_IEnumerable___0__\">AsTracker</a>&lt;T&gt;(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;T&gt;)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker__1_System_Collections_Generic_IEnumerable___0__\">AsTracker</a>(Of T)(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of T))"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.IEnumerable.Xunit.Sdk.CollectionTrackerExtensions.AsTracker",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTrackerExtensions",
+      "definition": "Xunit.Sdk.CollectionTrackerExtensions.AsTracker(System.Collections.IEnumerable)",
+      "href": "Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker_System_Collections_IEnumerable_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AsTracker(IEnumerable)"
+        },
+        {
+          "lang": "vb",
+          "value": "AsTracker(IEnumerable)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTrackerExtensions.AsTracker(IEnumerable)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTrackerExtensions.AsTracker(IEnumerable)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTrackerExtensions.AsTracker(System.Collections.IEnumerable)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTrackerExtensions.AsTracker(System.Collections.IEnumerable)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker_System_Collections_IEnumerable_\">AsTracker</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.ienumerable\">IEnumerable</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker_System_Collections_IEnumerable_\">AsTracker</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.ienumerable\">IEnumerable</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "Xunit.Sdk.CollectionTracker.Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "Xunit.Sdk.CollectionTrackerExtensions",
+      "definition": "Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator(Xunit.Sdk.CollectionTracker)",
+      "href": "Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_GetEnumerator_Xunit_Sdk_CollectionTracker_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetEnumerator(CollectionTracker)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetEnumerator(CollectionTracker)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "CollectionTrackerExtensions.GetEnumerator(CollectionTracker)"
+        },
+        {
+          "lang": "vb",
+          "value": "CollectionTrackerExtensions.GetEnumerator(CollectionTracker)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator(Xunit.Sdk.CollectionTracker)"
+        },
+        {
+          "lang": "vb",
+          "value": "Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator(Xunit.Sdk.CollectionTracker)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_GetEnumerator_Xunit_Sdk_CollectionTracker_\">GetEnumerator</a>(<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html\">CollectionTracker</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_GetEnumerator_Xunit_Sdk_CollectionTracker_\">GetEnumerator</a>(<a class=\"xref\" href=\"Xunit.Sdk.CollectionTracker.html\">CollectionTracker</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appName": "xunit-proto",
+  "_appTitle": "xunit-proto",
+  "_enableSearch": true,
+  "pdf": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../../toc.html",
+  "_path": "v3-2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html",
+  "_rel": "../../",
+  "_tocKey": "~/v3-2.0.0/assert/toc.yml",
+  "_tocPath": "v3-2.0.0/assert/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  }
+}
