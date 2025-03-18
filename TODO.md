@@ -40,3 +40,12 @@ They are under the namespace 'Xunit, but in the Xunit.Sdk folder !?!?!
   Rearrange property type and value to linear ?
   Remove inheritance ?
   Remove more in the top of the articles ?
+
+Eksempel på overwrite:
+---
+### YamlMime:ManagedReference
+uid: Asserts.Assert
+noindex: true // vigtig! Hindrer DocFX i at overskrive hele pisset og lave en ny side, men overskriver KUN det at den bliver bedt om.
+syntax:
+  content: public partial class Assert
+---

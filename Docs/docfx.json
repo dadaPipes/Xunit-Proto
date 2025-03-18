@@ -6,10 +6,10 @@
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.assert",
           "files": [ "*.csproj" ],
-          "exclude": [ "**/bin/**", "**/obj/**" ]
+          "exclude": [ "**/bin/**", "**/obj/**" ]          
         }
       ],
-      "dest": "v3-2.0.0/assert",
+      "dest": "v3/2.0.0/assert",
       "filter": "filterConfigs/AssertFilterConfig.yml"
     },
     {
@@ -20,7 +20,7 @@
           "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
-      "dest": "v3-2.0.0/common"
+      "dest": "v3/2.0.0/common"
     },
     {
       "src": [
@@ -30,7 +30,7 @@
           "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
-      "dest": "v3-2.0.0/core"
+      "dest": "v3/2.0.0/core"
     },
     {
       "src": [
@@ -40,7 +40,7 @@
           "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
-      "dest": "v3-2.0.0/runner-common"
+      "dest": "v3/2.0.0/runner-common"
     },
     {
       "src": [
@@ -50,7 +50,7 @@
           "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
-      "dest": "v3-2.0.0/runner-utility"
+      "dest": "v3/2.0.0/runner-utility"
     }
   ],
   "build": {
@@ -64,7 +64,6 @@
         ]
       }
     ],
-    "overwrite": "overwrites/asserts.md",
     "resource": [
       {
         "files": [
@@ -75,7 +74,8 @@
     "output": "_site",
     "template": [
       "default",
-      "modern"
+      "modern",
+      "templates/custom"
     ],
     "globalMetadata": {
       "_appName": "xunit-proto",
