@@ -70,4 +70,4 @@ Example:
 Why Use CDATA?
 It allows <, >, and & to be displayed as-is without needing HTML encoding.
 
-It keeps the content readable without converting every character.
+It keeps the content readable without converting every character.,,,
