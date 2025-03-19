@@ -22,8 +22,6 @@ items:
     id: XunitSerializationInfoExtensions
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfoExtensions.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Extension methods for <xref href="Xunit.Sdk.IXunitSerializationInfo" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -60,8 +58,6 @@ items:
     id: AddValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfoExtensions.cs
     startLine: 18
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Adds a value to the serialization. Supported value types include the built-in
@@ -111,8 +107,6 @@ items:
     id: GetValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfoExtensions.cs
     startLine: 31
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a strongly-typed value from the serialization.
   example: []

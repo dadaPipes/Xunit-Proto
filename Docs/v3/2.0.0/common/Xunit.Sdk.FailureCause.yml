@@ -25,8 +25,6 @@ items:
     id: FailureCause
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates the cause of the test failure.
   example: []
@@ -56,8 +54,6 @@ items:
     id: Unknown
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates the test failure cause is unknown.
   example: []
@@ -84,8 +80,6 @@ items:
     id: Other
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs
     startLine: 17
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Indicates that a test failed for some reason other than a typical execution failure
@@ -117,8 +111,6 @@ items:
     id: Exception
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs
     startLine: 22
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates that the test failed because it threw an unhandled exception.
   example: []
@@ -145,8 +137,6 @@ items:
     id: Assertion
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs
     startLine: 32
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Indicates that the test failed because of an assertion failure (that is, an exception
@@ -184,8 +174,6 @@ items:
     id: Timeout
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/FailureCause.cs
     startLine: 43
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Indicates that the test failed because it exceeded the allowed time to run (typically

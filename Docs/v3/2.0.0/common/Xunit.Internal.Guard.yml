@@ -36,8 +36,6 @@ items:
     id: Guard
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Helper class for guarding value arguments and valid state.
   example: []
@@ -73,8 +71,6 @@ items:
     id: ArgumentEnumValid
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 25
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that an enum value is valid by comparing against a list of valid values.
   example: []
@@ -123,8 +119,6 @@ items:
     id: ArgumentNotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 42
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a nullable value type argument is not null.
   example: []
@@ -171,8 +165,6 @@ items:
     id: ArgumentNotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 56
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a nullable reference type argument is not null.
   example: []
@@ -219,8 +211,6 @@ items:
     id: ArgumentNotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 71
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a nullable reference type argument is not null.
   example: []
@@ -270,8 +260,6 @@ items:
     id: ArgumentNotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 87
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a nullable reference type argument is not null.
   example: []
@@ -321,8 +309,6 @@ items:
     id: ArgumentNotNullOrEmpty
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 102
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a nullable enumerable type argument is not null or empty.
   example: []
@@ -369,8 +355,6 @@ items:
     id: ArgumentNotNullOrEmpty
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 119
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a nullable enumerable type argument is not null or empty.
   example: []
@@ -420,8 +404,6 @@ items:
     id: ArgumentNotNullOrEmpty
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 137
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a nullable enumerable type argument is not null or empty.
   example: []
@@ -471,8 +453,6 @@ items:
     id: ArgumentValid
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 154
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that an argument is valid.
   example: []
@@ -516,8 +496,6 @@ items:
     id: ArgumentValid
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 171
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that an argument is valid.
   example: []
@@ -561,8 +539,6 @@ items:
     id: FileExists
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 187
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensures that a filename argument is not null or empty, and that the file exists on disk.
   example: []
@@ -606,8 +582,6 @@ items:
     id: GenericArgumentNotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 206
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: >-
     Ensures that a value is not default value. This is used for values of generic types
@@ -657,8 +631,6 @@ items:
     id: NotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 219
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensure that a reference value is not null.
   example: []
@@ -705,8 +677,6 @@ items:
     id: NotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 233
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensure that a reference value is not null.
   example: []
@@ -753,8 +723,6 @@ items:
     id: NotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 247
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensure that a nullable struct value is not null.
   example: []
@@ -801,8 +769,6 @@ items:
     id: NotNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/Guard.cs
     startLine: 261
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Ensure that a nullable struct value is not null.
   example: []

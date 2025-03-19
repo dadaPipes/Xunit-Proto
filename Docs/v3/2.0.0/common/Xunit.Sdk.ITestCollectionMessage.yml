@@ -21,8 +21,6 @@ items:
     id: ITestCollectionMessage
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestCollectionMessage.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Base interface for all messages related to test collections.
   example: []
@@ -55,8 +53,6 @@ items:
     id: TestCollectionUniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestCollectionMessage.cs
     startLine: 11
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the test collection's unique ID. Can be used to correlate test messages with the appropriate

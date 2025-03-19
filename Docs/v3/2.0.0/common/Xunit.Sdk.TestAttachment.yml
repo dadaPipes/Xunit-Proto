@@ -28,8 +28,6 @@ items:
     id: TestAttachment
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents an attachment to a test result.
   example: []
@@ -68,8 +66,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 23
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Called by the de-serializer; should only be called by deriving classes for de-serialization purposes
   example: []
@@ -111,8 +107,6 @@ items:
     id: AttachmentType
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 41
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the type of the test attachment.
   example: []
@@ -142,8 +136,6 @@ items:
     id: AsByteArray
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 48
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the attachment content as a byte array, along with the media type. Can only be called
@@ -175,8 +167,6 @@ items:
     id: AsString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 58
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the attachment content as a string. Can only be called when <xref href="Xunit.Sdk.TestAttachment.AttachmentType" data-throw-if-not-resolved="false"></xref>
@@ -208,8 +198,6 @@ items:
     id: Create
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 72
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Creates an instance of <xref href="Xunit.Sdk.TestAttachment" data-throw-if-not-resolved="false"></xref> that wraps a byte array value.
   remarks: >-
@@ -256,8 +244,6 @@ items:
     id: Create
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 86
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Creates an instance of <xref href="Xunit.Sdk.TestAttachment" data-throw-if-not-resolved="false"></xref> that wraps a string value.
   example: []
@@ -292,8 +278,6 @@ items:
     id: Parse
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 92
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Parses a value that was obtained by calling <xref href="Xunit.Sdk.TestAttachment.ToString" data-throw-if-not-resolved="false"></xref> back into a <xref href="Xunit.Sdk.TestAttachment" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -328,8 +312,6 @@ items:
     id: ToString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestAttachment.cs
     startLine: 119
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets a string value for the test attachment. For string value attachments, will return the string value;

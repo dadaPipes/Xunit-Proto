@@ -23,8 +23,6 @@ items:
     id: IDiscoveryStarting
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiscoveryStarting.cs
     startLine: 6
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     This message indicates that the discovery process is starting for
@@ -60,8 +58,6 @@ items:
     id: AssemblyName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiscoveryStarting.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the assembly name. May return a simple assembly name (i.e., "mscorlib"), or may return a
@@ -94,8 +90,6 @@ items:
     id: AssemblyPath
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiscoveryStarting.cs
     startLine: 17
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the on-disk location of the assembly under test.
   example: []
@@ -125,8 +119,6 @@ items:
     id: ConfigFilePath
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiscoveryStarting.cs
     startLine: 23
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the full path of the configuration file name, if one is present.

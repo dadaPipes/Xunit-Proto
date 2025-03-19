@@ -21,8 +21,6 @@ items:
     id: ITestFinished
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestFinished.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: This message indicates that a test has finished executing.
   example: []
@@ -64,8 +62,6 @@ items:
     id: Attachments
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestFinished.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets any attachments that were added to the test result via <xref href="Xunit.TestContext.AddAttachment" data-throw-if-not-resolved="false"></xref>.
   example: []

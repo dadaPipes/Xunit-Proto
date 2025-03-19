@@ -35,8 +35,6 @@ items:
     id: ITestCaseMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents metadata about a test case.
   example: []
@@ -66,8 +64,6 @@ items:
     id: Explicit
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a flag indicating whether this test case was marked as explicit or not.
   example: []
@@ -97,8 +93,6 @@ items:
     id: SkipReason
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 22
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the display text for the reason a test is being skipped; if the test
@@ -133,8 +127,6 @@ items:
     id: SourceFilePath
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 28
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the source file name. A <code>null</code> value indicates that the
@@ -167,8 +159,6 @@ items:
     id: SourceLineNumber
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 34
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the source file line number. A <code>null</code> value indicates that the
@@ -201,8 +191,6 @@ items:
     id: TestCaseDisplayName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 39
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the display name of the test case.
   example: []
@@ -232,8 +220,6 @@ items:
     id: TestClassMetadataToken
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 49
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the <xref href="System.Reflection.MemberInfo.MetadataToken" data-throw-if-not-resolved="false"></xref> for the test class. If the test did not
@@ -270,8 +256,6 @@ items:
     id: TestClassName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 55
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the full name of the class where the test is defined (i.e., <xref href="System.Type.FullName" data-throw-if-not-resolved="false"></xref>).
@@ -304,8 +288,6 @@ items:
     id: TestClassNamespace
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 63
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the namespace of the class where the test is defined. If the test did not
@@ -340,8 +322,6 @@ items:
     id: TestClassSimpleName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 69
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the simple name of the class where the test is defined (the class name without namespace).
@@ -374,8 +354,6 @@ items:
     id: TestMethodMetadataToken
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 80
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the <xref href="System.Reflection.MemberInfo.MetadataToken" data-throw-if-not-resolved="false"></xref> for the test method. If the test did not
@@ -412,8 +390,6 @@ items:
     id: TestMethodName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 86
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the method name where the test is defined, in the <xref href="Xunit.Sdk.ITestCaseMetadata.TestClassName" data-throw-if-not-resolved="false"></xref> class.
@@ -446,8 +422,6 @@ items:
     id: TestMethodParameterTypesVSTest
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 98
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the types for the test method parameters. If the test did not originate in a method,
@@ -488,8 +462,6 @@ items:
     id: TestMethodReturnTypeVSTest
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 109
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the test method return type. If the test did not originate in a method, or the test framework
@@ -528,8 +500,6 @@ items:
     id: Traits
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 115
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the trait values associated with this test case. If there are none, or the framework
@@ -562,8 +532,6 @@ items:
     id: UniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCaseMetadata.cs
     startLine: 127
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a unique identifier for the test case.
   remarks: >-

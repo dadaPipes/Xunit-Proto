@@ -44,8 +44,6 @@ items:
     id: ReflectionExtensions
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 14
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Extension methods for reflection types in .NET.
   example: []
@@ -82,8 +80,6 @@ items:
     id: GetDefaultValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 69
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Returns the default value for the given type. For value types, this means a 0-initialized
@@ -121,8 +117,6 @@ items:
     id: GetDisplayNameWithArguments
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 84
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Formulates the extended portion of the display name for a test method. For tests with no arguments, this will
@@ -174,8 +168,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 126
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the assembly that are of the given attribute type.
   example: []
@@ -216,8 +208,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 139
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the assembly that are of the given attribute type.
   example: []
@@ -261,8 +251,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 152
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the attribute that are of the given attribute type.
   example: []
@@ -303,8 +291,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 165
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the attribute that are of the given attribute type.
   example: []
@@ -348,8 +334,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 178
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the method that are of the given attribute type.
   example: []
@@ -390,8 +374,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 191
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the method that are of the given attribute type.
   example: []
@@ -435,8 +417,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 204
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the parameter that are of the given attribute type.
   example: []
@@ -477,8 +457,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 217
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the parameter that are of the given attribute type.
   example: []
@@ -522,8 +500,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 230
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the type that are of the given attribute type.
   example: []
@@ -564,8 +540,6 @@ items:
     id: GetMatchingCustomAttributes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 243
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets all the custom attributes for the type that are of the given attribute type.
   example: []
@@ -609,8 +583,6 @@ items:
     id: Implements
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 261
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Determines if the given type implements the given interface.
   example: []
@@ -648,8 +620,6 @@ items:
     id: IsFromLocalAssembly
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 281
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Determines if the given type is from a local assembly.
   example: []
@@ -684,8 +654,6 @@ items:
     id: IsNullable
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 304
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Determines whether <code class="paramref">type</code> is a nullable type; that is, whether it
@@ -721,8 +689,6 @@ items:
     id: IsNullableEnum
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 313
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Determines whether <code class="paramref">type</code> represents a nullable enum value.
   example: []
@@ -755,8 +721,6 @@ items:
     id: ResolveGenericTypes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 419
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Resolves all the generic types for a test method. The arguments are used to determine
@@ -802,8 +766,6 @@ items:
     id: ResolveMethodArguments
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 519
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Resolves argument values for the test method, ensuring they are the correct type,
@@ -847,8 +809,6 @@ items:
     id: SafeName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 615
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets a fully qualified type name (i.e., <xref href="System.Type.FullName" data-throw-if-not-resolved="false"></xref>), falling back to a simple
@@ -886,8 +846,6 @@ items:
     id: ToCommaSeparatedList
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 626
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Convert a collection of <xref href="System.Type" data-throw-if-not-resolved="false"></xref> objects into a comma-separated list
@@ -928,8 +886,6 @@ items:
     id: ToDisplayName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 635
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts a type into a name string for display purposes. It attempts to make a more user friendly
@@ -965,8 +921,6 @@ items:
     id: ToSimpleName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 664
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the simple name for a type, suitable for use with <xref href="Xunit.Sdk.ITestCaseMetadata.TestClassSimpleName" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -999,8 +953,6 @@ items:
     id: ToVSTestTypeName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 685
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts a <xref href="System.Type" data-throw-if-not-resolved="false"></xref> name into the correct form for VSTest managed type name for
@@ -1044,8 +996,6 @@ items:
     id: UnwrapNullable
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Extensions/ReflectionExtensions.cs
     startLine: 761
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Attempts to strip <xref href="System.Nullable%601" data-throw-if-not-resolved="false"></xref> from a type value and just return T.

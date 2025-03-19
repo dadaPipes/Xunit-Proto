@@ -21,8 +21,6 @@ items:
     id: ITestCaseDiscovered
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestCaseDiscovered.cs
     startLine: 8
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: This message indicates that a test case had been found during the discovery process.
   example: []
@@ -74,8 +72,6 @@ items:
     id: Serialization
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestCaseDiscovered.cs
     startLine: 14
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the serialized value of the test case, which allows it to be transferred across

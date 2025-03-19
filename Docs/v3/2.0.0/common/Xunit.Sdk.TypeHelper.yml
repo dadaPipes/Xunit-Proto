@@ -27,8 +27,6 @@ items:
     id: TypeHelper
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 14
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Utility methods related to <xref href="System.Type" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -64,8 +62,6 @@ items:
     id: ConvertArgument
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 42
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts an argument into its target type. Can be particularly useful when pulling attribute
@@ -108,8 +104,6 @@ items:
     id: ConvertArguments
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 88
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts arguments into their target types. Can be particularly useful when pulling attribute
@@ -152,8 +146,6 @@ items:
     id: ConvertAttributeArgumentCollection
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 108
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Converts an argument collection from an attribute initializer into an array of the raw values.
   example: []
@@ -193,8 +185,6 @@ items:
     id: GetType
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 129
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts an assembly qualified type name from <xref href="Xunit.Sdk.TypeHelper.GetTypeName(System.Type)" data-throw-if-not-resolved="false"></xref> back into
@@ -234,8 +224,6 @@ items:
     id: GetType
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 217
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Converts an assembly name + type name into a <xref href="System.Type" data-throw-if-not-resolved="false"></xref> object.
   example: []
@@ -275,8 +263,6 @@ items:
     id: GetTypeName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 248
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets an assembly-qualified type name suitable for serialization.
   remarks: Dynamic types, or types which live in the GAC, are not supported.
@@ -311,8 +297,6 @@ items:
     id: GetTypeStrict
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/TypeHelper.cs
     startLine: 310
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts an assembly qualified type name into a <xref href="System.Type" data-throw-if-not-resolved="false"></xref> object. If the

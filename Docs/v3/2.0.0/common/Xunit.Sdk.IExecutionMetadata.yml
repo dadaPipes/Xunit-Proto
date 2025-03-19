@@ -23,8 +23,6 @@ items:
     id: IExecutionMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionMetadata.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: This is metadata describing the execution of a single test.
   example: []
@@ -54,8 +52,6 @@ items:
     id: ExecutionTime
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionMetadata.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: The time spent executing the test, in seconds. Will be 0 if the test was not executed.
   example: []
@@ -85,8 +81,6 @@ items:
     id: Output
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionMetadata.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: The captured output of the test. Will be <xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref> if there was no output.
   example: []
@@ -116,8 +110,6 @@ items:
     id: Warnings
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionMetadata.cs
     startLine: 21
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets a list of the warning messages that were recorded during execution. Will be <code>null</code>

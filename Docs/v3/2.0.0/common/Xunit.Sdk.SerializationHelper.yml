@@ -31,8 +31,6 @@ items:
     id: SerializationHelper
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 17
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Serializes and de-serializes objects. It supports a limited set of built-in types,
@@ -79,8 +77,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 88
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Initializes a new instance of the <xref href="Xunit.Sdk.SerializationHelper" data-throw-if-not-resolved="false"></xref> class.
   example: []
@@ -110,8 +106,6 @@ items:
     id: Instance
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 185
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the singleton instance of <xref href="Xunit.Sdk.SerializationHelper" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -141,8 +135,6 @@ items:
     id: AddRegisteredSerializers
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 200
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Add serializers that have been registered in the given assembly.
   remarks: >-
@@ -191,8 +183,6 @@ items:
     id: AddSerializers
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 228
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Add serializers to the supported serializer list.
   remarks: >-
@@ -241,8 +231,6 @@ items:
     id: Deserialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 298
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: De-serializes an object.
   example: []
@@ -282,8 +270,6 @@ items:
     id: Deserialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 306
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: De-serializes an object.
   example: []
@@ -320,8 +306,6 @@ items:
     id: IsSerializable
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 472
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Determines if an object instance is serializable.
   remarks: >-
@@ -364,8 +348,6 @@ items:
     id: IsSerializable
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 481
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Determines if a given type supports serialization.
   example: []
@@ -405,8 +387,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 520
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serializes an object.
   example: []
@@ -446,8 +426,6 @@ items:
     id: SerializedTypeNameToType
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 614
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts a type name (in "TypeName" format for mscorlib types, or "TypeName,AssemblyName" format for
@@ -487,8 +465,6 @@ items:
     id: TypeToSerializedTypeName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/SerializationHelper.cs
     startLine: 622
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets an assembly qualified type name for serialization.
   example: []

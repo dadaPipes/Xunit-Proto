@@ -27,8 +27,6 @@ items:
     id: DisposalTracker
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 19
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tracks disposable objects, and disposes them in the reverse order they were added to
@@ -85,8 +83,6 @@ items:
     id: TrackedObjects
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 27
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a list of the items that are currently being tracked.
   example: []
@@ -116,8 +112,6 @@ items:
     id: Add
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 45
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Add an object to be disposed. It may optionally support <xref href="System.IDisposable" data-throw-if-not-resolved="false"></xref>
@@ -154,8 +148,6 @@ items:
     id: AddAction
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 61
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Add an action to the list of things to be done during disposal.
   example: []
@@ -186,8 +178,6 @@ items:
     id: AddAsyncAction
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 68
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Add an action to the list of things to be done during disposal.
   example: []
@@ -221,8 +211,6 @@ items:
     id: AddRange
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 85
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Add a collection of objects to be disposed. They may optionally support <xref href="System.IDisposable" data-throw-if-not-resolved="false"></xref>
@@ -259,8 +247,6 @@ items:
     id: Clear
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 101
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Removes all objects from the disposal tracker.
   example: []
@@ -287,8 +273,6 @@ items:
     id: DisposeAsync
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/DisposalTracker.cs
     startLine: 117
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Disposes all the objects that were added to the disposal tracker, in the reverse order

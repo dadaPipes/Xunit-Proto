@@ -21,8 +21,6 @@ items:
     id: IDiagnosticMessage
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiagnosticMessage.cs
     startLine: 8
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     This message is sent when code (1st or 3rd party) wants to alert the user to a situation that may require
@@ -61,8 +59,6 @@ items:
     id: Message
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiagnosticMessage.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the diagnostic message.
   example: []

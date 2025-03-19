@@ -22,8 +22,6 @@ items:
     id: IXunitSerializable
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializable.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     This interface should be implemented by any custom object which requires serialization.
@@ -58,8 +56,6 @@ items:
     id: Deserialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializable.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Called when the object should populate itself with data from the serialization info.
   example: []
@@ -90,8 +86,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializable.cs
     startLine: 19
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Called when the object should store its serialized values into the serialization info.
   example: []

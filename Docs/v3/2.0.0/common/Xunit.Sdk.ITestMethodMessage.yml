@@ -21,8 +21,6 @@ items:
     id: ITestMethodMessage
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestMethodMessage.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Base interface for all messages related to test methods.
   example: []
@@ -57,8 +55,6 @@ items:
     id: TestMethodUniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestMethodMessage.cs
     startLine: 11
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the test method's unique ID. Can be used to correlate test messages with the appropriate

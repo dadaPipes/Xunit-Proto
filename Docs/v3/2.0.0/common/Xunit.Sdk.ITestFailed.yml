@@ -21,8 +21,6 @@ items:
     id: ITestFailed
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestFailed.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: This message indicates that a test has failed.
   example: []
@@ -68,8 +66,6 @@ items:
     id: Cause
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestFailed.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the cause of the test failure.
   example: []

@@ -21,8 +21,6 @@ items:
     id: IJsonDeserializable
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/IJsonDeserializable.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates that an object can be deserialized from string-serialized JSON.
   example: []
@@ -52,8 +50,6 @@ items:
     id: FromJson
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/IJsonDeserializable.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Deserializes the object's values from the provided JSON.
   example: []

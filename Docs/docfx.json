@@ -16,7 +16,7 @@
       "src": [
         {
           "src": "../v3/v3-2.0.0/src/xunit.v3.common",
-          "files": [ "*.csproj" ],
+          "files": [ "**/*.cs" ],
           "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],

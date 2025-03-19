@@ -23,8 +23,6 @@ items:
     id: IXunitSerializer
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializer.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Implemented by types which can support serialization and deserialization. This
@@ -59,8 +57,6 @@ items:
     id: Deserialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializer.cs
     startLine: 18
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Deserializes a value that was obtained from <xref href="Xunit.Sdk.IXunitSerializer.Serialize(System.Object)" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -100,8 +96,6 @@ items:
     id: IsSerializable
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializer.cs
     startLine: 40
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Determines if a specific value of data is serializable.
   remarks: >-
@@ -162,8 +156,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializer.cs
     startLine: 55
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serializes a value into a string to be later deserialized with <xref href="Xunit.Sdk.IXunitSerializer.Deserialize(System.Type%2cSystem.String)" data-throw-if-not-resolved="false"></xref>.
   remarks: >-

@@ -21,8 +21,6 @@ items:
     id: ITestClass
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestClass.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Represents a test class, which contributes one or more test cases (usually by
@@ -65,8 +63,6 @@ items:
     id: TestCollection
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestClass.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the test collection this test class belongs to.
   example: []

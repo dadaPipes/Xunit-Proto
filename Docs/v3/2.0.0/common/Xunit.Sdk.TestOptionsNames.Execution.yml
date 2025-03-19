@@ -38,8 +38,6 @@ items:
     id: Execution
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 135
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Test options names used with <xref href="Xunit.Sdk.ITestFrameworkExecutionOptions" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -75,8 +73,6 @@ items:
     id: AssertEquivalentMaxDepth
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 144
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: The maximum recursive depth for object comparisons with <code>Assert.Equivalent</code>.
   remarks: >-
@@ -108,8 +104,6 @@ items:
     id: Culture
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 155
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     The culture to be used for execution. <code>null</code> means the default system culture,
@@ -146,8 +140,6 @@ items:
     id: DiagnosticMessages
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 164
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to enable display of diagnostic messages.
   remarks: >-
@@ -179,8 +171,6 @@ items:
     id: DisableParallelization
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 173
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to disable running tests in parallel.
   remarks: >-
@@ -212,8 +202,6 @@ items:
     id: ExplicitOption
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 182
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a flag which indicates the user's desire to run explicit tests.
   remarks: >-
@@ -245,8 +233,6 @@ items:
     id: FailSkips
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 191
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to convert skipped tests into failed tests.
   remarks: >-
@@ -278,8 +264,6 @@ items:
     id: FailTestsWithWarnings
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 200
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to convert passing tests with warnings into failed tests.
   remarks: >-
@@ -311,8 +295,6 @@ items:
     id: InternalDiagnosticMessages
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 209
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to enable display of internal diagnostic messages.
   remarks: >-
@@ -344,8 +326,6 @@ items:
     id: MaxParallelThreads
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 221
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Sets the maximum number of parallel threads to use during execution. Set to <code>-1</code>
@@ -384,8 +364,6 @@ items:
     id: ParallelAlgorithm
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 230
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set the algorithm to use for parallelization.
   remarks: >-
@@ -417,8 +395,6 @@ items:
     id: PrintMaxEnumerableLength
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 239
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum number of items to print in a collection.
   remarks: >-
@@ -450,8 +426,6 @@ items:
     id: PrintMaxObjectDepth
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 248
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum recursive depth when printing object values.
   remarks: >-
@@ -483,8 +457,6 @@ items:
     id: PrintMaxObjectMemberCount
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 257
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum number of members to show when printing object values.
   remarks: >-
@@ -516,8 +488,6 @@ items:
     id: PrintMaxStringLength
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 266
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum length when printing a string value.
   remarks: >-
@@ -549,8 +519,6 @@ items:
     id: Seed
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 276
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Set the seed to use for randomization. When unset (or set to <code>null</code>), will use the default
@@ -585,8 +553,6 @@ items:
     id: ShowLiveOutput
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 286
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Set to <code>true</code> to show output live while tests are running, in addition to showing collected output
@@ -621,8 +587,6 @@ items:
     id: StopOnFail
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 295
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to attempt to stop execution as soon the first test fails.
   remarks: >-
@@ -654,8 +618,6 @@ items:
     id: SynchronousMessageReporting
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 306
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Set to <code>true</code> to enable synchronous message reporting; set to <code>false</code> to enable

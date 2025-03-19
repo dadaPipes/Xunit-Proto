@@ -22,8 +22,6 @@ items:
     id: NullMessageSink
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/NullMessageSink.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: An implementation of <xref href="Xunit.Sdk.IMessageSink" data-throw-if-not-resolved="false"></xref> that ignores all messages.
   example: []
@@ -65,8 +63,6 @@ items:
     id: Instance
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/NullMessageSink.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the singleton null message sink instance.
   example: []
@@ -94,8 +90,6 @@ items:
     id: OnMessage
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/NullMessageSink.cs
     startLine: 16
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Reports the presence of a message on the message bus. This method should

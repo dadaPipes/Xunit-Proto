@@ -31,8 +31,6 @@ items:
     id: JsonObjectSerializer
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 16
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     A special-purpose streaming serializer for objects to JSON. Only supports a limited number of type
@@ -87,8 +85,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 16
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     A special-purpose streaming serializer for objects to JSON. Only supports a limited number of type
@@ -134,8 +130,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 35
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize a <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref> value into the object.
   example: []
@@ -175,8 +169,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 55
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize a <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> value into the object.
   example: []
@@ -216,8 +208,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 75
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize a <xref href="System.Decimal" data-throw-if-not-resolved="false"></xref> value into the object.
   example: []
@@ -257,8 +247,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 95
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize an <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> value into the object.
   example: []
@@ -298,8 +286,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 115
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize an <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> value into the object.
   example: []
@@ -339,8 +325,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 135
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize a <xref href="System.Int64" data-throw-if-not-resolved="false"></xref> value into the object.
   example: []
@@ -380,8 +364,6 @@ items:
     id: Serialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 156
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize a <xref href="System.String" data-throw-if-not-resolved="false"></xref> value into the object.
   example: []
@@ -424,8 +406,6 @@ items:
     id: SerializeArray
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 186
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Start serializing an array into the object.
   remarks: >-
@@ -465,8 +445,6 @@ items:
     id: SerializeNull
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 198
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Serialize a null value into the object.
   example: []
@@ -500,8 +478,6 @@ items:
     id: SerializeObject
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonObjectSerializer.cs
     startLine: 212
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Start serializing an object into the object.
   remarks: >-

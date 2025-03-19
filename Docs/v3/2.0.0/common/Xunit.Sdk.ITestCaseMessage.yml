@@ -21,8 +21,6 @@ items:
     id: ITestCaseMessage
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestCaseMessage.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Base interface for all messages related to test cases.
   example: []
@@ -58,8 +56,6 @@ items:
     id: TestCaseUniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestCaseMessage.cs
     startLine: 11
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the test case's unique ID. Can be used to correlate test messages with the appropriate

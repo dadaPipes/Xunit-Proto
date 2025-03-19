@@ -26,8 +26,6 @@ items:
     id: XunitSerializationInfo
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfo.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Represents serialization information for serializing a complex object. This is typically
@@ -74,8 +72,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfo.cs
     startLine: 23
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Initializes a new instance of the <xref href="Xunit.Sdk.XunitSerializationInfo" data-throw-if-not-resolved="false"></xref> class
@@ -112,8 +108,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfo.cs
     startLine: 32
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Initializes a new instance of the <xref href="Xunit.Sdk.XunitSerializationInfo" data-throw-if-not-resolved="false"></xref> class
@@ -153,8 +147,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfo.cs
     startLine: 49
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Initializes a new instance of the <xref href="Xunit.Sdk.XunitSerializationInfo" data-throw-if-not-resolved="false"></xref> class
@@ -194,8 +186,6 @@ items:
     id: AddValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfo.cs
     startLine: 70
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Adds a value to the serialization. Supported value types include the built-in
@@ -250,8 +240,6 @@ items:
     id: GetValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfo.cs
     startLine: 84
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a value from the serialization.
   example: []
@@ -290,8 +278,6 @@ items:
     id: ToSerializedString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Serialization/XunitSerializationInfo.cs
     startLine: 92
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Returns a string that represents the entirety of the data.
   example: []

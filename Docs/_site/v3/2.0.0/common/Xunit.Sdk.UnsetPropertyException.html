@@ -94,7 +94,7 @@ Class UnsetPropertyException  <a class="header-action link-secondary" title="Vie
 
   <div class="facts text-secondary">
     <dl><dt>Namespace</dt><dd><a class="xref" href="Xunit.html">Xunit</a>.<a class="xref" href="Xunit.Sdk.html">Sdk</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>xunit.v3.common.dll</dd></dl>
+  
   </div>
 
   <div class="markdown summary"><p>An exception which indicates an object was not properly initialized, thrown by a property
@@ -133,9 +133,6 @@ getter that was accessed by the uninitialized object.</p>
     <dd>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception">Exception.GetBaseException()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata">Exception.GetObjectData(SerializationInfo, StreamingContext)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.gettype">Exception.GetType()</a>
@@ -257,7 +254,8 @@ getter that was accessed by the uninitialized object.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/xunit/xunit/blob/229879b7653ec0573f36ca4759ccfc915be11a21/src/xunit.v3.common/Utility/UnsetPropertyException.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a message that describes the current exception.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -271,7 +269,8 @@ getter that was accessed by the uninitialized object.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The error message that explains the reason for the exception, or an empty string (&quot;&quot;).</p>
+</dd>
   </dl>
 
 

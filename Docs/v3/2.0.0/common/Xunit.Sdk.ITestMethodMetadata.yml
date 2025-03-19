@@ -23,8 +23,6 @@ items:
     id: ITestMethodMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMethodMetadata.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents metadata about a test method.
   example: []
@@ -54,8 +52,6 @@ items:
     id: MethodName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMethodMetadata.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the name of the test method that is associated with this message.
   example: []
@@ -85,8 +81,6 @@ items:
     id: Traits
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMethodMetadata.cs
     startLine: 19
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the trait values associated with this test method (and the test class,
@@ -121,8 +115,6 @@ items:
     id: UniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMethodMetadata.cs
     startLine: 30
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the unique ID for this test method.
   remarks: >-

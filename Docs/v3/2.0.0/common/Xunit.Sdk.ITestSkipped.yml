@@ -21,8 +21,6 @@ items:
     id: ITestSkipped
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestSkipped.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: This message indicates that a test was skipped.
   example: []
@@ -64,8 +62,6 @@ items:
     id: Reason
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestSkipped.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the reason given for skipping the test.
   example: []

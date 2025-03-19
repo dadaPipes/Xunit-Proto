@@ -21,8 +21,6 @@ items:
     id: ITestCollection
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestCollection.cs
     startLine: 8
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents a group of test cases.
   remarks: The test framework decides how test collections are defined and what their purpose is.
@@ -58,8 +56,6 @@ items:
     id: TestAssembly
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestCollection.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the test assembly this test collection belongs to.
   example: []

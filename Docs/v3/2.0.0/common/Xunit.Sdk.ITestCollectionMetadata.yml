@@ -24,8 +24,6 @@ items:
     id: ITestCollectionMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCollectionMetadata.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents metadata about a test collection.
   example: []
@@ -55,8 +53,6 @@ items:
     id: TestCollectionClassName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCollectionMetadata.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the type that the test collection was defined with, if available; may be <code>null</code>
@@ -89,8 +85,6 @@ items:
     id: TestCollectionDisplayName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCollectionMetadata.cs
     startLine: 18
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the display name of the test collection.
   example: []
@@ -120,8 +114,6 @@ items:
     id: Traits
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCollectionMetadata.cs
     startLine: 25
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the trait values associated with this test collection (and the test assembly).
@@ -156,8 +148,6 @@ items:
     id: UniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestCollectionMetadata.cs
     startLine: 37
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the unique ID for this test collection.
   remarks: >-

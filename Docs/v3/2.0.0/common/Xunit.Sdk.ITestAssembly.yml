@@ -21,8 +21,6 @@ items:
     id: ITestAssembly
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestAssembly.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents a test assembly.
   remarks: >-
@@ -65,8 +63,6 @@ items:
     id: ModuleVersionID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestAssembly.cs
     startLine: 18
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Returns the module version ID of the test assembly. Used as the basis for randomization.
   example: []

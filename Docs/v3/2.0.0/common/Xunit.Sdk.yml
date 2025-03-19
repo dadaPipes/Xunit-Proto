@@ -113,72 +113,7 @@ items:
   nameWithType: Xunit.Sdk
   fullName: Xunit.Sdk
   type: Namespace
-  assemblies:
-  - xunit.v3.common
 references:
-- uid: Xunit.Sdk.IMessageSink
-  commentId: T:Xunit.Sdk.IMessageSink
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.IMessageSink.html
-  name: IMessageSink
-  nameWithType: IMessageSink
-  fullName: Xunit.Sdk.IMessageSink
-- uid: Xunit.Sdk.IMessageSinkMessage
-  commentId: T:Xunit.Sdk.IMessageSinkMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.IMessageSinkMessage.html
-  name: IMessageSinkMessage
-  nameWithType: IMessageSinkMessage
-  fullName: Xunit.Sdk.IMessageSinkMessage
-- uid: Xunit.Sdk.ITestAssemblyMessage
-  commentId: T:Xunit.Sdk.ITestAssemblyMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.ITestAssemblyMessage.html
-  name: ITestAssemblyMessage
-  nameWithType: ITestAssemblyMessage
-  fullName: Xunit.Sdk.ITestAssemblyMessage
-- uid: Xunit.Sdk.ITestCaseMessage
-  commentId: T:Xunit.Sdk.ITestCaseMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.ITestCaseMessage.html
-  name: ITestCaseMessage
-  nameWithType: ITestCaseMessage
-  fullName: Xunit.Sdk.ITestCaseMessage
-- uid: Xunit.Sdk.ITestClassMessage
-  commentId: T:Xunit.Sdk.ITestClassMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.ITestClassMessage.html
-  name: ITestClassMessage
-  nameWithType: ITestClassMessage
-  fullName: Xunit.Sdk.ITestClassMessage
-- uid: Xunit.Sdk.ITestCollectionMessage
-  commentId: T:Xunit.Sdk.ITestCollectionMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.ITestCollectionMessage.html
-  name: ITestCollectionMessage
-  nameWithType: ITestCollectionMessage
-  fullName: Xunit.Sdk.ITestCollectionMessage
-- uid: Xunit.Sdk.ITestMessage
-  commentId: T:Xunit.Sdk.ITestMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.ITestMessage.html
-  name: ITestMessage
-  nameWithType: ITestMessage
-  fullName: Xunit.Sdk.ITestMessage
-- uid: Xunit.Sdk.ITestMethodMessage
-  commentId: T:Xunit.Sdk.ITestMethodMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.ITestMethodMessage.html
-  name: ITestMethodMessage
-  nameWithType: ITestMethodMessage
-  fullName: Xunit.Sdk.ITestMethodMessage
-- uid: Xunit.Sdk.ITestResultMessage
-  commentId: T:Xunit.Sdk.ITestResultMessage
-  parent: Xunit.Sdk
-  href: Xunit.Sdk.ITestResultMessage.html
-  name: ITestResultMessage
-  nameWithType: ITestResultMessage
-  fullName: Xunit.Sdk.ITestResultMessage
 - uid: Xunit.Sdk.IAfterTestFinished
   commentId: T:Xunit.Sdk.IAfterTestFinished
   href: Xunit.Sdk.IAfterTestFinished.html
@@ -401,6 +336,69 @@ references:
   name: ITestStarting
   nameWithType: ITestStarting
   fullName: Xunit.Sdk.ITestStarting
+- uid: Xunit.Sdk.IMessageSink
+  commentId: T:Xunit.Sdk.IMessageSink
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.IMessageSink.html
+  name: IMessageSink
+  nameWithType: IMessageSink
+  fullName: Xunit.Sdk.IMessageSink
+- uid: Xunit.Sdk.IMessageSinkMessage
+  commentId: T:Xunit.Sdk.IMessageSinkMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.IMessageSinkMessage.html
+  name: IMessageSinkMessage
+  nameWithType: IMessageSinkMessage
+  fullName: Xunit.Sdk.IMessageSinkMessage
+- uid: Xunit.Sdk.ITestAssemblyMessage
+  commentId: T:Xunit.Sdk.ITestAssemblyMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ITestAssemblyMessage.html
+  name: ITestAssemblyMessage
+  nameWithType: ITestAssemblyMessage
+  fullName: Xunit.Sdk.ITestAssemblyMessage
+- uid: Xunit.Sdk.ITestCaseMessage
+  commentId: T:Xunit.Sdk.ITestCaseMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ITestCaseMessage.html
+  name: ITestCaseMessage
+  nameWithType: ITestCaseMessage
+  fullName: Xunit.Sdk.ITestCaseMessage
+- uid: Xunit.Sdk.ITestClassMessage
+  commentId: T:Xunit.Sdk.ITestClassMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ITestClassMessage.html
+  name: ITestClassMessage
+  nameWithType: ITestClassMessage
+  fullName: Xunit.Sdk.ITestClassMessage
+- uid: Xunit.Sdk.ITestCollectionMessage
+  commentId: T:Xunit.Sdk.ITestCollectionMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ITestCollectionMessage.html
+  name: ITestCollectionMessage
+  nameWithType: ITestCollectionMessage
+  fullName: Xunit.Sdk.ITestCollectionMessage
+- uid: Xunit.Sdk.ITestMessage
+  commentId: T:Xunit.Sdk.ITestMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ITestMessage.html
+  name: ITestMessage
+  nameWithType: ITestMessage
+  fullName: Xunit.Sdk.ITestMessage
+- uid: Xunit.Sdk.ITestMethodMessage
+  commentId: T:Xunit.Sdk.ITestMethodMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ITestMethodMessage.html
+  name: ITestMethodMessage
+  nameWithType: ITestMethodMessage
+  fullName: Xunit.Sdk.ITestMethodMessage
+- uid: Xunit.Sdk.ITestResultMessage
+  commentId: T:Xunit.Sdk.ITestResultMessage
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ITestResultMessage.html
+  name: ITestResultMessage
+  nameWithType: ITestResultMessage
+  fullName: Xunit.Sdk.ITestResultMessage
 - uid: Xunit.Sdk.IAssemblyMetadata
   commentId: T:Xunit.Sdk.IAssemblyMetadata
   parent: Xunit.Sdk

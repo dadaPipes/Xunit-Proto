@@ -32,8 +32,6 @@ items:
     id: Discovery
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Test options names used with <xref href="Xunit.Sdk.ITestFrameworkDiscoveryOptions" data-throw-if-not-resolved="false"></xref>.
   example: []
@@ -69,8 +67,6 @@ items:
     id: Culture
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 23
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     The culture to be used for discovery. <code>null</code> means the default system culture,
@@ -107,8 +103,6 @@ items:
     id: DiagnosticMessages
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 32
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to enable display of diagnostic messages.
   remarks: >-
@@ -140,8 +134,6 @@ items:
     id: IncludeSourceInformation
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 45
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Set to <code>true</code> to include source information during discovery, when possible. (Note that
@@ -182,8 +174,6 @@ items:
     id: InternalDiagnosticMessages
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 54
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to enable display of internal diagnostic messages.
   remarks: >-
@@ -215,8 +205,6 @@ items:
     id: MethodDisplay
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 63
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: A flag which indicates how the default test method display name is calculated.
   remarks: >-
@@ -248,8 +236,6 @@ items:
     id: MethodDisplayOptions
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 73
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     A flag which indicates how the test method display name calculation can be modified by special
@@ -284,8 +270,6 @@ items:
     id: PreEnumerateTheories
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 82
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Set to <code>true</code> to enable pre-enumeration of theories during discovery.
   remarks: >-
@@ -317,8 +301,6 @@ items:
     id: PrintMaxEnumerableLength
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 91
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum number of items to print in a collection.
   remarks: >-
@@ -350,8 +332,6 @@ items:
     id: PrintMaxObjectDepth
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 100
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum recursive depth when printing object values.
   remarks: >-
@@ -383,8 +363,6 @@ items:
     id: PrintMaxObjectMemberCount
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 109
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum number of members to show when printing object values.
   remarks: >-
@@ -416,8 +394,6 @@ items:
     id: PrintMaxStringLength
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 118
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets the maximum length when printing a string value.
   remarks: >-
@@ -449,8 +425,6 @@ items:
     id: SynchronousMessageReporting
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/TestOptionsNames.cs
     startLine: 129
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Set to <code>true</code> to enable synchronous message reporting; set to <code>false</code> to enable

@@ -25,8 +25,6 @@ items:
     id: IAssemblyMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IAssemblyMetadata.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents metadata about a test assembly.
   example: []
@@ -57,8 +55,6 @@ items:
     id: AssemblyName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IAssemblyMetadata.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the assembly name. May return a simple assembly name (i.e., "mscorlib"), or may return a
@@ -91,8 +87,6 @@ items:
     id: AssemblyPath
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IAssemblyMetadata.cs
     startLine: 18
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the on-disk location of the assembly under test.
   example: []
@@ -122,8 +116,6 @@ items:
     id: ConfigFilePath
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IAssemblyMetadata.cs
     startLine: 24
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the full path of the configuration file name, if one is present.
@@ -156,8 +148,6 @@ items:
     id: Traits
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IAssemblyMetadata.cs
     startLine: 31
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the trait values associated with this test assembly. If
@@ -192,8 +182,6 @@ items:
     id: UniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IAssemblyMetadata.cs
     startLine: 43
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the unique ID for this test assembly.
   remarks: >-

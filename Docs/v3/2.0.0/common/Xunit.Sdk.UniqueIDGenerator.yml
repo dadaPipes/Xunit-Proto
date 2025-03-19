@@ -31,8 +31,6 @@ items:
     id: UniqueIDGenerator
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 14
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Generates unique IDs from multiple string inputs. Used to compute the unique
@@ -76,8 +74,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 24
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Initializes a new instance of the <xref href="Xunit.Sdk.UniqueIDGenerator" data-throw-if-not-resolved="false"></xref> class.
   example: []
@@ -107,8 +103,6 @@ items:
     id: Add
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 34
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Add a string value into the unique ID computation.
   example: []
@@ -142,8 +136,6 @@ items:
     id: Compute
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 54
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Compute the unique ID for the given input values. Note that once the unique
@@ -176,9 +168,8 @@ items:
     id: Dispose
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 72
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
   example: []
   syntax:
     content: public void Dispose()
@@ -205,8 +196,6 @@ items:
     id: ForAssembly
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 91
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Computes a unique ID for a test assembly.
   example: []
@@ -246,8 +235,6 @@ items:
     id: ForTest
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 109
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Computes a unique ID for a test.
   example: []
@@ -288,8 +275,6 @@ items:
     id: ForTestCase
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 130
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Computes a unique ID for a test case.
   example: []
@@ -335,8 +320,6 @@ items:
     id: ForTestClass
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 158
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Computes a unique ID for a test class.
   example: []
@@ -378,8 +361,6 @@ items:
     id: ForTestCollection
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 181
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Computes a unique ID for a test collection.
   example: []
@@ -422,8 +403,6 @@ items:
     id: ForTestMethod
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 203
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Computes a unique ID for a test method.
   example: []
@@ -465,8 +444,6 @@ items:
     id: ForType
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UniqueIDGenerator.cs
     startLine: 221
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Computes a unique ID for a <xref href="System.Type" data-throw-if-not-resolved="false"></xref>.
   example: []

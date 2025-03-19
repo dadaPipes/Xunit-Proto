@@ -21,8 +21,6 @@ items:
     id: ITestAssemblyMessage
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestAssemblyMessage.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Base interface for all messages related to test assemblies.
   example: []
@@ -54,8 +52,6 @@ items:
     id: AssemblyUniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestAssemblyMessage.cs
     startLine: 11
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the assembly's unique ID. Can be used to correlate test messages with the appropriate

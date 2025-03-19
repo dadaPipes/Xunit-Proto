@@ -21,8 +21,6 @@ items:
     id: ExceptionExtensions
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/ExceptionExtensions.cs
     startLine: 8
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: INTERNAL CLASS. DO NOT USE.
   example: []
@@ -59,8 +57,6 @@ items:
     id: Unwrap
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Internal/ExceptionExtensions.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Internal
   summary: Unwraps an exception to remove any wrappers, like <xref href="System.Reflection.TargetInvocationException" data-throw-if-not-resolved="false"></xref>.
   example: []

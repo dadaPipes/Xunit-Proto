@@ -21,8 +21,6 @@ items:
     id: IDiscoveryComplete
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiscoveryComplete.cs
     startLine: 6
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     This message indicates that the discovery process has been completed for
@@ -58,8 +56,6 @@ items:
     id: TestCasesToRun
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/IDiscoveryComplete.cs
     startLine: 11
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a count of the number of test cases that passed the filter and will be run.
   example: []

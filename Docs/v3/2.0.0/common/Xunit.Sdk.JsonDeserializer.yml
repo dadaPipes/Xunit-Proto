@@ -57,8 +57,6 @@ items:
     id: JsonDeserializer
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 27
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     A special-purpose untyped deserializer for JSON. JSON strings are returned as <xref href="System.String" data-throw-if-not-resolved="false"></xref>,
@@ -121,8 +119,6 @@ items:
     id: TryDeserialize
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 71
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: ''
   example: []
@@ -159,8 +155,6 @@ items:
     id: TryGetArray
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 274
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an untyped array value from a deserialized JSON object.
   example: []
@@ -199,8 +193,6 @@ items:
     id: TryGetArray
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 283
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an untyped array value from a deserialized JSON value.
   example: []
@@ -236,8 +228,6 @@ items:
     id: TryGetArrayOfBoolean
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 294
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -283,8 +273,6 @@ items:
     id: TryGetArrayOfBoolean
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 306
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -327,8 +315,6 @@ items:
     id: TryGetArrayOfDateTimeOffset
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 317
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -374,8 +360,6 @@ items:
     id: TryGetArrayOfDateTimeOffset
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 329
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -418,8 +402,6 @@ items:
     id: TryGetArrayOfDecimal
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 340
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Decimal" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -465,8 +447,6 @@ items:
     id: TryGetArrayOfDecimal
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 352
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Decimal" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -509,8 +489,6 @@ items:
     id: TryGetArrayOfEnum
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 363
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <code class="typeparamref">TEnum</code> values from a deserialized JSON
@@ -558,8 +536,6 @@ items:
     id: TryGetArrayOfEnum
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 376
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <code class="typeparamref">TEnum</code> values from a deserialized JSON
@@ -604,8 +580,6 @@ items:
     id: TryGetArrayOfInt
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 388
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -651,8 +625,6 @@ items:
     id: TryGetArrayOfInt
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 400
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -695,8 +667,6 @@ items:
     id: TryGetArrayOfLong
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 411
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Int64" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -742,8 +712,6 @@ items:
     id: TryGetArrayOfLong
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 423
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.Int64" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -786,8 +754,6 @@ items:
     id: TryGetArrayOfNullableString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 434
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.String" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -833,8 +799,6 @@ items:
     id: TryGetArrayOfNullableString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 446
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.String" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -877,8 +841,6 @@ items:
     id: TryGetArrayOfString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 457
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.String" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -924,8 +886,6 @@ items:
     id: TryGetArrayOfString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 469
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Tries to get an array of <xref href="System.String" data-throw-if-not-resolved="false"></xref> values from a deserialized JSON
@@ -968,8 +928,6 @@ items:
     id: TryGetBoolean
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 477
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON object.
   example: []
@@ -1008,8 +966,6 @@ items:
     id: TryGetBoolean
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 486
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []
@@ -1045,8 +1001,6 @@ items:
     id: TryGetDateTimeOffset
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 494
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON object.
   example: []
@@ -1085,8 +1039,6 @@ items:
     id: TryGetDateTimeOffset
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 503
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []
@@ -1122,8 +1074,6 @@ items:
     id: TryGetDecimal
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 511
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.Decimal" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON object.
   example: []
@@ -1162,8 +1112,6 @@ items:
     id: TryGetDecimal
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 520
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.Decimal" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []
@@ -1199,8 +1147,6 @@ items:
     id: TryGetEnum
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 528
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON object.
   example: []
@@ -1241,8 +1187,6 @@ items:
     id: TryGetEnum
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 538
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []
@@ -1280,8 +1224,6 @@ items:
     id: TryGetInt
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 547
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON object.
   example: []
@@ -1320,8 +1262,6 @@ items:
     id: TryGetInt
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 556
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []
@@ -1357,8 +1297,6 @@ items:
     id: TryGetLong
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 564
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.Int64" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON object.
   example: []
@@ -1397,8 +1335,6 @@ items:
     id: TryGetLong
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 573
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an <xref href="System.Int64" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []
@@ -1434,8 +1370,6 @@ items:
     id: TryGetObject
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 581
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an untyped object value from a deserialized JSON object.
   example: []
@@ -1474,8 +1408,6 @@ items:
     id: TryGetObject
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 590
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an untyped object value from a deserialized JSON value.
   example: []
@@ -1511,8 +1443,6 @@ items:
     id: TryGetString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 600
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.String" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON object.
   example: []
@@ -1555,8 +1485,6 @@ items:
     id: TryGetString
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 612
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get an <xref href="System.Int64" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []
@@ -1596,8 +1524,6 @@ items:
     id: TryGetTraits
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 623
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a trait dictionary value from a deserialized JSON object.
   example: []
@@ -1639,8 +1565,6 @@ items:
     id: TryGetTraits
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Json/JsonDeserializer.cs
     startLine: 634
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Tries to get a <xref href="System.String" data-throw-if-not-resolved="false"></xref> value from a deserialized JSON value.
   example: []

@@ -21,8 +21,6 @@ items:
     id: ITestResultMessage
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestResultMessage.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Base interface for all individual test results (e.g., tests which pass, fail, skipped, or aren't run).
   example: []
@@ -63,8 +61,6 @@ items:
     id: FinishTime
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/BaseMessages/ITestResultMessage.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the date and time when the test execution finished.
   example: []

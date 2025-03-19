@@ -22,8 +22,6 @@ items:
     id: IRegisterXunitSerializerAttribute
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IRegisterXunitSerializerAttribute.cs
     startLine: 9
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Used to decorate xUnit.net test assemblies to register an external serializer for
@@ -57,8 +55,6 @@ items:
     id: SerializerType
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IRegisterXunitSerializerAttribute.cs
     startLine: 17
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the type of the serializer.
   remarks: The serializer type must implement <xref href="Xunit.Sdk.IXunitSerializer" data-throw-if-not-resolved="false"></xref>.
@@ -89,8 +85,6 @@ items:
     id: SupportedTypesForSerialization
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IRegisterXunitSerializerAttribute.cs
     startLine: 28
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the types that are supported by the serializer.
   remarks: >-

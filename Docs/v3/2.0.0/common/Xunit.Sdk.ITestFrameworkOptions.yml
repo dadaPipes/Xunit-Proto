@@ -23,8 +23,6 @@ items:
     id: ITestFrameworkOptions
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Options/ITestFrameworkOptions.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     This interface should not be consumed directly; instead, you should
@@ -59,8 +57,6 @@ items:
     id: GetValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Options/ITestFrameworkOptions.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets an option value.
   example: []
@@ -100,8 +96,6 @@ items:
     id: SetValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Options/ITestFrameworkOptions.cs
     startLine: 23
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Sets an option value.
   example: []
@@ -141,8 +135,6 @@ items:
     id: ToJson
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Options/ITestFrameworkOptions.cs
     startLine: 32
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Converts the test framework options into JSON. Used for serializing the options

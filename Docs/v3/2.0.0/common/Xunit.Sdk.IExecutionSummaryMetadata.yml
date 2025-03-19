@@ -25,8 +25,6 @@ items:
     id: IExecutionSummaryMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionSummaryMetadata.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     This is metadata describing the summary during various phases of execution process (e.g.,
@@ -61,8 +59,6 @@ items:
     id: ExecutionTime
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionSummaryMetadata.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the execution time (in seconds) for this execution.
   example: []
@@ -92,8 +88,6 @@ items:
     id: TestsFailed
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionSummaryMetadata.cs
     startLine: 17
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the number of failing tests.
   example: []
@@ -123,8 +117,6 @@ items:
     id: TestsNotRun
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionSummaryMetadata.cs
     startLine: 23
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the number of tests that were not run. This includes explicit tests when explicit tests are not run,
@@ -157,8 +149,6 @@ items:
     id: TestsSkipped
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionSummaryMetadata.cs
     startLine: 28
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the number of skipped tests.
   example: []
@@ -188,8 +178,6 @@ items:
     id: TestsTotal
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IExecutionSummaryMetadata.cs
     startLine: 33
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the total number of tests run and not run.
   example: []

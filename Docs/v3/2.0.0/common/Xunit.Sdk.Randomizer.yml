@@ -22,8 +22,6 @@ items:
     id: Randomizer
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/Randomizer.cs
     startLine: 8
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Wraps <xref href="System.Random" data-throw-if-not-resolved="false"></xref> to provide access to the seed value, as well as
@@ -62,8 +60,6 @@ items:
     id: Current
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/Randomizer.cs
     startLine: 22
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the current instance that returns random values based on the
@@ -96,8 +92,6 @@ items:
     id: Seed
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/Randomizer.cs
     startLine: 27
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the seed used to create the randomizer.
   example: []

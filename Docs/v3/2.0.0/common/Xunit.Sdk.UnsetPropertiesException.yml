@@ -24,8 +24,6 @@ items:
     id: UnsetPropertiesException
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UnsetPropertiesException.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: An exception which indicates an object had several properties that were not properly initialized.
   example: []
@@ -41,7 +39,6 @@ items:
   - System.Runtime.Serialization.ISerializable
   inheritedMembers:
   - System.Exception.GetBaseException
-  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   - System.Exception.GetType
   - System.Exception.ToString
   - System.Exception.Data
@@ -81,8 +78,6 @@ items:
     id: .ctor
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UnsetPropertiesException.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: An exception which indicates an object had several properties that were not properly initialized.
   example: []
@@ -119,15 +114,15 @@ items:
     id: Message
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UnsetPropertiesException.cs
     startLine: 19
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
+  summary: Gets a message that describes the current exception.
   example: []
   syntax:
     content: public override string Message { get; }
     parameters: []
     return:
       type: System.String
+      description: The error message that explains the reason for the exception, or an empty string ("").
     content.vb: Public Overrides ReadOnly Property Message As String
   overridden: System.Exception.Message
   overload: Xunit.Sdk.UnsetPropertiesException.Message*
@@ -150,8 +145,6 @@ items:
     id: PropertyNames
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UnsetPropertiesException.cs
     startLine: 25
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the property names of the uninitialized properties.
   example: []
@@ -181,8 +174,6 @@ items:
     id: TypeName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/UnsetPropertiesException.cs
     startLine: 30
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the type name of the uninitialized property.
   example: []
@@ -280,48 +271,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
   - name: (
-  - name: )
-- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  commentId: M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  parent: System.Exception
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  nameWithType: Exception.GetObjectData(SerializationInfo, StreamingContext)
-  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  spec.csharp:
-  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
-  - name: )
-  spec.vb:
-  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   - name: )
 - uid: System.Exception.GetType
   commentId: M:System.Exception.GetType

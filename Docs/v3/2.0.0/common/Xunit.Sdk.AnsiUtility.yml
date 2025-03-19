@@ -22,8 +22,6 @@ items:
     id: AnsiUtility
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/AnsiUtility.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: A utility class for ANSI color escape codes.
   example: []
@@ -59,8 +57,6 @@ items:
     id: AnsiEscapeCodeRegex
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/AnsiUtility.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a regular expression that can used to find ANSI color escape codes.
   example: []
@@ -90,8 +86,6 @@ items:
     id: RemoveAnsiEscapeCodes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/AnsiUtility.cs
     startLine: 19
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Strip ANSI color escape codes (in the form of <code>ESC[1;2m</code>) from a string value.
   example: []

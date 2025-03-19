@@ -23,8 +23,6 @@ items:
     id: ITestCase
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestCase.cs
     startLine: 9
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Represents a single test case in the system. This test case usually represents a single test, but in
@@ -75,8 +73,6 @@ items:
     id: TestClass
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestCase.cs
     startLine: 16
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the test class that this test case belongs to; may be <code>null</code> if the test isn't backed by
@@ -111,8 +107,6 @@ items:
     id: TestCollection
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestCase.cs
     startLine: 23
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the test collection this test case belongs to. Must be the same instance returned
@@ -145,8 +139,6 @@ items:
     id: TestMethod
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITestCase.cs
     startLine: 29
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the test method this test case belongs to; may be <code>null</code> if the test isn't backed by

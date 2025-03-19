@@ -23,8 +23,6 @@ items:
     id: ExplicitOption
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/ExplicitOption.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates how explicit tests should be handled during execution.
   example: []
@@ -54,8 +52,6 @@ items:
     id: Off
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/ExplicitOption.cs
     startLine: 11
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Indicates the non-explicit tests should be run, and explicit tests should not be run. This
@@ -85,8 +81,6 @@ items:
     id: On
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/ExplicitOption.cs
     startLine: 16
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates that both non-explicit and explicit tests should be run.
   example: []
@@ -113,8 +107,6 @@ items:
     id: Only
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/ExplicitOption.cs
     startLine: 21
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates that non-explicit tests should not be run, and explicit tests should be run.
   example: []

@@ -22,8 +22,6 @@ items:
     id: ParallelAlgorithm
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/ParallelAlgorithm.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates the parallelization algorithm to use.
   example: []
@@ -53,8 +51,6 @@ items:
     id: Conservative
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/ParallelAlgorithm.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     The conservative parallelization algorithm uses a semaphore to limit the number of started tests to be equal
@@ -88,8 +84,6 @@ items:
     id: Aggressive
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/ParallelAlgorithm.cs
     startLine: 22
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     The aggressive parallelization algorithm uses a synchronization context to limit the number of running tests

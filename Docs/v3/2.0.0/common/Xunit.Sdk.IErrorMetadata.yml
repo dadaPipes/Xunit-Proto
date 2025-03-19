@@ -24,8 +24,6 @@ items:
     id: IErrorMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IErrorMetadata.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents metadata about an error during test discovery or execution.
   example: []
@@ -55,8 +53,6 @@ items:
     id: ExceptionParentIndices
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IErrorMetadata.cs
     startLine: 11
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the parent exception index(es) for the exception(s); a -1 indicates
@@ -89,8 +85,6 @@ items:
     id: ExceptionTypes
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IErrorMetadata.cs
     startLine: 16
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the fully-qualified type name(s) of the exception(s).
   example: []
@@ -120,8 +114,6 @@ items:
     id: Messages
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IErrorMetadata.cs
     startLine: 21
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the message(s) of the exception(s).
   example: []
@@ -151,8 +143,6 @@ items:
     id: StackTraces
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/IErrorMetadata.cs
     startLine: 26
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the stack trace(s) of the exception(s).
   example: []

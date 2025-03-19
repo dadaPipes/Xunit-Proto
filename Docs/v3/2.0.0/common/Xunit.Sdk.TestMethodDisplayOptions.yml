@@ -26,8 +26,6 @@ items:
     id: TestMethodDisplayOptions
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplayOptions.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates the method display options for test methods.
   example: []
@@ -67,8 +65,6 @@ items:
     id: None
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplayOptions.cs
     startLine: 14
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates no additional method display options.
   remarks: This is the default configuration option.
@@ -96,8 +92,6 @@ items:
     id: ReplaceUnderscoreWithSpace
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplayOptions.cs
     startLine: 19
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Replace underscores in display names with a space.
   example: []
@@ -124,8 +118,6 @@ items:
     id: UseOperatorMonikers
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplayOptions.cs
     startLine: 32
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Replace well-known monikers with their equivalent operator.
   example: []
@@ -152,8 +144,6 @@ items:
     id: UseEscapeSequences
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplayOptions.cs
     startLine: 45
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Replace supported escape sequences with their equivalent character.
@@ -183,8 +173,6 @@ items:
     id: ReplacePeriodWithComma
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplayOptions.cs
     startLine: 51
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Replaces the period delimiter used in namespace and type references with a comma.
   remarks: This option is only honored if the <xref href="Xunit.Sdk.TestMethodDisplay.ClassAndMethod" data-throw-if-not-resolved="false"></xref> setting is also enabled.
@@ -212,8 +200,6 @@ items:
     id: All
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplayOptions.cs
     startLine: 56
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Enables all method display options.
   example: []

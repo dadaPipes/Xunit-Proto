@@ -22,8 +22,6 @@ items:
     id: TestMethodDisplay
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplay.cs
     startLine: 5
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Indicates the default display name format for test methods.
   example: []
@@ -53,8 +51,6 @@ items:
     id: ClassAndMethod
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplay.cs
     startLine: 10
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Use a fully qualified name (namespace + class + method)
   example: []
@@ -81,8 +77,6 @@ items:
     id: Method
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Options/TestMethodDisplay.cs
     startLine: 15
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Use just the method name (without class)
   example: []

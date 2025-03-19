@@ -23,8 +23,6 @@ items:
     id: ITestMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMetadata.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Represents metadata about a test.
   example: []
@@ -54,8 +52,6 @@ items:
     id: TestDisplayName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMetadata.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the display name of the test.
   example: []
@@ -85,8 +81,6 @@ items:
     id: Traits
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMetadata.cs
     startLine: 19
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the trait values associated with this test case. If
@@ -121,8 +115,6 @@ items:
     id: UniqueID
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/Metadata/ITestMetadata.cs
     startLine: 31
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a unique identifier for the test.
   remarks: >-

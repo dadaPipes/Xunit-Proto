@@ -21,8 +21,6 @@ items:
     id: ITest
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITest.cs
     startLine: 7
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Represents a single test in the system. A test case typically contains only a single test,
@@ -61,8 +59,6 @@ items:
     id: TestCase
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/ObjectModel/ITest.cs
     startLine: 12
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the test case this test belongs to.
   example: []

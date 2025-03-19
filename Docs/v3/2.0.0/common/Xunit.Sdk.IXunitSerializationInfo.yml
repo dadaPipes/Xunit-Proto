@@ -22,8 +22,6 @@ items:
     id: IXunitSerializationInfo
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializationInfo.cs
     startLine: 9
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     An interface that is implemented by the serialization infrastructure in xUnit.net.
@@ -60,8 +58,6 @@ items:
     id: AddValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializationInfo.cs
     startLine: 22
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Adds a value to the serialization. Supported value types include the built-in
@@ -114,8 +110,6 @@ items:
     id: GetValue
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Serialization/IXunitSerializationInfo.cs
     startLine: 32
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets a value from the serialization.
   example: []

@@ -25,8 +25,6 @@ items:
     id: ITestAssemblyStarting
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestAssemblyStarting.cs
     startLine: 9
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     This message indicates that the execution process is about to start for
@@ -68,8 +66,6 @@ items:
     id: Seed
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestAssemblyStarting.cs
     startLine: 16
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the seed value used for randomization. If <code>null</code>, then the test framework
@@ -104,8 +100,6 @@ items:
     id: StartTime
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestAssemblyStarting.cs
     startLine: 21
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Gets the date and time when the test assembly execution began.
   example: []
@@ -135,8 +129,6 @@ items:
     id: TargetFramework
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestAssemblyStarting.cs
     startLine: 29
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets the target framework that the assembly was compiled against.
@@ -173,8 +165,6 @@ items:
     id: TestEnvironment
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestAssemblyStarting.cs
     startLine: 35
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets a display string that describes the test execution environment.
@@ -207,8 +197,6 @@ items:
     id: TestFrameworkDisplayName
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Abstractions/Messages/ITestAssemblyStarting.cs
     startLine: 41
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: >-
     Gets a display string which describes the test framework and version number.

@@ -23,8 +23,6 @@ items:
     id: ExceptionUtility
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/ExceptionUtility.cs
     startLine: 13
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Utility class for dealing with <xref href="System.Exception" data-throw-if-not-resolved="false"></xref> and <xref href="Xunit.Sdk.IErrorMetadata" data-throw-if-not-resolved="false"></xref> objects.
   example: []
@@ -60,8 +58,6 @@ items:
     id: CombineMessages
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/ExceptionUtility.cs
     startLine: 22
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Combines multiple levels of messages into a single message.
   example: []
@@ -95,8 +91,6 @@ items:
     id: CombineStackTraces
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/ExceptionUtility.cs
     startLine: 30
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Combines multiple levels of stack traces into a single stack trace.
   example: []
@@ -130,8 +124,6 @@ items:
     id: ExtractMetadata
     path: ../v3/v3-2.0.0/src/xunit.v3.common/Utility/ExceptionUtility.cs
     startLine: 38
-  assemblies:
-  - xunit.v3.common
   namespace: Xunit.Sdk
   summary: Unwraps exceptions and their inner exceptions.
   example: []
