@@ -58,12 +58,16 @@ items:
   source:
     id: IsAssignableFrom
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 36
+    startLine: 42
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is of the given type or a derived type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static T IsAssignableFrom<T>(object? @object)
     parameters:
@@ -99,12 +103,16 @@ items:
   source:
     id: IsAssignableFrom
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 53
+    startLine: 65
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is of the given type or a derived type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsAssignableFrom(Type expectedType, object? @object)
     parameters:
@@ -137,12 +145,16 @@ items:
   source:
     id: IsNotAssignableFrom
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 75
+    startLine: 93
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is not of the given type or a derived type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsNotAssignableFrom<T>(object? @object)
     parameters:
@@ -175,12 +187,16 @@ items:
   source:
     id: IsNotAssignableFrom
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 87
+    startLine: 111
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is not of the given type or a derived type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsNotAssignableFrom(Type expectedType, object? @object)
     parameters:
@@ -213,12 +229,16 @@ items:
   source:
     id: IsNotType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 108
+    startLine: 138
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is not exactly the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsNotType<T>(object? @object)
     parameters:
@@ -251,12 +271,16 @@ items:
   source:
     id: IsNotType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 125
+    startLine: 161
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is not of the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsNotType<T>(object? @object, bool exactMatch)
     parameters:
@@ -294,12 +318,16 @@ items:
   source:
     id: IsNotType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 142
+    startLine: 184
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is not exactly the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsNotType(Type expectedType, object? @object)
     parameters:
@@ -332,12 +360,16 @@ items:
   source:
     id: IsNotType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 159
+    startLine: 207
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is not of the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsNotType(Type expectedType, object? @object, bool exactMatch)
     parameters:
@@ -375,12 +407,16 @@ items:
   source:
     id: IsType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 192
+    startLine: 246
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is exactly the given type (and not a derived type).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static T IsType<T>(object? @object)
     parameters:
@@ -416,12 +452,16 @@ items:
   source:
     id: IsType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 215
+    startLine: 275
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object of is the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static T IsType<T>(object? @object, bool exactMatch)
     parameters:
@@ -462,12 +502,16 @@ items:
   source:
     id: IsType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 235
+    startLine: 301
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is exactly the given type (and not a derived type).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsType(Type expectedType, object? @object)
     parameters:
@@ -500,12 +544,16 @@ items:
   source:
     id: IsType
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\TypeAsserts.cs
-    startLine: 252
+    startLine: 324
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object is of the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void IsType(Type expectedType, object? @object, bool exactMatch)
     parameters:
@@ -775,6 +823,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.IsAssignableFromException
   commentId: T:Xunit.Sdk.IsAssignableFromException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.IsAssignableFromException.html
   name: IsAssignableFromException
   nameWithType: IsAssignableFromException
   fullName: Xunit.Sdk.IsAssignableFromException
@@ -790,6 +840,28 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: T
   name: T
   nameWithType: T
@@ -804,6 +876,8 @@ references:
   fullName: System.Type
 - uid: Xunit.Sdk.IsNotAssignableFromException
   commentId: T:Xunit.Sdk.IsNotAssignableFromException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.IsNotAssignableFromException.html
   name: IsNotAssignableFromException
   nameWithType: IsNotAssignableFromException
   fullName: Xunit.Sdk.IsNotAssignableFromException
@@ -815,6 +889,8 @@ references:
   fullName: Asserts.TypeAsserts.IsNotAssignableFrom
 - uid: Xunit.Sdk.IsNotTypeException
   commentId: T:Xunit.Sdk.IsNotTypeException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.IsNotTypeException.html
   name: IsNotTypeException
   nameWithType: IsNotTypeException
   fullName: Xunit.Sdk.IsNotTypeException
@@ -837,6 +913,8 @@ references:
   name.vb: Boolean
 - uid: Xunit.Sdk.IsTypeException
   commentId: T:Xunit.Sdk.IsTypeException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.IsTypeException.html
   name: IsTypeException
   nameWithType: IsTypeException
   fullName: Xunit.Sdk.IsTypeException

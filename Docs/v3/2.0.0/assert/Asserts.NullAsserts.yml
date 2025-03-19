@@ -50,12 +50,16 @@ items:
   source:
     id: NotNull
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\NullAsserts.cs
-    startLine: 28
+    startLine: 34
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object reference is not null.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotNull(object? @object)
     parameters:
@@ -85,12 +89,16 @@ items:
   source:
     id: NotNull
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\NullAsserts.cs
-    startLine: 45
+    startLine: 57
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a nullable struct value is not null.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static T NotNull<T>(T? value) where T : struct'
     parameters:
@@ -126,12 +134,16 @@ items:
   source:
     id: "Null"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\NullAsserts.cs
-    startLine: 63
+    startLine: 81
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an object reference is null.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Null(object? @object)
     parameters:
@@ -161,12 +173,16 @@ items:
   source:
     id: "Null"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\NullAsserts.cs
-    startLine: 77
+    startLine: 101
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a nullable struct value is null.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Null<T>(T? value) where T : struct'
     parameters:
@@ -430,6 +446,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.NotNullException
   commentId: T:Xunit.Sdk.NotNullException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.NotNullException.html
   name: NotNullException
   nameWithType: NotNullException
   fullName: Xunit.Sdk.NotNullException
@@ -439,6 +457,28 @@ references:
   name: NotNull
   nameWithType: NullAsserts.NotNull
   fullName: Asserts.NullAsserts.NotNull
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: System.Nullable{{T}}
   commentId: T:System.Nullable{``0}
   parent: System
@@ -492,6 +532,8 @@ references:
   fullName: T
 - uid: Xunit.Sdk.NullException
   commentId: T:Xunit.Sdk.NullException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.NullException.html
   name: NullException
   nameWithType: NullException
   fullName: Xunit.Sdk.NullException

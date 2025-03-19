@@ -48,12 +48,16 @@ items:
   source:
     id: NotSame
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\IdentityAsserts.cs
-    startLine: 23
+    startLine: 29
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are not the same instance.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotSame(object? expected, object? actual)
     parameters:
@@ -86,12 +90,16 @@ items:
   source:
     id: Same
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\IdentityAsserts.cs
-    startLine: 42
+    startLine: 54
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are the same instance.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Same(object? expected, object? actual)
     parameters:
@@ -356,6 +364,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.NotSameException
   commentId: T:Xunit.Sdk.NotSameException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.NotSameException.html
   name: NotSameException
   nameWithType: NotSameException
   fullName: Xunit.Sdk.NotSameException
@@ -365,8 +375,32 @@ references:
   name: NotSame
   nameWithType: IdentityAsserts.NotSame
   fullName: Asserts.IdentityAsserts.NotSame
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: Xunit.Sdk.SameException
   commentId: T:Xunit.Sdk.SameException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.SameException.html
   name: SameException
   nameWithType: SameException
   fullName: Xunit.Sdk.SameException

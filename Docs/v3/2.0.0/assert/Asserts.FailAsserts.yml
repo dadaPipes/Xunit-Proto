@@ -47,12 +47,16 @@ items:
   source:
     id: Fail
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\FailAsserts.cs
-    startLine: 29
+    startLine: 35
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Indicates that the test should immediately fail.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Fail(string? message = null)
     parameters:

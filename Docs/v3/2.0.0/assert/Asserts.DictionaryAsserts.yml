@@ -58,12 +58,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 34
+    startLine: 40
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary contains a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static TValue Contains<TKey, TValue>(TKey expected, IDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -104,12 +108,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 62
+    startLine: 74
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a read-only dictionary contains a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static TValue Contains<TKey, TValue>(TKey expected, IReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -150,12 +158,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 90
+    startLine: 108
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary contains a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static TValue Contains<TKey, TValue>(TKey expected, ConcurrentDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -196,12 +208,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 107
+    startLine: 131
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary contains a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static TValue Contains<TKey, TValue>(TKey expected, Dictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -242,12 +258,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 124
+    startLine: 154
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary contains a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static TValue Contains<TKey, TValue>(TKey expected, ReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -288,12 +308,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 141
+    startLine: 177
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary contains a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static TValue Contains<TKey, TValue>(TKey expected, ImmutableDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -334,12 +358,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 157
+    startLine: 199
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary does not contain a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<TKey, TValue>(TKey expected, IDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -377,12 +405,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 183
+    startLine: 231
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary does not contain a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<TKey, TValue>(TKey expected, IReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -420,12 +452,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 209
+    startLine: 263
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary does not contain a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<TKey, TValue>(TKey expected, ConcurrentDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -463,12 +499,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 225
+    startLine: 285
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary does not contain a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<TKey, TValue>(TKey expected, Dictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -506,12 +546,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 241
+    startLine: 307
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary does not contain a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<TKey, TValue>(TKey expected, ReadOnlyDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -549,12 +593,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\DictionaryAsserts.cs
-    startLine: 257
+    startLine: 329
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a dictionary does not contain a given key.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<TKey, TValue>(TKey expected, ImmutableDictionary<TKey, TValue> collection) where TKey : notnull'
     parameters:
@@ -824,6 +872,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.ContainsException
   commentId: T:Xunit.Sdk.ContainsException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ContainsException.html
   name: ContainsException
   nameWithType: ContainsException
   fullName: Xunit.Sdk.ContainsException
@@ -880,6 +930,28 @@ references:
   name: TValue
   nameWithType: TValue
   fullName: TValue
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: TKey
   name: TKey
   nameWithType: TKey
@@ -1417,6 +1489,8 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
 - uid: Xunit.Sdk.DoesNotContainException
   commentId: T:Xunit.Sdk.DoesNotContainException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.DoesNotContainException.html
   name: DoesNotContainException
   nameWithType: DoesNotContainException
   fullName: Xunit.Sdk.DoesNotContainException

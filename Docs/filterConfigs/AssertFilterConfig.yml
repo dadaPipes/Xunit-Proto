@@ -1,5 +1,7 @@
-﻿### YamlMime:ManagedReference
+﻿
+### YamlMime:ManagedReference
 apiRules:
-- exclude:
+- include:
     uidRegex: ^Xunit\.Sdk
     type: Namespace
+  hidden: true

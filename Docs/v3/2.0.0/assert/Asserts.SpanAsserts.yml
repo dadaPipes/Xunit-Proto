@@ -59,12 +59,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 31
+    startLine: 37
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span contains a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(Span<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -99,12 +103,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 43
+    startLine: 55
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span contains a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(Span<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -139,12 +147,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 55
+    startLine: 73
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span contains a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(ReadOnlySpan<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -179,12 +191,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 67
+    startLine: 91
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span contains a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(ReadOnlySpan<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -219,12 +235,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 85
+    startLine: 115
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span does not contain a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(Span<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -259,12 +279,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 97
+    startLine: 133
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span does not contain a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(Span<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -299,12 +323,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 109
+    startLine: 151
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span does not contain a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(ReadOnlySpan<T> expectedSubSpan, Span<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -339,12 +367,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 121
+    startLine: 169
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span does not contain a given sub-span
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(ReadOnlySpan<T> expectedSubSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -379,12 +411,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 148
+    startLine: 202
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a span and an array contain the same values in the same order.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(ReadOnlySpan<T> expectedSpan, T[] actualArray) where T : IEquatable<T>'
     parameters:
@@ -419,12 +455,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 160
+    startLine: 220
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two spans contain the same values in the same order.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(Span<T> expectedSpan, Span<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -459,12 +499,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 172
+    startLine: 238
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two spans contain the same values in the same order.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(Span<T> expectedSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -499,12 +543,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 184
+    startLine: 256
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two spans contain the same values in the same order.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(ReadOnlySpan<T> expectedSpan, Span<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -539,12 +587,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SpanAsserts.cs
-    startLine: 196
+    startLine: 274
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two spans contain the same values in the same order.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(ReadOnlySpan<T> expectedSpan, ReadOnlySpan<T> actualSpan) where T : IEquatable<T>'
     parameters:
@@ -811,6 +863,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.ContainsException
   commentId: T:Xunit.Sdk.ContainsException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ContainsException.html
   name: ContainsException
   nameWithType: ContainsException
   fullName: Xunit.Sdk.ContainsException
@@ -849,6 +903,28 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: System.Span`1
   commentId: T:System.Span`1
   isExternal: true
@@ -936,6 +1012,8 @@ references:
   - name: )
 - uid: Xunit.Sdk.DoesNotContainException
   commentId: T:Xunit.Sdk.DoesNotContainException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.DoesNotContainException.html
   name: DoesNotContainException
   nameWithType: DoesNotContainException
   fullName: Xunit.Sdk.DoesNotContainException
@@ -947,6 +1025,8 @@ references:
   fullName: Asserts.SpanAsserts.DoesNotContain
 - uid: Xunit.Sdk.EqualException
   commentId: T:Xunit.Sdk.EqualException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.EqualException.html
   name: EqualException
   nameWithType: EqualException
   fullName: Xunit.Sdk.EqualException

@@ -49,7 +49,7 @@ items:
   source:
     id: Skip
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SkipAsserts.cs
-    startLine: 27
+    startLine: 33
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -57,7 +57,11 @@ items:
     Skips the current test. Used when determining whether a test should be skipped
 
     happens at runtime rather than at discovery time.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Skip(string reason)
     parameters:
@@ -83,12 +87,16 @@ items:
   source:
     id: SkipUnless
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SkipAsserts.cs
-    startLine: 42
+    startLine: 54
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Will skip the current test unless <code class="paramref">condition</code> evaluates to <code>true</code>.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void SkipUnless(bool condition, string reason)
     parameters:
@@ -119,12 +127,16 @@ items:
   source:
     id: SkipWhen
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SkipAsserts.cs
-    startLine: 62
+    startLine: 80
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Will skip the current test when <code class="paramref">condition</code> evaluates to <code>true</code>.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void SkipWhen(bool condition, string reason)
     parameters:

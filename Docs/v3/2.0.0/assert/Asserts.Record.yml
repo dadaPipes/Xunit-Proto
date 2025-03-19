@@ -49,12 +49,16 @@ items:
   source:
     id: RecordException
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Record.cs
-    startLine: 32
+    startLine: 38
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Records any exception which is thrown by the given code.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: protected static Exception? RecordException(Action testCode)
     parameters:
@@ -80,7 +84,7 @@ items:
   source:
     id: RecordException
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Record.cs
-    startLine: 59
+    startLine: 71
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -88,7 +92,11 @@ items:
     Records any exception which is thrown by the given code that has
 
     a return value. Generally used for testing property accessors.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: protected static Exception? RecordException(Func<object?> testCode, string asyncMethodName)
     parameters:
@@ -122,12 +130,16 @@ items:
   source:
     id: RecordExceptionAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\Record.cs
-    startLine: 100
+    startLine: 118
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Records any exception which is thrown by the given task.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: protected static Task<Exception?> RecordExceptionAsync(Func<Task> testCode)
     parameters:

@@ -73,6 +73,33 @@
         <article data-uid="">
 <h1 id="welcome-to-xunit">Welcome to xUnit</h1>
 
+<p>xUnit is a widely used unit testing framework for .NET applications. It provides a modern, flexible,
+and extensible approach to writing tests, making it a preferred choice over older frameworks
+like <strong>MSTest</strong> and <strong>NUnit</strong>.</p>
+<h2 id="key-features-of-xunit">Key Features of xUnit</h2>
+<ul>
+<li><p>Attribute-Based Testing: Uses <code>[Fact]</code> for single tests and <code>[Theory]</code> for parameterized tests.</p>
+</li>
+<li><p>Built-In Dependency Injection: Supports constructor injection for test class dependencies.</p>
+</li>
+<li><p>Isolation &amp; Parallelization: Runs tests in isolation and supports parallel execution for better performance.</p>
+</li>
+<li><p>Extensibility: Allows custom test behaviors using fixtures and collections.</p>
+</li>
+</ul>
+<h2 id="basic-example">Basic Example:</h2>
+<pre><code class="lang-csharp">public class SampleTests
+{
+    [Fact]
+    public void Addition_ShouldReturnCorrectSum()
+    {
+        int result = 2 + 3;
+        Assert.Equal(5, result);
+    }
+}
+</code></pre>
+<p>xUnit is well-integrated with .NET CLI, Visual Studio, and CI/CD pipelines,
+making it an excellent choice for test automation in modern .NET applications.</p>
 
 </article>
 

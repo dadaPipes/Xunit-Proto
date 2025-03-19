@@ -74,7 +74,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 49
+    startLine: 55
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -88,7 +88,11 @@ items:
     If <xref href="System.MemoryExtensions.SequenceEqual%60%601(System.Span%7b%60%600%7d%2cSystem.ReadOnlySpan%7b%60%600%7d)" data-throw-if-not-resolved="false"></xref> fails, a call
 
     to Assert.Equal&lt;T&gt;(T, T) is made, to provide a more meaningful error message.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(T[] expected, T[] actual) where T : unmanaged, IEquatable<T>'
     parameters:
@@ -120,12 +124,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 75
+    startLine: 87
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are equal, using a default comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal<T>(T expected, T actual)
     parameters:
@@ -157,12 +165,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 92
+    startLine: 110
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are equal, using a custom comparer function.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal<T>(T expected, T actual, Func<T, T, bool> comparer)
     parameters:
@@ -197,12 +209,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 110
+    startLine: 134
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are equal, using a custom equatable comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal<T>(T expected, T actual, IEqualityComparer<T> comparer)
     parameters:
@@ -237,7 +253,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 306
+    startLine: 336
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -245,7 +261,11 @@ items:
     Verifies that two <xref href="System.Double" data-throw-if-not-resolved="false"></xref> values are equal, within the number of decimal
 
     places given by <code class="paramref">precision</code>. The values are rounded before comparison.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(double expected, double actual, int precision)
     parameters:
@@ -277,7 +297,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 331
+    startLine: 367
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -287,7 +307,11 @@ items:
     places given by <code class="paramref">precision</code>. The values are rounded before comparison.
 
     The rounding method to use is given by <code class="paramref">rounding</code>
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(double expected, double actual, int precision, MidpointRounding rounding)
     parameters:
@@ -322,7 +346,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 355
+    startLine: 397
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -330,7 +354,11 @@ items:
     Verifies that two <xref href="System.Double" data-throw-if-not-resolved="false"></xref> values are equal, within the tolerance given by
 
     <code class="paramref">tolerance</code> (positive or negative).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(double expected, double actual, double tolerance)
     parameters:
@@ -362,7 +390,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 378
+    startLine: 426
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -370,7 +398,11 @@ items:
     Verifies that two <xref href="System.Single" data-throw-if-not-resolved="false"></xref> values are equal, within the number of decimal
 
     places given by <code class="paramref">precision</code>. The values are rounded before comparison.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(float expected, float actual, int precision)
     parameters:
@@ -402,7 +434,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 403
+    startLine: 457
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -412,7 +444,11 @@ items:
     places given by <code class="paramref">precision</code>. The values are rounded before comparison.
 
     The rounding method to use is given by <code class="paramref">rounding</code>
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(float expected, float actual, int precision, MidpointRounding rounding)
     parameters:
@@ -447,7 +483,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 427
+    startLine: 487
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -455,7 +491,11 @@ items:
     Verifies that two <xref href="System.Single" data-throw-if-not-resolved="false"></xref> values are equal, within the tolerance given by
 
     <code class="paramref">tolerance</code> (positive or negative).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(float expected, float actual, float tolerance)
     parameters:
@@ -487,7 +527,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 450
+    startLine: 516
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -495,7 +535,11 @@ items:
     Verifies that two <xref href="System.Decimal" data-throw-if-not-resolved="false"></xref> values are equal, within the number of decimal
 
     places given by <code class="paramref">precision</code>. The values are rounded before comparison.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(decimal expected, decimal actual, int precision)
     parameters:
@@ -527,12 +571,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 470
+    startLine: 542
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values are equal.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(DateTime expected, DateTime actual)
     parameters:
@@ -561,7 +609,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 482
+    startLine: 560
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -569,7 +617,11 @@ items:
     Verifies that two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values are equal, within the precision
 
     given by <code class="paramref">precision</code>.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(DateTime expected, DateTime actual, TimeSpan precision)
     parameters:
@@ -601,12 +653,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 504
+    startLine: 588
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> values are equal.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(DateTimeOffset expected, DateTimeOffset actual)
     parameters:
@@ -632,7 +688,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 516
+    startLine: 606
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -640,7 +696,11 @@ items:
     Verifies that two <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> values are equal, within the precision
 
     given by <code class="paramref">precision</code>.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal(DateTimeOffset expected, DateTimeOffset actual, TimeSpan precision)
     parameters:
@@ -669,12 +729,16 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 539
+    startLine: 635
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two arrays of un-managed type T are not equal, using Span&lt;T&gt;.SequenceEqual.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void NotEqual<T>(T[] expected, T[] actual) where T : unmanaged, IEquatable<T>'
     parameters:
@@ -706,12 +770,16 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 565
+    startLine: 667
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are not equal, using a default comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual<T>(T expected, T actual)
     parameters:
@@ -743,12 +811,16 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 582
+    startLine: 690
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are not equal, using a custom equality comparer function.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual<T>(T expected, T actual, Func<T, T, bool> comparer)
     parameters:
@@ -783,12 +855,16 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 600
+    startLine: 714
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are not equal, using a custom equality comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual<T>(T expected, T actual, IEqualityComparer<T> comparer)
     parameters:
@@ -823,7 +899,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 781
+    startLine: 901
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -831,7 +907,11 @@ items:
     Verifies that two <xref href="System.Double" data-throw-if-not-resolved="false"></xref> values are not equal, within the number of decimal
 
     places given by <code class="paramref">precision</code>.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual(double expected, double actual, int precision)
     parameters:
@@ -863,7 +943,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 806
+    startLine: 932
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -873,7 +953,11 @@ items:
     places given by <code class="paramref">precision</code>. The values are rounded before comparison.
 
     The rounding method to use is given by <code class="paramref">rounding</code>
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual(double expected, double actual, int precision, MidpointRounding rounding)
     parameters:
@@ -908,7 +992,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 830
+    startLine: 962
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -916,7 +1000,11 @@ items:
     Verifies that two <xref href="System.Double" data-throw-if-not-resolved="false"></xref> values are not equal, within the tolerance given by
 
     <code class="paramref">tolerance</code> (positive or negative).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual(double expected, double actual, double tolerance)
     parameters:
@@ -948,7 +1036,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 853
+    startLine: 991
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -956,7 +1044,11 @@ items:
     Verifies that two <xref href="System.Single" data-throw-if-not-resolved="false"></xref> values are not equal, within the number of decimal
 
     places given by <code class="paramref">precision</code>.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual(float expected, float actual, int precision)
     parameters:
@@ -988,7 +1080,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 878
+    startLine: 1022
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -998,7 +1090,11 @@ items:
     places given by <code class="paramref">precision</code>. The values are rounded before comparison.
 
     The rounding method to use is given by <code class="paramref">rounding</code>
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual(float expected, float actual, int precision, MidpointRounding rounding)
     parameters:
@@ -1033,7 +1129,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 902
+    startLine: 1052
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -1041,7 +1137,11 @@ items:
     Verifies that two <xref href="System.Single" data-throw-if-not-resolved="false"></xref> values are not equal, within the tolerance given by
 
     <code class="paramref">tolerance</code> (positive or negative).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual(float expected, float actual, float tolerance)
     parameters:
@@ -1073,7 +1173,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 925
+    startLine: 1081
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -1081,7 +1181,11 @@ items:
     Verifies that two <xref href="System.Decimal" data-throw-if-not-resolved="false"></xref> values are not equal, within the number of decimal
 
     places given by <code class="paramref">precision</code>.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual(decimal expected, decimal actual, int precision)
     parameters:
@@ -1113,12 +1217,16 @@ items:
   source:
     id: NotStrictEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 946
+    startLine: 1108
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are strictly not equal, using the type's default comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotStrictEqual<T>(T expected, T actual)
     parameters:
@@ -1150,12 +1258,16 @@ items:
   source:
     id: StrictEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EqualityAsserts.cs
-    startLine: 970
+    startLine: 1138
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two objects are strictly equal, using the type's default comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void StrictEqual<T>(T expected, T actual)
     parameters:

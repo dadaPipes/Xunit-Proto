@@ -181,14 +181,22 @@ Class BooleanAsserts
 
 
   <h4 class="section" id="Asserts_BooleanAsserts_False_System_Boolean__examples">Examples</h4>
-  <pre><code class="lang-csharp">Assert.False(2 + 2 == 5); // Passes
-Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
+  <pre><code class="lang-csharp">[Fact]
+public void TestConditionIsFalse()
+{
+    // Arrange
+    bool condition = (5 &gt; 10); // This condition is false.
+
+    // Act &amp; Assert
+    Assert.False(condition); // Verifies the condition is false.
+}</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
 
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">FalseException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.FalseException.html">FalseException</a></dt>
     <dd><p>Thrown if the condition is not false</p>
 </dd>
   </dl>
@@ -226,11 +234,15 @@ Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
 
 
 
+  <h4 class="section" id="Asserts_BooleanAsserts_False_System_Boolean_System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
+
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">FalseException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.FalseException.html">FalseException</a></dt>
     <dd><p>Thrown if the condition is not false</p>
 </dd>
   </dl>
@@ -265,11 +277,15 @@ Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
 
 
 
+  <h4 class="section" id="Asserts_BooleanAsserts_False_System_Nullable_System_Boolean___examples">Examples</h4>
+  <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
+
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">FalseException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.FalseException.html">FalseException</a></dt>
     <dd><p>Thrown if the condition is not false</p>
 </dd>
   </dl>
@@ -307,11 +323,15 @@ Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
 
 
 
+  <h4 class="section" id="Asserts_BooleanAsserts_False_System_Nullable_System_Boolean__System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
+
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">FalseException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.FalseException.html">FalseException</a></dt>
     <dd><p>Thrown if the condition is not false</p>
 </dd>
   </dl>
@@ -346,11 +366,15 @@ Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
 
 
 
+  <h4 class="section" id="Asserts_BooleanAsserts_True_System_Boolean__examples">Examples</h4>
+  <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
+
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">TrueException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.TrueException.html">TrueException</a></dt>
     <dd><p>Thrown when the condition is false</p>
 </dd>
   </dl>
@@ -388,11 +412,15 @@ Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
 
 
 
+  <h4 class="section" id="Asserts_BooleanAsserts_True_System_Boolean_System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
+
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">TrueException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.TrueException.html">TrueException</a></dt>
     <dd><p>Thrown when the condition is false</p>
 </dd>
   </dl>
@@ -427,11 +455,15 @@ Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
 
 
 
+  <h4 class="section" id="Asserts_BooleanAsserts_True_System_Nullable_System_Boolean___examples">Examples</h4>
+  <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
+
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">TrueException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.TrueException.html">TrueException</a></dt>
     <dd><p>Thrown when the condition is false</p>
 </dd>
   </dl>
@@ -469,11 +501,15 @@ Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
 
 
 
+  <h4 class="section" id="Asserts_BooleanAsserts_True_System_Nullable_System_Boolean__System_String__examples">Examples</h4>
+  <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+<p>Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.</p>
+
 
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">TrueException</span></dt>
+    <dt><a class="xref" href="Xunit.Sdk.TrueException.html">TrueException</a></dt>
     <dd><p>Thrown when the condition is false</p>
 </dd>
   </dl>

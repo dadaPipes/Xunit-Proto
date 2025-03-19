@@ -19,12 +19,16 @@ items:
   source:
     id: RaisedEvent
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
-    startLine: 475
+    startLine: 559
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Represents a raised event after the fact.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public class EventAsserts.RaisedEvent<T>
     typeParameters:
@@ -58,7 +62,7 @@ items:
   source:
     id: Sender
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
-    startLine: 483
+    startLine: 573
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -68,7 +72,11 @@ items:
     than <xref href="System.EventHandler%601" data-throw-if-not-resolved="false"></xref>, this value will always be <code>null</code>,
 
     since there is no sender value when using actions.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public object? Sender { get; }
     parameters: []
@@ -92,12 +100,16 @@ items:
   source:
     id: Arguments
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
-    startLine: 491
+    startLine: 587
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: The event arguments.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public T Arguments { get; }
     parameters: []
@@ -121,12 +133,16 @@ items:
   source:
     id: .ctor
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
-    startLine: 497
+    startLine: 599
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Creates a new instance of the <xref href="Asserts.EventAsserts.RaisedEvent%601" data-throw-if-not-resolved="false"></xref> class.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public RaisedEvent(T args)
     parameters:
@@ -152,12 +168,16 @@ items:
   source:
     id: .ctor
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EventAsserts.cs
-    startLine: 506
+    startLine: 614
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Creates a new instance of the <xref href="Asserts.EventAsserts.RaisedEvent%601" data-throw-if-not-resolved="false"></xref> class.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public RaisedEvent(object? sender, T args)
     parameters:

@@ -486,6 +486,734 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.AllException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.AllException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.AllException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.AllException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.All fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.ArgumentFormatter",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.yml\" sourcestartlinenumber=\"1\">Formats value for display in assertion messages and data-driven test display names.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.AssertEqualityResult",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.yml\" sourcestartlinenumber=\"1\">Indicates the result of comparing two values for equality. Includes success/failure information, as well\nas indices where the values differ, if the values are indexed (e.g., collections or strings).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.CollectionException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.CollectionException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Collection fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.CollectionTracker<T>",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.yml\" sourcestartlinenumber=\"1\">A utility class that can be used to wrap enumerables to prevent double enumeration.\nIt offers the ability to safely print parts of the collection when failures are\nencountered, as well as some static versions of the printing functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.CollectionTracker",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.yml\" sourcestartlinenumber=\"1\">Base class for generic <xref href=\"Xunit.Sdk.CollectionTracker%601\" data-throw-if-not-resolved=\"false\"></xref>, which also includes some public\nstatic functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.CollectionTrackerExtensions",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods related to <xref href=\"Xunit.Sdk.CollectionTracker%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.ContainsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.ContainsException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.ContainsException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.ContainsException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Contains fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.DistinctException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.DistinctException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.DistinctException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.DistinctException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Distinct fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.DoesNotContainException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.DoesNotContain fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.DoesNotMatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.DoesNotMatchException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.DoesNotMatchException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.DoesNotMatchException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.DoesNotMatch fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.EmptyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.EmptyException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.EmptyException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.EmptyException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Empty fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.EndsWithException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.EndsWithException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.EndsWithException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.EndsWithException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.EndsWith fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.EqualException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.EqualException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.EqualException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.EqualException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Equal fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.EquivalentException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.EquivalentException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.EquivalentException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Equivalent fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.FailException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.FailException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.FailException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.FailException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Fail is called.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.FalseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.FalseException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.FalseException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.FalseException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.False fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.IAssertEqualityComparer<T>",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">Represents a specialized version of <xref href=\"System.Collections.Generic.IEqualityComparer%601\" data-throw-if-not-resolved=\"false\"></xref> that returns information useful\nwhen formatting results for assertion failures.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparerExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.IAssertEqualityComparerExtensions",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparerExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Xunit.Sdk.IAssertEqualityComparer%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.IAssertionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.IAssertionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.IAssertionException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.IAssertionException.yml\" sourcestartlinenumber=\"1\">This is a marker interface implemented by all built-in assertion exceptions so that\ntest failures can be marked with <xref href=\"Xunit.Sdk.FailureCause.Assertion\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.InRangeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.InRangeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.InRangeException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.InRangeException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.InRange fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsAssignableFromException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsAssignableFromException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.IsAssignableFromException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.IsAssignableFromException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.IsAssignableFrom fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsNotAssignableFromException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsNotAssignableFromException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.IsNotAssignableFromException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.IsNotAssignableFromException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.IsNotAssignableFrom fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.IsNotTypeException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.IsNotType fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.IsTypeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.IsTypeException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.IsTypeException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.IsType fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.MatchesException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.MatchesException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.MatchesException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.MatchesException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Matches fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.MultipleException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.MultipleException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.MultipleException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.MultipleException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Multiple fails w/ multiple errors (when a single error\noccurs, it is thrown directly).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotEmptyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotEmptyException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.NotEmptyException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.NotEmptyException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.NotEmpty fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotEqualException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.NotEqualException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.NotEqualException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.NotEqual fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotInRangeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotInRangeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.NotInRangeException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.NotInRangeException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.NotInRange fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotNullException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotNullException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.NotNullException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.NotNullException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.NotNull fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotSameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotSameException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.NotSameException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.NotSameException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.NotSame fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotStrictEqualException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.NotStrictEqualException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.NotStrictEqualException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.NotStrictEqualException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.NotStrictEqual fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.NullException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.NullException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.NullException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.NullException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Null fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.ProperSubsetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.ProperSubsetException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.ProperSubsetException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.ProperSubsetException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.ProperSubset fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.ProperSupersetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.ProperSupersetException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.ProperSupersetException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.ProperSupersetException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.ProperSuperset fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.PropertyChangedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.PropertyChangedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.PropertyChangedException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.PropertyChangedException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.PropertyChanged fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.RaisesAnyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.RaisesAnyException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.RaisesAnyException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.RaisesAnyException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.RaisesAny fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.RaisesException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.RaisesException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.RaisesException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.RaisesException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Raises fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.SameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.SameException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.SameException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.SameException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Same fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.SingleException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.SingleException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.SingleException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.SingleException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Single fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.SkipException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.SkipException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.SkipException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.SkipException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Skip is called.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.StartsWithException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.StartsWithException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.StartsWithException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.StartsWithException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.StartsWith fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.StrictEqualException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.StrictEqualException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.StrictEqualException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.StrictEqualException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.StrictEqual fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.StringAssertEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.StringAssertEqualityComparer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.StringAssertEqualityComparer",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.StringAssertEqualityComparer.yml\" sourcestartlinenumber=\"1\">This static class offers equivalence comparisons for string values</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.SubsetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.SubsetException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.SubsetException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.SubsetException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Subset fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.SupersetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.SupersetException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.SupersetException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.SupersetException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Superset fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.ThrowsAnyException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.ThrowsAny fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.ThrowsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.ThrowsException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.ThrowsException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.Throws fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.TrueException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.TrueException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.TrueException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.TrueException.yml\" sourcestartlinenumber=\"1\">Exception thrown when Assert.True fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.XunitException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.XunitException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk.XunitException",
+      "Summary": "<p sourcefile=\"v3/2.0.0/assert/Xunit.Sdk.XunitException.yml\" sourcestartlinenumber=\"1\">The base assert exception class. It marks itself with <xref href=\"Xunit.Sdk.IAssertionException\" data-throw-if-not-resolved=\"false\"></xref> which is how\nthe framework differentiates between assertion fails and general exceptions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "v3/2.0.0/assert/Xunit.Sdk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "v3/2.0.0/assert/Xunit.Sdk.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Xunit.Sdk",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "v3/2.0.0/assert/Xunit.yml",
       "output": {
         ".html": {

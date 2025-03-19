@@ -48,7 +48,7 @@ items:
   source:
     id: PropertyChanged
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\PropertyAsserts.cs
-    startLine: 33
+    startLine: 39
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -56,7 +56,11 @@ items:
     Verifies that the provided object raised <xref href="System.ComponentModel.INotifyPropertyChanged.PropertyChanged" data-throw-if-not-resolved="false"></xref>
 
     as a result of executing the given test code.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void PropertyChanged(INotifyPropertyChanged @object, string propertyName, Action testCode)
     parameters:
@@ -92,7 +96,7 @@ items:
   source:
     id: PropertyChangedAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\PropertyAsserts.cs
-    startLine: 84
+    startLine: 96
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -100,7 +104,11 @@ items:
     Verifies that the provided object raised <xref href="System.ComponentModel.INotifyPropertyChanged.PropertyChanged" data-throw-if-not-resolved="false"></xref>
 
     as a result of executing the given test code.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static Task PropertyChangedAsync(INotifyPropertyChanged @object, string propertyName, Func<Task> testCode)
     parameters:
@@ -377,6 +385,8 @@ references:
   fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
 - uid: Xunit.Sdk.PropertyChangedException
   commentId: T:Xunit.Sdk.PropertyChangedException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.PropertyChangedException.html
   name: PropertyChangedException
   nameWithType: PropertyChangedException
   fullName: Xunit.Sdk.PropertyChangedException
@@ -413,6 +423,28 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: System.ComponentModel
   commentId: N:System.ComponentModel
   isExternal: true

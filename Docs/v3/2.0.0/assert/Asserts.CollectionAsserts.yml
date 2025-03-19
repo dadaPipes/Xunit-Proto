@@ -72,7 +72,7 @@ items:
   source:
     id: All
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 41
+    startLine: 47
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -80,7 +80,11 @@ items:
     Verifies that all items in the collection pass when executed against
 
     action.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void All<T>(IEnumerable<T> collection, Action<T> action)
     parameters:
@@ -116,7 +120,7 @@ items:
   source:
     id: All
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 59
+    startLine: 71
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -124,7 +128,11 @@ items:
     Verifies that all items in the collection pass when executed against
 
     action. The item index is provided to the action, in addition to the item.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void All<T>(IEnumerable<T> collection, Action<T, int> action)
     parameters:
@@ -160,7 +168,7 @@ items:
   source:
     id: AllAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 95
+    startLine: 113
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -168,7 +176,11 @@ items:
     Verifies that all items in the collection pass when executed against
 
     action.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static Task AllAsync<T>(IEnumerable<T> collection, Func<T, Task> action)
     parameters:
@@ -206,7 +218,7 @@ items:
   source:
     id: AllAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 113
+    startLine: 137
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -214,7 +226,11 @@ items:
     Verifies that all items in the collection pass when executed against
 
     action. The item index is provided to the action, in addition to the item.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static Task AllAsync<T>(IEnumerable<T> collection, Func<T, int, Task> action)
     parameters:
@@ -252,7 +268,7 @@ items:
   source:
     id: Collection
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 149
+    startLine: 179
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -260,7 +276,11 @@ items:
     Verifies that a collection contains exactly a given number of elements, which meet
 
     the criteria provided by the element inspectors.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Collection<T>(IEnumerable<T> collection, params Action<T>[] elementInspectors)
     parameters:
@@ -294,7 +314,7 @@ items:
   source:
     id: CollectionAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 189
+    startLine: 225
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -302,7 +322,11 @@ items:
     Verifies that a collection contains exactly a given number of elements, which meet
 
     the criteria provided by the element inspectors.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static Task CollectionAsync<T>(IEnumerable<T> collection, params Func<T, Task>[] elementInspectors)
     parameters:
@@ -338,12 +362,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 228
+    startLine: 270
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection contains a given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(T expected, IEnumerable<T> collection)
     parameters:
@@ -379,12 +407,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 261
+    startLine: 309
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection contains a given object, using an equality comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(T expected, IEnumerable<T> collection, IEqualityComparer<T> comparer)
     parameters:
@@ -423,12 +455,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 281
+    startLine: 335
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection contains a given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(IEnumerable<T> collection, Predicate<T> filter)
     parameters:
@@ -464,12 +500,16 @@ items:
   source:
     id: Distinct
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 304
+    startLine: 364
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection contains each object only once.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Distinct<T>(IEnumerable<T> collection)
     parameters:
@@ -502,12 +542,16 @@ items:
   source:
     id: Distinct
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 314
+    startLine: 380
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection contains each object only once.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Distinct<T>(IEnumerable<T> collection, IEqualityComparer<T> comparer)
     parameters:
@@ -543,12 +587,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 338
+    startLine: 410
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection does not contain a given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(T expected, IEnumerable<T> collection)
     parameters:
@@ -584,12 +632,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 371
+    startLine: 449
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection does not contain a given object, using an equality comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(T expected, IEnumerable<T> collection, IEqualityComparer<T> comparer)
     parameters:
@@ -628,12 +680,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 409
+    startLine: 493
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection does not contain a given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(IEnumerable<T> collection, Predicate<T> filter)
     parameters:
@@ -669,12 +725,16 @@ items:
   source:
     id: Empty
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 444
+    startLine: 534
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection is empty.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Empty(IEnumerable collection)
     parameters:
@@ -704,12 +764,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 463
+    startLine: 559
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two sequences are equivalent, using a default comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal<T>(IEnumerable<T>? expected, IEnumerable<T>? actual)
     parameters:
@@ -745,12 +809,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 481
+    startLine: 583
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two sequences are equivalent, using a custom equatable comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal<T>(IEnumerable<T>? expected, IEnumerable<T>? actual, IEqualityComparer<T> comparer)
     parameters:
@@ -789,7 +857,7 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 500
+    startLine: 608
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -797,7 +865,11 @@ items:
     Verifies that two collections are equal, using a comparer function against
 
     items in the two collections.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equal<T>(IEnumerable<T>? expected, IEnumerable<T>? actual, Func<T, T, bool> comparer)
     parameters:
@@ -832,12 +904,16 @@ items:
   source:
     id: NotEmpty
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 517
+    startLine: 631
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a collection is not empty.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEmpty(IEnumerable collection)
     parameters:
@@ -867,12 +943,16 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 540
+    startLine: 660
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two sequences are not equivalent, using a default comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual<T>(IEnumerable<T>? expected, IEnumerable<T>? actual)
     parameters:
@@ -908,12 +988,16 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 558
+    startLine: 684
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two sequences are not equivalent, using a custom equality comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual<T>(IEnumerable<T>? expected, IEnumerable<T>? actual, IEqualityComparer<T> comparer)
     parameters:
@@ -952,7 +1036,7 @@ items:
   source:
     id: NotEqual
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 577
+    startLine: 709
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -960,7 +1044,11 @@ items:
     Verifies that two collections are not equal, using a comparer function against
 
     items in the two collections.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotEqual<T>(IEnumerable<T>? expected, IEnumerable<T>? actual, Func<T, T, bool> comparer)
     parameters:
@@ -995,7 +1083,7 @@ items:
   source:
     id: Single
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 597
+    startLine: 735
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -1003,7 +1091,11 @@ items:
     Verifies that the given collection contains only a single
 
     element of the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static object? Single(IEnumerable collection)
     parameters:
@@ -1035,7 +1127,7 @@ items:
   source:
     id: Single
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 617
+    startLine: 761
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -1045,7 +1137,11 @@ items:
     element of the given value. The collection may or may not
 
     contain other values.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Single(IEnumerable collection, object? expected)
     parameters:
@@ -1080,7 +1176,7 @@ items:
   source:
     id: Single
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 639
+    startLine: 789
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -1088,7 +1184,11 @@ items:
     Verifies that the given collection contains only a single
 
     element of the given type.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static T Single<T>(IEnumerable<T> collection)
     parameters:
@@ -1126,7 +1226,7 @@ items:
   source:
     id: Single
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\CollectionAsserts.cs
-    startLine: 658
+    startLine: 814
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -1138,7 +1238,11 @@ items:
     collection may or may not contain other values which do not
 
     match the given predicate.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static T Single<T>(IEnumerable<T> collection, Predicate<T> predicate)
     parameters:
@@ -1411,6 +1515,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.AllException
   commentId: T:Xunit.Sdk.AllException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.AllException.html
   name: AllException
   nameWithType: AllException
   fullName: Xunit.Sdk.AllException
@@ -1478,6 +1584,28 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: System.Collections.Generic.IEnumerable`1
   commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
@@ -1953,6 +2081,8 @@ references:
   - name: )
 - uid: Xunit.Sdk.ContainsException
   commentId: T:Xunit.Sdk.ContainsException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ContainsException.html
   name: ContainsException
   nameWithType: ContainsException
   fullName: Xunit.Sdk.ContainsException
@@ -2088,6 +2218,8 @@ references:
   - name: )
 - uid: Xunit.Sdk.DistinctException
   commentId: T:Xunit.Sdk.DistinctException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.DistinctException.html
   name: DistinctException
   nameWithType: DistinctException
   fullName: Xunit.Sdk.DistinctException
@@ -2099,6 +2231,8 @@ references:
   fullName: Asserts.CollectionAsserts.Distinct
 - uid: Xunit.Sdk.DoesNotContainException
   commentId: T:Xunit.Sdk.DoesNotContainException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.DoesNotContainException.html
   name: DoesNotContainException
   nameWithType: DoesNotContainException
   fullName: Xunit.Sdk.DoesNotContainException
@@ -2117,6 +2251,8 @@ references:
   fullName: System.ArgumentNullException
 - uid: Xunit.Sdk.EmptyException
   commentId: T:Xunit.Sdk.EmptyException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.EmptyException.html
   name: EmptyException
   nameWithType: EmptyException
   fullName: Xunit.Sdk.EmptyException
@@ -2163,6 +2299,8 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Xunit.Sdk.EqualException
   commentId: T:Xunit.Sdk.EqualException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.EqualException.html
   name: EqualException
   nameWithType: EqualException
   fullName: Xunit.Sdk.EqualException
@@ -2221,6 +2359,8 @@ references:
   - name: )
 - uid: Xunit.Sdk.NotEmptyException
   commentId: T:Xunit.Sdk.NotEmptyException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.NotEmptyException.html
   name: NotEmptyException
   nameWithType: NotEmptyException
   fullName: Xunit.Sdk.NotEmptyException
@@ -2232,6 +2372,8 @@ references:
   fullName: Asserts.CollectionAsserts.NotEmpty
 - uid: Xunit.Sdk.NotEqualException
   commentId: T:Xunit.Sdk.NotEqualException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.NotEqualException.html
   name: NotEqualException
   nameWithType: NotEqualException
   fullName: Xunit.Sdk.NotEqualException
@@ -2243,6 +2385,8 @@ references:
   fullName: Asserts.CollectionAsserts.NotEqual
 - uid: Xunit.Sdk.SingleException
   commentId: T:Xunit.Sdk.SingleException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.SingleException.html
   name: SingleException
   nameWithType: SingleException
   fullName: Xunit.Sdk.SingleException

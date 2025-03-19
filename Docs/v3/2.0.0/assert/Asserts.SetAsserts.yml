@@ -60,12 +60,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 29
+    startLine: 35
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the set contains the given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(T expected, ISet<T> set)
     parameters:
@@ -101,12 +105,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 73
+    startLine: 91
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the hashset contains the given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(T expected, HashSet<T> set)
     parameters:
@@ -142,12 +150,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 85
+    startLine: 109
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the sorted hashset contains the given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(T expected, SortedSet<T> set)
     parameters:
@@ -183,12 +195,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 97
+    startLine: 127
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the immutable hashset contains the given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(T expected, ImmutableHashSet<T> set)
     parameters:
@@ -224,12 +240,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 109
+    startLine: 145
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the immutable sorted hashset contains the given object.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Contains<T>(T expected, ImmutableSortedSet<T> set)
     parameters:
@@ -265,12 +285,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 121
+    startLine: 163
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the set does not contain the given item.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(T expected, ISet<T> set)
     parameters:
@@ -306,12 +330,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 163
+    startLine: 217
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the hashset does not contain the given item.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(T expected, HashSet<T> set)
     parameters:
@@ -347,12 +375,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 175
+    startLine: 235
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the sorted hashset does not contain the given item.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(T expected, SortedSet<T> set)
     parameters:
@@ -388,12 +420,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 187
+    startLine: 253
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the immutable hashset does not contain the given item.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(T expected, ImmutableHashSet<T> set)
     parameters:
@@ -429,12 +465,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 199
+    startLine: 271
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the immutable sorted hashset does not contain the given item.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void DoesNotContain<T>(T expected, ImmutableSortedSet<T> set)
     parameters:
@@ -470,12 +510,16 @@ items:
   source:
     id: ProperSubset
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 211
+    startLine: 289
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a set is a proper subset of another set.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void ProperSubset<T>(ISet<T> expectedSubset, ISet<T>? actual)
     parameters:
@@ -511,12 +555,16 @@ items:
   source:
     id: ProperSuperset
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 235
+    startLine: 319
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a set is a proper superset of another set.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void ProperSuperset<T>(ISet<T> expectedSuperset, ISet<T>? actual)
     parameters:
@@ -552,12 +600,16 @@ items:
   source:
     id: Subset
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 259
+    startLine: 349
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a set is a subset of another set.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Subset<T>(ISet<T> expectedSubset, ISet<T>? actual)
     parameters:
@@ -593,12 +645,16 @@ items:
   source:
     id: Superset
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\SetAsserts.cs
-    startLine: 283
+    startLine: 379
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a set is a superset of another set.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Superset<T>(ISet<T> expectedSuperset, ISet<T>? actual)
     parameters:
@@ -866,6 +922,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.ContainsException
   commentId: T:Xunit.Sdk.ContainsException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ContainsException.html
   name: ContainsException
   nameWithType: ContainsException
   fullName: Xunit.Sdk.ContainsException
@@ -910,6 +968,28 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: T
   name: T
   nameWithType: T
@@ -1246,6 +1326,8 @@ references:
   - name: )
 - uid: Xunit.Sdk.DoesNotContainException
   commentId: T:Xunit.Sdk.DoesNotContainException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.DoesNotContainException.html
   name: DoesNotContainException
   nameWithType: DoesNotContainException
   fullName: Xunit.Sdk.DoesNotContainException

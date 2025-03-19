@@ -54,16 +54,26 @@ items:
   source:
     id: "False"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 36
+    startLine: 46
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the condition is false.
   example:
   - >-
-    <pre><code class="lang-csharp">Assert.False(2 + 2 == 5); // Passes
+    <pre><code class="lang-csharp">[Fact]
 
-    Assert.False(2 + 2 == 4); // Fails and throws FalseException</code></pre>
+    public void TestConditionIsFalse()
+
+    {
+        // Arrange
+        bool condition = (5 &gt; 10); // This condition is false.
+
+        // Act &amp; Assert
+        Assert.False(condition); // Verifies the condition is false.
+    }</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void False(bool condition)
     parameters:
@@ -93,12 +103,16 @@ items:
   source:
     id: "False"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 48
+    startLine: 64
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the condition is false.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void False(bool? condition)
     parameters:
@@ -128,12 +142,16 @@ items:
   source:
     id: "False"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 60
+    startLine: 82
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the condition is false.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void False(bool condition, string? userMessage)
     parameters:
@@ -166,12 +184,16 @@ items:
   source:
     id: "False"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 76
+    startLine: 104
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the condition is false.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void False(bool? condition, string? userMessage)
     parameters:
@@ -204,12 +226,16 @@ items:
   source:
     id: "True"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 95
+    startLine: 129
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an expression is true.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void True(bool condition)
     parameters:
@@ -239,12 +265,16 @@ items:
   source:
     id: "True"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 107
+    startLine: 147
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an expression is true.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void True(bool? condition)
     parameters:
@@ -274,12 +304,16 @@ items:
   source:
     id: "True"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 119
+    startLine: 165
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an expression is true.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void True(bool condition, string? userMessage)
     parameters:
@@ -312,12 +346,16 @@ items:
   source:
     id: "True"
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\BooleanAsserts.cs
-    startLine: 135
+    startLine: 187
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that an expression is true.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void True(bool? condition, string? userMessage)
     parameters:
@@ -582,6 +620,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.FalseException
   commentId: T:Xunit.Sdk.FalseException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.FalseException.html
   name: FalseException
   nameWithType: FalseException
   fullName: Xunit.Sdk.FalseException
@@ -602,6 +642,28 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: System.Nullable{System.Boolean}
   commentId: T:System.Nullable{System.Boolean}
   parent: System
@@ -666,6 +728,8 @@ references:
   name.vb: String
 - uid: Xunit.Sdk.TrueException
   commentId: T:Xunit.Sdk.TrueException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.TrueException.html
   name: TrueException
   nameWithType: TrueException
   fullName: Xunit.Sdk.TrueException

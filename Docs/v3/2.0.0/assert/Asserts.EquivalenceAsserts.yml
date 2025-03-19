@@ -47,7 +47,7 @@ items:
   source:
     id: Equivalent
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\EquivalenceAsserts.cs
-    startLine: 30
+    startLine: 36
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -67,7 +67,11 @@ items:
     <code class="paramref">expected</code>; with strict mode on, those rules are tightened to require exact
 
     member list (for objects) or data (for collections).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Equivalent(object? expected, object? actual, bool strict = false)
     parameters:

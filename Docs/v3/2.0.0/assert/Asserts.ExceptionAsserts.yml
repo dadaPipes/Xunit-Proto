@@ -58,12 +58,16 @@ items:
   source:
     id: Throws
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 49
+    startLine: 55
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the exact exception is thrown (and not a derived exception type).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static Exception Throws(Type exceptionType, Action testCode)
     parameters:
@@ -92,7 +96,7 @@ items:
   source:
     id: Throws
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 61
+    startLine: 73
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -100,7 +104,11 @@ items:
     Verifies that the exact exception is thrown (and not a derived exception type).
 
     Generally used to test property accessors.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static Exception Throws(Type exceptionType, Func<object?> testCode)
     parameters:
@@ -132,12 +140,16 @@ items:
   source:
     id: Throws
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 86
+    startLine: 104
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the exact exception is thrown (and not a derived exception type).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static T Throws<T>(Action testCode) where T : Exception'
     parameters:
@@ -169,7 +181,7 @@ items:
   source:
     id: Throws
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 100
+    startLine: 124
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -177,7 +189,11 @@ items:
     Verifies that the exact exception is thrown (and not a derived exception type).
 
     Generally used to test property accessors.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static T Throws<T>(Func<object?> testCode) where T : Exception'
     parameters:
@@ -209,7 +225,7 @@ items:
   source:
     id: Throws
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 125
+    startLine: 155
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -217,7 +233,11 @@ items:
     Verifies that the exact exception is thrown (and not a derived exception type), where the exception
 
     derives from <xref href="System.ArgumentException" data-throw-if-not-resolved="false"></xref> and has the given parameter name.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static T Throws<T>(string? paramName, Action testCode) where T : ArgumentException'
     parameters:
@@ -251,7 +271,7 @@ items:
   source:
     id: Throws
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 149
+    startLine: 185
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -259,7 +279,11 @@ items:
     Verifies that the exact exception is thrown (and not a derived exception type), where the exception
 
     derives from <xref href="System.ArgumentException" data-throw-if-not-resolved="false"></xref> and has the given parameter name.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static T Throws<T>(string? paramName, Func<object?> testCode) where T : ArgumentException'
     parameters:
@@ -293,12 +317,16 @@ items:
   source:
     id: ThrowsAny
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 207
+    startLine: 249
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the exact exception or a derived exception type is thrown.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static T ThrowsAny<T>(Action testCode) where T : Exception'
     parameters:
@@ -330,7 +358,7 @@ items:
   source:
     id: ThrowsAny
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 219
+    startLine: 267
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -338,7 +366,11 @@ items:
     Verifies that the exact exception or a derived exception type is thrown.
 
     Generally used to test property accessors.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static T ThrowsAny<T>(Func<object?> testCode) where T : Exception'
     parameters:
@@ -370,12 +402,16 @@ items:
   source:
     id: ThrowsAnyAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 241
+    startLine: 295
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the exact exception or a derived exception type is thrown.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static Task<T> ThrowsAnyAsync<T>(Func<Task> testCode) where T : Exception'
     parameters:
@@ -407,12 +443,16 @@ items:
   source:
     id: ThrowsAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 251
+    startLine: 311
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the exact exception is thrown (and not a derived exception type).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static Task<Exception> ThrowsAsync(Type exceptionType, Func<Task> testCode)
     parameters:
@@ -444,12 +484,16 @@ items:
   source:
     id: ThrowsAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 262
+    startLine: 328
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that the exact exception is thrown (and not a derived exception type).
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static Task<T> ThrowsAsync<T>(Func<Task> testCode) where T : Exception'
     parameters:
@@ -481,7 +525,7 @@ items:
   source:
     id: ThrowsAsync
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\ExceptionAsserts.cs
-    startLine: 275
+    startLine: 347
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -489,7 +533,11 @@ items:
     Verifies that the exact exception is thrown (and not a derived exception type), where the exception
 
     derives from <xref href="System.ArgumentException" data-throw-if-not-resolved="false"></xref> and has the given parameter name.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static Task<T> ThrowsAsync<T>(string? paramName, Func<Task> testCode) where T : ArgumentException'
     parameters:

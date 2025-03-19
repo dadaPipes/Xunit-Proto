@@ -58,12 +58,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 31
+    startLine: 37
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory contains a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(Memory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -98,12 +102,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 43
+    startLine: 55
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory contains a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(Memory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -138,12 +146,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 55
+    startLine: 73
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory contains a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(ReadOnlyMemory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -178,12 +190,16 @@ items:
   source:
     id: Contains
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 67
+    startLine: 91
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory contains a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Contains<T>(ReadOnlyMemory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -218,12 +234,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 87
+    startLine: 117
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory does not contain a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(Memory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -258,12 +278,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 99
+    startLine: 135
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory does not contain a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(Memory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -298,12 +322,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 111
+    startLine: 153
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory does not contain a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(ReadOnlyMemory<T> expectedSubMemory, Memory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -338,12 +366,16 @@ items:
   source:
     id: DoesNotContain
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 123
+    startLine: 171
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a Memory does not contain a given sub-Memory
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void DoesNotContain<T>(ReadOnlyMemory<T> expectedSubMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -378,12 +410,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 149
+    startLine: 203
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two Memory values are equivalent.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(Memory<T> expectedMemory, Memory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -418,12 +454,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 161
+    startLine: 221
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two Memory values are equivalent.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(Memory<T> expectedMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -458,12 +498,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 173
+    startLine: 239
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two Memory values are equivalent.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(ReadOnlyMemory<T> expectedMemory, Memory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -498,12 +542,16 @@ items:
   source:
     id: Equal
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MemoryAsserts.cs
-    startLine: 185
+    startLine: 257
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that two Memory values are equivalent.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void Equal<T>(ReadOnlyMemory<T> expectedMemory, ReadOnlyMemory<T> actualMemory) where T : IEquatable<T>'
     parameters:
@@ -770,6 +818,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.ContainsException
   commentId: T:Xunit.Sdk.ContainsException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.ContainsException.html
   name: ContainsException
   nameWithType: ContainsException
   fullName: Xunit.Sdk.ContainsException
@@ -808,6 +858,28 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: System.Memory`1
   commentId: T:System.Memory`1
   isExternal: true
@@ -895,6 +967,8 @@ references:
   - name: )
 - uid: Xunit.Sdk.DoesNotContainException
   commentId: T:Xunit.Sdk.DoesNotContainException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.DoesNotContainException.html
   name: DoesNotContainException
   nameWithType: DoesNotContainException
   fullName: Xunit.Sdk.DoesNotContainException
@@ -906,6 +980,8 @@ references:
   fullName: Asserts.MemoryAsserts.DoesNotContain
 - uid: Xunit.Sdk.EqualException
   commentId: T:Xunit.Sdk.EqualException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.EqualException.html
   name: EqualException
   nameWithType: EqualException
   fullName: Xunit.Sdk.EqualException

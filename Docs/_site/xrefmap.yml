@@ -20416,10 +20416,32 @@ references:
   nameWithType.vb: TestStartingInfo.New
 - uid: Xunit.Sdk
   name: Xunit.Sdk
-  href: v3/2.0.0/common/Xunit.Sdk.html
+  href: v3/2.0.0/assert/Xunit.Sdk.html
   commentId: N:Xunit.Sdk
   fullName: Xunit.Sdk
   nameWithType: Xunit.Sdk
+- uid: Xunit.Sdk.AllException
+  name: AllException
+  href: v3/2.0.0/assert/Xunit.Sdk.AllException.html
+  commentId: T:Xunit.Sdk.AllException
+  fullName: Xunit.Sdk.AllException
+  nameWithType: AllException
+- uid: Xunit.Sdk.AllException.ForFailures(System.Int32,System.Collections.Generic.IReadOnlyList{System.Tuple{System.Int32,System.String,System.Exception}})
+  name: ForFailures(int, IReadOnlyList<Tuple<int, string, Exception>>)
+  href: v3/2.0.0/assert/Xunit.Sdk.AllException.html#Xunit_Sdk_AllException_ForFailures_System_Int32_System_Collections_Generic_IReadOnlyList_System_Tuple_System_Int32_System_String_System_Exception___
+  commentId: M:Xunit.Sdk.AllException.ForFailures(System.Int32,System.Collections.Generic.IReadOnlyList{System.Tuple{System.Int32,System.String,System.Exception}})
+  name.vb: ForFailures(Integer, IReadOnlyList(Of Tuple(Of Integer, String, Exception)))
+  fullName: Xunit.Sdk.AllException.ForFailures(int, System.Collections.Generic.IReadOnlyList<System.Tuple<int, string, System.Exception>>)
+  fullName.vb: Xunit.Sdk.AllException.ForFailures(Integer, System.Collections.Generic.IReadOnlyList(Of System.Tuple(Of Integer, String, System.Exception)))
+  nameWithType: AllException.ForFailures(int, IReadOnlyList<Tuple<int, string, Exception>>)
+  nameWithType.vb: AllException.ForFailures(Integer, IReadOnlyList(Of Tuple(Of Integer, String, Exception)))
+- uid: Xunit.Sdk.AllException.ForFailures*
+  name: ForFailures
+  href: v3/2.0.0/assert/Xunit.Sdk.AllException.html#Xunit_Sdk_AllException_ForFailures_
+  commentId: Overload:Xunit.Sdk.AllException.ForFailures
+  isSpec: "True"
+  fullName: Xunit.Sdk.AllException.ForFailures
+  nameWithType: AllException.ForFailures
 - uid: Xunit.Sdk.AnsiUtility
   name: AnsiUtility
   href: v3/2.0.0/common/Xunit.Sdk.AnsiUtility.html
@@ -20455,6 +20477,339 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.AnsiUtility.RemoveAnsiEscapeCodes
   nameWithType: AnsiUtility.RemoveAnsiEscapeCodes
+- uid: Xunit.Sdk.ArgumentFormatter
+  name: ArgumentFormatter
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html
+  commentId: T:Xunit.Sdk.ArgumentFormatter
+  fullName: Xunit.Sdk.ArgumentFormatter
+  nameWithType: ArgumentFormatter
+- uid: Xunit.Sdk.ArgumentFormatter.Ellipsis
+  name: Ellipsis
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_Ellipsis
+  commentId: P:Xunit.Sdk.ArgumentFormatter.Ellipsis
+  fullName: Xunit.Sdk.ArgumentFormatter.Ellipsis
+  nameWithType: ArgumentFormatter.Ellipsis
+- uid: Xunit.Sdk.ArgumentFormatter.Ellipsis*
+  name: Ellipsis
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_Ellipsis_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.Ellipsis
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.Ellipsis
+  nameWithType: ArgumentFormatter.Ellipsis
+- uid: Xunit.Sdk.ArgumentFormatter.EscapeString(System.String)
+  name: EscapeString(string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_EscapeString_System_String_
+  commentId: M:Xunit.Sdk.ArgumentFormatter.EscapeString(System.String)
+  name.vb: EscapeString(String)
+  fullName: Xunit.Sdk.ArgumentFormatter.EscapeString(string)
+  fullName.vb: Xunit.Sdk.ArgumentFormatter.EscapeString(String)
+  nameWithType: ArgumentFormatter.EscapeString(string)
+  nameWithType.vb: ArgumentFormatter.EscapeString(String)
+- uid: Xunit.Sdk.ArgumentFormatter.EscapeString*
+  name: EscapeString
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_EscapeString_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.EscapeString
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.EscapeString
+  nameWithType: ArgumentFormatter.EscapeString
+- uid: Xunit.Sdk.ArgumentFormatter.Format(System.Object,System.Int32)
+  name: Format(object?, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_Format_System_Object_System_Int32_
+  commentId: M:Xunit.Sdk.ArgumentFormatter.Format(System.Object,System.Int32)
+  name.vb: Format(Object, Integer)
+  fullName: Xunit.Sdk.ArgumentFormatter.Format(object?, int)
+  fullName.vb: Xunit.Sdk.ArgumentFormatter.Format(Object, Integer)
+  nameWithType: ArgumentFormatter.Format(object?, int)
+  nameWithType.vb: ArgumentFormatter.Format(Object, Integer)
+- uid: Xunit.Sdk.ArgumentFormatter.Format*
+  name: Format
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_Format_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.Format
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.Format
+  nameWithType: ArgumentFormatter.Format
+- uid: Xunit.Sdk.ArgumentFormatter.FormatTypeName(System.Type,System.Boolean)
+  name: FormatTypeName(Type, bool)
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_FormatTypeName_System_Type_System_Boolean_
+  commentId: M:Xunit.Sdk.ArgumentFormatter.FormatTypeName(System.Type,System.Boolean)
+  name.vb: FormatTypeName(Type, Boolean)
+  fullName: Xunit.Sdk.ArgumentFormatter.FormatTypeName(System.Type, bool)
+  fullName.vb: Xunit.Sdk.ArgumentFormatter.FormatTypeName(System.Type, Boolean)
+  nameWithType: ArgumentFormatter.FormatTypeName(Type, bool)
+  nameWithType.vb: ArgumentFormatter.FormatTypeName(Type, Boolean)
+- uid: Xunit.Sdk.ArgumentFormatter.FormatTypeName*
+  name: FormatTypeName
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_FormatTypeName_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.FormatTypeName
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.FormatTypeName
+  nameWithType: ArgumentFormatter.FormatTypeName
+- uid: Xunit.Sdk.ArgumentFormatter.MaxEnumerableLength
+  name: MaxEnumerableLength
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxEnumerableLength
+  commentId: P:Xunit.Sdk.ArgumentFormatter.MaxEnumerableLength
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxEnumerableLength
+  nameWithType: ArgumentFormatter.MaxEnumerableLength
+- uid: Xunit.Sdk.ArgumentFormatter.MaxEnumerableLength*
+  name: MaxEnumerableLength
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxEnumerableLength_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.MaxEnumerableLength
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxEnumerableLength
+  nameWithType: ArgumentFormatter.MaxEnumerableLength
+- uid: Xunit.Sdk.ArgumentFormatter.MaxObjectDepth
+  name: MaxObjectDepth
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxObjectDepth
+  commentId: P:Xunit.Sdk.ArgumentFormatter.MaxObjectDepth
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxObjectDepth
+  nameWithType: ArgumentFormatter.MaxObjectDepth
+- uid: Xunit.Sdk.ArgumentFormatter.MaxObjectDepth*
+  name: MaxObjectDepth
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxObjectDepth_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.MaxObjectDepth
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxObjectDepth
+  nameWithType: ArgumentFormatter.MaxObjectDepth
+- uid: Xunit.Sdk.ArgumentFormatter.MaxObjectMemberCount
+  name: MaxObjectMemberCount
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxObjectMemberCount
+  commentId: P:Xunit.Sdk.ArgumentFormatter.MaxObjectMemberCount
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxObjectMemberCount
+  nameWithType: ArgumentFormatter.MaxObjectMemberCount
+- uid: Xunit.Sdk.ArgumentFormatter.MaxObjectMemberCount*
+  name: MaxObjectMemberCount
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxObjectMemberCount_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.MaxObjectMemberCount
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxObjectMemberCount
+  nameWithType: ArgumentFormatter.MaxObjectMemberCount
+- uid: Xunit.Sdk.ArgumentFormatter.MaxStringLength
+  name: MaxStringLength
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxStringLength
+  commentId: P:Xunit.Sdk.ArgumentFormatter.MaxStringLength
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxStringLength
+  nameWithType: ArgumentFormatter.MaxStringLength
+- uid: Xunit.Sdk.ArgumentFormatter.MaxStringLength*
+  name: MaxStringLength
+  href: v3/2.0.0/assert/Xunit.Sdk.ArgumentFormatter.html#Xunit_Sdk_ArgumentFormatter_MaxStringLength_
+  commentId: Overload:Xunit.Sdk.ArgumentFormatter.MaxStringLength
+  isSpec: "True"
+  fullName: Xunit.Sdk.ArgumentFormatter.MaxStringLength
+  nameWithType: ArgumentFormatter.MaxStringLength
+- uid: Xunit.Sdk.AssertEqualityResult
+  name: AssertEqualityResult
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html
+  commentId: T:Xunit.Sdk.AssertEqualityResult
+  fullName: Xunit.Sdk.AssertEqualityResult
+  nameWithType: AssertEqualityResult
+- uid: Xunit.Sdk.AssertEqualityResult.Equal
+  name: Equal
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Equal
+  commentId: P:Xunit.Sdk.AssertEqualityResult.Equal
+  fullName: Xunit.Sdk.AssertEqualityResult.Equal
+  nameWithType: AssertEqualityResult.Equal
+- uid: Xunit.Sdk.AssertEqualityResult.Equal*
+  name: Equal
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Equal_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.Equal
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.Equal
+  nameWithType: AssertEqualityResult.Equal
+- uid: Xunit.Sdk.AssertEqualityResult.Equals(System.Object)
+  name: Equals(object?)
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Equals_System_Object_
+  commentId: M:Xunit.Sdk.AssertEqualityResult.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Xunit.Sdk.AssertEqualityResult.Equals(object?)
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.Equals(Object)
+  nameWithType: AssertEqualityResult.Equals(object?)
+  nameWithType.vb: AssertEqualityResult.Equals(Object)
+- uid: Xunit.Sdk.AssertEqualityResult.Equals(Xunit.Sdk.AssertEqualityResult)
+  name: Equals(AssertEqualityResult?)
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Equals_Xunit_Sdk_AssertEqualityResult_
+  commentId: M:Xunit.Sdk.AssertEqualityResult.Equals(Xunit.Sdk.AssertEqualityResult)
+  name.vb: Equals(AssertEqualityResult)
+  fullName: Xunit.Sdk.AssertEqualityResult.Equals(Xunit.Sdk.AssertEqualityResult?)
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.Equals(Xunit.Sdk.AssertEqualityResult)
+  nameWithType: AssertEqualityResult.Equals(AssertEqualityResult?)
+  nameWithType.vb: AssertEqualityResult.Equals(AssertEqualityResult)
+- uid: Xunit.Sdk.AssertEqualityResult.Equals*
+  name: Equals
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Equals_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.Equals
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.Equals
+  nameWithType: AssertEqualityResult.Equals
+- uid: Xunit.Sdk.AssertEqualityResult.Exception
+  name: Exception
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Exception
+  commentId: P:Xunit.Sdk.AssertEqualityResult.Exception
+  fullName: Xunit.Sdk.AssertEqualityResult.Exception
+  nameWithType: AssertEqualityResult.Exception
+- uid: Xunit.Sdk.AssertEqualityResult.Exception*
+  name: Exception
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Exception_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.Exception
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.Exception
+  nameWithType: AssertEqualityResult.Exception
+- uid: Xunit.Sdk.AssertEqualityResult.ForMismatch(System.Object,System.Object,System.Int32,System.Exception,Xunit.Sdk.AssertEqualityResult)
+  name: ForMismatch(object?, object?, int, Exception?, AssertEqualityResult?)
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_ForMismatch_System_Object_System_Object_System_Int32_System_Exception_Xunit_Sdk_AssertEqualityResult_
+  commentId: M:Xunit.Sdk.AssertEqualityResult.ForMismatch(System.Object,System.Object,System.Int32,System.Exception,Xunit.Sdk.AssertEqualityResult)
+  name.vb: ForMismatch(Object, Object, Integer, Exception, AssertEqualityResult)
+  fullName: Xunit.Sdk.AssertEqualityResult.ForMismatch(object?, object?, int, System.Exception?, Xunit.Sdk.AssertEqualityResult?)
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.ForMismatch(Object, Object, Integer, System.Exception, Xunit.Sdk.AssertEqualityResult)
+  nameWithType: AssertEqualityResult.ForMismatch(object?, object?, int, Exception?, AssertEqualityResult?)
+  nameWithType.vb: AssertEqualityResult.ForMismatch(Object, Object, Integer, Exception, AssertEqualityResult)
+- uid: Xunit.Sdk.AssertEqualityResult.ForMismatch(System.Object,System.Object,System.Int32,System.Int32,System.Exception,Xunit.Sdk.AssertEqualityResult)
+  name: ForMismatch(object?, object?, int, int, Exception?, AssertEqualityResult?)
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_ForMismatch_System_Object_System_Object_System_Int32_System_Int32_System_Exception_Xunit_Sdk_AssertEqualityResult_
+  commentId: M:Xunit.Sdk.AssertEqualityResult.ForMismatch(System.Object,System.Object,System.Int32,System.Int32,System.Exception,Xunit.Sdk.AssertEqualityResult)
+  name.vb: ForMismatch(Object, Object, Integer, Integer, Exception, AssertEqualityResult)
+  fullName: Xunit.Sdk.AssertEqualityResult.ForMismatch(object?, object?, int, int, System.Exception?, Xunit.Sdk.AssertEqualityResult?)
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.ForMismatch(Object, Object, Integer, Integer, System.Exception, Xunit.Sdk.AssertEqualityResult)
+  nameWithType: AssertEqualityResult.ForMismatch(object?, object?, int, int, Exception?, AssertEqualityResult?)
+  nameWithType.vb: AssertEqualityResult.ForMismatch(Object, Object, Integer, Integer, Exception, AssertEqualityResult)
+- uid: Xunit.Sdk.AssertEqualityResult.ForMismatch*
+  name: ForMismatch
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_ForMismatch_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.ForMismatch
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.ForMismatch
+  nameWithType: AssertEqualityResult.ForMismatch
+- uid: Xunit.Sdk.AssertEqualityResult.ForResult(System.Boolean,System.Object,System.Object,System.Exception,Xunit.Sdk.AssertEqualityResult)
+  name: ForResult(bool, object?, object?, Exception?, AssertEqualityResult?)
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_ForResult_System_Boolean_System_Object_System_Object_System_Exception_Xunit_Sdk_AssertEqualityResult_
+  commentId: M:Xunit.Sdk.AssertEqualityResult.ForResult(System.Boolean,System.Object,System.Object,System.Exception,Xunit.Sdk.AssertEqualityResult)
+  name.vb: ForResult(Boolean, Object, Object, Exception, AssertEqualityResult)
+  fullName: Xunit.Sdk.AssertEqualityResult.ForResult(bool, object?, object?, System.Exception?, Xunit.Sdk.AssertEqualityResult?)
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.ForResult(Boolean, Object, Object, System.Exception, Xunit.Sdk.AssertEqualityResult)
+  nameWithType: AssertEqualityResult.ForResult(bool, object?, object?, Exception?, AssertEqualityResult?)
+  nameWithType.vb: AssertEqualityResult.ForResult(Boolean, Object, Object, Exception, AssertEqualityResult)
+- uid: Xunit.Sdk.AssertEqualityResult.ForResult*
+  name: ForResult
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_ForResult_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.ForResult
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.ForResult
+  nameWithType: AssertEqualityResult.ForResult
+- uid: Xunit.Sdk.AssertEqualityResult.GetHashCode
+  name: GetHashCode()
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_GetHashCode
+  commentId: M:Xunit.Sdk.AssertEqualityResult.GetHashCode
+  fullName: Xunit.Sdk.AssertEqualityResult.GetHashCode()
+  nameWithType: AssertEqualityResult.GetHashCode()
+- uid: Xunit.Sdk.AssertEqualityResult.GetHashCode*
+  name: GetHashCode
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_GetHashCode_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.GetHashCode
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.GetHashCode
+  nameWithType: AssertEqualityResult.GetHashCode
+- uid: Xunit.Sdk.AssertEqualityResult.InnerResult
+  name: InnerResult
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_InnerResult
+  commentId: P:Xunit.Sdk.AssertEqualityResult.InnerResult
+  fullName: Xunit.Sdk.AssertEqualityResult.InnerResult
+  nameWithType: AssertEqualityResult.InnerResult
+- uid: Xunit.Sdk.AssertEqualityResult.InnerResult*
+  name: InnerResult
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_InnerResult_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.InnerResult
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.InnerResult
+  nameWithType: AssertEqualityResult.InnerResult
+- uid: Xunit.Sdk.AssertEqualityResult.MismatchIndexX
+  name: MismatchIndexX
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_MismatchIndexX
+  commentId: P:Xunit.Sdk.AssertEqualityResult.MismatchIndexX
+  fullName: Xunit.Sdk.AssertEqualityResult.MismatchIndexX
+  nameWithType: AssertEqualityResult.MismatchIndexX
+- uid: Xunit.Sdk.AssertEqualityResult.MismatchIndexX*
+  name: MismatchIndexX
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_MismatchIndexX_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.MismatchIndexX
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.MismatchIndexX
+  nameWithType: AssertEqualityResult.MismatchIndexX
+- uid: Xunit.Sdk.AssertEqualityResult.MismatchIndexY
+  name: MismatchIndexY
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_MismatchIndexY
+  commentId: P:Xunit.Sdk.AssertEqualityResult.MismatchIndexY
+  fullName: Xunit.Sdk.AssertEqualityResult.MismatchIndexY
+  nameWithType: AssertEqualityResult.MismatchIndexY
+- uid: Xunit.Sdk.AssertEqualityResult.MismatchIndexY*
+  name: MismatchIndexY
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_MismatchIndexY_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.MismatchIndexY
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.MismatchIndexY
+  nameWithType: AssertEqualityResult.MismatchIndexY
+- uid: Xunit.Sdk.AssertEqualityResult.X
+  name: X
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_X
+  commentId: P:Xunit.Sdk.AssertEqualityResult.X
+  fullName: Xunit.Sdk.AssertEqualityResult.X
+  nameWithType: AssertEqualityResult.X
+- uid: Xunit.Sdk.AssertEqualityResult.X*
+  name: X
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_X_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.X
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.X
+  nameWithType: AssertEqualityResult.X
+- uid: Xunit.Sdk.AssertEqualityResult.Y
+  name: Y
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Y
+  commentId: P:Xunit.Sdk.AssertEqualityResult.Y
+  fullName: Xunit.Sdk.AssertEqualityResult.Y
+  nameWithType: AssertEqualityResult.Y
+- uid: Xunit.Sdk.AssertEqualityResult.Y*
+  name: Y
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_Y_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.Y
+  isSpec: "True"
+  fullName: Xunit.Sdk.AssertEqualityResult.Y
+  nameWithType: AssertEqualityResult.Y
+- uid: Xunit.Sdk.AssertEqualityResult.op_Equality(Xunit.Sdk.AssertEqualityResult,Xunit.Sdk.AssertEqualityResult)
+  name: operator ==(AssertEqualityResult?, AssertEqualityResult?)
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_op_Equality_Xunit_Sdk_AssertEqualityResult_Xunit_Sdk_AssertEqualityResult_
+  commentId: M:Xunit.Sdk.AssertEqualityResult.op_Equality(Xunit.Sdk.AssertEqualityResult,Xunit.Sdk.AssertEqualityResult)
+  name.vb: =(AssertEqualityResult, AssertEqualityResult)
+  fullName: Xunit.Sdk.AssertEqualityResult.operator ==(Xunit.Sdk.AssertEqualityResult?, Xunit.Sdk.AssertEqualityResult?)
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.=(Xunit.Sdk.AssertEqualityResult, Xunit.Sdk.AssertEqualityResult)
+  nameWithType: AssertEqualityResult.operator ==(AssertEqualityResult?, AssertEqualityResult?)
+  nameWithType.vb: AssertEqualityResult.=(AssertEqualityResult, AssertEqualityResult)
+- uid: Xunit.Sdk.AssertEqualityResult.op_Equality*
+  name: operator ==
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_op_Equality_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Xunit.Sdk.AssertEqualityResult.operator ==
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.=
+  nameWithType: AssertEqualityResult.operator ==
+  nameWithType.vb: AssertEqualityResult.=
+- uid: Xunit.Sdk.AssertEqualityResult.op_Inequality(Xunit.Sdk.AssertEqualityResult,Xunit.Sdk.AssertEqualityResult)
+  name: operator !=(AssertEqualityResult?, AssertEqualityResult?)
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_op_Inequality_Xunit_Sdk_AssertEqualityResult_Xunit_Sdk_AssertEqualityResult_
+  commentId: M:Xunit.Sdk.AssertEqualityResult.op_Inequality(Xunit.Sdk.AssertEqualityResult,Xunit.Sdk.AssertEqualityResult)
+  name.vb: <>(AssertEqualityResult, AssertEqualityResult)
+  fullName: Xunit.Sdk.AssertEqualityResult.operator !=(Xunit.Sdk.AssertEqualityResult?, Xunit.Sdk.AssertEqualityResult?)
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.<>(Xunit.Sdk.AssertEqualityResult, Xunit.Sdk.AssertEqualityResult)
+  nameWithType: AssertEqualityResult.operator !=(AssertEqualityResult?, AssertEqualityResult?)
+  nameWithType.vb: AssertEqualityResult.<>(AssertEqualityResult, AssertEqualityResult)
+- uid: Xunit.Sdk.AssertEqualityResult.op_Inequality*
+  name: operator !=
+  href: v3/2.0.0/assert/Xunit.Sdk.AssertEqualityResult.html#Xunit_Sdk_AssertEqualityResult_op_Inequality_
+  commentId: Overload:Xunit.Sdk.AssertEqualityResult.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Xunit.Sdk.AssertEqualityResult.operator !=
+  fullName.vb: Xunit.Sdk.AssertEqualityResult.<>
+  nameWithType: AssertEqualityResult.operator !=
+  nameWithType.vb: AssertEqualityResult.<>
 - uid: Xunit.Sdk.AsyncUtility
   name: AsyncUtility
   href: v3/2.0.0/common/Xunit.Sdk.AsyncUtility.html
@@ -20503,6 +20858,585 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.AsyncUtility.TryConvertToValueTask
   nameWithType: AsyncUtility.TryConvertToValueTask
+- uid: Xunit.Sdk.CollectionException
+  name: CollectionException
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionException.html
+  commentId: T:Xunit.Sdk.CollectionException
+  fullName: Xunit.Sdk.CollectionException
+  nameWithType: CollectionException
+- uid: Xunit.Sdk.CollectionException.ForMismatchedItem(System.Exception,System.Int32,System.Nullable{System.Int32},System.String)
+  name: ForMismatchedItem(Exception, int, int?, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionException.html#Xunit_Sdk_CollectionException_ForMismatchedItem_System_Exception_System_Int32_System_Nullable_System_Int32__System_String_
+  commentId: M:Xunit.Sdk.CollectionException.ForMismatchedItem(System.Exception,System.Int32,System.Nullable{System.Int32},System.String)
+  name.vb: ForMismatchedItem(Exception, Integer, Integer?, String)
+  fullName: Xunit.Sdk.CollectionException.ForMismatchedItem(System.Exception, int, int?, string)
+  fullName.vb: Xunit.Sdk.CollectionException.ForMismatchedItem(System.Exception, Integer, Integer?, String)
+  nameWithType: CollectionException.ForMismatchedItem(Exception, int, int?, string)
+  nameWithType.vb: CollectionException.ForMismatchedItem(Exception, Integer, Integer?, String)
+- uid: Xunit.Sdk.CollectionException.ForMismatchedItem*
+  name: ForMismatchedItem
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionException.html#Xunit_Sdk_CollectionException_ForMismatchedItem_
+  commentId: Overload:Xunit.Sdk.CollectionException.ForMismatchedItem
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionException.ForMismatchedItem
+  nameWithType: CollectionException.ForMismatchedItem
+- uid: Xunit.Sdk.CollectionException.ForMismatchedItemCount(System.Int32,System.Int32,System.String)
+  name: ForMismatchedItemCount(int, int, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionException.html#Xunit_Sdk_CollectionException_ForMismatchedItemCount_System_Int32_System_Int32_System_String_
+  commentId: M:Xunit.Sdk.CollectionException.ForMismatchedItemCount(System.Int32,System.Int32,System.String)
+  name.vb: ForMismatchedItemCount(Integer, Integer, String)
+  fullName: Xunit.Sdk.CollectionException.ForMismatchedItemCount(int, int, string)
+  fullName.vb: Xunit.Sdk.CollectionException.ForMismatchedItemCount(Integer, Integer, String)
+  nameWithType: CollectionException.ForMismatchedItemCount(int, int, string)
+  nameWithType.vb: CollectionException.ForMismatchedItemCount(Integer, Integer, String)
+- uid: Xunit.Sdk.CollectionException.ForMismatchedItemCount*
+  name: ForMismatchedItemCount
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionException.html#Xunit_Sdk_CollectionException_ForMismatchedItemCount_
+  commentId: Overload:Xunit.Sdk.CollectionException.ForMismatchedItemCount
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionException.ForMismatchedItemCount
+  nameWithType: CollectionException.ForMismatchedItemCount
+- uid: Xunit.Sdk.CollectionTracker
+  name: CollectionTracker
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html
+  commentId: T:Xunit.Sdk.CollectionTracker
+  fullName: Xunit.Sdk.CollectionTracker
+  nameWithType: CollectionTracker
+- uid: Xunit.Sdk.CollectionTracker.#ctor(System.Collections.IEnumerable)
+  name: CollectionTracker(IEnumerable)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker__ctor_System_Collections_IEnumerable_
+  commentId: M:Xunit.Sdk.CollectionTracker.#ctor(System.Collections.IEnumerable)
+  name.vb: New(IEnumerable)
+  fullName: Xunit.Sdk.CollectionTracker.CollectionTracker(System.Collections.IEnumerable)
+  fullName.vb: Xunit.Sdk.CollectionTracker.New(System.Collections.IEnumerable)
+  nameWithType: CollectionTracker.CollectionTracker(IEnumerable)
+  nameWithType.vb: CollectionTracker.New(IEnumerable)
+- uid: Xunit.Sdk.CollectionTracker.#ctor*
+  name: CollectionTracker
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker__ctor_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Xunit.Sdk.CollectionTracker.CollectionTracker
+  fullName.vb: Xunit.Sdk.CollectionTracker.New
+  nameWithType: CollectionTracker.CollectionTracker
+  nameWithType.vb: CollectionTracker.New
+- uid: Xunit.Sdk.CollectionTracker.AreCollectionsEqual(Xunit.Sdk.CollectionTracker,Xunit.Sdk.CollectionTracker,System.Collections.IEqualityComparer,System.Boolean)
+  name: AreCollectionsEqual(CollectionTracker?, CollectionTracker?, IEqualityComparer, bool)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_AreCollectionsEqual_Xunit_Sdk_CollectionTracker_Xunit_Sdk_CollectionTracker_System_Collections_IEqualityComparer_System_Boolean_
+  commentId: M:Xunit.Sdk.CollectionTracker.AreCollectionsEqual(Xunit.Sdk.CollectionTracker,Xunit.Sdk.CollectionTracker,System.Collections.IEqualityComparer,System.Boolean)
+  name.vb: AreCollectionsEqual(CollectionTracker, CollectionTracker, IEqualityComparer, Boolean)
+  fullName: Xunit.Sdk.CollectionTracker.AreCollectionsEqual(Xunit.Sdk.CollectionTracker?, Xunit.Sdk.CollectionTracker?, System.Collections.IEqualityComparer, bool)
+  fullName.vb: Xunit.Sdk.CollectionTracker.AreCollectionsEqual(Xunit.Sdk.CollectionTracker, Xunit.Sdk.CollectionTracker, System.Collections.IEqualityComparer, Boolean)
+  nameWithType: CollectionTracker.AreCollectionsEqual(CollectionTracker?, CollectionTracker?, IEqualityComparer, bool)
+  nameWithType.vb: CollectionTracker.AreCollectionsEqual(CollectionTracker, CollectionTracker, IEqualityComparer, Boolean)
+- uid: Xunit.Sdk.CollectionTracker.AreCollectionsEqual*
+  name: AreCollectionsEqual
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_AreCollectionsEqual_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.AreCollectionsEqual
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.AreCollectionsEqual
+  nameWithType: CollectionTracker.AreCollectionsEqual
+- uid: Xunit.Sdk.CollectionTracker.Dispose
+  name: Dispose()
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose
+  commentId: M:Xunit.Sdk.CollectionTracker.Dispose
+  fullName: Xunit.Sdk.CollectionTracker.Dispose()
+  nameWithType: CollectionTracker.Dispose()
+- uid: Xunit.Sdk.CollectionTracker.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose_System_Boolean_
+  commentId: M:Xunit.Sdk.CollectionTracker.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Xunit.Sdk.CollectionTracker.Dispose(bool)
+  fullName.vb: Xunit.Sdk.CollectionTracker.Dispose(Boolean)
+  nameWithType: CollectionTracker.Dispose(bool)
+  nameWithType.vb: CollectionTracker.Dispose(Boolean)
+- uid: Xunit.Sdk.CollectionTracker.Dispose*
+  name: Dispose
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Dispose_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.Dispose
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.Dispose
+  nameWithType: CollectionTracker.Dispose
+- uid: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name: FormatIndexedMismatch(int, int, int?, out int?, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatIndexedMismatch_System_Int32_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name.vb: FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)
+  fullName: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(int, int, int?, out int?, int)
+  fullName.vb: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)
+  nameWithType: CollectionTracker.FormatIndexedMismatch(int, int, int?, out int?, int)
+  nameWithType.vb: CollectionTracker.FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)
+- uid: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name: FormatIndexedMismatch(int?, out int?, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatIndexedMismatch_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name.vb: FormatIndexedMismatch(Integer?, Integer?, Integer)
+  fullName: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(int?, out int?, int)
+  fullName.vb: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch(Integer?, Integer?, Integer)
+  nameWithType: CollectionTracker.FormatIndexedMismatch(int?, out int?, int)
+  nameWithType.vb: CollectionTracker.FormatIndexedMismatch(Integer?, Integer?, Integer)
+- uid: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch*
+  name: FormatIndexedMismatch
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatIndexedMismatch_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.FormatIndexedMismatch
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.FormatIndexedMismatch
+  nameWithType: CollectionTracker.FormatIndexedMismatch
+- uid: Xunit.Sdk.CollectionTracker.FormatStart(System.Int32)
+  name: FormatStart(int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatStart_System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker.FormatStart(System.Int32)
+  name.vb: FormatStart(Integer)
+  fullName: Xunit.Sdk.CollectionTracker.FormatStart(int)
+  fullName.vb: Xunit.Sdk.CollectionTracker.FormatStart(Integer)
+  nameWithType: CollectionTracker.FormatStart(int)
+  nameWithType.vb: CollectionTracker.FormatStart(Integer)
+- uid: Xunit.Sdk.CollectionTracker.FormatStart*
+  name: FormatStart
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_FormatStart_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.FormatStart
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.FormatStart
+  nameWithType: CollectionTracker.FormatStart
+- uid: Xunit.Sdk.CollectionTracker.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)
+  name: GetMismatchExtents(int?, out int, out int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetMismatchExtents_System_Nullable_System_Int32__System_Int32__System_Int32__
+  commentId: M:Xunit.Sdk.CollectionTracker.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)
+  name.vb: GetMismatchExtents(Integer?, Integer, Integer)
+  fullName: Xunit.Sdk.CollectionTracker.GetMismatchExtents(int?, out int, out int)
+  fullName.vb: Xunit.Sdk.CollectionTracker.GetMismatchExtents(Integer?, Integer, Integer)
+  nameWithType: CollectionTracker.GetMismatchExtents(int?, out int, out int)
+  nameWithType.vb: CollectionTracker.GetMismatchExtents(Integer?, Integer, Integer)
+- uid: Xunit.Sdk.CollectionTracker.GetMismatchExtents*
+  name: GetMismatchExtents
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetMismatchExtents_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.GetMismatchExtents
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.GetMismatchExtents
+  nameWithType: CollectionTracker.GetMismatchExtents
+- uid: Xunit.Sdk.CollectionTracker.GetSafeEnumerator
+  name: GetSafeEnumerator()
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetSafeEnumerator
+  commentId: M:Xunit.Sdk.CollectionTracker.GetSafeEnumerator
+  fullName: Xunit.Sdk.CollectionTracker.GetSafeEnumerator()
+  nameWithType: CollectionTracker.GetSafeEnumerator()
+- uid: Xunit.Sdk.CollectionTracker.GetSafeEnumerator*
+  name: GetSafeEnumerator
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_GetSafeEnumerator_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.GetSafeEnumerator
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.GetSafeEnumerator
+  nameWithType: CollectionTracker.GetSafeEnumerator
+- uid: Xunit.Sdk.CollectionTracker.InnerEnumerable
+  name: InnerEnumerable
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_InnerEnumerable
+  commentId: P:Xunit.Sdk.CollectionTracker.InnerEnumerable
+  fullName: Xunit.Sdk.CollectionTracker.InnerEnumerable
+  nameWithType: CollectionTracker.InnerEnumerable
+- uid: Xunit.Sdk.CollectionTracker.InnerEnumerable*
+  name: InnerEnumerable
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_InnerEnumerable_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.InnerEnumerable
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.InnerEnumerable
+  nameWithType: CollectionTracker.InnerEnumerable
+- uid: Xunit.Sdk.CollectionTracker.TypeAt(System.Nullable{System.Int32})
+  name: TypeAt(int?)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_TypeAt_System_Nullable_System_Int32__
+  commentId: M:Xunit.Sdk.CollectionTracker.TypeAt(System.Nullable{System.Int32})
+  name.vb: TypeAt(Integer?)
+  fullName: Xunit.Sdk.CollectionTracker.TypeAt(int?)
+  fullName.vb: Xunit.Sdk.CollectionTracker.TypeAt(Integer?)
+  nameWithType: CollectionTracker.TypeAt(int?)
+  nameWithType.vb: CollectionTracker.TypeAt(Integer?)
+- uid: Xunit.Sdk.CollectionTracker.TypeAt*
+  name: TypeAt
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_TypeAt_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.TypeAt
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.TypeAt
+  nameWithType: CollectionTracker.TypeAt
+- uid: Xunit.Sdk.CollectionTracker.Wrap(System.Collections.IEnumerable)
+  name: Wrap(IEnumerable)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Wrap_System_Collections_IEnumerable_
+  commentId: M:Xunit.Sdk.CollectionTracker.Wrap(System.Collections.IEnumerable)
+  fullName: Xunit.Sdk.CollectionTracker.Wrap(System.Collections.IEnumerable)
+  nameWithType: CollectionTracker.Wrap(IEnumerable)
+- uid: Xunit.Sdk.CollectionTracker.Wrap*
+  name: Wrap
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker.html#Xunit_Sdk_CollectionTracker_Wrap_
+  commentId: Overload:Xunit.Sdk.CollectionTracker.Wrap
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker.Wrap
+  nameWithType: CollectionTracker.Wrap
+- uid: Xunit.Sdk.CollectionTrackerExtensions
+  name: CollectionTrackerExtensions
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.html
+  commentId: T:Xunit.Sdk.CollectionTrackerExtensions
+  fullName: Xunit.Sdk.CollectionTrackerExtensions
+  nameWithType: CollectionTrackerExtensions
+- uid: Xunit.Sdk.CollectionTrackerExtensions.AsTracker(System.Collections.IEnumerable)
+  name: AsTracker(IEnumerable?)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker_System_Collections_IEnumerable_
+  commentId: M:Xunit.Sdk.CollectionTrackerExtensions.AsTracker(System.Collections.IEnumerable)
+  name.vb: AsTracker(IEnumerable)
+  fullName: Xunit.Sdk.CollectionTrackerExtensions.AsTracker(System.Collections.IEnumerable?)
+  fullName.vb: Xunit.Sdk.CollectionTrackerExtensions.AsTracker(System.Collections.IEnumerable)
+  nameWithType: CollectionTrackerExtensions.AsTracker(IEnumerable?)
+  nameWithType.vb: CollectionTrackerExtensions.AsTracker(IEnumerable)
+- uid: Xunit.Sdk.CollectionTrackerExtensions.AsTracker*
+  name: AsTracker
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker_
+  commentId: Overload:Xunit.Sdk.CollectionTrackerExtensions.AsTracker
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTrackerExtensions.AsTracker
+  nameWithType: CollectionTrackerExtensions.AsTracker
+- uid: Xunit.Sdk.CollectionTrackerExtensions.AsTracker``1(System.Collections.Generic.IEnumerable{``0})
+  name: AsTracker<T>(IEnumerable<T>?)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_AsTracker__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Xunit.Sdk.CollectionTrackerExtensions.AsTracker``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: AsTracker(Of T)(IEnumerable(Of T))
+  fullName: Xunit.Sdk.CollectionTrackerExtensions.AsTracker<T>(System.Collections.Generic.IEnumerable<T>?)
+  fullName.vb: Xunit.Sdk.CollectionTrackerExtensions.AsTracker(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CollectionTrackerExtensions.AsTracker<T>(IEnumerable<T>?)
+  nameWithType.vb: CollectionTrackerExtensions.AsTracker(Of T)(IEnumerable(Of T))
+- uid: Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator(Xunit.Sdk.CollectionTracker)
+  name: GetEnumerator(CollectionTracker)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_GetEnumerator_Xunit_Sdk_CollectionTracker_
+  commentId: M:Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator(Xunit.Sdk.CollectionTracker)
+  fullName: Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator(Xunit.Sdk.CollectionTracker)
+  nameWithType: CollectionTrackerExtensions.GetEnumerator(CollectionTracker)
+- uid: Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator*
+  name: GetEnumerator
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTrackerExtensions.html#Xunit_Sdk_CollectionTrackerExtensions_GetEnumerator_
+  commentId: Overload:Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTrackerExtensions.GetEnumerator
+  nameWithType: CollectionTrackerExtensions.GetEnumerator
+- uid: Xunit.Sdk.CollectionTracker`1
+  name: CollectionTracker<T>
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html
+  commentId: T:Xunit.Sdk.CollectionTracker`1
+  name.vb: CollectionTracker(Of T)
+  fullName: Xunit.Sdk.CollectionTracker<T>
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T)
+  nameWithType: CollectionTracker<T>
+  nameWithType.vb: CollectionTracker(Of T)
+- uid: Xunit.Sdk.CollectionTracker`1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_Dispose_System_Boolean_
+  commentId: M:Xunit.Sdk.CollectionTracker`1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Xunit.Sdk.CollectionTracker<T>.Dispose(bool)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).Dispose(Boolean)
+  nameWithType: CollectionTracker<T>.Dispose(bool)
+  nameWithType.vb: CollectionTracker(Of T).Dispose(Boolean)
+- uid: Xunit.Sdk.CollectionTracker`1.Dispose*
+  name: Dispose
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_Dispose_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.Dispose
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.Dispose
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).Dispose
+  nameWithType: CollectionTracker<T>.Dispose
+  nameWithType.vb: CollectionTracker(Of T).Dispose
+- uid: Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name: FormatIndexedMismatch(int, int, int?, out int?, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatIndexedMismatch_System_Int32_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name.vb: FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch(int, int, int?, out int?, int)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)
+  nameWithType: CollectionTracker<T>.FormatIndexedMismatch(int, int, int?, out int?, int)
+  nameWithType.vb: CollectionTracker(Of T).FormatIndexedMismatch(Integer, Integer, Integer?, Integer?, Integer)
+- uid: Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name: FormatIndexedMismatch(int?, out int?, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatIndexedMismatch_System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name.vb: FormatIndexedMismatch(Integer?, Integer?, Integer)
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch(int?, out int?, int)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch(Integer?, Integer?, Integer)
+  nameWithType: CollectionTracker<T>.FormatIndexedMismatch(int?, out int?, int)
+  nameWithType.vb: CollectionTracker(Of T).FormatIndexedMismatch(Integer?, Integer?, Integer)
+- uid: Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.ReadOnlySpan{`0},System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name: FormatIndexedMismatch(ReadOnlySpan<T>, int?, out int?, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatIndexedMismatch_System_ReadOnlySpan__0__System_Nullable_System_Int32__System_Nullable_System_Int32___System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch(System.ReadOnlySpan{`0},System.Nullable{System.Int32},System.Nullable{System.Int32}@,System.Int32)
+  name.vb: FormatIndexedMismatch(ReadOnlySpan(Of T), Integer?, Integer?, Integer)
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch(System.ReadOnlySpan<T>, int?, out int?, int)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch(System.ReadOnlySpan(Of T), Integer?, Integer?, Integer)
+  nameWithType: CollectionTracker<T>.FormatIndexedMismatch(ReadOnlySpan<T>, int?, out int?, int)
+  nameWithType.vb: CollectionTracker(Of T).FormatIndexedMismatch(ReadOnlySpan(Of T), Integer?, Integer?, Integer)
+- uid: Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch*
+  name: FormatIndexedMismatch
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatIndexedMismatch_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.FormatIndexedMismatch
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatIndexedMismatch
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatIndexedMismatch
+  nameWithType: CollectionTracker<T>.FormatIndexedMismatch
+  nameWithType.vb: CollectionTracker(Of T).FormatIndexedMismatch
+- uid: Xunit.Sdk.CollectionTracker`1.FormatStart(System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name: FormatStart(IEnumerable<T>, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatStart_System_Collections_Generic_IEnumerable__0__System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker`1.FormatStart(System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name.vb: FormatStart(IEnumerable(Of T), Integer)
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatStart(System.Collections.Generic.IEnumerable<T>, int)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatStart(System.Collections.Generic.IEnumerable(Of T), Integer)
+  nameWithType: CollectionTracker<T>.FormatStart(IEnumerable<T>, int)
+  nameWithType.vb: CollectionTracker(Of T).FormatStart(IEnumerable(Of T), Integer)
+- uid: Xunit.Sdk.CollectionTracker`1.FormatStart(System.Int32)
+  name: FormatStart(int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatStart_System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker`1.FormatStart(System.Int32)
+  name.vb: FormatStart(Integer)
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatStart(int)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatStart(Integer)
+  nameWithType: CollectionTracker<T>.FormatStart(int)
+  nameWithType.vb: CollectionTracker(Of T).FormatStart(Integer)
+- uid: Xunit.Sdk.CollectionTracker`1.FormatStart(System.ReadOnlySpan{`0},System.Int32)
+  name: FormatStart(ReadOnlySpan<T>, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatStart_System_ReadOnlySpan__0__System_Int32_
+  commentId: M:Xunit.Sdk.CollectionTracker`1.FormatStart(System.ReadOnlySpan{`0},System.Int32)
+  name.vb: FormatStart(ReadOnlySpan(Of T), Integer)
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatStart(System.ReadOnlySpan<T>, int)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatStart(System.ReadOnlySpan(Of T), Integer)
+  nameWithType: CollectionTracker<T>.FormatStart(ReadOnlySpan<T>, int)
+  nameWithType.vb: CollectionTracker(Of T).FormatStart(ReadOnlySpan(Of T), Integer)
+- uid: Xunit.Sdk.CollectionTracker`1.FormatStart*
+  name: FormatStart
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_FormatStart_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.FormatStart
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.FormatStart
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).FormatStart
+  nameWithType: CollectionTracker<T>.FormatStart
+  nameWithType.vb: CollectionTracker(Of T).FormatStart
+- uid: Xunit.Sdk.CollectionTracker`1.GetEnumerator
+  name: GetEnumerator()
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_GetEnumerator
+  commentId: M:Xunit.Sdk.CollectionTracker`1.GetEnumerator
+  fullName: Xunit.Sdk.CollectionTracker<T>.GetEnumerator()
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).GetEnumerator()
+  nameWithType: CollectionTracker<T>.GetEnumerator()
+  nameWithType.vb: CollectionTracker(Of T).GetEnumerator()
+- uid: Xunit.Sdk.CollectionTracker`1.GetEnumerator*
+  name: GetEnumerator
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_GetEnumerator_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.GetEnumerator
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.GetEnumerator
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).GetEnumerator
+  nameWithType: CollectionTracker<T>.GetEnumerator
+  nameWithType.vb: CollectionTracker(Of T).GetEnumerator
+- uid: Xunit.Sdk.CollectionTracker`1.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)
+  name: GetMismatchExtents(int?, out int, out int)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_GetMismatchExtents_System_Nullable_System_Int32__System_Int32__System_Int32__
+  commentId: M:Xunit.Sdk.CollectionTracker`1.GetMismatchExtents(System.Nullable{System.Int32},System.Int32@,System.Int32@)
+  name.vb: GetMismatchExtents(Integer?, Integer, Integer)
+  fullName: Xunit.Sdk.CollectionTracker<T>.GetMismatchExtents(int?, out int, out int)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).GetMismatchExtents(Integer?, Integer, Integer)
+  nameWithType: CollectionTracker<T>.GetMismatchExtents(int?, out int, out int)
+  nameWithType.vb: CollectionTracker(Of T).GetMismatchExtents(Integer?, Integer, Integer)
+- uid: Xunit.Sdk.CollectionTracker`1.GetMismatchExtents*
+  name: GetMismatchExtents
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_GetMismatchExtents_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.GetMismatchExtents
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.GetMismatchExtents
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).GetMismatchExtents
+  nameWithType: CollectionTracker<T>.GetMismatchExtents
+  nameWithType.vb: CollectionTracker(Of T).GetMismatchExtents
+- uid: Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator
+  name: GetSafeEnumerator()
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_GetSafeEnumerator
+  commentId: M:Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator
+  fullName: Xunit.Sdk.CollectionTracker<T>.GetSafeEnumerator()
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).GetSafeEnumerator()
+  nameWithType: CollectionTracker<T>.GetSafeEnumerator()
+  nameWithType.vb: CollectionTracker(Of T).GetSafeEnumerator()
+- uid: Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator*
+  name: GetSafeEnumerator
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_GetSafeEnumerator_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.GetSafeEnumerator
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.GetSafeEnumerator
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).GetSafeEnumerator
+  nameWithType: CollectionTracker<T>.GetSafeEnumerator
+  nameWithType.vb: CollectionTracker(Of T).GetSafeEnumerator
+- uid: Xunit.Sdk.CollectionTracker`1.IterationCount
+  name: IterationCount
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_IterationCount
+  commentId: P:Xunit.Sdk.CollectionTracker`1.IterationCount
+  fullName: Xunit.Sdk.CollectionTracker<T>.IterationCount
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).IterationCount
+  nameWithType: CollectionTracker<T>.IterationCount
+  nameWithType.vb: CollectionTracker(Of T).IterationCount
+- uid: Xunit.Sdk.CollectionTracker`1.IterationCount*
+  name: IterationCount
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_IterationCount_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.IterationCount
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.IterationCount
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).IterationCount
+  nameWithType: CollectionTracker<T>.IterationCount
+  nameWithType.vb: CollectionTracker(Of T).IterationCount
+- uid: Xunit.Sdk.CollectionTracker`1.TypeAt(System.Nullable{System.Int32})
+  name: TypeAt(int?)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_TypeAt_System_Nullable_System_Int32__
+  commentId: M:Xunit.Sdk.CollectionTracker`1.TypeAt(System.Nullable{System.Int32})
+  name.vb: TypeAt(Integer?)
+  fullName: Xunit.Sdk.CollectionTracker<T>.TypeAt(int?)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).TypeAt(Integer?)
+  nameWithType: CollectionTracker<T>.TypeAt(int?)
+  nameWithType.vb: CollectionTracker(Of T).TypeAt(Integer?)
+- uid: Xunit.Sdk.CollectionTracker`1.TypeAt*
+  name: TypeAt
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_TypeAt_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.TypeAt
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.TypeAt
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).TypeAt
+  nameWithType: CollectionTracker<T>.TypeAt
+  nameWithType.vb: CollectionTracker(Of T).TypeAt
+- uid: Xunit.Sdk.CollectionTracker`1.Wrap(System.Collections.Generic.IEnumerable{`0})
+  name: Wrap(IEnumerable<T>)
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_Wrap_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Xunit.Sdk.CollectionTracker`1.Wrap(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Wrap(IEnumerable(Of T))
+  fullName: Xunit.Sdk.CollectionTracker<T>.Wrap(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).Wrap(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CollectionTracker<T>.Wrap(IEnumerable<T>)
+  nameWithType.vb: CollectionTracker(Of T).Wrap(IEnumerable(Of T))
+- uid: Xunit.Sdk.CollectionTracker`1.Wrap*
+  name: Wrap
+  href: v3/2.0.0/assert/Xunit.Sdk.CollectionTracker-1.html#Xunit_Sdk_CollectionTracker_1_Wrap_
+  commentId: Overload:Xunit.Sdk.CollectionTracker`1.Wrap
+  isSpec: "True"
+  fullName: Xunit.Sdk.CollectionTracker<T>.Wrap
+  fullName.vb: Xunit.Sdk.CollectionTracker(Of T).Wrap
+  nameWithType: CollectionTracker<T>.Wrap
+  nameWithType.vb: CollectionTracker(Of T).Wrap
+- uid: Xunit.Sdk.ContainsException
+  name: ContainsException
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html
+  commentId: T:Xunit.Sdk.ContainsException
+  fullName: Xunit.Sdk.ContainsException
+  nameWithType: ContainsException
+- uid: Xunit.Sdk.ContainsException.ForCollectionFilterNotMatched(System.String)
+  name: ForCollectionFilterNotMatched(string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForCollectionFilterNotMatched_System_String_
+  commentId: M:Xunit.Sdk.ContainsException.ForCollectionFilterNotMatched(System.String)
+  name.vb: ForCollectionFilterNotMatched(String)
+  fullName: Xunit.Sdk.ContainsException.ForCollectionFilterNotMatched(string)
+  fullName.vb: Xunit.Sdk.ContainsException.ForCollectionFilterNotMatched(String)
+  nameWithType: ContainsException.ForCollectionFilterNotMatched(string)
+  nameWithType.vb: ContainsException.ForCollectionFilterNotMatched(String)
+- uid: Xunit.Sdk.ContainsException.ForCollectionFilterNotMatched*
+  name: ForCollectionFilterNotMatched
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForCollectionFilterNotMatched_
+  commentId: Overload:Xunit.Sdk.ContainsException.ForCollectionFilterNotMatched
+  isSpec: "True"
+  fullName: Xunit.Sdk.ContainsException.ForCollectionFilterNotMatched
+  nameWithType: ContainsException.ForCollectionFilterNotMatched
+- uid: Xunit.Sdk.ContainsException.ForCollectionItemNotFound(System.String,System.String)
+  name: ForCollectionItemNotFound(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForCollectionItemNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.ContainsException.ForCollectionItemNotFound(System.String,System.String)
+  name.vb: ForCollectionItemNotFound(String, String)
+  fullName: Xunit.Sdk.ContainsException.ForCollectionItemNotFound(string, string)
+  fullName.vb: Xunit.Sdk.ContainsException.ForCollectionItemNotFound(String, String)
+  nameWithType: ContainsException.ForCollectionItemNotFound(string, string)
+  nameWithType.vb: ContainsException.ForCollectionItemNotFound(String, String)
+- uid: Xunit.Sdk.ContainsException.ForCollectionItemNotFound*
+  name: ForCollectionItemNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForCollectionItemNotFound_
+  commentId: Overload:Xunit.Sdk.ContainsException.ForCollectionItemNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.ContainsException.ForCollectionItemNotFound
+  nameWithType: ContainsException.ForCollectionItemNotFound
+- uid: Xunit.Sdk.ContainsException.ForKeyNotFound(System.String,System.String)
+  name: ForKeyNotFound(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForKeyNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.ContainsException.ForKeyNotFound(System.String,System.String)
+  name.vb: ForKeyNotFound(String, String)
+  fullName: Xunit.Sdk.ContainsException.ForKeyNotFound(string, string)
+  fullName.vb: Xunit.Sdk.ContainsException.ForKeyNotFound(String, String)
+  nameWithType: ContainsException.ForKeyNotFound(string, string)
+  nameWithType.vb: ContainsException.ForKeyNotFound(String, String)
+- uid: Xunit.Sdk.ContainsException.ForKeyNotFound*
+  name: ForKeyNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForKeyNotFound_
+  commentId: Overload:Xunit.Sdk.ContainsException.ForKeyNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.ContainsException.ForKeyNotFound
+  nameWithType: ContainsException.ForKeyNotFound
+- uid: Xunit.Sdk.ContainsException.ForSetItemNotFound(System.String,System.String)
+  name: ForSetItemNotFound(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSetItemNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.ContainsException.ForSetItemNotFound(System.String,System.String)
+  name.vb: ForSetItemNotFound(String, String)
+  fullName: Xunit.Sdk.ContainsException.ForSetItemNotFound(string, string)
+  fullName.vb: Xunit.Sdk.ContainsException.ForSetItemNotFound(String, String)
+  nameWithType: ContainsException.ForSetItemNotFound(string, string)
+  nameWithType.vb: ContainsException.ForSetItemNotFound(String, String)
+- uid: Xunit.Sdk.ContainsException.ForSetItemNotFound*
+  name: ForSetItemNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSetItemNotFound_
+  commentId: Overload:Xunit.Sdk.ContainsException.ForSetItemNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.ContainsException.ForSetItemNotFound
+  nameWithType: ContainsException.ForSetItemNotFound
+- uid: Xunit.Sdk.ContainsException.ForSubMemoryNotFound(System.String,System.String)
+  name: ForSubMemoryNotFound(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSubMemoryNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.ContainsException.ForSubMemoryNotFound(System.String,System.String)
+  name.vb: ForSubMemoryNotFound(String, String)
+  fullName: Xunit.Sdk.ContainsException.ForSubMemoryNotFound(string, string)
+  fullName.vb: Xunit.Sdk.ContainsException.ForSubMemoryNotFound(String, String)
+  nameWithType: ContainsException.ForSubMemoryNotFound(string, string)
+  nameWithType.vb: ContainsException.ForSubMemoryNotFound(String, String)
+- uid: Xunit.Sdk.ContainsException.ForSubMemoryNotFound*
+  name: ForSubMemoryNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSubMemoryNotFound_
+  commentId: Overload:Xunit.Sdk.ContainsException.ForSubMemoryNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.ContainsException.ForSubMemoryNotFound
+  nameWithType: ContainsException.ForSubMemoryNotFound
+- uid: Xunit.Sdk.ContainsException.ForSubSpanNotFound(System.String,System.String)
+  name: ForSubSpanNotFound(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSubSpanNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.ContainsException.ForSubSpanNotFound(System.String,System.String)
+  name.vb: ForSubSpanNotFound(String, String)
+  fullName: Xunit.Sdk.ContainsException.ForSubSpanNotFound(string, string)
+  fullName.vb: Xunit.Sdk.ContainsException.ForSubSpanNotFound(String, String)
+  nameWithType: ContainsException.ForSubSpanNotFound(string, string)
+  nameWithType.vb: ContainsException.ForSubSpanNotFound(String, String)
+- uid: Xunit.Sdk.ContainsException.ForSubSpanNotFound*
+  name: ForSubSpanNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSubSpanNotFound_
+  commentId: Overload:Xunit.Sdk.ContainsException.ForSubSpanNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.ContainsException.ForSubSpanNotFound
+  nameWithType: ContainsException.ForSubSpanNotFound
+- uid: Xunit.Sdk.ContainsException.ForSubStringNotFound(System.String,System.String)
+  name: ForSubStringNotFound(string, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSubStringNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.ContainsException.ForSubStringNotFound(System.String,System.String)
+  name.vb: ForSubStringNotFound(String, String)
+  fullName: Xunit.Sdk.ContainsException.ForSubStringNotFound(string, string?)
+  fullName.vb: Xunit.Sdk.ContainsException.ForSubStringNotFound(String, String)
+  nameWithType: ContainsException.ForSubStringNotFound(string, string?)
+  nameWithType.vb: ContainsException.ForSubStringNotFound(String, String)
+- uid: Xunit.Sdk.ContainsException.ForSubStringNotFound*
+  name: ForSubStringNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.ContainsException.html#Xunit_Sdk_ContainsException_ForSubStringNotFound_
+  commentId: Overload:Xunit.Sdk.ContainsException.ForSubStringNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.ContainsException.ForSubStringNotFound
+  nameWithType: ContainsException.ForSubStringNotFound
 - uid: Xunit.Sdk.DisposalTracker
   name: DisposalTracker
   href: v3/2.0.0/common/Xunit.Sdk.DisposalTracker.html
@@ -20609,6 +21543,464 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.DisposalTracker.TrackedObjects
   nameWithType: DisposalTracker.TrackedObjects
+- uid: Xunit.Sdk.DistinctException
+  name: DistinctException
+  href: v3/2.0.0/assert/Xunit.Sdk.DistinctException.html
+  commentId: T:Xunit.Sdk.DistinctException
+  fullName: Xunit.Sdk.DistinctException
+  nameWithType: DistinctException
+- uid: Xunit.Sdk.DistinctException.ForDuplicateItem(System.String,System.String)
+  name: ForDuplicateItem(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DistinctException.html#Xunit_Sdk_DistinctException_ForDuplicateItem_System_String_System_String_
+  commentId: M:Xunit.Sdk.DistinctException.ForDuplicateItem(System.String,System.String)
+  name.vb: ForDuplicateItem(String, String)
+  fullName: Xunit.Sdk.DistinctException.ForDuplicateItem(string, string)
+  fullName.vb: Xunit.Sdk.DistinctException.ForDuplicateItem(String, String)
+  nameWithType: DistinctException.ForDuplicateItem(string, string)
+  nameWithType.vb: DistinctException.ForDuplicateItem(String, String)
+- uid: Xunit.Sdk.DistinctException.ForDuplicateItem*
+  name: ForDuplicateItem
+  href: v3/2.0.0/assert/Xunit.Sdk.DistinctException.html#Xunit_Sdk_DistinctException_ForDuplicateItem_
+  commentId: Overload:Xunit.Sdk.DistinctException.ForDuplicateItem
+  isSpec: "True"
+  fullName: Xunit.Sdk.DistinctException.ForDuplicateItem
+  nameWithType: DistinctException.ForDuplicateItem
+- uid: Xunit.Sdk.DoesNotContainException
+  name: DoesNotContainException
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html
+  commentId: T:Xunit.Sdk.DoesNotContainException
+  fullName: Xunit.Sdk.DoesNotContainException
+  nameWithType: DoesNotContainException
+- uid: Xunit.Sdk.DoesNotContainException.ForCollectionFilterMatched(System.Int32,System.Nullable{System.Int32},System.String)
+  name: ForCollectionFilterMatched(int, int?, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForCollectionFilterMatched_System_Int32_System_Nullable_System_Int32__System_String_
+  commentId: M:Xunit.Sdk.DoesNotContainException.ForCollectionFilterMatched(System.Int32,System.Nullable{System.Int32},System.String)
+  name.vb: ForCollectionFilterMatched(Integer, Integer?, String)
+  fullName: Xunit.Sdk.DoesNotContainException.ForCollectionFilterMatched(int, int?, string)
+  fullName.vb: Xunit.Sdk.DoesNotContainException.ForCollectionFilterMatched(Integer, Integer?, String)
+  nameWithType: DoesNotContainException.ForCollectionFilterMatched(int, int?, string)
+  nameWithType.vb: DoesNotContainException.ForCollectionFilterMatched(Integer, Integer?, String)
+- uid: Xunit.Sdk.DoesNotContainException.ForCollectionFilterMatched*
+  name: ForCollectionFilterMatched
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForCollectionFilterMatched_
+  commentId: Overload:Xunit.Sdk.DoesNotContainException.ForCollectionFilterMatched
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotContainException.ForCollectionFilterMatched
+  nameWithType: DoesNotContainException.ForCollectionFilterMatched
+- uid: Xunit.Sdk.DoesNotContainException.ForCollectionItemFound(System.String,System.Int32,System.Nullable{System.Int32},System.String)
+  name: ForCollectionItemFound(string, int, int?, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForCollectionItemFound_System_String_System_Int32_System_Nullable_System_Int32__System_String_
+  commentId: M:Xunit.Sdk.DoesNotContainException.ForCollectionItemFound(System.String,System.Int32,System.Nullable{System.Int32},System.String)
+  name.vb: ForCollectionItemFound(String, Integer, Integer?, String)
+  fullName: Xunit.Sdk.DoesNotContainException.ForCollectionItemFound(string, int, int?, string)
+  fullName.vb: Xunit.Sdk.DoesNotContainException.ForCollectionItemFound(String, Integer, Integer?, String)
+  nameWithType: DoesNotContainException.ForCollectionItemFound(string, int, int?, string)
+  nameWithType.vb: DoesNotContainException.ForCollectionItemFound(String, Integer, Integer?, String)
+- uid: Xunit.Sdk.DoesNotContainException.ForCollectionItemFound*
+  name: ForCollectionItemFound
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForCollectionItemFound_
+  commentId: Overload:Xunit.Sdk.DoesNotContainException.ForCollectionItemFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotContainException.ForCollectionItemFound
+  nameWithType: DoesNotContainException.ForCollectionItemFound
+- uid: Xunit.Sdk.DoesNotContainException.ForKeyFound(System.String,System.String)
+  name: ForKeyFound(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForKeyFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.DoesNotContainException.ForKeyFound(System.String,System.String)
+  name.vb: ForKeyFound(String, String)
+  fullName: Xunit.Sdk.DoesNotContainException.ForKeyFound(string, string)
+  fullName.vb: Xunit.Sdk.DoesNotContainException.ForKeyFound(String, String)
+  nameWithType: DoesNotContainException.ForKeyFound(string, string)
+  nameWithType.vb: DoesNotContainException.ForKeyFound(String, String)
+- uid: Xunit.Sdk.DoesNotContainException.ForKeyFound*
+  name: ForKeyFound
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForKeyFound_
+  commentId: Overload:Xunit.Sdk.DoesNotContainException.ForKeyFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotContainException.ForKeyFound
+  nameWithType: DoesNotContainException.ForKeyFound
+- uid: Xunit.Sdk.DoesNotContainException.ForSetItemFound(System.String,System.String)
+  name: ForSetItemFound(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSetItemFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.DoesNotContainException.ForSetItemFound(System.String,System.String)
+  name.vb: ForSetItemFound(String, String)
+  fullName: Xunit.Sdk.DoesNotContainException.ForSetItemFound(string, string)
+  fullName.vb: Xunit.Sdk.DoesNotContainException.ForSetItemFound(String, String)
+  nameWithType: DoesNotContainException.ForSetItemFound(string, string)
+  nameWithType.vb: DoesNotContainException.ForSetItemFound(String, String)
+- uid: Xunit.Sdk.DoesNotContainException.ForSetItemFound*
+  name: ForSetItemFound
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSetItemFound_
+  commentId: Overload:Xunit.Sdk.DoesNotContainException.ForSetItemFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotContainException.ForSetItemFound
+  nameWithType: DoesNotContainException.ForSetItemFound
+- uid: Xunit.Sdk.DoesNotContainException.ForSubMemoryFound(System.String,System.Int32,System.Nullable{System.Int32},System.String)
+  name: ForSubMemoryFound(string, int, int?, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSubMemoryFound_System_String_System_Int32_System_Nullable_System_Int32__System_String_
+  commentId: M:Xunit.Sdk.DoesNotContainException.ForSubMemoryFound(System.String,System.Int32,System.Nullable{System.Int32},System.String)
+  name.vb: ForSubMemoryFound(String, Integer, Integer?, String)
+  fullName: Xunit.Sdk.DoesNotContainException.ForSubMemoryFound(string, int, int?, string)
+  fullName.vb: Xunit.Sdk.DoesNotContainException.ForSubMemoryFound(String, Integer, Integer?, String)
+  nameWithType: DoesNotContainException.ForSubMemoryFound(string, int, int?, string)
+  nameWithType.vb: DoesNotContainException.ForSubMemoryFound(String, Integer, Integer?, String)
+- uid: Xunit.Sdk.DoesNotContainException.ForSubMemoryFound*
+  name: ForSubMemoryFound
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSubMemoryFound_
+  commentId: Overload:Xunit.Sdk.DoesNotContainException.ForSubMemoryFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotContainException.ForSubMemoryFound
+  nameWithType: DoesNotContainException.ForSubMemoryFound
+- uid: Xunit.Sdk.DoesNotContainException.ForSubSpanFound(System.String,System.Int32,System.Nullable{System.Int32},System.String)
+  name: ForSubSpanFound(string, int, int?, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSubSpanFound_System_String_System_Int32_System_Nullable_System_Int32__System_String_
+  commentId: M:Xunit.Sdk.DoesNotContainException.ForSubSpanFound(System.String,System.Int32,System.Nullable{System.Int32},System.String)
+  name.vb: ForSubSpanFound(String, Integer, Integer?, String)
+  fullName: Xunit.Sdk.DoesNotContainException.ForSubSpanFound(string, int, int?, string)
+  fullName.vb: Xunit.Sdk.DoesNotContainException.ForSubSpanFound(String, Integer, Integer?, String)
+  nameWithType: DoesNotContainException.ForSubSpanFound(string, int, int?, string)
+  nameWithType.vb: DoesNotContainException.ForSubSpanFound(String, Integer, Integer?, String)
+- uid: Xunit.Sdk.DoesNotContainException.ForSubSpanFound*
+  name: ForSubSpanFound
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSubSpanFound_
+  commentId: Overload:Xunit.Sdk.DoesNotContainException.ForSubSpanFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotContainException.ForSubSpanFound
+  nameWithType: DoesNotContainException.ForSubSpanFound
+- uid: Xunit.Sdk.DoesNotContainException.ForSubStringFound(System.String,System.Int32,System.String)
+  name: ForSubStringFound(string, int, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSubStringFound_System_String_System_Int32_System_String_
+  commentId: M:Xunit.Sdk.DoesNotContainException.ForSubStringFound(System.String,System.Int32,System.String)
+  name.vb: ForSubStringFound(String, Integer, String)
+  fullName: Xunit.Sdk.DoesNotContainException.ForSubStringFound(string, int, string)
+  fullName.vb: Xunit.Sdk.DoesNotContainException.ForSubStringFound(String, Integer, String)
+  nameWithType: DoesNotContainException.ForSubStringFound(string, int, string)
+  nameWithType.vb: DoesNotContainException.ForSubStringFound(String, Integer, String)
+- uid: Xunit.Sdk.DoesNotContainException.ForSubStringFound*
+  name: ForSubStringFound
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotContainException.html#Xunit_Sdk_DoesNotContainException_ForSubStringFound_
+  commentId: Overload:Xunit.Sdk.DoesNotContainException.ForSubStringFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotContainException.ForSubStringFound
+  nameWithType: DoesNotContainException.ForSubStringFound
+- uid: Xunit.Sdk.DoesNotMatchException
+  name: DoesNotMatchException
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotMatchException.html
+  commentId: T:Xunit.Sdk.DoesNotMatchException
+  fullName: Xunit.Sdk.DoesNotMatchException
+  nameWithType: DoesNotMatchException
+- uid: Xunit.Sdk.DoesNotMatchException.ForMatch(System.String,System.Int32,System.Int32,System.String)
+  name: ForMatch(string, int, int, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotMatchException.html#Xunit_Sdk_DoesNotMatchException_ForMatch_System_String_System_Int32_System_Int32_System_String_
+  commentId: M:Xunit.Sdk.DoesNotMatchException.ForMatch(System.String,System.Int32,System.Int32,System.String)
+  name.vb: ForMatch(String, Integer, Integer, String)
+  fullName: Xunit.Sdk.DoesNotMatchException.ForMatch(string, int, int, string)
+  fullName.vb: Xunit.Sdk.DoesNotMatchException.ForMatch(String, Integer, Integer, String)
+  nameWithType: DoesNotMatchException.ForMatch(string, int, int, string)
+  nameWithType.vb: DoesNotMatchException.ForMatch(String, Integer, Integer, String)
+- uid: Xunit.Sdk.DoesNotMatchException.ForMatch*
+  name: ForMatch
+  href: v3/2.0.0/assert/Xunit.Sdk.DoesNotMatchException.html#Xunit_Sdk_DoesNotMatchException_ForMatch_
+  commentId: Overload:Xunit.Sdk.DoesNotMatchException.ForMatch
+  isSpec: "True"
+  fullName: Xunit.Sdk.DoesNotMatchException.ForMatch
+  nameWithType: DoesNotMatchException.ForMatch
+- uid: Xunit.Sdk.EmptyException
+  name: EmptyException
+  href: v3/2.0.0/assert/Xunit.Sdk.EmptyException.html
+  commentId: T:Xunit.Sdk.EmptyException
+  fullName: Xunit.Sdk.EmptyException
+  nameWithType: EmptyException
+- uid: Xunit.Sdk.EmptyException.ForNonEmptyCollection(System.String)
+  name: ForNonEmptyCollection(string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EmptyException.html#Xunit_Sdk_EmptyException_ForNonEmptyCollection_System_String_
+  commentId: M:Xunit.Sdk.EmptyException.ForNonEmptyCollection(System.String)
+  name.vb: ForNonEmptyCollection(String)
+  fullName: Xunit.Sdk.EmptyException.ForNonEmptyCollection(string)
+  fullName.vb: Xunit.Sdk.EmptyException.ForNonEmptyCollection(String)
+  nameWithType: EmptyException.ForNonEmptyCollection(string)
+  nameWithType.vb: EmptyException.ForNonEmptyCollection(String)
+- uid: Xunit.Sdk.EmptyException.ForNonEmptyCollection*
+  name: ForNonEmptyCollection
+  href: v3/2.0.0/assert/Xunit.Sdk.EmptyException.html#Xunit_Sdk_EmptyException_ForNonEmptyCollection_
+  commentId: Overload:Xunit.Sdk.EmptyException.ForNonEmptyCollection
+  isSpec: "True"
+  fullName: Xunit.Sdk.EmptyException.ForNonEmptyCollection
+  nameWithType: EmptyException.ForNonEmptyCollection
+- uid: Xunit.Sdk.EmptyException.ForNonEmptyString(System.String)
+  name: ForNonEmptyString(string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EmptyException.html#Xunit_Sdk_EmptyException_ForNonEmptyString_System_String_
+  commentId: M:Xunit.Sdk.EmptyException.ForNonEmptyString(System.String)
+  name.vb: ForNonEmptyString(String)
+  fullName: Xunit.Sdk.EmptyException.ForNonEmptyString(string)
+  fullName.vb: Xunit.Sdk.EmptyException.ForNonEmptyString(String)
+  nameWithType: EmptyException.ForNonEmptyString(string)
+  nameWithType.vb: EmptyException.ForNonEmptyString(String)
+- uid: Xunit.Sdk.EmptyException.ForNonEmptyString*
+  name: ForNonEmptyString
+  href: v3/2.0.0/assert/Xunit.Sdk.EmptyException.html#Xunit_Sdk_EmptyException_ForNonEmptyString_
+  commentId: Overload:Xunit.Sdk.EmptyException.ForNonEmptyString
+  isSpec: "True"
+  fullName: Xunit.Sdk.EmptyException.ForNonEmptyString
+  nameWithType: EmptyException.ForNonEmptyString
+- uid: Xunit.Sdk.EndsWithException
+  name: EndsWithException
+  href: v3/2.0.0/assert/Xunit.Sdk.EndsWithException.html
+  commentId: T:Xunit.Sdk.EndsWithException
+  fullName: Xunit.Sdk.EndsWithException
+  nameWithType: EndsWithException
+- uid: Xunit.Sdk.EndsWithException.ForStringNotFound(System.String,System.String)
+  name: ForStringNotFound(string?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.EndsWithException.html#Xunit_Sdk_EndsWithException_ForStringNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.EndsWithException.ForStringNotFound(System.String,System.String)
+  name.vb: ForStringNotFound(String, String)
+  fullName: Xunit.Sdk.EndsWithException.ForStringNotFound(string?, string?)
+  fullName.vb: Xunit.Sdk.EndsWithException.ForStringNotFound(String, String)
+  nameWithType: EndsWithException.ForStringNotFound(string?, string?)
+  nameWithType.vb: EndsWithException.ForStringNotFound(String, String)
+- uid: Xunit.Sdk.EndsWithException.ForStringNotFound*
+  name: ForStringNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.EndsWithException.html#Xunit_Sdk_EndsWithException_ForStringNotFound_
+  commentId: Overload:Xunit.Sdk.EndsWithException.ForStringNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.EndsWithException.ForStringNotFound
+  nameWithType: EndsWithException.ForStringNotFound
+- uid: Xunit.Sdk.EqualException
+  name: EqualException
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html
+  commentId: T:Xunit.Sdk.EqualException
+  fullName: Xunit.Sdk.EqualException
+  nameWithType: EqualException
+- uid: Xunit.Sdk.EqualException.ForMismatchedCollections(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.String,System.String)
+  name: ForMismatchedCollections(int?, string, int?, string?, string, int?, string?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedCollections_System_Nullable_System_Int32__System_String_System_Nullable_System_Int32__System_String_System_String_System_Nullable_System_Int32__System_String_System_String_
+  commentId: M:Xunit.Sdk.EqualException.ForMismatchedCollections(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.String,System.String)
+  name.vb: ForMismatchedCollections(Integer?, String, Integer?, String, String, Integer?, String, String)
+  fullName: Xunit.Sdk.EqualException.ForMismatchedCollections(int?, string, int?, string?, string, int?, string?, string?)
+  fullName.vb: Xunit.Sdk.EqualException.ForMismatchedCollections(Integer?, String, Integer?, String, String, Integer?, String, String)
+  nameWithType: EqualException.ForMismatchedCollections(int?, string, int?, string?, string, int?, string?, string?)
+  nameWithType.vb: EqualException.ForMismatchedCollections(Integer?, String, Integer?, String, String, Integer?, String, String)
+- uid: Xunit.Sdk.EqualException.ForMismatchedCollections*
+  name: ForMismatchedCollections
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedCollections_
+  commentId: Overload:Xunit.Sdk.EqualException.ForMismatchedCollections
+  isSpec: "True"
+  fullName: Xunit.Sdk.EqualException.ForMismatchedCollections
+  nameWithType: EqualException.ForMismatchedCollections
+- uid: Xunit.Sdk.EqualException.ForMismatchedCollectionsWithError(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.String,System.Exception,System.String)
+  name: ForMismatchedCollectionsWithError(int?, string, int?, string?, string, int?, string?, Exception?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedCollectionsWithError_System_Nullable_System_Int32__System_String_System_Nullable_System_Int32__System_String_System_String_System_Nullable_System_Int32__System_String_System_Exception_System_String_
+  commentId: M:Xunit.Sdk.EqualException.ForMismatchedCollectionsWithError(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.String,System.Exception,System.String)
+  name.vb: ForMismatchedCollectionsWithError(Integer?, String, Integer?, String, String, Integer?, String, Exception, String)
+  fullName: Xunit.Sdk.EqualException.ForMismatchedCollectionsWithError(int?, string, int?, string?, string, int?, string?, System.Exception?, string?)
+  fullName.vb: Xunit.Sdk.EqualException.ForMismatchedCollectionsWithError(Integer?, String, Integer?, String, String, Integer?, String, System.Exception, String)
+  nameWithType: EqualException.ForMismatchedCollectionsWithError(int?, string, int?, string?, string, int?, string?, Exception?, string?)
+  nameWithType.vb: EqualException.ForMismatchedCollectionsWithError(Integer?, String, Integer?, String, String, Integer?, String, Exception, String)
+- uid: Xunit.Sdk.EqualException.ForMismatchedCollectionsWithError*
+  name: ForMismatchedCollectionsWithError
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedCollectionsWithError_
+  commentId: Overload:Xunit.Sdk.EqualException.ForMismatchedCollectionsWithError
+  isSpec: "True"
+  fullName: Xunit.Sdk.EqualException.ForMismatchedCollectionsWithError
+  nameWithType: EqualException.ForMismatchedCollectionsWithError
+- uid: Xunit.Sdk.EqualException.ForMismatchedStrings(System.String,System.String,System.Int32,System.Int32)
+  name: ForMismatchedStrings(string?, string?, int, int)
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedStrings_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Xunit.Sdk.EqualException.ForMismatchedStrings(System.String,System.String,System.Int32,System.Int32)
+  name.vb: ForMismatchedStrings(String, String, Integer, Integer)
+  fullName: Xunit.Sdk.EqualException.ForMismatchedStrings(string?, string?, int, int)
+  fullName.vb: Xunit.Sdk.EqualException.ForMismatchedStrings(String, String, Integer, Integer)
+  nameWithType: EqualException.ForMismatchedStrings(string?, string?, int, int)
+  nameWithType.vb: EqualException.ForMismatchedStrings(String, String, Integer, Integer)
+- uid: Xunit.Sdk.EqualException.ForMismatchedStrings*
+  name: ForMismatchedStrings
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedStrings_
+  commentId: Overload:Xunit.Sdk.EqualException.ForMismatchedStrings
+  isSpec: "True"
+  fullName: Xunit.Sdk.EqualException.ForMismatchedStrings
+  nameWithType: EqualException.ForMismatchedStrings
+- uid: Xunit.Sdk.EqualException.ForMismatchedStringsWithHeader(System.String,System.String,System.Int32,System.Int32,System.String)
+  name: ForMismatchedStringsWithHeader(string?, string?, int, int, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedStringsWithHeader_System_String_System_String_System_Int32_System_Int32_System_String_
+  commentId: M:Xunit.Sdk.EqualException.ForMismatchedStringsWithHeader(System.String,System.String,System.Int32,System.Int32,System.String)
+  name.vb: ForMismatchedStringsWithHeader(String, String, Integer, Integer, String)
+  fullName: Xunit.Sdk.EqualException.ForMismatchedStringsWithHeader(string?, string?, int, int, string)
+  fullName.vb: Xunit.Sdk.EqualException.ForMismatchedStringsWithHeader(String, String, Integer, Integer, String)
+  nameWithType: EqualException.ForMismatchedStringsWithHeader(string?, string?, int, int, string)
+  nameWithType.vb: EqualException.ForMismatchedStringsWithHeader(String, String, Integer, Integer, String)
+- uid: Xunit.Sdk.EqualException.ForMismatchedStringsWithHeader*
+  name: ForMismatchedStringsWithHeader
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedStringsWithHeader_
+  commentId: Overload:Xunit.Sdk.EqualException.ForMismatchedStringsWithHeader
+  isSpec: "True"
+  fullName: Xunit.Sdk.EqualException.ForMismatchedStringsWithHeader
+  nameWithType: EqualException.ForMismatchedStringsWithHeader
+- uid: Xunit.Sdk.EqualException.ForMismatchedValues(System.Object,System.Object,System.String)
+  name: ForMismatchedValues(object?, object?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedValues_System_Object_System_Object_System_String_
+  commentId: M:Xunit.Sdk.EqualException.ForMismatchedValues(System.Object,System.Object,System.String)
+  name.vb: ForMismatchedValues(Object, Object, String)
+  fullName: Xunit.Sdk.EqualException.ForMismatchedValues(object?, object?, string?)
+  fullName.vb: Xunit.Sdk.EqualException.ForMismatchedValues(Object, Object, String)
+  nameWithType: EqualException.ForMismatchedValues(object?, object?, string?)
+  nameWithType.vb: EqualException.ForMismatchedValues(Object, Object, String)
+- uid: Xunit.Sdk.EqualException.ForMismatchedValues*
+  name: ForMismatchedValues
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedValues_
+  commentId: Overload:Xunit.Sdk.EqualException.ForMismatchedValues
+  isSpec: "True"
+  fullName: Xunit.Sdk.EqualException.ForMismatchedValues
+  nameWithType: EqualException.ForMismatchedValues
+- uid: Xunit.Sdk.EqualException.ForMismatchedValuesWithError(System.Object,System.Object,System.Exception,System.String)
+  name: ForMismatchedValuesWithError(object?, object?, Exception?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedValuesWithError_System_Object_System_Object_System_Exception_System_String_
+  commentId: M:Xunit.Sdk.EqualException.ForMismatchedValuesWithError(System.Object,System.Object,System.Exception,System.String)
+  name.vb: ForMismatchedValuesWithError(Object, Object, Exception, String)
+  fullName: Xunit.Sdk.EqualException.ForMismatchedValuesWithError(object?, object?, System.Exception?, string?)
+  fullName.vb: Xunit.Sdk.EqualException.ForMismatchedValuesWithError(Object, Object, System.Exception, String)
+  nameWithType: EqualException.ForMismatchedValuesWithError(object?, object?, Exception?, string?)
+  nameWithType.vb: EqualException.ForMismatchedValuesWithError(Object, Object, Exception, String)
+- uid: Xunit.Sdk.EqualException.ForMismatchedValuesWithError*
+  name: ForMismatchedValuesWithError
+  href: v3/2.0.0/assert/Xunit.Sdk.EqualException.html#Xunit_Sdk_EqualException_ForMismatchedValuesWithError_
+  commentId: Overload:Xunit.Sdk.EqualException.ForMismatchedValuesWithError
+  isSpec: "True"
+  fullName: Xunit.Sdk.EqualException.ForMismatchedValuesWithError
+  nameWithType: EqualException.ForMismatchedValuesWithError
+- uid: Xunit.Sdk.EquivalentException
+  name: EquivalentException
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html
+  commentId: T:Xunit.Sdk.EquivalentException
+  fullName: Xunit.Sdk.EquivalentException
+  nameWithType: EquivalentException
+- uid: Xunit.Sdk.EquivalentException.ForCircularReference(System.String)
+  name: ForCircularReference(string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForCircularReference_System_String_
+  commentId: M:Xunit.Sdk.EquivalentException.ForCircularReference(System.String)
+  name.vb: ForCircularReference(String)
+  fullName: Xunit.Sdk.EquivalentException.ForCircularReference(string)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForCircularReference(String)
+  nameWithType: EquivalentException.ForCircularReference(string)
+  nameWithType.vb: EquivalentException.ForCircularReference(String)
+- uid: Xunit.Sdk.EquivalentException.ForCircularReference*
+  name: ForCircularReference
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForCircularReference_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForCircularReference
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForCircularReference
+  nameWithType: EquivalentException.ForCircularReference
+- uid: Xunit.Sdk.EquivalentException.ForExceededDepth(System.Int32,System.String)
+  name: ForExceededDepth(int, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForExceededDepth_System_Int32_System_String_
+  commentId: M:Xunit.Sdk.EquivalentException.ForExceededDepth(System.Int32,System.String)
+  name.vb: ForExceededDepth(Integer, String)
+  fullName: Xunit.Sdk.EquivalentException.ForExceededDepth(int, string)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForExceededDepth(Integer, String)
+  nameWithType: EquivalentException.ForExceededDepth(int, string)
+  nameWithType.vb: EquivalentException.ForExceededDepth(Integer, String)
+- uid: Xunit.Sdk.EquivalentException.ForExceededDepth*
+  name: ForExceededDepth
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForExceededDepth_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForExceededDepth
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForExceededDepth
+  nameWithType: EquivalentException.ForExceededDepth
+- uid: Xunit.Sdk.EquivalentException.ForExtraCollectionValue(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Object},System.String)
+  name: ForExtraCollectionValue(IEnumerable<object?>, IEnumerable<object?>, IEnumerable<object?>, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForExtraCollectionValue_System_Collections_Generic_IEnumerable_System_Object__System_Collections_Generic_IEnumerable_System_Object__System_Collections_Generic_IEnumerable_System_Object__System_String_
+  commentId: M:Xunit.Sdk.EquivalentException.ForExtraCollectionValue(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Object},System.String)
+  name.vb: ForExtraCollectionValue(IEnumerable(Of Object), IEnumerable(Of Object), IEnumerable(Of Object), String)
+  fullName: Xunit.Sdk.EquivalentException.ForExtraCollectionValue(System.Collections.Generic.IEnumerable<object?>, System.Collections.Generic.IEnumerable<object?>, System.Collections.Generic.IEnumerable<object?>, string)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForExtraCollectionValue(System.Collections.Generic.IEnumerable(Of Object), System.Collections.Generic.IEnumerable(Of Object), System.Collections.Generic.IEnumerable(Of Object), String)
+  nameWithType: EquivalentException.ForExtraCollectionValue(IEnumerable<object?>, IEnumerable<object?>, IEnumerable<object?>, string)
+  nameWithType.vb: EquivalentException.ForExtraCollectionValue(IEnumerable(Of Object), IEnumerable(Of Object), IEnumerable(Of Object), String)
+- uid: Xunit.Sdk.EquivalentException.ForExtraCollectionValue*
+  name: ForExtraCollectionValue
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForExtraCollectionValue_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForExtraCollectionValue
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForExtraCollectionValue
+  nameWithType: EquivalentException.ForExtraCollectionValue
+- uid: Xunit.Sdk.EquivalentException.ForGroupingWithMismatchedValues(System.Object,System.Object,System.String)
+  name: ForGroupingWithMismatchedValues(object?, object?, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForGroupingWithMismatchedValues_System_Object_System_Object_System_String_
+  commentId: M:Xunit.Sdk.EquivalentException.ForGroupingWithMismatchedValues(System.Object,System.Object,System.String)
+  name.vb: ForGroupingWithMismatchedValues(Object, Object, String)
+  fullName: Xunit.Sdk.EquivalentException.ForGroupingWithMismatchedValues(object?, object?, string)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForGroupingWithMismatchedValues(Object, Object, String)
+  nameWithType: EquivalentException.ForGroupingWithMismatchedValues(object?, object?, string)
+  nameWithType.vb: EquivalentException.ForGroupingWithMismatchedValues(Object, Object, String)
+- uid: Xunit.Sdk.EquivalentException.ForGroupingWithMismatchedValues*
+  name: ForGroupingWithMismatchedValues
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForGroupingWithMismatchedValues_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForGroupingWithMismatchedValues
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForGroupingWithMismatchedValues
+  nameWithType: EquivalentException.ForGroupingWithMismatchedValues
+- uid: Xunit.Sdk.EquivalentException.ForMemberListMismatch(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)
+  name: ForMemberListMismatch(IEnumerable<string>, IEnumerable<string>, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMemberListMismatch_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_
+  commentId: M:Xunit.Sdk.EquivalentException.ForMemberListMismatch(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)
+  name.vb: ForMemberListMismatch(IEnumerable(Of String), IEnumerable(Of String), String)
+  fullName: Xunit.Sdk.EquivalentException.ForMemberListMismatch(System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<string>, string)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForMemberListMismatch(System.Collections.Generic.IEnumerable(Of String), System.Collections.Generic.IEnumerable(Of String), String)
+  nameWithType: EquivalentException.ForMemberListMismatch(IEnumerable<string>, IEnumerable<string>, string)
+  nameWithType.vb: EquivalentException.ForMemberListMismatch(IEnumerable(Of String), IEnumerable(Of String), String)
+- uid: Xunit.Sdk.EquivalentException.ForMemberListMismatch*
+  name: ForMemberListMismatch
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMemberListMismatch_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForMemberListMismatch
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForMemberListMismatch
+  nameWithType: EquivalentException.ForMemberListMismatch
+- uid: Xunit.Sdk.EquivalentException.ForMemberValueMismatch(System.Object,System.Object,System.String,System.Exception)
+  name: ForMemberValueMismatch(object?, object?, string, Exception?)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMemberValueMismatch_System_Object_System_Object_System_String_System_Exception_
+  commentId: M:Xunit.Sdk.EquivalentException.ForMemberValueMismatch(System.Object,System.Object,System.String,System.Exception)
+  name.vb: ForMemberValueMismatch(Object, Object, String, Exception)
+  fullName: Xunit.Sdk.EquivalentException.ForMemberValueMismatch(object?, object?, string, System.Exception?)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForMemberValueMismatch(Object, Object, String, System.Exception)
+  nameWithType: EquivalentException.ForMemberValueMismatch(object?, object?, string, Exception?)
+  nameWithType.vb: EquivalentException.ForMemberValueMismatch(Object, Object, String, Exception)
+- uid: Xunit.Sdk.EquivalentException.ForMemberValueMismatch*
+  name: ForMemberValueMismatch
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMemberValueMismatch_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForMemberValueMismatch
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForMemberValueMismatch
+  nameWithType: EquivalentException.ForMemberValueMismatch
+- uid: Xunit.Sdk.EquivalentException.ForMismatchedTypes(System.Type,System.Type,System.String)
+  name: ForMismatchedTypes(Type, Type, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMismatchedTypes_System_Type_System_Type_System_String_
+  commentId: M:Xunit.Sdk.EquivalentException.ForMismatchedTypes(System.Type,System.Type,System.String)
+  name.vb: ForMismatchedTypes(Type, Type, String)
+  fullName: Xunit.Sdk.EquivalentException.ForMismatchedTypes(System.Type, System.Type, string)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForMismatchedTypes(System.Type, System.Type, String)
+  nameWithType: EquivalentException.ForMismatchedTypes(Type, Type, string)
+  nameWithType.vb: EquivalentException.ForMismatchedTypes(Type, Type, String)
+- uid: Xunit.Sdk.EquivalentException.ForMismatchedTypes*
+  name: ForMismatchedTypes
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMismatchedTypes_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForMismatchedTypes
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForMismatchedTypes
+  nameWithType: EquivalentException.ForMismatchedTypes
+- uid: Xunit.Sdk.EquivalentException.ForMissingCollectionValue(System.Object,System.Collections.Generic.IEnumerable{System.Object},System.String)
+  name: ForMissingCollectionValue(object?, IEnumerable<object?>, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMissingCollectionValue_System_Object_System_Collections_Generic_IEnumerable_System_Object__System_String_
+  commentId: M:Xunit.Sdk.EquivalentException.ForMissingCollectionValue(System.Object,System.Collections.Generic.IEnumerable{System.Object},System.String)
+  name.vb: ForMissingCollectionValue(Object, IEnumerable(Of Object), String)
+  fullName: Xunit.Sdk.EquivalentException.ForMissingCollectionValue(object?, System.Collections.Generic.IEnumerable<object?>, string)
+  fullName.vb: Xunit.Sdk.EquivalentException.ForMissingCollectionValue(Object, System.Collections.Generic.IEnumerable(Of Object), String)
+  nameWithType: EquivalentException.ForMissingCollectionValue(object?, IEnumerable<object?>, string)
+  nameWithType.vb: EquivalentException.ForMissingCollectionValue(Object, IEnumerable(Of Object), String)
+- uid: Xunit.Sdk.EquivalentException.ForMissingCollectionValue*
+  name: ForMissingCollectionValue
+  href: v3/2.0.0/assert/Xunit.Sdk.EquivalentException.html#Xunit_Sdk_EquivalentException_ForMissingCollectionValue_
+  commentId: Overload:Xunit.Sdk.EquivalentException.ForMissingCollectionValue
+  isSpec: "True"
+  fullName: Xunit.Sdk.EquivalentException.ForMissingCollectionValue
+  nameWithType: EquivalentException.ForMissingCollectionValue
 - uid: Xunit.Sdk.ExceptionUtility
   name: ExceptionUtility
   href: v3/2.0.0/common/Xunit.Sdk.ExceptionUtility.html
@@ -20678,6 +22070,28 @@ references:
   commentId: F:Xunit.Sdk.ExplicitOption.Only
   fullName: Xunit.Sdk.ExplicitOption.Only
   nameWithType: ExplicitOption.Only
+- uid: Xunit.Sdk.FailException
+  name: FailException
+  href: v3/2.0.0/assert/Xunit.Sdk.FailException.html
+  commentId: T:Xunit.Sdk.FailException
+  fullName: Xunit.Sdk.FailException
+  nameWithType: FailException
+- uid: Xunit.Sdk.FailException.ForFailure(System.String)
+  name: ForFailure(string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.FailException.html#Xunit_Sdk_FailException_ForFailure_System_String_
+  commentId: M:Xunit.Sdk.FailException.ForFailure(System.String)
+  name.vb: ForFailure(String)
+  fullName: Xunit.Sdk.FailException.ForFailure(string?)
+  fullName.vb: Xunit.Sdk.FailException.ForFailure(String)
+  nameWithType: FailException.ForFailure(string?)
+  nameWithType.vb: FailException.ForFailure(String)
+- uid: Xunit.Sdk.FailException.ForFailure*
+  name: ForFailure
+  href: v3/2.0.0/assert/Xunit.Sdk.FailException.html#Xunit_Sdk_FailException_ForFailure_
+  commentId: Overload:Xunit.Sdk.FailException.ForFailure
+  isSpec: "True"
+  fullName: Xunit.Sdk.FailException.ForFailure
+  nameWithType: FailException.ForFailure
 - uid: Xunit.Sdk.FailureCause
   name: FailureCause
   href: v3/2.0.0/common/Xunit.Sdk.FailureCause.html
@@ -20714,6 +22128,28 @@ references:
   commentId: F:Xunit.Sdk.FailureCause.Unknown
   fullName: Xunit.Sdk.FailureCause.Unknown
   nameWithType: FailureCause.Unknown
+- uid: Xunit.Sdk.FalseException
+  name: FalseException
+  href: v3/2.0.0/assert/Xunit.Sdk.FalseException.html
+  commentId: T:Xunit.Sdk.FalseException
+  fullName: Xunit.Sdk.FalseException
+  nameWithType: FalseException
+- uid: Xunit.Sdk.FalseException.ForNonFalseValue(System.String,System.Nullable{System.Boolean})
+  name: ForNonFalseValue(string?, bool?)
+  href: v3/2.0.0/assert/Xunit.Sdk.FalseException.html#Xunit_Sdk_FalseException_ForNonFalseValue_System_String_System_Nullable_System_Boolean__
+  commentId: M:Xunit.Sdk.FalseException.ForNonFalseValue(System.String,System.Nullable{System.Boolean})
+  name.vb: ForNonFalseValue(String, Boolean?)
+  fullName: Xunit.Sdk.FalseException.ForNonFalseValue(string?, bool?)
+  fullName.vb: Xunit.Sdk.FalseException.ForNonFalseValue(String, Boolean?)
+  nameWithType: FalseException.ForNonFalseValue(string?, bool?)
+  nameWithType.vb: FalseException.ForNonFalseValue(String, Boolean?)
+- uid: Xunit.Sdk.FalseException.ForNonFalseValue*
+  name: ForNonFalseValue
+  href: v3/2.0.0/assert/Xunit.Sdk.FalseException.html#Xunit_Sdk_FalseException_ForNonFalseValue_
+  commentId: Overload:Xunit.Sdk.FalseException.ForNonFalseValue
+  isSpec: "True"
+  fullName: Xunit.Sdk.FalseException.ForNonFalseValue
+  nameWithType: FalseException.ForNonFalseValue
 - uid: Xunit.Sdk.IAfterTestFinished
   name: IAfterTestFinished
   href: v3/2.0.0/common/Xunit.Sdk.IAfterTestFinished.html
@@ -20842,6 +22278,61 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.IAssemblyMetadataExtensions.SimpleAssemblyName
   nameWithType: IAssemblyMetadataExtensions.SimpleAssemblyName
+- uid: Xunit.Sdk.IAssertEqualityComparerExtensions
+  name: IAssertEqualityComparerExtensions
+  href: v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparerExtensions.html
+  commentId: T:Xunit.Sdk.IAssertEqualityComparerExtensions
+  fullName: Xunit.Sdk.IAssertEqualityComparerExtensions
+  nameWithType: IAssertEqualityComparerExtensions
+- uid: Xunit.Sdk.IAssertEqualityComparerExtensions.Equals*
+  name: Equals
+  href: v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparerExtensions.html#Xunit_Sdk_IAssertEqualityComparerExtensions_Equals_
+  commentId: Overload:Xunit.Sdk.IAssertEqualityComparerExtensions.Equals
+  isSpec: "True"
+  fullName: Xunit.Sdk.IAssertEqualityComparerExtensions.Equals
+  nameWithType: IAssertEqualityComparerExtensions.Equals
+- uid: Xunit.Sdk.IAssertEqualityComparerExtensions.Equals``1(Xunit.Sdk.IAssertEqualityComparer{``0},``0,``0)
+  name: Equals<T>(IAssertEqualityComparer<T>, T?, T?)
+  href: v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparerExtensions.html#Xunit_Sdk_IAssertEqualityComparerExtensions_Equals__1_Xunit_Sdk_IAssertEqualityComparer___0____0___0_
+  commentId: M:Xunit.Sdk.IAssertEqualityComparerExtensions.Equals``1(Xunit.Sdk.IAssertEqualityComparer{``0},``0,``0)
+  name.vb: Equals(Of T)(IAssertEqualityComparer(Of T), T, T)
+  fullName: Xunit.Sdk.IAssertEqualityComparerExtensions.Equals<T>(Xunit.Sdk.IAssertEqualityComparer<T>, T?, T?)
+  fullName.vb: Xunit.Sdk.IAssertEqualityComparerExtensions.Equals(Of T)(Xunit.Sdk.IAssertEqualityComparer(Of T), T, T)
+  nameWithType: IAssertEqualityComparerExtensions.Equals<T>(IAssertEqualityComparer<T>, T?, T?)
+  nameWithType.vb: IAssertEqualityComparerExtensions.Equals(Of T)(IAssertEqualityComparer(Of T), T, T)
+- uid: Xunit.Sdk.IAssertEqualityComparer`1
+  name: IAssertEqualityComparer<T>
+  href: v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.html
+  commentId: T:Xunit.Sdk.IAssertEqualityComparer`1
+  name.vb: IAssertEqualityComparer(Of T)
+  fullName: Xunit.Sdk.IAssertEqualityComparer<T>
+  fullName.vb: Xunit.Sdk.IAssertEqualityComparer(Of T)
+  nameWithType: IAssertEqualityComparer<T>
+  nameWithType.vb: IAssertEqualityComparer(Of T)
+- uid: Xunit.Sdk.IAssertEqualityComparer`1.Equals(`0,Xunit.Sdk.CollectionTracker,`0,Xunit.Sdk.CollectionTracker)
+  name: Equals(T?, CollectionTracker?, T?, CollectionTracker?)
+  href: v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.html#Xunit_Sdk_IAssertEqualityComparer_1_Equals__0_Xunit_Sdk_CollectionTracker__0_Xunit_Sdk_CollectionTracker_
+  commentId: M:Xunit.Sdk.IAssertEqualityComparer`1.Equals(`0,Xunit.Sdk.CollectionTracker,`0,Xunit.Sdk.CollectionTracker)
+  name.vb: Equals(T, CollectionTracker, T, CollectionTracker)
+  fullName: Xunit.Sdk.IAssertEqualityComparer<T>.Equals(T?, Xunit.Sdk.CollectionTracker?, T?, Xunit.Sdk.CollectionTracker?)
+  fullName.vb: Xunit.Sdk.IAssertEqualityComparer(Of T).Equals(T, Xunit.Sdk.CollectionTracker, T, Xunit.Sdk.CollectionTracker)
+  nameWithType: IAssertEqualityComparer<T>.Equals(T?, CollectionTracker?, T?, CollectionTracker?)
+  nameWithType.vb: IAssertEqualityComparer(Of T).Equals(T, CollectionTracker, T, CollectionTracker)
+- uid: Xunit.Sdk.IAssertEqualityComparer`1.Equals*
+  name: Equals
+  href: v3/2.0.0/assert/Xunit.Sdk.IAssertEqualityComparer-1.html#Xunit_Sdk_IAssertEqualityComparer_1_Equals_
+  commentId: Overload:Xunit.Sdk.IAssertEqualityComparer`1.Equals
+  isSpec: "True"
+  fullName: Xunit.Sdk.IAssertEqualityComparer<T>.Equals
+  fullName.vb: Xunit.Sdk.IAssertEqualityComparer(Of T).Equals
+  nameWithType: IAssertEqualityComparer<T>.Equals
+  nameWithType.vb: IAssertEqualityComparer(Of T).Equals
+- uid: Xunit.Sdk.IAssertionException
+  name: IAssertionException
+  href: v3/2.0.0/assert/Xunit.Sdk.IAssertionException.html
+  commentId: T:Xunit.Sdk.IAssertionException
+  fullName: Xunit.Sdk.IAssertionException
+  nameWithType: IAssertionException
 - uid: Xunit.Sdk.IBeforeTestFinished
   name: IBeforeTestFinished
   href: v3/2.0.0/common/Xunit.Sdk.IBeforeTestFinished.html
@@ -22490,6 +23981,142 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.IXunitSerializer.Serialize
   nameWithType: IXunitSerializer.Serialize
+- uid: Xunit.Sdk.InRangeException
+  name: InRangeException
+  href: v3/2.0.0/assert/Xunit.Sdk.InRangeException.html
+  commentId: T:Xunit.Sdk.InRangeException
+  fullName: Xunit.Sdk.InRangeException
+  nameWithType: InRangeException
+- uid: Xunit.Sdk.InRangeException.ForValueNotInRange(System.Object,System.Object,System.Object)
+  name: ForValueNotInRange(object, object, object)
+  href: v3/2.0.0/assert/Xunit.Sdk.InRangeException.html#Xunit_Sdk_InRangeException_ForValueNotInRange_System_Object_System_Object_System_Object_
+  commentId: M:Xunit.Sdk.InRangeException.ForValueNotInRange(System.Object,System.Object,System.Object)
+  name.vb: ForValueNotInRange(Object, Object, Object)
+  fullName: Xunit.Sdk.InRangeException.ForValueNotInRange(object, object, object)
+  fullName.vb: Xunit.Sdk.InRangeException.ForValueNotInRange(Object, Object, Object)
+  nameWithType: InRangeException.ForValueNotInRange(object, object, object)
+  nameWithType.vb: InRangeException.ForValueNotInRange(Object, Object, Object)
+- uid: Xunit.Sdk.InRangeException.ForValueNotInRange*
+  name: ForValueNotInRange
+  href: v3/2.0.0/assert/Xunit.Sdk.InRangeException.html#Xunit_Sdk_InRangeException_ForValueNotInRange_
+  commentId: Overload:Xunit.Sdk.InRangeException.ForValueNotInRange
+  isSpec: "True"
+  fullName: Xunit.Sdk.InRangeException.ForValueNotInRange
+  nameWithType: InRangeException.ForValueNotInRange
+- uid: Xunit.Sdk.IsAssignableFromException
+  name: IsAssignableFromException
+  href: v3/2.0.0/assert/Xunit.Sdk.IsAssignableFromException.html
+  commentId: T:Xunit.Sdk.IsAssignableFromException
+  fullName: Xunit.Sdk.IsAssignableFromException
+  nameWithType: IsAssignableFromException
+- uid: Xunit.Sdk.IsAssignableFromException.ForIncompatibleType(System.Type,System.Object)
+  name: ForIncompatibleType(Type, object?)
+  href: v3/2.0.0/assert/Xunit.Sdk.IsAssignableFromException.html#Xunit_Sdk_IsAssignableFromException_ForIncompatibleType_System_Type_System_Object_
+  commentId: M:Xunit.Sdk.IsAssignableFromException.ForIncompatibleType(System.Type,System.Object)
+  name.vb: ForIncompatibleType(Type, Object)
+  fullName: Xunit.Sdk.IsAssignableFromException.ForIncompatibleType(System.Type, object?)
+  fullName.vb: Xunit.Sdk.IsAssignableFromException.ForIncompatibleType(System.Type, Object)
+  nameWithType: IsAssignableFromException.ForIncompatibleType(Type, object?)
+  nameWithType.vb: IsAssignableFromException.ForIncompatibleType(Type, Object)
+- uid: Xunit.Sdk.IsAssignableFromException.ForIncompatibleType*
+  name: ForIncompatibleType
+  href: v3/2.0.0/assert/Xunit.Sdk.IsAssignableFromException.html#Xunit_Sdk_IsAssignableFromException_ForIncompatibleType_
+  commentId: Overload:Xunit.Sdk.IsAssignableFromException.ForIncompatibleType
+  isSpec: "True"
+  fullName: Xunit.Sdk.IsAssignableFromException.ForIncompatibleType
+  nameWithType: IsAssignableFromException.ForIncompatibleType
+- uid: Xunit.Sdk.IsNotAssignableFromException
+  name: IsNotAssignableFromException
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotAssignableFromException.html
+  commentId: T:Xunit.Sdk.IsNotAssignableFromException
+  fullName: Xunit.Sdk.IsNotAssignableFromException
+  nameWithType: IsNotAssignableFromException
+- uid: Xunit.Sdk.IsNotAssignableFromException.ForCompatibleType(System.Type,System.Object)
+  name: ForCompatibleType(Type, object)
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotAssignableFromException.html#Xunit_Sdk_IsNotAssignableFromException_ForCompatibleType_System_Type_System_Object_
+  commentId: M:Xunit.Sdk.IsNotAssignableFromException.ForCompatibleType(System.Type,System.Object)
+  name.vb: ForCompatibleType(Type, Object)
+  fullName: Xunit.Sdk.IsNotAssignableFromException.ForCompatibleType(System.Type, object)
+  fullName.vb: Xunit.Sdk.IsNotAssignableFromException.ForCompatibleType(System.Type, Object)
+  nameWithType: IsNotAssignableFromException.ForCompatibleType(Type, object)
+  nameWithType.vb: IsNotAssignableFromException.ForCompatibleType(Type, Object)
+- uid: Xunit.Sdk.IsNotAssignableFromException.ForCompatibleType*
+  name: ForCompatibleType
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotAssignableFromException.html#Xunit_Sdk_IsNotAssignableFromException_ForCompatibleType_
+  commentId: Overload:Xunit.Sdk.IsNotAssignableFromException.ForCompatibleType
+  isSpec: "True"
+  fullName: Xunit.Sdk.IsNotAssignableFromException.ForCompatibleType
+  nameWithType: IsNotAssignableFromException.ForCompatibleType
+- uid: Xunit.Sdk.IsNotTypeException
+  name: IsNotTypeException
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.html
+  commentId: T:Xunit.Sdk.IsNotTypeException
+  fullName: Xunit.Sdk.IsNotTypeException
+  nameWithType: IsNotTypeException
+- uid: Xunit.Sdk.IsNotTypeException.ForCompatibleType(System.Type,System.Type)
+  name: ForCompatibleType(Type, Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.html#Xunit_Sdk_IsNotTypeException_ForCompatibleType_System_Type_System_Type_
+  commentId: M:Xunit.Sdk.IsNotTypeException.ForCompatibleType(System.Type,System.Type)
+  fullName: Xunit.Sdk.IsNotTypeException.ForCompatibleType(System.Type, System.Type)
+  nameWithType: IsNotTypeException.ForCompatibleType(Type, Type)
+- uid: Xunit.Sdk.IsNotTypeException.ForCompatibleType*
+  name: ForCompatibleType
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.html#Xunit_Sdk_IsNotTypeException_ForCompatibleType_
+  commentId: Overload:Xunit.Sdk.IsNotTypeException.ForCompatibleType
+  isSpec: "True"
+  fullName: Xunit.Sdk.IsNotTypeException.ForCompatibleType
+  nameWithType: IsNotTypeException.ForCompatibleType
+- uid: Xunit.Sdk.IsNotTypeException.ForExactType(System.Type)
+  name: ForExactType(Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.html#Xunit_Sdk_IsNotTypeException_ForExactType_System_Type_
+  commentId: M:Xunit.Sdk.IsNotTypeException.ForExactType(System.Type)
+  fullName: Xunit.Sdk.IsNotTypeException.ForExactType(System.Type)
+  nameWithType: IsNotTypeException.ForExactType(Type)
+- uid: Xunit.Sdk.IsNotTypeException.ForExactType*
+  name: ForExactType
+  href: v3/2.0.0/assert/Xunit.Sdk.IsNotTypeException.html#Xunit_Sdk_IsNotTypeException_ForExactType_
+  commentId: Overload:Xunit.Sdk.IsNotTypeException.ForExactType
+  isSpec: "True"
+  fullName: Xunit.Sdk.IsNotTypeException.ForExactType
+  nameWithType: IsNotTypeException.ForExactType
+- uid: Xunit.Sdk.IsTypeException
+  name: IsTypeException
+  href: v3/2.0.0/assert/Xunit.Sdk.IsTypeException.html
+  commentId: T:Xunit.Sdk.IsTypeException
+  fullName: Xunit.Sdk.IsTypeException
+  nameWithType: IsTypeException
+- uid: Xunit.Sdk.IsTypeException.ForIncompatibleType(System.String,System.String)
+  name: ForIncompatibleType(string, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.IsTypeException.html#Xunit_Sdk_IsTypeException_ForIncompatibleType_System_String_System_String_
+  commentId: M:Xunit.Sdk.IsTypeException.ForIncompatibleType(System.String,System.String)
+  name.vb: ForIncompatibleType(String, String)
+  fullName: Xunit.Sdk.IsTypeException.ForIncompatibleType(string, string?)
+  fullName.vb: Xunit.Sdk.IsTypeException.ForIncompatibleType(String, String)
+  nameWithType: IsTypeException.ForIncompatibleType(string, string?)
+  nameWithType.vb: IsTypeException.ForIncompatibleType(String, String)
+- uid: Xunit.Sdk.IsTypeException.ForIncompatibleType*
+  name: ForIncompatibleType
+  href: v3/2.0.0/assert/Xunit.Sdk.IsTypeException.html#Xunit_Sdk_IsTypeException_ForIncompatibleType_
+  commentId: Overload:Xunit.Sdk.IsTypeException.ForIncompatibleType
+  isSpec: "True"
+  fullName: Xunit.Sdk.IsTypeException.ForIncompatibleType
+  nameWithType: IsTypeException.ForIncompatibleType
+- uid: Xunit.Sdk.IsTypeException.ForMismatchedType(System.String,System.String)
+  name: ForMismatchedType(string, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.IsTypeException.html#Xunit_Sdk_IsTypeException_ForMismatchedType_System_String_System_String_
+  commentId: M:Xunit.Sdk.IsTypeException.ForMismatchedType(System.String,System.String)
+  name.vb: ForMismatchedType(String, String)
+  fullName: Xunit.Sdk.IsTypeException.ForMismatchedType(string, string?)
+  fullName.vb: Xunit.Sdk.IsTypeException.ForMismatchedType(String, String)
+  nameWithType: IsTypeException.ForMismatchedType(string, string?)
+  nameWithType.vb: IsTypeException.ForMismatchedType(String, String)
+- uid: Xunit.Sdk.IsTypeException.ForMismatchedType*
+  name: ForMismatchedType
+  href: v3/2.0.0/assert/Xunit.Sdk.IsTypeException.html#Xunit_Sdk_IsTypeException_ForMismatchedType_
+  commentId: Overload:Xunit.Sdk.IsTypeException.ForMismatchedType
+  isSpec: "True"
+  fullName: Xunit.Sdk.IsTypeException.ForMismatchedType
+  nameWithType: IsTypeException.ForMismatchedType
 - uid: Xunit.Sdk.JsonArraySerializer
   name: JsonArraySerializer
   href: v3/2.0.0/common/Xunit.Sdk.JsonArraySerializer.html
@@ -23474,6 +25101,28 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.LongLivedMarshalByRefObject.InitializeLifetimeService
   nameWithType: LongLivedMarshalByRefObject.InitializeLifetimeService
+- uid: Xunit.Sdk.MatchesException
+  name: MatchesException
+  href: v3/2.0.0/assert/Xunit.Sdk.MatchesException.html
+  commentId: T:Xunit.Sdk.MatchesException
+  fullName: Xunit.Sdk.MatchesException
+  nameWithType: MatchesException
+- uid: Xunit.Sdk.MatchesException.ForMatchNotFound(System.String,System.String)
+  name: ForMatchNotFound(string, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.MatchesException.html#Xunit_Sdk_MatchesException_ForMatchNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.MatchesException.ForMatchNotFound(System.String,System.String)
+  name.vb: ForMatchNotFound(String, String)
+  fullName: Xunit.Sdk.MatchesException.ForMatchNotFound(string, string?)
+  fullName.vb: Xunit.Sdk.MatchesException.ForMatchNotFound(String, String)
+  nameWithType: MatchesException.ForMatchNotFound(string, string?)
+  nameWithType.vb: MatchesException.ForMatchNotFound(String, String)
+- uid: Xunit.Sdk.MatchesException.ForMatchNotFound*
+  name: ForMatchNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.MatchesException.html#Xunit_Sdk_MatchesException_ForMatchNotFound_
+  commentId: Overload:Xunit.Sdk.MatchesException.ForMatchNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.MatchesException.ForMatchNotFound
+  nameWithType: MatchesException.ForMatchNotFound
 - uid: Xunit.Sdk.MessageSinkMessageExtensions
   name: MessageSinkMessageExtensions
   href: v3/2.0.0/runner-common/Xunit.Sdk.MessageSinkMessageExtensions.html
@@ -23525,6 +25174,276 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.MessageSinkMessageExtensions.WithSourceInfo
   nameWithType: MessageSinkMessageExtensions.WithSourceInfo
+- uid: Xunit.Sdk.MultipleException
+  name: MultipleException
+  href: v3/2.0.0/assert/Xunit.Sdk.MultipleException.html
+  commentId: T:Xunit.Sdk.MultipleException
+  fullName: Xunit.Sdk.MultipleException
+  nameWithType: MultipleException
+- uid: Xunit.Sdk.MultipleException.ForFailures(System.Collections.Generic.IReadOnlyCollection{System.Exception})
+  name: ForFailures(IReadOnlyCollection<Exception>)
+  href: v3/2.0.0/assert/Xunit.Sdk.MultipleException.html#Xunit_Sdk_MultipleException_ForFailures_System_Collections_Generic_IReadOnlyCollection_System_Exception__
+  commentId: M:Xunit.Sdk.MultipleException.ForFailures(System.Collections.Generic.IReadOnlyCollection{System.Exception})
+  name.vb: ForFailures(IReadOnlyCollection(Of Exception))
+  fullName: Xunit.Sdk.MultipleException.ForFailures(System.Collections.Generic.IReadOnlyCollection<System.Exception>)
+  fullName.vb: Xunit.Sdk.MultipleException.ForFailures(System.Collections.Generic.IReadOnlyCollection(Of System.Exception))
+  nameWithType: MultipleException.ForFailures(IReadOnlyCollection<Exception>)
+  nameWithType.vb: MultipleException.ForFailures(IReadOnlyCollection(Of Exception))
+- uid: Xunit.Sdk.MultipleException.ForFailures*
+  name: ForFailures
+  href: v3/2.0.0/assert/Xunit.Sdk.MultipleException.html#Xunit_Sdk_MultipleException_ForFailures_
+  commentId: Overload:Xunit.Sdk.MultipleException.ForFailures
+  isSpec: "True"
+  fullName: Xunit.Sdk.MultipleException.ForFailures
+  nameWithType: MultipleException.ForFailures
+- uid: Xunit.Sdk.MultipleException.InnerExceptions
+  name: InnerExceptions
+  href: v3/2.0.0/assert/Xunit.Sdk.MultipleException.html#Xunit_Sdk_MultipleException_InnerExceptions
+  commentId: P:Xunit.Sdk.MultipleException.InnerExceptions
+  fullName: Xunit.Sdk.MultipleException.InnerExceptions
+  nameWithType: MultipleException.InnerExceptions
+- uid: Xunit.Sdk.MultipleException.InnerExceptions*
+  name: InnerExceptions
+  href: v3/2.0.0/assert/Xunit.Sdk.MultipleException.html#Xunit_Sdk_MultipleException_InnerExceptions_
+  commentId: Overload:Xunit.Sdk.MultipleException.InnerExceptions
+  isSpec: "True"
+  fullName: Xunit.Sdk.MultipleException.InnerExceptions
+  nameWithType: MultipleException.InnerExceptions
+- uid: Xunit.Sdk.MultipleException.StackTrace
+  name: StackTrace
+  href: v3/2.0.0/assert/Xunit.Sdk.MultipleException.html#Xunit_Sdk_MultipleException_StackTrace
+  commentId: P:Xunit.Sdk.MultipleException.StackTrace
+  fullName: Xunit.Sdk.MultipleException.StackTrace
+  nameWithType: MultipleException.StackTrace
+- uid: Xunit.Sdk.MultipleException.StackTrace*
+  name: StackTrace
+  href: v3/2.0.0/assert/Xunit.Sdk.MultipleException.html#Xunit_Sdk_MultipleException_StackTrace_
+  commentId: Overload:Xunit.Sdk.MultipleException.StackTrace
+  isSpec: "True"
+  fullName: Xunit.Sdk.MultipleException.StackTrace
+  nameWithType: MultipleException.StackTrace
+- uid: Xunit.Sdk.NotEmptyException
+  name: NotEmptyException
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEmptyException.html
+  commentId: T:Xunit.Sdk.NotEmptyException
+  fullName: Xunit.Sdk.NotEmptyException
+  nameWithType: NotEmptyException
+- uid: Xunit.Sdk.NotEmptyException.ForNonEmptyCollection
+  name: ForNonEmptyCollection()
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEmptyException.html#Xunit_Sdk_NotEmptyException_ForNonEmptyCollection
+  commentId: M:Xunit.Sdk.NotEmptyException.ForNonEmptyCollection
+  fullName: Xunit.Sdk.NotEmptyException.ForNonEmptyCollection()
+  nameWithType: NotEmptyException.ForNonEmptyCollection()
+- uid: Xunit.Sdk.NotEmptyException.ForNonEmptyCollection*
+  name: ForNonEmptyCollection
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEmptyException.html#Xunit_Sdk_NotEmptyException_ForNonEmptyCollection_
+  commentId: Overload:Xunit.Sdk.NotEmptyException.ForNonEmptyCollection
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotEmptyException.ForNonEmptyCollection
+  nameWithType: NotEmptyException.ForNonEmptyCollection
+- uid: Xunit.Sdk.NotEqualException
+  name: NotEqualException
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html
+  commentId: T:Xunit.Sdk.NotEqualException
+  fullName: Xunit.Sdk.NotEqualException
+  nameWithType: NotEqualException
+- uid: Xunit.Sdk.NotEqualException.ForEqualCollections(System.String,System.String,System.String)
+  name: ForEqualCollections(string, string, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualCollections_System_String_System_String_System_String_
+  commentId: M:Xunit.Sdk.NotEqualException.ForEqualCollections(System.String,System.String,System.String)
+  name.vb: ForEqualCollections(String, String, String)
+  fullName: Xunit.Sdk.NotEqualException.ForEqualCollections(string, string, string?)
+  fullName.vb: Xunit.Sdk.NotEqualException.ForEqualCollections(String, String, String)
+  nameWithType: NotEqualException.ForEqualCollections(string, string, string?)
+  nameWithType.vb: NotEqualException.ForEqualCollections(String, String, String)
+- uid: Xunit.Sdk.NotEqualException.ForEqualCollections*
+  name: ForEqualCollections
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualCollections_
+  commentId: Overload:Xunit.Sdk.NotEqualException.ForEqualCollections
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotEqualException.ForEqualCollections
+  nameWithType: NotEqualException.ForEqualCollections
+- uid: Xunit.Sdk.NotEqualException.ForEqualCollectionsWithError(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.Exception,System.String)
+  name: ForEqualCollectionsWithError(int?, string, int?, string, int?, Exception?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualCollectionsWithError_System_Nullable_System_Int32__System_String_System_Nullable_System_Int32__System_String_System_Nullable_System_Int32__System_Exception_System_String_
+  commentId: M:Xunit.Sdk.NotEqualException.ForEqualCollectionsWithError(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.Exception,System.String)
+  name.vb: ForEqualCollectionsWithError(Integer?, String, Integer?, String, Integer?, Exception, String)
+  fullName: Xunit.Sdk.NotEqualException.ForEqualCollectionsWithError(int?, string, int?, string, int?, System.Exception?, string?)
+  fullName.vb: Xunit.Sdk.NotEqualException.ForEqualCollectionsWithError(Integer?, String, Integer?, String, Integer?, System.Exception, String)
+  nameWithType: NotEqualException.ForEqualCollectionsWithError(int?, string, int?, string, int?, Exception?, string?)
+  nameWithType.vb: NotEqualException.ForEqualCollectionsWithError(Integer?, String, Integer?, String, Integer?, Exception, String)
+- uid: Xunit.Sdk.NotEqualException.ForEqualCollectionsWithError*
+  name: ForEqualCollectionsWithError
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualCollectionsWithError_
+  commentId: Overload:Xunit.Sdk.NotEqualException.ForEqualCollectionsWithError
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotEqualException.ForEqualCollectionsWithError
+  nameWithType: NotEqualException.ForEqualCollectionsWithError
+- uid: Xunit.Sdk.NotEqualException.ForEqualValues(System.String,System.String,System.String)
+  name: ForEqualValues(string, string, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualValues_System_String_System_String_System_String_
+  commentId: M:Xunit.Sdk.NotEqualException.ForEqualValues(System.String,System.String,System.String)
+  name.vb: ForEqualValues(String, String, String)
+  fullName: Xunit.Sdk.NotEqualException.ForEqualValues(string, string, string?)
+  fullName.vb: Xunit.Sdk.NotEqualException.ForEqualValues(String, String, String)
+  nameWithType: NotEqualException.ForEqualValues(string, string, string?)
+  nameWithType.vb: NotEqualException.ForEqualValues(String, String, String)
+- uid: Xunit.Sdk.NotEqualException.ForEqualValues*
+  name: ForEqualValues
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualValues_
+  commentId: Overload:Xunit.Sdk.NotEqualException.ForEqualValues
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotEqualException.ForEqualValues
+  nameWithType: NotEqualException.ForEqualValues
+- uid: Xunit.Sdk.NotEqualException.ForEqualValuesWithError(System.String,System.String,System.Exception,System.String)
+  name: ForEqualValuesWithError(string, string, Exception?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualValuesWithError_System_String_System_String_System_Exception_System_String_
+  commentId: M:Xunit.Sdk.NotEqualException.ForEqualValuesWithError(System.String,System.String,System.Exception,System.String)
+  name.vb: ForEqualValuesWithError(String, String, Exception, String)
+  fullName: Xunit.Sdk.NotEqualException.ForEqualValuesWithError(string, string, System.Exception?, string?)
+  fullName.vb: Xunit.Sdk.NotEqualException.ForEqualValuesWithError(String, String, System.Exception, String)
+  nameWithType: NotEqualException.ForEqualValuesWithError(string, string, Exception?, string?)
+  nameWithType.vb: NotEqualException.ForEqualValuesWithError(String, String, Exception, String)
+- uid: Xunit.Sdk.NotEqualException.ForEqualValuesWithError*
+  name: ForEqualValuesWithError
+  href: v3/2.0.0/assert/Xunit.Sdk.NotEqualException.html#Xunit_Sdk_NotEqualException_ForEqualValuesWithError_
+  commentId: Overload:Xunit.Sdk.NotEqualException.ForEqualValuesWithError
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotEqualException.ForEqualValuesWithError
+  nameWithType: NotEqualException.ForEqualValuesWithError
+- uid: Xunit.Sdk.NotInRangeException
+  name: NotInRangeException
+  href: v3/2.0.0/assert/Xunit.Sdk.NotInRangeException.html
+  commentId: T:Xunit.Sdk.NotInRangeException
+  fullName: Xunit.Sdk.NotInRangeException
+  nameWithType: NotInRangeException
+- uid: Xunit.Sdk.NotInRangeException.ForValueInRange(System.Object,System.Object,System.Object)
+  name: ForValueInRange(object, object, object)
+  href: v3/2.0.0/assert/Xunit.Sdk.NotInRangeException.html#Xunit_Sdk_NotInRangeException_ForValueInRange_System_Object_System_Object_System_Object_
+  commentId: M:Xunit.Sdk.NotInRangeException.ForValueInRange(System.Object,System.Object,System.Object)
+  name.vb: ForValueInRange(Object, Object, Object)
+  fullName: Xunit.Sdk.NotInRangeException.ForValueInRange(object, object, object)
+  fullName.vb: Xunit.Sdk.NotInRangeException.ForValueInRange(Object, Object, Object)
+  nameWithType: NotInRangeException.ForValueInRange(object, object, object)
+  nameWithType.vb: NotInRangeException.ForValueInRange(Object, Object, Object)
+- uid: Xunit.Sdk.NotInRangeException.ForValueInRange*
+  name: ForValueInRange
+  href: v3/2.0.0/assert/Xunit.Sdk.NotInRangeException.html#Xunit_Sdk_NotInRangeException_ForValueInRange_
+  commentId: Overload:Xunit.Sdk.NotInRangeException.ForValueInRange
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotInRangeException.ForValueInRange
+  nameWithType: NotInRangeException.ForValueInRange
+- uid: Xunit.Sdk.NotNullException
+  name: NotNullException
+  href: v3/2.0.0/assert/Xunit.Sdk.NotNullException.html
+  commentId: T:Xunit.Sdk.NotNullException
+  fullName: Xunit.Sdk.NotNullException
+  nameWithType: NotNullException
+- uid: Xunit.Sdk.NotNullException.ForNullStruct(System.Type)
+  name: ForNullStruct(Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.NotNullException.html#Xunit_Sdk_NotNullException_ForNullStruct_System_Type_
+  commentId: M:Xunit.Sdk.NotNullException.ForNullStruct(System.Type)
+  fullName: Xunit.Sdk.NotNullException.ForNullStruct(System.Type)
+  nameWithType: NotNullException.ForNullStruct(Type)
+- uid: Xunit.Sdk.NotNullException.ForNullStruct*
+  name: ForNullStruct
+  href: v3/2.0.0/assert/Xunit.Sdk.NotNullException.html#Xunit_Sdk_NotNullException_ForNullStruct_
+  commentId: Overload:Xunit.Sdk.NotNullException.ForNullStruct
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotNullException.ForNullStruct
+  nameWithType: NotNullException.ForNullStruct
+- uid: Xunit.Sdk.NotNullException.ForNullValue
+  name: ForNullValue()
+  href: v3/2.0.0/assert/Xunit.Sdk.NotNullException.html#Xunit_Sdk_NotNullException_ForNullValue
+  commentId: M:Xunit.Sdk.NotNullException.ForNullValue
+  fullName: Xunit.Sdk.NotNullException.ForNullValue()
+  nameWithType: NotNullException.ForNullValue()
+- uid: Xunit.Sdk.NotNullException.ForNullValue*
+  name: ForNullValue
+  href: v3/2.0.0/assert/Xunit.Sdk.NotNullException.html#Xunit_Sdk_NotNullException_ForNullValue_
+  commentId: Overload:Xunit.Sdk.NotNullException.ForNullValue
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotNullException.ForNullValue
+  nameWithType: NotNullException.ForNullValue
+- uid: Xunit.Sdk.NotSameException
+  name: NotSameException
+  href: v3/2.0.0/assert/Xunit.Sdk.NotSameException.html
+  commentId: T:Xunit.Sdk.NotSameException
+  fullName: Xunit.Sdk.NotSameException
+  nameWithType: NotSameException
+- uid: Xunit.Sdk.NotSameException.ForSameValues
+  name: ForSameValues()
+  href: v3/2.0.0/assert/Xunit.Sdk.NotSameException.html#Xunit_Sdk_NotSameException_ForSameValues
+  commentId: M:Xunit.Sdk.NotSameException.ForSameValues
+  fullName: Xunit.Sdk.NotSameException.ForSameValues()
+  nameWithType: NotSameException.ForSameValues()
+- uid: Xunit.Sdk.NotSameException.ForSameValues*
+  name: ForSameValues
+  href: v3/2.0.0/assert/Xunit.Sdk.NotSameException.html#Xunit_Sdk_NotSameException_ForSameValues_
+  commentId: Overload:Xunit.Sdk.NotSameException.ForSameValues
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotSameException.ForSameValues
+  nameWithType: NotSameException.ForSameValues
+- uid: Xunit.Sdk.NotStrictEqualException
+  name: NotStrictEqualException
+  href: v3/2.0.0/assert/Xunit.Sdk.NotStrictEqualException.html
+  commentId: T:Xunit.Sdk.NotStrictEqualException
+  fullName: Xunit.Sdk.NotStrictEqualException
+  nameWithType: NotStrictEqualException
+- uid: Xunit.Sdk.NotStrictEqualException.ForEqualValues(System.String,System.String)
+  name: ForEqualValues(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.NotStrictEqualException.html#Xunit_Sdk_NotStrictEqualException_ForEqualValues_System_String_System_String_
+  commentId: M:Xunit.Sdk.NotStrictEqualException.ForEqualValues(System.String,System.String)
+  name.vb: ForEqualValues(String, String)
+  fullName: Xunit.Sdk.NotStrictEqualException.ForEqualValues(string, string)
+  fullName.vb: Xunit.Sdk.NotStrictEqualException.ForEqualValues(String, String)
+  nameWithType: NotStrictEqualException.ForEqualValues(string, string)
+  nameWithType.vb: NotStrictEqualException.ForEqualValues(String, String)
+- uid: Xunit.Sdk.NotStrictEqualException.ForEqualValues*
+  name: ForEqualValues
+  href: v3/2.0.0/assert/Xunit.Sdk.NotStrictEqualException.html#Xunit_Sdk_NotStrictEqualException_ForEqualValues_
+  commentId: Overload:Xunit.Sdk.NotStrictEqualException.ForEqualValues
+  isSpec: "True"
+  fullName: Xunit.Sdk.NotStrictEqualException.ForEqualValues
+  nameWithType: NotStrictEqualException.ForEqualValues
+- uid: Xunit.Sdk.NullException
+  name: NullException
+  href: v3/2.0.0/assert/Xunit.Sdk.NullException.html
+  commentId: T:Xunit.Sdk.NullException
+  fullName: Xunit.Sdk.NullException
+  nameWithType: NullException
+- uid: Xunit.Sdk.NullException.ForNonNullStruct*
+  name: ForNonNullStruct
+  href: v3/2.0.0/assert/Xunit.Sdk.NullException.html#Xunit_Sdk_NullException_ForNonNullStruct_
+  commentId: Overload:Xunit.Sdk.NullException.ForNonNullStruct
+  isSpec: "True"
+  fullName: Xunit.Sdk.NullException.ForNonNullStruct
+  nameWithType: NullException.ForNonNullStruct
+- uid: Xunit.Sdk.NullException.ForNonNullStruct``1(System.Type,System.Nullable{``0})
+  name: ForNonNullStruct<T>(Type, T?)
+  href: v3/2.0.0/assert/Xunit.Sdk.NullException.html#Xunit_Sdk_NullException_ForNonNullStruct__1_System_Type_System_Nullable___0__
+  commentId: M:Xunit.Sdk.NullException.ForNonNullStruct``1(System.Type,System.Nullable{``0})
+  name.vb: ForNonNullStruct(Of T)(Type, T?)
+  fullName: Xunit.Sdk.NullException.ForNonNullStruct<T>(System.Type, T?)
+  fullName.vb: Xunit.Sdk.NullException.ForNonNullStruct(Of T)(System.Type, T?)
+  nameWithType: NullException.ForNonNullStruct<T>(Type, T?)
+  nameWithType.vb: NullException.ForNonNullStruct(Of T)(Type, T?)
+- uid: Xunit.Sdk.NullException.ForNonNullValue(System.Object)
+  name: ForNonNullValue(object)
+  href: v3/2.0.0/assert/Xunit.Sdk.NullException.html#Xunit_Sdk_NullException_ForNonNullValue_System_Object_
+  commentId: M:Xunit.Sdk.NullException.ForNonNullValue(System.Object)
+  name.vb: ForNonNullValue(Object)
+  fullName: Xunit.Sdk.NullException.ForNonNullValue(object)
+  fullName.vb: Xunit.Sdk.NullException.ForNonNullValue(Object)
+  nameWithType: NullException.ForNonNullValue(object)
+  nameWithType.vb: NullException.ForNonNullValue(Object)
+- uid: Xunit.Sdk.NullException.ForNonNullValue*
+  name: ForNonNullValue
+  href: v3/2.0.0/assert/Xunit.Sdk.NullException.html#Xunit_Sdk_NullException_ForNonNullValue_
+  commentId: Overload:Xunit.Sdk.NullException.ForNonNullValue
+  isSpec: "True"
+  fullName: Xunit.Sdk.NullException.ForNonNullValue
+  nameWithType: NullException.ForNonNullValue
 - uid: Xunit.Sdk.NullMessageSink
   name: NullMessageSink
   href: v3/2.0.0/common/Xunit.Sdk.NullMessageSink.html
@@ -23568,6 +25487,129 @@ references:
   commentId: F:Xunit.Sdk.ParallelAlgorithm.Conservative
   fullName: Xunit.Sdk.ParallelAlgorithm.Conservative
   nameWithType: ParallelAlgorithm.Conservative
+- uid: Xunit.Sdk.ProperSubsetException
+  name: ProperSubsetException
+  href: v3/2.0.0/assert/Xunit.Sdk.ProperSubsetException.html
+  commentId: T:Xunit.Sdk.ProperSubsetException
+  fullName: Xunit.Sdk.ProperSubsetException
+  nameWithType: ProperSubsetException
+- uid: Xunit.Sdk.ProperSubsetException.ForFailure(System.String,System.String)
+  name: ForFailure(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ProperSubsetException.html#Xunit_Sdk_ProperSubsetException_ForFailure_System_String_System_String_
+  commentId: M:Xunit.Sdk.ProperSubsetException.ForFailure(System.String,System.String)
+  name.vb: ForFailure(String, String)
+  fullName: Xunit.Sdk.ProperSubsetException.ForFailure(string, string)
+  fullName.vb: Xunit.Sdk.ProperSubsetException.ForFailure(String, String)
+  nameWithType: ProperSubsetException.ForFailure(string, string)
+  nameWithType.vb: ProperSubsetException.ForFailure(String, String)
+- uid: Xunit.Sdk.ProperSubsetException.ForFailure*
+  name: ForFailure
+  href: v3/2.0.0/assert/Xunit.Sdk.ProperSubsetException.html#Xunit_Sdk_ProperSubsetException_ForFailure_
+  commentId: Overload:Xunit.Sdk.ProperSubsetException.ForFailure
+  isSpec: "True"
+  fullName: Xunit.Sdk.ProperSubsetException.ForFailure
+  nameWithType: ProperSubsetException.ForFailure
+- uid: Xunit.Sdk.ProperSupersetException
+  name: ProperSupersetException
+  href: v3/2.0.0/assert/Xunit.Sdk.ProperSupersetException.html
+  commentId: T:Xunit.Sdk.ProperSupersetException
+  fullName: Xunit.Sdk.ProperSupersetException
+  nameWithType: ProperSupersetException
+- uid: Xunit.Sdk.ProperSupersetException.ForFailure(System.String,System.String)
+  name: ForFailure(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.ProperSupersetException.html#Xunit_Sdk_ProperSupersetException_ForFailure_System_String_System_String_
+  commentId: M:Xunit.Sdk.ProperSupersetException.ForFailure(System.String,System.String)
+  name.vb: ForFailure(String, String)
+  fullName: Xunit.Sdk.ProperSupersetException.ForFailure(string, string)
+  fullName.vb: Xunit.Sdk.ProperSupersetException.ForFailure(String, String)
+  nameWithType: ProperSupersetException.ForFailure(string, string)
+  nameWithType.vb: ProperSupersetException.ForFailure(String, String)
+- uid: Xunit.Sdk.ProperSupersetException.ForFailure*
+  name: ForFailure
+  href: v3/2.0.0/assert/Xunit.Sdk.ProperSupersetException.html#Xunit_Sdk_ProperSupersetException_ForFailure_
+  commentId: Overload:Xunit.Sdk.ProperSupersetException.ForFailure
+  isSpec: "True"
+  fullName: Xunit.Sdk.ProperSupersetException.ForFailure
+  nameWithType: ProperSupersetException.ForFailure
+- uid: Xunit.Sdk.PropertyChangedException
+  name: PropertyChangedException
+  href: v3/2.0.0/assert/Xunit.Sdk.PropertyChangedException.html
+  commentId: T:Xunit.Sdk.PropertyChangedException
+  fullName: Xunit.Sdk.PropertyChangedException
+  nameWithType: PropertyChangedException
+- uid: Xunit.Sdk.PropertyChangedException.ForUnsetProperty(System.String)
+  name: ForUnsetProperty(string)
+  href: v3/2.0.0/assert/Xunit.Sdk.PropertyChangedException.html#Xunit_Sdk_PropertyChangedException_ForUnsetProperty_System_String_
+  commentId: M:Xunit.Sdk.PropertyChangedException.ForUnsetProperty(System.String)
+  name.vb: ForUnsetProperty(String)
+  fullName: Xunit.Sdk.PropertyChangedException.ForUnsetProperty(string)
+  fullName.vb: Xunit.Sdk.PropertyChangedException.ForUnsetProperty(String)
+  nameWithType: PropertyChangedException.ForUnsetProperty(string)
+  nameWithType.vb: PropertyChangedException.ForUnsetProperty(String)
+- uid: Xunit.Sdk.PropertyChangedException.ForUnsetProperty*
+  name: ForUnsetProperty
+  href: v3/2.0.0/assert/Xunit.Sdk.PropertyChangedException.html#Xunit_Sdk_PropertyChangedException_ForUnsetProperty_
+  commentId: Overload:Xunit.Sdk.PropertyChangedException.ForUnsetProperty
+  isSpec: "True"
+  fullName: Xunit.Sdk.PropertyChangedException.ForUnsetProperty
+  nameWithType: PropertyChangedException.ForUnsetProperty
+- uid: Xunit.Sdk.RaisesAnyException
+  name: RaisesAnyException
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesAnyException.html
+  commentId: T:Xunit.Sdk.RaisesAnyException
+  fullName: Xunit.Sdk.RaisesAnyException
+  nameWithType: RaisesAnyException
+- uid: Xunit.Sdk.RaisesAnyException.ForNoEvent(System.Type)
+  name: ForNoEvent(Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesAnyException.html#Xunit_Sdk_RaisesAnyException_ForNoEvent_System_Type_
+  commentId: M:Xunit.Sdk.RaisesAnyException.ForNoEvent(System.Type)
+  fullName: Xunit.Sdk.RaisesAnyException.ForNoEvent(System.Type)
+  nameWithType: RaisesAnyException.ForNoEvent(Type)
+- uid: Xunit.Sdk.RaisesAnyException.ForNoEvent*
+  name: ForNoEvent
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesAnyException.html#Xunit_Sdk_RaisesAnyException_ForNoEvent_
+  commentId: Overload:Xunit.Sdk.RaisesAnyException.ForNoEvent
+  isSpec: "True"
+  fullName: Xunit.Sdk.RaisesAnyException.ForNoEvent
+  nameWithType: RaisesAnyException.ForNoEvent
+- uid: Xunit.Sdk.RaisesException
+  name: RaisesException
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesException.html
+  commentId: T:Xunit.Sdk.RaisesException
+  fullName: Xunit.Sdk.RaisesException
+  nameWithType: RaisesException
+- uid: Xunit.Sdk.RaisesException.ForIncorrectType(System.Type,System.Type)
+  name: ForIncorrectType(Type, Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesException.html#Xunit_Sdk_RaisesException_ForIncorrectType_System_Type_System_Type_
+  commentId: M:Xunit.Sdk.RaisesException.ForIncorrectType(System.Type,System.Type)
+  fullName: Xunit.Sdk.RaisesException.ForIncorrectType(System.Type, System.Type)
+  nameWithType: RaisesException.ForIncorrectType(Type, Type)
+- uid: Xunit.Sdk.RaisesException.ForIncorrectType*
+  name: ForIncorrectType
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesException.html#Xunit_Sdk_RaisesException_ForIncorrectType_
+  commentId: Overload:Xunit.Sdk.RaisesException.ForIncorrectType
+  isSpec: "True"
+  fullName: Xunit.Sdk.RaisesException.ForIncorrectType
+  nameWithType: RaisesException.ForIncorrectType
+- uid: Xunit.Sdk.RaisesException.ForNoEvent
+  name: ForNoEvent()
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesException.html#Xunit_Sdk_RaisesException_ForNoEvent
+  commentId: M:Xunit.Sdk.RaisesException.ForNoEvent
+  fullName: Xunit.Sdk.RaisesException.ForNoEvent()
+  nameWithType: RaisesException.ForNoEvent()
+- uid: Xunit.Sdk.RaisesException.ForNoEvent(System.Type)
+  name: ForNoEvent(Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesException.html#Xunit_Sdk_RaisesException_ForNoEvent_System_Type_
+  commentId: M:Xunit.Sdk.RaisesException.ForNoEvent(System.Type)
+  fullName: Xunit.Sdk.RaisesException.ForNoEvent(System.Type)
+  nameWithType: RaisesException.ForNoEvent(Type)
+- uid: Xunit.Sdk.RaisesException.ForNoEvent*
+  name: ForNoEvent
+  href: v3/2.0.0/assert/Xunit.Sdk.RaisesException.html#Xunit_Sdk_RaisesException_ForNoEvent_
+  commentId: Overload:Xunit.Sdk.RaisesException.ForNoEvent
+  isSpec: "True"
+  fullName: Xunit.Sdk.RaisesException.ForNoEvent
+  nameWithType: RaisesException.ForNoEvent
 - uid: Xunit.Sdk.Randomizer
   name: Randomizer
   href: v3/2.0.0/common/Xunit.Sdk.Randomizer.html
@@ -23936,6 +25978,28 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.RegisterXunitSerializerAttribute.SupportedTypesForSerialization
   nameWithType: RegisterXunitSerializerAttribute.SupportedTypesForSerialization
+- uid: Xunit.Sdk.SameException
+  name: SameException
+  href: v3/2.0.0/assert/Xunit.Sdk.SameException.html
+  commentId: T:Xunit.Sdk.SameException
+  fullName: Xunit.Sdk.SameException
+  nameWithType: SameException
+- uid: Xunit.Sdk.SameException.ForFailure(System.String,System.String)
+  name: ForFailure(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.SameException.html#Xunit_Sdk_SameException_ForFailure_System_String_System_String_
+  commentId: M:Xunit.Sdk.SameException.ForFailure(System.String,System.String)
+  name.vb: ForFailure(String, String)
+  fullName: Xunit.Sdk.SameException.ForFailure(string, string)
+  fullName.vb: Xunit.Sdk.SameException.ForFailure(String, String)
+  nameWithType: SameException.ForFailure(string, string)
+  nameWithType.vb: SameException.ForFailure(String, String)
+- uid: Xunit.Sdk.SameException.ForFailure*
+  name: ForFailure
+  href: v3/2.0.0/assert/Xunit.Sdk.SameException.html#Xunit_Sdk_SameException_ForFailure_
+  commentId: Overload:Xunit.Sdk.SameException.ForFailure
+  isSpec: "True"
+  fullName: Xunit.Sdk.SameException.ForFailure
+  nameWithType: SameException.ForFailure
 - uid: Xunit.Sdk.SerializationHelper
   name: SerializationHelper
   href: v3/2.0.0/common/Xunit.Sdk.SerializationHelper.html
@@ -24101,6 +26165,185 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.SerializationHelper.TypeToSerializedTypeName
   nameWithType: SerializationHelper.TypeToSerializedTypeName
+- uid: Xunit.Sdk.SingleException
+  name: SingleException
+  href: v3/2.0.0/assert/Xunit.Sdk.SingleException.html
+  commentId: T:Xunit.Sdk.SingleException
+  fullName: Xunit.Sdk.SingleException
+  nameWithType: SingleException
+- uid: Xunit.Sdk.SingleException.Empty(System.String,System.String)
+  name: Empty(string?, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.SingleException.html#Xunit_Sdk_SingleException_Empty_System_String_System_String_
+  commentId: M:Xunit.Sdk.SingleException.Empty(System.String,System.String)
+  name.vb: Empty(String, String)
+  fullName: Xunit.Sdk.SingleException.Empty(string?, string)
+  fullName.vb: Xunit.Sdk.SingleException.Empty(String, String)
+  nameWithType: SingleException.Empty(string?, string)
+  nameWithType.vb: SingleException.Empty(String, String)
+- uid: Xunit.Sdk.SingleException.Empty*
+  name: Empty
+  href: v3/2.0.0/assert/Xunit.Sdk.SingleException.html#Xunit_Sdk_SingleException_Empty_
+  commentId: Overload:Xunit.Sdk.SingleException.Empty
+  isSpec: "True"
+  fullName: Xunit.Sdk.SingleException.Empty
+  nameWithType: SingleException.Empty
+- uid: Xunit.Sdk.SingleException.MoreThanOne(System.Int32,System.String,System.String,System.Collections.Generic.ICollection{System.Int32})
+  name: MoreThanOne(int, string?, string, ICollection<int>)
+  href: v3/2.0.0/assert/Xunit.Sdk.SingleException.html#Xunit_Sdk_SingleException_MoreThanOne_System_Int32_System_String_System_String_System_Collections_Generic_ICollection_System_Int32__
+  commentId: M:Xunit.Sdk.SingleException.MoreThanOne(System.Int32,System.String,System.String,System.Collections.Generic.ICollection{System.Int32})
+  name.vb: MoreThanOne(Integer, String, String, ICollection(Of Integer))
+  fullName: Xunit.Sdk.SingleException.MoreThanOne(int, string?, string, System.Collections.Generic.ICollection<int>)
+  fullName.vb: Xunit.Sdk.SingleException.MoreThanOne(Integer, String, String, System.Collections.Generic.ICollection(Of Integer))
+  nameWithType: SingleException.MoreThanOne(int, string?, string, ICollection<int>)
+  nameWithType.vb: SingleException.MoreThanOne(Integer, String, String, ICollection(Of Integer))
+- uid: Xunit.Sdk.SingleException.MoreThanOne*
+  name: MoreThanOne
+  href: v3/2.0.0/assert/Xunit.Sdk.SingleException.html#Xunit_Sdk_SingleException_MoreThanOne_
+  commentId: Overload:Xunit.Sdk.SingleException.MoreThanOne
+  isSpec: "True"
+  fullName: Xunit.Sdk.SingleException.MoreThanOne
+  nameWithType: SingleException.MoreThanOne
+- uid: Xunit.Sdk.SkipException
+  name: SkipException
+  href: v3/2.0.0/assert/Xunit.Sdk.SkipException.html
+  commentId: T:Xunit.Sdk.SkipException
+  fullName: Xunit.Sdk.SkipException
+  nameWithType: SkipException
+- uid: Xunit.Sdk.SkipException.ForSkip(System.String)
+  name: ForSkip(string)
+  href: v3/2.0.0/assert/Xunit.Sdk.SkipException.html#Xunit_Sdk_SkipException_ForSkip_System_String_
+  commentId: M:Xunit.Sdk.SkipException.ForSkip(System.String)
+  name.vb: ForSkip(String)
+  fullName: Xunit.Sdk.SkipException.ForSkip(string)
+  fullName.vb: Xunit.Sdk.SkipException.ForSkip(String)
+  nameWithType: SkipException.ForSkip(string)
+  nameWithType.vb: SkipException.ForSkip(String)
+- uid: Xunit.Sdk.SkipException.ForSkip*
+  name: ForSkip
+  href: v3/2.0.0/assert/Xunit.Sdk.SkipException.html#Xunit_Sdk_SkipException_ForSkip_
+  commentId: Overload:Xunit.Sdk.SkipException.ForSkip
+  isSpec: "True"
+  fullName: Xunit.Sdk.SkipException.ForSkip
+  nameWithType: SkipException.ForSkip
+- uid: Xunit.Sdk.StartsWithException
+  name: StartsWithException
+  href: v3/2.0.0/assert/Xunit.Sdk.StartsWithException.html
+  commentId: T:Xunit.Sdk.StartsWithException
+  fullName: Xunit.Sdk.StartsWithException
+  nameWithType: StartsWithException
+- uid: Xunit.Sdk.StartsWithException.ForStringNotFound(System.String,System.String)
+  name: ForStringNotFound(string?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.StartsWithException.html#Xunit_Sdk_StartsWithException_ForStringNotFound_System_String_System_String_
+  commentId: M:Xunit.Sdk.StartsWithException.ForStringNotFound(System.String,System.String)
+  name.vb: ForStringNotFound(String, String)
+  fullName: Xunit.Sdk.StartsWithException.ForStringNotFound(string?, string?)
+  fullName.vb: Xunit.Sdk.StartsWithException.ForStringNotFound(String, String)
+  nameWithType: StartsWithException.ForStringNotFound(string?, string?)
+  nameWithType.vb: StartsWithException.ForStringNotFound(String, String)
+- uid: Xunit.Sdk.StartsWithException.ForStringNotFound*
+  name: ForStringNotFound
+  href: v3/2.0.0/assert/Xunit.Sdk.StartsWithException.html#Xunit_Sdk_StartsWithException_ForStringNotFound_
+  commentId: Overload:Xunit.Sdk.StartsWithException.ForStringNotFound
+  isSpec: "True"
+  fullName: Xunit.Sdk.StartsWithException.ForStringNotFound
+  nameWithType: StartsWithException.ForStringNotFound
+- uid: Xunit.Sdk.StrictEqualException
+  name: StrictEqualException
+  href: v3/2.0.0/assert/Xunit.Sdk.StrictEqualException.html
+  commentId: T:Xunit.Sdk.StrictEqualException
+  fullName: Xunit.Sdk.StrictEqualException
+  nameWithType: StrictEqualException
+- uid: Xunit.Sdk.StrictEqualException.ForEqualValues(System.String,System.String)
+  name: ForEqualValues(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.StrictEqualException.html#Xunit_Sdk_StrictEqualException_ForEqualValues_System_String_System_String_
+  commentId: M:Xunit.Sdk.StrictEqualException.ForEqualValues(System.String,System.String)
+  name.vb: ForEqualValues(String, String)
+  fullName: Xunit.Sdk.StrictEqualException.ForEqualValues(string, string)
+  fullName.vb: Xunit.Sdk.StrictEqualException.ForEqualValues(String, String)
+  nameWithType: StrictEqualException.ForEqualValues(string, string)
+  nameWithType.vb: StrictEqualException.ForEqualValues(String, String)
+- uid: Xunit.Sdk.StrictEqualException.ForEqualValues*
+  name: ForEqualValues
+  href: v3/2.0.0/assert/Xunit.Sdk.StrictEqualException.html#Xunit_Sdk_StrictEqualException_ForEqualValues_
+  commentId: Overload:Xunit.Sdk.StrictEqualException.ForEqualValues
+  isSpec: "True"
+  fullName: Xunit.Sdk.StrictEqualException.ForEqualValues
+  nameWithType: StrictEqualException.ForEqualValues
+- uid: Xunit.Sdk.StringAssertEqualityComparer
+  name: StringAssertEqualityComparer
+  href: v3/2.0.0/assert/Xunit.Sdk.StringAssertEqualityComparer.html
+  commentId: T:Xunit.Sdk.StringAssertEqualityComparer
+  fullName: Xunit.Sdk.StringAssertEqualityComparer
+  nameWithType: StringAssertEqualityComparer
+- uid: Xunit.Sdk.StringAssertEqualityComparer.Equivalent(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Equivalent(ReadOnlySpan<char>, ReadOnlySpan<char>, bool, bool, bool, bool)
+  href: v3/2.0.0/assert/Xunit.Sdk.StringAssertEqualityComparer.html#Xunit_Sdk_StringAssertEqualityComparer_Equivalent_System_ReadOnlySpan_System_Char__System_ReadOnlySpan_System_Char__System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Xunit.Sdk.StringAssertEqualityComparer.Equivalent(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: Equivalent(ReadOnlySpan(Of Char), ReadOnlySpan(Of Char), Boolean, Boolean, Boolean, Boolean)
+  fullName: Xunit.Sdk.StringAssertEqualityComparer.Equivalent(System.ReadOnlySpan<char>, System.ReadOnlySpan<char>, bool, bool, bool, bool)
+  fullName.vb: Xunit.Sdk.StringAssertEqualityComparer.Equivalent(System.ReadOnlySpan(Of Char), System.ReadOnlySpan(Of Char), Boolean, Boolean, Boolean, Boolean)
+  nameWithType: StringAssertEqualityComparer.Equivalent(ReadOnlySpan<char>, ReadOnlySpan<char>, bool, bool, bool, bool)
+  nameWithType.vb: StringAssertEqualityComparer.Equivalent(ReadOnlySpan(Of Char), ReadOnlySpan(Of Char), Boolean, Boolean, Boolean, Boolean)
+- uid: Xunit.Sdk.StringAssertEqualityComparer.Equivalent(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Equivalent(string?, string?, bool, bool, bool, bool)
+  href: v3/2.0.0/assert/Xunit.Sdk.StringAssertEqualityComparer.html#Xunit_Sdk_StringAssertEqualityComparer_Equivalent_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Xunit.Sdk.StringAssertEqualityComparer.Equivalent(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: Equivalent(String, String, Boolean, Boolean, Boolean, Boolean)
+  fullName: Xunit.Sdk.StringAssertEqualityComparer.Equivalent(string?, string?, bool, bool, bool, bool)
+  fullName.vb: Xunit.Sdk.StringAssertEqualityComparer.Equivalent(String, String, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: StringAssertEqualityComparer.Equivalent(string?, string?, bool, bool, bool, bool)
+  nameWithType.vb: StringAssertEqualityComparer.Equivalent(String, String, Boolean, Boolean, Boolean, Boolean)
+- uid: Xunit.Sdk.StringAssertEqualityComparer.Equivalent*
+  name: Equivalent
+  href: v3/2.0.0/assert/Xunit.Sdk.StringAssertEqualityComparer.html#Xunit_Sdk_StringAssertEqualityComparer_Equivalent_
+  commentId: Overload:Xunit.Sdk.StringAssertEqualityComparer.Equivalent
+  isSpec: "True"
+  fullName: Xunit.Sdk.StringAssertEqualityComparer.Equivalent
+  nameWithType: StringAssertEqualityComparer.Equivalent
+- uid: Xunit.Sdk.SubsetException
+  name: SubsetException
+  href: v3/2.0.0/assert/Xunit.Sdk.SubsetException.html
+  commentId: T:Xunit.Sdk.SubsetException
+  fullName: Xunit.Sdk.SubsetException
+  nameWithType: SubsetException
+- uid: Xunit.Sdk.SubsetException.ForFailure(System.String,System.String)
+  name: ForFailure(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.SubsetException.html#Xunit_Sdk_SubsetException_ForFailure_System_String_System_String_
+  commentId: M:Xunit.Sdk.SubsetException.ForFailure(System.String,System.String)
+  name.vb: ForFailure(String, String)
+  fullName: Xunit.Sdk.SubsetException.ForFailure(string, string)
+  fullName.vb: Xunit.Sdk.SubsetException.ForFailure(String, String)
+  nameWithType: SubsetException.ForFailure(string, string)
+  nameWithType.vb: SubsetException.ForFailure(String, String)
+- uid: Xunit.Sdk.SubsetException.ForFailure*
+  name: ForFailure
+  href: v3/2.0.0/assert/Xunit.Sdk.SubsetException.html#Xunit_Sdk_SubsetException_ForFailure_
+  commentId: Overload:Xunit.Sdk.SubsetException.ForFailure
+  isSpec: "True"
+  fullName: Xunit.Sdk.SubsetException.ForFailure
+  nameWithType: SubsetException.ForFailure
+- uid: Xunit.Sdk.SupersetException
+  name: SupersetException
+  href: v3/2.0.0/assert/Xunit.Sdk.SupersetException.html
+  commentId: T:Xunit.Sdk.SupersetException
+  fullName: Xunit.Sdk.SupersetException
+  nameWithType: SupersetException
+- uid: Xunit.Sdk.SupersetException.ForFailure(System.String,System.String)
+  name: ForFailure(string, string)
+  href: v3/2.0.0/assert/Xunit.Sdk.SupersetException.html#Xunit_Sdk_SupersetException_ForFailure_System_String_System_String_
+  commentId: M:Xunit.Sdk.SupersetException.ForFailure(System.String,System.String)
+  name.vb: ForFailure(String, String)
+  fullName: Xunit.Sdk.SupersetException.ForFailure(string, string)
+  fullName.vb: Xunit.Sdk.SupersetException.ForFailure(String, String)
+  nameWithType: SupersetException.ForFailure(string, string)
+  nameWithType.vb: SupersetException.ForFailure(String, String)
+- uid: Xunit.Sdk.SupersetException.ForFailure*
+  name: ForFailure
+  href: v3/2.0.0/assert/Xunit.Sdk.SupersetException.html#Xunit_Sdk_SupersetException_ForFailure_
+  commentId: Overload:Xunit.Sdk.SupersetException.ForFailure
+  isSpec: "True"
+  fullName: Xunit.Sdk.SupersetException.ForFailure
+  nameWithType: SupersetException.ForFailure
 - uid: Xunit.Sdk.TestAttachment
   name: TestAttachment
   href: v3/2.0.0/common/Xunit.Sdk.TestAttachment.html
@@ -26040,6 +28283,108 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.TestTimeoutException.ForTimedOutTest
   nameWithType: TestTimeoutException.ForTimedOutTest
+- uid: Xunit.Sdk.ThrowsAnyException
+  name: ThrowsAnyException
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.html
+  commentId: T:Xunit.Sdk.ThrowsAnyException
+  fullName: Xunit.Sdk.ThrowsAnyException
+  nameWithType: ThrowsAnyException
+- uid: Xunit.Sdk.ThrowsAnyException.ForIncorrectExceptionType(System.Type,System.Exception)
+  name: ForIncorrectExceptionType(Type, Exception)
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.html#Xunit_Sdk_ThrowsAnyException_ForIncorrectExceptionType_System_Type_System_Exception_
+  commentId: M:Xunit.Sdk.ThrowsAnyException.ForIncorrectExceptionType(System.Type,System.Exception)
+  fullName: Xunit.Sdk.ThrowsAnyException.ForIncorrectExceptionType(System.Type, System.Exception)
+  nameWithType: ThrowsAnyException.ForIncorrectExceptionType(Type, Exception)
+- uid: Xunit.Sdk.ThrowsAnyException.ForIncorrectExceptionType*
+  name: ForIncorrectExceptionType
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.html#Xunit_Sdk_ThrowsAnyException_ForIncorrectExceptionType_
+  commentId: Overload:Xunit.Sdk.ThrowsAnyException.ForIncorrectExceptionType
+  isSpec: "True"
+  fullName: Xunit.Sdk.ThrowsAnyException.ForIncorrectExceptionType
+  nameWithType: ThrowsAnyException.ForIncorrectExceptionType
+- uid: Xunit.Sdk.ThrowsAnyException.ForNoException(System.Type)
+  name: ForNoException(Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.html#Xunit_Sdk_ThrowsAnyException_ForNoException_System_Type_
+  commentId: M:Xunit.Sdk.ThrowsAnyException.ForNoException(System.Type)
+  fullName: Xunit.Sdk.ThrowsAnyException.ForNoException(System.Type)
+  nameWithType: ThrowsAnyException.ForNoException(Type)
+- uid: Xunit.Sdk.ThrowsAnyException.ForNoException*
+  name: ForNoException
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsAnyException.html#Xunit_Sdk_ThrowsAnyException_ForNoException_
+  commentId: Overload:Xunit.Sdk.ThrowsAnyException.ForNoException
+  isSpec: "True"
+  fullName: Xunit.Sdk.ThrowsAnyException.ForNoException
+  nameWithType: ThrowsAnyException.ForNoException
+- uid: Xunit.Sdk.ThrowsException
+  name: ThrowsException
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html
+  commentId: T:Xunit.Sdk.ThrowsException
+  fullName: Xunit.Sdk.ThrowsException
+  nameWithType: ThrowsException
+- uid: Xunit.Sdk.ThrowsException.ForIncorrectExceptionType(System.Type,System.Exception)
+  name: ForIncorrectExceptionType(Type, Exception)
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html#Xunit_Sdk_ThrowsException_ForIncorrectExceptionType_System_Type_System_Exception_
+  commentId: M:Xunit.Sdk.ThrowsException.ForIncorrectExceptionType(System.Type,System.Exception)
+  fullName: Xunit.Sdk.ThrowsException.ForIncorrectExceptionType(System.Type, System.Exception)
+  nameWithType: ThrowsException.ForIncorrectExceptionType(Type, Exception)
+- uid: Xunit.Sdk.ThrowsException.ForIncorrectExceptionType*
+  name: ForIncorrectExceptionType
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html#Xunit_Sdk_ThrowsException_ForIncorrectExceptionType_
+  commentId: Overload:Xunit.Sdk.ThrowsException.ForIncorrectExceptionType
+  isSpec: "True"
+  fullName: Xunit.Sdk.ThrowsException.ForIncorrectExceptionType
+  nameWithType: ThrowsException.ForIncorrectExceptionType
+- uid: Xunit.Sdk.ThrowsException.ForIncorrectParameterName(System.Type,System.String,System.String)
+  name: ForIncorrectParameterName(Type, string?, string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html#Xunit_Sdk_ThrowsException_ForIncorrectParameterName_System_Type_System_String_System_String_
+  commentId: M:Xunit.Sdk.ThrowsException.ForIncorrectParameterName(System.Type,System.String,System.String)
+  name.vb: ForIncorrectParameterName(Type, String, String)
+  fullName: Xunit.Sdk.ThrowsException.ForIncorrectParameterName(System.Type, string?, string?)
+  fullName.vb: Xunit.Sdk.ThrowsException.ForIncorrectParameterName(System.Type, String, String)
+  nameWithType: ThrowsException.ForIncorrectParameterName(Type, string?, string?)
+  nameWithType.vb: ThrowsException.ForIncorrectParameterName(Type, String, String)
+- uid: Xunit.Sdk.ThrowsException.ForIncorrectParameterName*
+  name: ForIncorrectParameterName
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html#Xunit_Sdk_ThrowsException_ForIncorrectParameterName_
+  commentId: Overload:Xunit.Sdk.ThrowsException.ForIncorrectParameterName
+  isSpec: "True"
+  fullName: Xunit.Sdk.ThrowsException.ForIncorrectParameterName
+  nameWithType: ThrowsException.ForIncorrectParameterName
+- uid: Xunit.Sdk.ThrowsException.ForNoException(System.Type)
+  name: ForNoException(Type)
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html#Xunit_Sdk_ThrowsException_ForNoException_System_Type_
+  commentId: M:Xunit.Sdk.ThrowsException.ForNoException(System.Type)
+  fullName: Xunit.Sdk.ThrowsException.ForNoException(System.Type)
+  nameWithType: ThrowsException.ForNoException(Type)
+- uid: Xunit.Sdk.ThrowsException.ForNoException*
+  name: ForNoException
+  href: v3/2.0.0/assert/Xunit.Sdk.ThrowsException.html#Xunit_Sdk_ThrowsException_ForNoException_
+  commentId: Overload:Xunit.Sdk.ThrowsException.ForNoException
+  isSpec: "True"
+  fullName: Xunit.Sdk.ThrowsException.ForNoException
+  nameWithType: ThrowsException.ForNoException
+- uid: Xunit.Sdk.TrueException
+  name: TrueException
+  href: v3/2.0.0/assert/Xunit.Sdk.TrueException.html
+  commentId: T:Xunit.Sdk.TrueException
+  fullName: Xunit.Sdk.TrueException
+  nameWithType: TrueException
+- uid: Xunit.Sdk.TrueException.ForNonTrueValue(System.String,System.Nullable{System.Boolean})
+  name: ForNonTrueValue(string?, bool?)
+  href: v3/2.0.0/assert/Xunit.Sdk.TrueException.html#Xunit_Sdk_TrueException_ForNonTrueValue_System_String_System_Nullable_System_Boolean__
+  commentId: M:Xunit.Sdk.TrueException.ForNonTrueValue(System.String,System.Nullable{System.Boolean})
+  name.vb: ForNonTrueValue(String, Boolean?)
+  fullName: Xunit.Sdk.TrueException.ForNonTrueValue(string?, bool?)
+  fullName.vb: Xunit.Sdk.TrueException.ForNonTrueValue(String, Boolean?)
+  nameWithType: TrueException.ForNonTrueValue(string?, bool?)
+  nameWithType.vb: TrueException.ForNonTrueValue(String, Boolean?)
+- uid: Xunit.Sdk.TrueException.ForNonTrueValue*
+  name: ForNonTrueValue
+  href: v3/2.0.0/assert/Xunit.Sdk.TrueException.html#Xunit_Sdk_TrueException_ForNonTrueValue_
+  commentId: Overload:Xunit.Sdk.TrueException.ForNonTrueValue
+  isSpec: "True"
+  fullName: Xunit.Sdk.TrueException.ForNonTrueValue
+  nameWithType: TrueException.ForNonTrueValue
 - uid: Xunit.Sdk.TypeHelper
   name: TypeHelper
   href: v3/2.0.0/common/Xunit.Sdk.TypeHelper.html
@@ -26452,6 +28797,53 @@ references:
   isSpec: "True"
   fullName: Xunit.Sdk.UnsetPropertyException.TypeName
   nameWithType: UnsetPropertyException.TypeName
+- uid: Xunit.Sdk.XunitException
+  name: XunitException
+  href: v3/2.0.0/assert/Xunit.Sdk.XunitException.html
+  commentId: T:Xunit.Sdk.XunitException
+  fullName: Xunit.Sdk.XunitException
+  nameWithType: XunitException
+- uid: Xunit.Sdk.XunitException.#ctor(System.String)
+  name: XunitException(string?)
+  href: v3/2.0.0/assert/Xunit.Sdk.XunitException.html#Xunit_Sdk_XunitException__ctor_System_String_
+  commentId: M:Xunit.Sdk.XunitException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Xunit.Sdk.XunitException.XunitException(string?)
+  fullName.vb: Xunit.Sdk.XunitException.New(String)
+  nameWithType: XunitException.XunitException(string?)
+  nameWithType.vb: XunitException.New(String)
+- uid: Xunit.Sdk.XunitException.#ctor(System.String,System.Exception)
+  name: XunitException(string?, Exception?)
+  href: v3/2.0.0/assert/Xunit.Sdk.XunitException.html#Xunit_Sdk_XunitException__ctor_System_String_System_Exception_
+  commentId: M:Xunit.Sdk.XunitException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: Xunit.Sdk.XunitException.XunitException(string?, System.Exception?)
+  fullName.vb: Xunit.Sdk.XunitException.New(String, System.Exception)
+  nameWithType: XunitException.XunitException(string?, Exception?)
+  nameWithType.vb: XunitException.New(String, Exception)
+- uid: Xunit.Sdk.XunitException.#ctor*
+  name: XunitException
+  href: v3/2.0.0/assert/Xunit.Sdk.XunitException.html#Xunit_Sdk_XunitException__ctor_
+  commentId: Overload:Xunit.Sdk.XunitException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Xunit.Sdk.XunitException.XunitException
+  fullName.vb: Xunit.Sdk.XunitException.New
+  nameWithType: XunitException.XunitException
+  nameWithType.vb: XunitException.New
+- uid: Xunit.Sdk.XunitException.ToString
+  name: ToString()
+  href: v3/2.0.0/assert/Xunit.Sdk.XunitException.html#Xunit_Sdk_XunitException_ToString
+  commentId: M:Xunit.Sdk.XunitException.ToString
+  fullName: Xunit.Sdk.XunitException.ToString()
+  nameWithType: XunitException.ToString()
+- uid: Xunit.Sdk.XunitException.ToString*
+  name: ToString
+  href: v3/2.0.0/assert/Xunit.Sdk.XunitException.html#Xunit_Sdk_XunitException_ToString_
+  commentId: Overload:Xunit.Sdk.XunitException.ToString
+  isSpec: "True"
+  fullName: Xunit.Sdk.XunitException.ToString
+  nameWithType: XunitException.ToString
 - uid: Xunit.Sdk.XunitSerializationInfo
   name: XunitSerializationInfo
   href: v3/2.0.0/common/Xunit.Sdk.XunitSerializationInfo.html

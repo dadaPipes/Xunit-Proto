@@ -49,3 +49,25 @@ noindex: true // vigtig! Hindrer DocFX i at overskrive hele pisset og lave en ny
 syntax:
   content: public partial class Assert
 ---
+
+
+Doc info:
+Use the CDATA section inside <code> blocks to prevent special characters from being interpreted.
+
+Solution: Use CDATA
+Wrap your content inside <![CDATA[ ... ]]> inside the <code> block.
+
+Example:
+```xml
+/// <example>
+/// <code><![CDATA[
+/// <tag> Some content </tag>
+///
+/// Example of an ampersand: &
+/// ]]></code>
+/// </example>
+```
+Why Use CDATA?
+It allows <, >, and & to be displayed as-is without needing HTML encoding.
+
+It keeps the content readable without converting every character.

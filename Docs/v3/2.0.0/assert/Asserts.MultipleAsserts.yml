@@ -47,7 +47,7 @@ items:
   source:
     id: Multiple
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\MultipleAsserts.cs
-    startLine: 26
+    startLine: 32
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
@@ -55,7 +55,11 @@ items:
     Runs multiple checks, collecting the exceptions from each one, and then bundles all failures
 
     up into a single assertion failure.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void Multiple(params Action[] checks)
     parameters:

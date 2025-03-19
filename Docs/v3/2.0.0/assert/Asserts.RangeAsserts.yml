@@ -50,12 +50,16 @@ items:
   source:
     id: InRange
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\RangeAsserts.cs
-    startLine: 30
+    startLine: 36
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a value is within a given range.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void InRange<T>(T actual, T low, T high) where T : IComparable'
     parameters:
@@ -94,12 +98,16 @@ items:
   source:
     id: InRange
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\RangeAsserts.cs
-    startLine: 46
+    startLine: 58
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a value is within a given range, using a comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void InRange<T>(T actual, T low, T high, IComparer<T> comparer)
     parameters:
@@ -141,12 +149,16 @@ items:
   source:
     id: NotInRange
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\RangeAsserts.cs
-    startLine: 69
+    startLine: 87
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a value is not within a given range, using the default comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: 'public static void NotInRange<T>(T actual, T low, T high) where T : IComparable'
     parameters:
@@ -185,12 +197,16 @@ items:
   source:
     id: NotInRange
     path: C:\Users\dadaP\source\TestingRepos\Xunit-Proto\v3\v3-2.0.0\src\xunit.v3.assert\Asserts\RangeAsserts.cs
-    startLine: 85
+    startLine: 109
   assemblies:
   - xunit.v3.assert
   namespace: Asserts
   summary: Verifies that a value is not within a given range, using a comparer.
-  example: []
+  example:
+  - >-
+    <pre><code class="lang-csharp">Add an example for this method ?</code></pre>
+
+    Contribution <a href="https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif">guide</a>.
   syntax:
     content: public static void NotInRange<T>(T actual, T low, T high, IComparer<T> comparer)
     parameters:
@@ -464,6 +480,8 @@ references:
   fullName: System
 - uid: Xunit.Sdk.InRangeException
   commentId: T:Xunit.Sdk.InRangeException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.InRangeException.html
   name: InRangeException
   nameWithType: InRangeException
   fullName: Xunit.Sdk.InRangeException
@@ -479,6 +497,28 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: Xunit.Sdk
+  commentId: N:Xunit.Sdk
+  href: Xunit.html
+  name: Xunit.Sdk
+  nameWithType: Xunit.Sdk
+  fullName: Xunit.Sdk
+  spec.csharp:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
+  spec.vb:
+  - uid: Xunit
+    name: Xunit
+    href: Xunit.html
+  - name: .
+  - uid: Xunit.Sdk
+    name: Sdk
+    href: Xunit.Sdk.html
 - uid: T
   name: T
   nameWithType: T
@@ -579,6 +619,8 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: Xunit.Sdk.NotInRangeException
   commentId: T:Xunit.Sdk.NotInRangeException
+  parent: Xunit.Sdk
+  href: Xunit.Sdk.NotInRangeException.html
   name: NotInRangeException
   nameWithType: NotInRangeException
   fullName: Xunit.Sdk.NotInRangeException
